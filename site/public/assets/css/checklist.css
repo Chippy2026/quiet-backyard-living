@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #faf8f2;
+  color: #2d2d26;
+  line-height: 1.6;
+}
+.main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+.card {
+  background: white;
+  border: 1px solid #ddd7ca;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+h1, h2, h3 { color: #2a3323; }
+.subtitle { color: #5f6658; font-size: 1.05rem; }
+ul { padding-left: 1.25rem; }
+.checklist li { margin-bottom: .55rem; }
+.box {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #708b52;
+  border-radius: 3px;
+  margin-right: .6rem;
+  vertical-align: middle;
+}
+.footer { color: #5f6658; font-size: .95rem; margin-top: 2rem; }
+@media print {
+  body { background: white; }
+  .card { border: none; box-shadow: none; }
+}
