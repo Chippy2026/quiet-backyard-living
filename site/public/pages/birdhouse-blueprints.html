@@ -5,6 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Simple Birdhouse Blueprints | Quiet Backyard Living</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
+  <style>
+    .diagram-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+    .diagram {
+      background:#fff;
+      border:1px solid #e4dccd;
+      border-radius:18px;
+      padding:1rem;
+      box-shadow:0 12px 28px rgba(0,0,0,.04);
+    }
+    .sketch {
+      background:#fffaf2;
+      border:2px dashed #cdbf9e;
+      border-radius:14px;
+      padding:1rem;
+      min-height:170px;
+      font-family:"Courier New", monospace;
+      white-space:pre-wrap;
+      color:#3d3a34;
+      line-height:1.3;
+      overflow:auto;
+    }
+    @media (max-width: 800px) { .diagram-grid { grid-template-columns:1fr; } }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -65,6 +88,60 @@
             <p><strong>Roof:</strong> 8" x 8"</p>
             <p><strong>Entrance hole:</strong> about 1 1/2" for a simple small-bird house</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Simple visual guide</h2>
+      <div class="diagram-grid">
+        <div class="diagram">
+          <h3>Front panel layout</h3>
+          <div class="sketch">+------------+
+|            |
+|    (  )    |   ← entrance hole
+|            |
+|            |
+|            |
++------------+
+   6" wide
+   10" tall</div>
+        </div>
+        <div class="diagram">
+          <h3>Side panel slope idea</h3>
+          <div class="sketch">    /------
+   /      |
+  /       |
+ /        |
++---------+
+
+Back edge taller
+Front edge shorter
+Helps roof shed rain</div>
+        </div>
+        <div class="diagram">
+          <h3>Basic box assembly</h3>
+          <div class="sketch">Step 1: attach sides to back
+
+  side   back   side
+   |      |      |
+
+Step 2: add front
+Step 3: attach floor
+Step 4: add roof</div>
+        </div>
+        <div class="diagram">
+          <h3>Drainage + ventilation</h3>
+          <div class="sketch">Floor view:
++--------+
+| o    o |
+|        |   ← small drainage holes
+| o    o |
++--------+
+
+Top area:
+Leave a little ventilation
+under the roofline</div>
         </div>
       </div>
     </section>
