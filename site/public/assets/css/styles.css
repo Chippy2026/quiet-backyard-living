@@ -4,6 +4,8 @@
   --muted: #5f6658;
   --accent: #708b52;
   --accent-dark: #53683b;
+  --cta-blue: #2f6fe4;
+  --cta-blue-dark: #1f56bb;
   --card: #fffdf8;
   --border: #ddd7ca;
   --max: 1100px;
@@ -56,6 +58,19 @@ a:hover { text-decoration: underline; }
   border: 1px solid var(--accent-dark);
 }
 .button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+.button.primary:hover { text-decoration: none; }
+.button.cta-blue {
+  background: var(--cta-blue);
+  color: white;
+  border-color: var(--cta-blue);
+  font-weight: 700;
+  box-shadow: 0 10px 22px rgba(47,111,228,.18);
+}
+.button.cta-blue:hover {
+  background: var(--cta-blue-dark);
+  border-color: var(--cta-blue-dark);
+  text-decoration: none;
+}
 .section { padding: 3rem 0; }
 .card-grid {
   display: grid;
