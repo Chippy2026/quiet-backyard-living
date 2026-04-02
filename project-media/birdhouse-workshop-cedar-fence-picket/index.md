@@ -10,6 +10,7 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `people/` — people with finished birdhouses
 - `details/` — close-ups and construction details
 - `group/` — group workshop photos
+- `video/` — video clips from the workshop
 - `captions.md` — ready-to-use captions and blurbs
 
 ## Finished birdhouses
@@ -55,6 +56,15 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `details/single-cedar-fence-picket-full-length.jpg`
 - `details/cut-layout-reference.jpg`
 
+## Video
+- `video/workshop-video-1.mp4`
+- `video/workshop-video-2.mp4`
+- `video/workshop-video-3.mp4`
+- `video/workshop-video-4.mp4`
+- `video/workshop-video-5.mp4`
+- `video/workshop-video-6.mp4`
+- `video/workshop-video-7.mp4`
+
 ## Best website candidates
 - `group/group-photo-1.jpg`
 - `group/finished-houses-lineup.jpg`
@@ -93,6 +103,7 @@ A fun birdhouse assembly and decorate project for family and friends.
 - materials list
 - simple assembly steps
 - workshop story/context
+- identify the strongest video clips for YouTube/social reuse
 
 ## Helpful measurement/reference assets
 These newer reference photos make the project much stronger for a real how-to page because they show:
