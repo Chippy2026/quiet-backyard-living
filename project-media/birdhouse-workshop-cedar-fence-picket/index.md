@@ -9,9 +9,9 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `finished/` — completed birdhouses
 - `people/` — people with finished birdhouses
 - `details/` — close-ups and construction details
-- `group/` — group workshop photos
 - `video/` — video clips from the workshop
 - `captions.md` — ready-to-use captions and blurbs
+- `cut-notes.md` — extracted cut measurements and notes
 
 ## Finished birdhouses
 - `finished/finished-birdhouse-1.jpg`
@@ -55,6 +55,12 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `details/assembled-parts-layout-with-rulers.jpg`
 - `details/single-cedar-fence-picket-full-length.jpg`
 - `details/cut-layout-reference.jpg`
+- `details/cut-list-half-inch-sticks.jpg`
+- `details/cut-list-quarter-inch-sticks.jpg`
+- `details/gable-cut-reference.jpg`
+- `details/second-roof-panel-cut.jpg`
+- `details/main-roof-panel-cut.jpg`
+- `details/base-board-cut.jpg`
 
 ## Video
 - `video/workshop-video-1.mp4`
@@ -76,6 +82,7 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `details/assembled-parts-layout-with-rulers.jpg`
 - `details/finished-house-with-ruler-front.jpg`
 - `details/single-cedar-fence-picket-full-length.jpg`
+- `details/gable-cut-reference.jpg`
 
 ## Best Pinterest candidates
 - `finished/painted-pink-butterfly-house.jpg`
@@ -99,8 +106,7 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `people/cabin-style-house-with-maker.jpg`
 
 ## Notes to add later
-- cut measurements
-- materials list
+- full materials list
 - simple assembly steps
 - workshop story/context
 - identify the strongest video clips for YouTube/social reuse
@@ -112,3 +118,4 @@ These newer reference photos make the project much stronger for a real how-to pa
 - the assembled parts layout
 - the original full cedar fence picket
 - the cut layout reference
+- the cut lengths and gable/roof/base notes
