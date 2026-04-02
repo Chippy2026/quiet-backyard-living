@@ -49,6 +49,11 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `details/workshop-materials-layout.jpg`
 - `details/painting-detail-small-piece.jpg`
 - `details/white-painting-detail.jpg`
+- `details/finished-house-with-ruler-front.jpg`
+- `details/finished-house-with-ruler-side.jpg`
+- `details/assembled-parts-layout-with-rulers.jpg`
+- `details/single-cedar-fence-picket-full-length.jpg`
+- `details/cut-layout-reference.jpg`
 
 ## Best website candidates
 - `group/group-photo-1.jpg`
@@ -58,6 +63,9 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `finished/dark-red-roof-house.jpg`
 - `people/cabin-style-house-with-maker.jpg`
 - `people/turquoise-house-with-maker.jpg`
+- `details/assembled-parts-layout-with-rulers.jpg`
+- `details/finished-house-with-ruler-front.jpg`
+- `details/single-cedar-fence-picket-full-length.jpg`
 
 ## Best Pinterest candidates
 - `finished/painted-pink-butterfly-house.jpg`
@@ -69,6 +77,7 @@ A fun birdhouse assembly and decorate project for family and friends.
 - `details/pink-roof-painting-detail.jpg`
 - `details/yellow-roof-painting-action.jpg`
 - `group/finished-houses-lineup.jpg`
+- `details/assembled-parts-layout-with-rulers.jpg`
 
 ## Best Facebook candidates
 - `group/group-photo-1.jpg`
@@ -84,3 +93,11 @@ A fun birdhouse assembly and decorate project for family and friends.
 - materials list
 - simple assembly steps
 - workshop story/context
+
+## Helpful measurement/reference assets
+These newer reference photos make the project much stronger for a real how-to page because they show:
+- the finished scale with ruler
+- the side depth/profile
+- the assembled parts layout
+- the original full cedar fence picket
+- the cut layout reference
