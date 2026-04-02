@@ -2,15 +2,16 @@
 
 These notes were captured from Jeff's reference photos and should be reviewed visually with the saved images.
 
-## Thin stick pieces
-### 1/2 inch sticks
-- Cut 2 pieces at 6 1/2 inches each
-- Then cut those down into 14 pieces at 1/2 inch sticks
+## Stick pieces
+All the stick pieces are 1/2 inch pieces.
 
-## Smaller stick pieces
-### 1/4 inch sticks
+### Longer stick cuts
+- Cut 2 pieces at 6 1/2 inches each
+- Then cut those down into 1/2 inch stick pieces
+
+### Shorter stick cuts
 - Cut 2 pieces at 4 3/8 inches
-- Cut those 2 pieces into 1/4 inch sticks
+- Cut those pieces into 1/2 inch stick pieces as well
 - Note on card says: "We need 18 total pieces"
 - Note also says the fence picket is already 1/2 inch thick
 

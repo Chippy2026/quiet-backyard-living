@@ -53,13 +53,16 @@ This section can be tightened later into a final supply list, but this is the wo
 ## Cut notes (working draft)
 These notes should stay paired with the reference photos for full accuracy, but the draft cut list looks like this:
 
-### 1/2 inch stick pieces
-- Cut 2 pieces at 6 1/2 inches each
-- Then cut those down into 14 pieces at 1/2 inch sticks
+### Stick pieces
+All the stick pieces are 1/2 inch pieces.
 
-### 1/4 inch stick pieces
+### Longer stick cuts
+- Cut 2 pieces at 6 1/2 inches each
+- Then cut those down into 1/2 inch stick pieces
+
+### Shorter stick cuts
 - Cut 2 pieces at 4 3/8 inches
-- Cut those into 1/4 inch sticks
+- Cut those into 1/2 inch stick pieces too
 - Note says 18 total pieces are needed
 
 ### Gables
