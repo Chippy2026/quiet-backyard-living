@@ -66,10 +66,12 @@ a:hover { text-decoration: underline; }
   align-items: center;
 }
 .hero h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  line-height: 1.05;
+  font-size: clamp(1.8rem, 4.2vw, 3.35rem);
+  line-height: 1.12;
   margin: 0 0 1rem;
   color: #27422e;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 .subhead {
   font-size: 1.15rem;
@@ -127,6 +129,20 @@ a:hover { text-decoration: underline; }
   box-shadow: 0 12px 28px rgba(0,0,0,.04);
 }
 .card .content { padding: 1rem; }
+.free-ideas {
+  background: linear-gradient(135deg, #f7fbf1 0%, #fff9ea 100%);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 28px rgba(0,0,0,.04);
+}
+.free-ideas ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.free-ideas li + li {
+  margin-top: .6rem;
+}
 .note {
   background: linear-gradient(135deg, #eef8e8 0%, #fff7dd 100%);
   border: 1px solid #d8e3c9;
