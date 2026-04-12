@@ -16,7 +16,7 @@
     .build-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
     .build-grid.two-up { grid-template-columns:repeat(2,1fr); }
     .build-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(0,0,0,.04); }
-    .build-card img { width:100%; height:320px; object-fit:cover; border-radius:0; }
+    .build-card img { width:100%; height:auto; max-height:520px; object-fit:contain; border-radius:0; background:#f7f3ea; }
     .build-card .content { padding: .95rem 1rem 1rem; }
     @media (max-width: 950px) { .build-grid { grid-template-columns:repeat(2,1fr); } .build-grid.two-up { grid-template-columns:1fr; } }
     @media (max-width: 680px) { .build-grid { grid-template-columns:1fr; } }
