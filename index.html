@@ -25,6 +25,78 @@
    ml('account', '2238054');
   </script>
   <!-- End MailerLite Universal -->
+  <style>
+    .hero-side-art {
+      position: relative;
+      display: inline-block;
+    }
+    .hero-side-bubble {
+      position: absolute;
+      left: -210px;
+      top: 24px;
+      width: 220px;
+      background: #fffdf8;
+      color: #5b4632;
+      border: 2px solid #d9c9ae;
+      border-radius: 28px;
+      padding: 14px 16px;
+      font-size: 0.92rem;
+      line-height: 1.35;
+      font-weight: 700;
+      box-shadow: 0 10px 22px rgba(0,0,0,.08);
+    }
+    .hero-side-bubble::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 48px;
+      width: 18px;
+      height: 18px;
+      background: #fffdf8;
+      border-right: 2px solid #d9c9ae;
+      border-bottom: 2px solid #d9c9ae;
+      transform: rotate(-45deg);
+    }
+    .hero-side-chippy {
+      position: absolute;
+      right: -12px;
+      bottom: -4px;
+      width: 96px;
+      height: auto;
+      border-radius: 0;
+      z-index: 3;
+      pointer-events: none;
+    }
+    @media (max-width: 900px) {
+      .hero-side-bubble {
+        left: -165px;
+        top: 12px;
+        width: 180px;
+        font-size: 0.82rem;
+      }
+      .hero-side-chippy {
+        width: 76px;
+      }
+    }
+    @media (max-width: 700px) {
+      .hero-side-art {
+        display: block;
+      }
+      .hero-side-bubble {
+        position: static;
+        width: auto;
+        margin: 0 0 10px;
+      }
+      .hero-side-bubble::after {
+        display: none;
+      }
+      .hero-side-chippy {
+        right: 6px;
+        bottom: -2px;
+        width: 68px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -53,7 +125,9 @@
             <a class="button" href="/pages/blog.html">Explore the Blog</a>
           </div>
         </div>
-        <div>
+        <div class="hero-side-art">
+          <div class="hero-side-bubble">Hello, I'm Chippy and welcome to Quiet Backyard Living</div>
+          <img class="hero-side-chippy" src="/assets/images/chippy/hello-chippy-small.png" alt="Hello from Chippy the chipmunk">
           <img src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
       </div>
