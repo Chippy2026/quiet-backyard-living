@@ -29,21 +29,23 @@
     .hero-image-wrap {
       position: relative;
       overflow: visible;
+      display: inline-block;
     }
     .hero-image-wrap .hero-main {
       position: relative;
       z-index: 2;
+      display: block;
     }
     .hero-peek-chippy {
       position: absolute;
-      right: -16px;
-      top: -18px;
-      width: 205px;
+      right: -8px;
+      top: -8px;
+      width: 190px;
       max-width: 34vw;
       height: auto;
-      z-index: 1;
+      z-index: 3;
       pointer-events: none;
-      clip-path: inset(0 0 54% 0);
+      clip-path: inset(0 0 58% 0);
     }
     @media (max-width: 900px) {
       .hero-peek-chippy {
