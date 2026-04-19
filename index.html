@@ -47,11 +47,43 @@
       pointer-events: none;
       clip-path: inset(0 0 58% 0);
     }
+    .hero-chippy-bubble {
+      position: absolute;
+      right: 120px;
+      top: 18px;
+      z-index: 4;
+      background: #fffdf8;
+      color: #5b4632;
+      border: 2px solid #d9c9ae;
+      border-radius: 18px;
+      padding: 10px 14px;
+      font-weight: 700;
+      font-size: 0.98rem;
+      box-shadow: 0 8px 18px rgba(0,0,0,.08);
+      white-space: nowrap;
+    }
+    .hero-chippy-bubble::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 26px;
+      width: 16px;
+      height: 16px;
+      background: #fffdf8;
+      border-right: 2px solid #d9c9ae;
+      border-bottom: 2px solid #d9c9ae;
+      transform: rotate(-45deg);
+    }
     @media (max-width: 900px) {
       .hero-peek-chippy {
         width: 165px;
         right: -10px;
         top: -12px;
+      }
+      .hero-chippy-bubble {
+        right: 92px;
+        top: 10px;
+        font-size: 0.9rem;
       }
     }
     @media (max-width: 700px) {
@@ -59,6 +91,12 @@
         width: 124px;
         right: -6px;
         top: -6px;
+      }
+      .hero-chippy-bubble {
+        right: 62px;
+        top: 2px;
+        font-size: 0.78rem;
+        padding: 8px 10px;
       }
     }
   </style>
@@ -91,6 +129,7 @@
           </div>
         </div>
         <div class="hero-image-wrap">
+          <div class="hero-chippy-bubble">Hello, I'm Chippy</div>
           <img class="hero-peek-chippy" src="/assets/images/chippy/hello-chippy-transparent.png" alt="Hello from Chippy the chipmunk">
           <img class="hero-main" src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
