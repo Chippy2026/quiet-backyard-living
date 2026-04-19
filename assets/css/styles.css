@@ -56,7 +56,7 @@ a:hover { text-decoration: underline; }
   display: inline-block;
 }
 .brand-chippy {
-  width: 48px;
+  width: 32px;
   height: auto;
   border-radius: 0;
   flex: 0 0 auto;
