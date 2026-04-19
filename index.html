@@ -26,25 +26,36 @@
   </script>
   <!-- End MailerLite Universal -->
   <style>
-    .hello-chippy-wrap {
+    .hero-image-wrap {
       position: relative;
-      margin-top: -10px;
-      margin-bottom: 10px;
-      text-align: right;
+      overflow: visible;
     }
-    .hello-chippy {
-      width: 92px;
-      max-width: 22vw;
+    .hero-image-wrap .hero-main {
+      position: relative;
+      z-index: 2;
+    }
+    .hero-peek-chippy {
+      position: absolute;
+      left: -34px;
+      bottom: -8px;
+      width: 220px;
+      max-width: 38vw;
       height: auto;
-      opacity: 0.98;
+      z-index: 1;
+      pointer-events: none;
+    }
+    @media (max-width: 900px) {
+      .hero-peek-chippy {
+        width: 170px;
+        left: -18px;
+        bottom: -4px;
+      }
     }
     @media (max-width: 700px) {
-      .hello-chippy-wrap {
-        text-align: center;
-        margin-top: 6px;
-      }
-      .hello-chippy {
-        width: 78px;
+      .hero-peek-chippy {
+        width: 132px;
+        left: -8px;
+        bottom: -2px;
       }
     }
   </style>
@@ -65,9 +76,6 @@
 
   <main>
     <section class="hero">
-      <div class="container hello-chippy-wrap">
-        <img class="hello-chippy" src="/assets/images/chippy/hello-chippy.jpg" alt="Hello from Chippy the chipmunk">
-      </div>
       <div class="container hero-grid">
         <div>
           <p><strong>Quiet Backyard Living</strong></p>
@@ -79,8 +87,9 @@
             <a class="button" href="/pages/blog.html">Explore the Blog</a>
           </div>
         </div>
-        <div>
-          <img src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
+        <div class="hero-image-wrap">
+          <img class="hero-peek-chippy" src="/assets/images/chippy/hello-chippy.jpg" alt="Hello from Chippy the chipmunk">
+          <img class="hero-main" src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
       </div>
     </section>
