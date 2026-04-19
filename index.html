@@ -25,6 +25,29 @@
    ml('account', '2238054');
   </script>
   <!-- End MailerLite Universal -->
+  <style>
+    .hello-chippy-wrap {
+      position: relative;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      text-align: right;
+    }
+    .hello-chippy {
+      width: 92px;
+      max-width: 22vw;
+      height: auto;
+      opacity: 0.98;
+    }
+    @media (max-width: 700px) {
+      .hello-chippy-wrap {
+        text-align: center;
+        margin-top: 6px;
+      }
+      .hello-chippy {
+        width: 78px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -42,6 +65,9 @@
 
   <main>
     <section class="hero">
+      <div class="container hello-chippy-wrap">
+        <img class="hello-chippy" src="/assets/images/chippy/hello-chippy.jpg" alt="Hello from Chippy the chipmunk">
+      </div>
       <div class="container hero-grid">
         <div>
           <p><strong>Quiet Backyard Living</strong></p>
