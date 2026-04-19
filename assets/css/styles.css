@@ -47,20 +47,6 @@ a:hover { text-decoration: underline; }
   letter-spacing: .02em;
   color: var(--green-dark);
 }
-.brand-with-chippy {
-  display: flex;
-  align-items: center;
-  gap: .55rem;
-}
-.brand-with-chippy span {
-  display: inline-block;
-}
-.brand-chippy {
-  width: 32px;
-  height: auto;
-  border-radius: 0;
-  flex: 0 0 auto;
-}
 .nav-links { display: flex; gap: 1rem; flex-wrap: wrap; }
 .nav-links a {
   padding: .45rem .8rem;
