@@ -255,9 +255,25 @@ a:hover { text-decoration: underline; }
   padding: 1.5rem 1.5rem 1.3rem;
   box-shadow: 0 14px 30px rgba(0,0,0,.04);
 }
+.spring-ideas-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+.spring-ideas-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  min-width: 220px;
+}
 .spring-ideas-inner h2 {
   margin-top: 0;
   color: #385438;
+}
+.spring-ideas-inner p {
+  margin-bottom: 0;
 }
 .spring-ideas-inner ul {
   margin: 0;
@@ -306,4 +322,6 @@ a:hover { text-decoration: underline; }
   .nav-chippy { width: 20px; }
   .crew-intro-collage { max-width: 340px; justify-self: center; }
   .crew-bg-chippy { width: 190px; }
+  .spring-ideas-top { flex-direction: column; }
+  .spring-ideas-buttons { min-width: 0; width: 100%; }
 }
