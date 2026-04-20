@@ -239,6 +239,28 @@ a:hover { text-decoration: underline; }
 .free-ideas li + li {
   margin-top: .6rem;
 }
+.spring-ideas-strip {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.spring-ideas-inner {
+  background: linear-gradient(135deg, rgba(242,248,236,.96) 0%, rgba(255,247,229,.96) 100%);
+  border: 1px solid rgba(228,220,205,.88);
+  border-radius: 28px;
+  padding: 1.5rem 1.5rem 1.3rem;
+  box-shadow: 0 14px 30px rgba(0,0,0,.04);
+}
+.spring-ideas-inner h2 {
+  margin-top: 0;
+  color: #385438;
+}
+.spring-ideas-inner ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.spring-ideas-inner li + li {
+  margin-top: .6rem;
+}
 .note {
   background: linear-gradient(135deg, #eef8e8 0%, #fff7dd 100%);
   border: 1px solid #d8e3c9;
