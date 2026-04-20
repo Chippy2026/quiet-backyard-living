@@ -229,27 +229,28 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(0,0,0,.04);
 }
-.crew-bio-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.crew-profile-list {
+  display: flex;
+  flex-direction: column;
   gap: 1.4rem;
 }
-.crew-card {
+.crew-profile {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.4rem;
+  align-items: center;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 22px;
-  overflow: hidden;
+  padding: 1rem;
   box-shadow: 0 12px 28px rgba(0,0,0,.05);
 }
-.crew-card img {
+.crew-profile-photo img {
   width: 100%;
-  height: 320px;
+  height: 240px;
   object-fit: cover;
 }
-.crew-card-content {
-  padding: 1.15rem;
-}
-.crew-card-content h2 {
+.crew-profile-copy h2 {
   margin-top: 0;
 }
 .card .content { padding: 1rem; }
@@ -374,6 +375,8 @@ a:hover { text-decoration: underline; }
 }
 @media (max-width: 800px) {
   .hero-grid, .split, .card-grid, .crew-intro-grid, .crew-bio-grid { grid-template-columns: 1fr; }
+  .crew-profile { grid-template-columns: 1fr; }
+  .crew-profile-photo img { height: 280px; }
   .nav { align-items: flex-start; flex-direction: column; }
   .nav-chippy { width: 20px; }
   .crew-intro-collage { max-width: 340px; justify-self: center; }
