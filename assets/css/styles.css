@@ -339,6 +339,46 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
   background: rgba(255,255,255,.45);
 }
+.footer-socials {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+  margin-top: .8rem;
+}
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .45rem .8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.social-pill:hover {
+  text-decoration: none;
+}
+.social-pill-facebook {
+  background: #edf3ff;
+  color: #1f56bb;
+  border-color: #cfe0ff;
+}
+.social-pill-pinterest {
+  background: #fff0f2;
+  color: #b4233c;
+  border-color: #f3c8d0;
+}
+.social-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  font-size: .82rem;
+  font-weight: 800;
+  background: rgba(255,255,255,.7);
+}
 .list-clean { padding-left: 1.1rem; }
 .page-hero { padding: 2.5rem 0 1rem; }
 .blog-list article, .post-body {
