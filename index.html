@@ -31,53 +31,43 @@
       overflow: hidden;
       padding: 4rem 0 4.5rem;
       background:
-        radial-gradient(circle at 15% 20%, rgba(255,255,255,.7) 0, rgba(255,255,255,0) 28%),
-        radial-gradient(circle at 80% 18%, rgba(247,241,219,.9) 0, rgba(247,241,219,0) 24%),
-        linear-gradient(180deg, #f8f4eb 0%, #f0f6ea 45%, #fff8ee 100%);
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,.72) 0, rgba(255,255,255,0) 28%),
+        radial-gradient(circle at 80% 18%, rgba(247,241,219,.95) 0, rgba(247,241,219,0) 24%),
+        linear-gradient(180deg, #f8f4eb 0%, #eef5e8 45%, #fff8ee 100%);
     }
-    .path-hero::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      bottom: -26px;
-      transform: translateX(-50%);
-      width: min(90vw, 720px);
-      height: 120px;
-      background: radial-gradient(circle at 20% 45%, rgba(190,180,160,.55) 0 16px, transparent 17px),
-                  radial-gradient(circle at 34% 58%, rgba(190,180,160,.5) 0 18px, transparent 19px),
-                  radial-gradient(circle at 50% 42%, rgba(190,180,160,.58) 0 20px, transparent 21px),
-                  radial-gradient(circle at 67% 60%, rgba(190,180,160,.5) 0 18px, transparent 19px),
-                  radial-gradient(circle at 82% 44%, rgba(190,180,160,.56) 0 16px, transparent 17px);
-      opacity: .55;
-      pointer-events: none;
-    }
-    .meander {
-      position: relative;
-      padding: 2.7rem 0;
-    }
+    .path-hero::after,
     .meander::before {
       content: "";
       position: absolute;
       left: 50%;
-      top: -10px;
       transform: translateX(-50%);
-      width: min(82vw, 620px);
-      height: 88px;
-      background: radial-gradient(circle at 18% 52%, rgba(190,180,160,.45) 0 14px, transparent 15px),
-                  radial-gradient(circle at 34% 34%, rgba(190,180,160,.38) 0 16px, transparent 17px),
-                  radial-gradient(circle at 50% 56%, rgba(190,180,160,.48) 0 18px, transparent 19px),
-                  radial-gradient(circle at 66% 36%, rgba(190,180,160,.38) 0 16px, transparent 17px),
-                  radial-gradient(circle at 82% 54%, rgba(190,180,160,.45) 0 14px, transparent 15px);
-      opacity: .42;
       pointer-events: none;
+      opacity: .42;
+      background:
+        radial-gradient(ellipse at 8% 62%, rgba(166,156,144,.34) 0 20px, rgba(113,104,94,.16) 21px, transparent 34px),
+        radial-gradient(ellipse at 22% 36%, rgba(171,161,149,.36) 0 26px, rgba(116,107,97,.15) 27px, transparent 42px),
+        radial-gradient(ellipse at 40% 60%, rgba(164,154,141,.35) 0 28px, rgba(111,102,93,.14) 29px, transparent 44px),
+        radial-gradient(ellipse at 58% 34%, rgba(170,160,146,.36) 0 26px, rgba(116,107,97,.15) 27px, transparent 42px),
+        radial-gradient(ellipse at 76% 58%, rgba(165,155,142,.34) 0 24px, rgba(112,103,94,.14) 25px, transparent 40px),
+        radial-gradient(ellipse at 92% 38%, rgba(168,158,145,.34) 0 20px, rgba(112,103,94,.13) 21px, transparent 34px);
+      filter: blur(.2px);
+    }
+    .path-hero::after {
+      bottom: -18px;
+      width: min(92vw, 760px);
+      height: 120px;
+    }
+    .meander {
+      position: relative;
+      padding: 3rem 0;
+    }
+    .meander::before {
+      top: -10px;
+      width: min(86vw, 700px);
+      height: 90px;
     }
     .open-story {
-      background: rgba(255,255,255,.52);
-      border: 1px solid rgba(228,220,205,.8);
-      border-radius: 34px;
-      padding: 1.6rem;
-      box-shadow: 0 16px 34px rgba(0,0,0,.04);
-      backdrop-filter: blur(2px);
+      padding: .2rem 0;
     }
     .open-story img {
       box-shadow: 0 16px 30px rgba(0,0,0,.06);
