@@ -78,7 +78,7 @@ a:hover { text-decoration: underline; }
 }
 .crew-intro-grid {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
+  grid-template-columns: .82fr 1.18fr;
   gap: 2rem;
   align-items: center;
 }
@@ -148,7 +148,7 @@ a:hover { text-decoration: underline; }
   color: #8a5a32;
 }
 .crew-intro-collage {
-  max-width: 360px;
+  max-width: 470px;
   justify-self: end;
 }
 .crew-intro-collage img {
@@ -277,6 +277,6 @@ a:hover { text-decoration: underline; }
   .hero-grid, .split, .card-grid, .crew-intro-grid { grid-template-columns: 1fr; }
   .nav { align-items: flex-start; flex-direction: column; }
   .nav-chippy { width: 20px; }
-  .crew-intro-collage { max-width: 290px; justify-self: center; }
+  .crew-intro-collage { max-width: 340px; justify-self: center; }
   .crew-bg-chippy { width: 190px; }
 }
