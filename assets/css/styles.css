@@ -112,7 +112,7 @@ a:hover { text-decoration: underline; }
   color: #8a5a32;
 }
 .crew-intro-collage {
-  max-width: 420px;
+  max-width: 360px;
   justify-self: end;
 }
 .crew-intro-collage img {
@@ -241,5 +241,5 @@ a:hover { text-decoration: underline; }
   .hero-grid, .split, .card-grid, .crew-intro-grid { grid-template-columns: 1fr; }
   .nav { align-items: flex-start; flex-direction: column; }
   .nav-chippy { width: 20px; }
-  .crew-intro-collage { max-width: 320px; justify-self: center; }
+  .crew-intro-collage { max-width: 290px; justify-self: center; }
 }
