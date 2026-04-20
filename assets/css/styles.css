@@ -118,6 +118,11 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
   margin-bottom: .75rem;
 }
+.crew-tagline {
+  max-width: 420px;
+  margin: 1rem auto 0;
+  color: #4b5446;
+}
 .crew-intro-copy::after {
   content: "";
   display: block;
