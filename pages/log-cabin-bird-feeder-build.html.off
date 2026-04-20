@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log Cabin Bird Feeder Build | Quiet Backyard Living</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-4E1BHTRHF3');
+  </script>
+  <style>
+    .build-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+    .build-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; overflow:hidden; box-shadow:0 12px 28px rgba(0,0,0,.04); }
+    .build-card img { width:100%; height:320px; object-fit:cover; border-radius:0; }
+    .build-card .content { padding: .95rem 1rem 1rem; }
+    @media (max-width: 950px) { .build-grid { grid-template-columns:repeat(2,1fr); } }
+    @media (max-width: 680px) { .build-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">Quiet Backyard Living</div>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/pages/about.html">About</a>
+        <a href="/pages/signup.html">Free Checklist</a>
+        <a href="/pages/blog.html">Blog</a>
+        <a href="/pages/gallery.html">Photos</a>
+        <a href="/pages/birdhouse-blueprints.html">Birdhouse Plans</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <h1>Build This Rustic Log Cabin Style Bird Feeder With Just One Cedar Fence Picket</h1>
+      <p class="subhead">A simple cedar fence picket project with rustic charm, ordered cut steps, assembly flow, and finished backyard payoff.</p>
+    </section>
+
+    <section class="section">
+      <div class="note">
+        <p>This build page now follows the order you wanted: cut steps first, then the two fun cut photos, then the assembly sequence, and the finished feeder again at the end.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Cut Steps</h2>
+      <div class="build-grid">
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-2.jpg" alt="Bird feeder cut step 1"><div class="content"><strong>Cut step 1</strong><p>Starting the cut sequence.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-3.jpg" alt="Bird feeder cut step 2"><div class="content"><strong>Cut step 2</strong><p>Continuing the layout and cutting flow.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-4.jpg" alt="Bird feeder cut step 3"><div class="content"><strong>Cut step 3</strong><p>More progress on the cut pieces.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-5.jpg" alt="Bird feeder cut step 4"><div class="content"><strong>Cut step 4</strong><p>Real workshop detail from the cutting stage.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-6.jpg" alt="Bird feeder cut step 5"><div class="content"><strong>Cut step 5</strong><p>The feeder pieces are really taking shape here.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-7.jpg" alt="Bird feeder cut step 6"><div class="content"><strong>Cut step 6</strong><p>Another useful angle in the cut sequence.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-8.jpg" alt="Bird feeder cut step 7"><div class="content"><strong>Cut step 7</strong><p>Last step in the cut stage before assembly starts.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-9.jpg" alt="Bird feeder fun cut photo 1"><div class="content"><strong>Fun cut pic 1</strong><p>A little extra personality from the project.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Assembly Steps</h2>
+      <div class="build-grid">
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-10.jpg" alt="Bird feeder assembly step 1"><div class="content"><strong>Assembly 1</strong><p>The build moves from parts to structure.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-11.jpg" alt="Bird feeder assembly step 2"><div class="content"><strong>Assembly 2</strong><p>Another clear stage in the build sequence.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-12.jpg" alt="Bird feeder assembly step 3"><div class="content"><strong>Assembly 3</strong><p>The log cabin style really starts to show up here.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-13.jpg" alt="Bird feeder assembly step 4"><div class="content"><strong>Assembly 4</strong><p>One more good progress shot in the middle of the build.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-14.jpg" alt="Bird feeder assembly step 5"><div class="content"><strong>Assembly 5</strong><p>The project is getting close to finished here.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-15.jpg" alt="Bird feeder assembly step 6"><div class="content"><strong>Assembly 6</strong><p>A strong late-stage assembly image.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-16.jpg" alt="Bird feeder assembly step 7a"><div class="content"><strong>Assembly 7a</strong><p>One of the final assembly details.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-17.jpg" alt="Bird feeder assembly step 7b"><div class="content"><strong>Assembly 7b</strong><p>A second late-stage view before the finished reveal.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Finished Bird Feeder</h2>
+      <div class="build-grid">
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-19.jpg" alt="Finished bird feeder"><div class="content"><strong>Finished feeder</strong><p>The finished rustic bird feeder ready for the yard.</p></div></div>
+        <div class="build-card"><img src="/assets/images/log-cabin-bird-feeder-build/log-cabin-bird-feeder-v2-18.jpg" alt="Finished bird feeder detail"><div class="content"><strong>Finished feeder detail</strong><p>One more finished look to close out the page.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Quiet Backyard Living</strong> — QuietBackyardLiving.com</p>
+    </div>
+  </footer>
+</body>
+</html>
