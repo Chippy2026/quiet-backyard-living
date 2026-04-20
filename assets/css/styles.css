@@ -92,6 +92,25 @@ a:hover { text-decoration: underline; }
     linear-gradient(135deg, rgba(244,248,236,.92) 0%, rgba(255,245,228,.92) 100%);
   box-shadow: 0 14px 28px rgba(0,0,0,.04);
 }
+.crew-chippy-bg {
+  position: relative;
+  overflow: hidden;
+}
+.crew-bg-chippy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -42%);
+  width: 210px;
+  height: auto;
+  border-radius: 0;
+  opacity: .13;
+  pointer-events: none;
+}
+.crew-chippy-bg > *:not(.crew-bg-chippy) {
+  position: relative;
+  z-index: 1;
+}
 .crew-kicker {
   text-transform: uppercase;
   letter-spacing: .18em;
@@ -259,4 +278,5 @@ a:hover { text-decoration: underline; }
   .nav { align-items: flex-start; flex-direction: column; }
   .nav-chippy { width: 20px; }
   .crew-intro-collage { max-width: 290px; justify-self: center; }
+  .crew-bg-chippy { width: 160px; }
 }
