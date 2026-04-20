@@ -84,6 +84,13 @@ a:hover { text-decoration: underline; }
 }
 .crew-intro-copy {
   text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,.72) 0, rgba(255,255,255,0) 24%),
+    radial-gradient(circle at 78% 28%, rgba(244,230,198,.55) 0, rgba(244,230,198,0) 26%),
+    linear-gradient(135deg, rgba(244,248,236,.92) 0%, rgba(255,245,228,.92) 100%);
+  box-shadow: 0 14px 28px rgba(0,0,0,.04);
 }
 .crew-kicker {
   text-transform: uppercase;
@@ -91,6 +98,16 @@ a:hover { text-decoration: underline; }
   font-size: .78rem;
   color: var(--muted);
   margin-bottom: .75rem;
+}
+.crew-intro-copy::after {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 10px;
+  margin: 1.2rem auto 0;
+  background: radial-gradient(circle, rgba(135,121,95,.45) 0 3px, transparent 4px);
+  background-size: 24px 10px;
+  opacity: .7;
 }
 .crew-title-link {
   display: inline-block;
