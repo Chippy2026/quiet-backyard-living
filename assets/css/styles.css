@@ -48,7 +48,7 @@ a:hover { text-decoration: underline; }
   min-width: 0;
 }
 .nav-chippy {
-  width: 42px;
+  width: 22px;
   height: auto;
   border-radius: 0;
   flex: 0 0 auto;
@@ -194,5 +194,5 @@ a:hover { text-decoration: underline; }
 @media (max-width: 800px) {
   .hero-grid, .split, .card-grid { grid-template-columns: 1fr; }
   .nav { align-items: flex-start; flex-direction: column; }
-  .nav-chippy { width: 34px; }
+  .nav-chippy { width: 20px; }
 }
