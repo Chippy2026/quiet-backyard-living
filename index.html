@@ -63,12 +63,12 @@
     .feature-text,
     .feature-media,
     .closing-card {
-      background: rgba(255,255,255,.38);
-      border: 1px solid rgba(228,220,205,.65);
-      border-radius: 30px;
-      padding: 1.4rem;
-      box-shadow: 0 16px 34px rgba(0,0,0,.04);
-      backdrop-filter: blur(2px);
+      padding: .4rem 0;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      backdrop-filter: none;
     }
     .crew-card h2,
     .flow-card h2,
@@ -80,8 +80,8 @@
       display: inline-flex;
       align-items: center;
       gap: .55rem;
-      background: #fffaf0;
-      border: 1px solid #e4dccd;
+      background: rgba(255,250,240,.72);
+      border: 1px solid rgba(228,220,205,.8);
       border-radius: 999px;
       padding: .45rem .8rem;
       font-weight: 700;
@@ -107,11 +107,22 @@
       margin: 0 auto;
       text-align: left;
     }
+    .journey-copy .flow-card,
+    .closing-note .closing-card {
+      max-width: 760px;
+      background: rgba(255,255,255,.22);
+      border-radius: 24px;
+      padding: 1rem 1.15rem;
+    }
     .feature-stop:nth-of-type(even) .feature-grid {
       grid-template-columns: .95fr 1.05fr;
     }
     .feature-stop:nth-of-type(even) .feature-media {
       order: -1;
+    }
+    .crew-media,
+    .feature-media {
+      padding: .35rem;
     }
     .path-dots {
       display: inline-flex;
@@ -137,6 +148,10 @@
       }
       .journey-trail {
         height: 56px;
+      }
+      .journey-copy .flow-card,
+      .closing-note .closing-card {
+        padding: .75rem .85rem;
       }
     }
   </style>
