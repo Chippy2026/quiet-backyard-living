@@ -26,75 +26,61 @@
   </script>
   <!-- End MailerLite Universal -->
   <style>
-    .hero-side-art {
+    .path-hero {
       position: relative;
-      display: inline-block;
+      overflow: hidden;
+      padding: 4rem 0 4.5rem;
+      background:
+        radial-gradient(circle at 15% 20%, rgba(255,255,255,.7) 0, rgba(255,255,255,0) 28%),
+        radial-gradient(circle at 80% 18%, rgba(247,241,219,.9) 0, rgba(247,241,219,0) 24%),
+        linear-gradient(180deg, #f8f4eb 0%, #f0f6ea 45%, #fff8ee 100%);
     }
-    .hero-side-bubble {
-      position: absolute;
-      left: -210px;
-      top: 24px;
-      width: 220px;
-      background: #fffdf8;
-      color: #5b4632;
-      border: 2px solid #d9c9ae;
-      border-radius: 28px;
-      padding: 14px 16px;
-      font-size: 0.92rem;
-      line-height: 1.35;
-      font-weight: 700;
-      box-shadow: 0 10px 22px rgba(0,0,0,.08);
-    }
-    .hero-side-bubble::after {
+    .path-hero::after {
       content: "";
       position: absolute;
-      right: -10px;
-      top: 48px;
-      width: 18px;
-      height: 18px;
-      background: #fffdf8;
-      border-right: 2px solid #d9c9ae;
-      border-bottom: 2px solid #d9c9ae;
-      transform: rotate(-45deg);
-    }
-    .hero-side-chippy {
-      position: absolute;
-      right: -12px;
-      bottom: -4px;
-      width: 96px;
-      height: auto;
-      border-radius: 0;
-      z-index: 3;
+      left: 50%;
+      bottom: -26px;
+      transform: translateX(-50%);
+      width: min(90vw, 720px);
+      height: 120px;
+      background: radial-gradient(circle at 20% 45%, rgba(190,180,160,.55) 0 16px, transparent 17px),
+                  radial-gradient(circle at 34% 58%, rgba(190,180,160,.5) 0 18px, transparent 19px),
+                  radial-gradient(circle at 50% 42%, rgba(190,180,160,.58) 0 20px, transparent 21px),
+                  radial-gradient(circle at 67% 60%, rgba(190,180,160,.5) 0 18px, transparent 19px),
+                  radial-gradient(circle at 82% 44%, rgba(190,180,160,.56) 0 16px, transparent 17px);
+      opacity: .55;
       pointer-events: none;
     }
-    @media (max-width: 900px) {
-      .hero-side-bubble {
-        left: -165px;
-        top: 12px;
-        width: 180px;
-        font-size: 0.82rem;
-      }
-      .hero-side-chippy {
-        width: 76px;
-      }
+    .meander {
+      position: relative;
+      padding: 2.7rem 0;
     }
-    @media (max-width: 700px) {
-      .hero-side-art {
-        display: block;
-      }
-      .hero-side-bubble {
-        position: static;
-        width: auto;
-        margin: 0 0 10px;
-      }
-      .hero-side-bubble::after {
-        display: none;
-      }
-      .hero-side-chippy {
-        right: 6px;
-        bottom: -2px;
-        width: 68px;
-      }
+    .meander::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -10px;
+      transform: translateX(-50%);
+      width: min(82vw, 620px);
+      height: 88px;
+      background: radial-gradient(circle at 18% 52%, rgba(190,180,160,.45) 0 14px, transparent 15px),
+                  radial-gradient(circle at 34% 34%, rgba(190,180,160,.38) 0 16px, transparent 17px),
+                  radial-gradient(circle at 50% 56%, rgba(190,180,160,.48) 0 18px, transparent 19px),
+                  radial-gradient(circle at 66% 36%, rgba(190,180,160,.38) 0 16px, transparent 17px),
+                  radial-gradient(circle at 82% 54%, rgba(190,180,160,.45) 0 14px, transparent 15px);
+      opacity: .42;
+      pointer-events: none;
+    }
+    .open-story {
+      background: rgba(255,255,255,.52);
+      border: 1px solid rgba(228,220,205,.8);
+      border-radius: 34px;
+      padding: 1.6rem;
+      box-shadow: 0 16px 34px rgba(0,0,0,.04);
+      backdrop-filter: blur(2px);
+    }
+    .open-story img {
+      box-shadow: 0 16px 30px rgba(0,0,0,.06);
     }
   </style>
 </head>
@@ -113,7 +99,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero path-hero">
       <div class="container hero-grid">
         <div>
           <p><strong>Quiet Backyard Living</strong></p>
@@ -125,16 +111,14 @@
             <a class="button" href="/pages/blog.html">Explore the Blog</a>
           </div>
         </div>
-        <div class="hero-side-art">
-          <div class="hero-side-bubble">Hello, I'm Chippy and welcome to Quiet Backyard Living</div>
-          <img class="hero-side-chippy" src="/assets/images/chippy/hello-chippy-small.png" alt="Hello from Chippy the chipmunk">
+        <div>
           <img src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>About Quiet Backyard Living</h2>
           <p>Quiet Backyard Living is about enjoying a slower, more peaceful outdoor life — one filled with flowers, berries, herbs, birds, butterflies, fruit trees, and quiet moments outside.</p>
@@ -146,8 +130,8 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
           <p>You do not need expensive lumber or a complicated woodworking setup to make something beautiful. This fun birdhouse workshop project starts with one big box store cedar fence picket and turns it into a custom log cabin-style birdhouse with lots of personality.</p>
@@ -163,8 +147,8 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>Build this rustic log cabin style bird feeder with just one cedar fence picket</h2>
           <p>This one has the same handmade cabin charm as the birdhouse build, but now it turns into a feeder you can hang outside and enjoy all season.</p>
@@ -191,8 +175,8 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>We planted jujube trees and a 4-in-1 fruit tree at the cabin</h2>
           <p>These are the kind of fun spring projects that make the place feel more alive year by year. We turned the new planting photos into two story-style pages that are useful, visual, and a lot more fun than a stiff garden manual.</p>
@@ -208,8 +192,8 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>Hummingbirds are on the way north — put your feeder out now</h2>
           <p>These tiny birds travel an incredible distance during migration, and a clean feeder with fresh nectar can give them a much-needed energy boost when they reach your yard.</p>
@@ -225,8 +209,8 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
+    <section class="section meander">
+      <div class="container split open-story">
         <div>
           <h2>Free Spring Backyard Wildlife Checklist</h2>
           <p>A simple guide to help you bring more life into your backyard this spring with easy, wildlife-friendly steps.</p>
