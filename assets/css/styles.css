@@ -265,8 +265,23 @@ a:hover { text-decoration: underline; }
 .spring-ideas-buttons {
   display: flex;
   flex-direction: column;
-  gap: .75rem;
-  min-width: 220px;
+  gap: .65rem;
+  min-width: 210px;
+}
+.spring-button {
+  padding: .7rem 1rem;
+  border-radius: 999px;
+  font-size: .95rem;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(0,0,0,.06);
+}
+.spring-button-primary {
+  background: #7f9b62;
+  color: #fff;
+  border-color: #7f9b62;
+}
+.spring-button:hover {
+  transform: translateY(-1px);
 }
 .spring-ideas-inner h2 {
   margin-top: 0;
