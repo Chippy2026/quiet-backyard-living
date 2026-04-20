@@ -321,6 +321,12 @@ a:hover { text-decoration: underline; }
 .spring-ideas-inner li + li {
   margin-top: .6rem;
 }
+.photo-teaser-section {
+  background: linear-gradient(135deg, rgba(250,246,238,.95) 0%, rgba(243,248,238,.95) 100%);
+}
+.photo-teaser-grid {
+  align-items: center;
+}
 .note {
   background: linear-gradient(135deg, #eef8e8 0%, #fff7dd 100%);
   border: 1px solid #d8e3c9;
