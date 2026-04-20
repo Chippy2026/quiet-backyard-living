@@ -7,13 +7,16 @@
   <meta name="description" content="Quiet Backyard Living shares simple, real-world ideas for creating a peaceful, wildlife-friendly backyard with flowers, birds, pollinators, and quiet outdoor beauty.">
   <meta name="p:domain_verify" content="52a7467a8bd4b666ccd04d24399ca93b">
   <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
   <script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
+
    gtag('config', 'G-4E1BHTRHF3');
   </script>
+  <!-- MailerLite Universal -->
   <script>
    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
@@ -21,113 +24,81 @@
    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
    ml('account', '2238054');
   </script>
+  <!-- End MailerLite Universal -->
   <style>
-    .walk-page {
-      background:
-        radial-gradient(circle at 16% 12%, rgba(255,255,255,.74) 0, rgba(255,255,255,0) 18%),
-        linear-gradient(180deg, #f8f4eb 0%, #eef4e8 46%, #fff8ef 100%);
+    .hero-side-art {
+      position: relative;
+      display: inline-block;
     }
-    .walk-hero {
-      padding: 3.5rem 0 2.25rem;
-    }
-    .open-crew,
-    .open-stop,
-    .open-closer {
-      padding: 2.8rem 0;
-    }
-    .open-crew-grid,
-    .open-stop-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2.6rem;
-      align-items: center;
-    }
-    .open-copy,
-    .open-pic {
-      background: transparent;
-      border: 0;
-      box-shadow: none;
-      padding: 0;
-    }
-    .open-pic img {
-      box-shadow: 0 18px 34px rgba(0,0,0,.08);
-    }
-    .crew-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: .55rem;
-      padding: .35rem .75rem;
-      border-radius: 999px;
-      background: rgba(255,250,240,.7);
-      border: 1px solid rgba(228,220,205,.8);
+    .hero-side-bubble {
+      position: absolute;
+      left: -210px;
+      top: 24px;
+      width: 220px;
+      background: #fffdf8;
+      color: #5b4632;
+      border: 2px solid #d9c9ae;
+      border-radius: 28px;
+      padding: 14px 16px;
+      font-size: 0.92rem;
+      line-height: 1.35;
       font-weight: 700;
-      margin: .35rem 0 1rem;
+      box-shadow: 0 10px 22px rgba(0,0,0,.08);
     }
-    .crew-chip img {
-      width: 28px;
+    .hero-side-bubble::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 48px;
+      width: 18px;
+      height: 18px;
+      background: #fffdf8;
+      border-right: 2px solid #d9c9ae;
+      border-bottom: 2px solid #d9c9ae;
+      transform: rotate(-45deg);
+    }
+    .hero-side-chippy {
+      position: absolute;
+      right: -12px;
+      bottom: -4px;
+      width: 96px;
       height: auto;
       border-radius: 0;
+      z-index: 3;
+      pointer-events: none;
     }
-    .walk-path {
-      width: min(92vw, 780px);
-      margin: 0 auto;
-      padding: .2rem 0;
-      display: flex;
-      justify-content: center;
-    }
-    .walk-path img {
-      width: 100%;
-      max-width: 540px;
-      height: auto;
-      border-radius: 0;
-      filter: drop-shadow(0 14px 18px rgba(0,0,0,.08));
-    }
-    .footprint-gap {
-      width: 120px;
-      height: 120px;
-      margin: 0 auto;
-      background:
-        radial-gradient(circle at 42% 18%, rgba(146,132,118,.44) 0 6px, transparent 7px),
-        radial-gradient(circle at 56% 28%, rgba(146,132,118,.44) 0 7px, transparent 8px),
-        radial-gradient(circle at 66% 44%, rgba(146,132,118,.44) 0 8px, transparent 9px),
-        radial-gradient(circle at 36% 44%, rgba(146,132,118,.42) 0 11px, transparent 12px),
-        radial-gradient(circle at 52% 60%, rgba(146,132,118,.42) 0 13px, transparent 14px),
-        radial-gradient(circle at 62% 78%, rgba(146,132,118,.42) 0 14px, transparent 15px);
-      opacity: .8;
-    }
-    .plain-words {
-      max-width: 620px;
-    }
-    .plain-words h2 {
-      margin-top: 0;
-      margin-bottom: .65rem;
-    }
-    .plain-words p {
-      margin: .7rem 0;
-    }
-    .open-stop.alt-left .open-pic {
-      order: -1;
-    }
-    .soft-note {
-      max-width: 720px;
-      margin: 0 auto;
-    }
-    @media (max-width: 850px) {
-      .open-crew-grid,
-      .open-stop-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    @media (max-width: 900px) {
+      .hero-side-bubble {
+        left: -165px;
+        top: 12px;
+        width: 180px;
+        font-size: 0.82rem;
       }
-      .open-stop.alt-left .open-pic {
-        order: 0;
+      .hero-side-chippy {
+        width: 76px;
       }
-      .walk-path img {
-        max-width: 420px;
+    }
+    @media (max-width: 700px) {
+      .hero-side-art {
+        display: block;
+      }
+      .hero-side-bubble {
+        position: static;
+        width: auto;
+        margin: 0 0 10px;
+      }
+      .hero-side-bubble::after {
+        display: none;
+      }
+      .hero-side-chippy {
+        right: 6px;
+        bottom: -2px;
+        width: 68px;
       }
     }
   </style>
 </head>
-<body class="walk-page">
+<body>
   <header class="site-header">
     <div class="container nav">
       <div class="brand">Quiet Backyard Living</div>
@@ -142,114 +113,155 @@
   </header>
 
   <main>
-    <section class="walk-hero">
+    <section class="hero">
       <div class="container hero-grid">
-        <div class="plain-words">
+        <div>
           <p><strong>Quiet Backyard Living</strong></p>
           <h1>Create a quieter, more beautiful backyard that birds, butterflies, pollinators, and peaceful wildlife will love.</h1>
-          <p class="subhead">A peaceful walk through real projects, fruit trees, wildlife moments, and the slower outdoor life we’re building one season at a time.</p>
-          <p>Come along with Jeff and his little chipmunk helper as we make the backyard and cabin feel more alive with flowers, herbs, fruit trees, birdhouses, feeders, and plenty of critter moments along the way.</p>
+          <p class="subhead">Quiet backyard living with blooms, berries, birds, and a slower life outdoors.</p>
+          <p>Practical ideas for creating a peaceful, wildlife-friendly backyard with flowers, herbs, fruit trees, garden beauty, and little wild visitors.</p>
           <div class="buttons">
             <a class="button primary" href="/pages/signup.html">Get the Free Spring Checklist</a>
-            <a class="button" href="/pages/blog.html">Take the Journey</a>
+            <a class="button" href="/pages/blog.html">Explore the Blog</a>
           </div>
         </div>
-        <div class="open-pic">
+        <div class="hero-side-art">
+          <div class="hero-side-bubble">Hello, I'm Chippy and welcome to Quiet Backyard Living</div>
+          <img class="hero-side-chippy" src="/assets/images/chippy/hello-chippy-small.png" alt="Hello from Chippy the chipmunk">
           <img src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
       </div>
     </section>
 
-    <div class="walk-path">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
-
-    <section class="open-crew">
-      <div class="container open-crew-grid">
-        <div class="open-copy plain-words">
-          <h2>Meet the Crew</h2>
-          <div class="crew-chip"><img src="/assets/images/chippy/hello-chippy-small.png" alt="Chippy the chipmunk"> Hi, I’m Chippy</div>
-          <p>This site is real life, real projects, real critters, and real people building a quieter outdoor world together.</p>
-          <p>Jeff is the real face behind Quiet Backyard Living, sharing backyard builds, planting projects, wildlife moments, cabin life, and the little improvements that slowly make a place feel richer and more peaceful.</p>
-          <p>Vanessa brings warmth, real-life partnership, and the kind of grounded everyday joy that makes this all feel lived in instead of staged. And Chippy is the playful little helper, occasional seed thief, backyard explorer, and tiny troublemaker tagging along for the journey.</p>
-          <div class="buttons">
-            <a class="button" href="/pages/about.html">Meet the Crew</a>
-          </div>
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>About Quiet Backyard Living</h2>
+          <p>Quiet Backyard Living is about enjoying a slower, more peaceful outdoor life — one filled with flowers, berries, herbs, birds, butterflies, fruit trees, and quiet moments outside.</p>
+          <p>It’s a place for simple ideas, seasonal inspiration, and creating a backyard that feels alive without turning it into hard labor.</p>
         </div>
-        <div class="open-pic">
-          <img src="/assets/images/meet-the-crew-cabin.jpg" alt="Jeff and Vanessa in front of the cabin">
+        <div>
+          <img src="/assets/images/jeff-with-blueberries.jpg" alt="Jeff standing near blueberry bushes">
         </div>
       </div>
     </section>
 
-    <div class="footprint-gap"></div>
-
-    <section class="open-stop">
-      <div class="container open-stop-grid">
-        <div class="open-pic">
-          <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
-        </div>
-        <div class="open-copy plain-words">
-          <h2>Build a Birdhouse</h2>
-          <p>One of the easiest ways to step into the Quiet Backyard Living world is through a real project. This cedar fence picket birdhouse turned into one of the most fun builds on the site, and it has the exact warm, handmade backyard feel we want more of.</p>
-          <p>Follow the workshop photos, see how the pieces come together, and grab the guide if you want the full cut flow and build path.</p>
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
+          <p>You do not need expensive lumber or a complicated woodworking setup to make something beautiful. This fun birdhouse workshop project starts with one big box store cedar fence picket and turns it into a custom log cabin-style birdhouse with lots of personality.</p>
+          <p>Get the exact cut measurements, visual build flow, and simple step-by-step instructions sent to your email.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/birdhouse-guide-signup.html">Get the Birdhouse Guide</a>
             <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Project</a>
           </div>
         </div>
+        <div>
+          <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
+        </div>
       </div>
     </section>
 
-    <div class="walk-path">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>Build this rustic log cabin style bird feeder with just one cedar fence picket</h2>
+          <p>This one has the same handmade cabin charm as the birdhouse build, but now it turns into a feeder you can hang outside and enjoy all season.</p>
+          <p>Follow the fun workshop shots, the cut sequence, the assembly flow, and the finished backyard reveal.</p>
+          <div class="buttons">
+            <a class="button cta-blue" href="/pages/log-cabin-bird-feeder-build">See the Bird Feeder Build</a>
+            <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Birdhouse Too</a>
+          </div>
+        </div>
+        <div>
+          <img src="/assets/images/log-cabin-bird-feeder-build-final/finished-2.jpg" alt="Finished rustic log cabin bird feeder">
+        </div>
+      </div>
+    </section>
 
-    <section class="open-stop alt-left">
-      <div class="container open-stop-grid">
-        <div class="open-copy plain-words">
-          <h2>Plant Trees and Grow Something New</h2>
-          <p>We are planting real future into the place too, jujube trees, a 4-in-1 fruit tree, flowers, herbs, and whatever else helps the cabin and backyard become more productive and alive over time.</p>
-          <p>These projects give us real photos, real lessons, and real stories to share instead of empty content written from nowhere.</p>
+    <section class="section">
+      <div class="container">
+        <h2>What You’ll Find Here</h2>
+        <div class="card-grid">
+          <div class="card"><img src="/assets/images/raised-beds-pergola.jpg" alt="Raised beds and pergola"><div class="content"><h3>Garden Life</h3><p>Flowers, vegetables, herbs, berries, fruit trees, and the small seasonal choices that make an outdoor space feel rich and welcoming.</p></div></div>
+          <div class="card"><img src="/assets/images/chipmunk-feeder-1.jpg" alt="Chipmunk at feeder"><div class="content"><h3>Wildlife Habitat</h3><p>Birds, butterflies, hummingbirds, pollinators, and little critters all need food, cover, water, and a little room to live.</p></div></div>
+          <div class="card"><img src="/assets/images/cabin-fire-chair.jpg" alt="Chair by a fire"><div class="content"><h3>Slow Outdoor Living</h3><p>This is about enjoying the space too — not just working in it. More calm, more beauty, less rush.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>We planted jujube trees and a 4-in-1 fruit tree at the cabin</h2>
+          <p>These are the kind of fun spring projects that make the place feel more alive year by year. We turned the new planting photos into two story-style pages that are useful, visual, and a lot more fun than a stiff garden manual.</p>
+          <p>Tap the collage to jump into the new fruit tree pages.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/jujube-trees-at-the-cabin.html">See the Jujube Story</a>
             <a class="button" href="/pages/four-in-one-fruit-tree-at-the-cabin.html">See the 4-in-1 Tree</a>
           </div>
         </div>
-        <div class="open-pic">
-          <img src="/assets/images/tree-planting-collage-home.jpg" alt="Collage of newly planted jujube trees and 4-in-1 fruit tree at the cabin">
+        <div>
+          <a href="/pages/blog.html"><img src="/assets/images/tree-planting-collage-home.jpg" alt="Collage of newly planted jujube trees and 4-in-1 fruit tree at the cabin"></a>
         </div>
       </div>
     </section>
 
-    <div class="footprint-gap"></div>
-
-    <section class="open-stop">
-      <div class="container open-stop-grid">
-        <div class="open-pic">
-          <img src="/assets/images/harry-hummingbird.jpg" alt="Hummingbird at feeder">
-        </div>
-        <div class="open-copy plain-words">
-          <h2>Bring More Life Into the Backyard</h2>
-          <p>Along the way, we keep sharing simple things that make the place better for birds, butterflies, pollinators, and all the little critters we love seeing around the yard.</p>
-          <p>Sometimes that looks like a hummingbird guide. Sometimes it looks like a free checklist. Sometimes it is just noticing what makes a backyard feel more alive and more worth spending time in.</p>
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>Hummingbirds are on the way north — put your feeder out now</h2>
+          <p>These tiny birds travel an incredible distance during migration, and a clean feeder with fresh nectar can give them a much-needed energy boost when they reach your yard.</p>
+          <p>Learn how to make safe hummingbird food, when to put feeders out, and simple ways to make your backyard more inviting.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/blog/how-to-attract-hummingbirds-to-your-backyard.html">Read the Hummingbird Guide</a>
-            <a class="button" href="/pages/checklist.html">Open the Checklist</a>
+            <a class="button" href="/pages/blog.html">More Backyard Tips</a>
           </div>
+        </div>
+        <div>
+          <img src="/assets/images/harry-hummingbird.jpg" alt="Hummingbird at feeder">
         </div>
       </div>
     </section>
 
-    <div class="walk-path">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
+    <section class="section cta-band">
+      <div class="container split">
+        <div>
+          <h2>Free Spring Backyard Wildlife Checklist</h2>
+          <p>A simple guide to help you bring more life into your backyard this spring with easy, wildlife-friendly steps.</p>
+          <p>Open the checklist on your phone or print it later if you want a hard copy.</p>
+          <div class="buttons">
+            <a class="button primary" href="/pages/checklist.html">Open the Checklist</a>
+            <a class="button" href="/pages/signup.html">Learn More</a>
+          </div>
+        </div>
+        <div>
+          <img src="/assets/images/deer-by-orchard.jpg" alt="Deer by orchard fence">
+        </div>
+      </div>
+    </section>
 
-    <section class="open-closer">
-      <div class="container soft-note plain-words">
+    <section class="section">
+      <div class="container free-ideas">
+        <h2>Free things we can do in the next few weeks to attract birds and friendly little critters to watch and enjoy all season</h2>
+        <ul>
+          <li>Clean feeders and refill them with fresh seed so migrating and resident birds have a reliable place to stop.</li>
+          <li>Put the hummingbird feeder out early with fresh sugar water so tired little travelers can refuel when they arrive.</li>
+          <li>Keep a shallow water source clean and topped off for drinking and bathing.</li>
+          <li>Leave a few brushy corners, log pieces, or wood scraps in a tucked-away pile to create shelter for chipmunks, insects, toads, and other small wildlife.</li>
+          <li>Go easier on spraying so birds and beneficial insects have a healthier place to feed and live.</li>
+          <li>Let a few natural edges stay a little wild instead of cleaning everything up too neatly.</li>
+          <li>Add a few simple perches, branches, or nearby cover around feeding areas so birds feel safer using the yard.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container note">
         <h2>You don’t need a perfect yard.</h2>
-        <p>A few thoughtful changes, a few real projects, and a little more attention to birds, flowers, trees, pollinators, and peaceful corners can turn a place into something much richer than it used to be.</p>
-        <p><strong>Quiet Backyard Living</strong> is here to help you walk that path with us.</p>
+        <p>A few thoughtful changes can create a backyard that feels calmer, richer, and more alive.</p>
+        <p><strong>Quiet Backyard Living</strong></p>
       </div>
     </section>
   </main>
