@@ -22,141 +22,112 @@
    ml('account', '2238054');
   </script>
   <style>
-    .journey-page {
+    .walk-page {
       background:
-        radial-gradient(circle at 18% 10%, rgba(255,255,255,.72) 0, rgba(255,255,255,0) 18%),
-        linear-gradient(180deg, #f8f4eb 0%, #eef4e8 42%, #fff7ef 100%);
+        radial-gradient(circle at 16% 12%, rgba(255,255,255,.74) 0, rgba(255,255,255,0) 18%),
+        linear-gradient(180deg, #f8f4eb 0%, #eef4e8 46%, #fff8ef 100%);
     }
-    .journey-hero {
-      padding: 3.5rem 0 2rem;
+    .walk-hero {
+      padding: 3.5rem 0 2.25rem;
     }
-    .crew-hero,
-    .journey-copy,
-    .feature-stop,
-    .closing-note {
-      position: relative;
-      padding: 2.75rem 0;
+    .open-crew,
+    .open-stop,
+    .open-closer {
+      padding: 2.8rem 0;
     }
-    .journey-trail {
-      position: relative;
-      height: 74px;
-      margin: 0 auto;
-      width: min(88vw, 760px);
-      opacity: .9;
-    }
-    .journey-trail img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      border-radius: 0;
-      filter: drop-shadow(0 10px 14px rgba(0,0,0,.08));
-    }
-    .crew-grid,
-    .feature-grid {
+    .open-crew-grid,
+    .open-stop-grid {
       display: grid;
-      grid-template-columns: 1.05fr .95fr;
-      gap: 2.2rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.6rem;
       align-items: center;
     }
-    .crew-card,
-    .flow-card,
-    .feature-text,
-    .feature-media,
-    .closing-card {
-      padding: .4rem 0;
+    .open-copy,
+    .open-pic {
       background: transparent;
       border: 0;
-      border-radius: 0;
       box-shadow: none;
-      backdrop-filter: none;
+      padding: 0;
     }
-    .crew-card h2,
-    .flow-card h2,
-    .feature-text h2,
-    .closing-card h2 {
-      margin-top: 0;
+    .open-pic img {
+      box-shadow: 0 18px 34px rgba(0,0,0,.08);
     }
     .crew-chip {
       display: inline-flex;
       align-items: center;
       gap: .55rem;
-      background: rgba(255,250,240,.72);
-      border: 1px solid rgba(228,220,205,.8);
+      padding: .35rem .75rem;
       border-radius: 999px;
-      padding: .45rem .8rem;
+      background: rgba(255,250,240,.7);
+      border: 1px solid rgba(228,220,205,.8);
       font-weight: 700;
-      margin-top: .5rem;
-      margin-bottom: 1rem;
+      margin: .35rem 0 1rem;
     }
     .crew-chip img {
-      width: 30px;
+      width: 28px;
       height: auto;
       border-radius: 0;
     }
-    .crew-bio {
-      margin-top: 1rem;
-      padding-top: 1rem;
-      border-top: 1px dashed rgba(140,130,118,.35);
-    }
-    .crew-media img,
-    .feature-media img {
-      box-shadow: 0 16px 30px rgba(0,0,0,.06);
-    }
-    .flow-card {
-      max-width: 760px;
+    .walk-path {
+      width: min(92vw, 780px);
       margin: 0 auto;
-      text-align: left;
+      padding: .2rem 0;
+      display: flex;
+      justify-content: center;
     }
-    .journey-copy .flow-card,
-    .closing-note .closing-card {
-      max-width: 760px;
-      background: rgba(255,255,255,.22);
-      border-radius: 24px;
-      padding: 1rem 1.15rem;
+    .walk-path img {
+      width: 100%;
+      max-width: 540px;
+      height: auto;
+      border-radius: 0;
+      filter: drop-shadow(0 14px 18px rgba(0,0,0,.08));
     }
-    .feature-stop:nth-of-type(even) .feature-grid {
-      grid-template-columns: .95fr 1.05fr;
+    .footprint-gap {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      background:
+        radial-gradient(circle at 42% 18%, rgba(146,132,118,.44) 0 6px, transparent 7px),
+        radial-gradient(circle at 56% 28%, rgba(146,132,118,.44) 0 7px, transparent 8px),
+        radial-gradient(circle at 66% 44%, rgba(146,132,118,.44) 0 8px, transparent 9px),
+        radial-gradient(circle at 36% 44%, rgba(146,132,118,.42) 0 11px, transparent 12px),
+        radial-gradient(circle at 52% 60%, rgba(146,132,118,.42) 0 13px, transparent 14px),
+        radial-gradient(circle at 62% 78%, rgba(146,132,118,.42) 0 14px, transparent 15px);
+      opacity: .8;
     }
-    .feature-stop:nth-of-type(even) .feature-media {
+    .plain-words {
+      max-width: 620px;
+    }
+    .plain-words h2 {
+      margin-top: 0;
+      margin-bottom: .65rem;
+    }
+    .plain-words p {
+      margin: .7rem 0;
+    }
+    .open-stop.alt-left .open-pic {
       order: -1;
     }
-    .crew-media,
-    .feature-media {
-      padding: .35rem;
-    }
-    .path-dots {
-      display: inline-flex;
-      gap: .3rem;
-      margin-left: .4rem;
-      vertical-align: middle;
-    }
-    .path-dots span {
-      width: 8px;
-      height: 8px;
-      background: rgba(130,118,104,.55);
-      border-radius: 50%;
-      display: inline-block;
+    .soft-note {
+      max-width: 720px;
+      margin: 0 auto;
     }
     @media (max-width: 850px) {
-      .crew-grid,
-      .feature-grid,
-      .feature-stop:nth-of-type(even) .feature-grid {
+      .open-crew-grid,
+      .open-stop-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
       }
-      .feature-stop:nth-of-type(even) .feature-media {
+      .open-stop.alt-left .open-pic {
         order: 0;
       }
-      .journey-trail {
-        height: 56px;
-      }
-      .journey-copy .flow-card,
-      .closing-note .closing-card {
-        padding: .75rem .85rem;
+      .walk-path img {
+        max-width: 420px;
       }
     }
   </style>
 </head>
-<body class="journey-page">
+<body class="walk-page">
   <header class="site-header">
     <div class="container nav">
       <div class="brand">Quiet Backyard Living</div>
@@ -171,130 +142,111 @@
   </header>
 
   <main>
-    <section class="journey-hero">
+    <section class="walk-hero">
       <div class="container hero-grid">
-        <div>
+        <div class="plain-words">
           <p><strong>Quiet Backyard Living</strong></p>
           <h1>Create a quieter, more beautiful backyard that birds, butterflies, pollinators, and peaceful wildlife will love.</h1>
           <p class="subhead">A peaceful walk through real projects, fruit trees, wildlife moments, and the slower outdoor life we’re building one season at a time.</p>
-          <p>Come along with Jeff and his little chipmunk helper as we make the backyard and cabin feel more alive with flowers, herbs, birdhouses, feeders, fruit trees, and plenty of critter moments along the way.</p>
+          <p>Come along with Jeff and his little chipmunk helper as we make the backyard and cabin feel more alive with flowers, herbs, fruit trees, birdhouses, feeders, and plenty of critter moments along the way.</p>
           <div class="buttons">
             <a class="button primary" href="/pages/signup.html">Get the Free Spring Checklist</a>
             <a class="button" href="/pages/blog.html">Take the Journey</a>
           </div>
         </div>
-        <div>
+        <div class="open-pic">
           <img src="/assets/images/cabin-fire-evening.jpg" alt="Cabin and fire scene at dusk">
         </div>
       </div>
     </section>
 
-    <div class="journey-trail container">
+    <div class="walk-path">
       <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
     </div>
 
-    <section class="crew-hero">
-      <div class="container crew-grid">
-        <div class="crew-card">
+    <section class="open-crew">
+      <div class="container open-crew-grid">
+        <div class="open-copy plain-words">
           <h2>Meet the Crew</h2>
-          <p>This website is real life, real projects, real critters, and real people building a quieter outdoor life together.</p>
-          <div class="crew-chip"><img src="/assets/images/chippy/hello-chippy-small.png" alt="Chippy the chipmunk"> Hi, I'm Chippy</div>
-          <p>Jeff is the real face behind Quiet Backyard Living, sharing the backyard builds, planting projects, critter moments, and cabin life that make this whole thing feel warm, useful, and alive.</p>
-          <div class="crew-bio">
-            <h3>Jeff, Vanessa, and Chippy</h3>
-            <p>Jeff and Vanessa are building a place that feels peaceful, beautiful, and full of life. Chippy is the playful little helper, occasional seed thief, backyard explorer, and tiny troublemaker who tags along for the journey.</p>
-            <div class="buttons">
-              <a class="button" href="/pages/about.html">Meet the Crew</a>
-            </div>
+          <div class="crew-chip"><img src="/assets/images/chippy/hello-chippy-small.png" alt="Chippy the chipmunk"> Hi, I’m Chippy</div>
+          <p>This site is real life, real projects, real critters, and real people building a quieter outdoor world together.</p>
+          <p>Jeff is the real face behind Quiet Backyard Living, sharing backyard builds, planting projects, wildlife moments, cabin life, and the little improvements that slowly make a place feel richer and more peaceful.</p>
+          <p>Vanessa brings warmth, real-life partnership, and the kind of grounded everyday joy that makes this all feel lived in instead of staged. And Chippy is the playful little helper, occasional seed thief, backyard explorer, and tiny troublemaker tagging along for the journey.</p>
+          <div class="buttons">
+            <a class="button" href="/pages/about.html">Meet the Crew</a>
           </div>
         </div>
-        <div class="crew-media">
+        <div class="open-pic">
           <img src="/assets/images/meet-the-crew-cabin.jpg" alt="Jeff and Vanessa in front of the cabin">
         </div>
       </div>
     </section>
 
-    <div class="journey-trail container">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
+    <div class="footprint-gap"></div>
 
-    <section class="journey-copy">
-      <div class="container flow-card">
-        <h2>What We Do <span class="path-dots"><span></span><span></span><span></span></span></h2>
-        <p>Quiet Backyard Living is about taking people on a journey through backyard projects, wildlife-friendly ideas, garden life, fruit trees, and the kind of real outdoor work that slowly turns a place into something richer and more peaceful.</p>
-        <p>We share the practical side too, how to plant trees, build birdhouses, make a space feel more welcoming for birds and pollinators, and create something beautiful without turning the whole yard into a chore.</p>
-      </div>
-    </section>
-
-    <div class="journey-trail container">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
-
-    <section class="feature-stop">
-      <div class="container feature-grid">
-        <div class="feature-text">
+    <section class="open-stop">
+      <div class="container open-stop-grid">
+        <div class="open-pic">
+          <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
+        </div>
+        <div class="open-copy plain-words">
           <h2>Build a Birdhouse</h2>
-          <p>One of the easiest ways to step into the Quiet Backyard Living world is through a real project. This cedar fence picket birdhouse turned into one of the most fun builds on the site, and it has the exact kind of warm, handmade backyard feel we want more of.</p>
+          <p>One of the easiest ways to step into the Quiet Backyard Living world is through a real project. This cedar fence picket birdhouse turned into one of the most fun builds on the site, and it has the exact warm, handmade backyard feel we want more of.</p>
           <p>Follow the workshop photos, see how the pieces come together, and grab the guide if you want the full cut flow and build path.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/birdhouse-guide-signup.html">Get the Birdhouse Guide</a>
             <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Project</a>
           </div>
         </div>
-        <div class="feature-media">
-          <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
-        </div>
       </div>
     </section>
 
-    <div class="journey-trail container">
+    <div class="walk-path">
       <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
     </div>
 
-    <section class="feature-stop">
-      <div class="container feature-grid">
-        <div class="feature-text">
+    <section class="open-stop alt-left">
+      <div class="container open-stop-grid">
+        <div class="open-copy plain-words">
           <h2>Plant Trees and Grow Something New</h2>
-          <p>We are also planting real future into the place, jujube trees, a 4-in-1 fruit tree, flowers, herbs, and whatever else helps the cabin and backyard become more productive and alive over time.</p>
-          <p>These are the kinds of projects that give us real photos, real lessons, and real stories to share instead of empty content written from nowhere.</p>
+          <p>We are planting real future into the place too, jujube trees, a 4-in-1 fruit tree, flowers, herbs, and whatever else helps the cabin and backyard become more productive and alive over time.</p>
+          <p>These projects give us real photos, real lessons, and real stories to share instead of empty content written from nowhere.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/jujube-trees-at-the-cabin.html">See the Jujube Story</a>
             <a class="button" href="/pages/four-in-one-fruit-tree-at-the-cabin.html">See the 4-in-1 Tree</a>
           </div>
         </div>
-        <div class="feature-media">
+        <div class="open-pic">
           <img src="/assets/images/tree-planting-collage-home.jpg" alt="Collage of newly planted jujube trees and 4-in-1 fruit tree at the cabin">
         </div>
       </div>
     </section>
 
-    <div class="journey-trail container">
-      <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
-    </div>
+    <div class="footprint-gap"></div>
 
-    <section class="feature-stop">
-      <div class="container feature-grid">
-        <div class="feature-text">
+    <section class="open-stop">
+      <div class="container open-stop-grid">
+        <div class="open-pic">
+          <img src="/assets/images/harry-hummingbird.jpg" alt="Hummingbird at feeder">
+        </div>
+        <div class="open-copy plain-words">
           <h2>Bring More Life Into the Backyard</h2>
-          <p>Along the way, we keep sharing simple things that make the place better for birds, butterflies, pollinators, and all the little critters we like seeing around the yard.</p>
+          <p>Along the way, we keep sharing simple things that make the place better for birds, butterflies, pollinators, and all the little critters we love seeing around the yard.</p>
           <p>Sometimes that looks like a hummingbird guide. Sometimes it looks like a free checklist. Sometimes it is just noticing what makes a backyard feel more alive and more worth spending time in.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/blog/how-to-attract-hummingbirds-to-your-backyard.html">Read the Hummingbird Guide</a>
             <a class="button" href="/pages/checklist.html">Open the Checklist</a>
           </div>
         </div>
-        <div class="feature-media">
-          <img src="/assets/images/harry-hummingbird.jpg" alt="Hummingbird at feeder">
-        </div>
       </div>
     </section>
 
-    <div class="journey-trail container">
+    <div class="walk-path">
       <img src="/assets/images/path-segment-1.png" alt="Stone garden path leading to the next section">
     </div>
 
-    <section class="closing-note">
-      <div class="container closing-card">
+    <section class="open-closer">
+      <div class="container soft-note plain-words">
         <h2>You don’t need a perfect yard.</h2>
         <p>A few thoughtful changes, a few real projects, and a little more attention to birds, flowers, trees, pollinators, and peaceful corners can turn a place into something much richer than it used to be.</p>
         <p><strong>Quiet Backyard Living</strong> is here to help you walk that path with us.</p>
