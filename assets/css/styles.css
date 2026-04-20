@@ -101,10 +101,10 @@ a:hover { text-decoration: underline; }
   left: 50%;
   top: 50%;
   transform: translate(-50%, -42%);
-  width: 210px;
+  width: 270px;
   height: auto;
   border-radius: 0;
-  opacity: .13;
+  opacity: .2;
   pointer-events: none;
 }
 .crew-chippy-bg > *:not(.crew-bg-chippy) {
@@ -278,5 +278,5 @@ a:hover { text-decoration: underline; }
   .nav { align-items: flex-start; flex-direction: column; }
   .nav-chippy { width: 20px; }
   .crew-intro-collage { max-width: 290px; justify-self: center; }
-  .crew-bg-chippy { width: 160px; }
+  .crew-bg-chippy { width: 190px; }
 }
