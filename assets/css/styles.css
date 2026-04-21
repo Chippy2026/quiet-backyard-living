@@ -423,8 +423,37 @@ a:hover { text-decoration: underline; }
   .hero-grid, .split, .card-grid, .crew-intro-grid, .crew-bio-grid { grid-template-columns: 1fr; }
   .crew-profile { grid-template-columns: 1fr; }
   .crew-profile-photo img { height: 280px; }
-  .nav { align-items: flex-start; flex-direction: column; }
-  .nav-chippy { width: 20px; }
+  .nav {
+    align-items: stretch;
+    flex-direction: column;
+    gap: .7rem;
+    padding: .8rem 0;
+  }
+  .nav-brand-wrap {
+    width: 100%;
+  }
+  .brand {
+    font-size: 1.05rem;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .55rem;
+    width: 100%;
+  }
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 44px;
+    padding: .55rem .6rem;
+    background: rgba(255,255,255,.55);
+    border: 1px solid rgba(228,220,205,.9);
+  }
+  .crew-intro {
+    padding-top: 2rem;
+  }
   .crew-intro-collage { max-width: 340px; justify-self: center; }
   .crew-bg-chippy { width: 190px; }
   .spring-ideas-top { flex-direction: column; }
