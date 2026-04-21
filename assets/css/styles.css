@@ -426,19 +426,19 @@ a:hover { text-decoration: underline; }
   .nav {
     align-items: stretch;
     flex-direction: column;
-    gap: .7rem;
-    padding: .8rem 0;
+    gap: .45rem;
+    padding: .55rem 0;
   }
   .nav-brand-wrap {
     width: 100%;
   }
   .brand {
-    font-size: 1.05rem;
+    font-size: .98rem;
   }
   .nav-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .55rem;
+    gap: .35rem;
     width: 100%;
   }
   .nav-links a {
@@ -446,13 +446,15 @@ a:hover { text-decoration: underline; }
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 44px;
-    padding: .55rem .6rem;
-    background: rgba(255,255,255,.55);
-    border: 1px solid rgba(228,220,205,.9);
+    min-height: 36px;
+    padding: .38rem .45rem;
+    font-size: .92rem;
+    border-radius: 14px;
+    background: rgba(255,255,255,.42);
+    border: 1px solid rgba(228,220,205,.75);
   }
   .crew-intro {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
   }
   .crew-intro-collage { max-width: 340px; justify-self: center; }
   .crew-bg-chippy { width: 190px; }
