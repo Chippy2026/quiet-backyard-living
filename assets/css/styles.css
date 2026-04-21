@@ -446,12 +446,13 @@ a:hover { text-decoration: underline; }
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 36px;
-    padding: .38rem .45rem;
-    font-size: .92rem;
-    border-radius: 14px;
-    background: rgba(255,255,255,.42);
-    border: 1px solid rgba(228,220,205,.75);
+    min-height: 32px;
+    padding: .28rem .35rem;
+    font-size: .82rem;
+    line-height: 1.15;
+    border-radius: 12px;
+    background: rgba(255,255,255,.3);
+    border: 1px solid rgba(228,220,205,.55);
   }
   .crew-intro {
     padding-top: 1.5rem;
