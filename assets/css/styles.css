@@ -403,6 +403,10 @@ a:hover { text-decoration: underline; }
   max-height: 360px;
   object-fit: cover;
 }
+.squirrel-teaser img {
+  object-fit: contain !important;
+  background: #f7f3ea;
+}
 .hummingbird-feature .split {
   grid-template-columns: .95fr 1.05fr;
   gap: 1.4rem;
