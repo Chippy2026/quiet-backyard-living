@@ -58,7 +58,12 @@
       <p class="finder-kicker">Little crop finder</p>
       <h2>What do you like to grow or eat most?</h2>
       <p class="finder-help">Start with one vegetable you actually care about, then we can help build a better little neighborhood around it.</p>
-      <input id="cropFinder" type="text" placeholder="Type something like tomatoes, cucumbers, peppers, lettuce...">
+      <form id="cropFinderForm">
+        <input id="cropFinder" type="text" placeholder="Type something like tomatoes, cucumbers, peppers, lettuce...">
+        <div class="finder-results" style="margin-top:.2rem; margin-bottom:1rem;">
+          <button type="submit">Search</button>
+        </div>
+      </form>
       <div id="finderChips" class="finder-chips"></div>
       <div id="finderResults" class="finder-results"></div>
       <p id="finderNote" class="finder-note">Start typing a vegetable name to see matching pages, or tap one of the quick picks below.</p>
@@ -129,6 +134,7 @@
       { name: 'Cabbage Family Crops', url: '#', status: 'coming soon', terms: ['cabbage', 'broccoli', 'cauliflower', 'brassicas'] }
     ];
 
+    const form = document.getElementById('cropFinderForm');
     const input = document.getElementById('cropFinder');
     const results = document.getElementById('finderResults');
     const note = document.getElementById('finderNote');
@@ -167,6 +173,22 @@
       chips.appendChild(btn);
     });
 
+    function getMatches(q) {
+      return crops.filter(c => c.terms.some(t => t.includes(q) || q.includes(t)) || c.name.toLowerCase().includes(q));
+    }
+
+    function goToBestMatch() {
+      const q = input.value.trim().toLowerCase();
+      if (!q) return;
+      const matches = getMatches(q);
+      render(matches);
+      if (!matches.length) return;
+      const first = matches[0];
+      if (first.url && first.url !== '#') {
+        window.location.href = first.url;
+      }
+    }
+
     input.addEventListener('input', () => {
       const q = input.value.trim().toLowerCase();
       if (!q) {
@@ -174,8 +196,19 @@
         note.textContent = 'Start typing a vegetable name to see matching pages, or tap one of the quick picks below.';
         return;
       }
-      const matches = crops.filter(c => c.terms.some(t => t.includes(q) || q.includes(t)) || c.name.toLowerCase().includes(q));
-      render(matches);
+      render(getMatches(q));
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      goToBestMatch();
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        goToBestMatch();
+      }
     });
   </script>
 </body>
