@@ -18,15 +18,20 @@
     .finder-box h2 { margin-bottom:.4rem; }
     .finder-box input { width:100%; padding:1rem 1rem; border:1px solid #cbbda8; border-radius:16px; font-size:1rem; margin-bottom:.9rem; background:#fffdf9; }
     .finder-box input:focus { outline:none; border-color:#b8893e; box-shadow:0 0 0 4px rgba(184,137,62,.12); }
-    .finder-chips, .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
-    .finder-chip, .finder-results a, .finder-results button { background:#fff; border:1px solid #d7c8b2; border-radius:999px; padding:.72rem 1rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; }
-    .finder-chip:hover, .finder-results a:hover, .finder-results button:hover { background:#fff4dc; }
+    .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
+    .finder-results a, .finder-results button { background:#fff; border:1px solid #d7c8b2; border-radius:999px; padding:.72rem 1rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; }
+    .finder-results a:hover, .finder-results button:hover { background:#fff4dc; }
     .finder-note { margin-top:1rem; color:#6a5a45; }
     .finder-help { margin:.2rem 0 1rem; color:#6e5d45; }
+    .how-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .help-bubbles { display:flex; flex-wrap:wrap; gap:.7rem; }
+    .help-bubbles span { display:inline-block; background:#fff8e8; border:1px solid #ecd9a3; border-radius:999px; padding:.7rem 1rem; color:#5a472e; }
+    .side-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .side-box h3 { margin-top:0; margin-bottom:.75rem; }
     .preview-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
     .preview-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .didyouknow { background:#fff8e8; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:14px; margin:1rem 0; }
-    @media (max-width:850px){ .preview-grid { grid-template-columns:1fr; } }
+    @media (max-width:850px){ .preview-grid, .how-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -60,18 +65,25 @@
     </section>
 
     <section class="section">
-      <h2>How this works</h2>
-      <p>A lot of companion planting advice feels like one giant chart nobody wants to read. Most people are not trying to memorize every possible plant pairing in the garden.</p>
-      <p>They just want to know things like: if I like cucumbers, what should I grow near them? If I want tomatoes, what helps them? What brings pollinators? What helps with pests? What makes sense in a real backyard bed without turning it into a crowded mess?</p>
-      <p>That is the better way to think about it. Grow what you actually like to eat, then build a small support crew around it.</p>
-      <p>Instead of treating companion planting like magic, it helps to think about what each nearby plant is actually doing.</p>
-      <ul>
-        <li>bringing pollinators</li>
-        <li>confusing or distracting pests</li>
-        <li>holding moisture or shading soil</li>
-        <li>using space differently</li>
-        <li>adding a useful second crop instead of random filler</li>
-      </ul>
+      <div class="how-wrap">
+        <div>
+          <h2>How this works</h2>
+          <p>A lot of companion planting advice feels like one giant chart nobody wants to read. Most people are not trying to memorize every possible plant pairing in the garden.</p>
+          <p>They just want to know things like: if I like cucumbers, what should I grow near them? If I want tomatoes, what helps them? What brings pollinators? What helps with pests? What makes sense in a real backyard bed without turning it into a crowded mess?</p>
+          <p>That is the better way to think about it. Grow what you actually like to eat, then build a small support crew around it.</p>
+          <p>Instead of treating companion planting like magic, it helps to think about what each nearby plant is actually doing.</p>
+        </div>
+        <div class="side-box">
+          <h3>Helpful little jobs nearby plants can do</h3>
+          <div class="help-bubbles">
+            <span>bringing pollinators</span>
+            <span>confusing or distracting pests</span>
+            <span>holding moisture or shading soil</span>
+            <span>using space differently</span>
+            <span>adding a useful second crop instead of random filler</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="section">
