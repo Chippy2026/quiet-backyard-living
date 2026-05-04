@@ -25,8 +25,9 @@
     .finder-note { margin-top:1rem; color:#5d4a32; font-weight:600; }
     .finder-help { margin:.2rem 0 1rem; color:#5f4b31; font-size:1.02rem; }
     .how-wrap, .example-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
-    .help-bubbles { display:flex; flex-wrap:wrap; gap:.7rem; }
-    .help-bubbles span { display:inline-block; background:#fff8e8; border:1px solid #ecd9a3; border-radius:999px; padding:.7rem 1rem; color:#5a472e; }
+    .helper-list { margin:0; padding-left:1.2rem; }
+    .helper-list li { margin-bottom:.7rem; }
+    .helper-list li:last-child { margin-bottom:0; }
     .side-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .side-box h3 { margin-top:0; margin-bottom:.75rem; }
     .crop-list { list-style:none; padding:0; margin:0; }
@@ -80,13 +81,13 @@
         </div>
         <div class="side-box">
           <h3>Helpful little jobs nearby plants can do</h3>
-          <div class="help-bubbles">
-            <span>bringing pollinators</span>
-            <span>confusing or distracting pests</span>
-            <span>holding moisture or shading soil</span>
-            <span>using space differently</span>
-            <span>adding a useful second crop instead of random filler</span>
-          </div>
+          <ul class="helper-list">
+            <li>bringing pollinators</li>
+            <li>confusing or distracting pests</li>
+            <li>holding moisture or shading soil</li>
+            <li>using space differently</li>
+            <li>adding a useful second crop instead of random filler</li>
+          </ul>
         </div>
       </div>
     </section>
