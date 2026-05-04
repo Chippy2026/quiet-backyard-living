@@ -13,6 +13,7 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
+    .friends-wrap { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
     .friend-list { list-style:none; padding:0; margin:0; }
     .friend-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
     .friend-list li:last-child { border-bottom:none; }
@@ -22,6 +23,7 @@
     .fact-box ul { margin:0; padding-left:1.2rem; }
     .fact-box li { margin-bottom:.7rem; }
     .fact-box li:last-child { margin-bottom:0; }
+    @media (max-width:900px){ .friends-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -48,15 +50,27 @@
     </section>
 
     <section class="section">
-      <h2>Good nearby friends for tomatoes</h2>
-      <ul class="friend-list">
-        <li><strong>Basil</strong> One of the easiest and most useful herbs to tuck near tomatoes. It stays practical, smells great, and fits the same general warm-season mood.</li>
-        <li><strong>Marigolds</strong> Good for adding color, breaking up the bed visually, and supporting the old garden habit of mixing flowers into food-growing spaces.</li>
-        <li><strong>Onions</strong> A nice lower-growing crop that can fit nearby without becoming a huge bully in the bed.</li>
-        <li><strong>Chives</strong> Small, useful, and easy to tuck in around the edges without stealing too much space.</li>
-        <li><strong>Parsley</strong> A practical little edible that can live in the same general zone and give you another useful harvest from the space.</li>
-        <li><strong>Lettuce early in the season</strong> This can work better before tomatoes get big and start taking over the bed with shade and thirst.</li>
-      </ul>
+      <div class="friends-wrap">
+        <div>
+          <h2>Good nearby friends for tomatoes</h2>
+          <ul class="friend-list">
+            <li><strong>Basil</strong> One of the easiest and most useful herbs to tuck near tomatoes. It stays practical, smells great, and fits the same general warm-season mood.</li>
+            <li><strong>Marigolds</strong> Good for adding color, breaking up the bed visually, and supporting the old garden habit of mixing flowers into food-growing spaces.</li>
+            <li><strong>Onions</strong> A nice lower-growing crop that can fit nearby without becoming a huge bully in the bed.</li>
+            <li><strong>Chives</strong> Small, useful, and easy to tuck in around the edges without stealing too much space.</li>
+            <li><strong>Parsley</strong> A practical little edible that can live in the same general zone and give you another useful harvest from the space.</li>
+            <li><strong>Lettuce early in the season</strong> This can work better before tomatoes get big and start taking over the bed with shade and thirst.</li>
+          </ul>
+        </div>
+        <div class="fact-box">
+          <h3>Did you know?</h3>
+          <ul>
+            <li>A lot of old-fashioned tomato companion advice is less about magic pairings and more about breaking up the bed with herbs, flowers, and useful smaller crops.</li>
+            <li>Lettuce may seem like a nice tomato neighbor at first, but once the tomatoes get big, lettuce often loses the battle for light and moisture.</li>
+            <li>Basil is not just a tomato cliché, it is also one of the easiest useful herbs to tuck into a food bed without making the whole thing harder to manage.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="section">
@@ -91,17 +105,6 @@
         <li>chives or onions spaced around the bed</li>
         <li>lettuce only early, before the tomatoes take over</li>
       </ul>
-    </section>
-
-    <section class="section">
-      <div class="fact-box">
-        <h3>Did you know?</h3>
-        <ul>
-          <li>A lot of old-fashioned tomato companion advice is less about magic pairings and more about breaking up the bed with herbs, flowers, and useful smaller crops.</li>
-          <li>Lettuce may seem like a nice tomato neighbor at first, but once the tomatoes get big, lettuce often loses the battle for light and moisture.</li>
-          <li>Basil is not just a tomato cliché, it is also one of the easiest useful herbs to tuck into a food bed without making the whole thing harder to manage.</li>
-        </ul>
-      </div>
     </section>
 
     <section class="section">
