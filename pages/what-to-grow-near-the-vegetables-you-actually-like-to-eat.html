@@ -13,11 +13,16 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .finder-box { background:#f8f4ed; border:1px solid #e4dccd; border-radius:22px; padding:1.2rem; margin:2rem 0; }
-    .finder-box input { width:100%; padding:1rem; border:1px solid #cbbda8; border-radius:14px; font-size:1rem; margin-bottom:1rem; }
-    .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
-    .finder-results a, .finder-results button { background:#fff; border:1px solid #d7c8b2; border-radius:999px; padding:.7rem 1rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; }
+    .finder-box { background:linear-gradient(180deg,#fff8ee 0%,#f6efe3 100%); border:1px solid #e4dccd; border-radius:28px; padding:1.4rem; margin:2rem 0; box-shadow:0 18px 40px rgba(84,60,24,.08); }
+    .finder-kicker { font-size:.82rem; letter-spacing:.08em; text-transform:uppercase; color:#8b6b36; font-weight:700; margin-bottom:.4rem; }
+    .finder-box h2 { margin-bottom:.4rem; }
+    .finder-box input { width:100%; padding:1rem 1rem; border:1px solid #cbbda8; border-radius:16px; font-size:1rem; margin-bottom:.9rem; background:#fffdf9; }
+    .finder-box input:focus { outline:none; border-color:#b8893e; box-shadow:0 0 0 4px rgba(184,137,62,.12); }
+    .finder-chips, .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
+    .finder-chip, .finder-results a, .finder-results button { background:#fff; border:1px solid #d7c8b2; border-radius:999px; padding:.72rem 1rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; }
+    .finder-chip:hover, .finder-results a:hover, .finder-results button:hover { background:#fff4dc; }
     .finder-note { margin-top:1rem; color:#6a5a45; }
+    .finder-help { margin:.2rem 0 1rem; color:#6e5d45; }
     .preview-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
     .preview-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .didyouknow { background:#fff8e8; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:14px; margin:1rem 0; }
@@ -50,10 +55,13 @@
     </section>
 
     <section class="section finder-box">
-      <h2>Find what to grow near your favorite vegetable</h2>
+      <p class="finder-kicker">Little crop finder</p>
+      <h2>What do you like to grow or eat most?</h2>
+      <p class="finder-help">Start with one vegetable you actually care about, then we can help build a better little neighborhood around it.</p>
       <input id="cropFinder" type="text" placeholder="Type something like tomatoes, cucumbers, peppers, lettuce...">
+      <div id="finderChips" class="finder-chips"></div>
       <div id="finderResults" class="finder-results"></div>
-      <p id="finderNote" class="finder-note">Start typing a vegetable name to see matching pages. Pages we have not built yet can show up as coming soon.</p>
+      <p id="finderNote" class="finder-note">Start typing a vegetable name to see matching pages, or tap one of the quick picks below.</p>
     </section>
 
     <section class="section">
@@ -125,13 +133,15 @@
     const results = document.getElementById('finderResults');
     const note = document.getElementById('finderNote');
 
+    const chips = document.getElementById('finderChips');
+
     function render(matches) {
       results.innerHTML = '';
       if (!matches.length) {
         note.textContent = 'No close match yet. Try tomatoes, cucumbers, peppers, lettuce, kale, beans, squash, strawberries, carrots, or cabbage.';
         return;
       }
-      note.textContent = 'Pick a crop below.';
+      note.textContent = matches.length === 1 ? 'Here is the closest match so far.' : 'Here are the closest matches so far.';
       matches.forEach(crop => {
         const el = document.createElement(crop.url === '#' ? 'button' : 'a');
         el.textContent = crop.url === '#' ? `${crop.name} (${crop.status})` : crop.name;
@@ -141,11 +151,27 @@
       });
     }
 
+    function quickPick(term) {
+      input.value = term;
+      const q = term.trim().toLowerCase();
+      const matches = crops.filter(c => c.terms.some(t => t.includes(q) || q.includes(t)) || c.name.toLowerCase().includes(q));
+      render(matches);
+    }
+
+    ['Tomatoes','Cucumbers','Peppers','Lettuce','Kale','Beans','Squash'].forEach(label => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'finder-chip';
+      btn.textContent = label;
+      btn.addEventListener('click', () => quickPick(label));
+      chips.appendChild(btn);
+    });
+
     input.addEventListener('input', () => {
       const q = input.value.trim().toLowerCase();
       if (!q) {
         results.innerHTML = '';
-        note.textContent = 'Start typing a vegetable name to see matching pages. Pages we have not built yet can show up as coming soon.';
+        note.textContent = 'Start typing a vegetable name to see matching pages, or tap one of the quick picks below.';
         return;
       }
       const matches = crops.filter(c => c.terms.some(t => t.includes(q) || q.includes(t)) || c.name.toLowerCase().includes(q));
