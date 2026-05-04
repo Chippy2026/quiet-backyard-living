@@ -23,15 +23,19 @@
     .finder-results a:hover, .finder-results button:hover { background:#fff4dc; }
     .finder-note { margin-top:1rem; color:#6a5a45; }
     .finder-help { margin:.2rem 0 1rem; color:#6e5d45; }
-    .how-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .how-wrap, .example-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
     .help-bubbles { display:flex; flex-wrap:wrap; gap:.7rem; }
     .help-bubbles span { display:inline-block; background:#fff8e8; border:1px solid #ecd9a3; border-radius:999px; padding:.7rem 1rem; color:#5a472e; }
     .side-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .side-box h3 { margin-top:0; margin-bottom:.75rem; }
-    .preview-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
-    .preview-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
-    .didyouknow { background:#fff8e8; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:14px; margin:1rem 0; }
-    @media (max-width:850px){ .preview-grid, .how-wrap { grid-template-columns:1fr; } }
+    .crop-list { list-style:none; padding:0; margin:0; }
+    .crop-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
+    .crop-list li:last-child { border-bottom:none; }
+    .crop-list strong { display:block; margin-bottom:.25rem; color:#3b2f22; }
+    .side-box ul { margin:0; padding-left:1.2rem; }
+    .side-box li { margin-bottom:.7rem; }
+    .side-box li:last-child { margin-bottom:0; }
+    @media (max-width:850px){ .how-wrap, .example-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -87,21 +91,26 @@
     </section>
 
     <section class="section">
-      <h2>A few simple examples</h2>
-      <div class="preview-grid">
-        <div class="preview-card"><h3>Cucumbers</h3><p>Try thinking about dill, nasturtiums, marigolds, radishes, or bush beans as a little support crew around cucumbers.</p></div>
-        <div class="preview-card"><h3>Tomatoes</h3><p>Basil, marigolds, onions, chives, and even some early lettuce can make a lot more sense than a bare tomato row.</p></div>
-        <div class="preview-card"><h3>Peppers</h3><p>Peppers often pair nicely with basil, marigolds, onions, carrots, and parsley without making the bed feel too chaotic.</p></div>
-        <div class="preview-card"><h3>Lettuce</h3><p>Lettuce usually does better with gentler neighbors and good timing, not with bigger thirstier plants that take over fast.</p></div>
+      <div class="example-wrap">
+        <div>
+          <h2>A few simple examples</h2>
+          <ul class="crop-list">
+            <li><strong>Cucumbers</strong> Try thinking about dill, nasturtiums, marigolds, radishes, or bush beans as a little support crew around cucumbers.</li>
+            <li><strong>Tomatoes</strong> Basil, marigolds, onions, chives, and even some early lettuce can make a lot more sense than a bare tomato row.</li>
+            <li><strong>Peppers</strong> Peppers often pair nicely with basil, marigolds, onions, carrots, and parsley without making the bed feel too chaotic.</li>
+            <li><strong>Lettuce</strong> Lettuce usually does better with gentler neighbors and good timing, not with bigger thirstier plants that take over fast.</li>
+          </ul>
+        </div>
+        <div class="side-box">
+          <h3>Did you know?</h3>
+          <ul>
+            <li>Squash plants need pollinators more than some people realize, which is one reason flowers nearby can be so helpful.</li>
+            <li>Lettuce often loses the battle when larger neighboring plants start taking too much light and moisture.</li>
+            <li>Nasturtiums are not just pretty, they can also act like a little distraction plant for some pests.</li>
+            <li>Dill does more than flavor pickles, once it flowers, it can help attract beneficial insects too.</li>
+          </ul>
+        </div>
       </div>
-    </section>
-
-    <section class="section">
-      <h2>Did you know?</h2>
-      <div class="didyouknow"><strong>Did you know?</strong> Squash plants need pollinators more than some people realize, which is one reason flowers nearby can be so helpful.</div>
-      <div class="didyouknow"><strong>Did you know?</strong> Lettuce often loses the battle when larger neighboring plants start taking too much light and moisture.</div>
-      <div class="didyouknow"><strong>Did you know?</strong> Nasturtiums are not just pretty, they can also act like a little distraction plant for some pests.</div>
-      <div class="didyouknow"><strong>Did you know?</strong> Dill does more than flavor pickles, once it flowers, it can help attract beneficial insects too.</div>
     </section>
 
     <section class="section">
