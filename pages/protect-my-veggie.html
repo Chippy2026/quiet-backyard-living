@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Protect My Veggie | Quiet Backyard Living</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4E1BHTRHF3');
+  </script>
+  <style>
+    .finder-box { background:linear-gradient(180deg,#fff8ee 0%,#f6efe3 100%); border:1px solid #e4dccd; border-radius:28px; padding:1.4rem; margin:2rem 0; box-shadow:0 18px 40px rgba(84,60,24,.08); }
+    .finder-kicker { font-size:.82rem; letter-spacing:.08em; text-transform:uppercase; color:#8b6b36; font-weight:700; margin-bottom:.4rem; }
+    .finder-box input { width:100%; padding:1rem; border:1px solid #cbbda8; border-radius:16px; font-size:1rem; margin-bottom:.9rem; background:#fffdf9; }
+    .finder-box input:focus { outline:none; border-color:#b8893e; box-shadow:0 0 0 4px rgba(184,137,62,.12); }
+    .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
+    .finder-results a, .finder-results button { background:#fff; border:1px solid #d7c8b2; border-radius:999px; padding:.72rem 1rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; }
+    .finder-note { margin-top:1rem; color:#6a5a45; }
+    .how-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .side-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .side-box h3 { margin-top:0; margin-bottom:.75rem; }
+    .helper-list { margin:0; padding-left:1.2rem; }
+    .helper-list li { margin-bottom:.7rem; }
+    .example-wrap { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .crop-list { list-style:none; padding:0; margin:0; }
+    .crop-list li { margin:0; padding:.8rem 0; border-bottom:1px solid #eadfce; }
+    .crop-list li:last-child { border-bottom:none; padding-bottom:0; }
+    .crop-list strong { display:block; margin-bottom:.15rem; color:#3b2f22; }
+    @media (max-width:850px){ .how-wrap, .example-wrap { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><div class="nav-brand-wrap"><div class="brand">Quiet Backyard Living</div></div><nav class="nav-links"><a href="/">Home</a><a href="/pages/about.html">Meet the Crew</a><a href="/pages/blog.html">Backyard Tips & Ideas</a><a href="/pages/projects.html">See the Projects</a></nav></div></header>
+  <main class="container">
+    <section class="page-hero">
+      <h1>Protect My Veggie</h1>
+      <p class="subhead">Type in the vegetable you want to protect, and jump straight to the natural pest deterrent section for that crop.</p>
+    </section>
+
+    <section class="section finder-box">
+      <p class="finder-kicker">Natural pest help</p>
+      <h2>What veggie are you trying to protect?</h2>
+      <form id="protectFinderForm">
+        <input id="protectFinder" type="text" placeholder="Type something like tomatoes, cucumbers, peppers, lettuce...">
+      </form>
+      <div id="protectResults" class="finder-results"></div>
+      <p id="protectNote" class="finder-note">Start typing a vegetable name to jump right to the pest-help section for that crop.</p>
+    </section>
+
+    <section class="section">
+      <div class="how-wrap">
+        <div>
+          <h2>How this works</h2>
+          <p>Most people do not want one giant pest article. They just want help protecting the crop they actually care about.</p>
+          <p>That is the idea here. Start with the vegetable, then jump right to the natural pest deterrent section inside that crop page.</p>
+        </div>
+        <div class="side-box">
+          <h3>What you’ll find</h3>
+          <ul class="helper-list">
+            <li>simple natural deterrent ideas</li>
+            <li>spacing and airflow reminders</li>
+            <li>what helps most</li>
+            <li>practical old-school support methods</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="example-wrap">
+        <div>
+          <h2>A few examples</h2>
+          <ul class="crop-list">
+            <li><strong>Tomatoes</strong> Jump straight to the tomato pest-help section and see what helps most without rereading the whole page.</li>
+            <li><strong>Cucumbers</strong> Go right to cucumber protection ideas once that section is built out.</li>
+            <li><strong>Lettuce</strong> Find the gentler cool-season protection advice without digging for it.</li>
+          </ul>
+        </div>
+        <div class="side-box">
+          <h3>Simple is good</h3>
+          <p>You do not need every old remedy under the sun. Usually you just need the right crop, the right section, and a few natural protection ideas that actually make sense.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><p><strong>Quiet Backyard Living</strong> — QuietBackyardLiving.com</p></div></footer>
+
+  <script>
+    const protectCrops = [
+      { name: 'Tomatoes', url: '/pages/what-to-grow-near-tomatoes.html#protect-my-veggie', terms: ['tomato', 'tomatoes'] },
+      { name: 'Cucumbers', url: '/pages/what-to-grow-near-cucumbers.html', terms: ['cucumber', 'cucumbers'] },
+      { name: 'Peppers', url: '/pages/what-to-grow-near-peppers.html', terms: ['pepper', 'peppers'] },
+      { name: 'Lettuce', url: '/pages/what-to-grow-near-lettuce.html', terms: ['lettuce'] },
+      { name: 'Kale', url: '/pages/what-to-grow-near-kale.html', terms: ['kale'] },
+      { name: 'Peas', url: '/pages/what-to-grow-near-peas.html', terms: ['pea', 'peas'] },
+      { name: 'Carrots', url: '/pages/what-to-grow-near-carrots.html', terms: ['carrot', 'carrots'] },
+      { name: 'Squash or Zucchini', url: '/pages/what-to-grow-near-squash.html', terms: ['squash', 'zucchini'] },
+      { name: 'Strawberries', url: '/pages/what-to-grow-near-strawberries.html', terms: ['strawberry', 'strawberries'] },
+      { name: 'Cabbage Family Crops', url: '/pages/what-to-grow-near-cabbage-family-crops.html', terms: ['cabbage', 'broccoli', 'cauliflower', 'brassicas'] }
+    ];
+
+    const form = document.getElementById('protectFinderForm');
+    const input = document.getElementById('protectFinder');
+    const results = document.getElementById('protectResults');
+    const note = document.getElementById('protectNote');
+
+    function getMatches(q) {
+      return protectCrops.filter(c => c.terms.some(t => t.includes(q) || q.includes(t)) || c.name.toLowerCase().includes(q));
+    }
+
+    function render(matches) {
+      results.innerHTML = '';
+      if (!matches.length) {
+        note.textContent = 'No close match yet. Try tomatoes, cucumbers, peppers, lettuce, kale, peas, carrots, squash, strawberries, or cabbage.';
+        return;
+      }
+      note.textContent = matches.length === 1 ? 'Here is the closest match so far.' : 'Here are the closest matches so far.';
+      matches.forEach(crop => {
+        const el = document.createElement('a');
+        el.textContent = crop.name;
+        el.href = crop.url;
+        results.appendChild(el);
+      });
+    }
+
+    function goToBestMatch() {
+      const q = input.value.trim().toLowerCase();
+      if (!q) return;
+      const matches = getMatches(q);
+      render(matches);
+      if (!matches.length) return;
+      window.location.href = matches[0].url;
+    }
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) {
+        results.innerHTML = '';
+        note.textContent = 'Start typing a vegetable name to jump right to the pest-help section for that crop.';
+        return;
+      }
+      render(getMatches(q));
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      goToBestMatch();
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        goToBestMatch();
+      }
+    });
+  </script>
+</body>
+</html>
