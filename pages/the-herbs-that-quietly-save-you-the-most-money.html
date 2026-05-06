@@ -13,14 +13,21 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .value-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
-    .value-card { background:#f8f4ed; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
-    .quick-picks { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:16px; padding:1rem 1.1rem; }
-    .quick-picks h3 { margin-top:0; }
-    .link-list { list-style:none; padding:0; margin:0; }
-    .link-list li { margin:0 0 .8rem; padding-bottom:.8rem; border-bottom:1px solid #eadfce; }
-    .link-list li:last-child { border-bottom:none; }
-    @media (max-width:850px){ .value-grid { grid-template-columns:1fr; } }
+    .hero-note { max-width: 760px; }
+    .lead-grid, .picks-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+    .soft-card { background:#f8f4ed; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
+    .soft-card h3 { margin-top:0; }
+    .herb-rank { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1.1rem 1.2rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .herb-rank h3 { margin-top:0; margin-bottom:.35rem; }
+    .rank-line { color:#7a6855; font-size:.95rem; margin-bottom:.65rem; }
+    .tiny-label { display:inline-block; font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; }
+    .flow-list { margin:0; padding-left:1.15rem; }
+    .flow-list li { margin-bottom:.45rem; }
+    .quote-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:18px; padding:1.1rem 1.2rem; }
+    .quote-box p:last-child { margin-bottom:0; }
+    .next-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
+    .next-card a { text-decoration:none; }
+    @media (max-width:850px){ .lead-grid, .picks-grid, .next-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -41,103 +48,143 @@
   <main class="container">
     <section class="page-hero">
       <h1>The Herbs That Quietly Save You the Most Money</h1>
-      <p class="subhead">A simple realistic look at which backyard herbs give the most everyday value, especially if you actually cook with them, dry them, or keep growing them year after year.</p>
+      <p class="subhead hero-note">If you want a backyard crop that feels useful almost immediately, herbs are hard to beat. They fit small spaces, get used in real life, and keep paying you back in little ways all season long.</p>
     </section>
 
     <section class="section">
-      <p>Some garden crops feel exciting for a minute and then disappear into one meal. Herbs are different. A little basil, thyme, oregano, parsley, mint, or chives can keep showing up again and again in the kitchen, and that repeated usefulness is a big part of why they are such a smart backyard choice.</p>
-      <p>You also do not need a huge setup to feel the benefit. A few containers, a small raised bed, or a sunny strip near the house can be enough to start growing things you really use.</p>
-    </section>
-
-    <section class="section">
-      <div class="quick-picks">
-        <h3>Quick picks if you want the simplest answer</h3>
-        <ul>
-          <li><strong>Best fast payoff:</strong> basil</li>
-          <li><strong>Best for drying:</strong> thyme and oregano</li>
-          <li><strong>Best everyday workhorse:</strong> parsley</li>
-          <li><strong>Best easy repeat harvest:</strong> chives</li>
-          <li><strong>Best tea herb:</strong> mint, in a pot</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>The herbs that usually give the best value</h2>
-      <p>These are not exact guarantees. They are just simple real-world examples of the herbs that tend to give the most everyday value for normal backyard growers.</p>
-      <div class="value-grid">
-        <div class="value-card">
-          <h3>Basil</h3>
-          <p><strong>Around $3</strong> for a seed packet, and around <strong>$3</strong> for a small fresh bunch at store-style value.</p>
-          <p>Fast growing, easy to use, and one of the quickest herbs to feel worth it.</p>
+      <div class="lead-grid">
+        <div>
+          <p>Some garden crops feel exciting for one weekend and then vanish into a single meal. Herbs are different. A little basil, thyme, parsley, oregano, chives, or mint can keep showing up again and again in the kitchen.</p>
+          <p>That is what makes them feel valuable. Not because they are flashy, but because they are familiar, useful, and easy to reach for.</p>
         </div>
-        <div class="value-card">
-          <h3>Thyme</h3>
-          <p><strong>Around $3</strong> for seed, around <strong>$3</strong> fresh, and around <strong>$6</strong> in small dried-herb value.</p>
-          <p>A small harvest goes a long way, which is exactly why thyme quietly saves money.</p>
-        </div>
-        <div class="value-card">
-          <h3>Oregano</h3>
-          <p><strong>Around $3</strong> for seed, around <strong>$3</strong> fresh, and around <strong>$6</strong> dried.</p>
-          <p>One of the easiest herbs to dry, store, and keep using over time.</p>
-        </div>
-        <div class="value-card">
-          <h3>Parsley</h3>
-          <p><strong>Around $3</strong> for seed and around <strong>$3</strong> for a fresh bunch.</p>
-          <p>Not flashy, just genuinely useful in a lot of everyday cooking.</p>
-        </div>
-        <div class="value-card">
-          <h3>Chives</h3>
-          <p><strong>Around $4 to $6</strong> for a starter plant, then repeated little harvests all season.</p>
-          <p>Easy, pretty, and one of the simplest herbs to keep snipping as needed.</p>
-        </div>
-        <div class="value-card">
-          <h3>Mint</h3>
-          <p><strong>Around $4 to $6</strong> for a starter plant, with lots of repeat harvest value for tea and drinks.</p>
-          <p>Very productive, just give it its own pot unless you want a mint takeover.</p>
+        <div class="soft-card">
+          <span class="tiny-label">The short answer</span>
+          <h3>Best herbs to start with</h3>
+          <ul class="flow-list">
+            <li><strong>basil</strong> for quick fresh payoff</li>
+            <li><strong>thyme</strong> and <strong>oregano</strong> for drying</li>
+            <li><strong>parsley</strong> for everyday usefulness</li>
+            <li><strong>chives</strong> for easy repeat harvests</li>
+            <li><strong>mint</strong> for tea, but keep it in a pot</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>If I were starting from scratch</h2>
+      <h2>Why herbs feel worth it so quickly</h2>
+      <div class="picks-grid">
+        <div class="soft-card">
+          <h3>You use them a little at a time</h3>
+          <p>That means even one healthy plant can stretch farther than people expect.</p>
+        </div>
+        <div class="soft-card">
+          <h3>Store prices can feel silly</h3>
+          <p>Fresh herbs often cost enough that growing your own starts making sense fast.</p>
+        </div>
+        <div class="soft-card">
+          <h3>They fit small spaces</h3>
+          <p>Containers, raised beds, porch pots, and little sunny corners all work.</p>
+        </div>
+        <div class="soft-card">
+          <h3>Several keep giving</h3>
+          <p>Cut them, dry them, divide them, or save seed, and the value keeps rolling.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="quote-box">
+        <p><strong>This is the kind of garden math I like:</strong> small cost up front, repeated little harvests, and something you actually use in real life.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>My six best-value herb picks</h2>
+      <div class="herb-rank">
+        <span class="tiny-label">Fastest payoff</span>
+        <h3>1. Basil</h3>
+        <div class="rank-line">Around $3 seed packet, around $3 fresh-bunch value</div>
+        <p>Basil is probably the quickest herb to make a normal person feel like growing herbs was a smart idea. It grows fast, tastes obvious, and fits right into food people already make.</p>
+      </div>
+      <div class="herb-rank">
+        <span class="tiny-label">Best quiet workhorse</span>
+        <h3>2. Parsley</h3>
+        <div class="rank-line">Around $3 seed packet, around $3 fresh-bunch value</div>
+        <p>Parsley is not dramatic, which is exactly why it is so good. It slips into soups, eggs, potatoes, salads, sauces, and a lot of small everyday meals.</p>
+      </div>
+      <div class="herb-rank">
+        <span class="tiny-label">Best drying herb</span>
+        <h3>3. Oregano</h3>
+        <div class="rank-line">Around $3 seed packet, around $3 fresh, around $6 dried value</div>
+        <p>Oregano is one of the easiest herbs to dry and keep using. If you want something that keeps paying you back after harvest day, this is a strong one.</p>
+      </div>
+      <div class="herb-rank">
+        <span class="tiny-label">Best small-but-mighty herb</span>
+        <h3>4. Thyme</h3>
+        <div class="rank-line">Around $3 seed packet, around $3 fresh, around $6 dried value</div>
+        <p>Thyme is a great example of a little plant doing more than you expect. You do not need much of it, which makes every trim feel useful.</p>
+      </div>
+      <div class="herb-rank">
+        <span class="tiny-label">Best easy snipping herb</span>
+        <h3>5. Chives</h3>
+        <div class="rank-line">Around $4 to $6 starter plant, then repeat harvests</div>
+        <p>Chives are calm, pretty, and low-drama. They are one of the easiest herbs to walk out, snip a little, and actually use that same day.</p>
+      </div>
+      <div class="herb-rank">
+        <span class="tiny-label">Best tea herb</span>
+        <h3>6. Mint</h3>
+        <div class="rank-line">Around $4 to $6 starter plant, lots of repeat harvest value</div>
+        <p>Mint can be wildly generous, especially for tea or summer drinks. The only real catch is that it behaves better when it lives in its own pot.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>If I wanted the simplest starter herb setup</h2>
       <ul>
-        <li>grow basil for fast kitchen value</li>
-        <li>grow thyme and oregano for drying</li>
-        <li>grow parsley because you will probably use it more than you think</li>
-        <li>grow chives for easy repeat harvests</li>
-        <li>grow mint in a pot if you like tea or cold drinks</li>
+        <li>one pot of basil</li>
+        <li>one pot or patch of parsley</li>
+        <li>one thyme plant</li>
+        <li>one oregano plant</li>
+        <li>one clump of chives</li>
       </ul>
+      <p>That little group covers fresh use, drying, repeat harvesting, and real kitchen usefulness without feeling like a whole project by itself.</p>
     </section>
 
     <section class="section">
-      <h2>Why herbs are such a good long-game value</h2>
-      <p>Herbs save money in a quieter way than most crops. You use a little at a time, but you use them often. And if you dry them, divide them, or save seed from the ones that want to keep going, the value keeps stretching.</p>
-      <p>That is why herbs can feel a little like forever money. Not in a gimmicky way, just in a steady practical backyard way.</p>
+      <h2>Why herbs can feel like forever money</h2>
+      <p>Herbs are one of the few garden categories where the value often keeps stretching. You can cut them more than once. Some dry beautifully. Some reseed. Some divide. Some just keep quietly showing up whenever dinner needs a little help.</p>
+      <p>That is what I mean by forever money. Not hype. Just a small steady return from something simple and useful.</p>
     </section>
 
     <section class="section">
-      <h2>A few things to keep simple</h2>
+      <h2>Keep it simple</h2>
       <ul>
-        <li>grow the herbs you actually use</li>
-        <li>do not try too many at once</li>
+        <li>grow the herbs you really use</li>
+        <li>start with 3 to 5, not 15</li>
         <li>mint usually belongs in a pot</li>
-        <li>drying and storing well matters</li>
+        <li>drying and storing matter if you want full value</li>
         <li>some herbs are easier from starter plants than seed</li>
       </ul>
     </section>
 
     <section class="section">
-      <h2>Good next reads if this is your lane</h2>
-      <ul class="link-list">
-        <li><strong><a href="/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html">10 Simple Backyard Ideas to Attract More Wildlife and Maybe Even Pay for Themselves</a></strong><br>Broad backyard ideas with herbs as one of the strongest starting points.</li>
-        <li><strong><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></strong><br>A simpler way to think about productive backyard planting without making the whole thing feel complicated.</li>
-      </ul>
+      <h2>Keep reading</h2>
+      <div class="next-grid">
+        <div class="next-card">
+          <h3><a href="/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html">10 Simple Backyard Ideas to Attract More Wildlife and Maybe Even Pay for Themselves</a></h3>
+          <p>Broad backyard ideas with herbs as one of the strongest and simplest starting points.</p>
+        </div>
+        <div class="next-card">
+          <h3><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></h3>
+          <p>A simpler way to think about productive planting without turning the whole yard into a chart.</p>
+        </div>
+      </div>
     </section>
 
     <section class="section">
       <h2>Bottom line</h2>
-      <p>If you want one of the simplest, warmest, most practical ways for a backyard to give something back, herbs are hard to beat. They are useful, attractive, often beginner-friendly, and one of the few things that can quietly save money over and over again without asking for a huge amount of space.</p>
+      <p>If you want one of the warmest, easiest, most practical ways for a backyard to give something back, start with herbs. They are useful, forgiving, beautiful in their own quiet way, and one of the simplest places to feel real value from a small space.</p>
       <p><a class="button cta-blue" href="/pages/blog.html">Back to Backyard Tips & Ideas</a></p>
     </section>
   </main>
