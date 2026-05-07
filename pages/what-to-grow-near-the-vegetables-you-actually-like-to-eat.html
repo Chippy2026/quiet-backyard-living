@@ -20,25 +20,32 @@
     .finder-box input { width:100%; padding:1.15rem 1.1rem; border:2px solid #c79a45; border-radius:18px; font-size:1.05rem; margin-bottom:.9rem; background:#fffdf9; box-shadow:inset 0 1px 0 rgba(255,255,255,.7); }
     .finder-box input:focus { outline:none; border-color:#9f6f1b; box-shadow:0 0 0 5px rgba(184,137,62,.18); }
     .finder-results { display:flex; flex-wrap:wrap; gap:.7rem; }
-    .finder-results a, .finder-results button { background:#fff; border:1px solid #caa05b; border-radius:999px; padding:.78rem 1.05rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; font-weight:600; }
-    .finder-results a:hover, .finder-results button:hover { background:#fff1cf; }
+    .finder-results a, .finder-results button, .quick-picks button { background:#fff; border:1px solid #caa05b; border-radius:999px; padding:.78rem 1.05rem; text-decoration:none; color:#3b2f22; font:inherit; cursor:pointer; font-weight:600; }
+    .finder-results a:hover, .finder-results button:hover, .quick-picks button:hover { background:#fff1cf; }
     .finder-note { margin-top:1rem; color:#5d4a32; font-weight:600; }
     .finder-help { margin:.2rem 0 1rem; color:#5f4b31; font-size:1.02rem; }
-    .how-wrap, .example-wrap { display:grid; grid-template-columns:minmax(0,1.55fr) minmax(280px,.85fr); gap:1.4rem; align-items:start; }
+    .quick-picks { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.9rem; }
+    .two-col, .example-wrap, .plan-wrap { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(280px,.9fr); gap:1.4rem; align-items:start; }
     .helper-list { margin:0; padding-left:1.2rem; }
     .helper-list li { margin-bottom:.7rem; }
     .helper-list li:last-child { margin-bottom:0; }
-    .side-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); margin-top:.15rem; }
-    .side-box h3 { margin-top:0; margin-bottom:.75rem; }
+    .side-box, .plan-card { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); margin-top:.15rem; }
+    .side-box h3, .plan-card h3 { margin-top:0; margin-bottom:.75rem; }
     .crop-list { list-style:none; padding:0; margin:0; }
     .crop-list li { margin:0; padding:.8rem 0; border-bottom:1px solid #eadfce; }
     .crop-list li:first-child { padding-top:.2rem; }
     .crop-list li:last-child { border-bottom:none; padding-bottom:0; }
     .crop-list strong { display:block; margin-bottom:.15rem; color:#3b2f22; }
+    .mini-steps { counter-reset:step; list-style:none; padding:0; margin:0; }
+    .mini-steps li { position:relative; padding:.1rem 0 .9rem 2.4rem; border-bottom:1px solid #eadfce; }
+    .mini-steps li:last-child { border-bottom:none; padding-bottom:0; }
+    .mini-steps li::before { counter-increment:step; content:counter(step); position:absolute; left:0; top:0; width:1.7rem; height:1.7rem; border-radius:999px; background:#f0dfb5; color:#6d4b17; display:flex; align-items:center; justify-content:center; font-weight:800; }
+    .callout-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:18px; padding:1rem 1.1rem; }
+    .callout-box p:last-child { margin-bottom:0; }
     .side-box ul { margin:0; padding-left:1.2rem; }
     .side-box li { margin-bottom:.7rem; }
     .side-box li:last-child { margin-bottom:0; }
-    @media (max-width:850px){ .how-wrap, .example-wrap { grid-template-columns:1fr; } }
+    @media (max-width:850px){ .two-col, .example-wrap, .plan-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -63,32 +70,59 @@
     <section class="section finder-box">
       <p class="finder-kicker">Little crop finder</p>
       <h2>What do you like to grow or eat most?</h2>
-      <p class="finder-help">Start with one vegetable you actually care about, then we can help build a better little neighborhood around it.</p>
+      <p class="finder-help">Start with one vegetable you actually care about, then build a more useful little support crew around it.</p>
       <form id="cropFinderForm">
         <input id="cropFinder" type="text" placeholder="Type something like tomatoes, cucumbers, peppers, lettuce...">
       </form>
       <div id="finderResults" class="finder-results"></div>
+      <div class="quick-picks">
+        <button type="button" onclick="quickPick('tomatoes')">Tomatoes</button>
+        <button type="button" onclick="quickPick('cucumbers')">Cucumbers</button>
+        <button type="button" onclick="quickPick('peppers')">Peppers</button>
+        <button type="button" onclick="quickPick('lettuce')">Lettuce</button>
+        <button type="button" onclick="quickPick('kale')">Kale</button>
+        <button type="button" onclick="quickPick('carrots')">Carrots</button>
+      </div>
       <p id="finderNote" class="finder-note">Start typing a vegetable name to see matching pages.</p>
     </section>
 
     <section class="section">
-      <div class="how-wrap">
+      <div class="two-col">
         <div>
-          <h2>How this works</h2>
+          <h2>How to think about companion planting without overcomplicating it</h2>
           <p>A lot of companion planting advice feels like one giant chart nobody wants to read. Most people are not trying to memorize every possible plant pairing in the garden.</p>
-          <p>They just want to know things like: if I like cucumbers, what should I grow near them? If I want tomatoes, what helps them? What brings pollinators? What helps with pests?</p>
-          <p>That is the better way to think about it. Grow what you actually like, then build a small support crew around it.</p>
-          <p>Instead of treating companion planting like magic, it helps to think about what each nearby plant is actually doing.</p>
+          <p>A better way to think about it is this: start with the crop you actually want, then ask what nearby plant could help in a practical way.</p>
+          <div class="callout-box">
+            <p><strong>Good companion planting is usually doing one of four things:</strong> bringing pollinators, confusing pests a little, using space differently, or giving you a second useful crop instead of dead empty space.</p>
+          </div>
         </div>
         <div class="side-box">
           <h3>Helpful little jobs nearby plants can do</h3>
           <ul class="helper-list">
-            <li>bringing pollinators</li>
-            <li>confusing or distracting pests</li>
-            <li>holding moisture or shading soil</li>
-            <li>using space differently</li>
-            <li>adding a useful second crop instead of random filler</li>
+            <li>bringing pollinators to crops that need visits</li>
+            <li>confusing or distracting certain pests</li>
+            <li>filling front edges with faster smaller crops</li>
+            <li>using shade, height, or root depth differently</li>
+            <li>giving you herbs or extra harvests from the same bed</li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="plan-wrap">
+        <div class="plan-card">
+          <h2>What to do in a real bed</h2>
+          <ol class="mini-steps">
+            <li><strong>Pick your main crop first.</strong> Tomatoes, cucumbers, peppers, lettuce, beans, carrots, whatever you actually want to eat.</li>
+            <li><strong>Add one or two helpers, not six random extras.</strong> Too many “companions” can make a bed more confusing, not better.</li>
+            <li><strong>Think in layers.</strong> Tall crops, middle crops, front-edge crops, and corner herbs or flowers usually make more sense than a flat row of everything.</li>
+            <li><strong>Leave breathing room.</strong> Good spacing still matters more than a clever pairing chart.</li>
+          </ol>
+        </div>
+        <div class="side-box">
+          <h3>Common beginner mistake</h3>
+          <p>People hear “companion planting” and think every empty inch needs a plant. Usually a calmer bed with a few smart pairings works better than stuffing it full.</p>
         </div>
       </div>
     </section>
@@ -96,31 +130,31 @@
     <section class="section">
       <div class="example-wrap">
         <div>
-          <h2 style="margin-bottom:.65rem;">A few simple examples</h2>
+          <h2 style="margin-bottom:.65rem;">A few practical examples</h2>
           <ul class="crop-list">
-            <li><strong>Cucumbers</strong> Try thinking about dill, nasturtiums, marigolds, radishes, or bush beans as a little support crew around cucumbers.</li>
-            <li><strong>Tomatoes</strong> Basil, marigolds, onions, chives, and even some early lettuce can make a lot more sense than a bare tomato row.</li>
-            <li><strong>Peppers</strong> Peppers often pair nicely with basil, marigolds, onions, carrots, and parsley without making the bed feel too chaotic.</li>
-            <li><strong>Lettuce</strong> Lettuce usually does better with gentler neighbors and good timing, not with bigger thirstier plants that take over fast.</li>
+            <li><strong>Cucumbers</strong> Think trellis in back, cucumbers climbing, dill or nasturtiums nearby, and maybe a quick front edge of radishes or lettuce while the vines are still small.</li>
+            <li><strong>Tomatoes</strong> Basil, marigolds, onions, chives, and even some early lettuce can make more sense than a bare tomato row, but the real key is still airflow and not crowding the tomatoes too hard.</li>
+            <li><strong>Peppers</strong> Peppers often pair nicely with basil, onions, carrots, and parsley because the bed stays useful without feeling too chaotic or too thirsty.</li>
+            <li><strong>Lettuce</strong> Lettuce usually does better with gentler neighbors and good timing. It is one of the best crops for front edges and temporary filler while bigger plants are still small.</li>
           </ul>
         </div>
         <div class="side-box">
-          <h3>Did you know?</h3>
+          <h3>What actually helps most</h3>
           <ul>
-            <li>Squash plants need pollinators more than some people realize, which is one reason flowers nearby can be so helpful.</li>
-            <li>Lettuce often loses the battle when larger neighboring plants start taking too much light and moisture.</li>
-            <li>Nasturtiums are not just pretty, they can also act like a little distraction plant for some pests.</li>
-            <li>Dill does more than flavor pickles, once it flowers, it can help attract beneficial insects too.</li>
+            <li>matching plant size and timing better</li>
+            <li>keeping taller crops from shading smaller ones too early</li>
+            <li>using flowers where pollination matters most</li>
+            <li>using herbs where they are easy to reach and actually useful</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Companion planting is not magic</h2>
+      <h2>Companion planting is not magic, but it is still useful</h2>
       <p>Not every internet chart is trustworthy, and not every pairing works the same in every yard. Sun, spacing, soil, timing, and moisture still matter.</p>
       <p>But older gardeners did understand something important: healthy mixed plantings often work better than trying to grow everything in isolated little boxes and then fixing problems later with sprays.</p>
-      <p>If you are dealing with bugs too, try <a href="/pages/protect-my-veggie.html">Protect My Veggie</a> for crop-specific pest help.</p>
+      <p>If you want help laying a bed out, try <a href="/pages/build-my-garden-plan.html">Build My Garden Plan</a>. If you are dealing with bugs too, try <a href="/pages/protect-my-veggie.html">Protect My Veggie</a>.</p>
     </section>
 
   </main>
