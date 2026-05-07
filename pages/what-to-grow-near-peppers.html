@@ -13,19 +13,24 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .friends-wrap, .example-wrap, .pest-wrap { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
-    .friend-list { list-style:none; padding:0; margin:0; }
-    .friend-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
-    .friend-list li:last-child { border-bottom:none; }
-    .friend-list strong { display:block; margin-bottom:.25rem; color:#3b2f22; }
-    .fact-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:16px; }
-    .fact-box h3 { margin-top:0; margin-bottom:.7rem; }
-    .fact-box ul { margin:0; padding-left:1.2rem; }
-    .fact-box li { margin-bottom:.7rem; }
-    .fact-box li:last-child { margin-bottom:0; }
+    .snapshot-wrap, .reasons-wrap, .example-wrap, .pest-wrap { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .friend-list, .reason-list { list-style:none; padding:0; margin:0; }
+    .friend-list li, .reason-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
+    .friend-list li:last-child, .reason-list li:last-child { border-bottom:none; }
+    .friend-list strong, .reason-list strong { display:block; margin-bottom:.25rem; color:#3b2f22; }
+    .fact-box, .snapshot-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:16px; }
+    .fact-box h3, .snapshot-box h3 { margin-top:0; margin-bottom:.7rem; }
+    .fact-box ul, .snapshot-box ul { margin:0; padding-left:1.2rem; }
+    .fact-box li, .snapshot-box li { margin-bottom:.7rem; }
+    .fact-box li:last-child, .snapshot-box li:last-child { margin-bottom:0; }
+    .companion-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.85rem; }
+    .companion-card { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .companion-card h3 { margin-top:0; margin-bottom:.35rem; }
+    .warning-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .warning-box h3 { margin-top:0; }
     .pest-box { background:linear-gradient(180deg,#fff7e9 0%,#f8edd8 100%); border:2px solid #e2bf7b; border-radius:22px; padding:1.2rem; box-shadow:0 14px 30px rgba(109,73,18,.08); }
     .pest-box h2, .pest-box h3 { margin-top:0; }
-    @media (max-width:900px){ .friends-wrap, .example-wrap, .pest-wrap { grid-template-columns:1fr; } }
+    @media (max-width:900px){ .snapshot-wrap, .reasons-wrap, .example-wrap, .pest-wrap, .companion-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -33,9 +38,94 @@
   <main class="container">
     <section class="page-hero"><h1>What to Grow Near Peppers</h1></section>
     <section class="section"><p>Peppers usually do well with a few helpful neighbors around them instead of being left in a plain empty row. Even one or two good companion choices can help the bed feel more balanced, useful, and alive.</p></section>
-    <section class="section"><div class="friends-wrap"><div><h2>Good nearby friends for peppers</h2><ul class="friend-list"><li><strong>Basil</strong> A very easy herb to mix into a pepper bed without making the space feel overcomplicated.</li><li><strong>Marigolds</strong> Great for color, pollinator support, and breaking up the bed.</li><li><strong>Onions</strong> A small useful crop that can fit nearby without demanding a ton of space.</li><li><strong>Carrots</strong> A nice tucked-in edible if the bed has the depth and spacing for it.</li><li><strong>Parsley</strong> Another edible that fits the useful-support-crop idea well.</li></ul></div><div class="fact-box"><h3>Did you know?</h3><ul><li>Peppers like warm settled conditions more than early cold starts.</li><li>Flowers nearby can help make pepper beds feel more alive and useful, not just decorative.</li><li>Sweet peppers and hot peppers often want similar care even if their flavors go very different directions.</li></ul></div></div></section>
-    <section class="section"><div class="example-wrap"><div><h2>A simple pepper bed example</h2><p>A simple beginner-friendly mix could look like this:</p><ul><li>peppers as the main crop</li><li>basil tucked near a few plants</li><li>marigolds at edges or corners</li><li>onions or parsley filling some smaller spaces</li></ul></div><div class="fact-box"><h3>What to be careful about</h3><p>Peppers may stay smaller than tomatoes, but they still do not want to be jammed into a crowded bed with too many thirsty or sprawling neighbors.</p><ul><li>Give them warmth and sun.</li><li>Keep airflow decent.</li><li>Do not let companion plants overtake them.</li><li>Do not crowd roots too hard in small beds.</li></ul></div></div></section>
-    <section class="section"><div class="pest-box" id="protect-my-veggie"><div class="pest-wrap"><div><h2>Protect my peppers, what actually helps?</h2><p>If your pepper plants are curling, getting sticky, or looking chewed and stressed, the first pests to suspect are usually <strong>aphids</strong>, <strong>flea beetles</strong>, or <strong>pepper maggot and caterpillar-type fruit pests</strong> depending on your area. Peppers do best when you notice those problems early.</p><ul><li><strong>What to watch for</strong> Curled new growth, sticky leaves, tiny clusters of insects, little shot holes in leaves, or fruit that starts looking scarred or damaged.</li><li><strong>What naturally helps most</strong> Spray aphids off early, keep plants steady and unstressed, and check leaves and developing fruit often.</li><li><strong>Good airflow helps</strong> Peppers like warmth, but they still do better when the bed is not cramped and stagnant.</li><li><strong>Keep weeds down nearby</strong> Cleaner edges can reduce hiding spots and make pest scouting easier.</li><li><strong>Stay steady on water</strong> Less-stressed pepper plants usually handle pressure better.</li><li><strong>Check fruit as well as leaves</strong> Some pepper problems show up on the peppers themselves, not just the foliage.</li></ul><h3>Common pepper troublemakers</h3><ul class="friend-list"><li><strong>Aphids</strong> Tiny sap-suckers that cluster on tender growth. <em>Quick cure:</em> spray them off with water and repeat before they spread.</li><li><strong>Flea beetles</strong> Tiny jumping beetles that pepper leaves with little holes. <em>Quick cure:</em> protect young plants early and keep them growing fast.</li><li><strong>Spider mites</strong> Tiny pests that can cause stippling and stress in hot dry conditions. <em>Quick cure:</em> rinse plants and avoid letting them stay hot, dusty, and stressed.</li><li><strong>Pepper maggots</strong> A regional fruit pest that can damage peppers from the inside. <em>Quick cure:</em> remove damaged fruit quickly and keep the area clean.</li><li><strong>Cutworms</strong> Can damage young plants at soil level. <em>Quick cure:</em> use simple collars around seedlings and inspect the soil surface at dusk.</li></ul></div><div class="fact-box"><h3>Best first move</h3><p>Check the newest growth first, because aphids and other soft-bodied pests usually show up there early.</p><h3>Good natural pepper pest routine</h3><ul><li>check new growth every day or two</li><li>spray off aphids before they build</li><li>keep the bed clean and airy</li><li>watch fruit as it starts forming</li><li>do not let stressed plants stay stressed</li></ul><h3>What not to do</h3><ul><li>Do not ignore curled sticky growth.</li><li>Do not overcrowd the bed.</li><li>Do not wait until fruit damage is everywhere.</li></ul><h3>Natural remedies people sometimes try</h3><ul><li><strong>Insecticidal soap</strong> for aphids and soft-bodied pests if sprayed directly.</li><li><strong>Neem oil or horticultural oil</strong> for early aphid or mite pressure, used carefully in milder conditions.</li><li><strong>Cayenne-based deterrent sprays</strong> as a light homemade option, though results vary a lot.</li></ul></div></div></div></section>
+    <section class="section">
+      <div class="snapshot-wrap">
+        <div>
+          <h2>Peppers companions at a glance</h2>
+          <div class="companion-grid">
+            <div class="companion-card">
+              <h3>Best easy companions</h3>
+              <p><strong>Basil, chives, onions, parsley, and marigolds</strong> are some of the easiest useful neighbors for tomatoes.</p>
+            </div>
+            <div class="companion-card">
+              <h3>What helps most</h3>
+              <p><strong>Airflow, spacing, support, and a few smaller helpers</strong> usually matter more than trying to build a perfect companion-planting chart.</p>
+            </div>
+            <div class="companion-card">
+              <h3>Good use of the edges</h3>
+              <p>Use the edges for <strong>herbs, onions, chives, or flowers</strong>, not for another big thirsty main crop.</p>
+            </div>
+            <div class="companion-card">
+              <h3>What to avoid</h3>
+              <p>Do not let the bed turn into a crowded tomato jungle where <strong>airflow disappears</strong> and every support plant becomes a competitor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="snapshot-box">
+          <h3>Best peppers support crew</h3>
+          <ul>
+            <li><strong>Basil</strong> for easy herb value nearby</li>
+            <li><strong>Marigolds</strong> for flowers and edge life</li>
+            <li><strong>Onions or chives</strong> for compact lower growth</li>
+            <li><strong>Parsley</strong> for another useful edible</li>
+            <li><strong>Lettuce only early</strong>, before peppers take over</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="reasons-wrap">
+        <div>
+          <h2>Why these peppers pairings actually make sense</h2>
+          <ul class="reason-list">
+            <li><strong>Basil works because it stays useful without taking over.</strong> It fits the same warm-season rhythm as tomatoes and gives you an herb you will probably reach for often.</li>
+            <li><strong>Marigolds work best as edge flowers, not as magic pest shields.</strong> They help the bed feel alive, bring in some beneficial activity, and visually break things up.</li>
+            <li><strong>Onions and chives fit because they stay lower and simpler.</strong> They can use little pockets of space without becoming a huge shading problem.</li>
+            <li><strong>Parsley earns its place by being practical.</strong> It gives you another real edible without demanding the same big footprint tomatoes do.</li>
+            <li><strong>Lettuce only works early.</strong> It can be a nice temporary front-edge crop, but later in the season tomatoes usually outgrow it and start winning the light-and-moisture battle.</li>
+          </ul>
+        </div>
+        <div class="warning-box">
+          <h3>What usually goes wrong</h3>
+          <ul>
+            <li>too many medium and large plants packed together</li>
+            <li>not enough airflow around tomato foliage</li>
+            <li>lettuce or other smaller crops getting buried in shade later</li>
+            <li>thinking “companion planting” means every inch needs a plant</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="example-wrap">
+        <div>
+          <h2>A simple peppers bed layout idea</h2>
+          <p>A beginner-friendly peppers bed often works best when the peppers stay the obvious main crop and the helpers stay in supporting roles.</p>
+          <ul>
+            <li>peppers spaced as the main center or back crop</li>
+            <li>basil tucked near a few plants, not jammed everywhere</li>
+            <li>marigolds on edges or corners</li>
+            <li>chives or onions in lower side pockets</li>
+            <li>lettuce only as an early front-edge crop before the peppers get dominant</li>
+          </ul>
+        </div>
+        <div class="fact-box">
+          <h3>What to be careful about</h3>
+          <p>Peppers need more room, airflow, sun, and moisture consistency than people sometimes expect. So even a “good companion” can become a problem if the bed gets too crowded.</p>
+          <ul>
+            <li>Do not jam too many thirsty plants together.</li>
+            <li>Give peppers room to breathe.</li>
+            <li>Let shorter support plants stay support plants, not full competitors.</li>
+            <li>Be careful with lettuce later in the season once peppers get large and dominant.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="pest-box" id="protect-my-veggie"><div class="pest-wrap"><div><h2>Protect my peppers, what actually helps?</h2><p>If your pepper plants are curling, getting sticky, or looking chewed and stressed, the first pests to suspect are usually <strong>aphids</strong>, <strong>flea beetles</strong>, or <strong>pepper maggot and caterpillar-type fruit pests</strong> depending on your area. Peppers do best when you notice those problems early.</p><ul><li><strong>What to watch for</strong> Curled new growth, sticky leaves, tiny clusters of insects, little shot holes in leaves, or fruit that starts looking scarred or damaged.</li><li><strong>What naturally helps most</strong> Spray aphids off early, keep plants steady and unstressed, and check leaves and developing fruit often.</li><li><strong>Good airflow helps</strong> Peppers like warmth, but they still do better when the bed is not cramped and stagnant.</li><li><strong>Keep weeds down nearby</strong> Cleaner edges can reduce hiding spots and make pest scouting easier.</li><li><strong>Stay steady on water</strong> Less-stressed pepper plants usually handle pressure better.</li><li><strong>Check fruit as well as leaves</strong> Some pepper problems show up on the peppers themselves, not just the foliage.</li></ul><h3>Common pepper troublemakers</h3><ul class="friend-list"><li><strong>Aphids</strong> Tiny sap-suckers that cluster on tender growth. <em>Quick cure:</em> spray them off with water and repeat before they spread.</li><li><strong>Flea beetles</strong> Tiny jumping beetles that pepper leaves with little holes. <em>Quick cure:</em> protect young plants early and keep them growing fast.</li><li><strong>Spider mites</strong> Tiny pests that can cause stippling and stress in hot dry conditions. <em>Quick cure:</em> rinse plants and avoid letting them stay hot, dusty, and stressed.</li><li><strong>Pepper maggots</strong> A regional fruit pest that can damage peppers from the inside. <em>Quick cure:</em> remove damaged fruit quickly and keep the area clean.</li><li><strong>Cutworms</strong> Can damage young plants at soil level. <em>Quick cure:</em> use simple collars around seedlings and inspect the soil surface at dusk.</li></ul></div><div class="fact-box"><h3>Best first move</h3><p>Check the newest growth first, because aphids and other soft-bodied pests usually show up there early.</p><h3>Good natural pepper pest routine</h3><ul><li>check new growth every day or two</li><li>spray off aphids before they build</li><li>keep the bed clean and airy</li><li>watch fruit as it starts forming</li><li>do not let stressed plants stay stressed</li></ul><h3>What not to do</h3><ul><li>Do not ignore curled sticky growth.</li><li>Do not overcrowd the bed.</li><li>Do not wait until fruit damage is everywhere.</li></ul><h3>Natural remedies people sometimes try</h3><ul><li><strong>Insecticidal soap</strong> for aphids and soft-bodied pests if sprayed directly.</li><li><strong>Neem oil or horticultural oil</strong> for early aphid or mite pressure, used carefully in milder conditions.</li><li><strong>Cayenne-based deterrent sprays</strong> as a light homemade option, though results vary a lot.</li></ul></div></div></div></section>
     <section class="section"><h2>A few more pepper basics that really matter</h2><ul><li><strong>Soil pH:</strong> peppers usually do well around 6.0 to 6.8.</li><li><strong>Sun:</strong> full sun is a big help.</li><li><strong>Warm soil:</strong> peppers usually want more warmth than people expect.</li><li><strong>Steady moisture:</strong> consistent watering helps reduce stress.</li><li><strong>Mulch:</strong> mulch can help hold moisture and buffer heat swings.</li><li><strong>Feeding:</strong> decent soil richness matters, but avoid overpushing leafy growth.</li><li><strong>Support:</strong> some pepper plants need support once fruit loads up.</li></ul></section>
     <section class="section"><h2>Bottom line</h2><p>If you like peppers, keep the bed warm, sunny, and uncluttered, then add one or two useful neighbors instead of overbuilding it.</p><p><a class="button cta-blue" href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">Back to the crop finder</a></p></section>
   </main>
