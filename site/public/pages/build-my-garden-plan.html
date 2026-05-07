@@ -21,7 +21,7 @@
     .planner-field select, .planner-field input { width:100%; padding:1rem; border:2px solid #c79a45; border-radius:16px; font:inherit; background:#fffdf9; }
     .custom-bed-grid { display:none; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; margin-top:1rem; }
     .custom-bed-grid.show { display:grid; }
-    .check-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.45rem .8rem; max-height:420px; overflow:auto; padding-right:.2rem; }
+    .check-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.45rem .6rem; max-height:420px; overflow:auto; padding-right:.2rem; }
     .check-item { display:flex; gap:.45rem; align-items:center; background:rgba(255,255,255,.45); border:1px solid rgba(199,154,69,.35); border-radius:12px; padding:.5rem .65rem; min-height:42px; }
     .check-item span { font-size:.94rem; line-height:1.15; }
     .check-item input { margin-top:0; transform:scale(.95); }
@@ -53,7 +53,8 @@
     .bed-cell.edge { min-height:54px; }
     .tiny-note { color:#6f5c49; font-size:.94rem; }
     .inline-links a { font-weight:600; }
-    @media (max-width:900px){ .planner-grid, .check-grid, .results-shell.show { grid-template-columns:1fr; } }
+    @media (max-width:900px){ .planner-grid, .results-shell.show { grid-template-columns:1fr; } .check-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:560px){ .check-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
