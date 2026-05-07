@@ -13,19 +13,24 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .friends-wrap, .example-wrap, .pest-wrap { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
-    .friend-list { list-style:none; padding:0; margin:0; }
-    .friend-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
-    .friend-list li:last-child { border-bottom:none; }
-    .friend-list strong { display:block; margin-bottom:.25rem; color:#3b2f22; }
-    .fact-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:16px; }
-    .fact-box h3 { margin-top:0; margin-bottom:.7rem; }
-    .fact-box ul { margin:0; padding-left:1.2rem; }
-    .fact-box li { margin-bottom:.7rem; }
-    .fact-box li:last-child { margin-bottom:0; }
+    .snapshot-wrap, .reasons-wrap, .example-wrap, .pest-wrap { display:grid; grid-template-columns:minmax(0,1.7fr) minmax(260px,.9fr); gap:1.2rem; align-items:start; }
+    .friend-list, .reason-list { list-style:none; padding:0; margin:0; }
+    .friend-list li, .reason-list li { margin:0 0 1rem; padding-bottom:1rem; border-bottom:1px solid #eadfce; }
+    .friend-list li:last-child, .reason-list li:last-child { border-bottom:none; }
+    .friend-list strong, .reason-list strong { display:block; margin-bottom:.25rem; color:#3b2f22; }
+    .fact-box, .snapshot-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; padding:1rem 1.1rem; border-radius:16px; }
+    .fact-box h3, .snapshot-box h3 { margin-top:0; margin-bottom:.7rem; }
+    .fact-box ul, .snapshot-box ul { margin:0; padding-left:1.2rem; }
+    .fact-box li, .snapshot-box li { margin-bottom:.7rem; }
+    .fact-box li:last-child, .snapshot-box li:last-child { margin-bottom:0; }
+    .companion-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.85rem; }
+    .companion-card { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .companion-card h3 { margin-top:0; margin-bottom:.35rem; }
+    .warning-box { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .warning-box h3 { margin-top:0; }
     .pest-box { background:linear-gradient(180deg,#fff7e9 0%,#f8edd8 100%); border:2px solid #e2bf7b; border-radius:22px; padding:1.2rem; box-shadow:0 14px 30px rgba(109,73,18,.08); }
     .pest-box h2, .pest-box h3 { margin-top:0; }
-    @media (max-width:900px){ .friends-wrap, .example-wrap, .pest-wrap { grid-template-columns:1fr; } }
+    @media (max-width:900px){ .snapshot-wrap, .reasons-wrap, .example-wrap, .pest-wrap, .companion-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -51,24 +56,60 @@
     </section>
 
     <section class="section">
-      <div class="friends-wrap">
+      <div class="snapshot-wrap">
         <div>
-          <h2>Good nearby friends for tomatoes</h2>
-          <ul class="friend-list">
-            <li><strong>Basil</strong> One of the easiest and most useful herbs to tuck near tomatoes. It stays practical, smells great, and fits the same general warm-season mood.</li>
-            <li><strong>Marigolds</strong> Good for adding color, breaking up the bed visually, and supporting the old garden habit of mixing flowers into food-growing spaces.</li>
-            <li><strong>Onions</strong> A nice lower-growing crop that can fit nearby without becoming a huge bully in the bed.</li>
-            <li><strong>Chives</strong> Small, useful, and easy to tuck in around the edges without stealing too much space.</li>
-            <li><strong>Parsley</strong> A practical little edible that can live in the same general zone and give you another useful harvest from the space.</li>
-            <li><strong>Lettuce early in the season</strong> This can work better before tomatoes get big and start taking over the bed with shade and thirst.</li>
+          <h2>Tomato companions at a glance</h2>
+          <div class="companion-grid">
+            <div class="companion-card">
+              <h3>Best easy companions</h3>
+              <p><strong>Basil, chives, onions, parsley, and marigolds</strong> are some of the easiest useful neighbors for tomatoes.</p>
+            </div>
+            <div class="companion-card">
+              <h3>What helps most</h3>
+              <p><strong>Airflow, spacing, support, and a few smaller helpers</strong> usually matter more than trying to build a perfect companion-planting chart.</p>
+            </div>
+            <div class="companion-card">
+              <h3>Good use of the edges</h3>
+              <p>Use the edges for <strong>herbs, onions, chives, or flowers</strong>, not for another big thirsty main crop.</p>
+            </div>
+            <div class="companion-card">
+              <h3>What to avoid</h3>
+              <p>Do not let the bed turn into a crowded tomato jungle where <strong>airflow disappears</strong> and every support plant becomes a competitor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="snapshot-box">
+          <h3>Best tomato support crew</h3>
+          <ul>
+            <li><strong>Basil</strong> for easy herb value nearby</li>
+            <li><strong>Marigolds</strong> for flowers and edge life</li>
+            <li><strong>Onions or chives</strong> for compact lower growth</li>
+            <li><strong>Parsley</strong> for another useful edible</li>
+            <li><strong>Lettuce only early</strong>, before tomatoes take over</li>
           </ul>
         </div>
-        <div class="fact-box">
-          <h3>Did you know?</h3>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="reasons-wrap">
+        <div>
+          <h2>Why these pairings actually make sense</h2>
+          <ul class="reason-list">
+            <li><strong>Basil works because it stays useful without taking over.</strong> It fits the same warm-season rhythm as tomatoes and gives you an herb you will probably reach for often.</li>
+            <li><strong>Marigolds work best as edge flowers, not as magic pest shields.</strong> They help the bed feel alive, bring in some beneficial activity, and visually break things up.</li>
+            <li><strong>Onions and chives fit because they stay lower and simpler.</strong> They can use little pockets of space without becoming a huge shading problem.</li>
+            <li><strong>Parsley earns its place by being practical.</strong> It gives you another real edible without demanding the same big footprint tomatoes do.</li>
+            <li><strong>Lettuce only works early.</strong> It can be a nice temporary front-edge crop, but later in the season tomatoes usually outgrow it and start winning the light-and-moisture battle.</li>
+          </ul>
+        </div>
+        <div class="warning-box">
+          <h3>What usually goes wrong</h3>
           <ul>
-            <li>A lot of old-fashioned tomato companion advice is less about magic pairings and more about breaking up the bed with herbs, flowers, and useful smaller crops.</li>
-            <li>Lettuce may seem like a nice tomato neighbor at first, but once the tomatoes get big, lettuce often loses the battle for light and moisture.</li>
-            <li>Basil is not just a tomato cliché, it is also one of the easiest useful herbs to tuck into a food bed without making the whole thing harder to manage.</li>
+            <li>too many medium and large plants packed together</li>
+            <li>not enough airflow around tomato foliage</li>
+            <li>lettuce or other smaller crops getting buried in shade later</li>
+            <li>thinking “companion planting” means every inch needs a plant</li>
           </ul>
         </div>
       </div>
@@ -77,14 +118,14 @@
     <section class="section">
       <div class="example-wrap">
         <div>
-          <h2>A simple tomato bed example</h2>
-          <p>A simple beginner-friendly mix could look like this:</p>
+          <h2>A simple tomato bed layout idea</h2>
+          <p>A beginner-friendly tomato bed often works best when the tomatoes stay the obvious main crop and the helpers stay in supporting roles.</p>
           <ul>
-            <li>tomatoes as the main crop</li>
-            <li>basil tucked near a few plants</li>
-            <li>marigolds at edges or corners</li>
-            <li>chives or onions spaced around the bed</li>
-            <li>lettuce only early, before the tomatoes take over</li>
+            <li>tomatoes spaced as the main center or back crop</li>
+            <li>basil tucked near a few plants, not jammed everywhere</li>
+            <li>marigolds on edges or corners</li>
+            <li>chives or onions in lower side pockets</li>
+            <li>lettuce only as an early front-edge crop before the tomatoes get dominant</li>
           </ul>
         </div>
         <div class="fact-box">
