@@ -34,6 +34,8 @@
     .result-card h3, .sketch-card h3, .tip-card h3 { margin-top:0; }
     .summary-list, .link-list { margin:0; padding-left:1.2rem; }
     .summary-list li, .link-list li { margin-bottom:.6rem; }
+    .bed-sketch-wrap { display:flex; flex-direction:column; gap:.45rem; }
+    .bed-orientation { display:flex; justify-content:space-between; align-items:center; font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; color:#7a6855; font-weight:700; }
     .bed-sketch { display:flex; flex-direction:column; gap:.55rem; background:#f4ead8; border:2px solid #b88a3e; border-radius:18px; padding:.65rem; min-height:320px; }
     .sketch-band { display:grid; gap:.45rem; }
     .sketch-band.edge-top, .sketch-band.edge-bottom { grid-template-columns:repeat(4, minmax(0, 1fr)); }
@@ -157,7 +159,11 @@
           <div class="sketch-card">
             <h3>Rough layout sketch</h3>
             <p class="tiny-note" id="sketchNote">A simple top-down idea to help picture the space.</p>
-            <div id="bedSketch" class="bed-sketch"></div>
+            <div class="bed-sketch-wrap">
+              <div class="bed-orientation"><span id="bedBackLabel">Back / taller side</span><span id="bedTrellisLabel">Trellis side if needed</span></div>
+              <div id="bedSketch" class="bed-sketch"></div>
+              <div class="bed-orientation"><span id="bedFrontLabel">Front / easiest harvest side</span><span>Shorter crops drift forward</span></div>
+            </div>
           </div>
         </div>
       </div>
@@ -242,6 +248,9 @@
     const linkList = document.getElementById('linkList');
     const bedSketch = document.getElementById('bedSketch');
     const sketchNote = document.getElementById('sketchNote');
+    const bedBackLabel = document.getElementById('bedBackLabel');
+    const bedTrellisLabel = document.getElementById('bedTrellisLabel');
+    const bedFrontLabel = document.getElementById('bedFrontLabel');
 
     function getBedProfile(sizeKey, customWidth = null, customLength = null) {
       if (sizeKey === 'custom') {
@@ -508,6 +517,10 @@
 
       const layout = buildSketchPlan(chosen, includeHerbs, includePollinators, bedProfile);
       renderSketch(layout, bedSize);
+      const hasTrellisCrop = chosen.some(key => ['peas', 'peasSugar', 'cucumbers'].includes(key));
+      bedBackLabel.textContent = bedProfile.isPatio ? 'Back / taller pot side' : 'Back / taller crop side';
+      bedFrontLabel.textContent = bedProfile.isPatio ? 'Front / easiest snipping side' : 'Front / easiest harvest side';
+      bedTrellisLabel.textContent = hasTrellisCrop ? 'Trellis side for climbers' : 'Pollinator and herb edge';
       sketchNote.textContent = `A rough top-down sketch for a ${bedProfile.label}. You can swap exact positions around based on sun, paths, or what feels easiest to reach.`;
       resultsShell.classList.add('show');
       resultsShell.scrollIntoView({ behavior: 'smooth', block: 'start' });
