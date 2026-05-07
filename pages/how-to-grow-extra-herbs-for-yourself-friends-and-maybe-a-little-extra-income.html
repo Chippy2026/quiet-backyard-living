@@ -13,26 +13,29 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .lead-grid, .value-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
-    .soft-card { background:#f8f4ed; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
-    .soft-card h3 { margin-top:0; }
-    .callout-box { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:18px; padding:1rem 1.1rem; }
-    .callout-box h3 { margin-top:0; }
-    .flow-list { margin:0; padding-left:1.15rem; }
-    .flow-list li { margin-bottom:.45rem; }
-    .herb-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1.05rem 1.15rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
-    .herb-card h3 { margin-top:0; margin-bottom:.35rem; }
-    .next-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
-    .next-card a { text-decoration:none; }
-    @media (max-width:850px){ .lead-grid, .value-grid, .next-grid { grid-template-columns:1fr; } }
+    .data-box { background:#f5efe3; border:1px solid #dbc9a9; border-radius:18px; padding:1rem 1.1rem; }
+    .data-box h3 { margin-top:0; }
+    .tight-list { margin:0; padding-left:1.15rem; }
+    .tight-list li { margin-bottom:.4rem; }
+    .tight-list li:last-child { margin-bottom:0; }
+    .stats-grid, .entry-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+    .stat-card, .entry-card, .next-card { background:#fff; border:1px solid #ddd3c2; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 8px 18px rgba(0,0,0,.04); }
+    .stat-card h3, .entry-card h3, .next-card h3 { margin-top:0; }
+    .herb-table-wrap { overflow-x:auto; }
+    table.herb-table { width:100%; border-collapse:collapse; font-size:.96rem; background:#fff; border:1px solid #ddd3c2; border-radius:18px; overflow:hidden; }
+    .herb-table th, .herb-table td { padding:.9rem .8rem; border-bottom:1px solid #ece3d3; vertical-align:top; text-align:left; }
+    .herb-table th { background:#f7f0e3; color:#4a3827; font-size:.88rem; text-transform:uppercase; letter-spacing:.04em; }
+    .herb-table tr:last-child td { border-bottom:none; }
+    .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:16px; padding:1rem 1.1rem; }
+    .plain-links { margin:0; padding-left:1.15rem; }
+    .plain-links li { margin-bottom:.45rem; }
+    @media (max-width:900px){ .stats-grid, .entry-grid, .next-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <div class="nav-brand-wrap">
-        <div class="brand">Quiet Backyard Living</div>
-      </div>
+      <div class="nav-brand-wrap"><div class="brand">Quiet Backyard Living</div></div>
       <nav class="nav-links">
         <a href="/">Home</a>
         <a href="/pages/about.html">Meet the Crew</a>
@@ -45,153 +48,224 @@
   <main class="container">
     <section class="page-hero">
       <h1>How to Grow Extra Herbs for Yourself, Friends, and Maybe a Little Extra Income</h1>
-      <p class="subhead">If you are already growing herbs for companion planting or kitchen use, this is how to think about them as a practical backyard value crop with real uses, real savings, and a few realistic ways they might pay for themselves.</p>
+      <p class="subhead">A practical backyard guide to the herbs people most often grow, dry, bundle, replant, gift, and sometimes sell in small quantities, with ballpark seed costs and national-average value ranges.</p>
     </section>
 
     <section class="section">
-      <div class="lead-grid">
-        <div>
-          <p>Herbs are one of the few backyard crops that can realistically do several jobs at once. They can help nearby vegetables, give you repeated kitchen harvests, dry well for later, and sometimes become small starter plants, bundles, or extras people actually want.</p>
-          <p>This is not about pretending a few basil plants are a major business. It is about recognizing that herbs often have a better value-to-space ratio than many bigger garden crops.</p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>Why herbs keep showing up in grow-for-profit advice</h3>
+          <ul class="tight-list">
+            <li>small space can still produce useful volume</li>
+            <li>many herbs can be sold or used in more than one format</li>
+            <li>culinary herbs are easier to explain than niche herbs</li>
+            <li>starter cost is low compared with many bigger crops</li>
+          </ul>
         </div>
-        <div class="callout-box">
-          <h3>The practical business case</h3>
-          <p>A single herb plant can support a vegetable bed, give repeated harvests, reduce small grocery purchases, and still leave room for extra starts, dried herbs, or shareable bundles. That is a better stack of uses than many ordinary backyard crops can offer, especially when the herb is popular, easy to explain, and easy for other people to want.</p>
+        <div class="stat-card">
+          <h3>What this page is really about</h3>
+          <ul class="tight-list">
+            <li>kitchen savings first</li>
+            <li>better use of companion herbs you are already growing</li>
+            <li>extra starts, bundles, dried herbs, or tea herbs second</li>
+            <li>small realistic backyard value, not fantasy farm math</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Why herbs are such a good place to start</h2>
-      <ul class="flow-list">
-        <li>they fit small spaces better than many vegetables</li>
-        <li>you often use them in small amounts, but repeatedly</li>
-        <li>store herb pricing can feel high relative to how little you get</li>
-        <li>some are easy to dry, divide, pot up, or replant</li>
-        <li>some help nearby vegetables too</li>
-        <li>they are easier to experiment with than many bigger crops</li>
-      </ul>
+      <div class="note-strip">
+        <strong>Important note:</strong> the numbers below are ballpark national-average ranges pulled from common backyard growing, retail herb, and small-scale herb-selling patterns. They are not promises of what you will make in your town.
+      </div>
     </section>
 
     <section class="section">
-      <h2>What the numbers usually look like in real life</h2>
-      <p>Exact numbers depend on your area, your costs, and whether you are thinking in terms of kitchen savings, fresh bunches, dried herbs, or little starter plants. But the reason herbs keep coming up in small-scale growing conversations is simple: the value per square foot can be friendly, and the same herb can often be sold or used in more than one format.</p>
-      <div class="lead-grid">
-        <div class="soft-card">
-          <h3>Fresh herbs are small, but repeated</h3>
-          <p>A small basil or parsley bunch can easily sell for around <strong>$2 to $4</strong> worth of value at grocery-store scale, even though the seed cost was only a few dollars.</p>
+      <h2>Top 10 herbs people most often grow for use, gifts, or extra value</h2>
+      <div class="herb-table-wrap">
+        <table class="herb-table">
+          <thead>
+            <tr>
+              <th>Herb</th>
+              <th>Seed pack cost</th>
+              <th>What people usually do with it</th>
+              <th>Most practical formats</th>
+              <th>Ballpark national-average value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Basil</strong></td>
+              <td>$2 to $4</td>
+              <td>Fresh kitchen use, pesto, tomato companion, fresh bunches, starter plants</td>
+              <td>fresh packs, potted starts, bunches</td>
+              <td>Fresh bunches often work out around <strong>$2 to $4</strong> value each, small starter plants often around <strong>$4 to $6</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Parsley</strong></td>
+              <td>$2 to $4</td>
+              <td>Fresh cooking, garnish, kitchen bunches, starter plants</td>
+              <td>fresh bunches, potted starts</td>
+              <td>Fresh bunches often around <strong>$2 to $4</strong>, starter plants often around <strong>$4 to $6</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Thyme</strong></td>
+              <td>$2 to $4</td>
+              <td>Drying, cooking, edging, companion planting, tea blends in some cases</td>
+              <td>dried jars or packets, small starts</td>
+              <td>Dried herb value often works out around <strong>$5 to $8</strong> per small jar equivalent, starter plants often <strong>$4 to $6</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Oregano</strong></td>
+              <td>$2 to $4</td>
+              <td>Drying, sauces, cooking, potted starts</td>
+              <td>dried herb, fresh bunches, starts</td>
+              <td>Dried value often around <strong>$5 to $8</strong> per small jar equivalent, fresh bunches often <strong>$2 to $4</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Chives</strong></td>
+              <td>$2 to $4 seed or $4 to $6 plant</td>
+              <td>Fresh cooking, edging, division into extra clumps, starter plants</td>
+              <td>starter plants, divided clumps, fresh snips</td>
+              <td>Small starts or divisions often around <strong>$4 to $6</strong> each</td>
+            </tr>
+            <tr>
+              <td><strong>Mint</strong></td>
+              <td>$2 to $4 seed or $4 to $6 plant</td>
+              <td>Tea, drinks, drying, potted gift plants</td>
+              <td>tea bundles, dried leaves, potted starts</td>
+              <td>Small mint plants often around <strong>$4 to $6</strong>, dried tea herb value often <strong>$4 to $8</strong> in small-pack terms</td>
+            </tr>
+            <tr>
+              <td><strong>Dill</strong></td>
+              <td>$2 to $4</td>
+              <td>Fresh bunches, pickling, seafood cooking, seeds later</td>
+              <td>fresh bunches, pickling bundles, seed harvest</td>
+              <td>Fresh dill bunches often around <strong>$2 to $4</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Cilantro</strong></td>
+              <td>$2 to $4</td>
+              <td>Fresh bunches, salsa, quick turnover herb, coriander seed later</td>
+              <td>fresh bunches, repeat sowings</td>
+              <td>Fresh bunches often around <strong>$1.50 to $3.50</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Lavender</strong></td>
+              <td>$3 to $5 or higher</td>
+              <td>Dried bundles, sachets, tea blends, gifts, pollinator support</td>
+              <td>dried bundles, sachets, potted plants</td>
+              <td>Dried bundles often around <strong>$5 to $12</strong>, small plants often around <strong>$5 to $8</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Chamomile</strong></td>
+              <td>$3 to $5</td>
+              <td>Tea flowers, drying, pollinator appeal</td>
+              <td>dried tea flowers, small bouquets, seed saving</td>
+              <td>Dried tea herb value often around <strong>$4 to $8</strong> per small-pack equivalent</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>What people on the internet are actually doing with these herbs</h2>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <h3>Fresh kitchen packs</h3>
+          <p>Most beginner herb sellers start with familiar culinary herbs like basil, parsley, cilantro, dill, and chives because the use is obvious and the buyer does not need much explanation.</p>
         </div>
-        <div class="soft-card">
-          <h3>Dried herbs can stretch the value further</h3>
-          <p>Thyme and oregano often become more valuable after drying because a little fresh growth can turn into something that lasts for months.</p>
+        <div class="entry-card">
+          <h3>Dried herbs</h3>
+          <p>Thyme, oregano, mint, chamomile, rosemary, and lavender keep showing up because drying stretches value and reduces the pressure to sell everything immediately.</p>
         </div>
-        <div class="soft-card">
-          <h3>Starter plants may be the best beginner “extra”</h3>
-          <p>A small herb starter plant often feels more tangible to people than loose herbs, and can carry <strong>$4 to $6</strong> value from a plant that did not cost much to begin.</p>
+        <div class="entry-card">
+          <h3>Starter plants</h3>
+          <p>Small herb starts are one of the easiest backyard formats because people understand them fast and the price point is simple.</p>
         </div>
-        <div class="soft-card">
-          <h3>Space efficiency matters</h3>
-          <p>Herbs often earn more value per square foot than many bulk vegetables because you use them repeatedly and waste less of the harvest.</p>
+        <div class="entry-card">
+          <h3>Gift and neighbor formats</h3>
+          <p>Potted herbs, tied bundles, little tea herbs, and divided clumps keep coming up because they feel personal, practical, and low-pressure.</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>The best herbs to grow a little extra of</h2>
-      <p>If you are thinking beyond personal use, the safest place to start is usually with popular culinary herbs first. They have the broadest appeal, are easier to explain, and give you more options than niche medicinal or specialty herbs right away.</p>
-      <div class="value-grid">
-        <div class="herb-card">
-          <h3>Basil</h3>
-          <p>Fast, useful, and one of the easiest herbs to imagine as a fresh bunch, a kitchen herb plant, or an extra crop near tomatoes and peppers. Seed cost is low, and repeat cuts come quickly.</p>
+      <h2>How to plant, grow, dry, and use them in the most practical ways</h2>
+      <div class="stats-grid">
+        <div class="data-box">
+          <h3>Best herbs for fresh packs</h3>
+          <ul class="tight-list">
+            <li>basil</li>
+            <li>parsley</li>
+            <li>cilantro</li>
+            <li>dill</li>
+            <li>chives</li>
+          </ul>
+          <p>Grow these in repeat sowings or multiple clumps so you can cut small amounts steadily instead of one big all-at-once harvest.</p>
         </div>
-        <div class="herb-card">
-          <h3>Parsley</h3>
-          <p>Not flashy, but very practical. That matters because familiar herbs are easier to use, easier to share, and easier for other people to understand and want.</p>
+        <div class="data-box">
+          <h3>Best herbs for drying</h3>
+          <ul class="tight-list">
+            <li>thyme</li>
+            <li>oregano</li>
+            <li>mint</li>
+            <li>lavender</li>
+            <li>chamomile</li>
+          </ul>
+          <p>Cut before they get ragged, bundle lightly, and hang in a dry airy spot out of harsh sun.</p>
         </div>
-        <div class="herb-card">
-          <h3>Thyme</h3>
-          <p>Small, fragrant, dryable, and one of the best examples of a little plant going a long way. A modest plant can produce a surprising amount of usable dried herb over time.</p>
+        <div class="data-box">
+          <h3>Best herbs for starter plants</h3>
+          <ul class="tight-list">
+            <li>basil</li>
+            <li>chives</li>
+            <li>mint</li>
+            <li>oregano</li>
+            <li>thyme</li>
+          </ul>
+          <p>These are some of the easiest to picture as little potted starts, divisions, or rooted extras.</p>
         </div>
-        <div class="herb-card">
-          <h3>Oregano</h3>
-          <p>One of the best herbs for drying and storing, which is part of what makes it such a good long-game value crop. It is simple, familiar, and easy to turn into lasting kitchen value.</p>
-        </div>
-        <div class="herb-card">
-          <h3>Chives</h3>
-          <p>Easy to divide, easy to use, and one of the friendliest herbs for little garden clumps and starter plants. They are one of the easiest herbs to multiply without much drama.</p>
-        </div>
-        <div class="herb-card">
-          <h3>Mint</h3>
-          <p>Very productive for tea and drinks, but best kept in pots unless you want mint becoming the boss of the bed. For the right person, it is one of the strongest volume herbs you can grow.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>What usually makes the most sense first</h2>
-      <div class="callout-box">
-        <h3>Best realistic entry points</h3>
-        <ul>
-          <li>fresh kitchen herbs you would have bought anyway</li>
-          <li>dried herbs for your own pantry first</li>
-          <li>extra starter plants or divisions from herbs that multiply well</li>
-          <li>small bunches or potted extras for friends and neighbors</li>
-        </ul>
-      </div>
-      <p>The common thread is that these are all low-risk formats. You are not jumping straight into a full product line. You are testing what people respond to with herbs that are already useful to you.</p>
-    </section>
-
-    <section class="section">
-      <h2>How to grow extra without making the whole garden feel like a job</h2>
-      <div class="lead-grid">
-        <div class="soft-card">
-          <h3>Start with herbs you already use</h3>
-          <p>If you do not use it much, it is harder to notice the value and harder to feel excited about growing more of it.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Grow one or two extra plants first</h3>
-          <p>You do not need a field of basil. A few extra plants can already give you more kitchen use, more drying value, and something shareable.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Keep harvest gentle and steady</h3>
-          <p>Frequent little harvests often work better than hacking a plant down all at once.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Pay attention to what people respond to</h3>
-          <p>Sometimes the best clues come from what friends, neighbors, or family naturally ask about first.</p>
+        <div class="data-box">
+          <h3>Best herbs for tea or bundles</h3>
+          <ul class="tight-list">
+            <li>mint</li>
+            <li>chamomile</li>
+            <li>lavender</li>
+            <li>thyme in blends</li>
+          </ul>
+          <p>These are the herbs most often turned into simple tea bundles, calming blends, or giftable dried packs.</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Simple ways herbs might pay for themselves</h2>
-      <ul class="flow-list">
-        <li>fresh bunches for your own kitchen instead of buying them</li>
-        <li>dried herbs for later use</li>
-        <li>a few extra starter plants or divisions</li>
-        <li>tea herbs in small bundles</li>
-        <li>little potted herbs for friends or neighbors</li>
-        <li>gifts that still come from something useful you were already growing</li>
-      </ul>
-      <p>In plain terms, this is about reducing small repeated purchases first, then noticing whether certain herbs also create a little extra value beyond that. That is one reason herbs show up so often in small-scale grower advice. They are flexible, familiar, and not locked into just one use.</p>
-    </section>
-
-    <section class="section">
-      <div class="callout-box">
-        <h3>Keep this grounded</h3>
-        <p>You do not have to pretend herbs are a huge money machine. The smarter business mindset is that they are one of the easiest backyard categories to test because the startup cost is low, the use is familiar, and the downside risk is small if a few experiments go nowhere.</p>
+      <h2>What usually makes the most business sense first</h2>
+      <div class="entry-grid">
+        <div class="entry-card">
+          <h3>1. Replace your own grocery buys</h3>
+          <p>Start by growing the herbs you actually buy or wish you bought more often. This is the cleanest first win.</p>
+        </div>
+        <div class="entry-card">
+          <h3>2. Test a second format</h3>
+          <p>If basil is growing well, try a few extra starter plants. If thyme is doing well, dry some. If mint is taking off, make tea bundles.</p>
+        </div>
+        <div class="entry-card">
+          <h3>3. Stay with familiar herbs</h3>
+          <p>Most small growers get better results starting with herbs people already recognize and use.</p>
+        </div>
+        <div class="entry-card">
+          <h3>4. Let demand tell you what grows next</h3>
+          <p>Pay attention to what friends, neighbors, and local buyers actually ask for instead of guessing too far ahead.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>If I were starting this lane from scratch</h2>
-      <ul class="flow-list">
-        <li>start with popular culinary herbs first, especially basil, parsley, thyme, oregano, and chives</li>
-        <li>plant some near vegetables where they make sense</li>
-        <li>grow a little extra of the ones you actually use</li>
-        <li>test more than one format, fresh use, drying, and starter plants</li>
-        <li>pay attention to which herb gives the best mix of low labor and repeat value</li>
-      </ul>
+      <div class="note-strip">
+        <strong>Bottom line:</strong> the strongest herb strategy for a backyard grower is usually not “find the rarest herb.” It is “grow the most useful herbs in formats people already understand, and let the same square foot produce kitchen value, garden value, and maybe a little extra value beyond that.”
+      </div>
     </section>
 
     <section class="section">
@@ -199,19 +273,13 @@
       <div class="next-grid">
         <div class="next-card">
           <h3><a href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">The Herbs That Quietly Save You the Most Money</a></h3>
-          <p>The broader herb value article that explains why herbs are such a smart small-space crop in the first place.</p>
+          <p>The broader herb value page, focused on why herbs earn their space so well.</p>
         </div>
         <div class="next-card">
           <h3><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></h3>
-          <p>If herbs are already helping in your beds, this page helps connect that idea to specific vegetables.</p>
+          <p>Use this if you also want the companion-planting side of the herb story.</p>
         </div>
       </div>
-    </section>
-
-    <section class="section">
-      <h2>Bottom line</h2>
-      <p>If you are already growing herbs for companion planting or kitchen use, growing a little extra is one of the simplest ways to get more value out of the same backyard space. The numbers are small, but the math is friendly: low startup cost, repeated use, good space efficiency, and several possible ways for the same herb to pay you back.</p>
-      <p><a class="button cta-blue" href="/pages/blog.html">Back to Backyard Tips & Ideas</a></p>
     </section>
   </main>
 
