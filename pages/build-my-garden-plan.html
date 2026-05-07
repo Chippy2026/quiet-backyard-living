@@ -32,15 +32,20 @@
     .result-card h3, .sketch-card h3, .tip-card h3 { margin-top:0; }
     .summary-list, .link-list { margin:0; padding-left:1.2rem; }
     .summary-list li, .link-list li { margin-bottom:.6rem; }
-    .bed-sketch { display:grid; gap:.45rem; background:#f4ead8; border:2px solid #b88a3e; border-radius:18px; padding:.6rem; min-height:320px; }
-    .bed-row { display:grid; gap:.45rem; min-height:74px; }
-    .bed-cell { background:#fff8ea; border:1px solid #d8c3a1; border-radius:14px; padding:.5rem; display:flex; flex-direction:column; justify-content:center; overflow:hidden; }
-    .bed-cell strong { display:block; font-size:.88rem; line-height:1.15; color:#3b2f22; word-break:break-word; }
-    .bed-cell span { display:block; font-size:.74rem; line-height:1.2; color:#6f5c49; margin-top:.2rem; word-break:break-word; }
+    .bed-sketch { display:flex; flex-direction:column; gap:.55rem; background:#f4ead8; border:2px solid #b88a3e; border-radius:18px; padding:.65rem; min-height:320px; }
+    .sketch-band { display:grid; gap:.45rem; }
+    .sketch-band.edge-top, .sketch-band.edge-bottom { grid-template-columns:repeat(4, minmax(0, 1fr)); }
+    .sketch-middle { display:grid; grid-template-columns:minmax(84px,.8fr) minmax(0,2.3fr) minmax(84px,.8fr); gap:.45rem; min-height:200px; }
+    .sketch-main { display:grid; gap:.45rem; grid-auto-rows:minmax(68px, 1fr); }
+    .bed-cell { background:#fff8ea; border:1px solid #d8c3a1; border-radius:14px; padding:.55rem; display:flex; flex-direction:column; justify-content:center; overflow:hidden; }
+    .bed-cell strong { display:block; font-size:.9rem; line-height:1.15; color:#3b2f22; word-break:break-word; }
+    .bed-cell span { display:block; font-size:.74rem; line-height:1.2; color:#6f5c49; margin-top:.22rem; word-break:break-word; }
     .bed-cell.pollinator { background:#fff1d8; }
     .bed-cell.herb { background:#eef5e5; }
-    .bed-cell.main { background:#fdfaf4; }
+    .bed-cell.main { background:#fdfaf4; min-height:78px; }
     .bed-cell.buffer { background:#f6efe3; }
+    .bed-cell.main.featured { min-height:96px; }
+    .bed-cell.edge { min-height:54px; }
     .tiny-note { color:#6f5c49; font-size:.94rem; }
     .inline-links a { font-weight:600; }
     @media (max-width:900px){ .planner-grid, .check-grid, .results-shell.show { grid-template-columns:1fr; } }
@@ -293,45 +298,93 @@
       return pollinatorOptions.slice(0, 2);
     }
 
-    function buildCells(selected, includeHerbs, includePollinators, sizeKey) {
-      const shape = bedShapes[sizeKey];
-      const total = shape.rows * shape.cols;
-      const mainCells = selected.map(key => ({ label: cropData[key].sketchLabel, type: cropData[key].sketchType, note: cropData[key].spacing }));
-      const herbs = includeHerbs ? pickHerbs(selected).map(name => ({ label: name, type: 'herb', note: 'Tuck along an edge' })) : [];
-      const polls = includePollinators ? pickPollinators(selected).map(name => ({ label: name, type: 'pollinator', note: 'Helpful flower strip' })) : [];
-      const filler = [];
-      while (mainCells.length + herbs.length + polls.length + filler.length < total) {
-        filler.push({ label: sizeKey === 'patio' ? 'Extra pot' : 'Buffer space', type: 'buffer', note: sizeKey === 'patio' ? 'Room for one more container' : 'Reach, airflow, or succession spot' });
-      }
-      const mixed = [...mainCells, ...herbs, ...polls, ...filler];
-      const ordered = [];
-      while (mixed.length) {
-        if (mainCells.length) ordered.push(mainCells.shift());
-        if (herbs.length) ordered.push(herbs.shift());
-        if (polls.length) ordered.push(polls.shift());
-        if (filler.length) ordered.push(filler.shift());
-        if (ordered.length >= total) break;
-      }
-      return ordered.slice(0, total);
+    function makeCropCell(key, featured = false) {
+      return {
+        label: cropData[key].sketchLabel,
+        type: cropData[key].sketchType,
+        note: cropData[key].spacing,
+        featured
+      };
     }
 
-    function renderSketch(cells, sizeKey) {
-      const shape = bedShapes[sizeKey];
-      bedSketch.innerHTML = '';
-      bedSketch.style.gridTemplateRows = `repeat(${shape.rows}, minmax(66px, 1fr))`;
-      for (let row = 0; row < shape.rows; row++) {
-        const rowEl = document.createElement('div');
-        rowEl.className = 'bed-row';
-        rowEl.style.gridTemplateColumns = `repeat(${shape.cols}, minmax(0, 1fr))`;
-        for (let col = 0; col < shape.cols; col++) {
-          const cell = cells[row * shape.cols + col];
-          const cellEl = document.createElement('div');
-          cellEl.className = `bed-cell ${cell.type}`;
-          cellEl.innerHTML = `<strong>${cell.label}</strong><span>${cell.note}</span>`;
-          rowEl.appendChild(cellEl);
-        }
-        bedSketch.appendChild(rowEl);
+    function makeEdgeCell(label, type, note) {
+      return { label, type, note, edge: true };
+    }
+
+    function buildSketchPlan(selected, includeHerbs, includePollinators, sizeKey) {
+      const chosen = selected.length ? selected : ['tomatoes', 'lettuce', 'carrots'];
+      const herbs = includeHerbs ? pickHerbs(chosen) : [];
+      const polls = includePollinators ? pickPollinators(chosen) : [];
+      const main = chosen.map((key, index) => makeCropCell(key, index === 0));
+      const edgeHerbs = herbs.map(name => makeEdgeCell(name, 'herb', 'Edge herb'));
+      const edgePolls = polls.map(name => makeEdgeCell(name, 'pollinator', 'Pollinator edge'));
+      const fillers = [
+        makeEdgeCell(sizeKey === 'patio' ? 'Extra pot' : 'Buffer', 'buffer', sizeKey === 'patio' ? 'One more container' : 'Reach and airflow'),
+        makeEdgeCell(sizeKey === 'patio' ? 'Shelf space' : 'Mulch path', 'buffer', sizeKey === 'patio' ? 'Small tool or herb spot' : 'Access strip')
+      ];
+
+      if (sizeKey === 'patio') {
+        return {
+          top: edgeHerbs.slice(0, 2).concat(edgePolls.slice(0, 1)),
+          left: [],
+          center: main.slice(0, 3),
+          right: [],
+          bottom: edgePolls.slice(1).concat(fillers).slice(0, 3)
+        };
       }
+
+      return {
+        top: [...edgePolls.slice(0, 2), ...edgeHerbs.slice(0, 2)].slice(0, 4),
+        left: [main[1] || fillers[0], edgeHerbs[2] || fillers[1]].filter(Boolean),
+        center: [main[0] || fillers[0], main[2] || fillers[1], main[3] || fillers[0]].filter(Boolean),
+        right: [edgePolls[2] || fillers[0], edgePolls[3] || edgeHerbs[3] || fillers[1]].filter(Boolean),
+        bottom: [main[4] || fillers[0], edgeHerbs[1] || fillers[1], main[5] || fillers[0], edgePolls[1] || fillers[1]].slice(0, 4)
+      };
+    }
+
+    function renderBand(cells, className) {
+      const band = document.createElement('div');
+      band.className = `sketch-band ${className}`;
+      cells.forEach(cell => band.appendChild(createCell(cell, true)));
+      return band;
+    }
+
+    function createCell(cell, isEdge = false) {
+      const cellEl = document.createElement('div');
+      const extra = [];
+      if (cell.featured) extra.push('featured');
+      if (isEdge || cell.edge) extra.push('edge');
+      cellEl.className = `bed-cell ${cell.type} ${extra.join(' ')}`.trim();
+      cellEl.innerHTML = `<strong>${cell.label}</strong><span>${cell.note}</span>`;
+      return cellEl;
+    }
+
+    function renderSketch(layout, sizeKey) {
+      bedSketch.innerHTML = '';
+
+      if (layout.top.length) bedSketch.appendChild(renderBand(layout.top, 'edge-top'));
+
+      const middle = document.createElement('div');
+      middle.className = 'sketch-middle';
+
+      const left = document.createElement('div');
+      left.className = 'sketch-band';
+      layout.left.forEach(cell => left.appendChild(createCell(cell, true)));
+
+      const center = document.createElement('div');
+      center.className = 'sketch-main';
+      layout.center.forEach(cell => center.appendChild(createCell(cell)));
+
+      const right = document.createElement('div');
+      right.className = 'sketch-band';
+      layout.right.forEach(cell => right.appendChild(createCell(cell, true)));
+
+      middle.appendChild(left);
+      middle.appendChild(center);
+      middle.appendChild(right);
+      bedSketch.appendChild(middle);
+
+      if (layout.bottom.length) bedSketch.appendChild(renderBand(layout.bottom, 'edge-bottom'));
     }
 
     function renderList(target, items) {
@@ -379,8 +432,8 @@
         '<a href="/pages/protect-my-veggie.html">Protect My Veggie</a>'
       ]));
 
-      const cells = buildCells(chosen, includeHerbs, includePollinators, bedSize);
-      renderSketch(cells, bedSize);
+      const layout = buildSketchPlan(chosen, includeHerbs, includePollinators, bedSize);
+      renderSketch(layout, bedSize);
       sketchNote.textContent = `A rough top-down sketch for a ${shape.label}. You can swap exact positions around based on sun, paths, or what feels easiest to reach.`;
       resultsShell.classList.add('show');
       resultsShell.scrollIntoView({ behavior: 'smooth', block: 'start' });
