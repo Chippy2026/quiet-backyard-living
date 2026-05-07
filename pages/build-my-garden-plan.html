@@ -33,13 +33,14 @@
     .summary-list, .link-list { margin:0; padding-left:1.2rem; }
     .summary-list li, .link-list li { margin-bottom:.6rem; }
     .bed-sketch { display:grid; gap:.45rem; background:#f4ead8; border:2px solid #b88a3e; border-radius:18px; padding:.6rem; min-height:320px; }
-    .bed-row { display:grid; gap:.45rem; min-height:66px; }
-    .bed-cell { background:#fff8ea; border:1px solid #d8c3a1; border-radius:14px; padding:.55rem; display:flex; flex-direction:column; justify-content:center; }
-    .bed-cell strong { display:block; font-size:.96rem; color:#3b2f22; }
-    .bed-cell span { display:block; font-size:.82rem; color:#6f5c49; margin-top:.2rem; }
+    .bed-row { display:grid; gap:.45rem; min-height:74px; }
+    .bed-cell { background:#fff8ea; border:1px solid #d8c3a1; border-radius:14px; padding:.5rem; display:flex; flex-direction:column; justify-content:center; overflow:hidden; }
+    .bed-cell strong { display:block; font-size:.88rem; line-height:1.15; color:#3b2f22; word-break:break-word; }
+    .bed-cell span { display:block; font-size:.74rem; line-height:1.2; color:#6f5c49; margin-top:.2rem; word-break:break-word; }
     .bed-cell.pollinator { background:#fff1d8; }
     .bed-cell.herb { background:#eef5e5; }
     .bed-cell.main { background:#fdfaf4; }
+    .bed-cell.buffer { background:#f6efe3; }
     .tiny-note { color:#6f5c49; font-size:.94rem; }
     .inline-links a { font-weight:600; }
     @media (max-width:900px){ .planner-grid, .check-grid, .results-shell.show { grid-template-columns:1fr; } }
@@ -300,9 +301,18 @@
       const polls = includePollinators ? pickPollinators(selected).map(name => ({ label: name, type: 'pollinator', note: 'Helpful flower strip' })) : [];
       const filler = [];
       while (mainCells.length + herbs.length + polls.length + filler.length < total) {
-        filler.push({ label: 'Open space', type: 'main', note: sizeKey === 'patio' ? 'Extra pot or airflow room' : 'Walk, mulch, or succession space' });
+        filler.push({ label: sizeKey === 'patio' ? 'Extra pot' : 'Buffer space', type: 'buffer', note: sizeKey === 'patio' ? 'Room for one more container' : 'Reach, airflow, or succession spot' });
       }
-      return [...mainCells, ...herbs, ...polls, ...filler].slice(0, total);
+      const mixed = [...mainCells, ...herbs, ...polls, ...filler];
+      const ordered = [];
+      while (mixed.length) {
+        if (mainCells.length) ordered.push(mainCells.shift());
+        if (herbs.length) ordered.push(herbs.shift());
+        if (polls.length) ordered.push(polls.shift());
+        if (filler.length) ordered.push(filler.shift());
+        if (ordered.length >= total) break;
+      }
+      return ordered.slice(0, total);
     }
 
     function renderSketch(cells, sizeKey) {
