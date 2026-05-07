@@ -18,7 +18,9 @@
     .planner-help { margin:.2rem 0 1rem; color:#5f4b31; font-size:1.02rem; }
     .planner-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
     .planner-field label { display:block; font-weight:700; margin-bottom:.4rem; color:#3b2f22; }
-    .planner-field select { width:100%; padding:1rem; border:2px solid #c79a45; border-radius:16px; font:inherit; background:#fffdf9; }
+    .planner-field select, .planner-field input { width:100%; padding:1rem; border:2px solid #c79a45; border-radius:16px; font:inherit; background:#fffdf9; }
+    .custom-bed-grid { display:none; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; margin-top:1rem; }
+    .custom-bed-grid.show { display:grid; }
     .check-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.6rem 1rem; }
     .check-item { display:flex; gap:.55rem; align-items:flex-start; background:rgba(255,255,255,.45); border:1px solid rgba(199,154,69,.35); border-radius:14px; padding:.7rem .8rem; }
     .check-item input { margin-top:.18rem; }
@@ -82,6 +84,7 @@
               <option value="4x8" selected>4 x 8 feet bed</option>
               <option value="4x12">4 x 12 feet bed</option>
               <option value="10x10">10 x 10 feet space</option>
+              <option value="custom">Custom bed size</option>
               <option value="patio">Patio pots or containers</option>
             </select>
           </div>
@@ -92,6 +95,17 @@
               <option value="productive">Fit in as much useful food as makes sense</option>
               <option value="pollinator">Give me a productive plan with extra pollinator help</option>
             </select>
+          </div>
+        </div>
+
+        <div id="customBedGrid" class="custom-bed-grid">
+          <div class="planner-field">
+            <label for="customWidth">Bed width in feet</label>
+            <input id="customWidth" name="customWidth" type="number" min="2" max="30" step="1" placeholder="Example: 4">
+          </div>
+          <div class="planner-field">
+            <label for="customLength">Bed length in feet</label>
+            <input id="customLength" name="customLength" type="number" min="2" max="50" step="1" placeholder="Example: 10">
           </div>
         </div>
 
@@ -214,6 +228,10 @@
     };
 
     const cropOptions = document.getElementById('cropOptions');
+    const customBedGrid = document.getElementById('customBedGrid');
+    const bedSizeSelect = document.getElementById('bedSize');
+    const customWidthInput = document.getElementById('customWidth');
+    const customLengthInput = document.getElementById('customLength');
     const form = document.getElementById('plannerForm');
     const resetBtn = document.getElementById('plannerReset');
     const resultsShell = document.getElementById('plannerResults');
@@ -224,6 +242,48 @@
     const linkList = document.getElementById('linkList');
     const bedSketch = document.getElementById('bedSketch');
     const sketchNote = document.getElementById('sketchNote');
+
+    function getBedProfile(sizeKey, customWidth = null, customLength = null) {
+      if (sizeKey === 'custom') {
+        const width = Math.max(2, Number(customWidth) || 4);
+        const length = Math.max(2, Number(customLength) || 8);
+        const area = width * length;
+        let tier = 'medium';
+        if (area <= 20) tier = 'small';
+        else if (area >= 80) tier = 'large';
+        return {
+          key: 'custom',
+          width,
+          length,
+          area,
+          tier,
+          label: `${width} x ${length} feet bed`,
+          isPatio: false
+        };
+      }
+      if (sizeKey === 'patio') {
+        return { key: 'patio', width: 0, length: 0, area: 0, tier: 'small', label: 'patio containers', isPatio: true };
+      }
+      const [width, length] = sizeKey.split('x').map(Number);
+      const area = width * length;
+      let tier = 'medium';
+      if (area <= 16) tier = 'small';
+      else if (area >= 80) tier = 'large';
+      return {
+        key: sizeKey,
+        width,
+        length,
+        area,
+        tier,
+        label: bedShapes[sizeKey].label,
+        isPatio: false
+      };
+    }
+
+    function updateCustomBedVisibility() {
+      const show = bedSizeSelect.value === 'custom';
+      customBedGrid.classList.toggle('show', show);
+    }
 
     function renderCropOptions() {
       cropOptions.innerHTML = '';
@@ -286,7 +346,7 @@
       return { label, type, note, edge: true };
     }
 
-    function buildSketchPlan(selected, includeHerbs, includePollinators, sizeKey) {
+    function buildSketchPlan(selected, includeHerbs, includePollinators, bedProfile) {
       const chosen = sortChosenForLayout(selected.length ? selected : ['tomatoes', 'lettuce', 'carrots']);
       const herbs = includeHerbs ? pickHerbs(chosen) : [];
       const polls = includePollinators ? pickPollinators(chosen) : [];
@@ -294,11 +354,11 @@
       const edgeHerbs = herbs.map(name => makeEdgeCell(name, 'herb', 'Edge herb'));
       const edgePolls = polls.map(name => makeEdgeCell(name, 'pollinator', 'Pollinator edge'));
       const fillers = [
-        makeEdgeCell(sizeKey === 'patio' ? 'Extra pot' : 'Buffer', 'buffer', sizeKey === 'patio' ? 'One more container' : 'Reach and airflow'),
-        makeEdgeCell(sizeKey === 'patio' ? 'Shelf space' : 'Mulch path', 'buffer', sizeKey === 'patio' ? 'Small tool or herb spot' : 'Access strip')
+        makeEdgeCell(bedProfile.isPatio ? 'Extra pot' : 'Buffer', 'buffer', bedProfile.isPatio ? 'One more container' : 'Reach and airflow'),
+        makeEdgeCell(bedProfile.isPatio ? 'Shelf space' : 'Mulch path', 'buffer', bedProfile.isPatio ? 'Small tool or herb spot' : 'Access strip')
       ];
 
-      if (sizeKey === 'patio') {
+      if (bedProfile.isPatio) {
         return {
           top: edgeHerbs.slice(0, 2).concat(edgePolls.slice(0, 1)),
           left: [],
@@ -318,12 +378,37 @@
       });
       const midMain = main.filter(cell => !topMain.includes(cell) && !frontMain.includes(cell));
 
+      const isSmall = bedProfile.tier === 'small';
+      const isLarge = bedProfile.tier === 'large';
+      const bigSprawlers = chosen.filter(key => cropData[key].spread === 'large' || cropData[key].family === 'vining');
+      const trellisCrops = chosen.filter(key => ['peas', 'peasSugar', 'cucumbers'].includes(key));
+
       return {
-        top: [...topMain.slice(0, 2), ...edgePolls.slice(0, 1), ...edgeHerbs.slice(0, 1)].slice(0, 4),
-        left: [midMain[0] || edgeHerbs[1] || fillers[0], edgeHerbs[2] || fillers[1]].filter(Boolean),
-        center: [main[0] || fillers[0], midMain[1] || frontMain[0] || fillers[1], main[1] || fillers[0]].filter(Boolean),
-        right: [edgePolls[1] || fillers[0], edgePolls[2] || edgeHerbs[3] || fillers[1]].filter(Boolean),
-        bottom: [frontMain[0] || fillers[0], frontMain[1] || edgeHerbs[0] || fillers[1], frontMain[2] || midMain[2] || fillers[0], edgePolls[3] || fillers[1]].slice(0, 4)
+        top: [
+          ...topMain.slice(0, isLarge ? 3 : 2),
+          ...(trellisCrops.length ? [makeEdgeCell('Trellis side', 'buffer', `${cropData[trellisCrops[0]].label} climbs here`)] : []),
+          ...edgePolls.slice(0, 1),
+          ...edgeHerbs.slice(0, 1)
+        ].slice(0, 4),
+        left: [
+          bigSprawlers[0] ? makeEdgeCell(cropData[bigSprawlers[0]].label, 'main', 'Give this one extra elbow room') : (midMain[0] || edgeHerbs[1] || fillers[0]),
+          edgeHerbs[2] || fillers[1]
+        ].filter(Boolean),
+        center: [
+          main[0] || fillers[0],
+          bigSprawlers[1] ? makeCropCell(bigSprawlers[1], true) : (midMain[1] || frontMain[0] || fillers[1]),
+          isSmall ? (frontMain[0] || main[1] || fillers[0]) : (main[1] || fillers[0])
+        ].filter(Boolean),
+        right: [
+          edgePolls[1] || fillers[0],
+          edgePolls[2] || edgeHerbs[3] || fillers[1]
+        ].filter(Boolean),
+        bottom: [
+          frontMain[0] || fillers[0],
+          frontMain[1] || edgeHerbs[0] || fillers[1],
+          frontMain[2] || midMain[2] || fillers[0],
+          isLarge ? (frontMain[3] || edgePolls[3] || fillers[1]) : (edgePolls[3] || fillers[1])
+        ].slice(0, 4)
       };
     }
 
@@ -382,20 +467,22 @@
     }
 
     renderCropOptions();
+    updateCustomBedVisibility();
+    bedSizeSelect.addEventListener('change', updateCustomBedVisibility);
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const bedSize = document.getElementById('bedSize').value;
+      const bedProfile = getBedProfile(bedSize, customWidthInput.value, customLengthInput.value);
       const style = document.getElementById('sunStyle').value;
       const includeHerbs = document.getElementById('includeHerbs').value === 'yes';
       const includePollinators = document.getElementById('includePollinators').value === 'yes';
       const selected = Array.from(document.querySelectorAll('input[name="crop"]:checked')).map(el => el.value);
-      const chosen = selected.length ? sortChosenForLayout(selected).slice(0, bedSize === 'patio' ? 3 : 6) : ['tomatoes', 'lettuce', 'carrots'];
-      const shape = bedShapes[bedSize];
+      const chosen = selected.length ? sortChosenForLayout(selected).slice(0, bedProfile.isPatio ? 3 : bedProfile.tier === 'large' ? 8 : bedProfile.tier === 'small' ? 4 : 6) : ['tomatoes', 'lettuce', 'carrots'];
       const herbs = includeHerbs ? pickHerbs(chosen) : [];
       const polls = includePollinators ? pickPollinators(chosen) : [];
 
-      planTitle.textContent = `Your ${shape.label} plan`;
+      planTitle.textContent = `Your ${bedProfile.label} plan`;
       planSummary.textContent = `This layout leans ${style === 'easy' ? 'simple and manageable' : style === 'productive' ? 'productive without getting too crowded' : 'productive with a little extra pollinator support'}, built around the foods you actually care about.`;
 
       const mainItems = chosen.map(key => `<strong>${cropData[key].label}:</strong> ${cropData[key].spacing}`);
@@ -419,9 +506,9 @@
         '<a href="/pages/protect-my-veggie.html">Protect My Veggie</a>'
       ]));
 
-      const layout = buildSketchPlan(chosen, includeHerbs, includePollinators, bedSize);
+      const layout = buildSketchPlan(chosen, includeHerbs, includePollinators, bedProfile);
       renderSketch(layout, bedSize);
-      sketchNote.textContent = `A rough top-down sketch for a ${shape.label}. You can swap exact positions around based on sun, paths, or what feels easiest to reach.`;
+      sketchNote.textContent = `A rough top-down sketch for a ${bedProfile.label}. You can swap exact positions around based on sun, paths, or what feels easiest to reach.`;
       resultsShell.classList.add('show');
       resultsShell.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
@@ -429,6 +516,9 @@
     resetBtn.addEventListener('click', () => {
       form.reset();
       document.getElementById('bedSize').value = '4x8';
+      customWidthInput.value = '';
+      customLengthInput.value = '';
+      updateCustomBedVisibility();
       document.getElementById('includeHerbs').value = 'yes';
       document.getElementById('includePollinators').value = 'yes';
       resultsShell.classList.remove('show');
