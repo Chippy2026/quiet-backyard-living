@@ -54,7 +54,21 @@
     .tiny-note { color:#6f5c49; font-size:.94rem; }
     .inline-links a { font-weight:600; }
     @media (max-width:900px){ .planner-grid, .results-shell.show { grid-template-columns:1fr; } .check-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-    @media (max-width:560px){ .check-grid { grid-template-columns:1fr; } }
+    @media (max-width:560px){
+      .check-grid { grid-template-columns:1fr; }
+      .sketch-card { padding:1rem; }
+      .bed-sketch { padding:.55rem; min-height:auto; }
+      .bed-orientation { font-size:.7rem; gap:.5rem; flex-wrap:wrap; }
+      .sketch-band.edge-top, .sketch-band.edge-bottom { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+      .sketch-middle { grid-template-columns:1fr; min-height:auto; }
+      .sketch-main { grid-auto-rows:minmax(60px, auto); }
+      .bed-cell { padding:.45rem; }
+      .bed-cell strong { font-size:.82rem; }
+      .bed-cell span { font-size:.68rem; }
+      .bed-cell.main { min-height:64px; }
+      .bed-cell.main.featured { min-height:76px; }
+      .bed-cell.edge { min-height:46px; }
+    }
   </style>
 </head>
 <body>
