@@ -434,7 +434,7 @@ a:hover { text-decoration: underline; }
   padding: 1rem;
 }
 @media (max-width: 800px) {
-  .hero-grid, .split, .card-grid, .crew-intro-grid, .crew-bio-grid { grid-template-columns: 1fr; }
+  .hero-grid, .split, .card-grid, .crew-intro-grid, .crew-bio-grid, .homepage-tool-top { grid-template-columns: 1fr; }
   .crew-profile { grid-template-columns: 1fr; }
   .crew-profile-photo img { height: 280px; }
   .nav {
