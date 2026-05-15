@@ -247,6 +247,8 @@
       .home-paper-shell, .home-stagger-shell { padding:.8rem; }
       .home-story-copy, .home-mini-story .copy, .home-note-card, .home-mini-list-card { padding:.9rem; }
       .home-story-row, .home-story-row.narrow-image, .home-mini-grid, .home-stagger-grid { grid-template-columns:1fr; gap:.85rem; }
+      .home-mini-grid { display:flex; flex-direction:column; }
+      .home-mini-story { min-width:0; }
       .home-story-side-image { padding:.35rem; }
       .home-story-side-image img,
       .home-story-side-image img.shrink-20,
@@ -258,6 +260,7 @@
       .home-feature-buttons { gap:.65rem; }
       .homepage-tool-buttons-wrap img { width:100% !important; max-width:240px !important; }
       .home-feature-center { min-height:200px; }
+      .home-editorial-break + .section .home-mini-grid:first-of-type { margin-top:0; }
     }
   </style>
 </head>
