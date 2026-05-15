@@ -7,16 +7,13 @@
   <meta name="description" content="Quiet Backyard Living shares simple, real-world ideas for creating a peaceful, wildlife-friendly backyard with flowers, birds, pollinators, and quiet outdoor beauty.">
   <meta name="p:domain_verify" content="52a7467a8bd4b666ccd04d24399ca93b">
   <link rel="stylesheet" href="/assets/css/styles.css?v=mobile2">
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
   <script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
-
    gtag('config', 'G-4E1BHTRHF3');
   </script>
-  <!-- MailerLite Universal -->
   <script>
    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
@@ -24,7 +21,6 @@
    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
    ml('account', '2238054');
   </script>
-  <!-- End MailerLite Universal -->
   <style>
     .home-editorial-hero {
       background:#fffdf7;
@@ -95,45 +91,6 @@
       justify-content:center;
     }
     .home-feature-buttons { display:flex; flex-direction:column; gap:.8rem; align-items:center; text-align:center; width:100%; height:100%; justify-content:center; }
-    .home-editorial-band {
-      background:#fffdf7;
-      border:1px solid #e2d7c2;
-      box-shadow:0 18px 40px rgba(60,42,18,.06);
-    }
-    .home-editorial-band .split { align-items:center; }
-    .home-editorial-copy { padding:1.15rem 1.15rem 1.15rem 0; }
-    .home-editorial-label {
-      font-size:.76rem;
-      letter-spacing:.15em;
-      text-transform:uppercase;
-      color:#8b5f19;
-      font-weight:800;
-      margin-bottom:.45rem;
-      display:inline-block;
-    }
-    .home-editorial-copy h2 { line-height:1.08; }
-    .home-editorial-subnote {
-      margin-top:1rem;
-      padding-top:.85rem;
-      border-top:1px solid #eadfcf;
-      color:#5d4a32;
-      font-size:.95rem;
-    }
-    .home-mini-column {
-      background:#fcf8ef;
-      border-top:1px solid #eadfcf;
-      border-bottom:1px solid #eadfcf;
-    }
-    .home-mini-column .container {
-      padding-top:1rem;
-      padding-bottom:1rem;
-    }
-    .home-mini-column strong {
-      display:block;
-      margin-bottom:.35rem;
-      color:#4a3827;
-      font-size:.98rem;
-    }
     .home-editorial-break {
       background:#fbf7ef;
       border-top:1px solid #eadfcf;
@@ -158,9 +115,68 @@
       max-width:760px;
       font-size:1rem;
     }
+    .home-stagger-shell {
+      background:#fffdf7;
+      border:1px solid #e2d7c2;
+      box-shadow:0 18px 40px rgba(60,42,18,.06);
+      padding:1.1rem;
+    }
+    .home-stagger-grid {
+      display:grid;
+      grid-template-columns:1.25fr .95fr;
+      gap:1rem;
+      align-items:start;
+    }
+    .home-stagger-stack { display:grid; gap:1rem; }
+    .home-story-card, .home-note-card, .home-mini-list-card {
+      background:#fff;
+      border:1px solid #eadfcf;
+      box-shadow:0 10px 24px rgba(0,0,0,.04);
+    }
+    .home-story-card img, .home-mini-story img { width:100%; display:block; height:auto; }
+    .home-story-card.large img { max-height:360px; object-fit:cover; }
+    .home-story-copy { padding:1rem 1rem 1.05rem; }
+    .home-story-kicker {
+      display:inline-block;
+      margin-bottom:.4rem;
+      font-size:.76rem;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:#8b5f19;
+      font-weight:800;
+    }
+    .home-story-copy h2, .home-story-copy h3 { line-height:1.08; margin-bottom:.45rem; }
+    .home-story-copy p:last-child { margin-bottom:0; }
+    .home-button-row { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:.9rem; }
+    .home-subnote {
+      margin-top:.95rem;
+      padding-top:.8rem;
+      border-top:1px solid #eadfcf;
+      color:#5d4a32;
+      font-size:.95rem;
+    }
+    .home-mini-grid {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:1rem;
+    }
+    .home-mini-story { background:#fff; border:1px solid #eadfcf; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .home-mini-story .copy { padding:.9rem .95rem 1rem; }
+    .home-mini-story h3 { margin:.35rem 0 .35rem; line-height:1.14; }
+    .home-note-card, .home-mini-list-card { padding:1rem 1rem 1.05rem; background:#fcf8ef; }
+    .home-note-card p:last-child, .home-mini-list-card p:last-child { margin-bottom:0; }
+    .home-mini-list-card ul { margin:.4rem 0 0; padding-left:1.15rem; }
+    .home-mini-list-card li { margin-bottom:.45rem; }
+    .home-photo-quote {
+      font-size:1.04rem;
+      font-style:italic;
+      color:#4a3827;
+      line-height:1.55;
+    }
+    .home-link-list { margin:.35rem 0 0; padding-left:1.15rem; }
+    .home-link-list li { margin-bottom:.45rem; }
     @media (max-width:950px){
-      .home-hero-grid { grid-template-columns:1fr; }
-      .home-editorial-copy { padding:0; }
+      .home-hero-grid, .home-stagger-grid, .home-mini-grid { grid-template-columns:1fr; }
     }
   </style>
 </head>
@@ -168,15 +184,15 @@
   <header class="site-header">
     <div class="container nav">
       <div class="nav-brand-wrap">
-              <div class="brand">Quiet Backyard Living</div>
-              
-            </div>
-            <nav class="nav-links">
-              <a href="/">Home</a>
-              <a href="/pages/about.html">Meet the Crew</a>
-              <a href="/pages/blog.html">Backyard Tips & Ideas</a>
-              <a href="/pages/projects.html">See the Projects</a>
-            </nav></div>
+        <div class="brand">Quiet Backyard Living</div>
+      </div>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/pages/about.html">Meet the Crew</a>
+        <a href="/pages/blog.html">Backyard Tips & Ideas</a>
+        <a href="/pages/projects.html">See the Projects</a>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -241,41 +257,6 @@
       </div>
     </section>
 
-    <section class="section home-editorial-band">
-      <div class="container split" style="align-items:center;">
-        <div class="home-editorial-copy">
-          <p class="home-editorial-label">Featured garden story</p>
-          <h2>Turn Your Plants Into a Real Garden Plan</h2>
-          <p>You brought home the plants. Now comes the part that trips people up, what goes where, what can live together, and how close is too close?</p>
-          <p>This simple layout tool helps turn a flat of plants into a realistic beginner-friendly garden plan with spacing ideas, companion plants, herbs, pollinator helpers, and a rough bed sketch.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/your-flat-of-veggies-herbs-and-flowers-now-what.html">See How It Works</a>
-            <a class="button" href="/pages/build-my-garden-plan.html">Try the Layout Tool</a>
-          </div>
-          <div class="home-editorial-subnote"><strong>Why it matters:</strong> this is one of the clearest “start where you actually are” tools on the site, especially for people staring at a flat of plants and a raised bed with no real plan yet.</div>
-          <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good next reads:</p>
-          <ul style="margin:0; padding-left:1.2rem;">
-            <li><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></li>
-            <li><a href="/pages/protect-my-veggie.html">Protect My Veggie</a></li>
-          </ul>
-        </div>
-        <div>
-          <img src="/assets/images/homepage-garden-helper-teaser.jpg" alt="Garden layout tool teaser showing veggies, herbs, flowers, and a simple raised bed plan" style="object-fit:cover; object-position:top center;">
-        </div>
-      </div>
-    </section>
-
-    <section class="section home-mini-column">
-      <div class="container" style="color:#5d4a32; font-size:.98rem;">
-        <strong>If a raised bed starts feeling crowded:</strong>
-        <ul style="margin:.1rem 0 0; padding-left:1.2rem;">
-          <li>harvest outer leaves first</li>
-          <li>thin before airflow gets worse</li>
-          <li>replant in waves instead of all at once</li>
-        </ul>
-      </div>
-    </section>
-
     <section class="section home-editorial-break">
       <div class="container">
         <span class="home-editorial-break-label">Editor’s note</span>
@@ -283,173 +264,150 @@
       </div>
     </section>
 
-    <section class="section cta-band">
-      <div class="container split">
-        <div>
-          <h2>10 simple backyard ideas to attract more wildlife and maybe even pay for themselves</h2>
-          <p>Some backyard ideas do more than just look nice. A few can help attract more wildlife, grow useful things, save money, and maybe even create a little extra income over time.</p>
-          <p>Click here to explore 10 simple ideas that could help your backyard become more enjoyable and a little more productive too.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html">See the 10 Ideas</a>
-            <a class="button" href="/pages/projects.html">See the Projects</a>
-          </div>
-        </div>
-        <div>
-          <img src="/assets/images/top-10-backyard-ideas-teaser.png" alt="Backyard garden bed and wildlife-friendly growing space">
-        </div>
-      </div>
-    </section>
+    <section class="section">
+      <div class="container home-stagger-shell">
+        <div class="home-stagger-grid">
+          <div class="home-stagger-stack">
+            <article class="home-story-card large">
+              <img src="/assets/images/homepage-garden-helper-teaser.jpg" alt="Garden layout tool teaser showing veggies, herbs, flowers, and a simple raised bed plan">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Featured garden story</span>
+                <h2>Turn Your Plants Into a Real Garden Plan</h2>
+                <p>You brought home the plants. Now comes the part that trips people up, what goes where, what can live together, and how close is too close?</p>
+                <p>This simple layout tool helps turn a flat of plants into a realistic beginner-friendly garden plan with spacing ideas, companion plants, herbs, pollinator helpers, and a rough bed sketch.</p>
+                <div class="home-button-row">
+                  <a class="button cta-blue" href="/pages/your-flat-of-veggies-herbs-and-flowers-now-what.html">See How It Works</a>
+                  <a class="button" href="/pages/build-my-garden-plan.html">Try the Layout Tool</a>
+                </div>
+                <div class="home-subnote"><strong>Why it matters:</strong> this is one of the clearest start-where-you-actually-are tools on the site, especially for people staring at a flat of plants and a raised bed with no real plan yet.</div>
+              </div>
+            </article>
 
-    <section class="section home-editorial-band" style="background:linear-gradient(135deg,#f7f1e5 0%,#efe4ce 100%);">
-      <div class="container split" style="align-items:center;">
-        <div class="home-editorial-copy">
-          <p class="home-editorial-label" style="color:#6f5a24;">Herb value guide</p>
-          <h2>Turn Extra Herbs Into Real Backyard Value</h2>
-          <p>If you are already using herbs in the garden, this page takes the next step. It breaks down which herbs are easiest to grow extra, what people actually do with them, and how they can turn into fresh packs, dried herbs, starter plants, tea bundles, or small practical value.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">See the Herb Guide</a>
-            <a class="button" href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">See the Herb Value Page</a>
+            <div class="home-mini-grid">
+              <article class="home-mini-story">
+                <img src="/assets/images/homepage-4x8-raised-bed-teaser.jpg" alt="4x8 raised bed planning teaser image">
+                <div class="copy">
+                  <span class="home-story-kicker">4x8 bed guide</span>
+                  <h3><a href="/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html">What to Plant in a 4x8 Raised Bed</a></h3>
+                  <p>A practical layout guide for a normal raised bed so it stays useful instead of crowded and chaotic.</p>
+                </div>
+              </article>
+              <article class="home-mini-story">
+                <img src="/assets/images/herb-value-home-teaser.jpg" alt="Turn extra herbs into real backyard value teaser image">
+                <div class="copy">
+                  <span class="home-story-kicker">Herb value guide</span>
+                  <h3><a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">Turn Extra Herbs Into Real Backyard Value</a></h3>
+                  <p>One of the stickier lanes on the site, practical herb value, simple formats, and real-world usefulness.</p>
+                </div>
+              </article>
+            </div>
           </div>
-          <div class="home-editorial-subnote"><strong>Reader signal:</strong> the herb pages are quietly becoming some of the stickiest reads on the site, which makes this lane worth treating like a real mini-cluster, not just a side note.</div>
-          <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good companion reads:</p>
-          <ul style="margin:0; padding-left:1.2rem;">
-            <li><a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">How to Grow Extra Herbs for Yourself, Friends, and Maybe a Little Extra Income</a></li>
-            <li><a href="/pages/build-my-garden-plan.html">Build My Garden Plan</a></li>
-          </ul>
-        </div>
-        <div>
-          <img src="/assets/images/herb-value-home-teaser.jpg" alt="Turn extra herbs into real backyard value teaser image">
-        </div>
-      </div>
-    </section>
 
-    <section class="section home-editorial-band">
-      <div class="container split">
-        <div class="home-editorial-copy">
-          <p class="home-editorial-label">Project series</p>
-          <h2>Weekend Backyard Builds</h2>
-          <p>Click here to see beginner-friendly backyard builds that feel doable in real life, with realistic tools, practical results, and projects that stay in the under-$100, 1 to 2 day lane.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/weekend-backyard-builds.html">Explore the Series</a>
-            <a class="button" href="/pages/projects.html">See the Project Journal</a>
+          <div class="home-stagger-stack">
+            <div class="home-note-card">
+              <span class="home-story-kicker">Worth remembering</span>
+              <p class="home-photo-quote">Small productive spaces usually work better when they stay honest. A bed that is easy to harvest, easy to water, and easy to keep up with will usually beat a crowded grow-everything plan.</p>
+            </div>
+
+            <div class="home-mini-list-card">
+              <span class="home-story-kicker">If a raised bed starts feeling crowded</span>
+              <ul>
+                <li>harvest outer leaves first</li>
+                <li>thin before airflow gets worse</li>
+                <li>replant in waves instead of all at once</li>
+              </ul>
+            </div>
+
+            <article class="home-story-card">
+              <img src="/assets/images/weekend-backyard-builds-teaser.jpg" alt="Weekend Backyard Builds teaser image">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Project series</span>
+                <h3><a href="/pages/weekend-backyard-builds.html">Weekend Backyard Builds</a></h3>
+                <p>Beginner-friendly backyard builds that stay in the under-$100, 1 to 2 day lane and actually feel finishable.</p>
+                <p><a href="/pages/projects.html">See the Project Journal</a></p>
+              </div>
+            </article>
+
+            <div class="home-mini-list-card">
+              <span class="home-story-kicker">Good next reads</span>
+              <ul class="home-link-list">
+                <li><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></li>
+                <li><a href="/pages/protect-my-veggie.html">Protect My Veggie</a></li>
+                <li><a href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">The Herbs That Quietly Save You the Most Money</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="home-editorial-subnote"><strong>The lane:</strong> under or around $100, beginner friendly, realistic tools, and the kinds of projects normal people might actually finish in a weekend.</div>
-          <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good place to start:</p>
-          <ul style="margin:0; padding-left:1.2rem;">
-            <li><a href="/pages/diy-patio-garden-bed.html">DIY Patio Garden Bed</a></li>
-            <li><a href="/pages/diy-olla-watering-system.html">A Simple Olla Watering Pot for Short Trips</a></li>
-          </ul>
-        </div>
-        <div>
-          <a href="/pages/weekend-backyard-builds.html" style="display:block; max-width:560px; margin:0 auto;"><img src="/assets/images/weekend-backyard-builds-teaser.jpg" alt="Weekend Backyard Builds teaser image" style="width:100%; max-width:560px; height:auto;"></a>
         </div>
       </div>
     </section>
 
     <section class="section home-editorial-break">
       <div class="container">
-        <span class="home-editorial-break-label">Backyard truth</span>
-        <p>Small productive spaces usually work better when they stay honest. A bed that is easy to harvest, easy to water, and easy to keep up with will usually beat a crowded “grow everything” plan.</p>
+        <span class="home-editorial-break-label">From the garden journal</span>
+        <p>Some pages are there to solve a problem fast. Others are there to make the backyard feel a little more possible. The strongest homepage sections should probably do one of those two jobs clearly.</p>
       </div>
     </section>
 
-    <section class="section cta-band hummingbird-feature">
-      <div class="container split">
-        <div>
-          <h2>What to Plant in a 4x8 Raised Bed for the Food You Actually Eat</h2>
-          <p>A 4x8 raised bed can grow a lot, but it gets crowded fast if you treat it like a mini farm. This guide shows practical crop mixes, layout logic, where herbs fit, and how to keep the bed useful instead of chaotic.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html">See the 4x8 Bed Guide</a>
-            <a class="button" href="/pages/build-my-garden-plan.html">Try the Layout Tool</a>
+    <section class="section">
+      <div class="container home-stagger-shell">
+        <div class="home-stagger-grid" style="grid-template-columns:.95fr 1.25fr;">
+          <div class="home-stagger-stack">
+            <article class="home-story-card">
+              <img src="/assets/images/top-10-backyard-ideas-teaser.png" alt="Backyard garden bed and wildlife-friendly growing space">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Big picture</span>
+                <h3><a href="/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html">10 simple backyard ideas to attract more wildlife and maybe even pay for themselves</a></h3>
+                <p>A broader ideas page for making the yard more enjoyable, useful, and maybe a little more productive over time.</p>
+              </div>
+            </article>
+
+            <article class="home-story-card">
+              <img src="/assets/images/tree-planting-collage-home-clean.jpg?v=2" alt="Collage of newly planted jujube trees and fruit tree planting at the cabin">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Cabin story</span>
+                <h3>We planted jujube trees and a 4-in-1 fruit tree at the cabin</h3>
+                <p>Two story-style fruit tree pages that feel more like real backyard life and less like stiff gardening copy.</p>
+                <div class="home-button-row">
+                  <a class="button cta-blue" href="/pages/jujube-trees-at-the-cabin.html">See the Jujube Story</a>
+                  <a class="button" href="/pages/four-in-one-fruit-tree-at-the-cabin.html">See the 4-in-1 Tree</a>
+                </div>
+              </div>
+            </article>
           </div>
-          <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good next reads:</p>
-          <ul style="margin:0; padding-left:1.2rem;">
-            <li><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></li>
-            <li><a href="/pages/protect-my-veggie.html">Protect My Veggie</a></li>
-          </ul>
-        </div>
-        <div>
-          <img src="/assets/images/4x8-raised-bed-page-teaser.jpg" alt="What to plant in a 4x8 raised bed teaser image" style="object-fit:cover; object-position:top center;">
-        </div>
-      </div>
-    </section>
 
-    <section class="section cta-band">
-      <div class="container split">
-        <div>
-          <h2>We planted jujube trees and a 4-in-1 fruit tree at the cabin</h2>
-          <p>These are the kind of fun spring projects that make the place feel more alive year by year. We turned the new planting photos into two story-style pages that are useful, visual, and a lot more fun than a stiff garden manual.</p>
-          <p>Tap the collage to jump into the new fruit tree pages.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/jujube-trees-at-the-cabin.html">See the Jujube Story</a>
-            <a class="button" href="/pages/four-in-one-fruit-tree-at-the-cabin.html">See the 4-in-1 Tree</a>
+          <div class="home-stagger-stack">
+            <article class="home-story-card large">
+              <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Workshop favorite</span>
+                <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
+                <p>You do not need expensive lumber or a complicated woodworking setup to make something beautiful. This project turns one big-box cedar fence picket into a custom log-cabin-style birdhouse with a lot of personality.</p>
+                <div class="home-button-row">
+                  <a class="button cta-blue" href="/pages/birdhouse-guide-signup.html">Get the Birdhouse Guide</a>
+                  <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Project</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="home-mini-grid">
+              <article class="home-mini-story">
+                <img src="/assets/images/log-cabin-bird-feeder-build-final/finished-2.jpg" alt="Finished rustic log cabin bird feeder">
+                <div class="copy">
+                  <span class="home-story-kicker">Fence-picket project</span>
+                  <h3><a href="/pages/log-cabin-bird-feeder-build">Log Cabin Bird Feeder Build</a></h3>
+                  <p>The same handmade cabin charm, now as a feeder you can actually hang and enjoy all season.</p>
+                </div>
+              </article>
+              <article class="home-mini-story">
+                <img src="/assets/images/rain-water-station-build/homepage-teaser-main.jpg" alt="Finished bird, squirrel, and critter feeding and watering station">
+                <div class="copy">
+                  <span class="home-story-kicker">Wildlife build</span>
+                  <h3><a href="/pages/rain-water-feeding-station-build-v2.html">Bird, Squirrel, and Critter Feeding &amp; Watering Station</a></h3>
+                  <p>A playful little backyard build that gives critters a place to snack, sip, and hang around.</p>
+                </div>
+              </article>
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="/assets/images/tree-planting-collage-home-clean.jpg?v=2" alt="Collage of newly planted jujube trees and fruit tree planting at the cabin">
-        </div>
-      </div>
-    </section>
-
-    <section class="section home-editorial-band">
-      <div class="container split">
-        <div class="home-editorial-copy">
-          <p class="home-editorial-label">Workshop favorite</p>
-          <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
-          <p>You do not need expensive lumber or a complicated woodworking setup to make something beautiful. This fun birdhouse workshop project starts with one big box store cedar fence picket and turns it into a custom log cabin-style birdhouse with lots of personality.</p>
-          <p>Get the exact cut measurements, visual build flow, and simple step-by-step instructions sent to your email.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/birdhouse-guide-signup.html">Get the Birdhouse Guide</a>
-            <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Project</a>
-          </div>
-        </div>
-        <div>
-          <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
-        </div>
-      </div>
-    </section>
-
-    <section class="section home-mini-column">
-      <div class="container" style="color:#5d4a32; font-size:.98rem;">
-        <strong>Before you start a fence-picket build:</strong>
-        <ul style="margin:.1rem 0 0; padding-left:1.2rem;">
-          <li>pick the straightest boards first</li>
-          <li>pre-drill where wood could split</li>
-          <li>dry-fit little pieces before final assembly</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section cta-band">
-      <div class="container split">
-        <div>
-          <h2>Build this rustic log cabin style bird feeder with just one cedar fence picket</h2>
-          <p>This one has the same handmade cabin charm as the birdhouse build, but now it turns into a feeder you can hang outside and enjoy all season.</p>
-          <p>Follow the fun workshop shots, the cut sequence, the assembly flow, and the finished backyard reveal.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/log-cabin-bird-feeder-build">See the Bird Feeder Build</a>
-            <a class="button" href="/pages/cedar-fence-picket-birdhouse-workshop.html">See the Birdhouse Too</a>
-          </div>
-        </div>
-        <div>
-          <img src="/assets/images/log-cabin-bird-feeder-build-final/finished-2.jpg" alt="Finished rustic log cabin bird feeder">
-        </div>
-      </div>
-    </section>
-
-    <section class="section cta-band">
-      <div class="container split">
-        <div>
-          <h2>Build this cute bird, squirrel, and critter feeding &amp; watering station from 2 cedar fence pickets</h2>
-          <p>This simple little build gives birds and backyard critters a place to snack, sip, and enjoy a bit of shelter, with a slanted roof that can even help guide rainwater toward the bowl.</p>
-          <p>See the cut steps, the base ground stake build, the full assembly sequence, and the finished station out in the yard.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/rain-water-feeding-station-build-v2.html">See the Build</a>
-            <a class="button" href="/pages/projects.html">More Projects</a>
-          </div>
-        </div>
-        <div>
-          <img src="/assets/images/rain-water-station-build/homepage-teaser-main.jpg" alt="Finished bird, squirrel, and critter feeding and watering station">
         </div>
       </div>
     </section>
@@ -457,57 +415,57 @@
     <section class="section home-editorial-break">
       <div class="container">
         <span class="home-editorial-break-label">From the project journal</span>
-        <p>The projects that seem to connect best are the ones that feel both useful and personal, not just “here is a thing I built,” but “here is why this ended up mattering in the backyard.”</p>
+        <p>The project pages tend to work best when they feel both useful and personal, not just here is a thing I built, but here is why it ended up mattering in the backyard.</p>
       </div>
     </section>
 
-    <section class="section cta-band squirrel-teaser">
-      <div class="container split">
-        <div>
-          <h2>Turn old lumber into a fun backyard squirrel playground</h2>
-          <p>This simple homemade playground came from paying attention. The chipmunks loved playing in an old woodpile, and after moving it, I used some of that scrap lumber to give them a new place to climb, perch, snack, and hang out.</p>
-          <p>Now it is one of those fun little backyard spots where you might see Chippy, a blue jay, and all kinds of critter traffic in one place.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/squirrel-playground-old-lumber.html">See the Squirrel Playground</a>
-            <a class="button" href="/pages/projects.html">More Projects</a>
-          </div>
-        </div>
-        <div>
-          <img src="/assets/images/squirrel-playground/squirrel-playground-homepage-teaser.jpg" alt="Two squirrels using the squirrel playground">
-        </div>
-      </div>
-    </section>
+    <section class="section">
+      <div class="container home-stagger-shell">
+        <div class="home-stagger-grid">
+          <div class="home-stagger-stack">
+            <article class="home-story-card">
+              <img src="/assets/images/squirrel-playground/squirrel-playground-homepage-teaser.jpg" alt="Two squirrels using the squirrel playground">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Critter corner</span>
+                <h3><a href="/pages/squirrel-playground-old-lumber.html">Turn old lumber into a fun backyard squirrel playground</a></h3>
+                <p>A simple homemade playground that came from paying attention to how much the chipmunks loved the old woodpile.</p>
+              </div>
+            </article>
 
-    <section class="section cta-band olla-teaser">
-      <div class="container split">
-        <div>
-          <h2>How this crazy-looking pot can save your plants in a pinch</h2>
-          <p>This simple two-pot olla setup is a cheap low-tech way to help raised beds hold moisture longer, especially if you are going away for a short trip and do not want your plants drying out fast.</p>
-          <p>See how to build it, bury it, fill it, and use it as a simple backup watering helper.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/diy-olla-watering-system.html">See the Olla Build</a>
-            <a class="button" href="/pages/projects.html">More Projects</a>
+            <article class="home-story-card">
+              <img src="/assets/images/olla-build/olla-homepage-teaser.jpg" alt="Finished two-pot olla before installation">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Low-tech helper</span>
+                <h3><a href="/pages/diy-olla-watering-system.html">How this crazy-looking pot can save your plants in a pinch</a></h3>
+                <p>A simple two-pot olla setup to help raised beds hold moisture longer during short trips or hot stretches.</p>
+              </div>
+            </article>
           </div>
-        </div>
-        <div>
-          <img src="/assets/images/olla-build/olla-homepage-teaser.jpg" alt="Finished two-pot olla before installation">
-        </div>
-      </div>
-    </section>
 
-    <section class="section cta-band">
-      <div class="container split">
-        <div>
-          <h2>Learn how this simple little pipe can help feed your raised bed from the inside out</h2>
-          <p>This easy in-bed worm composting tube gives your raised bed a place to take in kitchen scraps, build worm activity, and slowly feed the soil over time without making gardening more complicated.</p>
-          <p>It may not be the prettiest thing in the garden, but it can become a simple little feeding station built right into the bed.</p>
-          <div class="buttons">
-            <a class="button cta-blue" href="/pages/in-bed-worm-composting-tube.html">See the Worm Tube Build</a>
-            <a class="button" href="/pages/blog.html">More Backyard Tips</a>
+          <div class="home-stagger-stack">
+            <article class="home-story-card large">
+              <img src="/assets/images/worm-tube/worm-tube-homepage-teaser.jpg" alt="In-bed worm composting tube in a raised bed">
+              <div class="home-story-copy">
+                <span class="home-story-kicker">Raised-bed helper</span>
+                <h2><a href="/pages/in-bed-worm-composting-tube.html">Learn how this simple little pipe can help feed your raised bed from the inside out</a></h2>
+                <p>This easy in-bed worm composting tube gives your raised bed a place to take in kitchen scraps, build worm activity, and slowly feed the soil over time without making gardening more complicated.</p>
+                <p>It may not be the prettiest thing in the garden, but it can become a simple feeding station built right into the bed.</p>
+                <div class="home-button-row">
+                  <a class="button cta-blue" href="/pages/in-bed-worm-composting-tube.html">See the Worm Tube Build</a>
+                  <a class="button" href="/pages/blog.html">More Backyard Tips</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="home-mini-list-card">
+              <span class="home-story-kicker">Before you start a fence-picket build</span>
+              <ul>
+                <li>pick the straightest boards first</li>
+                <li>pre-drill where wood could split</li>
+                <li>dry-fit little pieces before final assembly</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="/assets/images/worm-tube/worm-tube-homepage-teaser.jpg" alt="In-bed worm composting tube in a raised bed">
         </div>
       </div>
     </section>
@@ -551,7 +509,6 @@
         </div>
       </div>
     </section>
-
 
     <section class="section">
       <div class="container note">
