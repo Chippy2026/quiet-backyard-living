@@ -238,6 +238,27 @@
       .home-hero-grid, .home-stagger-grid, .home-mini-grid, .home-story-row { grid-template-columns:1fr; }
       .home-story-side-image img { max-width:260px; }
     }
+    @media (max-width:700px){
+      .section { padding:2rem 0; }
+      .home-masthead { padding:1rem .9rem .9rem; }
+      .home-masthead-title { font-size:clamp(1.7rem,7vw,2.3rem); }
+      .home-masthead-deck { font-size:1rem; }
+      .home-hero-grid { gap:.9rem; padding:.9rem; }
+      .home-paper-shell, .home-stagger-shell { padding:.8rem; }
+      .home-story-copy, .home-mini-story .copy, .home-note-card, .home-mini-list-card { padding:.9rem; }
+      .home-story-row, .home-story-row.narrow-image, .home-mini-grid, .home-stagger-grid { grid-template-columns:1fr; gap:.85rem; }
+      .home-story-side-image { padding:.35rem; }
+      .home-story-side-image img,
+      .home-story-side-image img.shrink-20,
+      .home-mini-story img { max-width:100%; max-height:none; width:100%; }
+      .home-button-row,
+      .home-button-row.side-by-side { flex-direction:column; align-items:stretch; justify-content:flex-start; }
+      .home-button-row .button,
+      .home-button-row.side-by-side .button { width:100%; text-align:center; }
+      .home-feature-buttons { gap:.65rem; }
+      .homepage-tool-buttons-wrap img { width:100% !important; max-width:240px !important; }
+      .home-feature-center { min-height:200px; }
+    }
   </style>
 </head>
 <body>
