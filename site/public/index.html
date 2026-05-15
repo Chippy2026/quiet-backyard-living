@@ -129,7 +129,7 @@
     }
     .home-story-row {
       display:grid;
-      grid-template-columns:260px minmax(0,1fr);
+      grid-template-columns:220px minmax(0,1fr);
       gap:1rem;
       align-items:start;
     }
@@ -147,7 +147,7 @@
     }
     .home-story-side-image img {
       width:100%;
-      max-width:220px;
+      max-width:200px;
       height:auto;
       display:block;
     }
@@ -176,7 +176,12 @@
     .home-story-copy h2, .home-story-copy h3 { line-height:1.08; margin-bottom:.45rem; }
     .home-story-copy p:last-child { margin-bottom:0; }
     .home-button-row { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:.9rem; }
-    .home-button-row.side-by-side { flex-wrap:nowrap; align-items:center; }
+    .home-button-row.side-by-side { flex-wrap:nowrap; align-items:center; gap:.55rem; }
+    .home-button-row.side-by-side .button {
+      padding:.72rem .95rem;
+      font-size:.95rem;
+      white-space:nowrap;
+    }
     .home-subnote {
       margin-top:.95rem;
       padding-top:.8rem;
@@ -298,7 +303,7 @@
                     <p>This simple layout tool helps turn a flat of plants into a realistic beginner-friendly garden plan with spacing ideas, companion plants, herbs, pollinator helpers, and a rough bed sketch.</p>
                     <div class="home-button-row side-by-side">
                       <a class="button cta-blue" href="/pages/your-flat-of-veggies-herbs-and-flowers-now-what.html">See How It Works</a>
-                      <a class="button" href="/pages/build-my-garden-plan.html">Try the Layout Tool</a>
+                      <a class="button" href="/pages/build-my-garden-plan.html">Try the Tool</a>
                     </div>
                   </div>
                 </div>
