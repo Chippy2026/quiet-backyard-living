@@ -136,8 +136,8 @@
       overflow:hidden;
     }
     .home-story-card img, .home-mini-story img { width:100%; display:block; height:auto; }
-    .home-story-card.large img { max-height:360px; object-fit:cover; }
-    .home-story-card.show-full-image img { max-height:none; object-fit:contain; background:#f7f1e5; }
+    .home-story-card.large img { max-height:300px; object-fit:cover; }
+    .home-story-card.show-full-image img { max-height:240px; object-fit:contain; background:#f7f1e5; padding:.5rem; }
     .home-story-copy { padding:1rem 1rem 1.05rem; }
     .home-note-card, .home-mini-list-card { padding:1rem 1rem 1.05rem; }
     .home-story-kicker {
@@ -165,6 +165,7 @@
       gap:1rem;
     }
     .home-mini-story { background:#fff; border:1px solid #eadfcf; box-shadow:0 10px 24px rgba(0,0,0,.04); border-radius:16px; overflow:hidden; }
+    .home-mini-story img { max-height:190px; object-fit:cover; object-position:center; }
     .home-mini-story .copy { padding:.9rem .95rem 1rem; }
     .home-mini-story h3 { margin:.35rem 0 .35rem; line-height:1.14; }
     .home-note-card, .home-mini-list-card { padding:1rem 1rem 1.05rem; background:#fcf8ef; }
@@ -289,7 +290,7 @@
 
             <div class="home-mini-grid">
               <article class="home-mini-story">
-                <img src="/assets/images/homepage-4x8-raised-bed-teaser.jpg" alt="4x8 raised bed planning teaser image">
+                <img src="/assets/images/homepage-4x8-raised-bed-teaser.jpg" alt="4x8 raised bed planning teaser image" style="object-position:center top;">
                 <div class="copy">
                   <span class="home-story-kicker">4x8 bed guide</span>
                   <h3><a href="/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html">What to Plant in a 4x8 Raised Bed</a></h3>
@@ -297,7 +298,7 @@
                 </div>
               </article>
               <article class="home-mini-story">
-                <img src="/assets/images/herb-value-home-teaser.jpg" alt="Turn extra herbs into real backyard value teaser image">
+                <img src="/assets/images/herb-value-home-teaser.jpg" alt="Turn extra herbs into real backyard value teaser image" style="object-position:center top;">
                 <div class="copy">
                   <span class="home-story-kicker">Herb value guide</span>
                   <h3><a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">Turn Extra Herbs Into Real Backyard Value</a></h3>
@@ -323,7 +324,7 @@
             </div>
 
             <article class="home-story-card">
-              <img src="/assets/images/weekend-backyard-builds-teaser.jpg" alt="Weekend Backyard Builds teaser image">
+              <img src="/assets/images/weekend-backyard-builds-teaser.jpg" alt="Weekend Backyard Builds teaser image" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Project series</span>
                 <h3><a href="/pages/weekend-backyard-builds.html">Weekend Backyard Builds</a></h3>
@@ -357,7 +358,7 @@
         <div class="home-stagger-grid" style="grid-template-columns:.95fr 1.25fr;">
           <div class="home-stagger-stack">
             <article class="home-story-card">
-              <img src="/assets/images/top-10-backyard-ideas-teaser.png" alt="Backyard garden bed and wildlife-friendly growing space">
+              <img src="/assets/images/top-10-backyard-ideas-teaser.png" alt="Backyard garden bed and wildlife-friendly growing space" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Big picture</span>
                 <h3><a href="/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html">10 simple backyard ideas to attract more wildlife and maybe even pay for themselves</a></h3>
@@ -366,7 +367,7 @@
             </article>
 
             <article class="home-story-card">
-              <img src="/assets/images/tree-planting-collage-home-clean.jpg?v=2" alt="Collage of newly planted jujube trees and fruit tree planting at the cabin">
+              <img src="/assets/images/tree-planting-collage-home-clean.jpg?v=2" alt="Collage of newly planted jujube trees and fruit tree planting at the cabin" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Cabin story</span>
                 <h3>We planted jujube trees and a 4-in-1 fruit tree at the cabin</h3>
@@ -395,7 +396,7 @@
 
             <div class="home-mini-grid">
               <article class="home-mini-story">
-                <img src="/assets/images/log-cabin-bird-feeder-build-final/finished-2.jpg" alt="Finished rustic log cabin bird feeder">
+                <img src="/assets/images/log-cabin-bird-feeder-build-final/finished-2.jpg" alt="Finished rustic log cabin bird feeder" style="object-position:center top;">
                 <div class="copy">
                   <span class="home-story-kicker">Fence-picket project</span>
                   <h3><a href="/pages/log-cabin-bird-feeder-build">Log Cabin Bird Feeder Build</a></h3>
@@ -403,7 +404,7 @@
                 </div>
               </article>
               <article class="home-mini-story">
-                <img src="/assets/images/rain-water-station-build/homepage-teaser-main.jpg" alt="Finished bird, squirrel, and critter feeding and watering station">
+                <img src="/assets/images/rain-water-station-build/homepage-teaser-main.jpg" alt="Finished bird, squirrel, and critter feeding and watering station" style="object-position:center top;">
                 <div class="copy">
                   <span class="home-story-kicker">Wildlife build</span>
                   <h3><a href="/pages/rain-water-feeding-station-build-v2.html">Bird, Squirrel, and Critter Feeding &amp; Watering Station</a></h3>
@@ -428,7 +429,7 @@
         <div class="home-stagger-grid">
           <div class="home-stagger-stack">
             <article class="home-story-card">
-              <img src="/assets/images/squirrel-playground/squirrel-playground-homepage-teaser.jpg" alt="Two squirrels using the squirrel playground">
+              <img src="/assets/images/squirrel-playground/squirrel-playground-homepage-teaser.jpg" alt="Two squirrels using the squirrel playground" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Critter corner</span>
                 <h3><a href="/pages/squirrel-playground-old-lumber.html">Turn old lumber into a fun backyard squirrel playground</a></h3>
@@ -437,7 +438,7 @@
             </article>
 
             <article class="home-story-card">
-              <img src="/assets/images/olla-build/olla-homepage-teaser.jpg" alt="Finished two-pot olla before installation">
+              <img src="/assets/images/olla-build/olla-homepage-teaser.jpg" alt="Finished two-pot olla before installation" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Low-tech helper</span>
                 <h3><a href="/pages/diy-olla-watering-system.html">How this crazy-looking pot can save your plants in a pinch</a></h3>
@@ -448,7 +449,7 @@
 
           <div class="home-stagger-stack">
             <article class="home-story-card large">
-              <img src="/assets/images/worm-tube/worm-tube-homepage-teaser.jpg" alt="In-bed worm composting tube in a raised bed">
+              <img src="/assets/images/worm-tube/worm-tube-homepage-teaser.jpg" alt="In-bed worm composting tube in a raised bed" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Raised-bed helper</span>
                 <h2><a href="/pages/in-bed-worm-composting-tube.html">Learn how this simple little pipe can help feed your raised bed from the inside out</a></h2>
