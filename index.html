@@ -261,6 +261,21 @@
       .homepage-tool-buttons-wrap img { width:100% !important; max-width:240px !important; }
       .home-feature-center { min-height:200px; }
       .home-editorial-break + .section .home-mini-grid:first-of-type { margin-top:0; }
+      .home-journal-project-block {
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+      }
+      .home-journal-project-block > .home-stagger-stack {
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+      }
+      .home-journal-project-block .home-mini-grid {
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+      }
     }
   </style>
 </head>
@@ -426,7 +441,7 @@
 
     <section class="section">
       <div class="container home-stagger-shell">
-        <div class="home-stagger-grid" style="grid-template-columns:.95fr 1.25fr;">
+        <div class="home-stagger-grid home-journal-project-block" style="grid-template-columns:.95fr 1.25fr;">
           <div class="home-stagger-stack">
             <article class="home-story-card">
               <img src="/assets/images/top-10-backyard-ideas-teaser.png" alt="Backyard garden bed and wildlife-friendly growing space" style="object-position:center top;">
