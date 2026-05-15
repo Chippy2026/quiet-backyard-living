@@ -132,10 +132,14 @@
       background:#fff;
       border:1px solid #eadfcf;
       box-shadow:0 10px 24px rgba(0,0,0,.04);
+      border-radius:16px;
+      overflow:hidden;
     }
     .home-story-card img, .home-mini-story img { width:100%; display:block; height:auto; }
     .home-story-card.large img { max-height:360px; object-fit:cover; }
+    .home-story-card.show-full-image img { max-height:none; object-fit:contain; background:#f7f1e5; }
     .home-story-copy { padding:1rem 1rem 1.05rem; }
+    .home-note-card, .home-mini-list-card { padding:1rem 1rem 1.05rem; }
     .home-story-kicker {
       display:inline-block;
       margin-bottom:.4rem;
@@ -160,7 +164,7 @@
       grid-template-columns:repeat(2,minmax(0,1fr));
       gap:1rem;
     }
-    .home-mini-story { background:#fff; border:1px solid #eadfcf; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .home-mini-story { background:#fff; border:1px solid #eadfcf; box-shadow:0 10px 24px rgba(0,0,0,.04); border-radius:16px; overflow:hidden; }
     .home-mini-story .copy { padding:.9rem .95rem 1rem; }
     .home-mini-story h3 { margin:.35rem 0 .35rem; line-height:1.14; }
     .home-note-card, .home-mini-list-card { padding:1rem 1rem 1.05rem; background:#fcf8ef; }
@@ -268,7 +272,7 @@
       <div class="container home-stagger-shell">
         <div class="home-stagger-grid">
           <div class="home-stagger-stack">
-            <article class="home-story-card large">
+            <article class="home-story-card large show-full-image">
               <img src="/assets/images/homepage-garden-helper-teaser.jpg" alt="Garden layout tool teaser showing veggies, herbs, flowers, and a simple raised bed plan">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Featured garden story</span>
@@ -377,7 +381,7 @@
 
           <div class="home-stagger-stack">
             <article class="home-story-card large">
-              <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse">
+              <img src="/assets/images/birdhouse-workshop-cabin-style-house.jpg" alt="Cedar fence picket log cabin birdhouse" style="object-position:center top;">
               <div class="home-story-copy">
                 <span class="home-story-kicker">Workshop favorite</span>
                 <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
