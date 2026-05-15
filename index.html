@@ -25,6 +25,119 @@
    ml('account', '2238054');
   </script>
   <!-- End MailerLite Universal -->
+  <style>
+    .home-editorial-hero {
+      background:#fffdf7;
+      border-top:1px solid #eadcb3;
+      border-bottom:1px solid #eadcb3;
+      box-shadow:0 16px 34px rgba(73,51,20,.06) inset;
+    }
+    .home-paper-shell {
+      background:#fffdf7;
+      border:1px solid #e2d7c2;
+      box-shadow:0 18px 40px rgba(60,42,18,.07);
+    }
+    .home-masthead {
+      padding:1.2rem 1.1rem 1rem;
+      border-bottom:3px double #d2c1a0;
+    }
+    .home-masthead-kicker {
+      font-size:.78rem;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:#7a6855;
+      font-weight:700;
+    }
+    .home-masthead-title {
+      font-size:clamp(2rem,4vw,3.1rem);
+      line-height:1.02;
+      margin:.35rem 0;
+    }
+    .home-masthead-deck {
+      font-size:1.05rem;
+      color:#5d4a32;
+      max-width:860px;
+      margin:0;
+    }
+    .home-hero-grid {
+      display:grid;
+      grid-template-columns:minmax(220px,.9fr) minmax(0,1.2fr) minmax(240px,.95fr);
+      gap:1rem;
+      padding:1rem 1.1rem 1.2rem;
+      align-items:stretch;
+    }
+    .home-column-title {
+      display:inline-block;
+      margin-bottom:.55rem;
+      font-size:.76rem;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:#7a6855;
+      font-weight:700;
+    }
+    .home-latest-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.85rem; }
+    .home-latest-list a { text-decoration:none; color:#3b2f22; font-weight:700; line-height:1.25; }
+    .home-latest-list div { font-size:.86rem; color:#7a6855; margin-top:.18rem; }
+    .home-feature-center {
+      background:rgba(255,253,246,.96);
+      border:2px solid #d8b36b;
+      border-radius:26px;
+      padding:.9rem;
+      box-shadow:0 14px 28px rgba(109,73,18,.10);
+      position:relative;
+      overflow:hidden;
+      min-height:250px;
+      width:100%;
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .home-feature-buttons { display:flex; flex-direction:column; gap:.8rem; align-items:center; text-align:center; width:100%; height:100%; justify-content:center; }
+    .home-editorial-band {
+      background:#fffdf7;
+      border:1px solid #e2d7c2;
+      box-shadow:0 18px 40px rgba(60,42,18,.06);
+    }
+    .home-editorial-band .split { align-items:center; }
+    .home-editorial-copy { padding:1.15rem 1.15rem 1.15rem 0; }
+    .home-editorial-label {
+      font-size:.76rem;
+      letter-spacing:.15em;
+      text-transform:uppercase;
+      color:#8b5f19;
+      font-weight:800;
+      margin-bottom:.45rem;
+      display:inline-block;
+    }
+    .home-editorial-copy h2 { line-height:1.08; }
+    .home-editorial-subnote {
+      margin-top:1rem;
+      padding-top:.85rem;
+      border-top:1px solid #eadfcf;
+      color:#5d4a32;
+      font-size:.95rem;
+    }
+    .home-mini-column {
+      background:#fcf8ef;
+      border-top:1px solid #eadfcf;
+      border-bottom:1px solid #eadfcf;
+    }
+    .home-mini-column .container {
+      padding-top:1rem;
+      padding-bottom:1rem;
+    }
+    .home-mini-column strong {
+      display:block;
+      margin-bottom:.35rem;
+      color:#4a3827;
+      font-size:.98rem;
+    }
+    @media (max-width:950px){
+      .home-hero-grid { grid-template-columns:1fr; }
+      .home-editorial-copy { padding:0; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -42,38 +155,47 @@
   </header>
 
   <main>
-    <section class="section cta-band" style="background:linear-gradient(135deg,#fff7dd 0%,#f7ebc8 100%); border-top:1px solid #eadcb3; border-bottom:1px solid #eadcb3;">
-      <div class="container" style="padding-top:1.2rem; padding-bottom:1.2rem;">
-        <div class="homepage-tool-top" style="display:grid; grid-template-columns:minmax(240px,.82fr) minmax(0,1.18fr) minmax(0,.9fr); gap:1.1rem; align-items:stretch;">
-          <aside class="homepage-latest-garden" style="padding:.2rem .25rem;">
-            <p style="font-size:1.3rem; letter-spacing:.01em; text-transform:none; color:#7b5933; font-weight:600; font-style:italic; font-family:Georgia, 'Times New Roman', serif; margin-bottom:.55rem;">Latest from the garden</p>
-            <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.85rem;">
-              <li>
-                <a href="/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads.html" style="text-decoration:none; color:#3b2f22; font-weight:700; line-height:1.25;">Attention, Salad Lovers</a>
-                <div style="font-size:.86rem; color:#7a6855; margin-top:.18rem;">A 4x8 bed built around salads, greens, herbs, and a few smart flavor crops.</div>
-              </li>
-              <li>
-                <a href="/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html" style="text-decoration:none; color:#3b2f22; font-weight:700; line-height:1.25;">What to Plant in a 4x8 Raised Bed</a>
-                <div style="font-size:.86rem; color:#7a6855; margin-top:.18rem;">A simple practical layout guide for a normal raised bed.</div>
-              </li>
-              <li>
-                <a href="/pages/build-my-garden-plan.html" style="text-decoration:none; color:#3b2f22; font-weight:700; line-height:1.25;">Build My Garden Plan</a>
-                <div style="font-size:.86rem; color:#7a6855; margin-top:.18rem;">Use the planner if you want help mapping the bed out.</div>
-              </li>
-            </ul>
-            <p style="margin-top:1rem; margin-bottom:0;"><a href="/pages/blog.html" style="font-weight:700;">See all backyard tips</a></p>
-          </aside>
-          <div class="homepage-tool-center-panel" style="background:rgba(255,253,246,.96); border:2px solid #d8b36b; border-radius:26px; padding:.9rem; box-shadow:0 14px 28px rgba(109,73,18,.10); position:relative; overflow:hidden; min-height:250px; width:100%; margin:0 auto; display:flex; align-items:center; justify-content:center;">
-            <img src="/assets/images/veg-sketch-bg-reference.jpg" alt="" aria-hidden="true" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.72; pointer-events:none;">
-            <div style="position:relative; z-index:1; text-align:center; max-width:250px;">
-              <p style="font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:#8b5f19; font-weight:800; margin-bottom:.5rem;">Featured tool</p>
-              <h1 style="font-size:clamp(1.2rem,2.2vw,1.9rem); line-height:1.04; margin-bottom:0;">See What Grows Best With Your Favorite Vegetables</h1>
-            </div>
+    <section class="section home-editorial-hero">
+      <div class="container" style="padding-top:1rem; padding-bottom:1rem;">
+        <div class="home-paper-shell">
+          <div class="home-masthead">
+            <div class="home-masthead-kicker">Quiet Backyard Living Journal</div>
+            <h1 class="home-masthead-title">Backyard ideas, little builds, useful garden help, and a quieter kind of outdoor life.</h1>
+            <p class="home-masthead-deck">Part practical garden guide, part backyard project journal, part wildlife-loving outdoor notebook. This is the place for realistic raised-bed help, approachable projects, herbs that earn their keep, and small ideas that make the yard feel more alive.</p>
           </div>
-          <div class="homepage-tool-buttons-wrap">
-            <div style="display:flex; flex-direction:column; gap:.8rem; align-items:center; text-align:center; width:100%; height:100%; justify-content:center;">
-              <a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html" style="display:inline-block;"><img src="/assets/images/find-my-veggie-button-v2.png" alt="Find My Veggie" style="display:block; width:250px; max-width:100%; height:auto;"></a>
-              <a href="/pages/protect-my-veggie.html" style="display:inline-block;"><img src="/assets/images/protect-my-veggie-button-v2.png" alt="Protect My Veggie" style="display:block; width:250px; max-width:100%; height:auto;"></a>
+          <div class="home-hero-grid">
+            <aside class="homepage-latest-garden" style="padding:.15rem .15rem .15rem 0;">
+              <span class="home-column-title">Latest from the garden</span>
+              <ul class="home-latest-list">
+                <li>
+                  <a href="/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads.html">Attention, Salad Lovers</a>
+                  <div>A 4x8 bed built around salads, greens, herbs, and a few smart flavor crops.</div>
+                </li>
+                <li>
+                  <a href="/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html">What to Plant in a 4x8 Raised Bed</a>
+                  <div>A simple practical layout guide for a normal raised bed.</div>
+                </li>
+                <li>
+                  <a href="/pages/build-my-garden-plan.html">Build My Garden Plan</a>
+                  <div>Use the planner if you want help mapping the bed out.</div>
+                </li>
+              </ul>
+              <p style="margin-top:1rem; margin-bottom:0;"><a href="/pages/blog.html" style="font-weight:700;">See all backyard tips</a></p>
+            </aside>
+            <div class="homepage-tool-center-panel home-feature-center">
+              <img src="/assets/images/veg-sketch-bg-reference.jpg" alt="" aria-hidden="true" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.72; pointer-events:none;">
+              <div style="position:relative; z-index:1; text-align:center; max-width:260px;">
+                <p style="font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:#8b5f19; font-weight:800; margin-bottom:.5rem;">Featured tool</p>
+                <h2 style="font-size:clamp(1.35rem,2.5vw,2rem); line-height:1.04; margin-bottom:.35rem;">See What Grows Best With Your Favorite Vegetables</h2>
+                <p style="margin:0; color:#5d4a32; font-size:.95rem;">A practical little shortcut into companion ideas and problem-solving help.</p>
+              </div>
+            </div>
+            <div class="homepage-tool-buttons-wrap">
+              <div class="home-feature-buttons">
+                <span class="home-column-title">Start here</span>
+                <a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html" style="display:inline-block;"><img src="/assets/images/find-my-veggie-button-v2.png" alt="Find My Veggie" style="display:block; width:250px; max-width:100%; height:auto;"></a>
+                <a href="/pages/protect-my-veggie.html" style="display:inline-block;"><img src="/assets/images/protect-my-veggie-button-v2.png" alt="Protect My Veggie" style="display:block; width:250px; max-width:100%; height:auto;"></a>
+              </div>
             </div>
           </div>
         </div>
@@ -94,10 +216,10 @@
       </div>
     </section>
 
-    <section class="section cta-band" style="background:linear-gradient(135deg,#fff7dd 0%,#f7ebc8 100%); border-top:1px solid #eadcb3; border-bottom:1px solid #eadcb3;">
+    <section class="section home-editorial-band">
       <div class="container split" style="align-items:center;">
-        <div>
-          <p style="font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:#8b5f19; font-weight:800; margin-bottom:.45rem;">New garden helper</p>
+        <div class="home-editorial-copy">
+          <p class="home-editorial-label">Featured garden story</p>
           <h2>Turn Your Plants Into a Real Garden Plan</h2>
           <p>You brought home the plants. Now comes the part that trips people up, what goes where, what can live together, and how close is too close?</p>
           <p>This simple layout tool helps turn a flat of plants into a realistic beginner-friendly garden plan with spacing ideas, companion plants, herbs, pollinator helpers, and a rough bed sketch.</p>
@@ -105,6 +227,7 @@
             <a class="button cta-blue" href="/pages/your-flat-of-veggies-herbs-and-flowers-now-what.html">See How It Works</a>
             <a class="button" href="/pages/build-my-garden-plan.html">Try the Layout Tool</a>
           </div>
+          <div class="home-editorial-subnote"><strong>Why it matters:</strong> this is one of the clearest “start where you actually are” tools on the site, especially for people staring at a flat of plants and a raised bed with no real plan yet.</div>
           <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good next reads:</p>
           <ul style="margin:0; padding-left:1.2rem;">
             <li><a href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">What to Grow Near the Vegetables You Actually Like to Eat</a></li>
@@ -117,9 +240,9 @@
       </div>
     </section>
 
-    <section class="section" style="padding-top:1rem; padding-bottom:1rem;">
+    <section class="section home-mini-column">
       <div class="container" style="color:#5d4a32; font-size:.98rem;">
-        <strong style="display:block; margin-bottom:.35rem; color:#4a3827;">If a raised bed starts feeling crowded:</strong>
+        <strong>If a raised bed starts feeling crowded:</strong>
         <ul style="margin:.1rem 0 0; padding-left:1.2rem;">
           <li>harvest outer leaves first</li>
           <li>thin before airflow gets worse</li>
@@ -145,16 +268,17 @@
       </div>
     </section>
 
-    <section class="section cta-band" style="background:linear-gradient(135deg,#f7f1e5 0%,#efe4ce 100%); border-top:1px solid #e6d8bb; border-bottom:1px solid #e6d8bb;">
+    <section class="section home-editorial-band" style="background:linear-gradient(135deg,#f7f1e5 0%,#efe4ce 100%);">
       <div class="container split" style="align-items:center;">
-        <div>
-          <p style="font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; color:#6f5a24; font-weight:800; margin-bottom:.45rem;">Herb value guide</p>
+        <div class="home-editorial-copy">
+          <p class="home-editorial-label" style="color:#6f5a24;">Herb value guide</p>
           <h2>Turn Extra Herbs Into Real Backyard Value</h2>
           <p>If you are already using herbs in the garden, this page takes the next step. It breaks down which herbs are easiest to grow extra, what people actually do with them, and how they can turn into fresh packs, dried herbs, starter plants, tea bundles, or small practical value.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">See the Herb Guide</a>
             <a class="button" href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">See the Herb Value Page</a>
           </div>
+          <div class="home-editorial-subnote"><strong>Reader signal:</strong> the herb pages are quietly becoming some of the stickiest reads on the site, which makes this lane worth treating like a real mini-cluster, not just a side note.</div>
           <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good companion reads:</p>
           <ul style="margin:0; padding-left:1.2rem;">
             <li><a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">How to Grow Extra Herbs for Yourself, Friends, and Maybe a Little Extra Income</a></li>
@@ -167,14 +291,17 @@
       </div>
     </section>
 
-    <section class="section cta-band">
+    <section class="section home-editorial-band">
       <div class="container split">
-        <div>
+        <div class="home-editorial-copy">
+          <p class="home-editorial-label">Project series</p>
           <h2>Weekend Backyard Builds</h2>
           <p>Click here to see beginner-friendly backyard builds that feel doable in real life, with realistic tools, practical results, and projects that stay in the under-$100, 1 to 2 day lane.</p>
           <div class="buttons">
             <a class="button cta-blue" href="/pages/weekend-backyard-builds.html">Explore the Series</a>
+            <a class="button" href="/pages/projects.html">See the Project Journal</a>
           </div>
+          <div class="home-editorial-subnote"><strong>The lane:</strong> under or around $100, beginner friendly, realistic tools, and the kinds of projects normal people might actually finish in a weekend.</div>
           <p style="margin-top:1rem; margin-bottom:.45rem; font-weight:700; color:#4a3827;">Good place to start:</p>
           <ul style="margin:0; padding-left:1.2rem;">
             <li><a href="/pages/diy-patio-garden-bed.html">DIY Patio Garden Bed</a></li>
@@ -225,9 +352,10 @@
       </div>
     </section>
 
-    <section class="section cta-band">
+    <section class="section home-editorial-band">
       <div class="container split">
-        <div>
+        <div class="home-editorial-copy">
+          <p class="home-editorial-label">Workshop favorite</p>
           <h2>Turn one $3–$5 cedar fence picket into this stunning log cabin birdhouse in one afternoon</h2>
           <p>You do not need expensive lumber or a complicated woodworking setup to make something beautiful. This fun birdhouse workshop project starts with one big box store cedar fence picket and turns it into a custom log cabin-style birdhouse with lots of personality.</p>
           <p>Get the exact cut measurements, visual build flow, and simple step-by-step instructions sent to your email.</p>
@@ -242,9 +370,9 @@
       </div>
     </section>
 
-    <section class="section" style="padding-top:1rem; padding-bottom:1rem;">
+    <section class="section home-mini-column">
       <div class="container" style="color:#5d4a32; font-size:.98rem;">
-        <strong style="display:block; margin-bottom:.35rem; color:#4a3827;">Before you start a fence-picket build:</strong>
+        <strong>Before you start a fence-picket build:</strong>
         <ul style="margin:.1rem 0 0; padding-left:1.2rem;">
           <li>pick the straightest boards first</li>
           <li>pre-drill where wood could split</li>
