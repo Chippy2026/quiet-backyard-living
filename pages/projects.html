@@ -23,7 +23,7 @@
     .paper-side { padding:1.2rem; background:#fcf8ef; }
     .lead-story { display:grid; grid-template-columns:1.15fr .95fr; gap:1rem; align-items:start; padding-bottom:1.2rem; border-bottom:1px solid #eadfcf; }
     .lead-story img, .story-card img, .mini-photo img { width:100%; height:auto; display:block; border-radius:14px; }
-    .story-card img.bee-hotel-thumb { width:70%; margin:0 auto; }
+    .story-card img.bee-hotel-thumb { width:52%; margin:1rem auto; }
     .lead-story h2 { margin-top:.2rem; margin-bottom:.55rem; font-size:clamp(1.7rem,3vw,2.3rem); line-height:1.08; }
     .kicker { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:#8b5f19; font-weight:800; margin-bottom:.45rem; }
     .meta-line { font-size:.88rem; color:#7a6855; margin-bottom:.55rem; }
@@ -35,6 +35,8 @@
     .story-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
     .story-card { background:#fff; border:1px solid #eadfcf; border-radius:18px; overflow:hidden; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .story-copy { padding:1rem 1rem 1.05rem; }
+    .story-card.side-feature { display:grid; grid-template-columns:.55fr 1fr; align-items:center; }
+    .story-card.side-feature img { width:60%; margin:1rem auto; }
     .story-card h3 { margin:.15rem 0 .35rem; font-size:1.2rem; line-height:1.18; }
     .story-card p { margin:.35rem 0; }
     .label { display:inline-block; margin-bottom:.4rem; font-size:.76rem; letter-spacing:.14em; text-transform:uppercase; color:#7a6855; font-weight:700; }
@@ -49,9 +51,11 @@
     .next-links { margin:0; padding-left:1.15rem; }
     .next-links li { margin-bottom:.45rem; }
     @media (max-width:950px){
-      .paper-grid, .lead-story, .story-grid { grid-template-columns:1fr; }
+      .paper-grid, .lead-story, .story-grid, .story-card.side-feature { grid-template-columns:1fr; }
       .paper-main { border-right:none; border-bottom:1px solid #eadfcf; }
       .section-head { flex-direction:column; align-items:flex-start; }
+      .story-card.side-feature img,
+      .story-card img.bee-hotel-thumb { width:70%; }
     }
   </style>
 </head>
@@ -167,7 +171,7 @@
               <p>Smaller wildlife-facing projects that feel simple enough to try and personal enough to become part of the backyard story.</p>
             </div>
             <div class="story-grid">
-              <article class="story-card">
+              <article class="story-card side-feature">
                 <img class="bee-hotel-thumb" src="/assets/images/bee-hotel-build/beehero.jpg" alt="Finished rustic backyard bee hotel held up for scale">
                 <div class="story-copy">
                   <span class="label">Rustic wildlife build</span>
