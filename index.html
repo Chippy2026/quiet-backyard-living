@@ -91,6 +91,21 @@
       justify-content:center;
     }
     .home-feature-buttons { display:flex; flex-direction:column; gap:.8rem; align-items:center; text-align:center; width:100%; height:100%; justify-content:center; }
+    .home-mobile-tool-strip {
+      display:none;
+      margin-top:.9rem;
+      padding:.9rem;
+      background:#fffaf0;
+      border:1px solid #e6d7b5;
+      border-radius:14px;
+      box-shadow:0 10px 24px rgba(60,42,18,.05);
+    }
+    .home-mobile-tool-strip p {
+      margin:0 0 .7rem;
+      font-size:.92rem;
+      color:#5d4a32;
+      text-align:center;
+    }
     .home-editorial-break {
       background:#fbf7ef;
       border-top:1px solid #eadfcf;
@@ -281,6 +296,7 @@
       .home-feature-buttons { gap:.65rem; }
       .homepage-tool-buttons-wrap img { width:100% !important; max-width:240px !important; }
       .home-feature-center { min-height:200px; }
+      .home-mobile-tool-strip { display:block; }
       .home-editorial-break-grid { grid-template-columns:1fr; }
       .home-editorial-break + .section .home-mini-grid:first-of-type { margin-top:0; }
       .home-journal-project-block {
@@ -338,6 +354,13 @@
             <p class="home-masthead-deck">Part practical garden guide, part backyard project journal, part wildlife-loving outdoor notebook. This is the place for realistic raised-bed help, approachable projects, herbs that earn their keep, and small ideas that make the yard feel more alive.</p>
           </div>
           <div class="home-hero-grid">
+            <div class="home-mobile-tool-strip">
+              <p><strong>Start here on your phone:</strong> jump straight to the veggie finder or the pest helper.</p>
+              <div class="home-button-row">
+                <a class="button cta-blue" href="/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">Find My Veggie</a>
+                <a class="button" href="/pages/protect-my-veggie.html">Protect My Veggie</a>
+              </div>
+            </div>
             <aside class="homepage-latest-garden" style="padding:.15rem .15rem .15rem 0;">
               <span class="home-column-title">Latest from the garden</span>
               <ul class="home-latest-list">
