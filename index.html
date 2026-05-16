@@ -101,6 +101,15 @@
       padding-bottom:1rem;
       color:#5b4934;
     }
+    .home-editorial-break-grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:1rem;
+      align-items:start;
+    }
+    .home-editorial-break-card {
+      min-width:0;
+    }
     .home-editorial-break-label {
       display:inline-block;
       margin-bottom:.35rem;
@@ -267,6 +276,7 @@
       .home-feature-buttons { gap:.65rem; }
       .homepage-tool-buttons-wrap img { width:100% !important; max-width:240px !important; }
       .home-feature-center { min-height:200px; }
+      .home-editorial-break-grid { grid-template-columns:1fr; }
       .home-editorial-break + .section .home-mini-grid:first-of-type { margin-top:0; }
       .home-journal-project-block {
         display:flex;
@@ -350,9 +360,15 @@
     </section>
 
     <section class="section home-editorial-break">
-      <div class="container">
-        <span class="home-editorial-break-label">Editor’s note</span>
-        <p>A lot of the best backyard progress is not dramatic. It is one useful bed, one smarter layout, one easier project, one little wildlife-friendly decision at a time.</p>
+      <div class="container home-editorial-break-grid">
+        <div class="home-editorial-break-card">
+          <span class="home-editorial-break-label">Editor’s note</span>
+          <p>A lot of the best backyard progress is not dramatic. It is one useful bed, one smarter layout, one easier project, one little wildlife-friendly decision at a time.</p>
+        </div>
+        <div class="home-editorial-break-card">
+          <span class="home-editorial-break-label">Worth knowing</span>
+          <p>The strongest backyard pages usually do one of two things well, solve a real problem fast, or make a project or idea feel simple enough to actually try.</p>
+        </div>
       </div>
     </section>
 
