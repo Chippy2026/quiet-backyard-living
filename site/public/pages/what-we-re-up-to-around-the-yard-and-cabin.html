@@ -55,13 +55,6 @@
       display:block;
       height:auto;
     }
-    .story-mini-gallery figcaption,
-    .story-inline-photo figcaption {
-      padding:.55rem .7rem .7rem;
-      font-size:.88rem;
-      color:#6b5945;
-      line-height:1.4;
-    }
     .story-book-title {
       margin:0 1.2rem;
       padding:1.5rem 0 1rem;
@@ -77,21 +70,24 @@
       color:#5d4a32;
     }
     .story-chapter {
-      display:grid;
-      grid-template-columns:1.2fr .62fr;
-      gap:1rem;
-      align-items:start;
+      font-size:1rem;
+      line-height:1.75;
     }
-    .story-chapter.reverse {
-      grid-template-columns:.62fr 1.2fr;
+    .story-chapter::after {
+      content:"";
+      display:block;
+      clear:both;
     }
-    .story-chapter.reverse .story-chapter-copy {
-      order:2;
+    .story-inline-photo {
+      width:min(240px,42%);
+      float:right;
+      margin:0 0 .8rem 1rem;
     }
-    .story-chapter.reverse .story-inline-photo {
-      order:1;
+    .story-inline-photo.left {
+      float:left;
+      margin:0 1rem .8rem 0;
     }
-    @media (max-width:900px){ .story-grid, .story-chapter, .story-chapter.reverse { grid-template-columns:1fr; } .story-book-title { padding-top:1.2rem; } }
+    @media (max-width:900px){ .story-grid { grid-template-columns:1fr; } .story-book-title { padding-top:1.2rem; } .story-inline-photo, .story-inline-photo.left { float:none; width:100%; max-width:280px; margin:0 auto 1rem; } }
   </style>
 </head>
 <body>
@@ -156,46 +152,37 @@
 
       <article class="story-entry">
         <div class="story-chapter">
-          <div class="story-chapter-copy">
-            <span class="story-label">Chapter One</span>
-            <h2>It started rough, unfinished, and more hopeful than polished</h2>
-            <p>We did not begin with a dream property that was ready to photograph. We started with 1.7 acres, power, a bad very brackish well, a primitive half-started cabin shell, a garage, and a strange little shack built right next to a giant pine tree like nobody had fully thought it through.</p>
-            <p>A lot of it was rough. A lot of it was half started. Some of it felt promising, some of it felt questionable, and some of it only made sense because we could already see the version of the place it might become if we kept showing up.</p>
-          </div>
-          <figure class="story-inline-photo" style="max-width:240px; justify-self:end;">
+          <figure class="story-inline-photo">
             <img src="/assets/images/gallery/cabin-start-structure.jpg" alt="Small dark cabin structure under the pine tree in the early days">
-            <figcaption>The little structure under the pine, one of the first images that made the place feel strange and interesting at the same time.</figcaption>
           </figure>
-        </div>
-      </article>
-
-      <article class="story-entry">
-        <div class="story-chapter reverse">
-          <div class="story-chapter-copy">
-            <span class="story-label">Chapter Two</span>
-            <h2>Before the comfort, there was the make-do stage</h2>
-            <p>Some of the strongest early parts of this story came before anything looked finished, air mattresses, unfinished walls, the wood stove, improvised kitchen setups, and the kind of cold-weather cabin days where just staying warm together felt like enough for the moment.</p>
-            <p>Those photos matter because they show what the place really was before the better-looking versions ever arrived. The beginning was not pretty, but it was real.</p>
-          </div>
-          <figure class="story-inline-photo" style="max-width:255px;">
-            <img src="/assets/images/gallery/staying-warm-together.jpg" alt="Jeff and Vanessa sitting by the wood stove in the early unfinished cabin">
-            <figcaption>Before the comfort, there was just the stove, the unfinished walls, and making it work together.</figcaption>
-          </figure>
+          <span class="story-label">Chapter One</span>
+          <h2>It started rough, unfinished, and more hopeful than polished</h2>
+          <p>We did not begin with a dream property that was ready to photograph. We started with 1.7 acres, power, a bad very brackish well, a primitive half-started cabin shell, a garage, and a strange little shack built right next to a giant pine tree like nobody had fully thought it through.</p>
+          <p>A lot of it was rough. A lot of it was half started. Some of it felt promising, some of it felt questionable, and some of it only made sense because we could already see the version of the place it might become if we kept showing up.</p>
         </div>
       </article>
 
       <article class="story-entry">
         <div class="story-chapter">
-          <div class="story-chapter-copy">
-            <span class="story-label">Chapter Three</span>
-            <h2>The good weeks, the frustrating weeks, and the weird little in-between ones</h2>
-            <p>This running page is meant to hold all of it, the project misses, the paint that looked wrong in real life, the grapes the wildlife beat us to, the practical improvements that made the cabin work better, the family builds, the garden setbacks, the comeback attempts, and the little moments that gave the place heart.</p>
-            <p>So this is not a one-time article. It is the unfinished book version of Quiet Backyard Living, and we will keep adding chapters as the story keeps moving.</p>
-          </div>
-          <figure class="story-inline-photo" style="max-width:230px; justify-self:end;">
-            <img src="/assets/images/gallery/grape-vines-before-loss.jpg" alt="Full grape vines before wildlife got the harvest while away">
-            <figcaption>Some chapters look like a win right before they turn into one more lesson.</figcaption>
+          <figure class="story-inline-photo left">
+            <img src="/assets/images/gallery/staying-warm-together.jpg" alt="Jeff and Vanessa sitting by the wood stove in the early unfinished cabin">
           </figure>
+          <span class="story-label">Chapter Two</span>
+          <h2>Before the comfort, there was the make-do stage</h2>
+          <p>Some of the strongest early parts of this story came before anything looked finished, air mattresses, unfinished walls, the wood stove, improvised kitchen setups, and the kind of cold-weather cabin days where just staying warm together felt like enough for the moment.</p>
+          <p>Those photos matter because they show what the place really was before the better-looking versions ever arrived. The beginning was not pretty, but it was real.</p>
+        </div>
+      </article>
+
+      <article class="story-entry">
+        <div class="story-chapter">
+          <figure class="story-inline-photo">
+            <img src="/assets/images/gallery/grape-vines-before-loss.jpg" alt="Full grape vines before wildlife got the harvest while away">
+          </figure>
+          <span class="story-label">Chapter Three</span>
+          <h2>The good weeks, the frustrating weeks, and the weird little in-between ones</h2>
+          <p>This running page is meant to hold all of it, the project misses, the paint that looked wrong in real life, the grapes the wildlife beat us to, the practical improvements that made the cabin work better, the family builds, the garden setbacks, the comeback attempts, and the little moments that gave the place heart.</p>
+          <p>So this is not a one-time article. It is the unfinished book version of Quiet Backyard Living, and we will keep adding chapters as the story keeps moving.</p>
         </div>
       </article>
     </section>
