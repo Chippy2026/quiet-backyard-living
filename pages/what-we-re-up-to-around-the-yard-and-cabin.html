@@ -18,7 +18,7 @@
     .story-kicker { font-size:.78rem; letter-spacing:.16em; text-transform:uppercase; color:#7a6855; font-weight:700; }
     .story-masthead h1 { margin:.3rem 0 .4rem; font-size:clamp(2rem,4vw,3.1rem); line-height:1.05; }
     .story-deck { font-size:1.05rem; color:#5d4a32; max-width:840px; }
-    .story-grid { display:grid; grid-template-columns:1.18fr .82fr; gap:1rem; padding:1.2rem; }
+    .story-grid { display:grid; grid-template-columns:1.08fr .92fr; gap:1rem; padding:1.2rem; }
     .story-card, .story-note, .story-entry { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .story-entry { margin:0 1.2rem 1rem; }
     .story-entry h2, .story-card h2 { margin-top:0; }
@@ -27,7 +27,50 @@
     .story-quote { font-style:italic; color:#4a3827; }
     .story-links { margin:.7rem 0 0; padding-left:1.15rem; }
     .story-links li { margin-bottom:.45rem; }
-    @media (max-width:900px){ .story-grid { grid-template-columns:1fr; } }
+    .story-mini-gallery {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:.75rem;
+      margin-top:.85rem;
+    }
+    .story-mini-gallery figure,
+    .story-inline-photo {
+      margin:0;
+      background:#fff;
+      border:1px solid #eadfcf;
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:0 8px 18px rgba(0,0,0,.04);
+    }
+    .story-mini-gallery img,
+    .story-inline-photo img {
+      width:100%;
+      display:block;
+      height:auto;
+    }
+    .story-mini-gallery figcaption,
+    .story-inline-photo figcaption {
+      padding:.55rem .7rem .7rem;
+      font-size:.88rem;
+      color:#6b5945;
+      line-height:1.4;
+    }
+    .story-chapter {
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:1rem;
+      align-items:start;
+    }
+    .story-chapter.reverse {
+      grid-template-columns:.85fr 1.15fr;
+    }
+    .story-chapter.reverse .story-chapter-copy {
+      order:2;
+    }
+    .story-chapter.reverse .story-inline-photo {
+      order:1;
+    }
+    @media (max-width:900px){ .story-grid, .story-chapter, .story-chapter.reverse { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -61,34 +104,72 @@
           <p>This week was less about one finished project and more about laying down the story rails, old cabin photos, rough beginnings, project misses, little wins, and the kind of details that make people want to come back and see what changed next.</p>
         </div>
         <div class="story-note">
-          <span class="story-label">If you already read the earlier chapters</span>
-          <p class="story-quote">You can check this top section first whenever you come back. We will keep putting the newest update here, then keep the longer running story underneath like an unfinished book that keeps growing.</p>
-          <ul class="story-links">
-            <li><a href="/pages/gallery.html">See the supporting photo journal</a></li>
-            <li><a href="/pages/about.html">Meet the crew behind it</a></li>
-          </ul>
+          <span class="story-label">This week in pictures</span>
+          <p class="story-quote">A small visual corner for the latest chapter, enough to set the mood and show the kind of progress this week held without taking over the page.</p>
+          <div class="story-mini-gallery">
+            <figure>
+              <img src="/assets/images/gallery/cabin-start-selfie.jpg" alt="Jeff and Vanessa in the early days at the cabin">
+              <figcaption>The people behind the place, back near the beginning.</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/images/gallery/cabin-start-fenced-area.jpg" alt="Fenced garden area in the early days at the cabin">
+              <figcaption>The garden area before the later trees, berries, and bigger plans filled in.</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/images/gallery/water-tank-enclosure-angle.jpg" alt="Water tank enclosure beside the cabin">
+              <figcaption>One of the practical cabin projects that helped the place work better.</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/images/gallery/shack-paint-wide.jpg" alt="Little shack painted a color that did not match the cabin as expected">
+              <figcaption>One of the honest project misses we are not hiding from.</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
 
       <article class="story-entry">
-        <span class="story-label">The story so far</span>
-        <h2>It started rough, unfinished, and more hopeful than polished</h2>
-        <p>We did not begin with a dream property that was ready to photograph. We started with 1.7 acres, power, a bad very brackish well, a primitive half-started cabin shell, a garage, and a strange little shack built right next to a giant pine tree like nobody had fully thought it through.</p>
-        <p>A lot of it was rough. A lot of it was half started. Some of it felt promising, some of it felt questionable, and some of it only made sense because we could already see the version of the place it might become if we kept showing up.</p>
+        <div class="story-chapter">
+          <div class="story-chapter-copy">
+            <span class="story-label">The story so far</span>
+            <h2>It started rough, unfinished, and more hopeful than polished</h2>
+            <p>We did not begin with a dream property that was ready to photograph. We started with 1.7 acres, power, a bad very brackish well, a primitive half-started cabin shell, a garage, and a strange little shack built right next to a giant pine tree like nobody had fully thought it through.</p>
+            <p>A lot of it was rough. A lot of it was half started. Some of it felt promising, some of it felt questionable, and some of it only made sense because we could already see the version of the place it might become if we kept showing up.</p>
+          </div>
+          <figure class="story-inline-photo">
+            <img src="/assets/images/gallery/cabin-start-structure.jpg" alt="Small dark cabin structure under the pine tree in the early days">
+            <figcaption>The little structure under the pine, one of the first images that made the place feel strange and interesting at the same time.</figcaption>
+          </figure>
+        </div>
       </article>
 
       <article class="story-entry">
-        <span class="story-label">Early chapters</span>
-        <h2>Before the comfort, there was the make-do stage</h2>
-        <p>Some of the strongest early parts of this story came before anything looked finished, air mattresses, unfinished walls, the wood stove, improvised kitchen setups, and the kind of cold-weather cabin days where just staying warm together felt like enough for the moment.</p>
-        <p>Those photos matter because they show what the place really was before the better-looking versions ever arrived. The beginning was not pretty, but it was real.</p>
+        <div class="story-chapter reverse">
+          <div class="story-chapter-copy">
+            <span class="story-label">Early chapters</span>
+            <h2>Before the comfort, there was the make-do stage</h2>
+            <p>Some of the strongest early parts of this story came before anything looked finished, air mattresses, unfinished walls, the wood stove, improvised kitchen setups, and the kind of cold-weather cabin days where just staying warm together felt like enough for the moment.</p>
+            <p>Those photos matter because they show what the place really was before the better-looking versions ever arrived. The beginning was not pretty, but it was real.</p>
+          </div>
+          <figure class="story-inline-photo">
+            <img src="/assets/images/gallery/staying-warm-together.jpg" alt="Jeff and Vanessa sitting by the wood stove in the early unfinished cabin">
+            <figcaption>Before the comfort, there was just the stove, the unfinished walls, and making it work together.</figcaption>
+          </figure>
+        </div>
       </article>
 
       <article class="story-entry">
-        <span class="story-label">What this book holds</span>
-        <h2>The good weeks, the frustrating weeks, and the weird little in-between ones</h2>
-        <p>This running page is meant to hold all of it, the project misses, the paint that looked wrong in real life, the grapes the wildlife beat us to, the practical improvements that made the cabin work better, the family builds, the garden setbacks, the comeback attempts, and the little moments that gave the place heart.</p>
-        <p>So this is not a one-time article. It is the unfinished book version of Quiet Backyard Living, and we will keep adding chapters as the story keeps moving.</p>
+        <div class="story-chapter">
+          <div class="story-chapter-copy">
+            <span class="story-label">What this book holds</span>
+            <h2>The good weeks, the frustrating weeks, and the weird little in-between ones</h2>
+            <p>This running page is meant to hold all of it, the project misses, the paint that looked wrong in real life, the grapes the wildlife beat us to, the practical improvements that made the cabin work better, the family builds, the garden setbacks, the comeback attempts, and the little moments that gave the place heart.</p>
+            <p>So this is not a one-time article. It is the unfinished book version of Quiet Backyard Living, and we will keep adding chapters as the story keeps moving.</p>
+          </div>
+          <figure class="story-inline-photo">
+            <img src="/assets/images/gallery/grape-vines-before-loss.jpg" alt="Full grape vines before wildlife got the harvest while away">
+            <figcaption>Some chapters look like a win right before they turn into one more lesson.</figcaption>
+          </figure>
+        </div>
       </article>
     </section>
   </main>
