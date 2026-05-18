@@ -324,10 +324,25 @@
       .home-mobile-tool-strip { display:block; }
       .home-editorial-break-grid { grid-template-columns:1fr; }
       .home-editorial-break + .section .home-mini-grid:first-of-type { margin-top:0; }
-      .home-origin-note { min-height:0 !important; }
+      .home-origin-grid {
+        display:flex;
+        flex-direction:column;
+        gap:.85rem;
+      }
+      .home-origin-grid > * {
+        width:100%;
+        min-width:0;
+      }
+      .home-origin-note {
+        min-height:0 !important;
+        padding:.95rem;
+      }
       .home-origin-grid > article img {
+        display:block;
+        width:100%;
         max-height:none !important;
         min-height:220px;
+        object-fit:cover;
       }
       .home-journal-project-block {
         display:flex;
