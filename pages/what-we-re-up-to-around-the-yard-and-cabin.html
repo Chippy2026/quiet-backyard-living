@@ -20,6 +20,44 @@
     .story-deck { font-size:1.05rem; color:#5d4a32; max-width:840px; }
     .story-grid { display:grid; grid-template-columns:1.08fr .92fr; gap:1rem; padding:1.2rem; }
     .story-card, .story-note { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .story-signup-block {
+      margin:0 1.2rem;
+      padding:1.35rem 1.2rem;
+      border-top:1px solid #e8decb;
+      background:#fcf8ef;
+    }
+    .story-signup-shell {
+      max-width:760px;
+      background:#fffef9;
+      border:1px solid #e4dccd;
+      border-radius:18px;
+      padding:1.15rem 1.1rem 1.2rem;
+      box-shadow:0 10px 24px rgba(0,0,0,.04);
+    }
+    .story-signup-shell h2 {
+      margin:.2rem 0 .45rem;
+      line-height:1.08;
+    }
+    .story-signup-shell p {
+      color:#5d4a32;
+      max-width:42rem;
+    }
+    .story-signup-actions {
+      margin-top:1rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap:.75rem;
+      align-items:center;
+    }
+    .story-signup-actions .button {
+      border-radius:8px;
+      box-shadow:none;
+    }
+    .story-signup-note {
+      font-size:.92rem;
+      color:#7a6855;
+      margin-top:.7rem;
+    }
     .story-entry {
       margin:0 1.2rem;
       padding:1.4rem 0;
@@ -1367,14 +1405,17 @@
         </div>
       </article>
 
-      <article class="story-entry">
-        <div class="story-chapter">
+      <section class="story-signup-block">
+        <div class="story-signup-shell">
           <span class="story-label">You’re all caught up</span>
           <h2>You’re all caught up for now.</h2>
-          <p>If you want to keep following our story as it unfolds, usually every couple of weeks, join our email list and we’ll let you know when the next chapter is live.</p>
-          <p><a class="button cta-blue" href="/pages/contact.html">Join the email list</a></p>
+          <p>If you want to keep following our story as it unfolds, usually every couple of weeks, share your email and we’ll let you know when the next chapter goes live.</p>
+          <div class="story-signup-actions">
+            <a class="button cta-blue" href="/pages/contact.html">Follow the Story</a>
+          </div>
+          <p class="story-signup-note">Simple updates, just when a new chapter goes live.</p>
         </div>
-      </article>
+      </section>
 
       <article class="story-entry">
         <div class="story-chapter">
