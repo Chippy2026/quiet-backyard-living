@@ -274,6 +274,38 @@
       padding:1rem 1rem 1.05rem;
       box-shadow:0 10px 24px rgba(0,0,0,.04);
     }
+    .home-story-teaser-note {
+      background:linear-gradient(180deg,#6d4d35 0%,#5c3f2c 100%);
+      color:#fffaf2;
+      border-color:#6a4b34;
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      padding:1.15rem 1.15rem 1.2rem;
+    }
+    .home-story-teaser-note .home-story-kicker {
+      color:#f3d7a2;
+      margin-bottom:.55rem;
+    }
+    .home-story-teaser-note h2 {
+      margin-top:0;
+      margin-bottom:.65rem;
+      color:#fffaf2;
+      line-height:1.06;
+      font-size:clamp(1.5rem,2.3vw,2.15rem);
+    }
+    .home-story-teaser-note p {
+      color:#f8efe3;
+      font-size:1rem;
+      line-height:1.65;
+      max-width:28rem;
+      margin:0;
+    }
+    .home-story-teaser-note .button {
+      margin-top:1.05rem;
+      align-self:flex-start;
+    }
     .home-mini-grid {
       display:grid;
       grid-template-columns:repeat(2,minmax(0,1fr));
@@ -447,14 +479,14 @@
     <section class="section">
       <div class="container home-stagger-shell">
         <div class="home-origin-grid home-story-teaser-grid">
-          <div class="home-origin-note" style="background:#6a4b34; color:#fffaf2; border-color:#6a4b34; min-height:100%;">
-            <span class="home-story-kicker" style="color:#f3d7a2;">This week at the cabin</span>
-            <h2 style="margin-top:0; color:#fffaf2; line-height:1.1;">Something is always changing out there</h2>
-            <p style="color:#f8efe3;">A little progress, a setback, a strange fix, or one more piece of the place starting to make sense. If you want the real story instead of just the finished version, step inside this week’s chapter.</p>
-            <p style="margin-top:1rem; margin-bottom:0;"><a class="button cta-blue" href="/pages/what-we-re-up-to-around-the-yard-and-cabin.html">Go Inside This Week&apos;s Story</a></p>
+          <div class="home-origin-note home-story-teaser-note">
+            <span class="home-story-kicker">This week at the cabin</span>
+            <h2>Something is always changing out there</h2>
+            <p>A little progress, a setback, a strange fix, or one more piece of the place starting to make sense. If you want the real story instead of just the finished version, step inside this week’s chapter.</p>
+            <p style="margin-top:0; margin-bottom:0;"><a class="button cta-blue" href="/pages/what-we-re-up-to-around-the-yard-and-cabin.html">Go Inside This Week&apos;s Story</a></p>
           </div>
           <article class="home-story-card large">
-            <img src="/assets/images/gallery/cabin-start-structure.jpg" alt="Small dark cabin structure under the big pine tree in the early days" style="max-height:320px; object-fit:cover; object-position:center;">
+            <img src="/assets/images/gallery/chapter23-dream.jpg" alt="Wide view of the cabin, green structure, deck, and garden area after years of improvement" style="max-height:320px; object-fit:cover; object-position:center;">
           </article>
         </div>
       </div>
