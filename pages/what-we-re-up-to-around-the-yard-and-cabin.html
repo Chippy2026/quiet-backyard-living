@@ -20,6 +20,21 @@
     .story-deck { font-size:1.05rem; color:#5d4a32; max-width:840px; }
     .story-grid { display:grid; grid-template-columns:1.08fr .92fr; gap:1rem; padding:1.2rem; }
     .story-card, .story-note { background:#fffef9; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .story-card.weekly-update {
+      display:flex;
+      flex-direction:column;
+    }
+    .story-live-follow-box {
+      margin-top:auto;
+      padding-top:1.25rem;
+      align-self:center;
+      max-width:360px;
+      text-align:center;
+    }
+    .story-live-follow-box p {
+      margin:.2rem 0 .8rem;
+      color:#5d4a32;
+    }
     .story-signup-block {
       margin:0 1.2rem;
       padding:1.35rem 1.2rem;
@@ -152,11 +167,15 @@
       </div>
 
       <div class="story-grid">
-        <div class="story-card">
+        <div class="story-card weekly-update">
           <span class="story-label">What we’re up to this week</span>
           <h2>May 17, 2026</h2>
           <p>Right now this story is shifting into something more real and more alive. We started turning the yard, garden, and cabin into an ongoing chapter page instead of just a collection of polished pages, and we began gathering the older photos and setbacks that explain how this place really came together.</p>
           <p>This week was less about one finished project and more about laying down the story rails, old cabin photos, rough beginnings, project misses, little wins, and the kind of details that make people want to come back and see what changed next.</p>
+          <div class="story-live-follow-box">
+            <p><strong>To receive updates live when they are available, sign up here.</strong></p>
+            <p><a class="button cta-blue" href="/pages/story-signup.html">Sign Up for Story Updates</a></p>
+          </div>
         </div>
         <div class="story-note">
           <span class="story-label">This week in pictures</span>
