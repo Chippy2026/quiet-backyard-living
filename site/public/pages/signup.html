@@ -5,24 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Follow the Story | Quiet Backyard Living</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
   <script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
-
    gtag('config', 'G-4E1BHTRHF3');
   </script>
-  <!-- MailerLite Universal -->
-  <script>
-   (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-   .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-   n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-   (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-   ml('account', '2238054');
-  </script>
-  <!-- End MailerLite Universal -->
+  <style>
+    .story-signup-form {
+      display:flex;
+      flex-wrap:wrap;
+      gap:.75rem;
+      margin-top:.9rem;
+      align-items:center;
+    }
+    .story-signup-form input[type="email"] {
+      flex:1 1 260px;
+      min-width:220px;
+      padding:.9rem 1rem;
+      border:1px solid #d8c9b3;
+      border-radius:999px;
+      font:inherit;
+      background:#fff;
+    }
+    .story-signup-form button {
+      border:none;
+      cursor:pointer;
+    }
+    .story-signup-message {
+      margin-top:.85rem;
+      font-size:.96rem;
+      color:#5d4a32;
+    }
+    .story-signup-message.success { color:#2f6b47; }
+    .story-signup-message.error { color:#8a3d2f; }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -50,7 +68,11 @@
         <div class="note">
           <h2>Get story updates by email</h2>
           <p>Enter your email below and we’ll let you know when the next chapter is live.</p>
-          <div class="ml-embedded" data-form="Rnwn3x"></div>
+          <form id="storySignupForm" class="story-signup-form">
+            <input id="storySignupEmail" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <button class="button cta-blue" type="submit">Follow the Story</button>
+          </form>
+          <p id="storySignupMessage" class="story-signup-message" aria-live="polite"></p>
         </div>
         <p style="margin-top:0.8rem; color:#5f6658;">No spammy flood, just an update when the story moves forward.</p>
       </div>
@@ -60,5 +82,49 @@
     </section>
   </main>
   <footer class="footer"><div class="container"><p><strong>Quiet Backyard Living</strong> — QuietBackyardLiving.com</p><div class="footer-socials"><a class="social-pill social-pill-facebook" href="https://www.facebook.com/profile.php?id=61576569227577" target="_blank" rel="noopener noreferrer"><span class="social-mark">f</span><span>Facebook</span></a><a class="social-pill social-pill-pinterest" href="https://www.pinterest.com/quietbackyardliving/" target="_blank" rel="noopener noreferrer"><span class="social-mark">P</span><span>Pinterest</span></a><a class="social-pill" href="/pages/contact.html"><span>Contact</span></a></div></div></footer>
+
+  <script>
+    const storySignupForm = document.getElementById('storySignupForm');
+    const storySignupEmail = document.getElementById('storySignupEmail');
+    const storySignupMessage = document.getElementById('storySignupMessage');
+
+    storySignupForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      storySignupMessage.textContent = 'Signing you up...';
+      storySignupMessage.className = 'story-signup-message';
+
+      const submitButton = storySignupForm.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+
+      try {
+        const response = await fetch('/.netlify/functions/resend-signup', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            email: storySignupEmail.value,
+            source: 'story-signup',
+            signup_page: 'signup.html'
+          })
+        });
+
+        const result = await response.json();
+        storySignupMessage.textContent = result.message || 'Done.';
+        storySignupMessage.className = response.ok && result.ok
+          ? 'story-signup-message success'
+          : 'story-signup-message error';
+
+        if (response.ok && result.ok) {
+          storySignupForm.reset();
+        }
+      } catch (error) {
+        storySignupMessage.textContent = 'Something went wrong on our end. Please try again in a minute.';
+        storySignupMessage.className = 'story-signup-message error';
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
+  </script>
 </body>
 </html>
