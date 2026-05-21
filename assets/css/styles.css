@@ -316,6 +316,27 @@ a:hover { text-decoration: underline; }
 .spring-button:hover {
   transform: translateY(-1px);
 }
+.story-book-button {
+  background: linear-gradient(180deg, #7f9b62 0%, #6f8856 100%);
+  border: 1px solid #6f8856;
+  color: #fff;
+  border-radius: 999px;
+  padding: .78rem 1.2rem;
+  font-weight: 700;
+  letter-spacing: .01em;
+  box-shadow: 0 10px 20px rgba(90, 69, 43, .14);
+}
+.story-book-button:hover {
+  background: linear-gradient(180deg, #8aa56c 0%, #77905d 100%);
+  transform: translateY(-1px);
+}
+.story-book-button-soft {
+  background: linear-gradient(180deg, #c79654 0%, #b68142 100%);
+  border-color: #b68142;
+}
+.story-book-button-soft:hover {
+  background: linear-gradient(180deg, #d1a15f 0%, #c18b4c 100%);
+}
 .spring-ideas-inner h2 {
   margin-top: 0;
   color: #385438;
