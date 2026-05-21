@@ -352,6 +352,18 @@ a:hover { text-decoration: underline; }
   display: inline-block;
   margin-bottom: .2rem;
 }
+.story-live-follow-callout-compact {
+  margin-top: .9rem;
+  padding: .8rem .9rem;
+  max-width: 74%;
+}
+.story-live-follow-callout-compact p {
+  font-size: .92rem;
+}
+.story-live-follow-callout-compact .story-book-button {
+  padding: .62rem 1rem;
+  font-size: .9rem;
+}
 .spring-ideas-inner h2 {
   margin-top: 0;
   color: #385438;
