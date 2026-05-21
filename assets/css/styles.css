@@ -337,6 +337,21 @@ a:hover { text-decoration: underline; }
 .story-book-button-soft:hover {
   background: linear-gradient(180deg, #d1a15f 0%, #c18b4c 100%);
 }
+.story-live-follow-callout {
+  margin-top: 1.2rem;
+  padding: 1rem 1.1rem;
+  background: linear-gradient(180deg, #fffaf2 0%, #f8f1e3 100%);
+  border: 1px solid rgba(140, 111, 70, .18);
+  border-radius: 18px;
+  box-shadow: 0 10px 22px rgba(94, 75, 45, .08);
+}
+.story-live-follow-callout p {
+  margin: .45rem 0 0;
+}
+.story-live-follow-callout .story-label {
+  display: inline-block;
+  margin-bottom: .2rem;
+}
 .spring-ideas-inner h2 {
   margin-top: 0;
   color: #385438;
