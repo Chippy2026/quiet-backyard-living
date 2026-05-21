@@ -48,12 +48,17 @@
       border-top:1px solid #e8decb;
       background:#fcf8ef;
     }
+    .story-signup-grid {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:1rem;
+      max-width:980px;
+    }
     .story-signup-shell {
-      max-width:760px;
       background:#fffef9;
       border:1px solid #e4dccd;
       border-radius:18px;
-      padding:1.15rem 1.1rem 1.2rem;
+      padding:1.05rem 1rem 1.1rem;
       box-shadow:0 10px 24px rgba(0,0,0,.04);
     }
     .story-signup-shell h2 {
@@ -147,7 +152,7 @@
       float:left;
       margin:0 1rem .8rem 0;
     }
-    @media (max-width:900px){ .story-grid { grid-template-columns:1fr; } .story-book-title { padding-top:1.2rem; } .story-inline-photo, .story-inline-photo.left { float:none; width:100%; max-width:280px; margin:0 auto 1rem; } }
+    @media (max-width:900px){ .story-grid, .story-signup-grid { grid-template-columns:1fr; } .story-book-title { padding-top:1.2rem; } .story-inline-photo, .story-inline-photo.left { float:none; width:100%; max-width:280px; margin:0 auto 1rem; } }
   </style>
 </head>
 <body>
@@ -227,7 +232,7 @@
         <p><strong>If you just want to see what we’re up to right now, jump to this week’s update above.</strong></p>
       </div>
 
-      <article class="story-entry">
+      <article class="story-entry" id="book-one-chapter-1">
         <div class="story-chapter">
           <figure class="story-inline-photo">
             <img src="/assets/images/gallery/cabin-start-structure.jpg" alt="Small dark cabin structure under the pine tree in the early days">
@@ -1441,14 +1446,24 @@
       </article>
 
       <section class="story-signup-block">
-        <div class="story-signup-shell">
-          <span class="story-label">You’re all caught up</span>
-          <h2>You’re all caught up for now.</h2>
-          <p>If you want to keep following our story as it unfolds, usually every couple of weeks, share your email and we’ll let you know when the next chapter goes live.</p>
-          <div class="story-signup-actions">
-            <a class="button cta-blue" href="/pages/story-signup.html">Follow the Story</a>
+        <div class="story-signup-grid">
+          <div class="story-signup-shell">
+            <span class="story-label">You’re all caught up</span>
+            <h2>You’re caught up for now.</h2>
+            <p>Want the next chapter when it goes live?</p>
+            <div class="story-signup-actions">
+              <a class="button cta-blue" href="/pages/story-signup.html">Follow the Story</a>
+            </div>
+            <p class="story-signup-note">Simple updates, just when a new chapter goes live.</p>
           </div>
-          <p class="story-signup-note">Simple updates, just when a new chapter goes live.</p>
+          <div class="story-signup-shell">
+            <span class="story-label">Start from the beginning</span>
+            <h2>Want the full story first?</h2>
+            <p>In case you want to start from the beginning, jump to Book One, Chapter One.</p>
+            <div class="story-signup-actions">
+              <a class="button" href="#book-one-chapter-1">Start at Chapter 1</a>
+            </div>
+          </div>
         </div>
       </section>
 
