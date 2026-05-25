@@ -1,8 +1,23 @@
 exports.handler = async function (event) {
+  const corsHeaders = {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS'
+  };
+
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 204,
+      headers: corsHeaders,
+      body: ''
+    };
+  }
+
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'method_not_allowed',
@@ -16,7 +31,7 @@ exports.handler = async function (event) {
     console.error('Missing RESEND_API_KEY');
     return {
       statusCode: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'server_error',
@@ -31,7 +46,7 @@ exports.handler = async function (event) {
   } catch (error) {
     return {
       statusCode: 400,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'invalid_request',
@@ -41,13 +56,11 @@ exports.handler = async function (event) {
   }
 
   const email = String(body.email || '').trim().toLowerCase();
-  const source = String(body.source || 'story-signup').trim();
-  const signupPage = String(body.signup_page || 'unknown').trim();
 
   if (!email) {
     return {
       statusCode: 400,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'missing_email',
@@ -60,7 +73,7 @@ exports.handler = async function (event) {
   if (!emailLooksValid) {
     return {
       statusCode: 400,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'invalid_email',
@@ -92,7 +105,7 @@ exports.handler = async function (event) {
     console.error('Network/Resend error', error);
     return {
       statusCode: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: false,
         status: 'server_error',
@@ -104,7 +117,7 @@ exports.handler = async function (event) {
   if (resendResponse.ok) {
     return {
       statusCode: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: true,
         status: 'created',
@@ -122,7 +135,7 @@ exports.handler = async function (event) {
   if (looksLikeDuplicate) {
     return {
       statusCode: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: corsHeaders,
       body: JSON.stringify({
         ok: true,
         status: 'already_exists',
@@ -138,7 +151,7 @@ exports.handler = async function (event) {
 
   return {
     statusCode: 500,
-    headers: { 'Content-Type': 'application/json' },
+    headers: corsHeaders,
     body: JSON.stringify({
       ok: false,
       status: 'server_error',
