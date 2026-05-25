@@ -99,7 +99,49 @@
       color:#8d6f46;
       font-weight:700;
     }
+    .herb-hub-reads {
+      margin:2.1rem 0 2rem;
+    }
+    .herb-hub-reads h2 {
+      margin-bottom:1rem;
+    }
+    .herb-hub-reads-grid {
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:1rem;
+    }
+    .herb-hub-read-card {
+      background:#fffef9;
+      border:1px solid #e6dece;
+      border-radius:20px;
+      padding:1rem 1.05rem;
+      box-shadow:0 12px 24px rgba(0,0,0,.04);
+    }
+    .herb-hub-read-card a {
+      color:#346eb7;
+      font-weight:800;
+      text-decoration:none;
+      font-size:1.05rem;
+      line-height:1.3;
+    }
+    .herb-hub-read-card a:hover {
+      text-decoration:underline;
+    }
+    .herb-hub-read-card p {
+      margin:.55rem 0 0;
+      color:#5c4c38;
+    }
     @media (max-width:900px) {
+       .herb-hub-hero {
+         grid-template-columns:1fr;
+       }
+       .herb-hub-hero img {
+         min-height:240px;
+       }
++      .herb-hub-reads-grid {
++        grid-template-columns:1fr;
++      }
+     }
       .herb-hub-hero {
         grid-template-columns:1fr;
       }
@@ -183,6 +225,24 @@
         <span class="coming-soon">Coming soon</span>
         <a class="coming-soon-link" href="javascript:void(0)" aria-disabled="true">Can Thyme Make You a Little Extra Money?</a>
         <p>A small herb with more profit potential than people expect.</p>
+      </div>
+    </section>
+
+    <section class="herb-hub-reads">
+      <h2>Keep reading</h2>
+      <div class="herb-hub-reads-grid">
+        <article class="herb-hub-read-card">
+          <a href="/pages/what-people-actually-buy-when-you-grow-extra-herbs.html">What People Actually Buy When You Grow Extra Herbs</a>
+          <p>A practical look at which herb formats people usually understand fastest, and what tends to move better at backyard scale.</p>
+        </article>
+        <article class="herb-hub-read-card">
+          <a href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">The Herbs That Quietly Save You the Most Money</a>
+          <p>The broader herb value page, focused on why herbs earn their space so well.</p>
+        </article>
+        <article class="herb-hub-read-card">
+          <a href="/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space.html">Best Herbs to Dry if You Want the Most Value from a Small Space</a>
+          <p>A practical drying guide with the herbs that hold up best and the methods that actually make sense.</p>
+        </article>
       </div>
     </section>
   </main>
