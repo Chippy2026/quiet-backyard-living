@@ -76,6 +76,130 @@ a:hover { text-decoration: underline; }
 .hero {
   padding: 3rem 0 2rem;
 }
+.home-chippy-start-grid {
+  grid-template-columns: 1fr;
+}
+.home-chippy-start-card {
+  background: linear-gradient(180deg, rgba(255,252,246,.98) 0%, rgba(248,243,232,.98) 100%);
+  border: 1px solid #e4d8c3;
+  border-radius: 26px;
+  padding: 1.15rem;
+  box-shadow: 0 14px 30px rgba(60,42,18,.06);
+}
+.home-chippy-start-intro {
+  display: grid;
+  grid-template-columns: 44px minmax(0,1fr);
+  gap: .9rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+.home-chippy-start-badge {
+  width: 44px;
+  height: auto;
+  border-radius: 0;
+  transform: translateY(2px);
+}
+.home-chippy-start-card h2 {
+  margin: 0 0 .45rem;
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+  line-height: 1.08;
+  color: #2f3f2f;
+}
+.home-chippy-start-copy {
+  margin: 0;
+  max-width: 760px;
+  color: #5d4a32;
+  font-size: 1rem;
+}
+.home-chippy-start-leadin {
+  margin: .9rem 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4a3827;
+}
+.home-chippy-start-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .95rem;
+}
+.home-chippy-start-link {
+  display: block;
+  background: rgba(255,255,255,.92);
+  border: 1px solid #e8dfd1;
+  border-radius: 18px;
+  padding: 1rem 1rem 1.05rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,.03);
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.home-chippy-start-link:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.05);
+  border-color: #d8c49b;
+}
+.home-chippy-start-link strong {
+  display: block;
+  margin-bottom: .3rem;
+  color: #2f67b1;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+.home-chippy-start-link span {
+  display: block;
+  color: #5d4a32;
+  line-height: 1.55;
+}
+.home-chippy-story-link {
+  background: linear-gradient(180deg, rgba(255,250,242,.98) 0%, rgba(248,240,228,.98) 100%);
+  border-color: #dcc29a;
+}
+.home-chippy-story-link strong {
+  color: #7a4a21;
+}
+.home-chippy-popular-strip {
+  margin-top: 1rem;
+  padding-top: .95rem;
+  border-top: 1px solid #eadfcf;
+}
+.home-chippy-popular-title {
+  margin: 0 0 .55rem;
+  font-size: 1.08rem;
+  line-height: 1.2;
+  color: #4a3827;
+  font-weight: 700;
+}
+.home-chippy-popular-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .8rem;
+}
+.home-chippy-popular-links a {
+  display: block;
+  background: rgba(255,255,255,.82);
+  border: 1px solid #e8dfd1;
+  border-radius: 16px;
+  padding: .85rem .9rem;
+  color: #2f67b1;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(0,0,0,.025);
+}
+.home-chippy-popular-links a strong {
+  display: block;
+  margin-bottom: .28rem;
+  font-size: .98rem;
+  line-height: 1.2;
+}
+.home-chippy-popular-links a span {
+  display: block;
+  color: #5d4a32;
+  line-height: 1.5;
+  font-size: .94rem;
+}
+.home-chippy-popular-links a:hover {
+  text-decoration: none;
+  border-color: #d8c49b;
+}
 .crew-intro {
   padding: 3.2rem 0 2.2rem;
   background: linear-gradient(180deg, rgba(255,251,244,.9) 0%, rgba(245,249,240,.92) 100%);
@@ -486,6 +610,19 @@ a:hover { text-decoration: underline; }
 }
 @media (max-width: 800px) {
   .hero-grid, .split, .card-grid, .crew-intro-grid, .crew-bio-grid, .homepage-tool-top { grid-template-columns: 1fr; }
+  .home-chippy-start-intro {
+    grid-template-columns: 1fr;
+    gap: .55rem;
+  }
+  .home-chippy-start-badge {
+    width: 40px;
+  }
+  .home-chippy-start-links {
+    grid-template-columns: 1fr;
+  }
+  .home-chippy-popular-links {
+    grid-template-columns: 1fr;
+  }
   .homepage-latest-garden { display: block; }
   .homepage-tool-center-panel { display: none !important; }
   .homepage-tool-buttons-wrap { display: none !important; }
