@@ -158,8 +158,8 @@ a:hover { text-decoration: underline; }
   color: #7a4a21;
 }
 .home-chippy-popular-strip {
-  margin-top: 1rem;
-  padding-top: .95rem;
+  margin-top: 1.65rem;
+  padding-top: 1.15rem;
   border-top: 1px solid #eadfcf;
 }
 .home-chippy-popular-title {
@@ -172,33 +172,33 @@ a:hover { text-decoration: underline; }
 .home-chippy-popular-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0,1fr));
-  gap: .8rem;
+  gap: .7rem;
 }
 .home-chippy-popular-links a {
   display: block;
-  background: rgba(255,255,255,.82);
-  border: 1px solid #e8dfd1;
-  border-radius: 16px;
-  padding: .85rem .9rem;
+  background: rgba(255,255,255,.68);
+  border: 1px solid #ece4d8;
+  border-radius: 14px;
+  padding: .68rem .78rem;
   color: #2f67b1;
   text-decoration: none;
-  box-shadow: 0 6px 16px rgba(0,0,0,.025);
+  box-shadow: 0 3px 10px rgba(0,0,0,.018);
 }
 .home-chippy-popular-links a strong {
   display: block;
-  margin-bottom: .28rem;
-  font-size: .98rem;
+  margin-bottom: .22rem;
+  font-size: .92rem;
   line-height: 1.2;
 }
 .home-chippy-popular-links a span {
   display: block;
   color: #5d4a32;
-  line-height: 1.5;
-  font-size: .94rem;
+  line-height: 1.42;
+  font-size: .88rem;
 }
 .home-chippy-popular-links a:hover {
   text-decoration: none;
-  border-color: #d8c49b;
+  border-color: #ddd0b8;
 }
 .crew-intro {
   padding: 3.2rem 0 2.2rem;
