@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Basil: Grow Extra and Sell It Fast | Quiet Backyard Living</title>
-  <meta name="description" content="A practical basil overflow page about using your own basil first, handling fresh vs dried basil, keeping it from going downhill, and turning the real extra into quick backyard value.">
+  <meta name="description" content="A practical basil page about how to grow a big productive basil plant, what to do when you have too much, how long fresh basil keeps, when to freeze it, and when it can turn into quick backyard value.">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4E1BHTRHF3"></script>
   <script>
@@ -35,10 +35,9 @@
       color:#6b5a45;
       font-weight:700;
     }
-    .truth-box,
-    .editorial-card,
+    .note-strip,
     .support-card,
-    .comparison-card,
+    .scorecard-box,
     .next-card {
       background:#fff;
       border:1px solid #e4dccd;
@@ -46,10 +45,17 @@
       padding:1rem 1.05rem;
       box-shadow:0 10px 24px rgba(0,0,0,.04);
     }
-    .truth-box {
+    .note-strip {
       background:#fff8e8;
       border-color:#ecd9a3;
       border-left:5px solid #d7a83d;
+    }
+    .lead-grid,
+    .overflow-grid,
+    .next-grid {
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:1rem;
     }
     .editorial-stagger {
       display:grid;
@@ -60,6 +66,13 @@
     }
     .editorial-stagger.reverse {
       grid-template-columns:minmax(260px,.85fr) minmax(0,1.15fr);
+    }
+    .editorial-card {
+      background:#fff;
+      border:1px solid #e4dccd;
+      border-radius:20px;
+      padding:1rem 1.05rem;
+      box-shadow:0 10px 24px rgba(0,0,0,.04);
     }
     .support-card { background:#f8f4ed; }
     .support-card.note { background:#f7f2e7; }
@@ -73,27 +86,26 @@
     }
     .flow-list { margin:.35rem 0 0; padding-left:1.1rem; }
     .flow-list li { margin-bottom:.4rem; }
-    .comparison-grid,
-    .next-grid {
-      display:grid;
-      grid-template-columns:repeat(2, minmax(0,1fr));
-      gap:1rem;
+    .scorecard-box table {
+      width:100%;
+      border-collapse:collapse;
+      margin-top:.4rem;
+      font-size:.96rem;
     }
-    .shortcut-box {
-      background:linear-gradient(180deg, #fff8e8 0%, #fff2d1 100%);
-      border:1px solid #ecd9a3;
-      border-left:5px solid #d7a83d;
-      border-radius:20px;
-      padding:1.05rem 1.15rem;
-      box-shadow:0 10px 24px rgba(0,0,0,.03);
+    .scorecard-box td {
+      padding:.45rem .15rem;
+      border-bottom:1px solid #ece3d3;
+      vertical-align:top;
     }
+    .scorecard-box tr:last-child td { border-bottom:none; }
     .next-card a { text-decoration:none; }
     @media (max-width:900px) {
       .basil-hero,
+      .lead-grid,
+      .overflow-grid,
+      .next-grid,
       .editorial-stagger,
-      .editorial-stagger.reverse,
-      .comparison-grid,
-      .next-grid {
+      .editorial-stagger.reverse {
         grid-template-columns:1fr;
       }
     }
@@ -118,171 +130,172 @@
     <section class="page-hero basil-hero">
       <div>
         <h1>Basil: Grow Extra and Sell It Fast</h1>
-        <p class="subhead hero-note">After you’ve made your pesto, topped your pizza, and used what you want for yourself, basil is one of the easiest herbs to turn into quick backyard value, if you move it before it goes downhill.</p>
+        <p class="subhead hero-note">Basil is one of the few herbs that checks almost every box for Quiet Backyard Living. It is easy to grow, produces fast, smells amazing, and when it gets happy, it gives way more than most people know what to do with. That is why basil is usually the first herb that creates the, “Uh oh... now I have too much basil,” problem.</p>
       </div>
       <div class="basil-visual">
-        Placeholder visual area<br>
-        basil bunches / basket / fresh market bundle graphic
+        Placeholder basil visual<br>
+        big fresh bunches / basket / basil overflow image
       </div>
     </section>
 
     <section class="section">
-      <div class="truth-box">
-        <strong>Short version:</strong> basil is one of the easiest herbs to sell because people already know what it is and what to do with it. But it is also one of the quickest herbs to lose value, so the trick is to use your share first, then move the extra while it still looks and smells great.
+      <div class="note-strip">
+        <strong>Short version:</strong> basil is one of the easiest herbs to turn into quick backyard value after you have already used what you want for pesto, pizza, pasta, caprese, sandwiches, or the freezer. The trick is to move the real extra while it still looks and smells great.
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="lead-grid">
+        <div class="editorial-card">
+          <span class="tiny-label">Why basil gets exciting fast</span>
+          <h2>Most herbs grow slowly. Basil doesn’t.</h2>
+          <p>Basil can go from a tiny transplant to a giant leafy monster in a surprisingly short time. One healthy plant can easily give you pesto, salads, sandwiches, pizza toppings, pasta dishes, and freezer basil for months. That is a lot of value from a single pot.</p>
+        </div>
+        <div class="support-card note">
+          <span class="tiny-label">Why this herb matters</span>
+          <p>Basil is one of the easiest herbs for a normal person to understand, use, and eventually end up with too much of. That makes it one of the strongest QBL herbs.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
       <div class="editorial-stagger">
         <article class="editorial-card">
-          <span class="tiny-label">First things first</span>
+          <span class="tiny-label">The secret to huge basil plants</span>
+          <h2>Don’t just pick leaves. Clip stems.</h2>
+          <p>Most beginners make one mistake. They harvest leaves. Instead, once basil reaches about 6 to 8 inches tall, find a pair of leaves and clip just above them. The plant responds by sending out two new stems.</p>
+          <ul class="flow-list">
+            <li>one stem becomes two</li>
+            <li>two become four</li>
+            <li>four become eight</li>
+          </ul>
+          <p>That is how people end up with bushy basil instead of tall, skinny basil.</p>
+        </article>
+        <aside class="support-card">
+          <span class="tiny-label">Quick visual helper</span>
+          <p>Leaves 🌿 🌿<br>---------✂---------<br>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+          <p>That little cut point is the difference between a basil plant that limps along and one that takes over the pot.</p>
+        </aside>
+      </div>
+
+      <div class="editorial-stagger reverse">
+        <aside class="support-card note">
+          <span class="tiny-label">Good news</span>
+          <p>A healthy basil plant can usually handle weekly harvesting, frequent tip pruning, and regular leaf picking as long as you leave enough foliage behind. The more you use it, the more it often grows.</p>
+        </aside>
+        <article class="editorial-card">
+          <span class="tiny-label">The flower problem</span>
+          <h2>Pinch flower spikes if you want the good part to last</h2>
+          <p>Basil eventually tries to flower. The flowers are not bad, but once flowering begins, leaf production slows, the flavor shifts a little, and plant energy starts heading toward seed production. Most people simply pinch off flower spikes to keep basil productive longer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="editorial-stagger">
+        <article class="editorial-card">
+          <span class="tiny-label">Start here</span>
           <h2>Use what you want first</h2>
-          <p>This page should start from real life, not hustle culture. If you grew beautiful basil, you should absolutely use the basil you want before you ever think about selling the extra.</p>
+          <p>This page works better when it starts from real life, not hustle culture. If you grew beautiful basil, you should absolutely use the basil you want before you ever think about selling the extra.</p>
           <ul class="flow-list">
-            <li>pesto</li>
-            <li>pizza topping</li>
-            <li>pasta and tomato dishes</li>
-            <li>caprese</li>
-            <li>basil butter</li>
-            <li>freeze or preserve a little for yourself</li>
+            <li>make pesto</li>
+            <li>top pizza</li>
+            <li>use it in pasta and tomato dishes</li>
+            <li>add it to caprese, sandwiches, wraps, burgers, salads, and eggs</li>
+            <li>freeze some for yourself if you want to keep the season going</li>
           </ul>
+          <p>Even a few leaves can make normal meals feel fancy, which is part of why basil is so easy to justify growing in the first place.</p>
         </article>
-        <aside class="support-card note">
-          <span class="tiny-label">Reality check</span>
-          <h3>This is not your main business</h3>
-          <p>Basil is one of the easiest overflow herbs to turn into quick value after your own kitchen needs are covered.</p>
-        </aside>
-      </div>
-
-      <div class="editorial-stagger reverse">
         <aside class="support-card">
-          <span class="tiny-label">Practical question</span>
-          <h3>What counts as real extra basil?</h3>
-          <p>This section should help people tell the difference between a few spare sprigs and enough basil to actually bunch, share, or move quickly.</p>
+          <span class="tiny-label">Overflow mindset</span>
+          <p>Once you have exhausted your own pesto, pizza, pasta, sandwich, and freezer needs, that is when basil becomes one of the easiest herbs to turn into quick practical value.</p>
         </aside>
-        <article class="editorial-card">
-          <span class="tiny-label">Overflow logic</span>
-          <h2>What counts as true extra basil?</h2>
-          <p>Not every extra leaf is inventory. This section should help the reader decide when they really have enough basil to do something with it beyond tonight’s dinner.</p>
-          <ul class="flow-list">
-            <li>a few extra stems is just extra dinner help</li>
-            <li>a basketful is a real surplus</li>
-            <li>once you cannot use it before it softens, you need a plan</li>
-          </ul>
-        </article>
-      </div>
-
-      <div class="editorial-stagger">
-        <article class="editorial-card">
-          <span class="tiny-label">Why basil works</span>
-          <h2>Why people actually buy basil</h2>
-          <p>Basil is one of the easiest herbs to move because buyers do not need much help imagining what to do with it.</p>
-          <ul class="flow-list">
-            <li>pesto</li>
-            <li>pizza topping</li>
-            <li>pasta sauce</li>
-            <li>caprese salad</li>
-            <li>sandwiches</li>
-            <li>fresh summer cooking</li>
-          </ul>
-        </article>
-        <aside class="support-card note">
-          <span class="tiny-label">Big advantage</span>
-          <h3>People already understand basil</h3>
-          <p>That makes it easier to move than a lot of niche herbs that need explanation.</p>
-        </aside>
-      </div>
-
-      <div class="editorial-stagger reverse">
-        <aside class="support-card">
-          <span class="tiny-label">Practical handling</span>
-          <h3>Should basil go in the fridge?</h3>
-          <p>This is where the page should answer that basil often behaves better short-term like a bouquet than like a bag of lettuce.</p>
-        </aside>
-        <article class="editorial-card">
-          <span class="tiny-label">Short clock section</span>
-          <h2>How long fresh basil keeps</h2>
-          <p>This needs real guidance about how fast basil declines, what helps it hold better, and why the clock matters if you want to sell or give it away while it still feels worth having.</p>
-          <ul class="flow-list">
-            <li>fresh basil has a short value window</li>
-            <li>cold damage can ruin it faster than people expect</li>
-            <li>handling matters almost as much as harvest timing</li>
-          </ul>
-        </article>
       </div>
     </section>
 
     <section class="section">
-      <h2>Fresh basil vs dried basil</h2>
-      <div class="comparison-grid">
-        <div class="comparison-card">
-          <h3>Fresh basil</h3>
-          <ul class="flow-list">
-            <li>better immediate buyer appeal</li>
-            <li>easier to understand fast</li>
-            <li>shorter clock</li>
-            <li>best for quick local use and quick local value</li>
-          </ul>
-        </div>
-        <div class="comparison-card">
-          <h3>Dried basil</h3>
-          <ul class="flow-list">
-            <li>longer storage</li>
-            <li>different use case</li>
-            <li>less immediate visual appeal</li>
-            <li>better as backup value than last-minute rescue</li>
-          </ul>
-        </div>
+      <h2>What to do with too much basil</h2>
+      <div class="overflow-grid">
+        <article class="editorial-card">
+          <h3>Make pesto</h3>
+          <p>The classic basil overflow solution. A few cups of leaves disappear surprisingly fast, and pesto freezes extremely well in ice cube trays, small jars, or silicone molds.</p>
+        </article>
+        <article class="editorial-card">
+          <h3>Freeze whole leaves</h3>
+          <p>Wash, dry, and freeze. The leaves will not look perfect afterward, but they are excellent for cooked dishes.</p>
+        </article>
+        <article class="editorial-card">
+          <h3>Freeze chopped basil</h3>
+          <p>Chop basil, mix it lightly with olive oil, and freeze it in cubes so you have ready-to-use cooking portions.</p>
+        </article>
+        <article class="support-card note">
+          <h3>Can you dry basil?</h3>
+          <p>Yes, but it is not basil’s superpower. Compared to oregano, thyme, or rosemary, basil loses more flavor during drying. If your goal is maximum flavor preservation, freezing usually wins.</p>
+          <p><a href="/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space.html">See which herbs are actually worth drying →</a></p>
+        </article>
       </div>
     </section>
 
     <section class="section">
       <div class="editorial-stagger">
         <article class="editorial-card">
-          <span class="tiny-label">Don’t push it too far</span>
-          <h2>Signs basil is no longer good enough to sell</h2>
-          <p>This is a high-value section because it helps people know when the opportunity window is over.</p>
-          <ul class="flow-list">
-            <li>blackened leaves</li>
-            <li>bruising</li>
-            <li>yellowing</li>
-            <li>weak smell</li>
-            <li>slimy stems</li>
-            <li>cold damage</li>
-          </ul>
+          <span class="tiny-label">Sharing is easy</span>
+          <h2>Can you give basil away?</h2>
+          <p>Absolutely. And people actually want it. Fresh basil bundles are easy gifts for neighbors, family, coworkers, gardeners, and people who cook. A handful of fresh basil feels surprisingly generous.</p>
         </article>
         <aside class="support-card note">
-          <span class="tiny-label">Simple rule</span>
-          <h3>Not sell-it basil anymore</h3>
-          <p>At that point, it is use-it-now basil, dry-it-if-you-must basil, or compost basil.</p>
+          <span class="tiny-label">Why basil moves</span>
+          <p>Many people do not know what to do with lemon balm, hyssop, or savory. But almost everybody knows basil.</p>
         </aside>
       </div>
 
       <div class="editorial-stagger reverse">
         <aside class="support-card">
-          <span class="tiny-label">Simple formats</span>
-          <h3>Best easy ways to move it</h3>
-          <p>Fresh bunches, small tied bundles, starter plants, and very simple familiar offerings should probably be the core of the page.</p>
-        </aside>
-        <article class="editorial-card">
-          <span class="tiny-label">Quick-turn value</span>
-          <h2>Best simple ways to move extra basil</h2>
-          <p>The page should stay realistic here. This is about quick practical value, not inventing a whole basil product line.</p>
+          <span class="tiny-label">Possible products</span>
           <ul class="flow-list">
             <li>fresh bunches</li>
-            <li>small labeled bundles</li>
+            <li>small bunches tied with twine</li>
+            <li>potted basil plants</li>
             <li>starter plants</li>
-            <li>quick local use before quality slips</li>
+            <li>mixed herb baskets with basil, parsley, and chives</li>
           </ul>
+        </aside>
+        <article class="editorial-card">
+          <span class="tiny-label">Selling lane</span>
+          <h2>Can you sell basil?</h2>
+          <p>Often easier than people think. Because people recognize basil. Fresh bundles are the easiest first move. Potted basil plants are also one of the simplest herb sales, especially in spring. A healthy basil plant can provide lots of cuttings, which means one strong plant can eventually become many.</p>
         </article>
       </div>
     </section>
 
     <section class="section">
-      <div class="shortcut-box">
-        <span class="tiny-label">What I'd actually do</span>
-        <h3>📌 If it were me, I’d do this first</h3>
-        <p>Use what I want fresh, pesto or freeze the best of the rest, bunch the freshest extra, move it fast, and stop pretending tomorrow’s tired basil is still “sellable.”</p>
+      <div class="lead-grid">
+        <div class="editorial-card">
+          <span class="tiny-label">Big practical winner</span>
+          <h2>The best basil money-maker</h2>
+          <p>Honestly? Starter plants. Not dried basil. Not fancy products. Not complicated processing. A healthy basil transplant can often be worth far more than the tiny amount of seed required to grow it.</p>
+        </div>
+        <div class="scorecard-box">
+          <span class="tiny-label">QBL-style scorecard</span>
+          <h3>What basil does better than almost any herb</h3>
+          <table>
+            <tr><td><strong>Beginner Friendly</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+            <tr><td><strong>Small Space Value</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+            <tr><td><strong>Kitchen Usefulness</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+            <tr><td><strong>Fast Growth</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+            <tr><td><strong>Extra Harvest Potential</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+            <tr><td><strong>Worth Selling</strong></td><td>⭐⭐⭐⭐☆</td></tr>
+            <tr><td><strong>Worth Drying</strong></td><td>⭐⭐☆☆☆</td></tr>
+            <tr><td><strong>Overall Backyard Value</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
+          </table>
+          <p>Very few herbs score that well across the board.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="note-strip">
+        <strong>Bottom line:</strong> if someone asked, “I only have one sunny pot. What herb should I start with?” basil would almost always be one of the first recommendations. It grows fast enough to keep beginners excited, useful enough to justify the space, and productive enough that you may eventually be asking the exact question this page is built around: “Okay... now what am I supposed to do with all this basil?” 🌿
       </div>
     </section>
 
