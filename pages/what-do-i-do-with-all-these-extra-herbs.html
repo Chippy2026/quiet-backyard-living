@@ -21,19 +21,13 @@
       gap:1rem;
       align-items:start;
     }
-    .extra-herb-visual {
-      min-height:260px;
-      background:linear-gradient(180deg, #fbf7ef 0%, #f3ead9 100%);
-      border:1px solid #e4dccd;
+    .extra-herb-visual img {
+      display:block;
+      width:100%;
+      height:auto;
       border-radius:22px;
-      padding:1rem;
+      border:1px solid #e4dccd;
       box-shadow:0 12px 26px rgba(0,0,0,.04);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      color:#6b5a45;
-      font-weight:700;
     }
     .quick-strip {
       display:grid;
@@ -54,6 +48,11 @@
     .quick-card {
       background:#fbf7ef;
       text-align:center;
+    }
+    .quick-card .quick-icon {
+      display:block;
+      font-size:1.45rem;
+      margin-bottom:.35rem;
     }
     .editorial-stagger {
       display:grid;
@@ -78,6 +77,14 @@
     .support-card.note {
       background:#fff8e8;
       border-color:#ecd9a3;
+    }
+    .shortcut-box {
+      background:linear-gradient(180deg, #fff8e8 0%, #fff2d1 100%);
+      border:1px solid #ecd9a3;
+      border-left:5px solid #d7a83d;
+      border-radius:20px;
+      padding:1.05rem 1.15rem;
+      box-shadow:0 10px 24px rgba(0,0,0,.03);
     }
     .overflow-grid {
       display:grid;
@@ -134,29 +141,32 @@
         <p class="subhead hero-note">You wanted a few useful herbs. Now the basil is taking over, the mint is acting wild, and the parsley suddenly has bigger plans than you do. Good. Let’s not waste the fun part.</p>
       </div>
       <div class="extra-herb-visual">
-        Placeholder visual area<br>
-        basket / bundles / herb overflow image
+        <img src="/assets/images/too-many-herbs-start-here.jpg" alt="Too Many Herbs? Here's where I'd start graphic with an overflowing basket of basil, parsley, chives, and thyme">
       </div>
     </section>
 
     <section class="section">
       <div class="quick-strip">
         <div class="quick-card">
+          <span class="quick-icon">🌿</span>
           <span class="tiny-label">Start here</span>
           <h3>Use them this week</h3>
           <p>Fast, easy ideas before they wilt and guilt you.</p>
         </div>
         <div class="quick-card">
+          <span class="quick-icon">🫙</span>
           <span class="tiny-label">Save them</span>
           <h3>Keep them for later</h3>
           <p>Dry them, freeze them, or stash them in useful ways.</p>
         </div>
         <div class="quick-card">
+          <span class="quick-icon">🎁</span>
           <span class="tiny-label">Share them</span>
           <h3>Give some away</h3>
           <p>Neighbors, cooks, tea drinkers, and other lucky people.</p>
         </div>
         <div class="quick-card">
+          <span class="quick-icon">💵</span>
           <span class="tiny-label">Optional</span>
           <h3>Sell a little</h3>
           <p>If you want a little extra value from the overflow.</p>
@@ -274,9 +284,9 @@
     </section>
 
     <section class="section">
-      <div class="support-card note">
-        <span class="tiny-label">Helpful close</span>
-        <h3>If it were me, I’d do this first</h3>
+      <div class="shortcut-box">
+        <span class="tiny-label">What I'd actually do</span>
+        <h3>📌 If it were me, I’d do this first</h3>
         <p>Use or preserve basil first, dry oregano and thyme, cut and share mint, freeze chives and parsley, then decide if anything is worth bundling or selling.</p>
       </div>
     </section>
