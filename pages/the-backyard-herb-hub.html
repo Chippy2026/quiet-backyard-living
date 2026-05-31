@@ -15,7 +15,10 @@
   </script>
   <style>
     .herb-hub-hero {
-      display:block;
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(320px,.95fr);
+      gap:1rem;
+      align-items:stretch;
       margin:1.5rem 0 2rem;
     }
     .herb-hub-copy {
@@ -42,8 +45,18 @@
       display:inline-block;
       margin-bottom:.2rem;
     }
-    .herb-hub-hero img {
-      display:none;
+    .herb-hub-hero-image {
+      display:flex;
+      align-items:stretch;
+    }
+    .herb-hub-hero-image img {
+      display:block;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      border:1px solid #e6dece;
+      border-radius:22px;
+      box-shadow:0 14px 28px rgba(0,0,0,.05);
     }
     .herb-hub-directory {
       background:#fffef9;
@@ -124,20 +137,11 @@
       color:#5c4c38;
     }
     @media (max-width:900px) {
-       .herb-hub-hero {
-         grid-template-columns:1fr;
-       }
-       .herb-hub-hero img {
-         min-height:240px;
-       }
-+      .herb-hub-reads-grid {
-+        grid-template-columns:1fr;
-+      }
-     }
-      .herb-hub-hero {
+      .herb-hub-hero,
+      .herb-hub-reads-grid {
         grid-template-columns:1fr;
       }
-      .herb-hub-hero img {
+      .herb-hub-hero-image img {
         min-height:240px;
       }
     }
@@ -166,6 +170,9 @@
         <p class="subhead">Everything you need to know about growing herbs for flavor, savings, and a little extra profit.</p>
         <p>This is a clean place to follow the herb path that fits what you care about most, saving money, growing extra, drying herbs, making the most of a small space, or figuring out what to do with herbs before they get out of hand.</p>
         <p>The herb pages themselves can be fuller and more visual. This page is just here to help you find the right next click without a bunch of distractions.</p>
+      </div>
+      <div class="herb-hub-hero-image">
+        <img src="/assets/images/welcome-to-the-herb-hub.jpg" alt="Chippy welcoming readers to the Herb Hub with herbs for growing, using, drying, and saving">
       </div>
     </section>
 
