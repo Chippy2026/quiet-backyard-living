@@ -17,10 +17,14 @@
     .lead-grid, .picks-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
     .soft-card { background:#f8f4ed; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
     .soft-card h3 { margin-top:0; }
-    .value-table { width:100%; border-collapse:collapse; margin:.2rem 0 0; }
-    .value-table th, .value-table td { text-align:left; padding:.55rem .2rem; border-bottom:1px solid #e6dece; }
-    .value-table th { font-size:.84rem; letter-spacing:.04em; text-transform:uppercase; color:#7a6855; }
-    .value-table tr:last-child td { border-bottom:none; }
+    .value-graphic {
+      display:block;
+      width:100%;
+      height:auto;
+      border:1px solid #e4dccd;
+      border-radius:18px;
+      box-shadow:0 8px 20px rgba(0,0,0,.04);
+    }
     .herb-row { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(240px,.8fr); gap:1rem; margin-bottom:1rem; }
     .herb-rank, .herb-value-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .herb-rank h3, .herb-value-card h3 { margin-top:0; margin-bottom:.35rem; }
@@ -69,23 +73,7 @@
     <section class="section">
       <div class="lead-grid">
         <div>
-          <h2 style="margin-top:0;">Backyard value multiplier</h2>
-          <table class="value-table">
-            <thead>
-              <tr>
-                <th>Herb</th>
-                <th>Backyard Value Multiplier</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>Mint</td><td>16×</td></tr>
-              <tr><td>Basil</td><td>15×</td></tr>
-              <tr><td>Oregano</td><td>10×</td></tr>
-              <tr><td>Thyme</td><td>8×</td></tr>
-              <tr><td>Chives</td><td>8×</td></tr>
-              <tr><td>Parsley</td><td>6×</td></tr>
-            </tbody>
-          </table>
+          <img class="value-graphic" src="/assets/images/backyard-value-multiplier.jpg" alt="Backyard Value Multiplier chart comparing mint, basil, oregano, thyme, chives, and parsley by how much herb value you get back for every dollar spent getting started">
         </div>
         <div class="soft-card">
           <span class="tiny-label">The short answer</span>
