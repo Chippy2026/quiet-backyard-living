@@ -88,16 +88,16 @@ a:hover { text-decoration: underline; }
 }
 .home-chippy-start-intro {
   display: grid;
-  grid-template-columns: 44px minmax(0,1fr);
-  gap: .9rem;
+  grid-template-columns: 64px minmax(0,1fr);
+  gap: 1rem;
   align-items: start;
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
 }
 .home-chippy-start-badge {
-  width: 44px;
+  width: 64px;
   height: auto;
   border-radius: 0;
-  transform: translateY(2px);
+  transform: translateY(0);
 }
 .home-chippy-start-card h2 {
   margin: 0 0 .45rem;
