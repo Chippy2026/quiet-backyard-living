@@ -17,13 +17,19 @@
     .lead-grid, .picks-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
     .soft-card { background:#f8f4ed; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
     .soft-card h3 { margin-top:0; }
-    .herb-rank { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
-    .herb-rank h3 { margin-top:0; margin-bottom:.35rem; }
-    .herb-rank p { margin:.45rem 0; }
+    .herb-row { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(240px,.8fr); gap:1rem; margin-bottom:1rem; }
+    .herb-rank, .herb-value-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.1rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .herb-rank h3, .herb-value-card h3 { margin-top:0; margin-bottom:.35rem; }
+    .herb-rank p, .herb-value-card p { margin:.45rem 0; }
     .mini-points { margin:.5rem 0 0; padding-left:1.1rem; }
     .mini-points li { margin-bottom:.32rem; }
     .herb-rank-actions { margin-top:.7rem; display:flex; flex-wrap:wrap; gap:.55rem; }
     .herb-rank-actions .button { border-radius:8px; box-shadow:none; }
+    .value-lines { display:grid; gap:.42rem; margin:.55rem 0; }
+    .value-line { color:#4d3f2f; }
+    .value-line strong { color:#2f3f2f; }
+    .value-score { margin-top:.75rem; padding:.75rem .8rem; background:#f8f4ed; border:1px solid #e4dccd; border-radius:14px; }
+    .value-score strong { color:#7a4a21; }
     .rank-line { color:#7a6855; font-size:.95rem; margin-bottom:.65rem; }
     .tiny-label { display:inline-block; font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; }
     .flow-list { margin:0; padding-left:1.15rem; }
@@ -32,7 +38,7 @@
     .quote-box p:last-child { margin-bottom:0; }
     .next-card { background:#fff; border:1px solid #e4dccd; border-radius:18px; padding:1rem 1.1rem; }
     .next-card a { text-decoration:none; }
-    @media (max-width:850px){ .lead-grid, .picks-grid, .next-grid { grid-template-columns:1fr; } }
+    @media (max-width:850px){ .lead-grid, .picks-grid, .next-grid, .herb-row { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -78,77 +84,161 @@
 
     <section class="section">
       <h2>My six best-value herb picks</h2>
-      <div class="herb-rank">
-        <span class="tiny-label">Fastest payoff</span>
-        <h3>1. Basil</h3>
-        <div class="rank-line">Around $3 seed packet, around $3 fresh-bunch value</div>
-        <p>Basil gives fast obvious payoff, especially if you already cook with tomatoes, pasta, pizza, or summer sandwiches.</p>
-        <ul class="mini-points">
-          <li>great fresh-use herb</li>
-          <li>easy to grow extra of</li>
-          <li>works well near tomatoes and peppers</li>
-        </ul>
-        <div class="herb-rank-actions">
-          <a class="button" href="/pages/basil-grow-extra-and-sell-it-fast.html">Read the basil guide</a>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Fastest payoff</span>
+          <h3>1. Basil</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>grows fast in warm weather</li>
+            <li>best when clipped regularly</li>
+            <li>loses value fast once it flowers or wilts</li>
+            <li>usually better frozen than dried</li>
+            <li>one of the easiest herbs to use or sell quickly</li>
+          </ul>
+          <div class="herb-rank-actions">
+            <a class="button" href="/pages/basil-grow-extra-and-sell-it-fast.html">Read the basil guide</a>
+          </div>
         </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Basil value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. seed cost:</strong> about $3</div>
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $2 to $4 per fresh pack</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $40 to $150+</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 15× from a starter plant in a good season</div>
+        </aside>
       </div>
-      <div class="herb-rank">
-        <span class="tiny-label">Best quiet workhorse</span>
-        <h3>2. Parsley</h3>
-        <div class="rank-line">Around $3 seed packet, around $3 fresh-bunch value</div>
-        <p>Parsley is one of the easiest herbs to actually use often, which is a big part of its value.</p>
-        <ul class="mini-points">
-          <li>good for soups, eggs, potatoes, and salads</li>
-          <li>easy to tuck into a productive bed</li>
-          <li>strong everyday herb</li>
-        </ul>
-      </div>
-      <div class="herb-rank">
-        <span class="tiny-label">Best drying herb</span>
-        <h3>3. Oregano</h3>
-        <div class="rank-line">Around $3 seed packet, around $3 fresh, around $6 dried value</div>
-        <p>Oregano keeps paying you back after harvest day because it dries well and stores easily.</p>
-        <ul class="mini-points">
-          <li>strong drying value</li>
-          <li>good repeat use herb</li>
-          <li>worth growing a little extra</li>
-        </ul>
-      </div>
-      <div class="herb-rank">
-        <span class="tiny-label">Best small-but-mighty herb</span>
-        <h3>4. Thyme</h3>
-        <div class="rank-line">Around $3 seed packet, around $3 fresh, around $6 dried value</div>
-        <p>Thyme is small, durable, and useful enough to earn its place without asking for much room.</p>
-        <ul class="mini-points">
-          <li>great for small beds and edges</li>
-          <li>dries well</li>
-          <li>easy plant to keep around long term</li>
-        </ul>
-        <div class="herb-rank-actions">
-          <a class="button" href="/pages/can-thyme-make-you-a-little-extra-money.html">Read the thyme guide</a>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Best quiet workhorse</span>
+          <h3>2. Parsley</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>one of the easiest herbs to actually use often</li>
+            <li>good in soups, eggs, potatoes, and salads</li>
+            <li>gives repeat harvests without much drama</li>
+            <li>tucks into beds and containers easily</li>
+            <li>more valuable than people think because it gets used</li>
+          </ul>
         </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Parsley value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. seed cost:</strong> about $3</div>
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $1 to $2.50 per bunch</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $15 to $50</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 6× from a starter plant in a good season</div>
+        </aside>
       </div>
-      <div class="herb-rank">
-        <span class="tiny-label">Best easy snipping herb</span>
-        <h3>5. Chives</h3>
-        <div class="rank-line">Around $4 to $6 starter plant, then repeat harvests</div>
-        <p>Chives are easy to snip, easy to use, and easy to fit into little empty spaces.</p>
-        <ul class="mini-points">
-          <li>repeat harvests</li>
-          <li>nice edging herb</li>
-          <li>low-drama and beginner-friendly</li>
-        </ul>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Best drying herb</span>
+          <h3>3. Oregano</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>one of the easiest herbs to dry well</li>
+            <li>keeps paying you back after harvest day</li>
+            <li>good choice if you want pantry value</li>
+            <li>usually worth growing a little extra</li>
+            <li>strong long-season herb once established</li>
+          </ul>
+        </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Oregano value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. seed cost:</strong> about $3</div>
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $3 to $7 per dried bottle</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $25 to $80</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 10× from a starter plant in a good season</div>
+        </aside>
       </div>
-      <div class="herb-rank">
-        <span class="tiny-label">Best tea herb</span>
-        <h3>6. Mint</h3>
-        <div class="rank-line">Around $4 to $6 starter plant, lots of repeat harvest value</div>
-        <p>Mint can give a lot back fast, especially for tea and summer drinks, if you keep it contained.</p>
-        <ul class="mini-points">
-          <li>best kept in a pot</li>
-          <li>great for tea</li>
-          <li>heavy repeat-harvest value</li>
-        </ul>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Best small-but-mighty herb</span>
+          <h3>4. Thyme</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>small plant, strong long-term value</li>
+            <li>great for small beds, borders, and containers</li>
+            <li>dries well and stores well</li>
+            <li>does not need much to earn its space</li>
+            <li>good quiet workhorse herb for repeat use</li>
+          </ul>
+          <div class="herb-rank-actions">
+            <a class="button" href="/pages/can-thyme-make-you-a-little-extra-money.html">Read the thyme guide</a>
+          </div>
+        </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Thyme value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. seed cost:</strong> about $3</div>
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $2 to $4 fresh or $3 to $7 dried</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $20 to $60</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 8× from a starter plant in a good season</div>
+        </aside>
+      </div>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Best easy snipping herb</span>
+          <h3>5. Chives</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>easy to snip and use the same day</li>
+            <li>great for edges and little empty spots</li>
+            <li>repeat harvest herb with low fuss</li>
+            <li>beginner-friendly and tidy looking</li>
+            <li>more useful than flashy</li>
+          </ul>
+        </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Chives value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. seed cost:</strong> about $3</div>
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $1.50 to $3 fresh or $3 to $7 dried</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $20 to $60</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 8× from a starter plant in a good season</div>
+        </aside>
+      </div>
+      <div class="herb-row">
+        <div class="herb-rank">
+          <span class="tiny-label">Best tea herb</span>
+          <h3>6. Mint</h3>
+          <div class="rank-line">Top 5 things most people should know</div>
+          <ul class="mini-points">
+            <li>best kept in a pot unless you want it spreading</li>
+            <li>great for tea and summer drinks</li>
+            <li>can produce a lot from one plant</li>
+            <li>one of the strongest repeat-harvest herbs</li>
+            <li>quietly expensive to buy over and over at the store</li>
+          </ul>
+        </div>
+        <aside class="herb-value-card">
+          <span class="tiny-label">Season value score</span>
+          <h3>Mint value snapshot</h3>
+          <div class="value-lines">
+            <div class="value-line"><strong>Avg. starter plant:</strong> about $5</div>
+            <div class="value-line"><strong>Avg. grocery value:</strong> about $2 to $4 fresh or $3 to $8 dried</div>
+            <div class="value-line"><strong>Best use:</strong> tea, drinks, and repeat fresh harvests</div>
+            <div class="value-line"><strong>Season harvest value:</strong> about $40 to $120</div>
+          </div>
+          <div class="value-score"><strong>Backyard value multiplier:</strong> about 16× from a starter plant in a good season</div>
+        </aside>
       </div>
     </section>
 
