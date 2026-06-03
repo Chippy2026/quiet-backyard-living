@@ -15,8 +15,9 @@
   </script>
   <style>
     .hero-note { max-width:820px; }
-    .quick-grid, .like-grid, .problem-grid, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
+    .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
     .quick-card, .soft-card, .problem-card, .next-card, .timeline-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .basil-graphic img { width:100%; height:auto; display:block; border-radius:20px; border:1px solid #e4dccd; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .quick-card h3, .soft-card h3, .problem-card h3, .next-card h3, .timeline-card h3 { margin-top:0; }
     .quick-table { width:100%; border-collapse:collapse; font-size:.96rem; }
     .quick-table td { padding:.45rem .15rem; border-bottom:1px solid #ece3d3; vertical-align:top; }
@@ -28,7 +29,7 @@
     .timeline-step { padding:.8rem 0; border-top:1px solid #ece3d3; }
     .timeline-step:first-child { border-top:none; padding-top:.1rem; }
     .next-card a { text-decoration:none; }
-    @media (max-width:900px) { .quick-grid, .like-grid, .problem-grid, .next-grid { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -53,25 +54,26 @@
     </section>
 
     <section class="section">
-      <div class="quick-grid">
+      <div class="basil-overview-grid">
         <div class="quick-card">
           <h2>Basil at a glance</h2>
           <table class="quick-table">
-            <tr><td><strong>Category</strong></td><td>Basil</td></tr>
             <tr><td><strong>Difficulty</strong></td><td>Easy</td></tr>
-            <tr><td><strong>Sun</strong></td><td>6 to 8+ hours</td></tr>
-            <tr><td><strong>Water</strong></td><td>Consistent</td></tr>
-            <tr><td><strong>Container Friendly</strong></td><td>Excellent</td></tr>
-            <tr><td><strong>Harvest Speed</strong></td><td>Fast</td></tr>
-            <tr><td><strong>Beginner Friendly</strong></td><td>Very high</td></tr>
-            <tr><td><strong>Good for Drying</strong></td><td>Fair</td></tr>
-            <tr><td><strong>Good for Freezing</strong></td><td>Excellent</td></tr>
-            <tr><td><strong>Backyard Value</strong></td><td>Very high</td></tr>
+            <tr><td><strong>☀️ Sun</strong></td><td>6 to 8+ hours</td></tr>
+            <tr><td><strong>💧 Water</strong></td><td>Consistent</td></tr>
+            <tr><td><strong>🪴 Container Friendly</strong></td><td>Excellent</td></tr>
+            <tr><td><strong>✂️ Harvest Speed</strong></td><td>Fast</td></tr>
+            <tr><td><strong>🌱 Beginner Friendly</strong></td><td>Very high</td></tr>
+            <tr><td><strong>🧊 Good for Freezing</strong></td><td>Excellent</td></tr>
+            <tr><td><strong>🌿 Backyard Value</strong></td><td>Very high</td></tr>
           </table>
         </div>
-        <div class="note-strip">
-          <strong>Quick answer:</strong> basil might be the highest-value herb for most backyard gardeners. A single plant can produce months of harvests, endless fresh flavor, pesto ingredients, rooted cuttings, freezer meals, and sometimes more basil than one household can reasonably use.
+        <div class="basil-graphic">
+          <img src="/assets/images/everything-about-basil-here.jpg" alt="Everything about basil graphic showing how to grow it, prune and harvest it, handle flowers, use extra basil, make more from cuttings, and manage season timing">
         </div>
+      </div>
+      <div class="note-strip" style="margin-top:1rem; max-width:760px;">
+        <strong>Quick answer:</strong> basil might be the highest-value herb for most backyard gardeners. A single plant can produce months of harvests, endless fresh flavor, pesto ingredients, rooted cuttings, freezer meals, and sometimes more basil than one household can reasonably use.
       </div>
     </section>
 
