@@ -14,23 +14,62 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
+    .page-hero {
+      max-width:900px;
+      margin:0 auto;
+    }
     .hero-photo img, .build-photo img, .result-photo img {
       width:100%;
       height:auto;
       display:block;
-      border-radius:20px;
+      border-radius:22px;
       border:1px solid #e4dccd;
-      box-shadow:0 10px 24px rgba(0,0,0,.05);
+      box-shadow:0 12px 28px rgba(0,0,0,.06);
+      background:#fff;
     }
-    .build-photo-stack {
+    .hero-grid {
       display:grid;
-      gap:1rem;
+      grid-template-columns:minmax(0,1.02fr) minmax(300px,.98fr);
+      gap:1.25rem;
+      align-items:center;
+      background:#fffdf8;
+      border:1px solid #e7ddcb;
+      border-radius:26px;
+      padding:1.2rem;
+      box-shadow:0 16px 36px rgba(0,0,0,.05);
     }
-    .hero-grid, .story-grid, .next-grid, .photo-grid {
+    .hero-copy p:last-child { margin-bottom:0; }
+    .story-grid, .next-grid, .photo-grid {
       display:grid;
       grid-template-columns:repeat(2, minmax(0,1fr));
       gap:1rem;
       align-items:start;
+    }
+    .materials-grid {
+      display:grid;
+      grid-template-columns:minmax(0,.9fr) minmax(280px,1.1fr);
+      gap:1rem;
+      align-items:start;
+    }
+    .materials-stack,
+    .assembly-copy {
+      display:grid;
+      gap:1rem;
+    }
+    .assembly-grid {
+      display:grid;
+      grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+      gap:1rem;
+      align-items:start;
+    }
+    .assembly-photo-grid {
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:1rem;
+      align-items:start;
+    }
+    .assembly-photo-grid .build-photo--wide {
+      grid-column:1 / -1;
     }
     .soft-card, .note-card, .next-card {
       background:#fffef9;
@@ -46,6 +85,8 @@
       border-left:5px solid #d7a83d;
       border-radius:18px;
       padding:1rem 1.1rem;
+      max-width:860px;
+      margin:0 auto;
     }
     .flow-list { margin:.35rem 0 0; padding-left:1.15rem; }
     .flow-list li { margin-bottom:.45rem; }
@@ -60,7 +101,12 @@
     }
     .next-card a { text-decoration:none; }
     @media (max-width:900px) {
-      .hero-grid, .story-grid, .next-grid, .photo-grid { grid-template-columns:1fr; }
+      .hero-grid, .story-grid, .next-grid, .photo-grid, .materials-grid, .assembly-grid, .assembly-photo-grid {
+        grid-template-columns:1fr;
+      }
+      .assembly-photo-grid .build-photo--wide {
+        grid-column:auto;
+      }
     }
   </style>
 </head>
@@ -87,7 +133,7 @@
 
     <section class="section">
       <div class="hero-grid">
-        <div>
+        <div class="hero-copy">
           <p>Sometimes the best backyard projects are not the big expensive ones. They are the little experiments that start with, “I wonder if this would work,” and end with something useful that also makes the yard feel more alive.</p>
           <p>That is basically what happened here. We made one little fan trellis from one cedar fence picket, liked how it turned out, and then made a second one for another berry bush because the first one went so well.</p>
           <p>It was simple, cheap, a little playful, and a nice way to give the berry canes something better to lean on without buying a big fancy trellis.</p>
@@ -106,8 +152,8 @@
 
     <section class="section">
       <h2>What we used</h2>
-      <div class="story-grid">
-        <div>
+      <div class="materials-grid">
+        <div class="materials-stack">
           <div class="soft-card">
             <h3>Main material</h3>
             <ul class="flow-list">
@@ -115,7 +161,7 @@
               <li>ripped longways into narrow strips</li>
             </ul>
           </div>
-          <div class="soft-card" style="margin-top:1rem;">
+          <div class="soft-card">
             <h3>Fasteners and assembly</h3>
             <ul class="flow-list">
               <li>wood glue</li>
@@ -147,29 +193,29 @@
 
     <section class="section">
       <h2>How the little fan trellises came together</h2>
-      <div class="story-grid">
-        <div>
+      <div class="assembly-grid">
+        <div class="assembly-copy">
           <div class="soft-card">
             <span class="tiny-label">Base first</span>
             <p>We glued the fan base together first, then drilled and screwed it about <strong>10 inches up from the bottom</strong>. That gave the trellis a stable base while still leaving a straight lower section to attach later.</p>
           </div>
-          <div class="soft-card" style="margin-top:1rem;">
+          <div class="soft-card">
             <span class="tiny-label">Then spread the fan</span>
             <p>After that, we glued and pin-nailed the 1 foot, 2 foot, and 3 foot sections across the fan to hold the shape open and give the berry canes more places to land.</p>
           </div>
-          <div class="build-photo" style="margin-top:1rem;">
-            <img src="/assets/images/berry-fan-trellis-2ft-spreader.jpg" alt="Glue and pin nailing the 2 foot spreader onto the cedar fence picket fan trellis to open the fan shape">
-          </div>
         </div>
-        <div class="build-photo-stack">
+        <div class="assembly-photo-grid">
           <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-base-glue-1.jpg" alt="Gluing and pin-nailing the base of the cedar fence picket fan trellis together">
+            <img src="/assets/images/berry-fan-trellis-base-glue-1.jpg" alt="Gluing the base of the cedar fence picket fan trellis together">
           </div>
           <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-base-glue-2.jpg" alt="Second view of gluing and pin-nailing the cedar fence picket fan trellis base together">
+            <img src="/assets/images/berry-fan-trellis-base-glue-2.jpg" alt="Second view of gluing the cedar fence picket fan trellis base together">
           </div>
           <div class="build-photo">
             <img src="/assets/images/berry-fan-trellis-base-screw.jpg" alt="Drilling and screwing the cedar fence picket fan trellis base together">
+          </div>
+          <div class="build-photo">
+            <img src="/assets/images/berry-fan-trellis-2ft-spreader.jpg" alt="Glue and pin nailing the 2 foot spreader onto the cedar fence picket fan trellis to open the fan shape">
           </div>
         </div>
       </div>
