@@ -16,7 +16,9 @@
   <style>
     .hero-note { max-width:820px; }
     .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
+    .lesson-grid { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(260px,.95fr); gap:1rem; align-items:start; }
     .quick-card, .soft-card, .problem-card, .next-card, .timeline-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .challenge-promo img { width:100%; height:auto; display:block; border-radius:20px; border:1px solid #e4dccd; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .basil-graphic img { width:100%; height:auto; display:block; border-radius:20px; border:1px solid #e4dccd; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .quick-card h3, .soft-card h3, .problem-card h3, .next-card h3, .timeline-card h3 { margin-top:0; }
     .quick-table { width:100%; border-collapse:collapse; font-size:.96rem; }
@@ -29,7 +31,7 @@
     .timeline-step { padding:.8rem 0; border-top:1px solid #ece3d3; }
     .timeline-step:first-child { border-top:none; padding-top:.1rem; }
     .next-card a { text-decoration:none; }
-    @media (max-width:900px) { .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid, .lesson-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -156,12 +158,21 @@
 
     <section class="section">
       <h2>The most important basil lesson</h2>
-      <div class="note-strip">
-        <strong>Never just harvest random leaves forever.</strong> Cut above leaf sets. That is how one stem becomes two, then four, then eight, and that is how one plant turns into a basil monster.
+      <div class="lesson-grid">
+        <div>
+          <div class="note-strip">
+            <strong>Never just harvest random leaves forever.</strong> Cut above leaf sets. That is how one stem becomes two, then four, then eight, and that is how one plant turns into a basil monster.
+          </div>
+          <p>Usually start harvesting once basil is about 6 to 8 inches tall.</p>
+          <p>Try not to remove more than about one-third of the plant at once.</p>
+          <p>During peak summer, you can often harvest every 1 to 2 weeks, sometimes faster.</p>
+        </div>
+        <div class="challenge-promo">
+          <a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">
+            <img src="/assets/images/take-the-5-dollar-basil-challenge.jpg" alt="Take the $5 Basil Challenge promo graphic inviting readers to grow one basil plant for one season and track what it becomes">
+          </a>
+        </div>
       </div>
-      <p>Usually start harvesting once basil is about 6 to 8 inches tall.</p>
-      <p>Try not to remove more than about one-third of the plant at once.</p>
-      <p>During peak summer, you can often harvest every 1 to 2 weeks, sometimes faster.</p>
     </section>
 
     <section class="section">
