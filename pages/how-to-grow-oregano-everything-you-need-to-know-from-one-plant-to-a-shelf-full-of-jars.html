@@ -15,21 +15,26 @@
   </script>
   <style>
     .hero-note { max-width:820px; }
-    .quick-grid, .like-grid, .problem-grid, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
-    .timeline-wrap { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr); gap:1rem; align-items:start; }
-    .quick-card, .soft-card, .problem-card, .next-card, .timeline-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
-    .quick-card h3, .soft-card h3, .problem-card h3, .next-card h3, .timeline-card h3 { margin-top:0; }
+    .editorial-grid, .editorial-grid-tight, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
+    .editorial-grid-tight { grid-template-columns:1.15fr .85fr; }
+    .hero-card, .editorial-card, .note-card, .next-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .hero-card h1, .editorial-card h2, .editorial-card h3, .note-card h3, .next-card h3 { margin-top:0; }
+    .oregano-graphic img { width:100%; height:auto; display:block; border-radius:20px; border:1px solid #e4dccd; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .quick-table { width:100%; border-collapse:collapse; font-size:.96rem; }
     .quick-table td { padding:.45rem .15rem; border-bottom:1px solid #ece3d3; vertical-align:top; }
     .quick-table tr:last-child td { border-bottom:none; }
     .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:18px; padding:1rem 1.1rem; }
     .flow-list { margin:.35rem 0 0; padding-left:1.1rem; }
     .flow-list li { margin-bottom:.4rem; }
-    .timeline { margin-top:.35rem; }
-    .timeline-step { padding:.55rem 0; border-top:1px solid #ece3d3; }
-    .timeline-step:first-child { border-top:none; padding-top:.1rem; }
+    .mini-timeline { margin-top:.35rem; }
+    .mini-timeline div { padding:.45rem 0; border-top:1px solid #ece3d3; }
+    .mini-timeline div:first-child { border-top:none; padding-top:.1rem; }
     .next-card a { text-decoration:none; }
-    @media (max-width:900px) { .quick-grid, .like-grid, .problem-grid, .next-grid, .timeline-wrap { grid-template-columns:1fr; } }
+    @media (max-width:900px) {
+      .editorial-grid,
+      .editorial-grid-tight,
+      .next-grid { grid-template-columns:1fr; }
+    }
   </style>
 </head>
 <body>
@@ -49,16 +54,24 @@
 
   <main class="container">
     <section class="page-hero">
-      <h1>How to Grow Oregano: The Herb That Keeps Paying You Back</h1>
-      <p class="subhead hero-note">A practical backyard guide to growing oregano for cooking, drying, and years of harvests.</p>
+      <div class="editorial-grid-tight">
+        <div class="hero-card">
+          <h1>How to Grow Oregano: The Herb That Keeps Paying You Back</h1>
+          <p class="subhead hero-note">A practical backyard guide to growing oregano for cooking, drying, and years of harvests.</p>
+          <p>Oregano is quiet. Durable. Long-term value.</p>
+          <p>If basil is the sprinter, oregano is the marathon runner. Plant it once, and it can keep feeding the kitchen, filling jars, and coming back again long after flashier herbs are finished.</p>
+        </div>
+        <div class="oregano-graphic">
+          <img src="/assets/images/oregano-keeps-paying-you-back.jpg" alt="Oregano infographic showing full sun, low water needs, pots or beds, reliability, propagation, cooking, drying, gifting, and year-after-year value">
+        </div>
+      </div>
     </section>
 
     <section class="section">
-      <div class="quick-grid">
-        <div class="quick-card">
+      <div class="editorial-grid-tight">
+        <div class="editorial-card">
           <h2>Oregano at a glance</h2>
           <table class="quick-table">
-            <tr><td><strong>Category</strong></td><td>Oregano</td></tr>
             <tr><td><strong>Difficulty</strong></td><td>Very easy</td></tr>
             <tr><td><strong>☀️ Sun</strong></td><td>Full sun</td></tr>
             <tr><td><strong>💧 Water</strong></td><td>Low to moderate</td></tr>
@@ -72,39 +85,37 @@
           </table>
         </div>
         <div class="note-strip">
-          <strong>Quick answer:</strong> if basil is the sprinter, oregano is the marathon runner. A single oregano plant can provide years of harvests, dries exceptionally well, survives neglect better than many herbs, and keeps producing long after flashier herbs are gone.
+          <strong>Quick answer:</strong> a single oregano plant can provide years of harvests, dries exceptionally well, survives neglect better than many herbs, and keeps producing long after flashier herbs are gone.
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Why oregano is one of the smartest herbs you can grow</h2>
-      <p>Most herbs get judged by how much they produce and how good they taste. Oregano adds a third category: longevity.</p>
-      <p>Plant it once. Harvest for years. That is where much of its value comes from.</p>
+      <div class="editorial-grid">
+        <div class="editorial-card">
+          <h2>Why oregano is one of the smartest herbs you can grow</h2>
+          <p>Most herbs get judged by how much they produce and how good they taste. Oregano adds a third category: longevity.</p>
+          <p>Plant it once. Harvest for years. That is where much of its value comes from.</p>
+        </div>
+        <div class="note-card">
+          <h3>Why it keeps paying you back</h3>
+          <p>Fresh meals, dried spice jars, gifts, divisions, and multi-year harvests are all part of oregano’s quiet value story.</p>
+        </div>
+      </div>
     </section>
 
     <section class="section">
-      <h2>What oregano likes</h2>
-      <div class="like-grid">
-        <div class="soft-card">
-          <h3>Sun</h3>
-          <p>Oregano loves full sun.</p>
+      <div class="editorial-grid">
+        <div class="editorial-card">
+          <h2>What oregano likes</h2>
           <ul class="flow-list">
-            <li>6+ hours daily</li>
-            <li>more sun usually means stronger flavor</li>
-            <li>more sun usually means better drying quality too</li>
+            <li><strong>Full sun:</strong> 6+ hours daily, more sun usually means stronger flavor</li>
+            <li><strong>Well-drained soil:</strong> average, sandy, or rocky soil beats soggy ground</li>
+            <li><strong>Airflow:</strong> breezy spots help with flavor, drying quality, and disease prevention</li>
           </ul>
         </div>
-        <div class="soft-card">
-          <h3>Well-drained soil</h3>
-          <p>Oregano prefers average, sandy, or even rocky soil more than soggy, overly rich soil.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Airflow</h3>
-          <p>Open spacing and breezy spots help with flavor, drying quality, and disease prevention.</p>
-        </div>
-        <div class="soft-card">
-          <h3>What oregano hates</h3>
+        <div class="editorial-card">
+          <h2>What oregano hates</h2>
           <ul class="flow-list">
             <li>constantly wet roots</li>
             <li>poor drainage</li>
@@ -117,169 +128,112 @@
     </section>
 
     <section class="section">
-      <h2>Watering oregano</h2>
-      <p>One of oregano’s biggest strengths is that it does not need constant attention.</p>
-      <p>Once established, water deeply, then let the soil dry somewhat before watering again.</p>
-      <p>Think Mediterranean herb, not water garden plant.</p>
-    </section>
-
-    <section class="section">
-      <div class="like-grid">
-        <div class="soft-card">
-          <h3>Seed vs starter plant</h3>
-          <p>Seed is inexpensive and gives you lots of plants, but it starts slower.</p>
-          <p>Starter plants are easier for beginners and get you to the useful part faster.</p>
-          <p>For most people, start with a plant.</p>
+      <div class="editorial-grid-tight">
+        <div class="editorial-card">
+          <h2>Watering, seed vs plant, and containers</h2>
+          <p>Oregano does not need constant attention. Water deeply, then let the soil dry somewhat before watering again. Think Mediterranean herb, not water garden plant.</p>
+          <p>For most people, a starter plant is the easiest move. Oregano grows from seed too, but a plant gets you to the useful part faster.</p>
+          <p>Containers are an excellent choice. A 10 to 12 inch pot is a good starting point, and garden beds often make oregano larger and tougher over time.</p>
         </div>
-        <div class="soft-card">
-          <h3>Container vs garden</h3>
-          <p>Containers are excellent because they make harvesting easy, keep spreading controlled, and let you move the plant if needed.</p>
-          <p>A 10 to 12 inch pot is a good starting point.</p>
-          <p>In garden beds, oregano often becomes larger, tougher, and more productive over time.</p>
+        <div class="note-card">
+          <h3>How big does oregano get?</h3>
+          <p>Typical plants often reach 12 to 24 inches tall and 18 to 36 inches wide. Older plants can become surprisingly large.</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>How big does oregano get?</h2>
-      <p>Typical plants often reach 12 to 24 inches tall and 18 to 36 inches wide.</p>
-      <p>Older oregano plants can become surprisingly large and productive.</p>
-    </section>
-
-    <section class="section">
-      <h2>The secret to bigger harvests</h2>
-      <div class="note-strip">
-        <strong>Do not just pick random leaves.</strong> Harvest stems, especially upper growth, before flowering. That encourages branching, thicker plants, and more harvests.
-      </div>
-      <p>Usually start harvesting when the plant is 6 to 8 inches tall and looks established.</p>
-    </section>
-
-    <section class="section">
-      <h2>How often can you harvest?</h2>
-      <p>During the growing season, every few weeks is realistic for a healthy plant.</p>
-      <p>Oregano often rebounds quickly once it is established.</p>
-    </section>
-
-    <section class="section">
-      <h2>The flower question</h2>
-      <p>Unlike basil, the answer is sometimes yes.</p>
-      <p>Oregano flowers attract pollinators, look nice, and do not dramatically ruin the plant.</p>
-      <p>However, best flavor usually comes before flowering.</p>
-    </section>
-
-    <section class="section">
-      <h2>Best harvest time</h2>
-      <p>For drying, right before flowering is often best.</p>
-      <p>That is when the oils are strongest and the flavor is usually at its best.</p>
-    </section>
-
-    <section class="section">
-      <h2>Why oregano is a drying superstar</h2>
-      <p>This is where oregano really separates itself from basil.</p>
-      <p>Basil loses a lot during drying. Oregano thrives. The flavor concentrates, storage becomes easy, and the value lasts for months.</p>
-    </section>
-
-    <section class="section">
-      <h2>How to dry oregano</h2>
-      <ul class="flow-list">
-        <li>harvest stems</li>
-        <li>remove damaged leaves</li>
-        <li>bundle loosely</li>
-        <li>hang upside down</li>
-        <li>dry in shade with airflow</li>
-      </ul>
-      <p>Usually this takes 1 to 2 weeks.</p>
-    </section>
-
-    <section class="section">
-      <h2>How much can one plant produce?</h2>
-      <p>A mature oregano plant can provide dozens of harvests, multiple drying batches, and enough seasoning for many months.</p>
-      <p>Equivalent store value can easily land in the $25 to $80+ range depending on the plant and how you use it.</p>
-    </section>
-
-    <section class="section">
-      <h2>What to do with extra oregano</h2>
-      <div class="like-grid">
-        <div class="soft-card">
-          <h3>Fresh cooking</h3>
-          <p>Great in pizza, pasta sauce, roasted vegetables, and soups.</p>
+      <div class="editorial-grid-tight">
+        <div class="editorial-card">
+          <h2>The secret to bigger harvests</h2>
+          <p><strong>Do not just pick random leaves.</strong> Harvest stems, especially upper growth, before flowering.</p>
+          <p>That encourages branching, thicker plants, and more harvests. Usually start once the plant is 6 to 8 inches tall and looks established.</p>
+          <p>During the growing season, every few weeks is realistic for a healthy plant.</p>
         </div>
-        <div class="soft-card">
-          <h3>Dry it</h3>
-          <p>This is usually the best option.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Gift it</h3>
-          <p>Think herb jars, seasoning blends, or kitchen baskets.</p>
-        </div>
-        <div class="soft-card">
-          <h3>Trade it</h3>
-          <p>Dried oregano stores well and is easy to share.</p>
+        <div class="note-card">
+          <h3>The flower question</h3>
+          <p>Unlike basil, oregano flowers are not a disaster. They attract pollinators and look good, but best flavor usually comes before flowering.</p>
+          <p>For drying, right before flowering is often the strongest harvest moment.</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Can you divide oregano?</h2>
-      <p>Yes, and it is one of the coolest parts of growing oregano.</p>
-      <p>After a few years, you can dig up the plant, split it into sections, and replant. One plant becomes several.</p>
-    </section>
-
-    <section class="section">
-      <h2>Winter survival</h2>
-      <p>In many climates, oregano comes back every year.</p>
-      <p>Winter may kill top growth, but the roots survive. Spring arrives, and oregano returns again.</p>
-    </section>
-
-    <section class="section">
-      <h2>When is oregano finished?</h2>
-      <p>Annual basil dies. Oregano often does not.</p>
-      <p>Many gardeners get 3 years, 5 years, or even longer from one plant.</p>
-    </section>
-
-    <section class="section">
-      <h2>Common oregano problems</h2>
-      <div class="problem-grid">
-        <div class="problem-card">
-          <h3>Weak flavor</h3>
-          <p>Usually not enough sun.</p>
+      <div class="editorial-grid">
+        <div class="editorial-card">
+          <h2>Why oregano is a drying superstar</h2>
+          <p>This is where oregano really separates itself from basil.</p>
+          <p>Basil loses a lot during drying. Oregano thrives. The flavor concentrates, storage becomes easy, and the value lasts for months.</p>
+          <h3 style="margin-top:1rem;">How to dry oregano</h3>
+          <ul class="flow-list">
+            <li>harvest stems</li>
+            <li>remove damaged leaves</li>
+            <li>bundle loosely</li>
+            <li>hang upside down</li>
+            <li>dry in shade with airflow</li>
+          </ul>
+          <p>Usually this takes 1 to 2 weeks.</p>
         </div>
-        <div class="problem-card">
-          <h3>Yellow leaves</h3>
-          <p>Usually too much water.</p>
-        </div>
-        <div class="problem-card">
-          <h3>Sparse growth</h3>
-          <p>Usually needs pruning.</p>
-        </div>
-        <div class="problem-card">
-          <h3>Woody center</h3>
-          <p>Older plants get woody. Cut back hard or divide.</p>
+        <div class="editorial-card">
+          <h2>What to do with extra oregano</h2>
+          <ul class="flow-list">
+            <li><strong>Cook with it:</strong> pizza, pasta sauce, roasted vegetables, soups</li>
+            <li><strong>Dry it:</strong> usually the best option</li>
+            <li><strong>Gift it:</strong> herb jars, seasoning blends, kitchen baskets</li>
+            <li><strong>Trade it:</strong> dried oregano stores well and is easy to share</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="timeline-wrap">
-        <div class="timeline-card">
-          <h2>Oregano timeline</h2>
-          <div class="timeline">
-            <div class="timeline-step"><strong>Spring:</strong> New growth</div>
-            <div class="timeline-step"><strong>Early summer:</strong> First harvests</div>
-            <div class="timeline-step"><strong>Mid summer:</strong> Best drying harvest</div>
-            <div class="timeline-step"><strong>Late summer:</strong> More harvests</div>
-            <div class="timeline-step"><strong>Fall:</strong> Final cuttings</div>
-            <div class="timeline-step"><strong>Winter:</strong> Dormant</div>
-            <div class="timeline-step"><strong>Spring again:</strong> Returns</div>
+      <div class="editorial-grid-tight">
+        <div class="editorial-card">
+          <h2>Can you divide oregano?</h2>
+          <p>Yes, and it is one of the coolest parts of growing oregano. After a few years, dig up the plant, split it into sections, and replant. One plant becomes several.</p>
+          <h3 style="margin-top:1rem;">Winter survival</h3>
+          <p>In many climates, oregano returns every year. Winter may kill top growth, but the roots survive and the plant comes back in spring.</p>
+        </div>
+        <div class="note-card">
+          <h3>When is oregano finished?</h3>
+          <p>Annual basil dies. Oregano often does not. Many gardeners get 3 years, 5 years, or even longer from one plant.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="editorial-grid-tight">
+        <div class="editorial-card">
+          <h2>Common oregano problems</h2>
+          <ul class="flow-list">
+            <li><strong>Weak flavor:</strong> usually not enough sun</li>
+            <li><strong>Yellow leaves:</strong> usually too much water</li>
+            <li><strong>Sparse growth:</strong> usually needs pruning</li>
+            <li><strong>Woody center:</strong> older plants get woody, cut back hard or divide</li>
+          </ul>
+        </div>
+        <div class="note-card">
+          <h3>Oregano timeline</h3>
+          <div class="mini-timeline">
+            <div><strong>Spring:</strong> New growth</div>
+            <div><strong>Early summer:</strong> First harvests</div>
+            <div><strong>Mid summer:</strong> Best drying harvest</div>
+            <div><strong>Late summer:</strong> More harvests</div>
+            <div><strong>Fall:</strong> Final cuttings</div>
+            <div><strong>Winter:</strong> Dormant</div>
+            <div><strong>Spring again:</strong> Returns</div>
           </div>
         </div>
-        <div>
-          <div class="note-strip" style="margin-bottom:1rem;">
-            <strong>Why oregano scores so well in the Herb Hub:</strong> one $5 oregano plant can become fresh meals, dried spice jars, gifts, new divisions, and years of harvests. Very few herbs check all five boxes.
-          </div>
-          <div class="note-strip">
-            <strong>Bottom line:</strong> if basil is the herb that gives you the biggest payoff this season, oregano might be the herb that gives you the biggest payoff over several seasons. Plant it once. Harvest it often. Dry it well. And let it quietly earn its place in the backyard year after year.
-          </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="editorial-grid-tight">
+        <div class="note-strip">
+          <strong>Why oregano scores so well in the Herb Hub:</strong> one $5 oregano plant can become fresh meals, dried spice jars, gifts, new divisions, and years of harvests. Very few herbs check all five boxes.
+        </div>
+        <div class="note-strip">
+          <strong>Bottom line:</strong> if basil is the herb that gives you the biggest payoff this season, oregano might be the herb that gives you the biggest payoff over several seasons. Plant it once. Harvest it often. Dry it well. And let it quietly earn its place in the backyard year after year.
         </div>
       </div>
     </section>
