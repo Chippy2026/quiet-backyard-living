@@ -13,15 +13,16 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .entry-grid, .next-grid, .setup-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+    .hero-side-grid, .entry-grid, .next-grid, .setup-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
     .entry-card, .next-card, .setup-card { background:#fff; border:1px solid #ddd3c2; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 8px 18px rgba(0,0,0,.04); }
+    .hero-side-image img { width:100%; height:auto; display:block; border-radius:18px; border:1px solid #ddd3c2; box-shadow:0 8px 18px rgba(0,0,0,.04); }
     .entry-card h3, .next-card h3, .setup-card h3 { margin-top:0; }
     .tight-list { margin:0; padding-left:1.15rem; }
     .tight-list li { margin-bottom:.4rem; }
     .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:16px; padding:1rem 1.1rem; }
     .scenario-math { margin:.8rem 0; padding:.8rem .9rem; background:#f8f4ed; border:1px solid #e2d7c2; border-radius:14px; }
     .scenario-math p { margin:.2rem 0; }
-    @media (max-width:900px){ .entry-grid, .next-grid, .setup-grid { grid-template-columns:1fr; } }
+    @media (max-width:900px){ .hero-side-grid, .entry-grid, .next-grid, .setup-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -44,9 +45,16 @@
     </section>
 
     <section class="section">
-      <p>This is not about turning your backyard into a farm stand.</p>
-      <p>It is about growing herbs in a way that gives you more than one kind of payoff: fresh use, drying, gifts, rooted starts, divisions, and maybe a few small sales if you end up with more than you need.</p>
-      <p>Most of the value comes from herbs you were already happy to grow anyway, and the best extra-herb setups usually start small enough that they still feel fun.</p>
+      <div class="hero-side-grid">
+        <div>
+          <p>This is not about turning your backyard into a farm stand.</p>
+          <p>It is about growing herbs in a way that gives you more than one kind of payoff: fresh use, drying, gifts, rooted starts, divisions, and maybe a few small sales if you end up with more than you need.</p>
+          <p>Most of the value comes from herbs you were already happy to grow anyway, and the best extra-herb setups usually start small enough that they still feel fun.</p>
+        </div>
+        <div class="hero-side-image">
+          <img src="/assets/images/what-can-one-herb-plant-become.jpg" alt="What can one herb plant become graphic showing meals, pesto, gifts, rooted cuttings, and extra value from one herb plant">
+        </div>
+      </div>
     </section>
 
     <section class="section">
