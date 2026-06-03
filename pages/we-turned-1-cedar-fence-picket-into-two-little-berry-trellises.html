@@ -30,6 +30,43 @@
     .intro-wrap p:last-child {
       margin-bottom:0;
     }
+    .magazine-row {
+      display:grid;
+      grid-template-columns:minmax(0,.92fr) minmax(280px,1.08fr);
+      gap:1rem;
+      align-items:start;
+      margin:2rem auto 0;
+      max-width:960px;
+    }
+    .magazine-copy {
+      background:#fffef9;
+      border:1px solid #e4dccd;
+      border-radius:22px;
+      padding:1.15rem 1.1rem;
+      box-shadow:0 10px 24px rgba(0,0,0,.04);
+    }
+    .magazine-photo img {
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:22px;
+      border:1px solid #e4dccd;
+      box-shadow:0 10px 24px rgba(0,0,0,.05);
+    }
+    .tiny-label {
+      display:inline-block;
+      font-size:.78rem;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+      color:#7a6855;
+      margin-bottom:.45rem;
+      font-weight:700;
+    }
+    @media (max-width:900px) {
+      .magazine-row {
+        grid-template-columns:1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -58,6 +95,21 @@
         <p>Sometimes the best backyard builds are the small ones that come together from what you already have, a simple idea, a little curiosity, and a plant that could use some help.</p>
         <p>That is what this one felt like. We started with one cedar fence picket, turned it into a simple fan trellis for our raspberry bush, and ended up with a little project that felt useful, inexpensive, and honestly kind of cute out in the yard.</p>
         <p>It is not really a blueprint page. It is more like a relaxed project page, the idea behind it, what we used, and the order it came together in.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="magazine-row">
+        <div class="magazine-copy">
+          <span class="tiny-label">How it started</span>
+          <h2>One cedar fence picket turned into the whole idea</h2>
+          <p>This is basically all we used to get started. We took <strong>1 cedar fence picket</strong> and ripped it longways on the table saw into <strong>5 pieces that were exactly 7/8 inches wide</strong>.</p>
+          <p>That left one skinny strip that was about <strong>1/2 inch wide</strong>. We cut that leftover piece into <strong>1 foot</strong>, <strong>2 foot</strong>, and <strong>3 foot</strong> sections, then discarded the rest.</p>
+          <p>That gave us the main fan pieces plus the shorter spreaders that would help open the trellis up later.</p>
+        </div>
+        <div class="magazine-photo">
+          <img src="/assets/images/berry-trellis-cut-pieces.jpg" alt="Cedar fence picket ripped into 7/8 inch strips with shorter 1, 2, and 3 foot spreader pieces laid out beside glue, screws, and a pin nailer">
+        </div>
       </div>
     </section>
   </main>
