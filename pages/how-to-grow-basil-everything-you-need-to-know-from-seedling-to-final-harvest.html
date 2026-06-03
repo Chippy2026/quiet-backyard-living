@@ -28,11 +28,12 @@
     .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:18px; padding:1rem 1.1rem; }
     .flow-list { margin:.35rem 0 0; padding-left:1.1rem; }
     .flow-list li { margin-bottom:.4rem; }
-    .timeline { margin-top:.6rem; }
-    .timeline-step { padding:.8rem 0; border-top:1px solid #ece3d3; }
+    .timeline { margin-top:.35rem; }
+    .timeline-step { padding:.55rem 0; border-top:1px solid #ece3d3; }
     .timeline-step:first-child { border-top:none; padding-top:.1rem; }
+    .timeline-wrap { display:grid; grid-template-columns:minmax(260px,.85fr) minmax(0,1.15fr); gap:1rem; align-items:start; }
     .next-card a { text-decoration:none; }
-    @media (max-width:900px) { .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid, .lesson-grid { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .basil-overview-grid, .quick-grid, .like-grid, .problem-grid, .next-grid, .lesson-grid, .timeline-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -231,23 +232,29 @@
     </section>
 
     <section class="section">
-      <div class="timeline-card">
-        <h2>Basil harvest timeline</h2>
-        <div class="timeline">
-          <div class="timeline-step"><strong>Week 1:</strong> Small starter plant</div>
-          <div class="timeline-step"><strong>Week 3:</strong> First light harvest</div>
-          <div class="timeline-step"><strong>Week 6:</strong> Regular harvests</div>
-          <div class="timeline-step"><strong>Week 10:</strong> Pesto season</div>
-          <div class="timeline-step"><strong>Week 12:</strong> Root cuttings</div>
-          <div class="timeline-step"><strong>Week 16:</strong> Basil overload</div>
-          <div class="timeline-step"><strong>First frost:</strong> Season ends</div>
+      <div class="timeline-wrap">
+        <div class="challenge-promo">
+          <a href="/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html">
+            <img src="/assets/images/take-the-5-dollar-basil-challenge.jpg" alt="Take the $5 Basil Challenge promo graphic inviting readers to grow one basil plant for one season and track what it becomes">
+          </a>
         </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="note-strip">
-        <strong>Can basil save you money?</strong> A productive basil plant can easily provide dozens of harvests, pesto ingredients, rooted starts, and freezer meals. Equivalent value from one healthy plant can easily land in the $40 to $150+ range.
+        <div>
+          <div class="timeline-card">
+            <h2>Basil harvest timeline</h2>
+            <div class="timeline">
+              <div class="timeline-step"><strong>Week 1:</strong> Small starter plant</div>
+              <div class="timeline-step"><strong>Week 3:</strong> First light harvest</div>
+              <div class="timeline-step"><strong>Week 6:</strong> Regular harvests</div>
+              <div class="timeline-step"><strong>Week 10:</strong> Pesto season</div>
+              <div class="timeline-step"><strong>Week 12:</strong> Root cuttings</div>
+              <div class="timeline-step"><strong>Week 16:</strong> Basil overload</div>
+              <div class="timeline-step"><strong>First frost:</strong> Season ends</div>
+            </div>
+          </div>
+          <div class="note-strip" style="margin-top:1rem;">
+            <strong>Can basil save you money? Absolutely.</strong> A productive basil plant can easily provide dozens of harvests, pesto ingredients, rooted starts, and freezer meals. Equivalent value from one healthy plant can easily land in the $40 to $150+ range.
+          </div>
+        </div>
       </div>
     </section>
 
