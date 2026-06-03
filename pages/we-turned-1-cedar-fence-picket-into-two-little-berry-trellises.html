@@ -51,25 +51,9 @@
       gap:1rem;
       align-items:start;
     }
-    .materials-stack,
-    .assembly-copy {
+    .materials-stack {
       display:grid;
       gap:1rem;
-    }
-    .assembly-grid {
-      display:grid;
-      grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
-      gap:1rem;
-      align-items:start;
-    }
-    .assembly-photo-grid {
-      display:grid;
-      grid-template-columns:repeat(2, minmax(0,1fr));
-      gap:1rem;
-      align-items:start;
-    }
-    .assembly-photo-grid .build-photo--wide {
-      grid-column:1 / -1;
     }
     .soft-card, .note-card, .next-card {
       background:#fffef9;
@@ -101,11 +85,8 @@
     }
     .next-card a { text-decoration:none; }
     @media (max-width:900px) {
-      .hero-grid, .story-grid, .next-grid, .photo-grid, .materials-grid, .assembly-grid, .assembly-photo-grid {
+      .hero-grid, .story-grid, .next-grid, .photo-grid, .materials-grid {
         grid-template-columns:1fr;
-      }
-      .assembly-photo-grid .build-photo--wide {
-        grid-column:auto;
       }
     }
   </style>
@@ -187,36 +168,6 @@
         <div class="soft-card">
           <span class="tiny-label">Spreader pieces</span>
           <p>The leftover strip was cut into <strong>1 foot</strong>, <strong>2 foot</strong>, and <strong>3 foot</strong> sections so the fan could spread outward and hold its shape.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>How the little fan trellises came together</h2>
-      <div class="assembly-grid">
-        <div class="assembly-copy">
-          <div class="soft-card">
-            <span class="tiny-label">Base first</span>
-            <p>We glued the fan base together first, then drilled and screwed it about <strong>10 inches up from the bottom</strong>. That gave the trellis a stable base while still leaving a straight lower section to attach later.</p>
-          </div>
-          <div class="soft-card">
-            <span class="tiny-label">Then spread the fan</span>
-            <p>After that, we glued and pin-nailed the 1 foot, 2 foot, and 3 foot sections across the fan to hold the shape open and give the berry canes more places to land.</p>
-          </div>
-        </div>
-        <div class="assembly-photo-grid">
-          <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-base-glue-1.jpg" alt="Gluing the base of the cedar fence picket fan trellis together">
-          </div>
-          <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-base-glue-2.jpg" alt="Second view of gluing the cedar fence picket fan trellis base together">
-          </div>
-          <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-base-screw.jpg" alt="Drilling and screwing the cedar fence picket fan trellis base together">
-          </div>
-          <div class="build-photo">
-            <img src="/assets/images/berry-fan-trellis-2ft-spreader.jpg" alt="Glue and pin nailing the 2 foot spreader onto the cedar fence picket fan trellis to open the fan shape">
-          </div>
         </div>
       </div>
     </section>
