@@ -57,6 +57,8 @@
     }
     .yard-signup-message.success { color:#2f6b47; }
     .yard-signup-message.error { color:#8a3d2f; }
+    .return-link-wrap { margin-top:.9rem; }
+    .return-link-wrap a { font-weight:700; }
   </style>
 </head>
 <body>
@@ -89,6 +91,7 @@
           <button class="button cta-blue" type="submit">Keep Me Posted</button>
         </form>
         <p id="yardSignupMessage" class="yard-signup-message" aria-live="polite"></p>
+        <div id="yardSignupReturn" class="return-link-wrap" hidden></div>
         <p style="margin-top:.7rem; color:#5f6658;">No spam. No daily emails. Just the next good thing when it’s ready.</p>
       </div>
     </section>
@@ -111,6 +114,14 @@
     const yardSignupForm = document.getElementById('yardSignupForm');
     const yardSignupEmail = document.getElementById('yardSignupEmail');
     const yardSignupMessage = document.getElementById('yardSignupMessage');
+    const yardSignupReturn = document.getElementById('yardSignupReturn');
+    const returnPath = new URLSearchParams(window.location.search).get('return');
+
+    function showReturnLink() {
+      if (!returnPath) return;
+      yardSignupReturn.hidden = false;
+      yardSignupReturn.innerHTML = `<a class="button" href="${returnPath}">Return to what you were reading</a>`;
+    }
 
     yardSignupForm.addEventListener('submit', async (event) => {
       event.preventDefault();
@@ -141,6 +152,7 @@
 
         if (response.ok && result.ok) {
           yardSignupForm.reset();
+          showReturnLink();
         }
       } catch (error) {
         yardSignupMessage.textContent = 'Something went wrong on our end. Please try again in a minute.';
