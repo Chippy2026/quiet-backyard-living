@@ -13,14 +13,19 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .data-box { background:#f5efe3; border:1px solid #dbc9a9; border-radius:18px; padding:1rem 1.1rem; }
-    .data-box h3 { margin-top:0; }
+    .challenge-hero { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr); gap:1rem; align-items:start; }
+    .challenge-hero-card, .challenge-image-card, .stat-card, .entry-card, .next-card, .scenario-card, .leader-card { background:#fff; border:1px solid #ddd3c2; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 8px 18px rgba(0,0,0,.04); }
+    .challenge-image-card { padding:.65rem; }
+    .challenge-image-card img { width:100%; height:auto; display:block; border-radius:14px; }
+    .challenge-scoreboard { margin-top:1rem; padding:1rem; background:#f5efe3; border:1px solid #dbc9a9; border-radius:16px; }
+    .challenge-scoreboard p { margin:.25rem 0; }
+    .challenge-bar { margin-top:.75rem; height:16px; border-radius:999px; background:#e6dece; overflow:hidden; }
+    .challenge-bar span { display:block; width:26%; height:100%; background:linear-gradient(90deg,#7daa35 0%, #b7db55 100%); }
     .tight-list { margin:0; padding-left:1.15rem; }
     .tight-list li { margin-bottom:.4rem; }
     .tight-list li:last-child { margin-bottom:0; }
     .stats-grid, .entry-grid, .next-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
-    .stat-card, .entry-card, .next-card { background:#fff; border:1px solid #ddd3c2; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 8px 18px rgba(0,0,0,.04); }
-    .stat-card h3, .entry-card h3, .next-card h3 { margin-top:0; }
+    .stat-card h3, .entry-card h3, .next-card h3, .scenario-card h3, .leader-card h3 { margin-top:0; }
     .herb-table-wrap { overflow-x:auto; }
     table.herb-table { width:100%; border-collapse:collapse; font-size:.96rem; background:#fff; border:1px solid #ddd3c2; border-radius:18px; overflow:hidden; }
     .herb-table th, .herb-table td { padding:.9rem .8rem; border-bottom:1px solid #ece3d3; vertical-align:top; text-align:left; }
@@ -29,11 +34,11 @@
     .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:16px; padding:1rem 1.1rem; }
     .plain-links { margin:0; padding-left:1.15rem; }
     .plain-links li { margin-bottom:.45rem; }
-    .scenario-card { background:#fff; border:1px solid #ddd3c2; border-radius:18px; padding:1rem 1.05rem; box-shadow:0 8px 18px rgba(0,0,0,.04); }
-    .scenario-card h3 { margin-top:0; }
     .scenario-math { margin:.8rem 0; padding:.8rem .9rem; background:#f8f4ed; border:1px solid #e2d7c2; border-radius:14px; }
     .scenario-math p { margin:.2rem 0; }
-    @media (max-width:900px){ .stats-grid, .entry-grid, .next-grid { grid-template-columns:1fr; } }
+    .leader-list { margin:.2rem 0 0; padding-left:1.1rem; }
+    .leader-list li { margin-bottom:.45rem; }
+    @media (max-width:900px){ .challenge-hero, .stats-grid, .entry-grid, .next-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -51,133 +56,117 @@
 
   <main class="container">
     <section class="page-hero">
-      <h1>Take the $5 Herb Challenge</h1>
-    </section>
-
-    <section class="section">
-      <p>Most herbs do not look like much when you buy them.</p>
-      <p>A $4 basil plant. A $5 mint plant. A small pot of thyme.</p>
-      <p>They fit in one hand.</p>
-      <p>A few months later, many of those same herbs can produce far more food, seasoning, tea, starter plants, or dried herbs than most people expect.</p>
-      <p>This is not a business plan. It is simply a look at how much value a small herb purchase can realistically create in an ordinary backyard.</p>
-    </section>
-
-    <section class="section">
-      <h2>The ground rules</h2>
-      <div class="stats-grid">
-        <div class="stat-card">
-          <h3>For potted herbs</h3>
-          <ul class="tight-list">
-            <li>herb plant: about $5</li>
-            <li>pot: about $5</li>
-            <li>potting mix: about $3</li>
-            <li>water or fertilizer share: about $2</li>
-          </ul>
-          <p><strong>Total startup:</strong> about $15</p>
+      <div class="challenge-hero">
+        <div class="challenge-hero-card">
+          <h1>Take the $5 Herb Challenge</h1>
+          <p class="subhead">Can one tiny herb plant create $50 of backyard value?</p>
+          <div class="challenge-scoreboard">
+            <p><strong>Starting investment:</strong> $13</p>
+            <p><strong>Current value:</strong> $0</p>
+            <p><strong>Goal:</strong> $50</p>
+            <div class="challenge-bar" aria-label="Challenge progress"><span></span></div>
+          </div>
         </div>
-        <div class="stat-card">
-          <h3>For in-ground herbs</h3>
-          <ul class="tight-list">
-            <li>starter plant: about $5</li>
-            <li>soil or compost share: about $3</li>
-            <li>water or fertilizer share: about $1 to $2</li>
-          </ul>
-          <p><strong>Total startup:</strong> about $8 to $10</p>
+        <div class="challenge-image-card">
+          <img src="/assets/images/take-the-5-dollar-herb-challenge.jpg" alt="Take the $5 Herb Challenge graphic with dog and basil plant asking if one tiny plant can become $50 of value">
         </div>
       </div>
-      <div class="note-strip" style="margin-top:1rem;">
-        <strong>The point is not perfect accounting.</strong> The point is to see what one small herb plant can become over a real season.
+    </section>
+
+    <section class="section">
+      <img src="/assets/images/backyard-value-multiplier.jpg" alt="Backyard Value Multiplier chart comparing herb returns" style="width:100%; max-width:760px; display:block; margin:0 auto; border-radius:18px; border:1px solid #ddd3c2; box-shadow:0 8px 18px rgba(0,0,0,.04);">
+    </section>
+
+    <section class="section">
+      <h2>Current challenge standings</h2>
+      <div class="leader-card">
+        <ol class="leader-list">
+          <li><strong>Mint</strong> — 16× return</li>
+          <li><strong>Basil</strong> — 15× return</li>
+          <li><strong>Oregano</strong> — 10× return</li>
+          <li><strong>Thyme</strong> — 8× return</li>
+          <li><strong>Chives</strong> — 8× return</li>
+          <li><strong>Parsley</strong> — 6× return</li>
+        </ol>
       </div>
     </section>
 
     <section class="section">
-      <h2>Step 1, pick your herb</h2>
+      <h2>Choose your challenger</h2>
       <div class="entry-grid">
         <div class="entry-card">
-          <h3>🥇 Basil</h3>
-          <p>Fast growth, easy to measure, easy to use, and one of the easiest herbs to turn into visible value fast.</p>
+          <h3>🌿 Basil</h3>
+          <p><strong>Growth speed:</strong> ⭐⭐⭐⭐⭐</p>
+          <p><strong>Challenge difficulty:</strong> ⭐⭐⭐⭐⭐</p>
+          <p><strong>Money potential:</strong> ⭐⭐⭐⭐⭐</p>
+          <p><strong>Best for:</strong> Beginners</p>
+          <p><strong>Typical value:</strong> $40 to $150</p>
         </div>
         <div class="entry-card">
-          <h3>🥈 Mint</h3>
-          <p>Big repeat harvests, great for tea and bundles, and one of the fastest ways to see the challenge working.</p>
+          <h3>🌿 Mint</h3>
+          <p><strong>Growth speed:</strong> ⭐⭐⭐⭐⭐</p>
+          <p><strong>Challenge difficulty:</strong> ⭐⭐⭐⭐⭐</p>
+          <p><strong>Money potential:</strong> ⭐⭐⭐⭐</p>
+          <p><strong>Best for:</strong> Tea lovers</p>
+          <p><strong>Typical value:</strong> $40 to $120</p>
         </div>
         <div class="entry-card">
-          <h3>🥉 Oregano</h3>
-          <p>Dries beautifully and makes the value side of the challenge very easy to understand.</p>
+          <h3>🌿 Oregano</h3>
+          <p><strong>Growth speed:</strong> ⭐⭐⭐⭐</p>
+          <p><strong>Challenge difficulty:</strong> ⭐⭐⭐⭐</p>
+          <p><strong>Money potential:</strong> ⭐⭐⭐⭐</p>
+          <p><strong>Best for:</strong> Pantry value</p>
+          <p><strong>Typical value:</strong> $25 to $80</p>
         </div>
         <div class="entry-card">
-          <h3>Bonus herbs</h3>
-          <p>Thyme, chives, and parsley all work too if you want a quieter, steadier version of the challenge.</p>
+          <h3>🌿 Thyme</h3>
+          <p><strong>Growth speed:</strong> ⭐⭐⭐</p>
+          <p><strong>Challenge difficulty:</strong> ⭐⭐⭐⭐</p>
+          <p><strong>Money potential:</strong> ⭐⭐⭐</p>
+          <p><strong>Best for:</strong> Small spaces</p>
+          <p><strong>Typical value:</strong> $20 to $60</p>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Step 2, record your startup cost</h2>
-      <div class="herb-table-wrap">
-        <table class="herb-table">
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Plant</td><td>$5</td></tr>
-            <tr><td>Pot</td><td>$5</td></tr>
-            <tr><td>Soil</td><td>$3</td></tr>
-            <tr><td>Total</td><td><strong>$13</strong></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p style="margin-top:.8rem;">Challenge starts now.</p>
-    </section>
-
-    <section class="section">
-      <h2>Step 3, track every harvest</h2>
+      <h2>Meet Basil Bob</h2>
       <div class="entry-grid">
         <div class="scenario-card">
-          <h3>Harvest #1</h3>
-          <p>4 oz basil</p>
+          <h3>Week 1</h3>
+          <p>Tiny basil plant. Worth: $0</p>
+        </div>
+        <div class="scenario-card">
+          <h3>Week 4</h3>
+          <p>First harvest.</p>
           <div class="scenario-math">
-            <p><strong>Store equivalent:</strong> about $4</p>
+            <p><strong>Saved:</strong> $4</p>
             <p><strong>Running total:</strong> $4</p>
           </div>
         </div>
         <div class="scenario-card">
-          <h3>Harvest #2</h3>
-          <p>6 oz basil</p>
+          <h3>Week 8</h3>
+          <p>Made pesto and skipped another store trip.</p>
           <div class="scenario-math">
-            <p><strong>Store equivalent:</strong> about $6</p>
-            <p><strong>Running total:</strong> $10</p>
-          </div>
-        </div>
-      </div>
-      <p>This is where the challenge starts getting fun. Once you track the first couple of harvests, you stop seeing the plant as a tiny purchase and start seeing it as a little value machine.</p>
-    </section>
-
-    <section class="section">
-      <h2>Step 4, see if the challenge can make a little money too</h2>
-      <div class="entry-grid">
-        <div class="scenario-card">
-          <h3>Friends and family bunches</h3>
-          <p>If your herb is still producing after you have used what you want, baggie or bunch up a little extra and see if a few people around you want it.</p>
-          <div class="scenario-math">
-            <p><strong>Example:</strong> 4 basil baggies × $3 = $12</p>
-            <p><strong>New running total:</strong> $22</p>
+            <p><strong>Saved:</strong> $12</p>
+            <p><strong>Running total:</strong> $16</p>
           </div>
         </div>
         <div class="scenario-card">
-          <h3>Rooted starts or little bundles</h3>
-          <p>If basil, mint, oregano, or chives are getting ahead of you, the extra may be more valuable as starts, tea bundles, or giftable herb bunches than as one more harvest for yourself.</p>
+          <h3>Week 12</h3>
+          <p>Rooted 8 cuttings.</p>
           <div class="scenario-math">
-            <p><strong>Example:</strong> 6 rooted basil starts × $3 = $18</p>
-            <p><strong>Or:</strong> 5 mint bundles × $4 = $20</p>
+            <p><strong>Potential value:</strong> $24</p>
+            <p><strong>Running total:</strong> $40</p>
           </div>
         </div>
-      </div>
-      <div class="note-strip" style="margin-top:1rem;">
-        <strong>The point is not to force a sale.</strong> It is to see whether one small herb challenge can first pay for itself, then maybe create a little real-world extra value beyond your own kitchen.
+        <div class="scenario-card">
+          <h3>Week 16</h3>
+          <p>Final harvest and a little overflow sold to friends and family.</p>
+          <div class="scenario-math">
+            <p><strong>Final running total:</strong> $78</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -186,13 +175,12 @@
       <div class="stats-grid">
         <div class="stat-card">
           <p><strong>Startup cost:</strong> $13</p>
-          <p><strong>Harvest value so far:</strong> $10</p>
-          <p><strong>Money made so far:</strong> $12</p>
-          <p><strong>Current total value created:</strong> $22</p>
+          <p><strong>Current value created:</strong> $27</p>
+          <p><strong>Status:</strong> Plant paid for</p>
         </div>
         <div class="stat-card">
-          <p>☑ Plant paid for</p>
-          <p>☐ Reached $25</p>
+          <p>☑ Broke even</p>
+          <p>☑ Reached $25</p>
           <p>☐ Reached $50</p>
           <p>☐ Reached $100</p>
         </div>
@@ -223,7 +211,7 @@
 
     <section class="section">
       <h2>Value does not have to mean money</h2>
-      <p>Maybe your basil becomes pesto, freezer meals, gifts for neighbors, or rooted starts for friends. That still counts.</p>
+      <p>Maybe your basil becomes pesto, freezer meals, gifts for neighbors, or rooted starts for friends. That still counts too.</p>
       <p>The goal is not becoming an herb entrepreneur. The goal is seeing how much value one small plant can create when you actually track it.</p>
     </section>
 
@@ -231,7 +219,7 @@
       <h2>Where to go next</h2>
       <div class="entry-grid">
         <div class="entry-card">
-          <h3><a href="/pages/basil-grow-extra-and-sell-it-fast.html">How do I handle extra basil?</a></h3>
+          <h3><a href="/pages/basil-grow-extra-and-sell-it-fast.html">How do I harvest basil for the next round?</a></h3>
           <p>Use it, freeze it, or turn the extra into quick value before it declines.</p>
         </div>
         <div class="entry-card">
