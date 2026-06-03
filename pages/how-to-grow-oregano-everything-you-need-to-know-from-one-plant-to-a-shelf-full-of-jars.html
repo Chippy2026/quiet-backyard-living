@@ -16,6 +16,7 @@
   <style>
     .hero-note { max-width:820px; }
     .quick-grid, .like-grid, .problem-grid, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
+    .timeline-wrap { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr); gap:1rem; align-items:start; }
     .quick-card, .soft-card, .problem-card, .next-card, .timeline-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .quick-card h3, .soft-card h3, .problem-card h3, .next-card h3, .timeline-card h3 { margin-top:0; }
     .quick-table { width:100%; border-collapse:collapse; font-size:.96rem; }
@@ -28,7 +29,7 @@
     .timeline-step { padding:.55rem 0; border-top:1px solid #ece3d3; }
     .timeline-step:first-child { border-top:none; padding-top:.1rem; }
     .next-card a { text-decoration:none; }
-    @media (max-width:900px) { .quick-grid, .like-grid, .problem-grid, .next-grid { grid-template-columns:1fr; } }
+    @media (max-width:900px) { .quick-grid, .like-grid, .problem-grid, .next-grid, .timeline-wrap { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -259,29 +260,27 @@
     </section>
 
     <section class="section">
-      <div class="timeline-card">
-        <h2>Oregano timeline</h2>
-        <div class="timeline">
-          <div class="timeline-step"><strong>Spring:</strong> New growth</div>
-          <div class="timeline-step"><strong>Early summer:</strong> First harvests</div>
-          <div class="timeline-step"><strong>Mid summer:</strong> Best drying harvest</div>
-          <div class="timeline-step"><strong>Late summer:</strong> More harvests</div>
-          <div class="timeline-step"><strong>Fall:</strong> Final cuttings</div>
-          <div class="timeline-step"><strong>Winter:</strong> Dormant</div>
-          <div class="timeline-step"><strong>Spring again:</strong> Returns</div>
+      <div class="timeline-wrap">
+        <div class="timeline-card">
+          <h2>Oregano timeline</h2>
+          <div class="timeline">
+            <div class="timeline-step"><strong>Spring:</strong> New growth</div>
+            <div class="timeline-step"><strong>Early summer:</strong> First harvests</div>
+            <div class="timeline-step"><strong>Mid summer:</strong> Best drying harvest</div>
+            <div class="timeline-step"><strong>Late summer:</strong> More harvests</div>
+            <div class="timeline-step"><strong>Fall:</strong> Final cuttings</div>
+            <div class="timeline-step"><strong>Winter:</strong> Dormant</div>
+            <div class="timeline-step"><strong>Spring again:</strong> Returns</div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="note-strip">
-        <strong>Why oregano scores so well in the Herb Hub:</strong> one $5 oregano plant can become fresh meals, dried spice jars, gifts, new divisions, and years of harvests. Very few herbs check all five boxes.
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="note-strip">
-        <strong>Bottom line:</strong> if basil is the herb that gives you the biggest payoff this season, oregano might be the herb that gives you the biggest payoff over several seasons. Plant it once. Harvest it often. Dry it well. And let it quietly earn its place in the backyard year after year.
+        <div>
+          <div class="note-strip" style="margin-bottom:1rem;">
+            <strong>Why oregano scores so well in the Herb Hub:</strong> one $5 oregano plant can become fresh meals, dried spice jars, gifts, new divisions, and years of harvests. Very few herbs check all five boxes.
+          </div>
+          <div class="note-strip">
+            <strong>Bottom line:</strong> if basil is the herb that gives you the biggest payoff this season, oregano might be the herb that gives you the biggest payoff over several seasons. Plant it once. Harvest it often. Dry it well. And let it quietly earn its place in the backyard year after year.
+          </div>
+        </div>
       </div>
     </section>
 
