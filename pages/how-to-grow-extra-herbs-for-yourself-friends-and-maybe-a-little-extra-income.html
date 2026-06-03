@@ -34,8 +34,13 @@
     .note-strip { background:#fff8e8; border:1px solid #ecd9a3; border-left:5px solid #d7a83d; border-radius:16px; padding:1rem 1.1rem; }
     .plain-links { margin:0; padding-left:1.15rem; }
     .plain-links li { margin-bottom:.45rem; }
-    .scenario-math { margin:.8rem 0; padding:.8rem .9rem; background:#f8f4ed; border:1px solid #e2d7c2; border-radius:14px; }
-    .scenario-math p { margin:.2rem 0; }
+    .scenario-math { margin:.35rem 0 0; padding:0; background:none; border:none; border-radius:0; }
+    .scenario-math p { margin:.18rem 0; }
+    .challenge-timeline { margin:.4rem 0 0; }
+    .challenge-timeline-item { padding:.8rem 0; border-top:1px solid #e8dfd1; }
+    .challenge-timeline-item:first-child { border-top:none; padding-top:.2rem; }
+    .challenge-timeline-item h3 { margin:0 0 .3rem; }
+    .challenge-timeline-item p:last-child { margin-bottom:0; }
     .leader-list { margin:.2rem 0 0; padding-left:1.1rem; }
     .leader-list li { margin-bottom:.45rem; }
     @media (max-width:900px){ .challenge-hero, .stats-grid, .entry-grid, .next-grid { grid-template-columns:1fr; } }
@@ -127,12 +132,12 @@
 
     <section class="section">
       <h2>Meet Basil Bob</h2>
-      <div class="entry-grid">
-        <div class="scenario-card">
+      <div class="challenge-timeline">
+        <div class="challenge-timeline-item">
           <h3>Week 1</h3>
-          <p>Tiny basil plant. Worth: $0</p>
+          <p>Tiny basil plant. Worth: $0.</p>
         </div>
-        <div class="scenario-card">
+        <div class="challenge-timeline-item">
           <h3>Week 4</h3>
           <p>First harvest.</p>
           <div class="scenario-math">
@@ -140,7 +145,7 @@
             <p><strong>Running total:</strong> $4</p>
           </div>
         </div>
-        <div class="scenario-card">
+        <div class="challenge-timeline-item">
           <h3>Week 8</h3>
           <p>Made pesto and skipped another store trip.</p>
           <div class="scenario-math">
@@ -148,7 +153,7 @@
             <p><strong>Running total:</strong> $16</p>
           </div>
         </div>
-        <div class="scenario-card">
+        <div class="challenge-timeline-item">
           <h3>Week 12</h3>
           <p>Rooted 8 cuttings.</p>
           <div class="scenario-math">
@@ -156,7 +161,7 @@
             <p><strong>Running total:</strong> $40</p>
           </div>
         </div>
-        <div class="scenario-card">
+        <div class="challenge-timeline-item">
           <h3>Week 16</h3>
           <p>Final harvest and a little overflow sold to friends and family.</p>
           <div class="scenario-math">
