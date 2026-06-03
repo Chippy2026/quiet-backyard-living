@@ -18,6 +18,7 @@
     .editorial-grid, .editorial-grid-tight, .next-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; }
     .editorial-grid-tight { grid-template-columns:1.15fr .85fr; }
     .hero-card, .editorial-card, .note-card, .next-card { background:#fff; border:1px solid #e4dccd; border-radius:20px; padding:1rem 1.05rem; box-shadow:0 10px 24px rgba(0,0,0,.04); }
+    .hero-card .quick-table { margin-top:1rem; }
     .hero-card h1, .editorial-card h2, .editorial-card h3, .note-card h3, .next-card h3 { margin-top:0; }
     .oregano-graphic img { width:100%; height:auto; display:block; border-radius:20px; border:1px solid #e4dccd; box-shadow:0 10px 24px rgba(0,0,0,.04); }
     .quick-table { width:100%; border-collapse:collapse; font-size:.96rem; }
@@ -60,17 +61,7 @@
           <p class="subhead hero-note">A practical backyard guide to growing oregano for cooking, drying, and years of harvests.</p>
           <p>Oregano is quiet. Durable. Long-term value.</p>
           <p>If basil is the sprinter, oregano is the marathon runner. Plant it once, and it can keep feeding the kitchen, filling jars, and coming back again long after flashier herbs are finished.</p>
-        </div>
-        <div class="oregano-graphic">
-          <img src="/assets/images/oregano-keeps-paying-you-back.jpg" alt="Oregano infographic showing full sun, low water needs, pots or beds, reliability, propagation, cooking, drying, gifting, and year-after-year value">
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="editorial-grid-tight">
-        <div class="editorial-card">
-          <h2>Oregano at a glance</h2>
+          <h2 style="margin-top:1.1rem;">Oregano at a glance</h2>
           <table class="quick-table">
             <tr><td><strong>Difficulty</strong></td><td>Very easy</td></tr>
             <tr><td><strong>☀️ Sun</strong></td><td>Full sun</td></tr>
@@ -84,8 +75,13 @@
             <tr><td><strong>📅 Lifespan</strong></td><td>Perennial in many areas</td></tr>
           </table>
         </div>
-        <div class="note-strip">
-          <strong>Quick answer:</strong> a single oregano plant can provide years of harvests, dries exceptionally well, survives neglect better than many herbs, and keeps producing long after flashier herbs are gone.
+        <div>
+          <div class="oregano-graphic">
+            <img src="/assets/images/oregano-keeps-paying-you-back.jpg" alt="Oregano infographic showing full sun, low water needs, pots or beds, reliability, propagation, cooking, drying, gifting, and year-after-year value">
+          </div>
+          <div class="note-strip" style="margin-top:1rem;">
+            <strong>Quick answer:</strong> a single oregano plant can provide years of harvests, dries exceptionally well, survives neglect better than many herbs, and keeps producing long after flashier herbs are gone.
+          </div>
         </div>
       </div>
     </section>
