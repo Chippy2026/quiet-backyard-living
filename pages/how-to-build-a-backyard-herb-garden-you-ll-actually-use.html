@@ -15,17 +15,25 @@
   </script>
   <style>
     .hero-note { max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }
-    .top-hero-image {
+    .top-hero-row {
+      display:grid;
+      grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);
+      gap:1rem;
+      align-items:stretch;
       margin:1rem 0 1.3rem;
+    }
+    .top-hero-image {
       border-radius:22px;
       overflow:hidden;
       border:1px solid #e6dece;
       box-shadow:0 14px 28px rgba(0,0,0,.05);
+      min-height:100%;
     }
     .top-hero-image img {
       width:100%;
       display:block;
-      height:auto;
+      height:100%;
+      object-fit:cover;
     }
     .tiny-label { display:inline-block; font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; font-weight:700; }
     .decision-grid, .herb-grid, .mistake-grid, .nav-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
@@ -57,6 +65,7 @@
     .quick-start-box {
       background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
       border:1px solid #dccfb7;
+      margin:0;
     }
     .starter-plan-box {
       background:#f8f4ed;
@@ -73,7 +82,7 @@
     }
     .email-cta-card p:last-child { margin-bottom:0; }
     @media (max-width:900px) {
-      .decision-grid, .herb-grid, .mistake-grid, .nav-grid { grid-template-columns:1fr; }
+      .decision-grid, .herb-grid, .mistake-grid, .nav-grid, .top-hero-row { grid-template-columns:1fr; }
     }
   </style>
 </head>
@@ -101,20 +110,22 @@
     <section class="section">
       <p class="hero-note">You do not need a giant herb garden to make your backyard better. You do not need 14 different herbs, a perfectly designed raised bed, or one of those magazine gardens that looks beautiful but never really gets used. A good backyard herb garden is much simpler than that.</p>
       <p class="hero-note">It is just a space that gives you something back, fresh flavor, a little beauty, something good to brush past on the way through the yard, and herbs you will actually cut, dry, cook with, or share. For most people, the best herb garden is not the biggest one. It is the one that fits real life.</p>
-      <div class="top-hero-image">
-        <img src="/assets/images/herb-garden-planning-hero.jpg" alt="Raised garden beds and a lush backyard growing space that feels like a real herb garden destination">
-      </div>
-      <div class="quick-start-box">
-        <span class="tiny-label">Quick start herb garden</span>
-        <p><strong>If you just want the short version:</strong></p>
-        <ul class="quick-list">
-          <li>pick a sunny location</li>
-          <li>start with basil, chives, parsley, thyme, and oregano</li>
-          <li>use a raised bed or 4 to 5 containers</li>
-          <li>put it close to the kitchen</li>
-          <li>harvest often</li>
-          <li>expand later</li>
-        </ul>
+      <div class="top-hero-row">
+        <div class="top-hero-image">
+          <img src="/assets/images/herb-garden-planning-hero.jpg" alt="Raised garden beds and a lush backyard growing space that feels like a real herb garden destination">
+        </div>
+        <div class="quick-start-box">
+          <span class="tiny-label">🌿 Quick start herb garden</span>
+          <p><strong>If you just want the short version:</strong></p>
+          <ul class="quick-list">
+            <li>☀️ pick a sunny location</li>
+            <li>🌿 start with basil, chives, parsley, thyme, and oregano</li>
+            <li>🪴 use a raised bed or 4 to 5 containers</li>
+            <li>🏡 put it close to the kitchen</li>
+            <li>✂️ harvest often</li>
+            <li>🌱 expand later</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -166,22 +177,22 @@
       <h2>Start with herbs you’ll actually use</h2>
       <div class="herb-grid">
         <div class="herb-card">
-          <span class="tiny-label">Cooking herbs</span>
+          <span class="tiny-label">🌿 Cooking herbs</span>
           <h3>For everyday meals</h3>
           <p>Think basil, parsley, chives, oregano, and thyme if your goal is flavor you will really keep reaching for.</p>
         </div>
         <div class="herb-card">
-          <span class="tiny-label">Tea or calming herbs</span>
+          <span class="tiny-label">🍵 Tea or calming herbs</span>
           <h3>For drinks and slow evenings</h3>
           <p>Think mint, lemon balm, chamomile, and lavender if you want a softer, more soothing herb-garden feel.</p>
         </div>
         <div class="herb-card">
-          <span class="tiny-label">Pollinator-friendly herbs</span>
+          <span class="tiny-label">🐝 Pollinator-friendly herbs</span>
           <h3>For bees and butterflies too</h3>
           <p>Think oregano, thyme, lavender, bee balm, and chives if you want a herb garden that feels alive all season.</p>
         </div>
         <div class="herb-card">
-          <span class="tiny-label">Lower-maintenance herbs</span>
+          <span class="tiny-label">🌱 Lower-maintenance herbs</span>
           <h3>For a simpler setup</h3>
           <p>Think thyme, oregano, chives, sage, and lavender if you want herbs that ask a little less once established.</p>
         </div>
@@ -191,7 +202,7 @@
     <section class="section">
       <h2>The QBL Starter Herb Garden</h2>
       <div class="starter-plan-box">
-        <p><strong>A simple 4x4 bed or 4 to 5 container setup built around herbs most people will actually use.</strong></p>
+        <p><strong>🌿 A simple 4x4 bed or 4 to 5 container setup built around herbs most people will actually use.</strong></p>
         <ul class="quick-list">
           <li>basil</li>
           <li>parsley</li>
