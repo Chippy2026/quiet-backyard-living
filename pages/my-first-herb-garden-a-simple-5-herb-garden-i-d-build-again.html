@@ -14,60 +14,74 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .top-grid {
-      display:grid;
-      grid-template-columns:minmax(0,.8fr) minmax(280px,1.2fr);
-      gap:1rem;
-      align-items:start;
-      margin:1rem 0 1.25rem;
-    }
-    .mid-grid {
-      display:grid;
-      grid-template-columns:repeat(2,minmax(0,1fr));
-      gap:1rem;
-      align-items:start;
-    }
     .hero-image {
+      margin:1rem 0 1.25rem;
       border-radius:22px;
       overflow:hidden;
       border:1px solid #e6dece;
       box-shadow:0 14px 28px rgba(0,0,0,.05);
-      max-width:430px;
-      width:100%;
+      max-width:760px;
     }
     .hero-image img { width:100%; display:block; height:auto; }
     .hero-note { max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }
     .tiny-label { display:inline-block; font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; font-weight:700; }
-    .callout-card, .checklist-card, .timeline-card, .version-card, .cta-card, .plain-card {
-      background:#fffef9;
-      border:1px solid #e6dece;
+    .relax-callout, .cta-card {
+      background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
+      border:1px solid #dccfb7;
       border-radius:20px;
       padding:1rem 1.05rem;
       box-shadow:0 12px 24px rgba(0,0,0,.04);
     }
-    .herb-grid, .next-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-    .herb-card, .next-card, .mistake-card {
+    .before-start-grid, .next-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+    .before-start-grid {
+      grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+      align-items:start;
+    }
+    .herb-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+    .herb-card, .next-card {
       background:#fffef9;
       border:1px solid #e6dece;
       border-radius:20px;
-      padding:1rem 1.05rem;
+      padding:1.05rem 1.1rem;
       box-shadow:0 12px 24px rgba(0,0,0,.04);
     }
-    .steps-list, .quick-list, .supply-list {
+    .herb-card h3 {
+      margin:.15rem 0 .35rem;
+      font-size:1.25rem;
+      line-height:1.12;
+    }
+    .plain-flow {
+      max-width:820px;
+      color:#4a3827;
+    }
+    .plain-flow p:last-child { margin-bottom:0; }
+    .steps-timeline, .month-timeline {
+      max-width:760px;
+      display:grid;
+      gap:.7rem;
+    }
+    .step-row, .month-row {
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:.8rem;
+      align-items:start;
+      padding-bottom:.7rem;
+      border-bottom:1px solid #e8decb;
+    }
+    .step-row:last-child, .month-row:last-child { border-bottom:none; padding-bottom:0; }
+    .step-marker, .month-marker {
+      font-weight:800;
+      color:#8b5f19;
+      min-width:2.2rem;
+    }
+    .quick-list, .supply-list {
       margin:0;
       padding-left:1.1rem;
     }
-    .steps-list li, .quick-list li, .supply-list li { margin-bottom:.45rem; }
-    .timeline-block {
-      padding:.8rem 0;
-      border-top:1px solid #e8decb;
-    }
-    .timeline-block:first-of-type {
-      padding-top:.2rem;
-      border-top:none;
-    }
+    .quick-list li, .supply-list li { margin-bottom:.45rem; }
     .mistake-table {
       width:100%;
+      max-width:760px;
       border-collapse:collapse;
       margin-top:.4rem;
       font-size:.96rem;
@@ -84,14 +98,20 @@
       text-transform:uppercase;
       color:#4a3827;
     }
+    .version-box {
+      max-width:760px;
+      background:#fff8e8;
+      border:1px solid #ecd9a3;
+      border-left:5px solid #d7a83d;
+      border-radius:18px;
+      padding:1.05rem 1.15rem;
+    }
     .next-card a { text-decoration:none; font-weight:700; }
     .cta-card {
       max-width:760px;
-      background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
-      border:1px solid #dccfb7;
     }
     @media (max-width:900px) {
-      .herb-grid, .next-grid, .top-grid, .mid-grid { grid-template-columns:1fr; }
+      .before-start-grid, .herb-grid, .next-grid { grid-template-columns:1fr; }
       .mistake-table { font-size:.92rem; }
     }
   </style>
@@ -118,20 +138,47 @@
     </section>
 
     <section class="section">
-      <div class="top-grid">
-        <div class="hero-image">
-          <img src="/assets/images/my-first-herb-garden-hero.jpg" alt="My First Herb Garden beginner infographic showing simple steps to grow basil, parsley, chives, thyme, and oregano at home">
+      <div class="hero-image">
+        <img src="/assets/images/my-first-herb-garden-hero.jpg" alt="My First Herb Garden beginner infographic showing simple steps to grow basil, parsley, chives, thyme, and oregano at home">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="relax-callout">
+        <span class="tiny-label">🌱 Relax. You’re only growing 5 herbs.</span>
+        <p>Basil. Parsley. Chives. Oregano. Thyme.</p>
+        <p>That is enough for a successful first herb garden.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Before you start</h2>
+      <div class="before-start-grid">
+        <div class="plain-flow">
+          <p><strong>Keep it small.</strong> The biggest beginner mistake is trying to build a giant herb garden right away.</p>
+          <p>For your first herb garden:</p>
+          <ul class="quick-list">
+            <li>5 containers</li>
+            <li>or one 4x4 raised bed</li>
+          </ul>
+          <p>Five healthy herbs will teach you more than twenty struggling ones.</p>
+          <p><strong>Where to put it:</strong></p>
+          <ul class="quick-list">
+            <li>near the kitchen</li>
+            <li>near the patio</li>
+            <li>somewhere you will see every day</li>
+          </ul>
         </div>
-        <div class="checklist-card">
-          <h2 style="margin-top:.1rem;">What you’ll need</h2>
-          <p><strong>Option A: Containers</strong></p>
+        <div class="plain-flow">
+          <p><strong>What you’ll need:</strong></p>
+          <p>Option A, containers:</p>
           <ul class="supply-list">
             <li>5 containers</li>
             <li>potting mix</li>
             <li>watering can</li>
             <li>herb plants</li>
           </ul>
-          <p><strong>Option B: Raised bed</strong></p>
+          <p>Option B, raised bed:</p>
           <ul class="supply-list">
             <li>one small raised bed</li>
             <li>garden soil</li>
@@ -139,32 +186,6 @@
             <li>watering can</li>
           </ul>
           <p>That’s it. No complicated equipment. No expensive systems.</p>
-        </div>
-      </div>
-      <div class="callout-card" style="margin-top:.2rem; max-width:none;">
-        <span class="tiny-label">🌱 Keep it small</span>
-        <p>The biggest beginner mistake is trying to build a giant herb garden right away.</p>
-        <p>For your first herb garden, a <strong>4x4 raised bed</strong> or <strong>5 containers</strong> is plenty. Five healthy herbs will teach you more than twenty struggling ones.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="mid-grid">
-        <div class="plain-card">
-          <h2 style="margin-top:.1rem;">Exactly where to put it</h2>
-          <p><strong>The easy rule:</strong> put your herb garden where you will see it every day.</p>
-          <p><strong>Good locations:</strong></p>
-          <ul class="quick-list">
-            <li>near the kitchen</li>
-            <li>near the patio</li>
-            <li>near the back door</li>
-            <li>near a walkway</li>
-          </ul>
-          <p><strong>Avoid:</strong></p>
-          <ul class="quick-list">
-            <li>hidden corners</li>
-            <li>places you rarely visit</li>
-          </ul>
         </div>
       </div>
     </section>
@@ -197,37 +218,23 @@
 
     <section class="section">
       <h2>Build it in one afternoon</h2>
-      <div class="plain-card">
-        <ol class="steps-list">
-          <li>Choose your location.</li>
-          <li>Set up your containers or raised bed.</li>
-          <li>Fill with soil.</li>
-          <li>Plant your herbs.</li>
-          <li>Water thoroughly.</li>
-          <li>Take a picture. Seriously. You will be amazed how much changes in a few weeks.</li>
-        </ol>
+      <div class="steps-timeline">
+        <div class="step-row"><div class="step-marker">①</div><div>Pick a sunny location.</div></div>
+        <div class="step-row"><div class="step-marker">②</div><div>Set up containers or a raised bed.</div></div>
+        <div class="step-row"><div class="step-marker">③</div><div>Add soil.</div></div>
+        <div class="step-row"><div class="step-marker">④</div><div>Plant your herbs.</div></div>
+        <div class="step-row"><div class="step-marker">⑤</div><div>Water thoroughly.</div></div>
+        <div class="step-row"><div class="step-marker">⑥</div><div>Take a picture. Seriously. You will be amazed how much changes in a few weeks.</div></div>
       </div>
     </section>
 
     <section class="section">
       <h2>The first month</h2>
-      <div class="timeline-card">
-        <div class="timeline-block">
-          <h3>Week 1</h3>
-          <p>Water as needed. Watch for new growth.</p>
-        </div>
-        <div class="timeline-block">
-          <h3>Week 2</h3>
-          <p>Get familiar with each herb. Touch them. Smell them. Learn what they look like.</p>
-        </div>
-        <div class="timeline-block">
-          <h3>Week 3</h3>
-          <p>Start clipping small amounts. Do not be afraid to use them.</p>
-        </div>
-        <div class="timeline-block">
-          <h3>Week 4</h3>
-          <p>Cook with something you grew, even if it is only a few leaves. That first harvest is important.</p>
-        </div>
+      <div class="month-timeline">
+        <div class="month-row"><div class="month-marker">Week 1</div><div>Water and watch.</div></div>
+        <div class="month-row"><div class="month-marker">Week 2</div><div>Learn your herbs. Touch them. Smell them. Learn what they look like.</div></div>
+        <div class="month-row"><div class="month-marker">Week 3</div><div>Start clipping. Do not be afraid to use them.</div></div>
+        <div class="month-row"><div class="month-marker">Week 4</div><div>Cook something, even if it is only a few leaves. That first harvest matters.</div></div>
       </div>
     </section>
 
@@ -253,7 +260,7 @@
     </section>
 
     <section class="section">
-      <div class="version-card">
+      <div class="version-box">
         <span class="tiny-label">⏱️ The 30-second version</span>
         <p><strong>If you only remember five things:</strong></p>
         <ul class="quick-list">
