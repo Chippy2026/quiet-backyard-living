@@ -21,6 +21,12 @@
       align-items:start;
       margin:1rem 0 1.25rem;
     }
+    .mid-grid {
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:1rem;
+      align-items:start;
+    }
     .hero-image {
       border-radius:22px;
       overflow:hidden;
@@ -85,7 +91,7 @@
       border:1px solid #dccfb7;
     }
     @media (max-width:900px) {
-      .herb-grid, .next-grid, .top-grid { grid-template-columns:1fr; }
+      .herb-grid, .next-grid, .top-grid, .mid-grid { grid-template-columns:1fr; }
       .mistake-table { font-size:.92rem; }
     }
   </style>
@@ -116,30 +122,49 @@
         <div class="hero-image">
           <img src="/assets/images/my-first-herb-garden-hero.jpg" alt="My First Herb Garden beginner infographic showing simple steps to grow basil, parsley, chives, thyme, and oregano at home">
         </div>
-        <div>
-          <div class="callout-card" style="margin-bottom:1rem;">
-            <span class="tiny-label">🌱 Keep it small</span>
-            <p>The biggest beginner mistake is trying to build a giant herb garden right away.</p>
-            <p>For your first herb garden, a <strong>4x4 raised bed</strong> or <strong>5 containers</strong> is plenty. Five healthy herbs will teach you more than twenty struggling ones.</p>
-          </div>
-          <div class="checklist-card">
-            <h2 style="margin-top:.1rem;">What you’ll need</h2>
-            <p><strong>Option A: Containers</strong></p>
-            <ul class="supply-list">
-              <li>5 containers</li>
-              <li>potting mix</li>
-              <li>watering can</li>
-              <li>herb plants</li>
-            </ul>
-            <p><strong>Option B: Raised bed</strong></p>
-            <ul class="supply-list">
-              <li>one small raised bed</li>
-              <li>garden soil</li>
-              <li>herb plants</li>
-              <li>watering can</li>
-            </ul>
-            <p>That’s it. No complicated equipment. No expensive systems.</p>
-          </div>
+      </div>
+      <div class="callout-card" style="margin-top:.2rem; max-width:none;">
+        <span class="tiny-label">🌱 Keep it small</span>
+        <p>The biggest beginner mistake is trying to build a giant herb garden right away.</p>
+        <p>For your first herb garden, a <strong>4x4 raised bed</strong> or <strong>5 containers</strong> is plenty. Five healthy herbs will teach you more than twenty struggling ones.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="mid-grid">
+        <div class="checklist-card">
+          <h2 style="margin-top:.1rem;">What you’ll need</h2>
+          <p><strong>Option A: Containers</strong></p>
+          <ul class="supply-list">
+            <li>5 containers</li>
+            <li>potting mix</li>
+            <li>watering can</li>
+            <li>herb plants</li>
+          </ul>
+          <p><strong>Option B: Raised bed</strong></p>
+          <ul class="supply-list">
+            <li>one small raised bed</li>
+            <li>garden soil</li>
+            <li>herb plants</li>
+            <li>watering can</li>
+          </ul>
+          <p>That’s it. No complicated equipment. No expensive systems.</p>
+        </div>
+        <div class="plain-card">
+          <h2 style="margin-top:.1rem;">Exactly where to put it</h2>
+          <p><strong>The easy rule:</strong> put your herb garden where you will see it every day.</p>
+          <p><strong>Good locations:</strong></p>
+          <ul class="quick-list">
+            <li>near the kitchen</li>
+            <li>near the patio</li>
+            <li>near the back door</li>
+            <li>near a walkway</li>
+          </ul>
+          <p><strong>Avoid:</strong></p>
+          <ul class="quick-list">
+            <li>hidden corners</li>
+            <li>places you rarely visit</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -167,25 +192,6 @@
           <span class="tiny-label">🌿 Thyme</span>
           <p>Compact. Hardy. Useful all season.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Exactly where to put it</h2>
-      <div class="plain-card">
-        <p><strong>The easy rule:</strong> put your herb garden where you will see it every day.</p>
-        <p><strong>Good locations:</strong></p>
-        <ul class="quick-list">
-          <li>near the kitchen</li>
-          <li>near the patio</li>
-          <li>near the back door</li>
-          <li>near a walkway</li>
-        </ul>
-        <p><strong>Avoid:</strong></p>
-        <ul class="quick-list">
-          <li>hidden corners</li>
-          <li>places you rarely visit</li>
-        </ul>
       </div>
     </section>
 
