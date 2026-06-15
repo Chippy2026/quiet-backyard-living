@@ -14,13 +14,21 @@
     gtag('config', 'G-4E1BHTRHF3');
   </script>
   <style>
-    .hero-image {
+    .top-start-grid {
+      display:grid;
+      grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);
+      gap:1rem;
+      align-items:start;
       margin:1rem 0 1.25rem;
+    }
+    .hero-image {
       border-radius:22px;
       overflow:hidden;
       border:1px solid #e6dece;
       box-shadow:0 14px 28px rgba(0,0,0,.05);
-      max-width:760px;
+      max-width:380px;
+      width:100%;
+      justify-self:end;
     }
     .hero-image img { width:100%; display:block; height:auto; }
     .hero-note { max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }
@@ -111,7 +119,8 @@
       max-width:760px;
     }
     @media (max-width:900px) {
-      .before-start-grid, .herb-grid, .next-grid { grid-template-columns:1fr; }
+      .top-start-grid, .before-start-grid, .herb-grid, .next-grid { grid-template-columns:1fr; }
+      .hero-image { justify-self:start; }
       .mistake-table { font-size:.92rem; }
     }
   </style>
@@ -138,23 +147,9 @@
     </section>
 
     <section class="section">
-      <div class="hero-image">
-        <img src="/assets/images/my-first-herb-garden-hero.jpg" alt="My First Herb Garden beginner infographic showing simple steps to grow basil, parsley, chives, thyme, and oregano at home">
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="relax-callout">
-        <span class="tiny-label">🌱 Relax. You’re only growing 5 herbs.</span>
-        <p>Basil. Parsley. Chives. Oregano. Thyme.</p>
-        <p>That is enough for a successful first herb garden.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Before you start</h2>
-      <div class="before-start-grid">
+      <div class="top-start-grid">
         <div class="plain-flow">
+          <h2 style="margin-top:.1rem;">Before you start</h2>
           <p><strong>Keep it small.</strong> The biggest beginner mistake is trying to build a giant herb garden right away.</p>
           <p>For your first herb garden:</p>
           <ul class="quick-list">
@@ -169,6 +164,22 @@
             <li>somewhere you will see every day</li>
           </ul>
         </div>
+        <div class="hero-image">
+          <img src="/assets/images/my-first-herb-garden-hero.jpg" alt="My First Herb Garden beginner infographic showing simple steps to grow basil, parsley, chives, thyme, and oregano at home">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="relax-callout">
+        <span class="tiny-label">🌱 Relax. You’re only growing 5 herbs.</span>
+        <p>Basil. Parsley. Chives. Oregano. Thyme.</p>
+        <p>That is enough for a successful first herb garden.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="before-start-grid">
         <div class="plain-flow">
           <p><strong>What you’ll need:</strong></p>
           <p>Option A, containers:</p>
