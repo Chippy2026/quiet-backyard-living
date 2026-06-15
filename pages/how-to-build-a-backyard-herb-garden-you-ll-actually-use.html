@@ -15,15 +15,29 @@
   </script>
   <style>
     .hero-note { max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }
+    .top-hero-image {
+      margin:1rem 0 1.3rem;
+      border-radius:22px;
+      overflow:hidden;
+      border:1px solid #e6dece;
+      box-shadow:0 14px 28px rgba(0,0,0,.05);
+    }
+    .top-hero-image img {
+      width:100%;
+      display:block;
+      height:auto;
+    }
     .tiny-label { display:inline-block; font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; font-weight:700; }
-    .plain-section {
+    .decision-grid, .herb-grid, .mistake-grid, .nav-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+    .decision-card, .herb-card, .mistake-card, .nav-card, .plain-section, .quick-start-box, .starter-plan-box {
       background:#fffef9;
       border:1px solid #e6dece;
       border-radius:20px;
       padding:1rem 1.05rem;
       box-shadow:0 12px 24px rgba(0,0,0,.04);
     }
-    .plain-section p:last-child { margin-bottom:0; }
+    .decision-card h3, .herb-card h3, .mistake-card h3, .nav-card h3 { margin-top:.15rem; }
+    .plain-section p:last-child, .quick-start-box p:last-child, .starter-plan-box p:last-child { margin-bottom:0; }
     .quick-list { margin:0; padding-left:1.1rem; }
     .quick-list li { margin-bottom:.45rem; }
     .sub-list {
@@ -40,13 +54,15 @@
       margin:1rem 0 0;
     }
     .quote-box p:last-child { margin-bottom:0; }
-    .browse-links {
-      margin:.3rem 0 0;
-      padding-left:1.1rem;
+    .quick-start-box {
+      background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
+      border:1px solid #dccfb7;
     }
-    .browse-links li { margin-bottom:.5rem; }
-    .browse-links a { font-weight:700; text-decoration:none; }
-    .browse-links a:hover { text-decoration:underline; }
+    .starter-plan-box {
+      background:#f8f4ed;
+      border:1px solid #e4dccd;
+    }
+    .nav-card a { text-decoration:none; font-weight:700; }
     .email-cta-card {
       background:#fffef9;
       border:1px solid #ddd3c2;
@@ -56,6 +72,9 @@
       max-width:760px;
     }
     .email-cta-card p:last-child { margin-bottom:0; }
+    @media (max-width:900px) {
+      .decision-grid, .herb-grid, .mistake-grid, .nav-grid { grid-template-columns:1fr; }
+    }
   </style>
 </head>
 <body>
@@ -82,19 +101,46 @@
     <section class="section">
       <p class="hero-note">You do not need a giant herb garden to make your backyard better. You do not need 14 different herbs, a perfectly designed raised bed, or one of those magazine gardens that looks beautiful but never really gets used. A good backyard herb garden is much simpler than that.</p>
       <p class="hero-note">It is just a space that gives you something back, fresh flavor, a little beauty, something good to brush past on the way through the yard, and herbs you will actually cut, dry, cook with, or share. For most people, the best herb garden is not the biggest one. It is the one that fits real life.</p>
+      <div class="top-hero-image">
+        <img src="/assets/images/herb-garden-planning-hero.jpg" alt="Raised garden beds and a lush backyard growing space that feels like a real herb garden destination">
+      </div>
+      <div class="quick-start-box">
+        <span class="tiny-label">Quick start herb garden</span>
+        <p><strong>If you just want the short version:</strong></p>
+        <ul class="quick-list">
+          <li>pick a sunny location</li>
+          <li>start with basil, chives, parsley, thyme, and oregano</li>
+          <li>use a raised bed or 4 to 5 containers</li>
+          <li>put it close to the kitchen</li>
+          <li>harvest often</li>
+          <li>expand later</li>
+        </ul>
+      </div>
     </section>
 
     <section class="section">
       <h2>First, decide what kind of herb garden fits your life</h2>
-      <div class="plain-section">
-        <p>Before you pick herbs, pick the kind of setup you can actually keep up with.</p>
-        <ul class="quick-list">
-          <li><strong>Patio or container herb garden</strong> — good if you want herbs close to the door, easy to water, and easy to harvest in small amounts.</li>
-          <li><strong>Raised bed herb garden</strong> — good if you want one tidy dedicated space with room for a handful of useful herbs.</li>
-          <li><strong>In-ground herb garden</strong> — good if you already have a sunny edge, side yard, or garden bed where herbs can settle in and become part of the landscape.</li>
-          <li><strong>Pollinator-friendly herb garden</strong> — good if you want herbs that help bees, butterflies, and hummingbirds while still being useful in the kitchen.</li>
-          <li><strong>Grocery-saver herb garden</strong> — good if you want to focus on the herbs you actually buy most often and turn that into real backyard value.</li>
-        </ul>
+      <div class="decision-grid">
+        <div class="decision-card">
+          <span class="tiny-label">Small-space choice</span>
+          <h3>Patio or container herb garden</h3>
+          <p>Good if you want herbs close to the door, easy to water, and easy to harvest in small amounts.</p>
+        </div>
+        <div class="decision-card">
+          <span class="tiny-label">Tidy dedicated space</span>
+          <h3>Raised bed herb garden</h3>
+          <p>Good if you want one tidy dedicated space with room for a handful of useful herbs.</p>
+        </div>
+        <div class="decision-card">
+          <span class="tiny-label">Landscape-friendly</span>
+          <h3>In-ground herb garden</h3>
+          <p>Good if you already have a sunny edge, side yard, or garden bed where herbs can settle in and become part of the landscape.</p>
+        </div>
+        <div class="decision-card">
+          <span class="tiny-label">A little extra purpose</span>
+          <h3>Pollinator-friendly or grocery-saver herb garden</h3>
+          <p>Good if you want herbs that help bees, butterflies, and hummingbirds or focus on real backyard value.</p>
+        </div>
       </div>
       <div class="quote-box">
         <p><strong>The best herb garden type is usually the one that feels easiest to walk out to, easiest to water, and easiest to keep using.</strong></p>
@@ -118,53 +164,47 @@
 
     <section class="section">
       <h2>Start with herbs you’ll actually use</h2>
-      <div class="plain-section">
-        <p>This is where a lot of herb gardens go sideways. People plant what sounds interesting instead of what they will really use.</p>
-        <p><strong>A better question is: what herbs do you actually want to cut, smell, cook with, dry, or keep around?</strong></p>
-        <p><strong>Cooking herbs:</strong></p>
-        <ul class="sub-list">
+      <div class="herb-grid">
+        <div class="herb-card">
+          <span class="tiny-label">Cooking herbs</span>
+          <h3>For everyday meals</h3>
+          <p>Think basil, parsley, chives, oregano, and thyme if your goal is flavor you will really keep reaching for.</p>
+        </div>
+        <div class="herb-card">
+          <span class="tiny-label">Tea or calming herbs</span>
+          <h3>For drinks and slow evenings</h3>
+          <p>Think mint, lemon balm, chamomile, and lavender if you want a softer, more soothing herb-garden feel.</p>
+        </div>
+        <div class="herb-card">
+          <span class="tiny-label">Pollinator-friendly herbs</span>
+          <h3>For bees and butterflies too</h3>
+          <p>Think oregano, thyme, lavender, bee balm, and chives if you want a herb garden that feels alive all season.</p>
+        </div>
+        <div class="herb-card">
+          <span class="tiny-label">Lower-maintenance herbs</span>
+          <h3>For a simpler setup</h3>
+          <p>Think thyme, oregano, chives, sage, and lavender if you want herbs that ask a little less once established.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>The QBL Starter Herb Garden</h2>
+      <div class="starter-plan-box">
+        <p><strong>A simple 4x4 bed or 4 to 5 container setup built around herbs most people will actually use.</strong></p>
+        <ul class="quick-list">
           <li>basil</li>
           <li>parsley</li>
           <li>chives</li>
           <li>oregano</li>
           <li>thyme</li>
         </ul>
-        <p><strong>Tea or calming herbs:</strong></p>
-        <ul class="sub-list">
-          <li>mint</li>
-          <li>lemon balm</li>
-          <li>chamomile</li>
-          <li>lavender</li>
-        </ul>
-        <p><strong>Pollinator-friendly herbs:</strong></p>
-        <ul class="sub-list">
-          <li>oregano</li>
-          <li>thyme</li>
-          <li>lavender</li>
-          <li>bee balm</li>
-          <li>chives</li>
-        </ul>
-        <p><strong>Lower-maintenance herbs:</strong></p>
-        <ul class="sub-list">
-          <li>thyme</li>
-          <li>oregano</li>
-          <li>chives</li>
-          <li>sage</li>
-          <li>lavender</li>
-        </ul>
-        <p>You do not need every type in one garden. Most herb gardens get better when they stay focused.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Choose a simple herb garden plan</h2>
-      <div class="plain-section">
-        <p>Once you know what kind of herb garden fits your life, it gets much easier to picture a real plan.</p>
+        <p><strong>Why this works:</strong></p>
         <ul class="quick-list">
-          <li><strong>My First Herb Garden</strong> — a small beginner-friendly setup with a few dependable herbs and no unnecessary fuss.</li>
-          <li><strong>The Patio Herb Garden</strong> — a small-space setup built around containers, easy harvesting, and keeping herbs close to the house.</li>
-          <li><strong>The Grocery Saver Herb Garden</strong> — a useful backyard herb garden built around herbs people actually buy, use, and replace.</li>
-          <li><strong>The Pollinator Herb Garden</strong> — a herb garden that brings in bees and butterflies while still giving you herbs worth growing.</li>
+          <li>good for beginners</li>
+          <li>good for everyday cooking</li>
+          <li>good for drying later</li>
+          <li>good for saving money a little at a time</li>
         </ul>
       </div>
     </section>
@@ -187,29 +227,68 @@
 
     <section class="section">
       <h2>Common herb garden mistakes</h2>
-      <div class="plain-section">
-        <ul class="quick-list">
-          <li><strong>Planting too many herbs at once</strong> — a smaller useful garden usually beats a crowded experimental one.</li>
-          <li><strong>Using containers that are too small</strong> — tiny pots dry out fast and make herbs harder to keep happy.</li>
-          <li><strong>Putting herbs too far from where you’ll use them</strong> — if it is inconvenient, you will harvest less.</li>
-          <li><strong>Mixing mint in with everything</strong> — mint likes to take over, so give it its own space.</li>
-          <li><strong>Giving the garden too much shade</strong> — some herbs tolerate less sun, but most do better with more light.</li>
-          <li><strong>Forgetting to harvest</strong> — a herb garden is not just something to admire from a distance. It should earn its keep.</li>
-        </ul>
+      <div class="mistake-grid">
+        <div class="mistake-card">
+          <h3>Planting too many herbs at once</h3>
+          <p>A smaller useful garden usually beats a crowded experimental one.</p>
+        </div>
+        <div class="mistake-card">
+          <h3>Using containers that are too small</h3>
+          <p>Tiny pots dry out fast and make herbs harder to keep happy.</p>
+        </div>
+        <div class="mistake-card">
+          <h3>Putting herbs too far from where you’ll use them</h3>
+          <p>If it is inconvenient, you will harvest less.</p>
+        </div>
+        <div class="mistake-card">
+          <h3>Mixing mint in with everything</h3>
+          <p>Mint likes to take over, so give it its own space.</p>
+        </div>
+        <div class="mistake-card">
+          <h3>Giving the garden too much shade</h3>
+          <p>Some herbs tolerate less sun, but most do better with more light.</p>
+        </div>
+        <div class="mistake-card">
+          <h3>Forgetting to harvest</h3>
+          <p>A herb garden is not just something to admire from a distance. It should earn its keep.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Browse individual herb guides</h2>
-      <div class="plain-section">
-        <ul class="browse-links">
-          <li><a href="/pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful.html">Best Herbs for Beginners</a> — a practical place to start if you want herbs that are easy to grow and actually worth the effort.</li>
-          <li><a href="/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed.html">Best Herbs for Small Spaces</a> — specific herbs, real pot sizes, sunlight, watering, and whether each one is worth your limited space.</li>
-          <li><a href="/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest.html">How to Grow Basil</a> — if basil is one of your must-have herbs, this is the full growing guide.</li>
-          <li><a href="/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars.html">How to Grow Oregano</a> — one of the best quiet workhorse herbs you can grow if you want drying value and easy use.</li>
-          <li><a href="/pages/can-thyme-make-you-a-little-extra-money.html">Can Thyme Make You a Little Extra Money?</a> — a small herb with more value potential than people expect.</li>
-          <li><a href="/pages/the-backyard-herb-hub.html">Back to the Herb Hub</a> — browse the full herb directory if you want the wider herb world instead of one garden plan lane.</li>
-        </ul>
+      <h2>Next steps</h2>
+      <div class="nav-grid">
+        <div class="nav-card">
+          <span class="tiny-label">Build your herb garden</span>
+          <ul class="quick-list">
+            <li>My First Herb Garden</li>
+            <li>The Patio Herb Garden</li>
+            <li>The Grocery Saver Herb Garden</li>
+            <li>The Pollinator Herb Garden</li>
+          </ul>
+        </div>
+        <div class="nav-card">
+          <span class="tiny-label">Learn about individual herbs</span>
+          <ul class="quick-list">
+            <li><a href="/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest.html">Basil</a></li>
+            <li><a href="/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars.html">Oregano</a></li>
+            <li><a href="/pages/can-thyme-make-you-a-little-extra-money.html">Thyme</a></li>
+            <li><a href="/pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful.html">More beginner herbs</a></li>
+          </ul>
+        </div>
+        <div class="nav-card">
+          <span class="tiny-label">Get more from your herbs</span>
+          <ul class="quick-list">
+            <li><a href="/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space.html">Best Herbs to Dry</a></li>
+            <li><a href="/pages/the-herbs-that-quietly-save-you-the-most-money.html">Herbs That Save Money</a></li>
+            <li><a href="/pages/what-do-i-do-with-all-these-extra-herbs.html">What to Do With Extra Herbs</a></li>
+          </ul>
+        </div>
+        <div class="nav-card">
+          <span class="tiny-label">Browse the full lane</span>
+          <p><a href="/pages/the-backyard-herb-hub.html">Back to the Herb Hub</a></p>
+          <p>If you want the wider herb world instead of just this planning path, the full hub is here.</p>
+        </div>
       </div>
     </section>
 
