@@ -1,0 +1,42 @@
+{
+  "id": "library-233632ca6e95",
+  "route": "/pages/what-to-grow-near-cabbage",
+  "output": "pages/what-to-grow-near-cabbage.html",
+  "title": "What to Grow Near Cabbage | Quiet Backyard Living",
+  "description": "Cabbage does best with neighbors that help keep the bed mixed, manageable, and less inviting as one giant brassica buffet. The best companions are usually the ones t",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-233632ca6e95.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-233632ca6e95.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-cabbage.html",
+    "sha256": "d6e94b5803b72faefc8db1efc93172be5de03e083657f4759ba4ed4d3e4df5dd"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

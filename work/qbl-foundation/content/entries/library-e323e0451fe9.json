@@ -1,0 +1,41 @@
+{
+  "id": "library-e323e0451fe9",
+  "route": "/pages/simple-bird-bath-station",
+  "output": "pages/simple-bird-bath-station.html",
+  "title": "How to Set Up a Simple Bird Bath Station | Quiet Backyard Living",
+  "description": "One of the easiest ways to bring more bird activity into the yard.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-e323e0451fe9.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/simple-bird-bath-station.html",
+    "sha256": "20b2ad24459bf632803b3f8fe5527aa803d8adf36bb327a28ed452ac5bf6e88a"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

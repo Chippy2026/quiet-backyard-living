@@ -1,0 +1,1895 @@
+{
+  "media-2747fb85f929": {
+    "id": "media-2747fb85f929",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/meet-the-crew-cabin-1440.webp",
+    "srcset": "/assets/home/meet-the-crew-cabin-480.webp 480w, /assets/home/meet-the-crew-cabin-960.webp 960w, /assets/home/meet-the-crew-cabin-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home",
+      "journey",
+      "journey",
+      "field-guide"
+    ]
+  },
+  "media-eb6873de18e5": {
+    "id": "media-eb6873de18e5",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/cabin-fire-evening-1440.webp",
+    "srcset": "/assets/home/cabin-fire-evening-480.webp 480w, /assets/home/cabin-fire-evening-960.webp 960w, /assets/home/cabin-fire-evening-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home",
+      "journey"
+    ]
+  },
+  "media-3cacbc0bcf03": {
+    "id": "media-3cacbc0bcf03",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter28-grape-weeding-1440.webp",
+    "srcset": "/assets/home/gallery-chapter28-grape-weeding-480.webp 480w, /assets/home/gallery-chapter28-grape-weeding-960.webp 960w, /assets/home/gallery-chapter28-grape-weeding-1440.webp 1280w",
+    "width": 1280,
+    "height": 1235,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-ad8bd09bb2af": {
+    "id": "media-ad8bd09bb2af",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/planner-teaser-raised-bed-1440.webp",
+    "srcset": "/assets/home/planner-teaser-raised-bed-480.webp 480w, /assets/home/planner-teaser-raised-bed-960.webp 960w, /assets/home/planner-teaser-raised-bed-1440.webp 1280w",
+    "width": 1280,
+    "height": 903,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-8b8bfd55d756": {
+    "id": "media-8b8bfd55d756",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/jujube-tree-planting-2026-04-jujube-2-960.webp",
+    "srcset": "/assets/home/jujube-tree-planting-2026-04-jujube-2-480.webp 480w, /assets/home/jujube-tree-planting-2026-04-jujube-2-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-31f908edeefd": {
+    "id": "media-31f908edeefd",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/cut-basil-here-1440.webp",
+    "srcset": "/assets/home/cut-basil-here-480.webp 480w, /assets/home/cut-basil-here-960.webp 960w, /assets/home/cut-basil-here-1440.webp 1280w",
+    "width": 1280,
+    "height": 853,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-81e56cb665e3": {
+    "id": "media-81e56cb665e3",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/chipmunk-feeder-1-960.webp",
+    "srcset": "/assets/home/chipmunk-feeder-1-480.webp 480w, /assets/home/chipmunk-feeder-1-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-831e6c80cde1": {
+    "id": "media-831e6c80cde1",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/spring-cabin-2026-04-pasted-image-6--960.webp",
+    "srcset": "/assets/home/spring-cabin-2026-04-pasted-image-6--480.webp 480w, /assets/home/spring-cabin-2026-04-pasted-image-6--960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-f6e70d5d748b": {
+    "id": "media-f6e70d5d748b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter28-woodpecker-feeder-960.webp",
+    "srcset": "/assets/home/gallery-chapter28-woodpecker-feeder-480.webp 480w, /assets/home/gallery-chapter28-woodpecker-feeder-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-d751143ada21": {
+    "id": "media-d751143ada21",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/bluebird-on-post-960.webp",
+    "srcset": "/assets/home/bluebird-on-post-480.webp 480w, /assets/home/bluebird-on-post-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-513d1db1c17f": {
+    "id": "media-513d1db1c17f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/squirrel-playground-squirrel-playground-full-1440.webp",
+    "srcset": "/assets/home/squirrel-playground-squirrel-playground-full-480.webp 480w, /assets/home/squirrel-playground-squirrel-playground-full-960.webp 960w, /assets/home/squirrel-playground-squirrel-playground-full-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-459f20654b2c": {
+    "id": "media-459f20654b2c",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/berry-trellis-finished-look-960.webp",
+    "srcset": "/assets/home/berry-trellis-finished-look-480.webp 480w, /assets/home/berry-trellis-finished-look-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-b8e33b36b5b6": {
+    "id": "media-b8e33b36b5b6",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter28-trellis-close-960.webp",
+    "srcset": "/assets/home/gallery-chapter28-trellis-close-480.webp 480w, /assets/home/gallery-chapter28-trellis-close-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-2a4525876d48": {
+    "id": "media-2a4525876d48",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/birdhouse-workshop-finished-ruler-front-960.webp",
+    "srcset": "/assets/home/birdhouse-workshop-finished-ruler-front-480.webp 480w, /assets/home/birdhouse-workshop-finished-ruler-front-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home",
+      "journey",
+      "field-guide"
+    ]
+  },
+  "media-c790ffe2873b": {
+    "id": "media-c790ffe2873b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/patio-garden-bed-teaser-1440.webp",
+    "srcset": "/assets/home/patio-garden-bed-teaser-480.webp 480w, /assets/home/patio-garden-bed-teaser-960.webp 960w, /assets/home/patio-garden-bed-teaser-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-ef4d8158fdca": {
+    "id": "media-ef4d8158fdca",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter24-birdfeeder-960.webp",
+    "srcset": "/assets/home/gallery-chapter24-birdfeeder-480.webp 480w, /assets/home/gallery-chapter24-birdfeeder-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-605988c8d3d7": {
+    "id": "media-605988c8d3d7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter20-stargazing-960.webp",
+    "srcset": "/assets/home/gallery-chapter20-stargazing-480.webp 480w, /assets/home/gallery-chapter20-stargazing-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-203ebf18ff49": {
+    "id": "media-203ebf18ff49",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/story-chapter-29-stair-finish-960.webp",
+    "srcset": "/assets/home/story-chapter-29-stair-finish-480.webp 480w, /assets/home/story-chapter-29-stair-finish-960.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-c27dc03db35f": {
+    "id": "media-c27dc03db35f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/gallery-chapter28-harry-return-1440.webp",
+    "srcset": "/assets/home/gallery-chapter28-harry-return-480.webp 480w, /assets/home/gallery-chapter28-harry-return-960.webp 960w, /assets/home/gallery-chapter28-harry-return-1440.webp 987w",
+    "width": 987,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home"
+    ]
+  },
+  "media-12ad5aafb855": {
+    "id": "media-12ad5aafb855",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/home/grapes-on-vine-1440.webp",
+    "srcset": "/assets/home/grapes-on-vine-480.webp 480w, /assets/home/grapes-on-vine-960.webp 960w, /assets/home/grapes-on-vine-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "home",
+      "field-guide"
+    ]
+  },
+  "media-787973a5bb2c": {
+    "id": "media-787973a5bb2c",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-cut-pieces-640.webp",
+    "srcset": "/assets/photos/berry-trellis-cut-pieces-640.webp 630w",
+    "width": 630,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide"
+    ]
+  },
+  "media-4f502f0c6b32": {
+    "id": "media-4f502f0c6b32",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-grape-weeding-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-grape-weeding-640.webp 640w, /assets/photos/gallery--chapter28-grape-weeding-1440.webp 1280w",
+    "width": 1280,
+    "height": 1235,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide",
+      "basil",
+      "pests",
+      "pests"
+    ]
+  },
+  "media-5a9267791917": {
+    "id": "media-5a9267791917",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter17-frame-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter17-frame-640.webp 640w, /assets/photos/gallery--chapter17-frame-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-f660fa5836de": {
+    "id": "media-f660fa5836de",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter17-finished-deck-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter17-finished-deck-640.webp 640w, /assets/photos/gallery--chapter17-finished-deck-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-9cc7d2dfaf84": {
+    "id": "media-9cc7d2dfaf84",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/story--chapter-29--stair-finish-1440.webp",
+    "srcset": "/assets/photos/story--chapter-29--stair-finish-640.webp 640w, /assets/photos/story--chapter-29--stair-finish-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "journey",
+      "stairs-note"
+    ]
+  },
+  "media-097bdfdc026b": {
+    "id": "media-097bdfdc026b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter14-chippy-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter14-chippy-640.webp 640w, /assets/photos/gallery--chapter14-chippy-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "wildlife"
+    ]
+  },
+  "media-aff4a4534b47": {
+    "id": "media-aff4a4534b47",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/squirrel-playground--squirrel-playground-full-1440.webp",
+    "srcset": "/assets/photos/squirrel-playground--squirrel-playground-full-640.webp 640w, /assets/photos/squirrel-playground--squirrel-playground-full-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide"
+    ]
+  },
+  "media-04154045e356": {
+    "id": "media-04154045e356",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--grosbeak-squirrel-gym-1440.webp",
+    "srcset": "/assets/photos/gallery--grosbeak-squirrel-gym-640.webp 640w, /assets/photos/gallery--grosbeak-squirrel-gym-1440.webp 1087w",
+    "width": 1087,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-4c282c0015fc": {
+    "id": "media-4c282c0015fc",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter20-stargazing-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter20-stargazing-640.webp 640w, /assets/photos/gallery--chapter20-stargazing-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-342c86b52d9e": {
+    "id": "media-342c86b52d9e",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-finished-look-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-finished-look-640.webp 640w, /assets/photos/berry-trellis-finished-look-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide",
+      "project"
+    ]
+  },
+  "media-9b6c5195ce51": {
+    "id": "media-9b6c5195ce51",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-trellis-close-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-trellis-close-640.webp 640w, /assets/photos/gallery--chapter28-trellis-close-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "project"
+    ]
+  },
+  "media-863bdcb8d9eb": {
+    "id": "media-863bdcb8d9eb",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter24-birdfeeder-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter24-birdfeeder-640.webp 640w, /assets/photos/gallery--chapter24-birdfeeder-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-e5c218b2a0d0": {
+    "id": "media-e5c218b2a0d0",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/olla-build--one-pot-olla-install-1440.webp",
+    "srcset": "/assets/photos/olla-build--one-pot-olla-install-640.webp 640w, /assets/photos/olla-build--one-pot-olla-install-1440.webp 1130w",
+    "width": 1130,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide",
+      "tomatoes",
+      "raised-bed",
+      "raised-bed"
+    ]
+  },
+  "media-90c4d5710626": {
+    "id": "media-90c4d5710626",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter23-dream-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter23-dream-640.webp 640w, /assets/photos/gallery--chapter23-dream-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-ef97c973f7d9": {
+    "id": "media-ef97c973f7d9",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-harry-return-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-harry-return-640.webp 640w, /assets/photos/gallery--chapter28-harry-return-1440.webp 987w",
+    "width": 987,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey",
+      "field-guide"
+    ]
+  },
+  "media-a20aad5716d3": {
+    "id": "media-a20aad5716d3",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--grape-vines-before-loss-1440.webp",
+    "srcset": "/assets/photos/gallery--grape-vines-before-loss-640.webp 640w, /assets/photos/gallery--grape-vines-before-loss-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "journey"
+    ]
+  },
+  "media-31d396075d3d": {
+    "id": "media-31d396075d3d",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 4608,
+    "height": 3456,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "basil",
+      "basil"
+    ],
+    "licenseId": "pexels-6133135"
+  },
+  "media-5c48328327b9": {
+    "id": "media-5c48328327b9",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-1440.webp",
+    "srcset": "/assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-640.webp 640w, /assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "wildlife"
+    ]
+  },
+  "media-42e87055a1c8": {
+    "id": "media-42e87055a1c8",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 4032,
+    "height": 3024,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "tomatoes",
+      "tomatoes",
+      "lettuce",
+      "lettuce",
+      "raised-bed"
+    ],
+    "licenseId": "pexels-20819948"
+  },
+  "media-259c3292ef61": {
+    "id": "media-259c3292ef61",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 6000,
+    "height": 4000,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "tomatoes",
+      "tomatoes",
+      "basil",
+      "basil",
+      "pests",
+      "raised-bed"
+    ],
+    "licenseId": "pexels-7452769"
+  },
+  "media-5eabdb9174a2": {
+    "id": "media-5eabdb9174a2",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/planner-teaser-raised-bed-1440.webp",
+    "srcset": "/assets/photos/planner-teaser-raised-bed-640.webp 640w, /assets/photos/planner-teaser-raised-bed-1440.webp 1280w",
+    "width": 1280,
+    "height": 903,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "field-guide",
+      "tomatoes",
+      "raised-bed",
+      "tool",
+      "tool"
+    ]
+  },
+  "media-5e85b1b391b7": {
+    "id": "media-5e85b1b391b7",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 4288,
+    "height": 2848,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "tomatoes",
+      "tomatoes",
+      "lettuce",
+      "basil",
+      "tool"
+    ],
+    "licenseId": "pexels-7745029"
+  },
+  "media-d564e231903b": {
+    "id": "media-d564e231903b",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 6720,
+    "height": 4480,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "lettuce"
+    ],
+    "licenseId": "pexels-10432381"
+  },
+  "media-dda1f1d5c300": {
+    "id": "media-dda1f1d5c300",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 3613,
+    "height": 4453,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "lettuce",
+      "pests",
+      "pests"
+    ],
+    "licenseId": "pexels-20826378"
+  },
+  "media-189f9b2f446b": {
+    "id": "media-189f9b2f446b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-1440.webp",
+    "srcset": "/assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-640.webp 640w, /assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide",
+      "wildlife"
+    ]
+  },
+  "media-16030d56eba2": {
+    "id": "media-16030d56eba2",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-woodpecker-feeder-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-woodpecker-feeder-640.webp 640w, /assets/photos/gallery--chapter28-woodpecker-feeder-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "field-guide"
+    ]
+  },
+  "media-a946a74c21cc": {
+    "id": "media-a946a74c21cc",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/23413831/pexels-photo-23413831.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/23413831/pexels-photo-23413831.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/23413831/pexels-photo-23413831.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/23413831/pexels-photo-23413831.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/23413831/pexels-photo-23413831.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 3000,
+    "height": 4000,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "tomatoes"
+    ],
+    "licenseId": "pexels-23413831"
+  },
+  "media-4c043e448465": {
+    "id": "media-4c043e448465",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/7543101/pexels-photo-7543101.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/7543101/pexels-photo-7543101.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/7543101/pexels-photo-7543101.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/7543101/pexels-photo-7543101.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/7543101/pexels-photo-7543101.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 5184,
+    "height": 3456,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "tomatoes",
+      "tomatoes",
+      "lettuce"
+    ],
+    "licenseId": "pexels-7543101"
+  },
+  "media-089c742eca6b": {
+    "id": "media-089c742eca6b",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/1643975/pexels-photo-1643975.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/1643975/pexels-photo-1643975.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/1643975/pexels-photo-1643975.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/1643975/pexels-photo-1643975.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/1643975/pexels-photo-1643975.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 6000,
+    "height": 4000,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "tomatoes",
+      "pests"
+    ],
+    "licenseId": "pexels-1643975"
+  },
+  "media-cd0f2dc232bb": {
+    "id": "media-cd0f2dc232bb",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/8767747/pexels-photo-8767747.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/8767747/pexels-photo-8767747.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/8767747/pexels-photo-8767747.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/8767747/pexels-photo-8767747.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/8767747/pexels-photo-8767747.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 3497,
+    "height": 5245,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "tomatoes"
+    ],
+    "licenseId": "pexels-8767747"
+  },
+  "media-661cb7f96e87": {
+    "id": "media-661cb7f96e87",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter16-garden-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter16-garden-640.webp 640w, /assets/photos/gallery--chapter16-garden-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "tomatoes",
+      "lettuce",
+      "tool"
+    ]
+  },
+  "media-c76c4789f1a8": {
+    "id": "media-c76c4789f1a8",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/2476542/pexels-photo-2476542.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/2476542/pexels-photo-2476542.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/2476542/pexels-photo-2476542.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/2476542/pexels-photo-2476542.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/2476542/pexels-photo-2476542.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 2880,
+    "height": 1920,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "lettuce"
+    ],
+    "licenseId": "pexels-2476542"
+  },
+  "media-b1133ed477a6": {
+    "id": "media-b1133ed477a6",
+    "kind": "external-reference",
+    "src": "https://images.pexels.com/photos/106607/pexels-photo-106607.jpeg?auto=compress&cs=tinysrgb&w=960",
+    "srcset": "https://images.pexels.com/photos/106607/pexels-photo-106607.jpeg?auto=compress&cs=tinysrgb&w=400 400w, https://images.pexels.com/photos/106607/pexels-photo-106607.jpeg?auto=compress&cs=tinysrgb&w=720 720w, https://images.pexels.com/photos/106607/pexels-photo-106607.jpeg?auto=compress&cs=tinysrgb&w=1100 1100w, https://images.pexels.com/photos/106607/pexels-photo-106607.jpeg?auto=compress&cs=tinysrgb&w=1600 1600w",
+    "width": 4272,
+    "height": 2848,
+    "rightsStatus": "source-recorded-final-inspection-pending",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "lettuce",
+      "pests"
+    ],
+    "licenseId": "pexels-106607"
+  },
+  "media-be0ea900bbaa": {
+    "id": "media-be0ea900bbaa",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/cut-basil-here-1440.webp",
+    "srcset": "/assets/photos/cut-basil-here-640.webp 640w, /assets/photos/cut-basil-here-1440.webp 1280w",
+    "width": 1280,
+    "height": 853,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "basil"
+    ]
+  },
+  "media-005c133099c1": {
+    "id": "media-005c133099c1",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/squirrel-chipmunk-food--squirrel-playground-food-support-1440.webp",
+    "srcset": "/assets/photos/squirrel-chipmunk-food--squirrel-playground-food-support-640.webp 640w, /assets/photos/squirrel-chipmunk-food--squirrel-playground-food-support-1440.webp 1052w",
+    "width": 1052,
+    "height": 1113,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "wildlife"
+    ]
+  },
+  "media-1697d4636171": {
+    "id": "media-1697d4636171",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-cut-pieces-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-cut-pieces-640.webp 630w, /assets/photos/berry-trellis-cut-pieces-1440.webp 630w",
+    "width": 630,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-82a341f24972": {
+    "id": "media-82a341f24972",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-base-single-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-base-single-640.webp 640w, /assets/photos/berry-trellis-base-single-1440.webp 1265w",
+    "width": 1265,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-ec47f5dc42e0": {
+    "id": "media-ec47f5dc42e0",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-base-screw-close-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-base-screw-close-640.webp 640w, /assets/photos/berry-trellis-base-screw-close-1440.webp 1014w",
+    "width": 1014,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-6dae9ddf4964": {
+    "id": "media-6dae9ddf4964",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-top-spreader-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-top-spreader-640.webp 640w, /assets/photos/berry-trellis-top-spreader-1440.webp 1280w",
+    "width": 1280,
+    "height": 1246,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-02a6e865e2ea": {
+    "id": "media-02a6e865e2ea",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-2ft-and-1ft-spreaders-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-2ft-and-1ft-spreaders-640.webp 640w, /assets/photos/berry-trellis-2ft-and-1ft-spreaders-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-9d5c43c39388": {
+    "id": "media-9d5c43c39388",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-installed-single-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-installed-single-640.webp 640w, /assets/photos/berry-trellis-installed-single-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-36697114e074": {
+    "id": "media-36697114e074",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/berry-trellis-final-two-1440.webp",
+    "srcset": "/assets/photos/berry-trellis-final-two-640.webp 640w, /assets/photos/berry-trellis-final-two-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "previous-review-inherited",
+    "uses": [
+      "project"
+    ]
+  },
+  "media-city-beds-refresh-2026": {
+    "id": "media-city-beds-refresh-2026",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-refresh-beds-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-refresh-beds-640.webp 640w, /assets/photos/gallery--chapter25-refresh-beds-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-reviewed-qbl",
+    "privacyStatus": "visually inspected in correction pass; no visible private documents, screens or addresses",
+    "uses": [
+      "garden-thread",
+      "journey"
+    ],
+    "evidence": "Actual published cabin journal chapter 25, adjacent to #trying-ollas; Jeff refreshing the city beds in April 2026, not the earlier dry-bed failure."
+  },
+  "journey-20b45a78758d": {
+    "id": "journey-20b45a78758d",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--cabin-start-structure-1440.webp",
+    "srcset": "/assets/photos/gallery--cabin-start-structure-640.webp 640w, /assets/photos/gallery--cabin-start-structure-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch01"
+    ]
+  },
+  "journey-f24045790be6": {
+    "id": "journey-f24045790be6",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--cabin-start-selfie-1440.webp",
+    "srcset": "/assets/photos/gallery--cabin-start-selfie-640.webp 640w, /assets/photos/gallery--cabin-start-selfie-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch02"
+    ]
+  },
+  "journey-d5170443afb7": {
+    "id": "journey-d5170443afb7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter3-city-life-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter3-city-life-640.webp 640w, /assets/photos/gallery--chapter3-city-life-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch03"
+    ]
+  },
+  "journey-4bd60cc7a441": {
+    "id": "journey-4bd60cc7a441",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter3-sleeping-arrangements-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter3-sleeping-arrangements-640.webp 640w, /assets/photos/gallery--chapter3-sleeping-arrangements-1440.webp 1170w",
+    "width": 1170,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch03"
+    ]
+  },
+  "journey-1f390d194fea": {
+    "id": "journey-1f390d194fea",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-mower-vanessa-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-mower-vanessa-640.webp 640w, /assets/photos/gallery--chapter4-mower-vanessa-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-e4006f965cf2": {
+    "id": "journey-e4006f965cf2",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-sea-of-grass-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-sea-of-grass-640.webp 640w, /assets/photos/gallery--chapter4-sea-of-grass-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-08adfef3a9e7": {
+    "id": "journey-08adfef3a9e7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-now-were-cooking-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-now-were-cooking-640.webp 640w, /assets/photos/gallery--chapter4-now-were-cooking-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-d8269011daff": {
+    "id": "journey-d8269011daff",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-before-rainwater-catch-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-before-rainwater-catch-640.webp 640w, /assets/photos/gallery--chapter4-before-rainwater-catch-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-0473f66f2f76": {
+    "id": "journey-0473f66f2f76",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-barrel-washup-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-barrel-washup-640.webp 640w, /assets/photos/gallery--chapter4-barrel-washup-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-f2f772929d3b": {
+    "id": "journey-f2f772929d3b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter4-unfinished-roof-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter4-unfinished-roof-640.webp 640w, /assets/photos/gallery--chapter4-unfinished-roof-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch04"
+    ]
+  },
+  "journey-d2bd006e85ff": {
+    "id": "journey-d2bd006e85ff",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter5-spring-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter5-spring-bonfire-640.webp 640w, /assets/photos/gallery--chapter5-spring-bonfire-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch05"
+    ]
+  },
+  "journey-a77d4b6fd6c4": {
+    "id": "journey-a77d4b6fd6c4",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter5-water-tank-payoff-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter5-water-tank-payoff-640.webp 640w, /assets/photos/gallery--chapter5-water-tank-payoff-1440.webp 1280w",
+    "width": 1280,
+    "height": 964,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch05"
+    ]
+  },
+  "journey-f2397d663ca2": {
+    "id": "journey-f2397d663ca2",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter2-swing-peace-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter2-swing-peace-640.webp 640w, /assets/photos/gallery--chapter2-swing-peace-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch06"
+    ]
+  },
+  "journey-e20bd0a4eb44": {
+    "id": "journey-e20bd0a4eb44",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--cabin-start-fenced-area-1440.webp",
+    "srcset": "/assets/photos/gallery--cabin-start-fenced-area-640.webp 640w, /assets/photos/gallery--cabin-start-fenced-area-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch07"
+    ]
+  },
+  "journey-82784167d78d": {
+    "id": "journey-82784167d78d",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter7-turkeys-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter7-turkeys-640.webp 640w, /assets/photos/gallery--chapter7-turkeys-1440.webp 1280w",
+    "width": 1280,
+    "height": 964,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch07"
+    ]
+  },
+  "journey-a16e9bd26aad": {
+    "id": "journey-a16e9bd26aad",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter8-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter8-bonfire-640.webp 640w, /assets/photos/gallery--chapter8-bonfire-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch08"
+    ]
+  },
+  "journey-407852dff334": {
+    "id": "journey-407852dff334",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter8-concrete-pad-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter8-concrete-pad-640.webp 640w, /assets/photos/gallery--chapter8-concrete-pad-1440.webp 1280w",
+    "width": 1280,
+    "height": 1092,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch08"
+    ]
+  },
+  "journey-c15da957057f": {
+    "id": "journey-c15da957057f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter9-axe-worlds-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter9-axe-worlds-640.webp 640w, /assets/photos/gallery--chapter9-axe-worlds-1440.webp 720w",
+    "width": 720,
+    "height": 720,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch09"
+    ]
+  },
+  "journey-37588580ba03": {
+    "id": "journey-37588580ba03",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter9-tank-enclosure-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter9-tank-enclosure-640.webp 640w, /assets/photos/gallery--chapter9-tank-enclosure-1440.webp 1280w",
+    "width": 1280,
+    "height": 964,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch09"
+    ]
+  },
+  "journey-95245f954e1b": {
+    "id": "journey-95245f954e1b",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter9-ankle-scooter-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter9-ankle-scooter-640.webp 640w, /assets/photos/gallery--chapter9-ankle-scooter-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch09"
+    ]
+  },
+  "journey-2bae6d87bdd9": {
+    "id": "journey-2bae6d87bdd9",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter10-fruit-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter10-fruit-640.webp 640w, /assets/photos/gallery--chapter10-fruit-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch10"
+    ]
+  },
+  "journey-6dc6910168fb": {
+    "id": "journey-6dc6910168fb",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter10-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter10-bonfire-640.webp 640w, /assets/photos/gallery--chapter10-bonfire-1440.webp 964w",
+    "width": 964,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch10"
+    ]
+  },
+  "journey-b1bbd509931d": {
+    "id": "journey-b1bbd509931d",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter11-tombstones-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter11-tombstones-640.webp 640w, /assets/photos/gallery--chapter11-tombstones-1440.webp 1280w",
+    "width": 1280,
+    "height": 744,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch11"
+    ]
+  },
+  "journey-dc923d6c5032": {
+    "id": "journey-dc923d6c5032",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter12-tank-structure-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter12-tank-structure-640.webp 640w, /assets/photos/gallery--chapter12-tank-structure-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch12"
+    ]
+  },
+  "journey-1c2b53d3c587": {
+    "id": "journey-1c2b53d3c587",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter12-ceiling-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter12-ceiling-640.webp 640w, /assets/photos/gallery--chapter12-ceiling-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch12"
+    ]
+  },
+  "journey-f5b56bfbb99c": {
+    "id": "journey-f5b56bfbb99c",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter12-shack-interior-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter12-shack-interior-640.webp 640w, /assets/photos/gallery--chapter12-shack-interior-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch12"
+    ]
+  },
+  "journey-43b73f403130": {
+    "id": "journey-43b73f403130",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter12-fall-leaves-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter12-fall-leaves-640.webp 640w, /assets/photos/gallery--chapter12-fall-leaves-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch12"
+    ]
+  },
+  "journey-a24652522d8f": {
+    "id": "journey-a24652522d8f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter13-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter13-bonfire-640.webp 640w, /assets/photos/gallery--chapter13-bonfire-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch13"
+    ]
+  },
+  "journey-5a63e3551e59": {
+    "id": "journey-5a63e3551e59",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter13-finished-ceiling-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter13-finished-ceiling-640.webp 640w, /assets/photos/gallery--chapter13-finished-ceiling-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch13"
+    ]
+  },
+  "journey-f41f1fd9249e": {
+    "id": "journey-f41f1fd9249e",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter14-snow-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter14-snow-640.webp 640w, /assets/photos/gallery--chapter14-snow-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch14"
+    ]
+  },
+  "journey-01ed16e51de9": {
+    "id": "journey-01ed16e51de9",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter14-night-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter14-night-bonfire-640.webp 640w, /assets/photos/gallery--chapter14-night-bonfire-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch14"
+    ]
+  },
+  "journey-c0d04cf6f998": {
+    "id": "journey-c0d04cf6f998",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter14-wildlife-regulars-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter14-wildlife-regulars-640.webp 640w, /assets/photos/gallery--chapter14-wildlife-regulars-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch14"
+    ]
+  },
+  "journey-0455c86e3f58": {
+    "id": "journey-0455c86e3f58",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter15-car-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter15-car-640.webp 640w, /assets/photos/gallery--chapter15-car-1440.webp 1280w",
+    "width": 1280,
+    "height": 1093,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch15"
+    ]
+  },
+  "journey-fc07c8422939": {
+    "id": "journey-fc07c8422939",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter15-wishing-well-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter15-wishing-well-640.webp 640w, /assets/photos/gallery--chapter15-wishing-well-1440.webp 1080w",
+    "width": 1080,
+    "height": 1191,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch15"
+    ]
+  },
+  "journey-579c7aedfbfc": {
+    "id": "journey-579c7aedfbfc",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter16-structure-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter16-structure-640.webp 640w, /assets/photos/gallery--chapter16-structure-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch16"
+    ]
+  },
+  "journey-b9e8ffbcd992": {
+    "id": "journey-b9e8ffbcd992",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter17-half-finished-deck-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter17-half-finished-deck-640.webp 640w, /assets/photos/gallery--chapter17-half-finished-deck-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch17"
+    ]
+  },
+  "journey-c667cd1e3141": {
+    "id": "journey-c667cd1e3141",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter18-garden-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter18-garden-640.webp 640w, /assets/photos/gallery--chapter18-garden-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch18"
+    ]
+  },
+  "journey-d3c65f7a0913": {
+    "id": "journey-d3c65f7a0913",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter18-blueberries-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter18-blueberries-640.webp 640w, /assets/photos/gallery--chapter18-blueberries-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch18"
+    ]
+  },
+  "journey-d4b2473d32ab": {
+    "id": "journey-d4b2473d32ab",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter18-sunshade-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter18-sunshade-640.webp 640w, /assets/photos/gallery--chapter18-sunshade-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch18"
+    ]
+  },
+  "journey-af23fc8e2275": {
+    "id": "journey-af23fc8e2275",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter18-harry-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter18-harry-640.webp 640w, /assets/photos/gallery--chapter18-harry-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch18"
+    ]
+  },
+  "journey-67e1cde5cce9": {
+    "id": "journey-67e1cde5cce9",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter19-tiki-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter19-tiki-640.webp 640w, /assets/photos/gallery--chapter19-tiki-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch19"
+    ]
+  },
+  "journey-349f319b20bf": {
+    "id": "journey-349f319b20bf",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter19-screened-structure-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter19-screened-structure-640.webp 640w, /assets/photos/gallery--chapter19-screened-structure-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch19"
+    ]
+  },
+  "journey-fbe07db0e482": {
+    "id": "journey-fbe07db0e482",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter19-structure-frame-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter19-structure-frame-640.webp 640w, /assets/photos/gallery--chapter19-structure-frame-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch19"
+    ]
+  },
+  "journey-470591a5dee3": {
+    "id": "journey-470591a5dee3",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter20-structure-1-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter20-structure-1-640.webp 640w, /assets/photos/gallery--chapter20-structure-1-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch20"
+    ]
+  },
+  "journey-f02b7c5d15a7": {
+    "id": "journey-f02b7c5d15a7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter20-structure-2-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter20-structure-2-640.webp 640w, /assets/photos/gallery--chapter20-structure-2-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch20"
+    ]
+  },
+  "journey-bd91edf45bb6": {
+    "id": "journey-bd91edf45bb6",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter20-structure-3-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter20-structure-3-640.webp 640w, /assets/photos/gallery--chapter20-structure-3-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch20"
+    ]
+  },
+  "journey-ce1290fcb6a7": {
+    "id": "journey-ce1290fcb6a7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter20-bonfire-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter20-bonfire-640.webp 640w, /assets/photos/gallery--chapter20-bonfire-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch20"
+    ]
+  },
+  "journey-68d1bdd110db": {
+    "id": "journey-68d1bdd110db",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter21-fat-squirrel-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter21-fat-squirrel-640.webp 640w, /assets/photos/gallery--chapter21-fat-squirrel-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch21"
+    ]
+  },
+  "journey-200e6f028315": {
+    "id": "journey-200e6f028315",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter21-roof-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter21-roof-640.webp 640w, /assets/photos/gallery--chapter21-roof-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch21"
+    ]
+  },
+  "journey-c840d1fcb9f8": {
+    "id": "journey-c840d1fcb9f8",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter21-wrap-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter21-wrap-640.webp 640w, /assets/photos/gallery--chapter21-wrap-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch21"
+    ]
+  },
+  "journey-e6d2d422c329": {
+    "id": "journey-e6d2d422c329",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter21-siding-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter21-siding-640.webp 640w, /assets/photos/gallery--chapter21-siding-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch21"
+    ]
+  },
+  "journey-ed0a3afd3ea7": {
+    "id": "journey-ed0a3afd3ea7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter22-paint-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter22-paint-640.webp 640w, /assets/photos/gallery--chapter22-paint-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch22"
+    ]
+  },
+  "journey-7042be967d61": {
+    "id": "journey-7042be967d61",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter22-shed-cabin-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter22-shed-cabin-640.webp 640w, /assets/photos/gallery--chapter22-shed-cabin-1440.webp 1280w",
+    "width": 1280,
+    "height": 407,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch22"
+    ]
+  },
+  "journey-a5cad5a767b0": {
+    "id": "journey-a5cad5a767b0",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter22-nessa-surprise-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter22-nessa-surprise-640.webp 640w, /assets/photos/gallery--chapter22-nessa-surprise-1440.webp 1280w",
+    "width": 1280,
+    "height": 1016,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch22"
+    ]
+  },
+  "journey-e6747434ee0f": {
+    "id": "journey-e6747434ee0f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter23-guineas-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter23-guineas-640.webp 640w, /assets/photos/gallery--chapter23-guineas-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch23"
+    ]
+  },
+  "journey-d27aec8da4b7": {
+    "id": "journey-d27aec8da4b7",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter23-fall-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter23-fall-640.webp 640w, /assets/photos/gallery--chapter23-fall-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch23"
+    ]
+  },
+  "journey-6d441246a5a5": {
+    "id": "journey-6d441246a5a5",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter24-christmas-party-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter24-christmas-party-640.webp 640w, /assets/photos/gallery--chapter24-christmas-party-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch24"
+    ]
+  },
+  "journey-94dbba4b2c19": {
+    "id": "journey-94dbba4b2c19",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-log-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-log-640.webp 640w, /assets/photos/gallery--chapter25-log-1440.webp 1280w",
+    "width": 1280,
+    "height": 1135,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch25"
+    ]
+  },
+  "journey-604f7d1887b8": {
+    "id": "journey-604f7d1887b8",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-robin-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-robin-640.webp 640w, /assets/photos/gallery--chapter25-robin-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch25"
+    ]
+  },
+  "journey-866f12ebf9d3": {
+    "id": "journey-866f12ebf9d3",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-deer-thief-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-deer-thief-640.webp 640w, /assets/photos/gallery--chapter25-deer-thief-1440.webp 1280w",
+    "width": 1280,
+    "height": 959,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch25"
+    ]
+  },
+  "journey-22f835e54b36": {
+    "id": "journey-22f835e54b36",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-cleanout-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-cleanout-640.webp 640w, /assets/photos/gallery--chapter25-cleanout-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch25"
+    ]
+  },
+  "journey-dcfccaaf37ef": {
+    "id": "journey-dcfccaaf37ef",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter25-creek-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter25-creek-640.webp 640w, /assets/photos/gallery--chapter25-creek-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch25"
+    ]
+  },
+  "journey-316dc8629b9e": {
+    "id": "journey-316dc8629b9e",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter26-fruit-cocktail-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter26-fruit-cocktail-640.webp 640w, /assets/photos/gallery--chapter26-fruit-cocktail-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch26"
+    ]
+  },
+  "journey-7cbe44ca6886": {
+    "id": "journey-7cbe44ca6886",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter26-jujube-tag-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter26-jujube-tag-640.webp 640w, /assets/photos/gallery--chapter26-jujube-tag-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch26"
+    ]
+  },
+  "journey-487a1032179f": {
+    "id": "journey-487a1032179f",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter26-fruit-tree-jeff-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter26-fruit-tree-jeff-640.webp 640w, /assets/photos/gallery--chapter26-fruit-tree-jeff-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch26"
+    ]
+  },
+  "journey-400492b52702": {
+    "id": "journey-400492b52702",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter26-fruit-tree-vanessa-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter26-fruit-tree-vanessa-640.webp 640w, /assets/photos/gallery--chapter26-fruit-tree-vanessa-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch26"
+    ]
+  },
+  "journey-d301ecd6bcf5": {
+    "id": "journey-d301ecd6bcf5",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter27-path-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter27-path-640.webp 640w, /assets/photos/gallery--chapter27-path-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch27"
+    ]
+  },
+  "journey-11b7fddf0729": {
+    "id": "journey-11b7fddf0729",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter27-bonfire-day-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter27-bonfire-day-640.webp 640w, /assets/photos/gallery--chapter27-bonfire-day-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch27"
+    ]
+  },
+  "journey-bd924d9afd5c": {
+    "id": "journey-bd924d9afd5c",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter27-firewood-stand-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter27-firewood-stand-640.webp 640w, /assets/photos/gallery--chapter27-firewood-stand-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch27"
+    ]
+  },
+  "journey-0789687b0e2c": {
+    "id": "journey-0789687b0e2c",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/story--chapter-29--stair-build-1440.webp",
+    "srcset": "/assets/photos/story--chapter-29--stair-build-640.webp 640w, /assets/photos/story--chapter-29--stair-build-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch29"
+    ]
+  },
+  "journey-452fd17303c0": {
+    "id": "journey-452fd17303c0",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/story--chapter-29--turtle-crossing-1440.webp",
+    "srcset": "/assets/photos/story--chapter-29--turtle-crossing-640.webp 640w, /assets/photos/story--chapter-29--turtle-crossing-1440.webp 1280w",
+    "width": 1280,
+    "height": 1221,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch29"
+    ]
+  },
+  "journey-88c5d99004ad": {
+    "id": "journey-88c5d99004ad",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/story--chapter-29--cutting-plywood-1440.webp",
+    "srcset": "/assets/photos/story--chapter-29--cutting-plywood-640.webp 640w, /assets/photos/story--chapter-29--cutting-plywood-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch29"
+    ]
+  },
+  "journey-41cdccbba7fa": {
+    "id": "journey-41cdccbba7fa",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-path-work-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-path-work-640.webp 640w, /assets/photos/gallery--chapter28-path-work-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch28"
+    ]
+  },
+  "journey-b74f0dbbe91a": {
+    "id": "journey-b74f0dbbe91a",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-path-finished-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-path-finished-640.webp 640w, /assets/photos/gallery--chapter28-path-finished-1440.webp 1123w",
+    "width": 1123,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch28"
+    ]
+  },
+  "journey-a5aa3fec3884": {
+    "id": "journey-a5aa3fec3884",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-goji-trellis-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-goji-trellis-640.webp 640w, /assets/photos/gallery--chapter28-goji-trellis-1440.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch28"
+    ]
+  },
+  "journey-7d7f11f509f8": {
+    "id": "journey-7d7f11f509f8",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-bonfire-evening-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-bonfire-evening-640.webp 640w, /assets/photos/gallery--chapter28-bonfire-evening-1440.webp 1013w",
+    "width": 1013,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch28"
+    ]
+  },
+  "journey-d96f9987e760": {
+    "id": "journey-d96f9987e760",
+    "kind": "qbl-photo-or-illustration",
+    "src": "/assets/photos/gallery--chapter28-flowers-window-1440.webp",
+    "srcset": "/assets/photos/gallery--chapter28-flowers-window-640.webp 640w, /assets/photos/gallery--chapter28-flowers-window-1440.webp 960w",
+    "width": 960,
+    "height": 1280,
+    "rightsStatus": "existing-qbl-documentary-source",
+    "privacyStatus": "Existing privacy-filtered derivative; no omitted source images restored",
+    "uses": [
+      "journey-ch28"
+    ]
+  }
+}

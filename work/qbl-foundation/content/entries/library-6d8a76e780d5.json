@@ -1,0 +1,42 @@
+{
+  "id": "library-6d8a76e780d5",
+  "route": "/pages/get-updates-from-around-the-yard",
+  "output": "pages/get-updates-from-around-the-yard.html",
+  "title": "🌿 Get Updates From Around The Yard | Quiet Backyard Living",
+  "description": "Sometimes it’s a new herb guide.",
+  "kind": "service",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-6d8a76e780d5.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-6d8a76e780d5.html",
+  "department": "journey",
+  "topic": "Publication & keeping in touch",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/get-updates-from-around-the-yard.html",
+    "sha256": "0c8e36fa1f0a90f0594a472bbfe26ccab39aec3cb19f93615f329aae56f95e26"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

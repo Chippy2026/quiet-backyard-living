@@ -1,0 +1,441 @@
+{
+  "id": "journey-ch27",
+  "route": "/our-journey/chapters/chapter-27",
+  "output": "our-journey/chapters/chapter-27.html",
+  "title": "It’s Time, 2026 Cabin Opening Here We Go! | Quiet Backyard Living",
+  "storyTitle": "It’s Time, 2026 Cabin Opening Here We Go!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "It’s Time, 2026 Cabin Opening Here We Go!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 27,
+  "chapterOrder": 27,
+  "seriesId": "happy-place",
+  "dateLabel": "Late April–early May 2026",
+  "dateEvidence": "Late April/early May 2026",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 27,
+    "articleSha256": "88926929e2158f4eb141a41a1b3a286795bc35dfeccaaec6dba874b9a29961a6",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-29"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch27-b001",
+      "sourceHtmlSha256": "66bd0cb3042c44d750bde1aa1f823f134abe38e608c60d263ae2fdccfda4bf94",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter27-path.jpg\" alt=\"Cleared walking path through the woods toward the water during the first full 2026 cabin opening stretch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter27-path.jpg",
+          "alt": "Cleared walking path through the woods toward the water during the first full 2026 cabin opening stretch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch27-b002",
+      "image": {
+        "mediaId": "journey-d301ecd6bcf5",
+        "alt": "Cleared walking path through the woods toward the water during the first full 2026 cabin opening stretch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch27-b004",
+      "sourceHtmlSha256": "0f409ecefaf9f270edb293282ba0c7ea1fdc37da0813b3e53c8684b93bead8ef",
+      "sourceHtml": "<p>By late April and early May, the weather was finally giving us multiple decent days in a row.</p>",
+      "text": "By late April and early May, the weather was finally giving us multiple decent days in a row.",
+      "type": "paragraph",
+      "html": "<p>By late April and early May, the weather was finally giving us multiple decent days in a row.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b005",
+      "sourceHtmlSha256": "24bbfae79f7ee471fa39cfde2c6a4b1f2daf46e30a9c4d46e072e44ff32b11e5",
+      "sourceHtml": "<p>So it was time to take advantage of it.</p>",
+      "text": "So it was time to take advantage of it.",
+      "type": "paragraph",
+      "html": "<p>So it was time to take advantage of it.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b006",
+      "sourceHtmlSha256": "302f7d970ba50d5bf9bff1afe4e15218c9f902fff92101fa6520b50ab6c98a08",
+      "sourceHtml": "<p>I said, “What do you think, Vanessa, you ready to open up the cabin?”</p>",
+      "text": "I said, “What do you think, Vanessa, you ready to open up the cabin?”",
+      "type": "paragraph",
+      "html": "<p>I said, “What do you think, Vanessa, you ready to open up the cabin?”</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b007",
+      "sourceHtmlSha256": "d09b3d4b3b567b38a201cb576d5839239bc85ef6fc39e5e1ad9d525e455aab41",
+      "sourceHtml": "<p>Oh yeah.</p>",
+      "text": "Oh yeah.",
+      "type": "paragraph",
+      "html": "<p>Oh yeah.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b008",
+      "sourceHtmlSha256": "fad50cad6102e0fa5fdfe497237d120b4780dbb6782360e64f83436c6ebb0c7f",
+      "sourceHtml": "<p>Let’s go.</p>",
+      "text": "Let’s go.",
+      "type": "paragraph",
+      "html": "<p>Let’s go.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b009",
+      "sourceHtmlSha256": "c0a860293a161795689ccb8f1d0a077f56f4f291dfd57cc3a070bf1af8d00d3e",
+      "sourceHtml": "<p>That meant loading up all the usual spring stuff, water pump, chainsaw, food, clothes, sheets, toothbrushes, tools, and all the other random things that somehow turn into a full carload every year.</p>",
+      "text": "That meant loading up all the usual spring stuff, water pump, chainsaw, food, clothes, sheets, toothbrushes, tools, and all the other random things that somehow turn into a full carload every year.",
+      "type": "paragraph",
+      "html": "<p>That meant loading up all the usual spring stuff, water pump, chainsaw, food, clothes, sheets, toothbrushes, tools, and all the other random things that somehow turn into a full carload every year.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b010",
+      "sourceHtmlSha256": "9334fae7835076cdaee470af75394cf00dcd0a82327ad7e95482a0ef80796c29",
+      "sourceHtml": "<p>And away we went.</p>",
+      "text": "And away we went.",
+      "type": "paragraph",
+      "html": "<p>And away we went.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b011",
+      "sourceHtmlSha256": "2d8699f9149548232922d9fd334af5c2b36d33f002a28b6f5bc037373fff0eeb",
+      "sourceHtml": "<p>This is always one of the most exciting times of the whole year.</p>",
+      "text": "This is always one of the most exciting times of the whole year.",
+      "type": "paragraph",
+      "html": "<p>This is always one of the most exciting times of the whole year.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b012",
+      "sourceHtmlSha256": "8a4a2e1fdba3ec389897d3555fa0eb2af189a6aece5c00d091eb98d588415949",
+      "sourceHtml": "<p>We got there, unloaded everything as fast as we could, and started putting it all away. By then we were more than ready to get moving on all those 2026 projects we had been dreaming about all winter.</p>",
+      "text": "We got there, unloaded everything as fast as we could, and started putting it all away. By then we were more than ready to get moving on all those 2026 projects we had been dreaming about all winter.",
+      "type": "paragraph",
+      "html": "<p>We got there, unloaded everything as fast as we could, and started putting it all away. By then we were more than ready to get moving on all those 2026 projects we had been dreaming about all winter.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b013",
+      "sourceHtmlSha256": "e8aa66d75e0d70c1c311cf46452adfe77849ab52f89fdf565daf8ef8971395d8",
+      "sourceHtml": "<p>First on the list, while the back part of the property had not totally turned into a jungle yet, we wanted to cut a path down through that side of the woods toward the inlet of the lake.</p>",
+      "text": "First on the list, while the back part of the property had not totally turned into a jungle yet, we wanted to cut a path down through that side of the woods toward the inlet of the lake.",
+      "type": "paragraph",
+      "html": "<p>First on the list, while the back part of the property had not totally turned into a jungle yet, we wanted to cut a path down through that side of the woods toward the inlet of the lake.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b014",
+      "sourceHtmlSha256": "b8d78e54e773b85e8c81023d111279b294f7a5baecfa17a31daa9a47ba49bfa3",
+      "sourceHtml": "<p>Now, we do not actually have water frontage ourselves, but our super nice neighbor Randy does. So before they filled the lake back up and everything got too wet down there, we figured it would be smart to cut a walking path to the water. That way, maybe someday, with Randy’s permission of course, we could even bring a kayak and launch it down there.</p>",
+      "text": "Now, we do not actually have water frontage ourselves, but our super nice neighbor Randy does. So before they filled the lake back up and everything got too wet down there, we figured it would be smart to cut a walking path to the water. That way, maybe someday, with Randy’s permission of course, we could even bring a kayak and launch it down there.",
+      "type": "paragraph",
+      "html": "<p>Now, we do not actually have water frontage ourselves, but our super nice neighbor Randy does. So before they filled the lake back up and everything got too wet down there, we figured it would be smart to cut a walking path to the water. That way, maybe someday, with Randy’s permission of course, we could even bring a kayak and launch it down there.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b015",
+      "sourceHtmlSha256": "e4ff34f69cb1be128b0e0c250e971e60fefc226d9a03ec66a9a3ffb27917f129",
+      "sourceHtml": "<p>Once that job was mostly knocked out, it was on to the next thing.</p>",
+      "text": "Once that job was mostly knocked out, it was on to the next thing.",
+      "type": "paragraph",
+      "html": "<p>Once that job was mostly knocked out, it was on to the next thing.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b016",
+      "sourceHtmlSha256": "fe2c894de2e5221fd7da92612af1711c790ff61802df81668348b2cbfcf24c60",
+      "sourceHtml": "<p>Yard cleanup.</p>",
+      "text": "Yard cleanup.",
+      "type": "paragraph",
+      "html": "<p>Yard cleanup.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b017",
+      "sourceHtmlSha256": "21ffe05d3546c2477d67fda569d9ad6e14c3804b2f32e2bd00af514df222bb7a",
+      "sourceHtml": "<p>You know, all the sticks, branches, and random tree mess that had dropped over the winter.</p>",
+      "text": "You know, all the sticks, branches, and random tree mess that had dropped over the winter.",
+      "type": "paragraph",
+      "html": "<p>You know, all the sticks, branches, and random tree mess that had dropped over the winter.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b018",
+      "sourceHtmlSha256": "3596238f20e6302047d5fbe04fc120c28c17d7bb8e33d61abfb40fc94e149ec7",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter27-bonfire-day.jpg\" alt=\"Daytime bonfire in front of the cabin during spring cleanup and reopening work in 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter27-bonfire-day.jpg",
+          "alt": "Daytime bonfire in front of the cabin during spring cleanup and reopening work in 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch27-b017",
+      "nextSourceBlockId": "ch27-b019",
+      "image": {
+        "mediaId": "journey-11b7fddf0729",
+        "alt": "Daytime bonfire in front of the cabin during spring cleanup and reopening work in 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch27-b019",
+      "sourceHtmlSha256": "f25d445e20f037d016b0774298f9ec6449a7599fac73febbed302564dda0596f",
+      "sourceHtml": "<p>Of course, that also gave us a good excuse for a daytime bonfire.</p>",
+      "text": "Of course, that also gave us a good excuse for a daytime bonfire.",
+      "type": "paragraph",
+      "html": "<p>Of course, that also gave us a good excuse for a daytime bonfire.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b020",
+      "sourceHtmlSha256": "d09b3d4b3b567b38a201cb576d5839239bc85ef6fc39e5e1ad9d525e455aab41",
+      "sourceHtml": "<p>Oh yeah.</p>",
+      "text": "Oh yeah.",
+      "type": "paragraph",
+      "html": "<p>Oh yeah.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b021",
+      "sourceHtmlSha256": "693d9f4e976dddbfb50645a8f482c49101f649e0b28c1889d4d6778259ed30f4",
+      "sourceHtml": "<p>And remember that big tree branch the city had pushed into our yard?</p>",
+      "text": "And remember that big tree branch the city had pushed into our yard?",
+      "type": "paragraph",
+      "html": "<p>And remember that big tree branch the city had pushed into our yard?</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b022",
+      "sourceHtmlSha256": "ec2dd71f40a49b6608a36a560e96e3c2d61fe247c4349e53e56d69f5e84c8b9c",
+      "sourceHtml": "<p>Time to turn that into firewood.</p>",
+      "text": "Time to turn that into firewood.",
+      "type": "paragraph",
+      "html": "<p>Time to turn that into firewood.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b023",
+      "sourceHtmlSha256": "36f6471c4f8694b327bd60e3da8110085ba0ba225b7edf08e285151c114e0a18",
+      "sourceHtml": "<p>So we got it all cut up.</p>",
+      "text": "So we got it all cut up.",
+      "type": "paragraph",
+      "html": "<p>So we got it all cut up.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b024",
+      "sourceHtmlSha256": "d3c34f6aa5098914afee1d919fb5d46961e4fe8c5aa6d95c04e788dbb3c337c9",
+      "sourceHtml": "<p>The only problem was, we did not really have a nice-looking place to store it.</p>",
+      "text": "The only problem was, we did not really have a nice-looking place to store it.",
+      "type": "paragraph",
+      "html": "<p>The only problem was, we did not really have a nice-looking place to store it.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b025",
+      "sourceHtmlSha256": "5a03d491214b90250adf66ccff359cc6e313c5c17f24978cea2969846a8bf364",
+      "sourceHtml": "<p>That gave me an idea.</p>",
+      "text": "That gave me an idea.",
+      "type": "paragraph",
+      "html": "<p>That gave me an idea.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b026",
+      "sourceHtmlSha256": "400c1c9c198ad594630adf7cb81502997c89f6a52ab61f7642c83e784fd8340d",
+      "sourceHtml": "<p>Vanessa had seen some cute little firewood storage setup on Facebook, or Pinterest, or somewhere like that. So I did what any good husband would do.</p>",
+      "text": "Vanessa had seen some cute little firewood storage setup on Facebook, or Pinterest, or somewhere like that. So I did what any good husband would do.",
+      "type": "paragraph",
+      "html": "<p>Vanessa had seen some cute little firewood storage setup on Facebook, or Pinterest, or somewhere like that. So I did what any good husband would do.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b027",
+      "sourceHtmlSha256": "55399706b79707382ecfdb6e66fe161e8c0253086fc6cf78683a8d5ea4138aa0",
+      "sourceHtml": "<p>I went shopping.</p>",
+      "text": "I went shopping.",
+      "type": "paragraph",
+      "html": "<p>I went shopping.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b028",
+      "sourceHtmlSha256": "345eed95f382b0cd345ef613223a9c0c2aad6483a8633241d4933f4de369fdd0",
+      "sourceHtml": "<p>For supplies, of course. 🤣</p>",
+      "text": "For supplies, of course. 🤣",
+      "type": "paragraph",
+      "html": "<p>For supplies, of course. 🤣</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b029",
+      "sourceHtmlSha256": "431b1ac7cf7f1a789136ad7e787d2eeaee40ad0a1143812116cb07d60a08c398",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter27-firewood-stand.jpg\" alt=\"Building the new firewood stand along the cabin wall during the 2026 cabin opening trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter27-firewood-stand.jpg",
+          "alt": "Building the new firewood stand along the cabin wall during the 2026 cabin opening trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch27-b028",
+      "nextSourceBlockId": "ch27-b030",
+      "image": {
+        "mediaId": "journey-bd924d9afd5c",
+        "alt": "Building the new firewood stand along the cabin wall during the 2026 cabin opening trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch27-b030",
+      "sourceHtmlSha256": "dce38211b62b0d3240134472e9383fac36ce6af52840828e7455867b989ab606",
+      "sourceHtml": "<p>And that led to the next little build, the firewood stand.</p>",
+      "text": "And that led to the next little build, the firewood stand.",
+      "type": "paragraph",
+      "html": "<p>And that led to the next little build, the firewood stand.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b031",
+      "sourceHtmlSha256": "81615b7b13023037f7c4b12bfc4d3be24c0fb82453cd9d2e73b1afd5fd512028",
+      "sourceHtml": "<p>Now we just had to hope it would hold up.</p>",
+      "text": "Now we just had to hope it would hold up.",
+      "type": "paragraph",
+      "html": "<p>Now we just had to hope it would hold up.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b032",
+      "sourceHtmlSha256": "d25f48d7b967967b9177daa760b4e6f2f9dc000a59d10cabaf55fbe3bceb6bf5",
+      "sourceHtml": "<p>All this building was energizing and fun, but I have got to tell you...</p>",
+      "text": "All this building was energizing and fun, but I have got to tell you...",
+      "type": "paragraph",
+      "html": "<p>All this building was energizing and fun, but I have got to tell you...</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b033",
+      "sourceHtmlSha256": "4965c0bbe9535c0a37ff2679825ecfa404d5bd41aa67f4a414f50987cd5a64e1",
+      "sourceHtml": "<p>my back was not exactly thrilled the next day.</p>",
+      "text": "my back was not exactly thrilled the next day.",
+      "type": "paragraph",
+      "html": "<p>my back was not exactly thrilled the next day.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b034",
+      "sourceHtmlSha256": "606e235c5210404b49dfa52994e8d322e0317f810d51de81d86aa5b5476c867b",
+      "sourceHtml": "<p>So we slowed it down a little and gave ourselves permission to relax.</p>",
+      "text": "So we slowed it down a little and gave ourselves permission to relax.",
+      "type": "paragraph",
+      "html": "<p>So we slowed it down a little and gave ourselves permission to relax.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b035",
+      "sourceHtmlSha256": "64ec596e0549f2ab09854eb3b08b0bb7d364d47c07040e822cb491e198e03af6",
+      "sourceHtml": "<p>Not a bad trade, honestly.</p>",
+      "text": "Not a bad trade, honestly.",
+      "type": "paragraph",
+      "html": "<p>Not a bad trade, honestly.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b036",
+      "sourceHtmlSha256": "42e7a0ac66560baf68cc50a3e80bccbde67ccb2712dd27e412365930262a4fdb",
+      "sourceHtml": "<p>That just meant more deck time.</p>",
+      "text": "That just meant more deck time.",
+      "type": "paragraph",
+      "html": "<p>That just meant more deck time.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b037",
+      "sourceHtmlSha256": "6c850ca143934cf84e115aaf79787637d93cdbdebdbb331d7cf6ef3987b0f327",
+      "sourceHtml": "<p>And there is not much better than sitting out on the back deck with a couple of drinks in rocking lawn chairs, letting the soreness from the day before ease off while you look around at what you have been building.</p>",
+      "text": "And there is not much better than sitting out on the back deck with a couple of drinks in rocking lawn chairs, letting the soreness from the day before ease off while you look around at what you have been building.",
+      "type": "paragraph",
+      "html": "<p>And there is not much better than sitting out on the back deck with a couple of drinks in rocking lawn chairs, letting the soreness from the day before ease off while you look around at what you have been building.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b038",
+      "sourceHtmlSha256": "cb5b1644dd2493c589ac94d9c135c3984e21a252638e4992159cd67e8d1a8d08",
+      "sourceHtml": "<p>That evening, we also built a fire in the wood stove to knock the chill out of the cabin and keep us warm through the night.</p>",
+      "text": "That evening, we also built a fire in the wood stove to knock the chill out of the cabin and keep us warm through the night.",
+      "type": "paragraph",
+      "html": "<p>That evening, we also built a fire in the wood stove to knock the chill out of the cabin and keep us warm through the night.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b039",
+      "sourceHtmlSha256": "2a55ee7bad43bec2b5b78dfdd35f62cc606396fc0dc09c027ebd71f8c9910f4d",
+      "sourceHtml": "<p>By the next day, it was already time to head back to the city.</p>",
+      "text": "By the next day, it was already time to head back to the city.",
+      "type": "paragraph",
+      "html": "<p>By the next day, it was already time to head back to the city.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b040",
+      "sourceHtmlSha256": "e32d71441710d6f1abdd7ac7c37f4a41d2e392dcf28d22201450dd9033f245a3",
+      "sourceHtml": "<p>As always, that part is a little sad.</p>",
+      "text": "As always, that part is a little sad.",
+      "type": "paragraph",
+      "html": "<p>As always, that part is a little sad.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b041",
+      "sourceHtmlSha256": "bde450ca8511e3f7b46fe7fb0b4e5de301435afd7d20f87c95b5e598d2a8a484",
+      "sourceHtml": "<p>But adult responsibility and jobs still had a hold on us.</p>",
+      "text": "But adult responsibility and jobs still had a hold on us.",
+      "type": "paragraph",
+      "html": "<p>But adult responsibility and jobs still had a hold on us.</p>"
+    },
+    {
+      "sourceBlockId": "ch27-b042",
+      "sourceHtmlSha256": "cfd74da12573ec5c12b27d5f8383e3be8a6e702e41d7eff33e062daf1e6e65f0",
+      "sourceHtml": "<p>So until next time, y’all.</p>",
+      "text": "So until next time, y’all.",
+      "type": "paragraph",
+      "html": "<p>So until next time, y’all.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-d301ecd6bcf5",
+    "alt": "Cleared walking path through the woods toward the water during the first full 2026 cabin opening stretch",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "By late April and early May, the weather was finally giving us multiple decent days in a row. So it was time to take advantage of it.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Seven",
+  "originalHeadingAfterBlocks": 1
+}

@@ -1,0 +1,212 @@
+{
+  "id": "raised-bed",
+  "kind": "guide",
+  "variant": "raised-bed",
+  "route": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+  "output": "pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html",
+  "title": "What to Plant in a 4x8 Raised Bed | Quiet Backyard Living",
+  "description": "Four visual raised-bed concepts, practical fit and access cautions, herb placement and links to the QBL garden planner.",
+  "status": "review",
+  "bodyClass": "rs-edition hp-edition co-edition hy-edition article-page",
+  "mainAttrs": {
+    "class": "rs rs-raised-bed"
+  },
+  "wrapperAttrs": null,
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/representative-system.css"
+  ],
+  "scripts": [
+    "/assets/representative-system.js"
+  ],
+  "blocks": [
+    {
+      "component": "raised-bed/rs-wrap-0",
+      "copy": {
+        "a_1": "QBL",
+        "nav_1": " / ",
+        "a_2": "Growing & Gathering",
+        "nav_2": " / ",
+        "span_1": "4 × 8 raised beds",
+        "span_2": "Raised beds / Food you actually eat",
+        "h1_1": "A 4 × 8 bed.",
+        "em_1": "Make it count.",
+        "p_1": "What to plant in a 4 × 8 raised bed.",
+        "p_2": "Thirty-two square feet can be useful. Choose the kind of meals you want from it, then leave room to grow and get in there.",
+        "a_3": "Choose a direction ",
+        "span_3": "↗",
+        "figcaption_1": "Actual QBL raised bed; dimensions are not established by this photograph.",
+        "a_4": "Choose a bed plan ",
+        "span_4": "↓",
+        "a_5": "Check the fit ",
+        "span_5": "↓",
+        "a_6": "Place the herbs ",
+        "span_6": "↓",
+        "a_7": "Our watering lesson ",
+        "span_7": "↓",
+        "span_8": "Pick your main lane",
+        "h2_1": "What do you",
+        "em_2": "actually eat?",
+        "p_3": "Choose a concept to picture the bed. This is a visual guide—not a precision spacing calculation.",
+        "button_1": "Tomato & pepper",
+        "button_2": "Salad",
+        "button_3": "Salsa & sauce",
+        "button_4": "Mixed family",
+        "div_1": "8 feet ",
+        "span_9": "↔",
+        "div_2": "Tomatoes · support & airflow",
+        "div_3": "Peppers · room to mature",
+        "div_4": "Onions or early lettuce",
+        "div_5": "Basil near a few plants",
+        "span_10": "4 feet",
+        "p_4": "32 square feet. Diagram not to scale; zone sizes and plant counts are not calculated. “Back” means the taller side of your arrangement—not a compass direction. Match placement to your sunlight and access.",
+        "span_11": "The selected direction",
+        "h3_1": "Tomato & pepper",
+        "p_5": "A mix built around tomatoes and peppers, with low crops at the reachable front. Check mature size and spacing for your varieties.",
+        "a_8": "Try the interactive planner ",
+        "span_12": "↗",
+        "p_6": "The planner supplies a rough sketch too. It does not certify spacing for your varieties.",
+        "p_7": "Other source concepts: a salad bed with greens, roots and herbs; a salsa bed with tomatoes, peppers, onions and cilantro; or a mixed bed with a main crop, roots and a leafy front strip.",
+        "span_13": "Before anything goes in",
+        "h2_2": "Fewer big plants.",
+        "em_3": "More useful room.",
+        "span_14": "01",
+        "h3_2": "Start with size.",
+        "p_8": "Zucchini can dominate. Cucumbers need support or sprawling room. Mature size matters more than the size of a starter pot.",
+        "span_15": "02",
+        "h3_3": "Keep access.",
+        "p_9": "Can you reach the middle, supports and fruit? A productive-looking map is not useful if harvesting becomes a wrestling match.",
+        "span_16": "03",
+        "h3_4": "Respect the edges.",
+        "p_10": "Pumpkins, winter squash and sprawling melons usually need more room. An edge experiment is different from a reliable fit.",
+        "span_17": "The small support crew",
+        "h2_3": "Herbs fit best",
+        "em_4": "with a purpose.",
+        "figcaption_2": "Basil reference photography · Alexas Fotos / Pexels",
+        "h3_5": "Choose a few you’ll cut.",
+        "p_11": "Try basil near tomatoes or peppers, narrow chives, reachable parsley, and thyme on drier edges. These are starting ideas, not a reason to fill every spare inch.",
+        "h3_6": "Keep the collectors elsewhere.",
+        "p_12": "Mint belongs in its own pot in this plan. Give a large rosemary or lavender plant room of its own rather than treating it as a tiny permanent tuck-in.",
+        "a_9": "Explore the herb library ",
+        "span_18": "↗",
+        "figcaption_3": "From Jeff & Vanessa’s actual backyard journal.",
+        "span_19": "Our place / The continuing story",
+        "h2_4": "The missing piece",
+        "em_5": "wasn’t another plant.",
+        "p_13": "After the city raised beds struggled again, we started looking for a better watering approach. Ollas became an experiment, not a proven rescue story.",
+        "a_10": "Read our garden story ",
+        "span_20": "↗",
+        "span_21": "Watering / The experiment",
+        "h3_7": "Think about your time away.",
+        "p_14": "See the actual build and its still-open result.",
+        "span_22": "Take a look ",
+        "span_23": "↗",
+        "span_24": "Another direction",
+        "h3_8": "A bed for salad people.",
+        "p_15": "Explore the existing greens-focused guide.",
+        "span_25": "Take a look ",
+        "span_26": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/garden-help",
+        "link_3": "#choose-bed",
+        "link_4": "#choose-bed",
+        "link_5": "#bed-reality",
+        "link_6": "#bed-herbs",
+        "link_7": "#our-experience",
+        "link_8": {
+          "contentId": "tool"
+        },
+        "link_9": "/pages/the-backyard-herb-hub",
+        "link_10": "/pages/what-we-re-up-to-around-the-yard-and-cabin#trying-ollas",
+        "link_11": "/pages/diy-olla-watering-system",
+        "link_12": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Young plants in a QBL raised bed",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-259c3292ef61",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Basil foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-e5c218b2a0d0",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A terracotta olla installed in a QBL raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_4": {
+          "mediaId": "media-e5c218b2a0d0",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Terracotta olla installed in a bed",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_5": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Lettuce foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "raised-bed/section-7-1",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "raised-bed/pg-section-10-2",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "raised-bed/section-6-3",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "raised-bed/section-8-4",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "raised-bed/pg-section-9-5",
+      "copy": {},
+      "links": {},
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat.html"
+}

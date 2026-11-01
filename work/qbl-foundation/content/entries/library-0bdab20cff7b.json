@@ -1,0 +1,42 @@
+{
+  "id": "library-0bdab20cff7b",
+  "route": "/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed",
+  "output": "pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed.html",
+  "title": "Best Herbs for Small Spaces, If You Want the Most Use from a Patio, Pot, or Small Bed | Quiet Backyard Living",
+  "description": "If you only have a patio, a deck, a few pots, a bright window, or one little raised bed, every herb needs to earn its place. This is not a generic herb list. It is a",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-0bdab20cff7b.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-0bdab20cff7b.html",
+  "department": "growing",
+  "topic": "Herbs & using the harvest",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed.html",
+    "sha256": "abdeb71b982762aa9e87c0c211b33d9e3305ae1cc7086efcdce27ac6a30db200"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

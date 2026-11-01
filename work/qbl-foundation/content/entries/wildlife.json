@@ -1,0 +1,161 @@
+{
+  "id": "wildlife",
+  "kind": "guide",
+  "variant": "wildlife",
+  "route": "/pages/what-to-feed-squirrels-and-chipmunks",
+  "output": "pages/what-to-feed-squirrels-and-chipmunks.html",
+  "title": "What to Feed Squirrels and Chipmunks, and What to Plant for Natural Food | Quiet Backyard Living",
+  "description": "QBL wildlife field notes, natural-food and habitat ideas, careful feeding context and the real Chippy story.",
+  "status": "review",
+  "bodyClass": "rs-edition hp-edition co-edition hy-edition article-page",
+  "mainAttrs": {
+    "class": "rs rs-wildlife"
+  },
+  "wrapperAttrs": null,
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/representative-system.css"
+  ],
+  "scripts": [
+    "/assets/representative-system.js"
+  ],
+  "blocks": [
+    {
+      "component": "wildlife/rs-wrap-0",
+      "copy": {
+        "a_1": "QBL",
+        "nav_1": " / ",
+        "a_2": "Wildlife",
+        "nav_2": " / ",
+        "span_1": "Squirrels & chipmunks",
+        "figcaption_1": "Actual QBL backyard visitors. A photograph of feeding is not a dietary recommendation.",
+        "span_2": "The backyard regulars / A practical field notebook",
+        "h1_1": "Squirrels.",
+        "h1_2": "Chipmunks.",
+        "em_1": "A yard with life.",
+        "p_1": "What to feed squirrels and chipmunks—and what to plant for natural food.",
+        "p_2": "What they eat, what we’ve watched, and why a place to live matters as much as a place to stop for a snack.",
+        "a_3": "Open the field notes ",
+        "span_3": "↗",
+        "a_4": "Natural food ",
+        "span_4": "↓",
+        "a_5": "Feeding questions ",
+        "span_5": "↓",
+        "a_6": "Habitat ",
+        "span_6": "↓",
+        "a_7": "Meet Chippy ",
+        "span_7": "↓",
+        "span_8": "The natural-food notebook",
+        "h2_1": "Different visitors.",
+        "em_2": "Plenty to forage.",
+        "figcaption_2": "An unnamed chipmunk; not every photograph identifies Chippy.",
+        "h3_1": "Squirrels",
+        "p_3": "Acorns, hickory and walnuts, beechnuts, hazelnuts, seeds, berries, mushrooms, buds and shoots are among their natural foods.",
+        "h3_2": "Chipmunks",
+        "p_4": "Seeds, nuts, berries, grains, mushrooms, fallen fruit and occasional insects all appear in a varied diet. What is available varies by place and season.",
+        "p_5": "These are examples of food in a varied natural diet—not a complete menu or feeding ration.",
+        "span_9": "Before putting food out",
+        "h2_2": "A visitor enjoying a snack",
+        "em_3": "doesn’t settle the whole question.",
+        "p_6": "At our feeding spots, the regulars have gone for seeds, corn and nuts. That is part of our backyard story. It does not prove a balanced diet, a safe portion or a good approach for every yard.",
+        "p_7": "Wildlife agencies caution that feeding mammals can change behavior, concentrate animals and spread disease. Check local wildlife guidance and favor habitat over creating a dependence on handouts.",
+        "a_8": "Read the U.S. Fish & Wildlife Service feeding guidance.",
+        "summary_1": "What about peanuts, corn and fruit?",
+        "p_8": "Plain nuts and seeds, corn and small fruit pieces belong to our backyard feeding notes. That does not establish a balanced ration or make raw peanuts a universally safe choice. Get species-specific guidance rather than using a snack list as a complete feeding plan.",
+        "summary_2": "What should stay out of the feeding area?",
+        "p_9": "Keep salty or flavored snacks, candy, bread, chips, moldy nuts and spoiled leftovers out. Skipping junk food still does not establish that supplemental feeding is appropriate for your situation.",
+        "summary_3": "What about an injured or orphaned animal?",
+        "p_10": "Contact a licensed wildlife rehabilitator rather than trying to feed or treat the animal yourself. See the linked wildlife-agency guidance.",
+        "span_10": "A place to live / The longer view",
+        "h2_3": "Plant for a landscape.",
+        "em_4": "Leave some shelter.",
+        "h3_3": "Berries & fruit.",
+        "p_11": "Consider serviceberry, elderberry, mulberry, wild plum, chokecherry, crabapple, raspberries, blackberries or blueberries. Choose species that suit your region and site; the list is not a native-plant certification.",
+        "h3_4": "Nuts & cover.",
+        "p_12": "Oak, hickory, black walnut, beech and hazelnut are possibilities to explore. Shrubs, wood edges and log piles can provide shelter too. Think mature size and your actual yard before planting.",
+        "h3_5": "Water belongs in the conversation.",
+        "p_13": "Food, water and nearby cover are connected. Manage any shared wildlife resource with local guidance and regular attention; this is not a feeder-hygiene protocol.",
+        "figcaption_3": "Our woodpile and feeding area, part of the real backyard setting.",
+        "figcaption_4": "Chippy, from the cabin journal—not an illustration or stock animal.",
+        "span_11": "Meanwhile, at our place…",
+        "h2_4": "One little regular.",
+        "em_5": "A much longer story.",
+        "p_14": "The snack service became part of the cabin rhythm. Meet Chippy in the journal, follow the spring return, and see the old lumber that turned into a playground.",
+        "a_9": "Meet Chippy ",
+        "span_12": "↗",
+        "a_10": "Follow the spring return ",
+        "span_13": "↗",
+        "a_11": "See the woodpile playground ",
+        "span_14": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/wildlife",
+        "link_3": "#wild-food",
+        "link_4": "#wild-food",
+        "link_5": "#feeding-notes",
+        "link_6": "#food-and-cover",
+        "link_7": "#meet-chippy",
+        "link_8": "https://www.fws.gov/story/hidden-harm-feeding-your-local-wildlife",
+        "link_9": "/pages/what-we-re-up-to-around-the-yard-and-cabin#meeting-chippy",
+        "link_10": "/pages/what-we-re-up-to-around-the-yard-and-cabin#chippy-spring-return",
+        "link_11": "/pages/squirrel-playground-old-lumber"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-189f9b2f446b",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A squirrel and chipmunk sharing a QBL feeding area",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-5c48328327b9",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A chipmunk eating in the QBL backyard",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_3": {
+          "mediaId": "media-005c133099c1",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A squirrel near the QBL woodpile playground",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_4": {
+          "mediaId": "media-097bdfdc026b",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Chippy in the QBL cabin journal",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "wildlife/pg-section-8-1",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "wildlife/pg-section-9-2",
+      "copy": {},
+      "links": {},
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\what-to-feed-squirrels-and-chipmunks.html"
+}

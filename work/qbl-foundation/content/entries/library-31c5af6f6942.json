@@ -1,0 +1,42 @@
+{
+  "id": "library-31c5af6f6942",
+  "route": "/pages/what-to-grow-near-chickpeas",
+  "output": "pages/what-to-grow-near-chickpeas.html",
+  "title": "What to Grow Near Chickpeas | Quiet Backyard Living",
+  "description": "Chickpeas like a fairly practical uncrowded bed and usually make more sense when the nearby plants do not overwhelm them or overcomplicate the space.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-31c5af6f6942.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-31c5af6f6942.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-chickpeas.html",
+    "sha256": "86af04c2734a4fa443e68a07cceb89e462808c0d74a306b06dd11e6a1faf2fd4"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

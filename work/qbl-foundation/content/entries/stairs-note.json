@@ -1,0 +1,49 @@
+{
+  "id": "stairs-note",
+  "route": "/notebook/stairs-before-the-walls",
+  "output": "notebook/stairs-before-the-walls.html",
+  "title": "A little set of stairs made the next job easier. | Quiet Backyard Living",
+  "storyTitle": "A little set of stairs made the next job easier.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "Before the cabin walls, the storage shed needed a better way in.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "A useful little win · June 2026",
+  "noteHtml": "<p>But before we could get to the walls, we needed stairs on that ugly green storage shed.</p>\n<p>Nothing fancy, just one of those practical little jobs that instantly makes everything around it work better.</p>",
+  "coverMedia": {
+    "mediaId": "media-9cc7d2dfaf84",
+    "alt": "A little set of stairs made the next job easier.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Nine",
+  "parentId": "journey-ch29",
+  "noteSlug": "stairs-before-the-walls",
+  "sourceReference": {
+    "chapter": 29,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

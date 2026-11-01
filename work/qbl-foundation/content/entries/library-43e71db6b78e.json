@@ -1,0 +1,40 @@
+{
+  "id": "library-43e71db6b78e",
+  "route": "/stories/from-our-backyard",
+  "output": "stories/from-our-backyard.html",
+  "title": "From our backyard. | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition thread-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-43e71db6b78e.html",
+  "department": "journey",
+  "topic": "Our Place & the journal",
+  "sourceReference": {
+    "file": "reference/library-import-source/stories/from-our-backyard.html",
+    "sha256": "e2f885ee2b5db3f0ac7f7847c998bbc08c50bbda0d4b206e43d6dbbcd5bbb2cf"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

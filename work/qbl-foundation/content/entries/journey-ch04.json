@@ -1,0 +1,392 @@
+{
+  "id": "journey-ch04",
+  "route": "/our-journey/chapters/chapter-04",
+  "output": "our-journey/chapters/chapter-04.html",
+  "title": "We bought a RIDING LAWN MOWER, BABY! | Quiet Backyard Living",
+  "storyTitle": "We bought a RIDING LAWN MOWER, BABY!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "We bought a RIDING LAWN MOWER, BABY!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 4,
+  "chapterOrder": 4,
+  "seriesId": "happy-place",
+  "dateLabel": "Later in 2022",
+  "dateEvidence": "Later 2022 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 4,
+    "articleSha256": "e773b4da274acb95cebc5524923c020de16e000f4b3dc9f578103ee84f079ed8",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-6"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch04-b001",
+      "sourceHtmlSha256": "5d41d8f8ccb318375826f419a4b9b22a427403b96c688366508a212aa0b08d2e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter4-mower-vanessa.jpg\" alt=\"Vanessa trying out the Cub Cadet 46 inch deck riding lawn mower at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-mower-vanessa.jpg",
+          "alt": "Vanessa trying out the Cub Cadet 46 inch deck riding lawn mower at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch04-b002",
+      "image": {
+        "mediaId": "journey-1f390d194fea",
+        "alt": "Vanessa trying out the Cub Cadet 46 inch deck riding lawn mower at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b004",
+      "sourceHtmlSha256": "b4fc80f7836249c720a385842796bfc9e1bca664ee29502148c515a56cce9777",
+      "sourceHtml": "<p>At some point, reality set in.</p>",
+      "text": "At some point, reality set in.",
+      "type": "paragraph",
+      "html": "<p>At some point, reality set in.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b005",
+      "sourceHtmlSha256": "07eb672b3fed17ffdcf6473ca4ce6265b4874a6f1f04f62fd590fca537a12b18",
+      "sourceHtml": "<p>If we were really going to manage this place ourselves, there was no way we were push mowing nearly two acres of property. The thought of it scared the hell out of me. After all, it had taken my brother-in-law two or three hours just to mow the place on a riding mower, and that was enough proof for me.</p>",
+      "text": "If we were really going to manage this place ourselves, there was no way we were push mowing nearly two acres of property. The thought of it scared the hell out of me. After all, it had taken my brother-in-law two or three hours just to mow the place on a riding mower, and that was enough proof for me.",
+      "type": "paragraph",
+      "html": "<p>If we were really going to manage this place ourselves, there was no way we were push mowing nearly two acres of property. The thought of it scared the hell out of me. After all, it had taken my brother-in-law two or three hours just to mow the place on a riding mower, and that was enough proof for me.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b006",
+      "sourceHtmlSha256": "a69206a0c9260a2b3fd9f1b48d9f45a9ba40ae23366a4a11d8bc50d071bf32c0",
+      "sourceHtml": "<p>So we bought a riding lawn mower. A Cub Cadet with a 46-inch deck. And yes, that felt like a pretty big deal.</p>",
+      "text": "So we bought a riding lawn mower. A Cub Cadet with a 46-inch deck. And yes, that felt like a pretty big deal.",
+      "type": "paragraph",
+      "html": "<p>So we bought a riding lawn mower. A Cub Cadet with a 46-inch deck. And yes, that felt like a pretty big deal.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b007",
+      "sourceHtmlSha256": "9bea4c81c93756c2755dc692b7399dacc71105af981eb51a3acee82bbe26566f",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter4-sea-of-grass.jpg\" alt=\"Wide sea of grass view with the riding mower near the young trees at the cabin property\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-sea-of-grass.jpg",
+          "alt": "Wide sea of grass view with the riding mower near the young trees at the cabin property"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch04-b006",
+      "nextSourceBlockId": "ch04-b008",
+      "image": {
+        "mediaId": "journey-e4006f965cf2",
+        "alt": "Wide sea of grass view with the riding mower near the young trees at the cabin property",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b008",
+      "sourceHtmlSha256": "239c85092709861318fa6befeab1794ba4a7a2a487425a464321c679aefb89cc",
+      "sourceHtml": "<p>Now we could tackle this almost two-acre property ourselves. That mower gave us something bigger than convenience. It gave us confidence. It made the place feel more possible, more manageable, and a little less intimidating. It was one of those purchases that immediately changed the way we looked at the property.</p>",
+      "text": "Now we could tackle this almost two-acre property ourselves. That mower gave us something bigger than convenience. It gave us confidence. It made the place feel more possible, more manageable, and a little less intimidating. It was one of those purchases that immediately changed the way we looked at the property.",
+      "type": "paragraph",
+      "html": "<p>Now we could tackle this almost two-acre property ourselves. That mower gave us something bigger than convenience. It gave us confidence. It made the place feel more possible, more manageable, and a little less intimidating. It was one of those purchases that immediately changed the way we looked at the property.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b009",
+      "sourceHtmlSha256": "5d6be24add99c832451652339eb56b83e8e005c3480b9de6fa5b7f8032144dd1",
+      "sourceHtml": "<p>Of course, it also took a decent bite out of our already shrinking budget.</p>",
+      "text": "Of course, it also took a decent bite out of our already shrinking budget.",
+      "type": "paragraph",
+      "html": "<p>Of course, it also took a decent bite out of our already shrinking budget.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b010",
+      "sourceHtmlSha256": "e5f6739b029a310c83073c05cfa77aa26b851457bcd4cdc1a15ce066490b9e5a",
+      "sourceHtml": "<p>Closing costs had already hit. Insurance had been its own headache. And now the fancy new mower had joined the list. So Chapter 4 was not really the season of fixing everything up or upgrading the whole place in some dramatic way. We were still very much in the season of making it work.</p>",
+      "text": "Closing costs had already hit. Insurance had been its own headache. And now the fancy new mower had joined the list. So Chapter 4 was not really the season of fixing everything up or upgrading the whole place in some dramatic way. We were still very much in the season of making it work.",
+      "type": "paragraph",
+      "html": "<p>Closing costs had already hit. Insurance had been its own headache. And now the fancy new mower had joined the list. So Chapter 4 was not really the season of fixing everything up or upgrading the whole place in some dramatic way. We were still very much in the season of making it work.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b011",
+      "sourceHtmlSha256": "2c534d21e6ee2cef7775651647c9aee5511f6a9a22672e4735c1aa82d1cf4a02",
+      "sourceHtml": "<p>That meant a lot of the progress came through smaller comfort items and practical little upgrades. We kept bringing things that made life easier, not glamorous, just easier.</p>",
+      "text": "That meant a lot of the progress came through smaller comfort items and practical little upgrades. We kept bringing things that made life easier, not glamorous, just easier.",
+      "type": "paragraph",
+      "html": "<p>That meant a lot of the progress came through smaller comfort items and practical little upgrades. We kept bringing things that made life easier, not glamorous, just easier.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b012",
+      "sourceHtmlSha256": "49cc7db182ccfe683c03cbc83ee1a713e09f3f385c73a28d87fc980767c72df0",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter4-now-were-cooking.jpg\" alt=\"Simple early cabin cooking setup with hot plate and basic gear\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-now-were-cooking.jpg",
+          "alt": "Simple early cabin cooking setup with hot plate and basic gear"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch04-b011",
+      "nextSourceBlockId": "ch04-b013",
+      "image": {
+        "mediaId": "journey-08adfef3a9e7",
+        "alt": "Simple early cabin cooking setup with hot plate and basic gear",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b013",
+      "sourceHtmlSha256": "1c391f0ceea30777a22a9a0530e158d1d9383cc74fa2d59934262b2d7c6ded68",
+      "sourceHtml": "<p>By now we had the cooktop and the crock-pot-style pan setup, which meant we were at least moving beyond cooler food and town meals every time. We were not exactly making gourmet meals, but we were slowly building a setup that felt more livable.</p>",
+      "text": "By now we had the cooktop and the crock-pot-style pan setup, which meant we were at least moving beyond cooler food and town meals every time. We were not exactly making gourmet meals, but we were slowly building a setup that felt more livable.",
+      "type": "paragraph",
+      "html": "<p>By now we had the cooktop and the crock-pot-style pan setup, which meant we were at least moving beyond cooler food and town meals every time. We were not exactly making gourmet meals, but we were slowly building a setup that felt more livable.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b014",
+      "sourceHtmlSha256": "1815ece6fe7c021634a5b653831bb465f8aedee7167f3aa696f1892554afdcfa",
+      "sourceHtml": "<p>The rest of that first year, which really was only a handful of trips, was mostly spent staying a night or two at a time and enjoying the place as a kind of better-than-tent-camping experience. It was still primitive, still rough, still very much a work in progress, but it was ours, and it was getting easier to settle into.</p>",
+      "text": "The rest of that first year, which really was only a handful of trips, was mostly spent staying a night or two at a time and enjoying the place as a kind of better-than-tent-camping experience. It was still primitive, still rough, still very much a work in progress, but it was ours, and it was getting easier to settle into.",
+      "type": "paragraph",
+      "html": "<p>The rest of that first year, which really was only a handful of trips, was mostly spent staying a night or two at a time and enjoying the place as a kind of better-than-tent-camping experience. It was still primitive, still rough, still very much a work in progress, but it was ours, and it was getting easier to settle into.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b015",
+      "sourceHtmlSha256": "d8c1690551991cea3de3073fbd3e687b74c6ec24cdfe61782c6b95fc59a1bcc2",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter4-before-rainwater-catch.jpg\" alt=\"Exterior cabin view before later rainwater catch improvements were added\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-before-rainwater-catch.jpg",
+          "alt": "Exterior cabin view before later rainwater catch improvements were added"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch04-b014",
+      "nextSourceBlockId": "ch04-b016",
+      "image": {
+        "mediaId": "journey-d8269011daff",
+        "alt": "Exterior cabin view before later rainwater catch improvements were added",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b016",
+      "sourceHtmlSha256": "6fb46e50b70ed8371d2edab091d1bfcc6325dd2a513fd7f4fefa220435e784b4",
+      "sourceHtml": "<p>This was also the season when we started realizing just how important water was going to be.</p>",
+      "text": "This was also the season when we started realizing just how important water was going to be.",
+      "type": "paragraph",
+      "html": "<p>This was also the season when we started realizing just how important water was going to be.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b017",
+      "sourceHtmlSha256": "63e28c85b8884b7e9c305a7914581d963b8ec7878fa38bf4f64653d62d768eb7",
+      "sourceHtml": "<p>Because our well sucked.</p>",
+      "text": "Because our well sucked.",
+      "type": "paragraph",
+      "html": "<p>Because our well sucked.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b018",
+      "sourceHtmlSha256": "dda1234fe3a3aedfdc31a360c1febd9ef9ec86dfd3e2b489e931ebae4d67cc91",
+      "sourceHtml": "<p>That became clearer and clearer the more time we spent there. At first, we were mostly thinking about comfort and convenience, but before long we started understanding that water was going to be one of the biggest keys to making the place functional. In the city, you take that for granted. You turn a faucet, and there it is. At the cabin, we were starting to understand that water is life.</p>",
+      "text": "That became clearer and clearer the more time we spent there. At first, we were mostly thinking about comfort and convenience, but before long we started understanding that water was going to be one of the biggest keys to making the place functional. In the city, you take that for granted. You turn a faucet, and there it is. At the cabin, we were starting to understand that water is life.",
+      "type": "paragraph",
+      "html": "<p>That became clearer and clearer the more time we spent there. At first, we were mostly thinking about comfort and convenience, but before long we started understanding that water was going to be one of the biggest keys to making the place functional. In the city, you take that for granted. You turn a faucet, and there it is. At the cabin, we were starting to understand that water is life.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b019",
+      "sourceHtmlSha256": "71edfda203671fbaa5127f1302268288b0e45de1d6950fa9706f4a2051000858",
+      "sourceHtml": "<p>That realization pushed us into planning mode.</p>",
+      "text": "That realization pushed us into planning mode.",
+      "type": "paragraph",
+      "html": "<p>That realization pushed us into planning mode.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b020",
+      "sourceHtmlSha256": "fa4ce5153d7019c4acf7a4671eca124e58ec3d0703e4bd948490ded700c25da4",
+      "sourceHtml": "<p>By then, we were already starting to think about how we could catch rainwater. The problem was, the cabin did not even have eavestroughs yet, so the bigger version of that plan was going to have to wait until the next spring, when hopefully the wallet had loaded back up a little. The long-term vision was already starting to take shape, get the metal roof situation sorted out, have seamless gutters installed, and figure out how to get this place plumbed into something that actually worked.</p>",
+      "text": "By then, we were already starting to think about how we could catch rainwater. The problem was, the cabin did not even have eavestroughs yet, so the bigger version of that plan was going to have to wait until the next spring, when hopefully the wallet had loaded back up a little. The long-term vision was already starting to take shape, get the metal roof situation sorted out, have seamless gutters installed, and figure out how to get this place plumbed into something that actually worked.",
+      "type": "paragraph",
+      "html": "<p>By then, we were already starting to think about how we could catch rainwater. The problem was, the cabin did not even have eavestroughs yet, so the bigger version of that plan was going to have to wait until the next spring, when hopefully the wallet had loaded back up a little. The long-term vision was already starting to take shape, get the metal roof situation sorted out, have seamless gutters installed, and figure out how to get this place plumbed into something that actually worked.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b021",
+      "sourceHtmlSha256": "28598f623b92d08aea2af390ffb939b09200a11f13153e9a4efa91dac8551583",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter4-barrel-washup.jpg\" alt=\"First crude outdoor barrel wash-up setup beside the bathroom structure\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-barrel-washup.jpg",
+          "alt": "First crude outdoor barrel wash-up setup beside the bathroom structure"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch04-b020",
+      "nextSourceBlockId": "ch04-b022",
+      "image": {
+        "mediaId": "journey-0473f66f2f76",
+        "alt": "First crude outdoor barrel wash-up setup beside the bathroom structure",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b022",
+      "sourceHtmlSha256": "ef0e865f553372213250626cc349e467c8bf51a937bb028797bb6e79b2eb92e5",
+      "sourceHtml": "<p>But in the meantime, I started doing what people do when money is tight and the need is immediate. I rigged up a first crude system. I hooked a barrel up outside the bathroom and plumbed in a rough valve so we had at least some kind of way to wash our hands and faces and do the little everyday things people need to do. It was not pretty. It was not elegant. But it was a step.</p>",
+      "text": "But in the meantime, I started doing what people do when money is tight and the need is immediate. I rigged up a first crude system. I hooked a barrel up outside the bathroom and plumbed in a rough valve so we had at least some kind of way to wash our hands and faces and do the little everyday things people need to do. It was not pretty. It was not elegant. But it was a step.",
+      "type": "paragraph",
+      "html": "<p>But in the meantime, I started doing what people do when money is tight and the need is immediate. I rigged up a first crude system. I hooked a barrel up outside the bathroom and plumbed in a rough valve so we had at least some kind of way to wash our hands and faces and do the little everyday things people need to do. It was not pretty. It was not elegant. But it was a step.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b023",
+      "sourceHtmlSha256": "a672b3e3b04d742d4cb3159362becd33cd914f24f7a3306d8799c410d83a1a82",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter4-unfinished-roof.jpg\" alt=\"Unfinished roof detail showing work the previous owner never completed\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter4-unfinished-roof.jpg",
+          "alt": "Unfinished roof detail showing work the previous owner never completed"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch04-b022",
+      "nextSourceBlockId": "ch04-b024",
+      "image": {
+        "mediaId": "journey-f2f772929d3b",
+        "alt": "Unfinished roof detail showing work the previous owner never completed",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch04-b024",
+      "sourceHtmlSha256": "6db57f2b25e8c0b9c783402091310c02035dc08c273b59ce86c0903efa8fc6df",
+      "sourceHtml": "<p>Around that same time, we also had to start measuring for the metal roof the previous owner never finished. That was another one of those constant reminders that this property had been left full of half-done ideas and unfinished projects. It felt like every time we turned around, there was another job waiting for us that somebody else had started and walked away from.</p>",
+      "text": "Around that same time, we also had to start measuring for the metal roof the previous owner never finished. That was another one of those constant reminders that this property had been left full of half-done ideas and unfinished projects. It felt like every time we turned around, there was another job waiting for us that somebody else had started and walked away from.",
+      "type": "paragraph",
+      "html": "<p>Around that same time, we also had to start measuring for the metal roof the previous owner never finished. That was another one of those constant reminders that this property had been left full of half-done ideas and unfinished projects. It felt like every time we turned around, there was another job waiting for us that somebody else had started and walked away from.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b025",
+      "sourceHtmlSha256": "c2e86dd1ff0f58295c0100636b7a2cdad4ebf63b465a9fb7496b3bd7e107bcc9",
+      "sourceHtml": "<p>Still, even with all that, there was energy in it.</p>",
+      "text": "Still, even with all that, there was energy in it.",
+      "type": "paragraph",
+      "html": "<p>Still, even with all that, there was energy in it.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b026",
+      "sourceHtmlSha256": "d4ec9091a0c2daf08f45d7cba5da1ce2122f5fb96a6ba3951be2a3cab9a2340f",
+      "sourceHtml": "<p>A lot of this chapter was not about huge visible change. It was about motivation. Planning. Saving money. Figuring out next spring before next spring got here. Get the metal roofing material. Have a company install seamless gutters. Get this sucker plumbed. Start turning rough systems into real ones.</p>",
+      "text": "A lot of this chapter was not about huge visible change. It was about motivation. Planning. Saving money. Figuring out next spring before next spring got here. Get the metal roofing material. Have a company install seamless gutters. Get this sucker plumbed. Start turning rough systems into real ones.",
+      "type": "paragraph",
+      "html": "<p>A lot of this chapter was not about huge visible change. It was about motivation. Planning. Saving money. Figuring out next spring before next spring got here. Get the metal roofing material. Have a company install seamless gutters. Get this sucker plumbed. Start turning rough systems into real ones.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b027",
+      "sourceHtmlSha256": "f2cb76b1edcf26201fc5cc6c82923ac7f853ca928a1558b36490acee51a480f2",
+      "sourceHtml": "<p>Because by then, we were learning something the hard way: water is life.</p>",
+      "text": "Because by then, we were learning something the hard way: water is life.",
+      "type": "paragraph",
+      "html": "<p>Because by then, we were learning something the hard way: water is life.</p>"
+    },
+    {
+      "sourceBlockId": "ch04-b028",
+      "sourceHtmlSha256": "3f910fa5fb8d9406719e2355d118128b98076946b31a9e92527bdccb56d56999",
+      "sourceHtml": "<p>And when you have been raised in the city, you do not always realize how much you take it for granted until you do not have it the way you need it.</p>",
+      "text": "And when you have been raised in the city, you do not always realize how much you take it for granted until you do not have it the way you need it.",
+      "type": "paragraph",
+      "html": "<p>And when you have been raised in the city, you do not always realize how much you take it for granted until you do not have it the way you need it.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch05",
+      "label": "Spring finally came. Then we needed to make the water useful.",
+      "context": "What happened next"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-1f390d194fea",
+    "alt": "Vanessa trying out the Cub Cadet 46 inch deck riding lawn mower at the cabin",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "At some point, reality set in. If we were really going to manage this place ourselves, there was no way we were push mowing nearly two acres of property. The thought of it scared the…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Four",
+  "originalHeadingAfterBlocks": 1
+}

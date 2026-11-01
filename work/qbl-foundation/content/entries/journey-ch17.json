@@ -1,0 +1,460 @@
+{
+  "id": "journey-ch17",
+  "route": "/our-journey/chapters/chapter-17",
+  "output": "our-journey/chapters/chapter-17.html",
+  "title": "Let’s Build That Deck, BABY! | Quiet Backyard Living",
+  "storyTitle": "Let’s Build That Deck, BABY!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Let’s Build That Deck, BABY!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 17,
+  "chapterOrder": 17,
+  "seriesId": "happy-place",
+  "dateLabel": "June 2025",
+  "dateEvidence": "June 2025 — adjacent-chapter context",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 17,
+    "articleSha256": "11ca84318577da39f65bfba3669a7a9023373a2fc40aff8bd77dbd5dd7077562",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#building-the-deck"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch17-b001",
+      "sourceHtmlSha256": "f6753d7e283063c3cba17576531e71b62f3bf061b1faf40b4716a6d0cc72eeb5",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter17-frame.jpg\" alt=\"Vanessa helping with the deck frame build beside the cabin doors during the 2025 deck project\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter17-frame.jpg",
+          "alt": "Vanessa helping with the deck frame build beside the cabin doors during the 2025 deck project"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch17-b002",
+      "image": {
+        "mediaId": "media-5a9267791917",
+        "alt": "Vanessa helping with the deck frame build beside the cabin doors during the 2025 deck project",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch17-b004",
+      "sourceHtmlSha256": "3754e2624df81ccb06d821d4f1381364204728a29f903d851b879372f5a35412",
+      "sourceHtml": "<p>I sure wish we had a picture of this adventure.</p>",
+      "text": "I sure wish we had a picture of this adventure.",
+      "type": "paragraph",
+      "html": "<p>I sure wish we had a picture of this adventure.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b005",
+      "sourceHtmlSha256": "89a96d1ec740df97d17aa4fcf7106b508e1c8bc52a36e54014a96dfb608ae509",
+      "sourceHtml": "<p>It was a sight to see, and Vanessa was more than a little terrified.</p>",
+      "text": "It was a sight to see, and Vanessa was more than a little terrified.",
+      "type": "paragraph",
+      "html": "<p>It was a sight to see, and Vanessa was more than a little terrified.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b006",
+      "sourceHtmlSha256": "eaf596b45919938ca9008095d11df6093ab5f20d9a6294eb81dfe43e0fe08b1b",
+      "sourceHtml": "<p>But let’s rewind a bit.</p>",
+      "text": "But let’s rewind a bit.",
+      "type": "paragraph",
+      "html": "<p>But let’s rewind a bit.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b007",
+      "sourceHtmlSha256": "e015810b5a835fc2a74a4f9b1980e6b2f5058d953445988649aea22dffd0dc7a",
+      "sourceHtml": "<p>We had finally gotten the truck fixed up again, and now it was time to put it to work. On the way to the cabin, we stopped at Lowe’s with our measurements in hand and set out to buy everything we needed, boards, screws, treated lumber, the whole pile.</p>",
+      "text": "We had finally gotten the truck fixed up again, and now it was time to put it to work. On the way to the cabin, we stopped at Lowe’s with our measurements in hand and set out to buy everything we needed, boards, screws, treated lumber, the whole pile.",
+      "type": "paragraph",
+      "html": "<p>We had finally gotten the truck fixed up again, and now it was time to put it to work. On the way to the cabin, we stopped at Lowe’s with our measurements in hand and set out to buy everything we needed, boards, screws, treated lumber, the whole pile.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b008",
+      "sourceHtmlSha256": "51b1b159c67fb7828ce1442a15c83dcda976aabe569049156223e1b17f3dcd65",
+      "sourceHtml": "<p>I think we were a little too eager, because by the time we got to the checkout with our <strong>massive haul</strong>, reality started setting in.</p>",
+      "text": "I think we were a little too eager, because by the time we got to the checkout with our massive haul , reality started setting in.",
+      "type": "paragraph",
+      "html": "<p>I think we were a little too eager, because by the time we got to the checkout with our <strong>massive haul</strong>, reality started setting in.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b009",
+      "sourceHtmlSha256": "0a5f51666d8126a4666b2ab87c20cceb7c78326d1ac676d28dde2f6cc80c3b17",
+      "sourceHtml": "<p>Oh crap.</p>",
+      "text": "Oh crap.",
+      "type": "paragraph",
+      "html": "<p>Oh crap.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b010",
+      "sourceHtmlSha256": "bcc8030276dfa78f517a83c49db826bb7eea11c58355dfeb51546dc888f4670f",
+      "sourceHtml": "<p>We had to load all of this onto the truck.</p>",
+      "text": "We had to load all of this onto the truck.",
+      "type": "paragraph",
+      "html": "<p>We had to load all of this onto the truck.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b011",
+      "sourceHtmlSha256": "10932ffccc5d0adc506fa8259f852d533c9c435fa91404c396780766ff00be84",
+      "sourceHtml": "<p>And not just a few boards either. We were talking about huge pieces of lumber that somehow had to make it all the way back to the cabin in one piece and without killing us.</p>",
+      "text": "And not just a few boards either. We were talking about huge pieces of lumber that somehow had to make it all the way back to the cabin in one piece and without killing us.",
+      "type": "paragraph",
+      "html": "<p>And not just a few boards either. We were talking about huge pieces of lumber that somehow had to make it all the way back to the cabin in one piece and without killing us.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b012",
+      "sourceHtmlSha256": "cd2a258c0a156c33e9bfaf32eeec15c23f25056040455561115edcd7a557f112",
+      "sourceHtml": "<p>So after a little brainstorming, and after I remembered all the dumb stuff I did with trucks as a kid, we loaded that lumber from one end of the truck all the way out the back by a few feet. Honestly, it looked like some kind of crazy helicopter blades strapped to the top of the truck.</p>",
+      "text": "So after a little brainstorming, and after I remembered all the dumb stuff I did with trucks as a kid, we loaded that lumber from one end of the truck all the way out the back by a few feet. Honestly, it looked like some kind of crazy helicopter blades strapped to the top of the truck.",
+      "type": "paragraph",
+      "html": "<p>So after a little brainstorming, and after I remembered all the dumb stuff I did with trucks as a kid, we loaded that lumber from one end of the truck all the way out the back by a few feet. Honestly, it looked like some kind of crazy helicopter blades strapped to the top of the truck.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b013",
+      "sourceHtmlSha256": "018e0e3997aa73d4a5b3cc7f029155d11e0394237530350599e05c562714c827",
+      "sourceHtml": "<p>We tied it all down, got in, and prayed.</p>",
+      "text": "We tied it all down, got in, and prayed.",
+      "type": "paragraph",
+      "html": "<p>We tied it all down, got in, and prayed.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b014",
+      "sourceHtmlSha256": "4ee8f927e2b9ea3b4729cb25a164899d96bbd91b75c022574da4969091a06d6a",
+      "sourceHtml": "<p>Well, Vanessa did most of the praying.</p>",
+      "text": "Well, Vanessa did most of the praying.",
+      "type": "paragraph",
+      "html": "<p>Well, Vanessa did most of the praying.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b015",
+      "sourceHtmlSha256": "5a651171d5b8b0298b45b218458d73523b017867aaf093020ffb06cff6a81801",
+      "sourceHtml": "<p>I was too busy white-knuckling the steering wheel the whole way to the cabin.</p>",
+      "text": "I was too busy white-knuckling the steering wheel the whole way to the cabin.",
+      "type": "paragraph",
+      "html": "<p>I was too busy white-knuckling the steering wheel the whole way to the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b016",
+      "sourceHtmlSha256": "e99e361637bdd0608ce5eefc7546d946cf3bc4d34353fdb8b5ad46f93b3f8322",
+      "sourceHtml": "<p>But...</p>",
+      "text": "But...",
+      "type": "paragraph",
+      "html": "<p>But...</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b017",
+      "sourceHtmlSha256": "bd1d99f4b0bc1f8161f16690ea21dfd1d908f0401f1a8f68cff540996e8d8ef8",
+      "sourceHtml": "<p><strong>we made it.</strong></p>",
+      "text": "we made it.",
+      "type": "paragraph",
+      "html": "<p><strong>we made it.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch17-b018",
+      "sourceHtmlSha256": "5bd70d1679200e90407e2f2d2315ba5c6d7d3be770bf9eafe34c51fe12704aad",
+      "sourceHtml": "<p>So then it was time to get all that stuff off the truck and come up with a plan.</p>",
+      "text": "So then it was time to get all that stuff off the truck and come up with a plan.",
+      "type": "paragraph",
+      "html": "<p>So then it was time to get all that stuff off the truck and come up with a plan.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b019",
+      "sourceHtmlSha256": "8dd6a6d3f1eceff8cc46c5ff39bd0d310ecf051a52571e2179df0fe2ad83360b",
+      "sourceHtml": "<p>We spent the rest of the first day shoveling and working to get everything level, then started building out the frame.</p>",
+      "text": "We spent the rest of the first day shoveling and working to get everything level, then started building out the frame.",
+      "type": "paragraph",
+      "html": "<p>We spent the rest of the first day shoveling and working to get everything level, then started building out the frame.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b020",
+      "sourceHtmlSha256": "b5e495e35395df37954aff827a9faf0d32c17390d9bfa3866e96428bb606bd61",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter17-half-finished-deck.jpg\" alt=\"Half-finished deck with boards going down during the hard but satisfying middle stage of the build\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter17-half-finished-deck.jpg",
+          "alt": "Half-finished deck with boards going down during the hard but satisfying middle stage of the build"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch17-b019",
+      "nextSourceBlockId": "ch17-b021",
+      "image": {
+        "mediaId": "journey-b9e8ffbcd992",
+        "alt": "Half-finished deck with boards going down during the hard but satisfying middle stage of the build",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch17-b021",
+      "sourceHtmlSha256": "3d5aa09c6e0c08622dae7c2bd955e23d4123430e39c2c81081d61236de02bdf7",
+      "sourceHtml": "<p>The next day we were right back at it, laying out the deck boards and screwing them all into place. It was hard work, but the satisfying kind. The kind where you can actually stand back every so often and see something taking shape that was just an idea not that long ago.</p>",
+      "text": "The next day we were right back at it, laying out the deck boards and screwing them all into place. It was hard work, but the satisfying kind. The kind where you can actually stand back every so often and see something taking shape that was just an idea not that long ago.",
+      "type": "paragraph",
+      "html": "<p>The next day we were right back at it, laying out the deck boards and screwing them all into place. It was hard work, but the satisfying kind. The kind where you can actually stand back every so often and see something taking shape that was just an idea not that long ago.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b022",
+      "sourceHtmlSha256": "5a5dff204961f5a893eb296520eb0e748752d8d2349db4c1b212db4e5a747447",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter17-finished-deck.jpg\" alt=\"Finished deck with chairs out and Jeff relaxing beside the cabin after the build was complete\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter17-finished-deck.jpg",
+          "alt": "Finished deck with chairs out and Jeff relaxing beside the cabin after the build was complete"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch17-b021",
+      "nextSourceBlockId": "ch17-b023",
+      "image": {
+        "mediaId": "media-f660fa5836de",
+        "alt": "Finished deck with chairs out and Jeff relaxing beside the cabin after the build was complete",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch17-b023",
+      "sourceHtmlSha256": "2167fa1d89f7d8627451ba99b42c6a026e35469aaa0e684b1e94a8a4edb78d84",
+      "sourceHtml": "<p>And once it was done, it did not take us long at all to drag out a couple of chairs and start enjoying this new addition to peaceful cabin life.</p>",
+      "text": "And once it was done, it did not take us long at all to drag out a couple of chairs and start enjoying this new addition to peaceful cabin life.",
+      "type": "paragraph",
+      "html": "<p>And once it was done, it did not take us long at all to drag out a couple of chairs and start enjoying this new addition to peaceful cabin life.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b024",
+      "sourceHtmlSha256": "187cbf48d85d6af114e486c0b429543febb17c829d2bc59a38625b04a160a023",
+      "sourceHtml": "<p>That part might have been the best reward of all.</p>",
+      "text": "That part might have been the best reward of all.",
+      "type": "paragraph",
+      "html": "<p>That part might have been the best reward of all.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b025",
+      "sourceHtmlSha256": "ee0b00c3a04c83f7fc05610eb22642207cde758ddc2d36cf9c5d586e84dd03a4",
+      "sourceHtml": "<p>Actually, it did not take us long after that either, maybe the very next day, before we finished off the sides of the deck with rock landscaping, mulch, and some flowers.</p>",
+      "text": "Actually, it did not take us long after that either, maybe the very next day, before we finished off the sides of the deck with rock landscaping, mulch, and some flowers.",
+      "type": "paragraph",
+      "html": "<p>Actually, it did not take us long after that either, maybe the very next day, before we finished off the sides of the deck with rock landscaping, mulch, and some flowers.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b026",
+      "sourceHtmlSha256": "e88768192dc89513f09cd4d3e173b426cad9d7928ffdaf5ca74982518cd2afc3",
+      "sourceHtml": "<p>This was also the time we put those hummingbird feeders out too. If we did not get any hummingbirds, at least they looked good.</p>",
+      "text": "This was also the time we put those hummingbird feeders out too. If we did not get any hummingbirds, at least they looked good.",
+      "type": "paragraph",
+      "html": "<p>This was also the time we put those hummingbird feeders out too. If we did not get any hummingbirds, at least they looked good.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b027",
+      "sourceHtmlSha256": "ee1f82e23dbd0f358a103b085f1aca894a707311ab17b058f0c72fb55ab7d90c",
+      "sourceHtml": "<p>Then a small miracle happened.</p>",
+      "text": "Then a small miracle happened.",
+      "type": "paragraph",
+      "html": "<p>Then a small miracle happened.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b028",
+      "sourceHtmlSha256": "2c0529358ad5ac40afa5c462b1f558308da5f76ef3267a883fe6d520df7b7ec5",
+      "sourceHtml": "<p>A tiny hummingbird found the feeders.</p>",
+      "text": "A tiny hummingbird found the feeders.",
+      "type": "paragraph",
+      "html": "<p>A tiny hummingbird found the feeders.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b029",
+      "sourceHtmlSha256": "218251bfc20a024c49cafccc7051e67ad207131426debc4dd38eda5859b1a48b",
+      "sourceHtml": "<p>And kept coming back... a lot.</p>",
+      "text": "And kept coming back... a lot.",
+      "type": "paragraph",
+      "html": "<p>And kept coming back... a lot.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b030",
+      "sourceHtmlSha256": "b4903a22da4fada3e24c3a5cb78d6704bf1020834b69344600b3c903b1fab8a4",
+      "sourceHtml": "<p>Now we had a new little critter to feed.</p>",
+      "text": "Now we had a new little critter to feed.",
+      "type": "paragraph",
+      "html": "<p>Now we had a new little critter to feed.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b031",
+      "sourceHtmlSha256": "6c25764ae0fc0ac594609cf30a8b370a7008f977410140d52a40f2a9fe19d254",
+      "sourceHtml": "<p>This way of life really does have a way of connecting you to everything around you.</p>",
+      "text": "This way of life really does have a way of connecting you to everything around you.",
+      "type": "paragraph",
+      "html": "<p>This way of life really does have a way of connecting you to everything around you.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b032",
+      "sourceHtmlSha256": "5ec8934cd58a6d825d12129ab584c2e2d008593b0dd6611d9625dd22e7bd2a13",
+      "sourceHtml": "<p>We named this new little girl Harriet the hummingbird.</p>",
+      "text": "We named this new little girl Harriet the hummingbird.",
+      "type": "paragraph",
+      "html": "<p>We named this new little girl Harriet the hummingbird.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b033",
+      "sourceHtmlSha256": "9ed995d11e9b99546abd8cbc10311882c7e3b47b1f66ebc63ff00e594681b4bc",
+      "sourceHtml": "<p>Big mistake.</p>",
+      "text": "Big mistake.",
+      "type": "paragraph",
+      "html": "<p>Big mistake.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b034",
+      "sourceHtmlSha256": "d1df0eb8e89d829adf3c57dced8ace0f79ad3dfac1aaecfd19aeae92314acdc0",
+      "sourceHtml": "<p>Because in just a few short weeks, hummingbirds start growing into their colors, and we came to find out later that our little girl hummingbird was actually a boy.</p>",
+      "text": "Because in just a few short weeks, hummingbirds start growing into their colors, and we came to find out later that our little girl hummingbird was actually a boy.",
+      "type": "paragraph",
+      "html": "<p>Because in just a few short weeks, hummingbirds start growing into their colors, and we came to find out later that our little girl hummingbird was actually a boy.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b035",
+      "sourceHtmlSha256": "bd4128c6c9b1b738e8562b79836dc1e451208b676e4ff1cea42f3324f8f2c334",
+      "sourceHtml": "<p>So Harriet became <strong>Harry the hummingbird</strong>.</p>",
+      "text": "So Harriet became Harry the hummingbird .",
+      "type": "paragraph",
+      "html": "<p>So Harriet became <strong>Harry the hummingbird</strong>.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b036",
+      "sourceHtmlSha256": "90391697b5b87a5e87386296005579de874405cc7827062c3183ac3ea3788826",
+      "sourceHtml": "<p>Sorry, little buddy.</p>",
+      "text": "Sorry, little buddy.",
+      "type": "paragraph",
+      "html": "<p>Sorry, little buddy.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b037",
+      "sourceHtmlSha256": "06f640e3b2f72f02cbc7ad6ac1e5576bad9ee4d9c762c6e23c8a596956e54f95",
+      "sourceHtml": "<p>Anyway, that deck gave us a reason to be out there more and spend more quality time connecting with nature. Even though the sun could get pretty hot on your head during the daytime, it sure was beautiful and peaceful out there at night.</p>",
+      "text": "Anyway, that deck gave us a reason to be out there more and spend more quality time connecting with nature. Even though the sun could get pretty hot on your head during the daytime, it sure was beautiful and peaceful out there at night.",
+      "type": "paragraph",
+      "html": "<p>Anyway, that deck gave us a reason to be out there more and spend more quality time connecting with nature. Even though the sun could get pretty hot on your head during the daytime, it sure was beautiful and peaceful out there at night.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b038",
+      "sourceHtmlSha256": "6e3b1314c80f1e5199bf0f0bb1b99500e42f42ceb44d0fae02f2d7ad3d99b2f8",
+      "sourceHtml": "<p>We knew we would have to fix that sun problem soon.</p>",
+      "text": "We knew we would have to fix that sun problem soon.",
+      "type": "paragraph",
+      "html": "<p>We knew we would have to fix that sun problem soon.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b039",
+      "sourceHtmlSha256": "80f249a0088b7aa8639be4b68910f24c355efb60f283d0fad057688775471d72",
+      "sourceHtml": "<p>And we did later.</p>",
+      "text": "And we did later.",
+      "type": "paragraph",
+      "html": "<p>And we did later.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b040",
+      "sourceHtmlSha256": "35ec7ea5ea65a7992b3f27f3d138bcf6e8e152511e5e323e751fa1f4c88de681",
+      "sourceHtml": "<p>But for now, it felt like we had been winning.</p>",
+      "text": "But for now, it felt like we had been winning.",
+      "type": "paragraph",
+      "html": "<p>But for now, it felt like we had been winning.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b041",
+      "sourceHtmlSha256": "39a0d734063e702cf634edd6989a34ade09c7fb760218a48dc6927f064288495",
+      "sourceHtml": "<p>And man, that felt good.</p>",
+      "text": "And man, that felt good.",
+      "type": "paragraph",
+      "html": "<p>And man, that felt good.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b042",
+      "sourceHtmlSha256": "d1fdd742fadb8154fdb15b9d2ac05ad0f4ecb4b90c509b86e022cf49206bcab4",
+      "sourceHtml": "<p>Let’s see if we can keep the good times rolling.</p>",
+      "text": "Let’s see if we can keep the good times rolling.",
+      "type": "paragraph",
+      "html": "<p>Let’s see if we can keep the good times rolling.</p>"
+    },
+    {
+      "sourceBlockId": "ch17-b043",
+      "sourceHtmlSha256": "b6e1192f060b9593c4570538f8249112abbc2e1cea0e31b3b12626232c0c0d3a",
+      "sourceHtml": "<p>See ya in a couple weeks, cabin life.</p>",
+      "text": "See ya in a couple weeks, cabin life.",
+      "type": "paragraph",
+      "html": "<p>See ya in a couple weeks, cabin life.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch18",
+      "label": "Now let’s enjoy that deck.",
+      "context": "What happened next"
+    },
+    {
+      "contentId": "journey-ch28",
+      "label": "Guess who came back to the feeder?",
+      "context": "A later season"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "media-5a9267791917",
+    "alt": "Vanessa helping with the deck frame build beside the cabin doors during the 2025 deck project",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "I sure wish we had a picture of this adventure. It was a sight to see, and Vanessa was more than a little terrified.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Seventeen",
+  "originalHeadingAfterBlocks": 1
+}

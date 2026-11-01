@@ -1,0 +1,10 @@
+{% macro card(item, variant="story", number="") %}
+<a class="qbl-card qbl-card--{{ variant }}" href="{{ item.href | relatedUrl }}">
+  <div class="qbl-card-photo">{{ item.image | mediaImage | safe }}{% if number %}<span class="qbl-chapter-number">{{ number }}</span>{% endif %}</div>
+  <div class="qbl-card-copy"><span class="qbl-eyebrow">{{ item.context }}</span><h3>{{ item.title }}</h3><p>{{ item.description }}</p><span class="qbl-card-meta">{% if item.visualType %}{{ item.visualType }} · {% endif %}{{ item.href | readingTime }} minute read <span aria-hidden="true">↗</span></span></div>
+</a>
+{% endmacro %}
+
+{% macro heading(kicker, title, href="", action="") %}
+<div class="qbl-section-heading"><div><span class="qbl-eyebrow">{{ kicker }}</span><h2>{{ title }}</h2></div>{% if href %}<a class="qbl-text-action" href="{{ href }}">{{ action }} <span aria-hidden="true">↗</span></a>{% endif %}</div>
+{% endmacro %}

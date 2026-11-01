@@ -1,0 +1,40 @@
+{
+  "id": "library-4575ae0e0aa8",
+  "route": "/pages/our-place",
+  "output": "pages/our-place.html",
+  "title": "Our Place: not waiting for someday | Quiet Backyard Living",
+  "description": "We’re building toward the place we hope to retire into. A place to grow some food, keep learning, spend time together, and stay part of the life outside the door.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition hp-place-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-4575ae0e0aa8.html",
+  "department": "journey",
+  "topic": "Our Place & the journal",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/our-place.html",
+    "sha256": "7a3407cc3e3622c60d2e4e742e3f7351c6fcad9eb093be8bc0322130e6fc3a0a"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,2 @@
+{% from "components/editorial/cards.njk" import card, heading %}
+<section class="qbl-notebook-band"><div class="qbl-page-width">{{ heading("The Notebook / From the recorded journal", "The little things are part of it.", "/notebook", "All the little notes") }}<div class="qbl-grid qbl-grid--two">{% for id in heartbeat.notebook %}{{ card(storyCards[id],"small") }}{% endfor %}</div><a class="qbl-text-action" href="/our-journey#what-happened-next">And then what happened? Follow a story a little further <span aria-hidden="true">↗</span></a></div></section>

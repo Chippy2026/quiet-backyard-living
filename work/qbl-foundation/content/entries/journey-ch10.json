@@ -1,0 +1,297 @@
+{
+  "id": "journey-ch10",
+  "route": "/our-journey/chapters/chapter-10",
+  "output": "our-journey/chapters/chapter-10.html",
+  "title": "Sometimes You Need Friends | Quiet Backyard Living",
+  "storyTitle": "Sometimes You Need Friends",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Sometimes You Need Friends",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 10,
+  "chapterOrder": 10,
+  "seriesId": "happy-place",
+  "dateLabel": "Summer 2024",
+  "dateEvidence": "Summer 2024 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 10,
+    "articleSha256": "e1e7144e40be1d55c5d47848e1775a3a73aee1c986f843ac40b4e806daacbf44",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-12"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch10-b001",
+      "sourceHtmlSha256": "8469b1062e62ba33061298a28cdb857006df2a0a14a3fb01818647ba8803477c",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter9-ankle-scooter.jpg\" alt=\"Vanessa using a walking cast and scooter near the cabin after breaking her ankle\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter9-ankle-scooter.jpg",
+          "alt": "Vanessa using a walking cast and scooter near the cabin after breaking her ankle"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch10-b002",
+      "image": {
+        "mediaId": "journey-95245f954e1b",
+        "alt": "Vanessa using a walking cast and scooter near the cabin after breaking her ankle",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch10-b004",
+      "sourceHtmlSha256": "75140c0d0d31df41834d504a04927df683f37af68b2ea6cb28d3a74d4c8227cd",
+      "sourceHtml": "<p>With Vanessa a little out of commission when it came to helping carry large things and tackle building projects, we had to adjust.</p>",
+      "text": "With Vanessa a little out of commission when it came to helping carry large things and tackle building projects, we had to adjust.",
+      "type": "paragraph",
+      "html": "<p>With Vanessa a little out of commission when it came to helping carry large things and tackle building projects, we had to adjust.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b005",
+      "sourceHtmlSha256": "2d335376f54de3966e4cba3998601c547f378bd8b031bcd52518f0062ecec3b5",
+      "sourceHtml": "<p>So instead of pushing hard on construction, we started leaning more into creature comforts.</p>",
+      "text": "So instead of pushing hard on construction, we started leaning more into creature comforts.",
+      "type": "paragraph",
+      "html": "<p>So instead of pushing hard on construction, we started leaning more into creature comforts.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b006",
+      "sourceHtmlSha256": "f006407db107e196d7a112dc3a016bf951f9c4b474043cc8a3eb94189c9b2102",
+      "sourceHtml": "<p>And honestly, that turned out to be its own kind of progress.</p>",
+      "text": "And honestly, that turned out to be its own kind of progress.",
+      "type": "paragraph",
+      "html": "<p>And honestly, that turned out to be its own kind of progress.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b007",
+      "sourceHtmlSha256": "6f02080e9b146925b398c039c043ab534afa15150c9fe9be0267a97ec1e394e3",
+      "sourceHtml": "<p>We bought a new actual bed. The room would only fit a full size bed, but hey, it was all good. After sleeping rough and making do for so long, even something as simple as a real bed felt like a major step forward.</p>",
+      "text": "We bought a new actual bed. The room would only fit a full size bed, but hey, it was all good. After sleeping rough and making do for so long, even something as simple as a real bed felt like a major step forward.",
+      "type": "paragraph",
+      "html": "<p>We bought a new actual bed. The room would only fit a full size bed, but hey, it was all good. After sleeping rough and making do for so long, even something as simple as a real bed felt like a major step forward.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b008",
+      "sourceHtmlSha256": "31d5b85bece4315cd5195cfe4e810e72866a1e731260f019780c2fc3006f5bd3",
+      "sourceHtml": "<p>Around that same time, some friends donated a dresser and nightstands for the bedroom. Even better, they kindly delivered them and helped me carry everything in and get it set up. Before that went down, I put down some one-inch rigid foam insulation and carpet, which helped the whole room feel warmer and more finished.</p>",
+      "text": "Around that same time, some friends donated a dresser and nightstands for the bedroom. Even better, they kindly delivered them and helped me carry everything in and get it set up. Before that went down, I put down some one-inch rigid foam insulation and carpet, which helped the whole room feel warmer and more finished.",
+      "type": "paragraph",
+      "html": "<p>Around that same time, some friends donated a dresser and nightstands for the bedroom. Even better, they kindly delivered them and helped me carry everything in and get it set up. Before that went down, I put down some one-inch rigid foam insulation and carpet, which helped the whole room feel warmer and more finished.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b009",
+      "sourceHtmlSha256": "95867631a31a7b057d7dbfd4762edaa0459e83c4f9a87ff5e08c980dc5da8197",
+      "sourceHtml": "<p>Little by little, the cabin was becoming less like a project site and more like a place you could actually settle into.</p>",
+      "text": "Little by little, the cabin was becoming less like a project site and more like a place you could actually settle into.",
+      "type": "paragraph",
+      "html": "<p>Little by little, the cabin was becoming less like a project site and more like a place you could actually settle into.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b010",
+      "sourceHtmlSha256": "7fab1377513d27c457bf7761b79f127808b339145f2b5034156de4bded8acf21",
+      "sourceHtml": "<p>It was also around then that we found a couple of great yard sales up there and scored quite a few useful things, a TV, a makeshift coffee bar and pantry setup, and some kitchen items like a microwave and an air fryer. We also bought a smaller fridge, and I manhandled that thing in from the truck myself.</p>",
+      "text": "It was also around then that we found a couple of great yard sales up there and scored quite a few useful things, a TV, a makeshift coffee bar and pantry setup, and some kitchen items like a microwave and an air fryer. We also bought a smaller fridge, and I manhandled that thing in from the truck myself.",
+      "type": "paragraph",
+      "html": "<p>It was also around then that we found a couple of great yard sales up there and scored quite a few useful things, a TV, a makeshift coffee bar and pantry setup, and some kitchen items like a microwave and an air fryer. We also bought a smaller fridge, and I manhandled that thing in from the truck myself.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b011",
+      "sourceHtmlSha256": "c86e087412fdfd69f872f3ba2a4cd5b9e656f93adc3cb24dd9826726f0187c64",
+      "sourceHtml": "<p>That was another turning point.</p>",
+      "text": "That was another turning point.",
+      "type": "paragraph",
+      "html": "<p>That was another turning point.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b012",
+      "sourceHtmlSha256": "40e6c2331ff3f7262c74138d6c02039baf7c9357c04d4dc57acc2d20623ca66e",
+      "sourceHtml": "<p>Now we could bring food up and actually cook meals there more normally, which mattered even more because Vanessa was not very mobile at that point. We also got a Verizon box that gave us Wi-Fi, so now we could even watch TV.</p>",
+      "text": "Now we could bring food up and actually cook meals there more normally, which mattered even more because Vanessa was not very mobile at that point. We also got a Verizon box that gave us Wi-Fi, so now we could even watch TV.",
+      "type": "paragraph",
+      "html": "<p>Now we could bring food up and actually cook meals there more normally, which mattered even more because Vanessa was not very mobile at that point. We also got a Verizon box that gave us Wi-Fi, so now we could even watch TV.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b013",
+      "sourceHtmlSha256": "fc99080db499462662084f7fc396d073514c1d32267e98ae25994b5afca7bc14",
+      "sourceHtml": "<p>With the bigger building projects mostly on hold because I was the only one able to tackle them, this chapter became more about making the place comfortable, practical, and enjoyable in smaller but meaningful ways.</p>",
+      "text": "With the bigger building projects mostly on hold because I was the only one able to tackle them, this chapter became more about making the place comfortable, practical, and enjoyable in smaller but meaningful ways.",
+      "type": "paragraph",
+      "html": "<p>With the bigger building projects mostly on hold because I was the only one able to tackle them, this chapter became more about making the place comfortable, practical, and enjoyable in smaller but meaningful ways.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b014",
+      "sourceHtmlSha256": "711173b8732f0090ff58d8a63f326e75677a1f3f3f24a4d3d2c0b3491b139bea",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter10-fruit.jpg\" alt=\"Fruit starting to come in on one of the now three year old orchard trees\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter10-fruit.jpg",
+          "alt": "Fruit starting to come in on one of the now three year old orchard trees"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch10-b013",
+      "nextSourceBlockId": "ch10-b015",
+      "image": {
+        "mediaId": "journey-2bae6d87bdd9",
+        "alt": "Fruit starting to come in on one of the now three year old orchard trees",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch10-b015",
+      "sourceHtmlSha256": "a59b70e614d3e1140732987fae18ff7f036e44f67bd1331b09b2b76790bbba58",
+      "sourceHtml": "<p>And it was working.</p>",
+      "text": "And it was working.",
+      "type": "paragraph",
+      "html": "<p>And it was working.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b016",
+      "sourceHtmlSha256": "6e5955dd575bd90cd19bcc40677c8fe1688f000cd7a400fb9960148c366cc348",
+      "sourceHtml": "<p>The little homestead was coming along nicely, and by then we were also starting to get fruit from the now three-year-old trees and berry bushes. That was one of those quiet payoffs that probably did not look dramatic from the outside, but to us it meant a lot. Some of the early planting dreams were starting to give something back.</p>",
+      "text": "The little homestead was coming along nicely, and by then we were also starting to get fruit from the now three-year-old trees and berry bushes. That was one of those quiet payoffs that probably did not look dramatic from the outside, but to us it meant a lot. Some of the early planting dreams were starting to give something back.",
+      "type": "paragraph",
+      "html": "<p>The little homestead was coming along nicely, and by then we were also starting to get fruit from the now three-year-old trees and berry bushes. That was one of those quiet payoffs that probably did not look dramatic from the outside, but to us it meant a lot. Some of the early planting dreams were starting to give something back.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b017",
+      "sourceHtmlSha256": "f8b6e856d54e4231b9ee675eb57c0088f9fb1f04947910b10f83e3a7c525063c",
+      "sourceHtml": "<p>We just loved summertime at the cabin.</p>",
+      "text": "We just loved summertime at the cabin.",
+      "type": "paragraph",
+      "html": "<p>We just loved summertime at the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b018",
+      "sourceHtmlSha256": "08f428f5e656440b8fccca1625d8a11ca1d76b49fe4a1e56042f0fd93a6ffcad",
+      "sourceHtml": "<p>The warm breezes. The peaceful nights of stargazing. And of course, the bonfires.</p>",
+      "text": "The warm breezes. The peaceful nights of stargazing. And of course, the bonfires.",
+      "type": "paragraph",
+      "html": "<p>The warm breezes. The peaceful nights of stargazing. And of course, the bonfires.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b019",
+      "sourceHtmlSha256": "372de749fdd625b7e26560f23c39180cd4ccdc653321dcb2eca753bc3b23d3d9",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter10-bonfire.jpg\" alt=\"Vanessa relaxing by a later-season bonfire in front of the more settled cabin, with her walking cast faintly visible\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter10-bonfire.jpg",
+          "alt": "Vanessa relaxing by a later-season bonfire in front of the more settled cabin, with her walking cast faintly visible"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch10-b018",
+      "nextSourceBlockId": "ch10-b020",
+      "image": {
+        "mediaId": "journey-6dc6910168fb",
+        "alt": "Vanessa relaxing by a later-season bonfire in front of the more settled cabin, with her walking cast faintly visible",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch10-b020",
+      "sourceHtmlSha256": "c55cabb8acb3ab78da3de54bd7992bf9232a8fe32c9cca7b207a5ab5063c9b7d",
+      "sourceHtml": "<p>There is just nothing quite like it.</p>",
+      "text": "There is just nothing quite like it.",
+      "type": "paragraph",
+      "html": "<p>There is just nothing quite like it.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b021",
+      "sourceHtmlSha256": "87180f28e94c7f235b21784a43f9e874425afc453528ce925943a6ca7d89ca2f",
+      "sourceHtml": "<p>Out there, it really does make you feel alive. More connected to nature. More connected to the season you are in. More connected to each other.</p>",
+      "text": "Out there, it really does make you feel alive. More connected to nature. More connected to the season you are in. More connected to each other.",
+      "type": "paragraph",
+      "html": "<p>Out there, it really does make you feel alive. More connected to nature. More connected to the season you are in. More connected to each other.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b022",
+      "sourceHtmlSha256": "0f7c408ea2e868ad8ba8e94033d59dffa9b9256b04a7d37e953a9ca3745233e6",
+      "sourceHtml": "<p>We never wanted that season to end.</p>",
+      "text": "We never wanted that season to end.",
+      "type": "paragraph",
+      "html": "<p>We never wanted that season to end.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b023",
+      "sourceHtmlSha256": "86f0260372d53e30a0dec7cbdda3af3aff5ce6d860736a7db115afce599eedb0",
+      "sourceHtml": "<p>But careful what you wish for.</p>",
+      "text": "But careful what you wish for.",
+      "type": "paragraph",
+      "html": "<p>But careful what you wish for.</p>"
+    },
+    {
+      "sourceBlockId": "ch10-b024",
+      "sourceHtmlSha256": "0ff5621d5eca4a89e7a85c514140a2a6fdfe247fbb91eff8d4c7e88e4a7a2082",
+      "sourceHtml": "<p>Stay tuned for fall...</p>",
+      "text": "Stay tuned for fall...",
+      "type": "paragraph",
+      "html": "<p>Stay tuned for fall...</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-95245f954e1b",
+    "alt": "Vanessa using a walking cast and scooter near the cabin after breaking her ankle",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "With Vanessa a little out of commission when it came to helping carry large things and tackle building projects, we had to adjust. So instead of pushing hard on construction, we started…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Ten",
+  "originalHeadingAfterBlocks": 1
+}

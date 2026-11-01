@@ -1,0 +1,270 @@
+{
+  "id": "journey-ch05",
+  "route": "/our-journey/chapters/chapter-05",
+  "output": "our-journey/chapters/chapter-05.html",
+  "title": "The long winter made it feel like spring would never get here | Quiet Backyard Living",
+  "storyTitle": "The long winter made it feel like spring would never get here",
+  "kind": "chapter",
+  "status": "published",
+  "description": "The long winter made it feel like spring would never get here",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 5,
+  "chapterOrder": 5,
+  "seriesId": "happy-place",
+  "dateLabel": "Spring 2023",
+  "dateEvidence": "April–June 2023",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 5,
+    "articleSha256": "a04151db4ea4c8c83aa2d349671af94656c4b56d686ddd32cc3e0419dd723b40",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-7"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch05-b001",
+      "sourceHtmlSha256": "44592b9c4ae63db99eb84a1c43c0766ee45fceb3639f9a3f8ac0729d3d0b6880",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter5-spring-bonfire.jpg\" alt=\"Cool spring bonfire day in April 2023 at the cabin using fallen winter branches\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter5-spring-bonfire.jpg",
+          "alt": "Cool spring bonfire day in April 2023 at the cabin using fallen winter branches"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch05-b002",
+      "image": {
+        "mediaId": "journey-d2bd006e85ff",
+        "alt": "Cool spring bonfire day in April 2023 at the cabin using fallen winter branches",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch05-b004",
+      "sourceHtmlSha256": "0bcdb0892b0cf0df038f4ba02e9cfd27fddf1d5cd625b60ff0a76f995806bb66",
+      "sourceHtml": "<p>Spring finally got here, and when it did, we were off to the races with excitement and enthusiasm.</p>",
+      "text": "Spring finally got here, and when it did, we were off to the races with excitement and enthusiasm.",
+      "type": "paragraph",
+      "html": "<p>Spring finally got here, and when it did, we were off to the races with excitement and enthusiasm.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b005",
+      "sourceHtmlSha256": "13d64f72f5b06f74f8b076178a11c1fd04eb997ae90a1728453197accb9c584b",
+      "sourceHtml": "<p>Honestly, maybe a little too much enthusiasm.</p>",
+      "text": "Honestly, maybe a little too much enthusiasm.",
+      "type": "paragraph",
+      "html": "<p>Honestly, maybe a little too much enthusiasm.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b006",
+      "sourceHtmlSha256": "c0c67b0e96c8662673baca4896265d51f5c4ec4fcb8497e8c17eca652ec4a708",
+      "sourceHtml": "<p>We were so ready to get back to the cabin and start moving things forward that I forgot to take photos of some of the biggest upgrades. We installed the metal roof ourselves, and the gutter guy later came out to put up the seamless gutters, both major steps forward, especially after all the talking and planning we had already done around water, roofing, and making the place more livable.</p>",
+      "text": "We were so ready to get back to the cabin and start moving things forward that I forgot to take photos of some of the biggest upgrades. We installed the metal roof ourselves, and the gutter guy later came out to put up the seamless gutters, both major steps forward, especially after all the talking and planning we had already done around water, roofing, and making the place more livable.",
+      "type": "paragraph",
+      "html": "<p>We were so ready to get back to the cabin and start moving things forward that I forgot to take photos of some of the biggest upgrades. We installed the metal roof ourselves, and the gutter guy later came out to put up the seamless gutters, both major steps forward, especially after all the talking and planning we had already done around water, roofing, and making the place more livable.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b007",
+      "sourceHtmlSha256": "9ea54320b55e1b4b195ff45c4fe4f7054126c52af4c6fbc8dc077f202f9b9d3e",
+      "sourceHtml": "<p>I still wish I had gotten pictures of all that happening.</p>",
+      "text": "I still wish I had gotten pictures of all that happening.",
+      "type": "paragraph",
+      "html": "<p>I still wish I had gotten pictures of all that happening.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b008",
+      "sourceHtmlSha256": "1f92a90e317f6968f397d8da9a6e354fa94ec8173ace6d3ab548a0bb69910e3a",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter5-water-tank-payoff.jpg\" alt=\"Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter5-water-tank-payoff.jpg",
+          "alt": "Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch05-b007",
+      "nextSourceBlockId": "ch05-b009",
+      "image": {
+        "mediaId": "journey-a77d4b6fd6c4",
+        "alt": "Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch05-b009",
+      "sourceHtmlSha256": "bcb6bf22accfdfc61f7ac0e48f97a6b157dbe733078395bae181fe83ae9f969d",
+      "sourceHtml": "<p>But I did manage to get a photo of the new 500-gallon tank that was going to catch our newly acquired clean water system, which was probably around May or June. And that felt huge. It was a whole lot better than relying on that salty well water that seemed to rust everything it touched.</p>",
+      "text": "But I did manage to get a photo of the new 500-gallon tank that was going to catch our newly acquired clean water system, which was probably around May or June. And that felt huge. It was a whole lot better than relying on that salty well water that seemed to rust everything it touched.",
+      "type": "paragraph",
+      "html": "<p>But I did manage to get a photo of the new 500-gallon tank that was going to catch our newly acquired clean water system, which was probably around May or June. And that felt huge. It was a whole lot better than relying on that salty well water that seemed to rust everything it touched.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b010",
+      "sourceHtmlSha256": "a6eb4f622beedb79e3927548c6d3cbf121cec51cbd91c92ca26672e37dba2628",
+      "sourceHtml": "<p>But before all of that, it is worth stepping back for a minute to April of 2023.</p>",
+      "text": "But before all of that, it is worth stepping back for a minute to April of 2023.",
+      "type": "paragraph",
+      "html": "<p>But before all of that, it is worth stepping back for a minute to April of 2023.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b011",
+      "sourceHtmlSha256": "29b9249da3d67b066c37516f8431433fd63da6de439604d0847911f3080013bd",
+      "sourceHtml": "<p>Getting back up there for the first time that year felt awesome.</p>",
+      "text": "Getting back up there for the first time that year felt awesome.",
+      "type": "paragraph",
+      "html": "<p>Getting back up there for the first time that year felt awesome.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b012",
+      "sourceHtmlSha256": "895cc8893bee048c5cad9d0e4be25ce2790a1aa324fbf6b4bec25b05e77670bc",
+      "sourceHtml": "<p>After the long Michigan winter, the cabin almost felt new again. The air still had that cool spring edge to it, and we were burning fallen tree branches from winter in the fire pit, just enjoying being back. It was one of those simple spring moments that probably would not look dramatic to anyone else, but to us it felt like the season was finally opening back up.</p>",
+      "text": "After the long Michigan winter, the cabin almost felt new again. The air still had that cool spring edge to it, and we were burning fallen tree branches from winter in the fire pit, just enjoying being back. It was one of those simple spring moments that probably would not look dramatic to anyone else, but to us it felt like the season was finally opening back up.",
+      "type": "paragraph",
+      "html": "<p>After the long Michigan winter, the cabin almost felt new again. The air still had that cool spring edge to it, and we were burning fallen tree branches from winter in the fire pit, just enjoying being back. It was one of those simple spring moments that probably would not look dramatic to anyone else, but to us it felt like the season was finally opening back up.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b013",
+      "sourceHtmlSha256": "feb49c4f587cad108f11ccc969608f505e74212f3d80be7ca3e838cc427c2032",
+      "sourceHtml": "<p>By now, we were bringing more of the little comfort items with us too, the kind of things that slowly make a place easier to live in, even if it is still far from finished.</p>",
+      "text": "By now, we were bringing more of the little comfort items with us too, the kind of things that slowly make a place easier to live in, even if it is still far from finished.",
+      "type": "paragraph",
+      "html": "<p>By now, we were bringing more of the little comfort items with us too, the kind of things that slowly make a place easier to live in, even if it is still far from finished.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b014",
+      "sourceHtmlSha256": "bc988343339d743a12a9f0e6ce750d0ede50d91cc4c77d304ac193b832faf437",
+      "sourceHtml": "<p>This whole season became such a whirlwind that I did not stop nearly often enough to take pictures.</p>",
+      "text": "This whole season became such a whirlwind that I did not stop nearly often enough to take pictures.",
+      "type": "paragraph",
+      "html": "<p>This whole season became such a whirlwind that I did not stop nearly often enough to take pictures.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b015",
+      "sourceHtmlSha256": "aeece5a58bb9819a21eb7c75d8c8fe593365d31b6b44a6bdc98b3d6cd4c5dc89",
+      "sourceHtml": "<p>That seems to happen when you are actually in the middle of building a life. You are too busy figuring things out, carrying things, planning the next step, solving problems, and trying to keep momentum going.</p>",
+      "text": "That seems to happen when you are actually in the middle of building a life. You are too busy figuring things out, carrying things, planning the next step, solving problems, and trying to keep momentum going.",
+      "type": "paragraph",
+      "html": "<p>That seems to happen when you are actually in the middle of building a life. You are too busy figuring things out, carrying things, planning the next step, solving problems, and trying to keep momentum going.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b016",
+      "sourceHtmlSha256": "03691513f7f74d9e0e91cf4b0bbb2999c440a963ca6f9c18328ebf0fbcf1eb0d",
+      "sourceHtml": "<p>And once we had a better system for collecting water, it was time to figure out how to make it functional.</p>",
+      "text": "And once we had a better system for collecting water, it was time to figure out how to make it functional.",
+      "type": "paragraph",
+      "html": "<p>And once we had a better system for collecting water, it was time to figure out how to make it functional.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b017",
+      "sourceHtmlSha256": "5b1d72f221803df335b617f3157f2b52fb696ebb7eca235eeac839e9bfe4ec60",
+      "sourceHtml": "<p>That part turned out to be harder than it looked.</p>",
+      "text": "That part turned out to be harder than it looked.",
+      "type": "paragraph",
+      "html": "<p>That part turned out to be harder than it looked.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b018",
+      "sourceHtmlSha256": "9613e7798bb1e4c686535de4c43487d680463bcbb5c612e59c4d9cbde9f81e66",
+      "sourceHtml": "<p>It is one thing to say you are going to catch rainwater. It is another thing to actually make that water useful in everyday life. By that point we were realizing, again, that every improvement led to another decision, another system, another problem to solve.</p>",
+      "text": "It is one thing to say you are going to catch rainwater. It is another thing to actually make that water useful in everyday life. By that point we were realizing, again, that every improvement led to another decision, another system, another problem to solve.",
+      "type": "paragraph",
+      "html": "<p>It is one thing to say you are going to catch rainwater. It is another thing to actually make that water useful in everyday life. By that point we were realizing, again, that every improvement led to another decision, another system, another problem to solve.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b019",
+      "sourceHtmlSha256": "790dfb3cfb9ef679c28645fcaf17f0536d6151033e69b827ed14e0d2f5a47244",
+      "sourceHtml": "<p>So now it was time for another plan.</p>",
+      "text": "So now it was time for another plan.",
+      "type": "paragraph",
+      "html": "<p>So now it was time for another plan.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b020",
+      "sourceHtmlSha256": "13184af07a47520b4e51d845dbef205bba1a1a3fa2f855f4bf960593d9a564d5",
+      "sourceHtml": "<p>And another learning curve.</p>",
+      "text": "And another learning curve.",
+      "type": "paragraph",
+      "html": "<p>And another learning curve.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b021",
+      "sourceHtmlSha256": "a28d952f0494c96e8354bc5c6f729705ac7747379f98fc65cb0c0d9719bb4a8e",
+      "sourceHtml": "<p>Because next came wiring and plumbing, and I was not an electrician and I was not a plumber.</p>",
+      "text": "Because next came wiring and plumbing, and I was not an electrician and I was not a plumber.",
+      "type": "paragraph",
+      "html": "<p>Because next came wiring and plumbing, and I was not an electrician and I was not a plumber.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b022",
+      "sourceHtmlSha256": "89a69830b245b8c621c82af785e2e1a7dc7946ac1ebd901e8c725d755a86d625",
+      "sourceHtml": "<p>Apparently, I was just going to become a student of both over the next few weeks.</p>",
+      "text": "Apparently, I was just going to become a student of both over the next few weeks.",
+      "type": "paragraph",
+      "html": "<p>Apparently, I was just going to become a student of both over the next few weeks.</p>"
+    },
+    {
+      "sourceBlockId": "ch05-b023",
+      "sourceHtmlSha256": "547cb5ab11a2085759b78d7289f8ac3aed37261d8cf4981372be4b88ecf84a72",
+      "sourceHtml": "<p>Thanks, YouTube.</p>",
+      "text": "Thanks, YouTube.",
+      "type": "paragraph",
+      "html": "<p>Thanks, YouTube.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-d2bd006e85ff",
+    "alt": "Cool spring bonfire day in April 2023 at the cabin using fallen winter branches",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Spring finally got here, and when it did, we were off to the races with excitement and enthusiasm. Honestly, maybe a little too much enthusiasm.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Five",
+  "originalHeadingAfterBlocks": 1
+}

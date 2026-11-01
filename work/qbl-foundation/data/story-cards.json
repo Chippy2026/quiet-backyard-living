@@ -1,0 +1,315 @@
+{
+  "trellis": {
+    "id": "trellis",
+    "title": "One fence picket. Two little trellises.",
+    "context": "From the workshop",
+    "description": "The idea, the pieces, the build—and the next chapter in the berry patch.",
+    "href": {
+      "contentId": "project"
+    },
+    "image": {
+      "mediaId": "media-342c86b52d9e",
+      "alt": "Jeff holding the completed cedar-picket fan trellis in the workshop",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "materials": {
+    "id": "materials",
+    "title": "A little wood. A useful beginning.",
+    "context": "A real QBL build",
+    "description": "Cedar strips, a few tools, and something to make for next season.",
+    "href": {
+      "contentId": "project"
+    },
+    "image": {
+      "mediaId": "media-1697d4636171",
+      "alt": "Cedar strips, glue, fasteners and a nailer laid out for the documented berry-trellis build",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "birdhouse": {
+    "id": "birdhouse",
+    "title": "A little cabin for the birds.",
+    "context": "Wildlife builds",
+    "description": "The cedar-picket birdhouse, from the workshop to the finished little house.",
+    "href": "/pages/cedar-fence-picket-birdhouse-workshop",
+    "image": {
+      "mediaId": "media-2a4525876d48",
+      "alt": "The completed handmade cedar-picket birdhouse",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "feeder": {
+    "id": "feeder",
+    "title": "The birdhouse idea became a feeder.",
+    "context": "Keep making",
+    "description": "Another small cedar build, with a familiar bit of cabin charm.",
+    "href": "/pages/log-cabin-bird-feeder-build",
+    "image": {
+      "mediaId": "media-863bdcb8d9eb",
+      "alt": "The completed rustic log-cabin-style bird feeder",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "playground": {
+    "id": "playground",
+    "title": "Old lumber. New playground.",
+    "context": "Build for the regulars",
+    "description": "Moving a favourite woodpile gave us a reason to make something scrappy.",
+    "href": "/pages/squirrel-playground-old-lumber",
+    "image": {
+      "mediaId": "media-aff4a4534b47",
+      "alt": "The handmade squirrel playground built from old lumber",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "deck": {
+    "id": "deck",
+    "title": "First the deck. Then the evenings.",
+    "context": "From the cabin journal",
+    "description": "A useful build became somewhere to sit and enjoy the place.",
+    "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#building-the-deck",
+    "image": {
+      "mediaId": "media-5a9267791917",
+      "alt": "Vanessa working on the cabin deck frame in the recorded journal",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "stairs": {
+    "id": "stairs",
+    "title": "A few small steps made the next job easier.",
+    "context": "Notebook / June 2026",
+    "description": "Before the cabin walls, the shed needed a better way in.",
+    "href": {
+      "contentId": "stairs-note"
+    },
+    "image": {
+      "mediaId": "media-203ebf18ff49",
+      "alt": "Vanessa trying the finished steps outside the green shed",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    },
+    "date": "June 2026"
+  },
+  "patio": {
+    "id": "patio",
+    "title": "A small bed for a space you use.",
+    "context": "A useful garden build",
+    "description": "From the wooden pieces to a place for something growing.",
+    "href": "/pages/diy-patio-garden-bed",
+    "image": {
+      "mediaId": "media-c790ffe2873b",
+      "alt": "The finished small wooden patio garden bed",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "harry": {
+    "id": "harry",
+    "title": "Yup. Harry was back.",
+    "context": "Notebook / Late May 2026",
+    "description": "Some arrivals make the whole visit.",
+    "href": "/notebook/harry-came-back",
+    "image": {
+      "mediaId": "media-ef97c973f7d9",
+      "alt": "Harry at the hummingbird feeder in the recorded late-May visit",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    },
+    "date": "Late May 2026"
+  },
+  "grapes": {
+    "id": "grapes",
+    "title": "We missed the grapes.",
+    "context": "Notebook / Fall 2025",
+    "description": "The garden story includes the things we didn’t get to eat.",
+    "href": "/notebook/we-missed-the-grapes",
+    "image": {
+      "mediaId": "media-a20aad5716d3",
+      "alt": "Grapes on the QBL vine before the recorded lost crop",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    },
+    "date": "Fall 2025"
+  },
+  "olla": {
+    "id": "olla",
+    "title": "Try a different way to water.",
+    "context": "An experiment, not a verdict",
+    "description": "Missed watering led to a terracotta olla. The longer result is still unreported.",
+    "href": "/pages/diy-olla-watering-system",
+    "image": {
+      "mediaId": "media-e5c218b2a0d0",
+      "alt": "The actual terracotta olla installation, not the earlier dry city beds",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "beds": {
+    "id": "beds",
+    "title": "Food you eat. A bed you can reach.",
+    "context": "Plan for next season",
+    "description": "A visual starting point for a useful little 4×8 garden.",
+    "href": {
+      "contentId": "raised-bed"
+    },
+    "image": {
+      "mediaId": "media-5eabdb9174a2",
+      "alt": "Young plants in an actual QBL raised bed; not the failed city-bed crop",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "garden-plan": {
+    "id": "garden-plan",
+    "title": "Make room for next year.",
+    "context": "The garden workbench",
+    "description": "Choose your space and crops. Work out a useful starting plan.",
+    "href": {
+      "contentId": "tool"
+    },
+    "image": {
+      "mediaId": "media-ad8bd09bb2af",
+      "alt": "An existing QBL raised bed, used to introduce the garden planning tool",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "first-row": {
+    "id": "first-row",
+    "title": "Over at the cabin, one trial row.",
+    "context": "June 2025 / A different garden",
+    "description": "Start with the cabin’s first garden row, rather than treating the two places as one.",
+    "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#first-garden-row",
+    "image": {
+      "mediaId": "media-661cb7f96e87",
+      "alt": "The first garden area at the cabin in the recorded journal",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "city-beds": {
+    "id": "city-beds",
+    "title": "The city beds had other plans.",
+    "context": "The city garden / Then another try",
+    "description": "The beds dried out while we were away. April 2026 brought another attempt.",
+    "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#trying-ollas",
+    "image": {
+      "mediaId": "media-city-beds-refresh-2026",
+      "alt": "Jeff refreshing the city raised beds in April 2026 for another try; not a photograph of the earlier dry beds",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "installed": {
+    "id": "installed",
+    "title": "Out of the workshop. Into the berry patch.",
+    "context": "Late May 2026 / What happened next",
+    "description": "The little trellises went into the ground beside the berries.",
+    "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+    "image": {
+      "mediaId": "media-9b6c5195ce51",
+      "alt": "The fan trellis installed beside the QBL berry patch in late May 2026",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "grosbeak": {
+    "id": "grosbeak",
+    "title": "The playground wasn’t just for chipmunks.",
+    "context": "Meanwhile, in our backyard",
+    "description": "The woodpile story kept going. A grosbeak joined in.",
+    "href": "/pages/gallery#grosbeak-squirrel-gym",
+    "image": {
+      "mediaId": "media-04154045e356",
+      "alt": "The grosbeak visiting the handmade wildlife playground",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "herbs": {
+    "id": "herbs",
+    "title": "Make the extras useful.",
+    "context": "A practical kitchen guide",
+    "description": "Ideas for using, freezing, drying and sharing extra herbs. Not a report of our cabin harvest.",
+    "href": "/pages/what-do-i-do-with-all-these-extra-herbs#save-extra-herbs",
+    "image": {
+      "mediaId": "media-be0ea900bbaa",
+      "alt": "The existing QBL basil cutting illustration",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    },
+    "visualType": "QBL illustration"
+  },
+  "basil": {
+    "id": "basil",
+    "title": "A little basil, from planting to harvest.",
+    "context": "The permanent practical library",
+    "description": "Growing, cutting and using this useful herb.",
+    "href": {
+      "contentId": "basil"
+    },
+    "image": {
+      "mediaId": "media-be0ea900bbaa",
+      "alt": "The existing QBL basil cutting illustration",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    },
+    "visualType": "QBL illustration"
+  },
+  "wildlife": {
+    "id": "wildlife",
+    "title": "What do the little visitors eat?",
+    "context": "Backyard wildlife",
+    "description": "The practical guide, connected to our actual backyard regulars.",
+    "href": {
+      "contentId": "wildlife"
+    },
+    "image": {
+      "mediaId": "media-5c48328327b9",
+      "alt": "An actual chipmunk visiting the QBL feeding area",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  },
+  "summer-garden": {
+    "id": "summer-garden",
+    "title": "Two gardens. All kinds of lessons.",
+    "context": "From our own ground",
+    "description": "The city beds, the cabin row, the experiments, and the things we missed.",
+    "href": "/stories/growing-a-little-food",
+    "image": {
+      "mediaId": "media-4f502f0c6b32",
+      "alt": "Vanessa tending the cabin vines during the recorded late-May visit",
+      "loading": "lazy",
+      "decoding": "async",
+      "sizes": "(max-width: 680px) calc(100vw - 36px), (max-width: 1000px) 45vw, 30vw"
+    }
+  }
+}

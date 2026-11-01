@@ -1,0 +1,2384 @@
+[
+  {
+    "id": "library-bf712d9d280a",
+    "route": "/library",
+    "output": "library.html",
+    "kind": "collection",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/library.html",
+      "sha256": "67310b53082af2ee28535a6106f7e5c23d571a405ed9f770a30198bcc241ba64"
+    },
+    "originalMainSha256": "b33e1c6592e43ae2f3616ed52e71b13732d66749b6d22fd28418a5d81d7818ed",
+    "bodyFile": "content/imported/library-bf712d9d280a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/qbl/library-browser.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2837f95bebd9",
+    "route": "/blog/7-easy-ways-to-make-your-yard-more-bird-friendly",
+    "output": "blog/7-easy-ways-to-make-your-yard-more-bird-friendly.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/blog/7-easy-ways-to-make-your-yard-more-bird-friendly.html",
+      "sha256": "6aa405d89f5c2c5499939da517fe8a8b1ac19bfdcdc40e71c748a84e59b8a359"
+    },
+    "originalMainSha256": "041ad4770a4d4ce025191d2feeeab199dd868d5793fb6e8fc618849d94d74b3a",
+    "bodyFile": "content/imported/library-2837f95bebd9.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-3e319bb0c40d",
+    "route": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+    "output": "blog/how-to-attract-hummingbirds-to-your-backyard.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/blog/how-to-attract-hummingbirds-to-your-backyard.html",
+      "sha256": "a5bb5471a3cbb88d4f985c141f14dc6804d487b2efb5d46d2044537d1b4b8394"
+    },
+    "originalMainSha256": "f8b5c28d64c792e2fa65176f966bf42ad729363bdaa7f3c1188e4ba8fb53adce",
+    "bodyFile": "content/imported/library-3e319bb0c40d.html",
+    "images": 2,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4a923a6b5443",
+    "route": "/blog/how-to-attract-more-backyard-wildlife-this-spring",
+    "output": "blog/how-to-attract-more-backyard-wildlife-this-spring.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/blog/how-to-attract-more-backyard-wildlife-this-spring.html",
+      "sha256": "3a9352e6b63a1ef22f16a98bf47c017598345dcbdd4c1892cadc257fe0cc0c07"
+    },
+    "originalMainSha256": "8c73e09aad673bdcb47b9049dc94a3abfb0b75214c2a8c1d64f593d8a0b26af7",
+    "bodyFile": "content/imported/library-4a923a6b5443.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-96bf7abae991",
+    "route": "/blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders",
+    "output": "blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders.html",
+      "sha256": "b692068d7f642b2c8a5a2c908fefc9e159cc1f7cedab10ee4244673e13798775"
+    },
+    "originalMainSha256": "24a2cfe555b1f9c8a04df16fcca63eb5b6f56c262208b486e6c1bd10e3967fcf",
+    "bodyFile": "content/imported/library-96bf7abae991.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7c4454e80ff7",
+    "route": "/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves",
+    "output": "pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves.html",
+      "sha256": "d31cef54dc3902f6763c25873c06edbc2ebaf0dffbb9f76436b23c4d6b3fd59a"
+    },
+    "originalMainSha256": "cfb37d0b31abc0037d7343879e9c3533670b0a6a57d2592521b7e683e880f563",
+    "bodyFile": "content/imported/library-7c4454e80ff7.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-d5ef2da7cef7",
+    "route": "/pages/25-small-changes-that-turn-an-ordinary-backyard-into-a-wildlife-retreat",
+    "output": "pages/25-small-changes-that-turn-an-ordinary-backyard-into-a-wildlife-retreat.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/pages/25-small-changes-that-turn-an-ordinary-backyard-into-a-wildlife-retreat.html",
+      "sha256": "fdfc2bf21a117397d4a715be219c5c531deafabbf836e4bfe4b6ebbd45a8778e"
+    },
+    "originalMainSha256": "59c9fb4652c47ae16243379f9f841f5916bf53d5d4e66c083c8343ed93854404",
+    "bodyFile": "content/imported/library-d5ef2da7cef7.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2bec1cc40090",
+    "route": "/pages/about",
+    "output": "pages/about.html",
+    "kind": "story",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/about.html",
+      "sha256": "9b9f4c990e6619fd23844e56ee594a9af0885d8cbf845c58da019e5c622e357c"
+    },
+    "originalMainSha256": "6b3af1735c0340aecf58d36fbc68e43a65e0e89c4de3d28e3de56583864b68ed",
+    "bodyFile": "content/imported/library-2bec1cc40090.html",
+    "images": 4,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-df3a18a0c65b",
+    "route": "/pages/advertise",
+    "output": "pages/advertise.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/advertise.html",
+      "sha256": "a7882bd74ca218f9ea0baf57613fca4f6148d8c01086bb5f0f610f6c11ff831a"
+    },
+    "originalMainSha256": "8f60f1edd9a1e3960f925ca30eb79968434a667b6c625da85b82fdefed932bea",
+    "bodyFile": "content/imported/library-df3a18a0c65b.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-a3f35b615ebf",
+    "route": "/pages/basil-grow-extra-and-sell-it-fast",
+    "output": "pages/basil-grow-extra-and-sell-it-fast.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/basil-grow-extra-and-sell-it-fast.html",
+      "sha256": "f898f7173db2d4c712e4797c8840c30942e3a3c2654aaf67d4b91e450e5e1329"
+    },
+    "originalMainSha256": "6f2f67a149ab29313d4a654453698fcb7f47801747c09f4b1510eb7f6fe22bc4",
+    "bodyFile": "content/imported/library-a3f35b615ebf.html",
+    "images": 2,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b7f99ddc7ebc",
+    "route": "/pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful",
+    "output": "pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful.html",
+      "sha256": "6accf516cb4d4bf34472508653ddcd196cf497593a842d327fec5abf064ba7ba"
+    },
+    "originalMainSha256": "6809eec338735b1b0380be774f6a67cdcc5573a5dd2d8e7802ddf2bc7efce024",
+    "bodyFile": "content/imported/library-b7f99ddc7ebc.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-0bdab20cff7b",
+    "route": "/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed",
+    "output": "pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed.html",
+      "sha256": "abdeb71b982762aa9e87c0c211b33d9e3305ae1cc7086efcdce27ac6a30db200"
+    },
+    "originalMainSha256": "15b0d5644e244d8cf4d323bff8af3740c96e85c0b48a1366fb1dcf6faec6d997",
+    "bodyFile": "content/imported/library-0bdab20cff7b.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-12d09218c596",
+    "route": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+    "output": "pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space.html",
+      "sha256": "33b211d5f7d8b8c38f792f89df0031f90999af5a0938b6a752b1897d2797b971"
+    },
+    "originalMainSha256": "00dbb7c1953831f0c19d156f71620d6dd636361e0019a34a447679d1a3000408",
+    "bodyFile": "content/imported/library-12d09218c596.html",
+    "images": 2,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ea22b16a350c",
+    "route": "/pages/birdhouse-blueprints",
+    "output": "pages/birdhouse-blueprints.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/birdhouse-blueprints.html",
+      "sha256": "58d772667c2a9b0d8d3b50247d8c5892ef79df2fe5c4700fd1f05fd6ff5d0591"
+    },
+    "originalMainSha256": "f8006d03e8945a6a85e3e2231ba8d43b463d3ccb90b5a5518dd149061a972039",
+    "bodyFile": "content/imported/library-ea22b16a350c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-3fac66fd4674",
+    "route": "/pages/birdhouse-guide-signup",
+    "output": "pages/birdhouse-guide-signup.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/birdhouse-guide-signup.html",
+      "sha256": "28e85e000713b1bc369b27118a4f9290454c233f4a93f86282c1270dd4e8ba7d"
+    },
+    "originalMainSha256": "a814e7c857a64019ec69286c035afea34738b00a1496b4d37925be624b0ba563",
+    "bodyFile": "content/imported/library-3fac66fd4674.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2690a0763257",
+    "route": "/pages/blog",
+    "output": "pages/blog.html",
+    "kind": "collection",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/blog.html",
+      "sha256": "1048001b57aeffb725484ed2a0a50a1dc6ea0a7df046aa552a23632683da26bc"
+    },
+    "originalMainSha256": "ebc4d46d55878571e06669e9a64110edb120c5d78040fc847f5c4ef4a2063e22",
+    "bodyFile": "content/imported/library-2690a0763257.html",
+    "images": 9,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-80f628390bb5",
+    "route": "/pages/can-thyme-make-you-a-little-extra-money",
+    "output": "pages/can-thyme-make-you-a-little-extra-money.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/can-thyme-make-you-a-little-extra-money.html",
+      "sha256": "49d412df8c8b71bc529b921a8229d3ce9fc44cbbaebe499650652603cf7e1c40"
+    },
+    "originalMainSha256": "931dfaa5a7058bbe661c155b285793f47c584ef7b4f1c978ba615c1c04417a2f",
+    "bodyFile": "content/imported/library-80f628390bb5.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c7dcee9f7f8a",
+    "route": "/pages/cedar-fence-picket-birdhouse-workshop",
+    "output": "pages/cedar-fence-picket-birdhouse-workshop.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/cedar-fence-picket-birdhouse-workshop.html",
+      "sha256": "1efc73164845a49f73d3942e60dc0159fd42213b79c6d269db124e138eefd63b"
+    },
+    "originalMainSha256": "8adc872c520ec9227a41311ae65e676a2ea5c2b8b7a0cc0e7e2aeaa8c0895d50",
+    "bodyFile": "content/imported/library-c7dcee9f7f8a.html",
+    "images": 24,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2673f1ac50f6",
+    "route": "/pages/checklist",
+    "output": "pages/checklist.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/checklist.html",
+      "sha256": "0b770ef36674e69a4b2aa7e33c67b8280128068e4e82536853e128df753beb3d"
+    },
+    "originalMainSha256": "e5150f72213ff291fc66a02f5eb33579aa6a0222693bfe92c3b9d55e720f2c4e",
+    "bodyFile": "content/imported/library-2673f1ac50f6.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e4ca42986b02",
+    "route": "/pages/contact",
+    "output": "pages/contact.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/contact.html",
+      "sha256": "4fa69b75cd186cb1629962f148c88ab2b933631859ba341e70bcde07f00f1dfd"
+    },
+    "originalMainSha256": "aecc4de38142034bceeb5944a268fafa81ac12e8e474393c4fa8bc6824f8dae2",
+    "bodyFile": "content/imported/library-e4ca42986b02.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-fbede02649ca",
+    "route": "/pages/diy-olla-watering-system",
+    "output": "pages/diy-olla-watering-system.html",
+    "kind": "project",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/diy-olla-watering-system.html",
+      "sha256": "5dc85d52005cbfe5abc877f5230a3c30e881f59c83b05e63073ecd0ebc3ae9eb"
+    },
+    "originalMainSha256": "e2bc5a2071eab226155521170eb896f9e77fc8d96e85a8e35c1c4acc698220fc",
+    "bodyFile": "content/imported/library-fbede02649ca.html",
+    "images": 17,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-6770210b87b6",
+    "route": "/pages/diy-patio-garden-bed",
+    "output": "pages/diy-patio-garden-bed.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/diy-patio-garden-bed.html",
+      "sha256": "33872b9be4a5caf26d43778a893c6abc3cf1c5a6dcb843d2012a99b3cad83726"
+    },
+    "originalMainSha256": "758cd13ca48ef35ee04c39a373b52cacf3181501bc00242f2d79ac0988f52980",
+    "bodyFile": "content/imported/library-6770210b87b6.html",
+    "images": 20,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2e535f34fe4f",
+    "route": "/pages/four-in-one-fruit-tree-at-the-cabin",
+    "output": "pages/four-in-one-fruit-tree-at-the-cabin.html",
+    "kind": "story",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/four-in-one-fruit-tree-at-the-cabin.html",
+      "sha256": "4018a640e7bac729930d520d336372a18f7cb8262d1e097a70a4d3292624b97f"
+    },
+    "originalMainSha256": "e5c014ecd89f319b46c861b58f19a0a8e51438dfcf88848f6e48bf0798a3bbfc",
+    "bodyFile": "content/imported/library-2e535f34fe4f.html",
+    "images": 12,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-42ebffa0c4dd",
+    "route": "/pages/gallery",
+    "output": "pages/gallery.html",
+    "kind": "collection",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/gallery.html",
+      "sha256": "0fb7d8e70f9ce4c20223c2b86278323c4ef9d863b7c8638e38d20ab49fd03005"
+    },
+    "originalMainSha256": "bb05bda6d3f5710a7b0ae20d0b1bf8cf002dd215f80ad9a3de9ad1c5cf733c8c",
+    "bodyFile": "content/imported/library-42ebffa0c4dd.html",
+    "images": 19,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-6d8a76e780d5",
+    "route": "/pages/get-updates-from-around-the-yard",
+    "output": "pages/get-updates-from-around-the-yard.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/get-updates-from-around-the-yard.html",
+      "sha256": "0c8e36fa1f0a90f0594a472bbfe26ccab39aec3cb19f93615f329aae56f95e26"
+    },
+    "originalMainSha256": "522fd1f2efc86ee0a3ecca3c61c72f4fb22c741d08681b2ec425bd831ca2b1ce",
+    "bodyFile": "content/imported/library-6d8a76e780d5.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-34ec10ead8ef",
+    "route": "/pages/grow-extra-herbs-for-yourself-friends-and-a-couple-extra-dollars",
+    "output": "pages/grow-extra-herbs-for-yourself-friends-and-a-couple-extra-dollars.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/grow-extra-herbs-for-yourself-friends-and-a-couple-extra-dollars.html",
+      "sha256": "c39bf81072249d7c5c9993422ac31059fd8f256d8ee1113e89366187fff1d30d"
+    },
+    "originalMainSha256": "13b71b32ec9cbbe1757cbe87a7680b102fbbe66ab5ee291a05606f004bba2c0c",
+    "bodyFile": "content/imported/library-34ec10ead8ef.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-a3b7031664de",
+    "route": "/pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use",
+    "output": "pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use.html",
+      "sha256": "c1b0654fd6becfdcae287cea2bcc7e68b5fc47b26857c5963c616c5c8751e1be"
+    },
+    "originalMainSha256": "271d683643e241640fa1c4efaa9d6b81cc20c98bef5c4b796562638d57d9b7c4",
+    "bodyFile": "content/imported/library-a3b7031664de.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c492648d8d55",
+    "route": "/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income",
+    "output": "pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html",
+      "sha256": "d6c2af757cafd8a30de1fbbe07829eaed74dea425b17fc6c91080c538ce2dd31"
+    },
+    "originalMainSha256": "e9d78470b07fed41baf13850777d6b17b0e50abcbe07536bc66d0a596654052e",
+    "bodyFile": "content/imported/library-c492648d8d55.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-412d0cf65144",
+    "route": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+    "output": "pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars.html",
+      "sha256": "bbee6aa3ed6cb56b854d037ef17102606c57fdaf3137d6ac6e88a8378993a8be"
+    },
+    "originalMainSha256": "0beb32467ff6adb5b60af3697621104de1a29b42fabbfbe35ad4c8ecd7736bf6",
+    "bodyFile": "content/imported/library-412d0cf65144.html",
+    "images": 4,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f0de55795e65",
+    "route": "/pages/how-to-start-a-pollinator-flower-bed",
+    "output": "pages/how-to-start-a-pollinator-flower-bed.html",
+    "kind": "guide",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/pages/how-to-start-a-pollinator-flower-bed.html",
+      "sha256": "ab4ee844800f6022336e3c661d3f2eed8a202623e0a6a607323072d814b08c3e"
+    },
+    "originalMainSha256": "469f9b7068e11248e7122372662df7280a6b4dc43e6e8d27956f74afdb9054c9",
+    "bodyFile": "content/imported/library-f0de55795e65.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e43efde58252",
+    "route": "/pages/how-we-built-this-rustic-backyard-bee-hotel",
+    "output": "pages/how-we-built-this-rustic-backyard-bee-hotel.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/how-we-built-this-rustic-backyard-bee-hotel.html",
+      "sha256": "3fe7b83b5cd08a3fb4a896332934ed3df27e495faa8c320f011075aefa07864d"
+    },
+    "originalMainSha256": "c409c6494e172b876c5518a8f67517bdb0a6f42f9b01e14050d483b348ce833a",
+    "bodyFile": "content/imported/library-e43efde58252.html",
+    "images": 13,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-8a470911cef3",
+    "route": "/pages/in-bed-worm-composting-tube",
+    "output": "pages/in-bed-worm-composting-tube.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/in-bed-worm-composting-tube.html",
+      "sha256": "d29b0e633b2f4081acb1a90059b981dfcf2b5832eecdd8e8024a3205d46521a0"
+    },
+    "originalMainSha256": "912f0f4b8544e6ac6bc4af61dd7d8b93e8670a237d773311516ddac66ae454bf",
+    "bodyFile": "content/imported/library-8a470911cef3.html",
+    "images": 16,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b4037c2b9aef",
+    "route": "/pages/jujube-trees-at-the-cabin",
+    "output": "pages/jujube-trees-at-the-cabin.html",
+    "kind": "story",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/jujube-trees-at-the-cabin.html",
+      "sha256": "1bb1bef0a202becf3d0172ddf2ebc1928c654dc030b8f5a0c51dd752a6857d14"
+    },
+    "originalMainSha256": "5c99740e715dbd6a829daa4878d8d6dfaf0daed1c1e322d0413f0e3d3d638e4c",
+    "bodyFile": "content/imported/library-b4037c2b9aef.html",
+    "images": 10,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ad7b342e874d",
+    "route": "/pages/log-cabin-bird-feeder-build",
+    "output": "pages/log-cabin-bird-feeder-build.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/log-cabin-bird-feeder-build.html",
+      "sha256": "46afd7c0d9805cf7598d3e6b94345558bae6ad4e4b4fb027179de8d2ed0c80f5"
+    },
+    "originalMainSha256": "bce81a2368f0878c7e56ec84307afef4913b3724eab41610cba12338d05e5008",
+    "bodyFile": "content/imported/library-ad7b342e874d.html",
+    "images": 23,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7628bf16a8eb",
+    "route": "/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again",
+    "output": "pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again.html",
+      "sha256": "dcd3ebf1242f233d2186a2d185fbc6a5022346f030095534b8fa294a84d2877a"
+    },
+    "originalMainSha256": "34ddcd0320e2b62ca4489589b6e32aa6f6169bddee2b94a9b9d9612dda984b7f",
+    "bodyFile": "content/imported/library-7628bf16a8eb.html",
+    "images": 4,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4575ae0e0aa8",
+    "route": "/pages/our-place",
+    "output": "pages/our-place.html",
+    "kind": "story",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/our-place.html",
+      "sha256": "7a3407cc3e3622c60d2e4e742e3f7351c6fcad9eb093be8bc0322130e6fc3a0a"
+    },
+    "originalMainSha256": "96054a2c99d6f4ca7942028c6e89400c2eef327a7dbab99285f496c22bb619c7",
+    "bodyFile": "content/imported/library-4575ae0e0aa8.html",
+    "images": 2,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ab3ddf2b74ff",
+    "route": "/pages/projects",
+    "output": "pages/projects.html",
+    "kind": "collection",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/projects.html",
+      "sha256": "13eb23d62fc9318285804ae93a8618fbf9f4d8bbca0cd3ecc23a62bc5043e7bc"
+    },
+    "originalMainSha256": "eeee8464b6cf8ef0a19b9eb5db00f4984734d5d143caf6a453bc3535670a122d",
+    "bodyFile": "content/imported/library-ab3ddf2b74ff.html",
+    "images": 8,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4736f6369209",
+    "route": "/pages/protect-my-veggie",
+    "output": "pages/protect-my-veggie.html",
+    "kind": "tool",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/protect-my-veggie.html",
+      "sha256": "bedaa037f556ece25de53946a58c1edd966bd45a6fde392269678d14be8bef6a"
+    },
+    "originalMainSha256": "b4640de2da10ab027d944c772f10f379b03367fe548d8d97a72a92622a0644a4",
+    "bodyFile": "content/imported/library-4736f6369209.html",
+    "images": 0,
+    "scripts": [
+      "/assets/qbl/imported/library-4736f6369209-0.js",
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-1a0de18d54af",
+    "route": "/pages/rain-water-feeding-station-build-v2",
+    "output": "pages/rain-water-feeding-station-build-v2.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/rain-water-feeding-station-build-v2.html",
+      "sha256": "3ee3fbcc02a1dcd36c6a501c77c46105385c3b2acb962497e2a6298f28d41f63"
+    },
+    "originalMainSha256": "d9cb0e8bb5ae3754bdf2386693c63e5c8cfa2c3438227d1fc1dcf72f9b4f3744",
+    "bodyFile": "content/imported/library-1a0de18d54af.html",
+    "images": 21,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-6c061d48e94a",
+    "route": "/pages/rain-water-feeding-station-build",
+    "output": "pages/rain-water-feeding-station-build.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/rain-water-feeding-station-build.html",
+      "sha256": "0038cae8662ba7443a432949bd3c3518c88aa1da6506f939e33b5729f9a2bb68"
+    },
+    "originalMainSha256": "077baeb44beaf0df274ceba51f2661144d1a25de49c1a8b19c0822bd5c56ab00",
+    "bodyFile": "content/imported/library-6c061d48e94a.html",
+    "images": 26,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-d9cac5f37b9a",
+    "route": "/pages/signup",
+    "output": "pages/signup.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/signup.html",
+      "sha256": "0456918d3e7164208f255b9f32b38e35aa0fceb10134ae0e8a2dc85b0f339a5c"
+    },
+    "originalMainSha256": "2a368c7a467f077e3a5da43a107d6b28078b9add5df642c7c94d0873b11e8492",
+    "bodyFile": "content/imported/library-d9cac5f37b9a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e323e0451fe9",
+    "route": "/pages/simple-bird-bath-station",
+    "output": "pages/simple-bird-bath-station.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/simple-bird-bath-station.html",
+      "sha256": "20b2ad24459bf632803b3f8fe5527aa803d8adf36bb327a28ed452ac5bf6e88a"
+    },
+    "originalMainSha256": "39c735ec29383fac8c62a58d29e1d09ebb3609ee365a8cc34bed8218251a4336",
+    "bodyFile": "content/imported/library-e323e0451fe9.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b9f088ac6c2b",
+    "route": "/pages/simple-bird-feeder-ideas",
+    "output": "pages/simple-bird-feeder-ideas.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/simple-bird-feeder-ideas.html",
+      "sha256": "9d3d397a5e1fcdd9afd0f14bc83a868ca0522757cbf8e9139bc6ed1213768137"
+    },
+    "originalMainSha256": "43389684341fd849388df760a8cc27063e6f9d027068315c5d8e9ecbd2eb704c",
+    "bodyFile": "content/imported/library-b9f088ac6c2b.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ab8a23928c57",
+    "route": "/pages/squirrel-playground-old-lumber",
+    "output": "pages/squirrel-playground-old-lumber.html",
+    "kind": "project",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/squirrel-playground-old-lumber.html",
+      "sha256": "d8a39c78cb4df9dea2f8b4e79b4447b5c7e5983195e4a1a70763f5c46febd257"
+    },
+    "originalMainSha256": "4da938d80141134b2d8424c64ab433052a0e2492da9bf226d49d327598651c39",
+    "bodyFile": "content/imported/library-ab8a23928c57.html",
+    "images": 8,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e507b902c7bd",
+    "route": "/pages/story-signup",
+    "output": "pages/story-signup.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/story-signup.html",
+      "sha256": "1268a33a35c138646f26cffb278a3f5a7a42f0b07aa384dcd429a92671a7621d"
+    },
+    "originalMainSha256": "1e11fdf9aec92acc3143a4fe15f454ca945543f4e01d7ce69285598e0ab25e2a",
+    "bodyFile": "content/imported/library-e507b902c7bd.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4498a9292a8d",
+    "route": "/pages/the-backyard-herb-hub",
+    "output": "pages/the-backyard-herb-hub.html",
+    "kind": "collection",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/the-backyard-herb-hub.html",
+      "sha256": "8913b625a91f6f6e6b5ca2d35843bd9b59286d989d4a32d84aa51b5c6d85902b"
+    },
+    "originalMainSha256": "abc85ccc0449da203ca9a1beaffe933067fca9eaf4ae3587bb132cb57c5e34fd",
+    "bodyFile": "content/imported/library-4498a9292a8d.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7d2d44f8b4d8",
+    "route": "/pages/the-grocery-saver-herb-garden-5-herbs-that-quietly-pay-you-back-all-season",
+    "output": "pages/the-grocery-saver-herb-garden-5-herbs-that-quietly-pay-you-back-all-season.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/the-grocery-saver-herb-garden-5-herbs-that-quietly-pay-you-back-all-season.html",
+      "sha256": "3d5e11214181e67305b517442996b8cc301a11394e97a77247f8799becae127f"
+    },
+    "originalMainSha256": "14946a98c73770d8c99a4d40a409cf02510660d6734229bfaed1666a04ac01a6",
+    "bodyFile": "content/imported/library-7d2d44f8b4d8.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-15d8510df65a",
+    "route": "/pages/the-herbs-that-quietly-save-you-the-most-money",
+    "output": "pages/the-herbs-that-quietly-save-you-the-most-money.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/the-herbs-that-quietly-save-you-the-most-money.html",
+      "sha256": "c694fce1a6d73fce733f60991ce51587ee952f11ba659db88a5ad3ab4ec63172"
+    },
+    "originalMainSha256": "c0618a9176b519106a4acf74a42a50e73c35d8bdb5bf7eb04eefd21e90c4df38",
+    "bodyFile": "content/imported/library-15d8510df65a.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c98b535b0971",
+    "route": "/pages/weekend-backyard-builds",
+    "output": "pages/weekend-backyard-builds.html",
+    "kind": "collection",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/pages/weekend-backyard-builds.html",
+      "sha256": "e18fb9f619230df3fb88a89c8c707f5579a3407680c5bd1b585cb545e8b3c154"
+    },
+    "originalMainSha256": "fca28ceeec3eab9d12239793a8643d544a8dee2561af47fb5f377aa1aa93432a",
+    "bodyFile": "content/imported/library-c98b535b0971.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-0ceb2763d619",
+    "route": "/pages/what-do-i-do-with-all-these-extra-herbs",
+    "output": "pages/what-do-i-do-with-all-these-extra-herbs.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/what-do-i-do-with-all-these-extra-herbs.html",
+      "sha256": "5c36e523165f0271c037f118f07d0a306cfcb3c950816223410babbf504a3897"
+    },
+    "originalMainSha256": "22540c39f97132871316e9cb939121c85309f0cb54acc465ca15101bb0b91e70",
+    "bodyFile": "content/imported/library-0ceb2763d619.html",
+    "images": 3,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-66995bca7fd1",
+    "route": "/pages/what-people-actually-buy-when-you-grow-extra-herbs",
+    "output": "pages/what-people-actually-buy-when-you-grow-extra-herbs.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/what-people-actually-buy-when-you-grow-extra-herbs.html",
+      "sha256": "90a6a27a3925ad31d35e6df44644da98f2be322f28d006d3d5c7a8a814556a99"
+    },
+    "originalMainSha256": "fd0b4e27974bd1823e631726454cd9c3cacf1aed6bcfed575d8548a037ceb0f7",
+    "bodyFile": "content/imported/library-66995bca7fd1.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e8d9e552eb30",
+    "route": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+    "output": "pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads.html",
+      "sha256": "48a1b57b5bb4784f503bb877461c0e6c5b33454ca306e4fdc634bd262f0bd07b"
+    },
+    "originalMainSha256": "221074d51f6120d8cd0aaec34d6ac7a1f3425becbe2cae6f96862f4961012a9d",
+    "bodyFile": "content/imported/library-e8d9e552eb30.html",
+    "images": 2,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c8455d04b52c",
+    "route": "/pages/what-to-grow-near-artichokes",
+    "output": "pages/what-to-grow-near-artichokes.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-artichokes.html",
+      "sha256": "fb8513bda9f00864e5e402ba06d69b0bc05ae273bbfb94022e08dfc60e7068b2"
+    },
+    "originalMainSha256": "f032a77b645e7edf841825d0b2060f1ba6275a689a4bee0469774a9cc2e7a03c",
+    "bodyFile": "content/imported/library-c8455d04b52c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-31d7c25e6f6f",
+    "route": "/pages/what-to-grow-near-arugula",
+    "output": "pages/what-to-grow-near-arugula.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-arugula.html",
+      "sha256": "085e28868b0a05f6abb76f71d84d568cec67cf59911e0627a1d91ecc750a2a5d"
+    },
+    "originalMainSha256": "5b1d73f116b0e86908814e2a5b8264b2926e86d03f15026288851c42b2ede9c5",
+    "bodyFile": "content/imported/library-31d7c25e6f6f.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-1e97a3be298b",
+    "route": "/pages/what-to-grow-near-asparagus",
+    "output": "pages/what-to-grow-near-asparagus.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-asparagus.html",
+      "sha256": "6c393224f33f2f6ab1a2421d7e0022c72ad13fa512bb635ad52edcb70b7f653c"
+    },
+    "originalMainSha256": "cfa15c5d2a387c91fed4750cd9e6cce066bceb234511e195eaa8c075b27aa5e7",
+    "bodyFile": "content/imported/library-1e97a3be298b.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-985160c6a10a",
+    "route": "/pages/what-to-grow-near-beets",
+    "output": "pages/what-to-grow-near-beets.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-beets.html",
+      "sha256": "1e47599727bd2f57b3fdcd70f68c099b41ea38430984a91d8ba1936101f9553c"
+    },
+    "originalMainSha256": "b28e64d638c59630a34664b2082bfa28ae5cd4ff35824a515c276f6c0afcc50b",
+    "bodyFile": "content/imported/library-985160c6a10a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-39df05c70fb0",
+    "route": "/pages/what-to-grow-near-bok-choy",
+    "output": "pages/what-to-grow-near-bok-choy.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-bok-choy.html",
+      "sha256": "f620b0dc75c1480dedcb0aabdc7c025cf77dd24ee74938cdc9c90f97427b59dd"
+    },
+    "originalMainSha256": "400ae2f399ea310313bc4c785be1f86ca8fa9103c4e434769cfc0dc5f6cb8f4e",
+    "bodyFile": "content/imported/library-39df05c70fb0.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-af555f14bc0f",
+    "route": "/pages/what-to-grow-near-broccoli",
+    "output": "pages/what-to-grow-near-broccoli.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-broccoli.html",
+      "sha256": "6b04222e4e731b6863573d2df8018532b3ba3849fb9b733c6339719063af8f16"
+    },
+    "originalMainSha256": "5c59a3e1c496ac011d14273358979c37446803e25c9aae22799b93d2c8a68428",
+    "bodyFile": "content/imported/library-af555f14bc0f.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2ca2eeb6dbb5",
+    "route": "/pages/what-to-grow-near-brussels-sprouts",
+    "output": "pages/what-to-grow-near-brussels-sprouts.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-brussels-sprouts.html",
+      "sha256": "8b901b2b461d2507a9f22a7585aec52af88519335769c5320ac8a6bbe5eaa951"
+    },
+    "originalMainSha256": "b2e3acfadb0f3af16c66659d22f71b8232330de8c3e3312da3b796ae58d0977b",
+    "bodyFile": "content/imported/library-2ca2eeb6dbb5.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f259104e0422",
+    "route": "/pages/what-to-grow-near-cabbage-family-crops",
+    "output": "pages/what-to-grow-near-cabbage-family-crops.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cabbage-family-crops.html",
+      "sha256": "0ee7bb4db72912182b402d5eecc79283fbe83976239845579dbf2c8cc0c1a9bf"
+    },
+    "originalMainSha256": "3f77ca7edea7105e148f7085c4822bfa9c1393d402ff4e4d0e887d8ebc22fcb2",
+    "bodyFile": "content/imported/library-f259104e0422.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-233632ca6e95",
+    "route": "/pages/what-to-grow-near-cabbage",
+    "output": "pages/what-to-grow-near-cabbage.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cabbage.html",
+      "sha256": "d6e94b5803b72faefc8db1efc93172be5de03e083657f4759ba4ed4d3e4df5dd"
+    },
+    "originalMainSha256": "edbf9dbfc71789a7d5570ec892b7c30fde617d557b04be3240f2030141583cb8",
+    "bodyFile": "content/imported/library-233632ca6e95.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e851a2c99a3c",
+    "route": "/pages/what-to-grow-near-cantaloupe",
+    "output": "pages/what-to-grow-near-cantaloupe.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cantaloupe.html",
+      "sha256": "56fae528558c34df63521e44eb51acf2e64a2704e137b24284f5079fdfa1e274"
+    },
+    "originalMainSha256": "e186c4c41ae34497ac0f82b0ec6747b44c78bbb7a944f7c3c7a97a9dc537fc83",
+    "bodyFile": "content/imported/library-e851a2c99a3c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-00edac889a8c",
+    "route": "/pages/what-to-grow-near-carrots",
+    "output": "pages/what-to-grow-near-carrots.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-carrots.html",
+      "sha256": "d03c07688846d747ace33fd0d5249d148bf47e85cdd076ef464fc239bd4ebb17"
+    },
+    "originalMainSha256": "bbb16aed228b133ce293733b8f609123269bcba44bf20aa0f7975943ca82fc2f",
+    "bodyFile": "content/imported/library-00edac889a8c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b2757599f432",
+    "route": "/pages/what-to-grow-near-cauliflower",
+    "output": "pages/what-to-grow-near-cauliflower.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cauliflower.html",
+      "sha256": "d2a2bac2f2cd9ad99c422edc900972886d8e505b236af3c1ff54a97bdb20b73b"
+    },
+    "originalMainSha256": "9653078a98ba4eea3b53f88ce0f06da077fed701f9f70ee3df4a441624fbc029",
+    "bodyFile": "content/imported/library-b2757599f432.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ac3c5451999a",
+    "route": "/pages/what-to-grow-near-celeriac",
+    "output": "pages/what-to-grow-near-celeriac.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-celeriac.html",
+      "sha256": "8d5a7590549cb1d93bed6467b38d5cd3549efa3bf929558a1030cc7e4d516496"
+    },
+    "originalMainSha256": "dcc648e6d9162e9b1ee6ff6238bd4efdd338bfbb24792a53537899ac91cbb1aa",
+    "bodyFile": "content/imported/library-ac3c5451999a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-db8aab22d2d9",
+    "route": "/pages/what-to-grow-near-celery",
+    "output": "pages/what-to-grow-near-celery.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-celery.html",
+      "sha256": "163b661fff0c353731a4d566e9db2b8d3602c6f052faa6aeed0d7436f19029d2"
+    },
+    "originalMainSha256": "55f77d4879c2580151ec3d10b9ab7f89b731a29dad644ddc0abae38f26cb58fa",
+    "bodyFile": "content/imported/library-db8aab22d2d9.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-31c5af6f6942",
+    "route": "/pages/what-to-grow-near-chickpeas",
+    "output": "pages/what-to-grow-near-chickpeas.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-chickpeas.html",
+      "sha256": "86af04c2734a4fa443e68a07cceb89e462808c0d74a306b06dd11e6a1faf2fd4"
+    },
+    "originalMainSha256": "0140982b69b53b9f17d12a03b383d07882d5152338174e5628f28c6fa6b12473",
+    "bodyFile": "content/imported/library-31c5af6f6942.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-16f463250a21",
+    "route": "/pages/what-to-grow-near-chili-peppers",
+    "output": "pages/what-to-grow-near-chili-peppers.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-chili-peppers.html",
+      "sha256": "73ca88ee052ccd5f042cc3ab1b46e3a3bc3b6565bdebc81c0414d5ae9bc75fac"
+    },
+    "originalMainSha256": "b256acd2beba7ba18f9c7bdc2da37030f7ac64224c4a00944c18e5966a42ce4a",
+    "bodyFile": "content/imported/library-16f463250a21.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-5ead1f9f30b8",
+    "route": "/pages/what-to-grow-near-collards",
+    "output": "pages/what-to-grow-near-collards.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-collards.html",
+      "sha256": "5584ca0f62bd092a1e5043c11b24e4db63548edacaa1d398cc60d3ffe886af99"
+    },
+    "originalMainSha256": "48df4d96e47891f9d8ca6af7811c1b53115dba9acb2601e5398bb014a26dfbdd",
+    "bodyFile": "content/imported/library-5ead1f9f30b8.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f504d3cb4a46",
+    "route": "/pages/what-to-grow-near-corn",
+    "output": "pages/what-to-grow-near-corn.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-corn.html",
+      "sha256": "d0766638c7c065a3b75317fb284d49df1db03ddafe8040a24ac896f6bfb6af78"
+    },
+    "originalMainSha256": "f75186bbfa50f658b684a356c26298e45351ab132d1af5032a2922d9f274bdb2",
+    "bodyFile": "content/imported/library-f504d3cb4a46.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-5cd9c18fe99a",
+    "route": "/pages/what-to-grow-near-cress",
+    "output": "pages/what-to-grow-near-cress.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cress.html",
+      "sha256": "01312c2a148c0bc9000f73d65a72f5a512e3c274d0c2f09d0f9c231b5af0ac28"
+    },
+    "originalMainSha256": "bc47f3130f656ff5dee51d866584476fe1a3792d9620e8bbf17ef5363bf007d7",
+    "bodyFile": "content/imported/library-5cd9c18fe99a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-623fb10cf71a",
+    "route": "/pages/what-to-grow-near-cucumbers",
+    "output": "pages/what-to-grow-near-cucumbers.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-cucumbers.html",
+      "sha256": "83443828ca45e1db46b445551cb147084f9a856184ecb33f1a9d7f5992c878c2"
+    },
+    "originalMainSha256": "2c8265ee24039d209c98d47e3f2a4a175b34b4464dfc0e7243c923d9794fd043",
+    "bodyFile": "content/imported/library-623fb10cf71a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-bc07bd07d6b9",
+    "route": "/pages/what-to-grow-near-edamame",
+    "output": "pages/what-to-grow-near-edamame.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-edamame.html",
+      "sha256": "62f803f7f39f165fe9d285b7111cd225a6dc16a70679249c25085d433486969f"
+    },
+    "originalMainSha256": "db86c8383bd8b7c541e6158d059f15f8a2edc367d5159b731a52d2b58e7e955e",
+    "bodyFile": "content/imported/library-bc07bd07d6b9.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-3c8c80b8b201",
+    "route": "/pages/what-to-grow-near-eggplant",
+    "output": "pages/what-to-grow-near-eggplant.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-eggplant.html",
+      "sha256": "6adbc2d08bc506130795bbc0d48c8c0c681169f3b521a7298248cd8941e991fc"
+    },
+    "originalMainSha256": "d4b049f46d72cad156ba3c39dbbce24c4862745e96025e4a3427eb831b323c01",
+    "bodyFile": "content/imported/library-3c8c80b8b201.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-6a2621470149",
+    "route": "/pages/what-to-grow-near-endive",
+    "output": "pages/what-to-grow-near-endive.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-endive.html",
+      "sha256": "6c51afc731e4fba017c10c0d1435ea0fc60e3a36444d9951991b9a77b32eb58b"
+    },
+    "originalMainSha256": "9155e3abf982d8c50a5c2bc7811abd6d9ae0d089203b9258336beece5d045784",
+    "bodyFile": "content/imported/library-6a2621470149.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f91988e5acb9",
+    "route": "/pages/what-to-grow-near-fennel",
+    "output": "pages/what-to-grow-near-fennel.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-fennel.html",
+      "sha256": "b2446d39307a114850bc6b26917cefd14496246f07b1a200f7f59cb04bc833ba"
+    },
+    "originalMainSha256": "2a446d4cea903813281133be48cd2b2ab46d88182b174c822c1c099843b4aefb",
+    "bodyFile": "content/imported/library-f91988e5acb9.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-902995fbf4f1",
+    "route": "/pages/what-to-grow-near-garlic",
+    "output": "pages/what-to-grow-near-garlic.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-garlic.html",
+      "sha256": "ad2b49b895bd64514da56bf2d79b59515fd1871a3c3c8b83967d94b8d5246256"
+    },
+    "originalMainSha256": "831e6ae62f2df42d3aa7ac645adb316eecf154fa58a394f5e4cf73d10220442f",
+    "bodyFile": "content/imported/library-902995fbf4f1.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-765477bf82e0",
+    "route": "/pages/what-to-grow-near-green-beans",
+    "output": "pages/what-to-grow-near-green-beans.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-green-beans.html",
+      "sha256": "e348c6fd3f476158f44d09f36df9dc718472b0598d5e45bed44d73ce0a1acd80"
+    },
+    "originalMainSha256": "3d3cdf25e682db2e0ab8f6730b147df640d818594ba6f2122c5d30fa07c900fc",
+    "bodyFile": "content/imported/library-765477bf82e0.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f50aba6846fd",
+    "route": "/pages/what-to-grow-near-ground-cherries",
+    "output": "pages/what-to-grow-near-ground-cherries.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-ground-cherries.html",
+      "sha256": "95b99898e1685b916a761c36e781bc71d6d01f9c679c09cc7094bd4d991a51df"
+    },
+    "originalMainSha256": "15e61aa2caf0161e164a2077d872198dbc467fb8f9a9e5d462290ab0b3d03ae0",
+    "bodyFile": "content/imported/library-f50aba6846fd.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-54d7e465e5e2",
+    "route": "/pages/what-to-grow-near-jicama",
+    "output": "pages/what-to-grow-near-jicama.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-jicama.html",
+      "sha256": "1b6623cae373809871baa8cc6da9b17241c760af6659a0249d2e3a3bb8f8c612"
+    },
+    "originalMainSha256": "5798f83b649e72bff32bee9a6f0ef7e559aa804a95280267b484c2adfc4c082a",
+    "bodyFile": "content/imported/library-54d7e465e5e2.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-633d62d9c77c",
+    "route": "/pages/what-to-grow-near-kale",
+    "output": "pages/what-to-grow-near-kale.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-kale.html",
+      "sha256": "ab98b189b457ae79547a10dc974b88fb59fafdd847fa79197d9ed2d50e5357ad"
+    },
+    "originalMainSha256": "b876c7d30d743f8180a7842663deeece3ad32a82a13f8c4560fde4590ebcd13d",
+    "bodyFile": "content/imported/library-633d62d9c77c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e116f7360602",
+    "route": "/pages/what-to-grow-near-kohlrabi",
+    "output": "pages/what-to-grow-near-kohlrabi.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-kohlrabi.html",
+      "sha256": "f7ca01e08443d87373c52ba2d379ea330518713dcc25f42723624e6e015090b4"
+    },
+    "originalMainSha256": "2ed916799d465dc864ff566a2710108aef979fcc2f6777d434b34b8d1cc29127",
+    "bodyFile": "content/imported/library-e116f7360602.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-e3429c44f4e1",
+    "route": "/pages/what-to-grow-near-leeks",
+    "output": "pages/what-to-grow-near-leeks.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-leeks.html",
+      "sha256": "3731f4a0dcf0123a24657665a8e2f04cffeffa6e84b272c2aa075f402c6e1a83"
+    },
+    "originalMainSha256": "9e8cc4f5c5ae037aeff3a50af466019000c61dfbca18f106506e647c3d1a05d6",
+    "bodyFile": "content/imported/library-e3429c44f4e1.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-f80d40c0bc1d",
+    "route": "/pages/what-to-grow-near-lima-beans",
+    "output": "pages/what-to-grow-near-lima-beans.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-lima-beans.html",
+      "sha256": "ba4cb2aafdfbd7addcf358fa608029ae64c55950685db972271126e142c239da"
+    },
+    "originalMainSha256": "72121aec6489f3fae538733786301ef3f8ecf2e150070be7754f0296f4c5d731",
+    "bodyFile": "content/imported/library-f80d40c0bc1d.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-9b98ecc2d94c",
+    "route": "/pages/what-to-grow-near-microgreens",
+    "output": "pages/what-to-grow-near-microgreens.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-microgreens.html",
+      "sha256": "e545041ec693f0b90b17f5480a350a0c438dc61140e32d06d9dc8eca7f24b52e"
+    },
+    "originalMainSha256": "a1ad7db727c8f6b52f7dc7b810867633f4c3b8e67a17cff07dbab06588c50239",
+    "bodyFile": "content/imported/library-9b98ecc2d94c.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-89c27a9d1633",
+    "route": "/pages/what-to-grow-near-mizuna",
+    "output": "pages/what-to-grow-near-mizuna.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-mizuna.html",
+      "sha256": "a8a4340cb6644f4819b37b5634bed817efd8bdaa45c7212f1d63671c4e14c99e"
+    },
+    "originalMainSha256": "bb1e9a243ff55eaeb7f16f6edb6b6448d7bc321213ed7c391f5bef9f8f597160",
+    "bodyFile": "content/imported/library-89c27a9d1633.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-5a344dd12245",
+    "route": "/pages/what-to-grow-near-mustard-greens",
+    "output": "pages/what-to-grow-near-mustard-greens.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-mustard-greens.html",
+      "sha256": "248b2ac48ba131b6421f059d56fc728a1126862f5f16005c39c363773bf15bd5"
+    },
+    "originalMainSha256": "67f0b8a75268d2e18b1ba6b54eb8efd13dd49889107ebd6ffc432b71d765a5c7",
+    "bodyFile": "content/imported/library-5a344dd12245.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-3be5e2665d76",
+    "route": "/pages/what-to-grow-near-okra",
+    "output": "pages/what-to-grow-near-okra.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-okra.html",
+      "sha256": "3843a033bc523376ce6f6ae371a4658d714527d9721d9cef4eda3f0aa6211c00"
+    },
+    "originalMainSha256": "a9c4d0800a1e6dc558411e7f84e496939e4effbb3c6b455c77780931aa3d5e87",
+    "bodyFile": "content/imported/library-3be5e2665d76.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c00746445757",
+    "route": "/pages/what-to-grow-near-onions",
+    "output": "pages/what-to-grow-near-onions.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-onions.html",
+      "sha256": "3e785bcf0caf68761638bf7171f54d22e99b0fdc528577cde3a1019b1c9213c9"
+    },
+    "originalMainSha256": "350b756b2e87d515f0437b165c8962f769fda4a3c044daae21b14b033073bfe4",
+    "bodyFile": "content/imported/library-c00746445757.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-365bfe851e9b",
+    "route": "/pages/what-to-grow-near-parsnips",
+    "output": "pages/what-to-grow-near-parsnips.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-parsnips.html",
+      "sha256": "01780b7c60cf0e0e4b621a3117749aa91195f3c618570ca4c7b9e92d100086ef"
+    },
+    "originalMainSha256": "52a6f844b94faea7691026f709c6daa73f9f8a00b44cc2282a561d650caa1d23",
+    "bodyFile": "content/imported/library-365bfe851e9b.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ad9d63bcacae",
+    "route": "/pages/what-to-grow-near-peas",
+    "output": "pages/what-to-grow-near-peas.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-peas.html",
+      "sha256": "699326cef88055b2a26c1616623b6dbba4cbb4c62095282c61b702bcebe7228f"
+    },
+    "originalMainSha256": "89aec1c8e6e32ac1c30e575f0453ad49afc6bbfbcdd1cc5bcfb4101bd62e3a22",
+    "bodyFile": "content/imported/library-ad9d63bcacae.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-0434bca9a3d8",
+    "route": "/pages/what-to-grow-near-peppers",
+    "output": "pages/what-to-grow-near-peppers.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-peppers.html",
+      "sha256": "719a1d7d44afc97dec29dadfd59e4e2505dbc3bf63c24eeae12106c44c12bbda"
+    },
+    "originalMainSha256": "6c828576cb6686ff7bca898b66e0a31225cb417a567720761d4437edde9b7cbd",
+    "bodyFile": "content/imported/library-0434bca9a3d8.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-034d592e5214",
+    "route": "/pages/what-to-grow-near-potatoes",
+    "output": "pages/what-to-grow-near-potatoes.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-potatoes.html",
+      "sha256": "82a28a63fd9ffaa373086757714d0aa3645856d5a96128e65fd3da04d3427fab"
+    },
+    "originalMainSha256": "2d103007c19252c2e8c354ffea613b43246ca68b8b6f15f6fd44a6fadaf9bb9e",
+    "bodyFile": "content/imported/library-034d592e5214.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4d132dad4a99",
+    "route": "/pages/what-to-grow-near-pumpkins",
+    "output": "pages/what-to-grow-near-pumpkins.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-pumpkins.html",
+      "sha256": "7824b43527237d4b28f15bc682689d8cd773e1ca4e17c797afe35bb5bcab856e"
+    },
+    "originalMainSha256": "6252d7ac89a7d5cd11e4df6d7040a954f262ca3394478e0f356cac84b32e1f9e",
+    "bodyFile": "content/imported/library-4d132dad4a99.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-400d7e86c429",
+    "route": "/pages/what-to-grow-near-radishes",
+    "output": "pages/what-to-grow-near-radishes.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-radishes.html",
+      "sha256": "43552cde87ef1e88b5a10218922ff748217e6bd72bc9b17df0285c50e65f7594"
+    },
+    "originalMainSha256": "7e4b082fcb4e7f40835081e0561b87e5e7d0a3e82e1e2e365145ad392a8e64ca",
+    "bodyFile": "content/imported/library-400d7e86c429.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-8de138c7dfdc",
+    "route": "/pages/what-to-grow-near-romanesco",
+    "output": "pages/what-to-grow-near-romanesco.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-romanesco.html",
+      "sha256": "61d202711c11e35141cf0f190493dfd42626a3e4f427023a1ae6c0272eecbe38"
+    },
+    "originalMainSha256": "55d268a551220309b613e1bf4f95a068624e243a962d050d7f9f08f811bb09f0",
+    "bodyFile": "content/imported/library-8de138c7dfdc.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-d1c02c4f276b",
+    "route": "/pages/what-to-grow-near-rutabaga",
+    "output": "pages/what-to-grow-near-rutabaga.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-rutabaga.html",
+      "sha256": "0b3a35bb2beb92c6b03b72f4dcc5b7ef74263bc1545dc922241723953c9c33d9"
+    },
+    "originalMainSha256": "0370ad34a3d49826679fa9ca3931d0f7556d9c4d9d32f23fc74a03a312b94fbc",
+    "bodyFile": "content/imported/library-d1c02c4f276b.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-4ed6cc7d27f3",
+    "route": "/pages/what-to-grow-near-salsify",
+    "output": "pages/what-to-grow-near-salsify.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-salsify.html",
+      "sha256": "a82266b7a05624de9fa6a4b4d5259ebd714f5dbc94634749c28d44dea37105d1"
+    },
+    "originalMainSha256": "28e39d92903308c64bf85c6c7858b87e1c5d89e82ef4c489148c90ee174600cf",
+    "bodyFile": "content/imported/library-4ed6cc7d27f3.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ce173235d46a",
+    "route": "/pages/what-to-grow-near-scallions",
+    "output": "pages/what-to-grow-near-scallions.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-scallions.html",
+      "sha256": "869d65b082a86b56233b91dfafb8e8ba6a7282af32d0d8017c8fac9a5c9914f2"
+    },
+    "originalMainSha256": "5f68a7cb0630a482ddada6f60d97150f17aa6806d7fa9029647ddf94d782e2bc",
+    "bodyFile": "content/imported/library-ce173235d46a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-765fd50132fb",
+    "route": "/pages/what-to-grow-near-shallots",
+    "output": "pages/what-to-grow-near-shallots.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-shallots.html",
+      "sha256": "f7db7ee30660d42d79fa7ee4e37b2b60fa806e15542b8fef21c978e46de7a1ac"
+    },
+    "originalMainSha256": "226ee818b00c1009d1f0a9bcac358abfebb454ee27e2efd0a50af66268958ca1",
+    "bodyFile": "content/imported/library-765fd50132fb.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-89e465847f8a",
+    "route": "/pages/what-to-grow-near-sorrel",
+    "output": "pages/what-to-grow-near-sorrel.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-sorrel.html",
+      "sha256": "1eb1c7bac4dc20ff1291cc77babbbe3669bdd8e30fe797ecd027d7257567b649"
+    },
+    "originalMainSha256": "b9aea740306950a40714eec9c141ac970f46b33028374bb8ee941c4f75490d4f",
+    "bodyFile": "content/imported/library-89e465847f8a.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-5120f02863c6",
+    "route": "/pages/what-to-grow-near-spinach",
+    "output": "pages/what-to-grow-near-spinach.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-spinach.html",
+      "sha256": "8b7a9473242ffab2688eeeb94f78168a1ff9b7043d884c900bb8e24305808c16"
+    },
+    "originalMainSha256": "b9b860c5308b1ead028990949bf902e8f03b8958d5fd5d6e52da706f48a86c90",
+    "bodyFile": "content/imported/library-5120f02863c6.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7fff57e8c80d",
+    "route": "/pages/what-to-grow-near-squash",
+    "output": "pages/what-to-grow-near-squash.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-squash.html",
+      "sha256": "813ad3de7dfff4d5bf9ffaff8685c67f69373fe945eeb204da5f784476da66fe"
+    },
+    "originalMainSha256": "c226346a3d6baff73d96171126a866a970384fd65e37110a720b84b805e44335",
+    "bodyFile": "content/imported/library-7fff57e8c80d.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-0d7eae16e3af",
+    "route": "/pages/what-to-grow-near-strawberries",
+    "output": "pages/what-to-grow-near-strawberries.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-strawberries.html",
+      "sha256": "b92504b337393770be54c3ba9b25fef01eac7a334d0139cb7b26d6bf210e663c"
+    },
+    "originalMainSha256": "b14100b26236946f14967a16f5ba7ec5461fd8ec0a9c4f0a8201ddc127ca32f0",
+    "bodyFile": "content/imported/library-0d7eae16e3af.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-d08cc6db4816",
+    "route": "/pages/what-to-grow-near-summer-squash",
+    "output": "pages/what-to-grow-near-summer-squash.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-summer-squash.html",
+      "sha256": "06de743b6f5723299e442c52a63861c171817270d14f30fa2762cd90449531c4"
+    },
+    "originalMainSha256": "b30d8eb86d5d8ec8be5bce0026ac1bddbacf4b7348d78225b1e52150baa1ccbf",
+    "bodyFile": "content/imported/library-d08cc6db4816.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-1015828f0360",
+    "route": "/pages/what-to-grow-near-sweet-potatoes",
+    "output": "pages/what-to-grow-near-sweet-potatoes.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-sweet-potatoes.html",
+      "sha256": "088b33135bd3f8db4101401093bb44371b696a7813b4beb49a3c5712cca9efa6"
+    },
+    "originalMainSha256": "48aac7ba4a54ea5f71790d61a2ea73aa3f2d1e477daa15afbdfce3ba61bb31b7",
+    "bodyFile": "content/imported/library-1015828f0360.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ef8c5d62ebad",
+    "route": "/pages/what-to-grow-near-swiss-chard",
+    "output": "pages/what-to-grow-near-swiss-chard.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-swiss-chard.html",
+      "sha256": "6d7cc9a5ac999571b864ead2d9d2aeb6f30a6a704baacc5408c9bc3e52d2b1bb"
+    },
+    "originalMainSha256": "47e22c20f889f59361720dc6db909184a45b0f205fd7c330a11d69edd120f485",
+    "bodyFile": "content/imported/library-ef8c5d62ebad.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2f35896f3184",
+    "route": "/pages/what-to-grow-near-tatsoi",
+    "output": "pages/what-to-grow-near-tatsoi.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-tatsoi.html",
+      "sha256": "bba0e86053d36b9b176c15533723230c7c2d859f447d780874d447c6e51ca541"
+    },
+    "originalMainSha256": "a10e7729c3cb7f011461eb1511936d0bdd1344f86cb63dd7dd9cd805a20a3587",
+    "bodyFile": "content/imported/library-2f35896f3184.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-35e4759043df",
+    "route": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+    "output": "pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html",
+    "kind": "tool",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html",
+      "sha256": "cca951fe21e58e909b2bea485e7af543e901a8f4ef8aa1e0b415d3a9dc8088f5"
+    },
+    "originalMainSha256": "3c229f62dce208d8d373988f35333101337b0aaa45360920a585ec29ea5bb4f3",
+    "bodyFile": "content/imported/library-35e4759043df.html",
+    "images": 0,
+    "scripts": [
+      "/assets/qbl/imported/library-35e4759043df-0.js",
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b9c609cd23cc",
+    "route": "/pages/what-to-grow-near-tomatillos",
+    "output": "pages/what-to-grow-near-tomatillos.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-tomatillos.html",
+      "sha256": "74abbdadd032b6cc9eecb166a9cd3c83d38e1197380dab9b88e8f0796e82b5cd"
+    },
+    "originalMainSha256": "042970bdfbe65303834b582a1225e7092cc7775b7f5428e5e0ce314cf1647655",
+    "bodyFile": "content/imported/library-b9c609cd23cc.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-ea85dd3e3d51",
+    "route": "/pages/what-to-grow-near-turnips",
+    "output": "pages/what-to-grow-near-turnips.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-turnips.html",
+      "sha256": "e79d3281c36ace0f2884d156d933ad68147797fa2b21746c17ac18d5d7701f35"
+    },
+    "originalMainSha256": "e9b2e5a628829fb94bad065df8f3cf7659a408c8d35929438822c41af030b6ea",
+    "bodyFile": "content/imported/library-ea85dd3e3d51.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-2070eb4a255f",
+    "route": "/pages/what-to-grow-near-watermelon",
+    "output": "pages/what-to-grow-near-watermelon.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-watermelon.html",
+      "sha256": "0f3b86fc484a90c69e86438821ad531a6f64aff773c7bb45e85545ff02935382"
+    },
+    "originalMainSha256": "0518013ba4da849239c73ea4ff90e273fe39c265e82c4b5ef506253e4da76db9",
+    "bodyFile": "content/imported/library-2070eb4a255f.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c8d3a0b277c1",
+    "route": "/pages/what-to-grow-near-winter-squash",
+    "output": "pages/what-to-grow-near-winter-squash.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-winter-squash.html",
+      "sha256": "438a586ebc2b6efebb959a88e61e8bcd1a9fb955a13aa2a63796224e79be1ecc"
+    },
+    "originalMainSha256": "f2cdb118b1693e0917cff2d6e76e71d50a6013b53126523ebcc60e5e246c4f67",
+    "bodyFile": "content/imported/library-c8d3a0b277c1.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-c5a4132dae53",
+    "route": "/pages/what-to-grow-near-zucchini",
+    "output": "pages/what-to-grow-near-zucchini.html",
+    "kind": "guide",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/pages/what-to-grow-near-zucchini.html",
+      "sha256": "1928e4350680e327d3221415e3f99db3d6ab1836e7ad27d0891155f0d30980eb"
+    },
+    "originalMainSha256": "95f4c9c47b6a9379e7184f75a31a0cab93baf3ee1002d1bd37287d29a44d90e3",
+    "bodyFile": "content/imported/library-c5a4132dae53.html",
+    "images": 0,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-cffc807e4e5a",
+    "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "output": "pages/what-we-re-up-to-around-the-yard-and-cabin.html",
+    "kind": "story",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/what-we-re-up-to-around-the-yard-and-cabin.html",
+      "sha256": "3772fc9549c36120cb5c7af6fad7d525adae4ddbcad567426031ce0af7468916"
+    },
+    "originalMainSha256": "11da449416aaced1cf09c0bfb772668f9f02869ca0815aa90cad0269d30906c4",
+    "bodyFile": "content/imported/library-cffc807e4e5a.html",
+    "images": 99,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-6cda5940e6a3",
+    "route": "/pages/working-with-qbl",
+    "output": "pages/working-with-qbl.html",
+    "kind": "service",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/pages/working-with-qbl.html",
+      "sha256": "3db96c9aa5a04aac091be1c3b1ba3bf4896493d4f423b1d0bf09297762a9b04e"
+    },
+    "originalMainSha256": "b3eb73f353e23057aa50b0a490c2b9d414b7b949715b38a6da84508323453fef",
+    "bodyFile": "content/imported/library-6cda5940e6a3.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-b5a1991d1551",
+    "route": "/pages/your-flat-of-veggies-herbs-and-flowers-now-what",
+    "output": "pages/your-flat-of-veggies-herbs-and-flowers-now-what.html",
+    "kind": "guide",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/pages/your-flat-of-veggies-herbs-and-flowers-now-what.html",
+      "sha256": "b712acc8a513359ed835e80c09378110ebe7be4f77f789c85129ce03b0887a0d"
+    },
+    "originalMainSha256": "36087245fef2b37493343873d1c5737a5378a5e3d1b859328236fdb55e5380c7",
+    "bodyFile": "content/imported/library-b5a1991d1551.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js",
+      "/assets/complete-guides.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-43e71db6b78e",
+    "route": "/stories/from-our-backyard",
+    "output": "stories/from-our-backyard.html",
+    "kind": "story",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/stories/from-our-backyard.html",
+      "sha256": "e2f885ee2b5db3f0ac7f7847c998bbc08c50bbda0d4b206e43d6dbbcd5bbb2cf"
+    },
+    "originalMainSha256": "1a643da0a242e56186903a55667df5466856b0e74c602125d8cede99ce031a59",
+    "bodyFile": "content/imported/library-43e71db6b78e.html",
+    "images": 10,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-d9e10ea42dd7",
+    "route": "/stories/in-the-garden",
+    "output": "stories/in-the-garden.html",
+    "kind": "story",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/stories/in-the-garden.html",
+      "sha256": "d88374876e3bafd68c7f5d53818ffa1a45c852918a48577b2e0c1c8753e00909"
+    },
+    "originalMainSha256": "d5595e6ba6eb1a840311c188a7c7d06af8ad2f1193a29daa0d186262deb50b4c",
+    "bodyFile": "content/imported/library-d9e10ea42dd7.html",
+    "images": 10,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-3724bffb7173",
+    "route": "/stories/our-backyard-wildlife",
+    "output": "stories/our-backyard-wildlife.html",
+    "kind": "story",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/stories/our-backyard-wildlife.html",
+      "sha256": "5f7f127264cd8ea234117d0b95ff96c9abc0ddbae9bca1a5e60d844f98495a8d"
+    },
+    "originalMainSha256": "e4ff1059002f37d29d6895ad0a41f33b97d5f8d54b74a833e568dd6f8983f31a",
+    "bodyFile": "content/imported/library-3724bffb7173.html",
+    "images": 9,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-fb27de1d910f",
+    "route": "/stories/the-chipmunks",
+    "output": "stories/the-chipmunks.html",
+    "kind": "story",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/stories/the-chipmunks.html",
+      "sha256": "5353806e0a42052679960d5427c5e996da1750c3d1a10abf39ba11a4c5a3f77f"
+    },
+    "originalMainSha256": "3d472aa8b6910147e8efd444db7f8ed8f6a33246b55f4296c16fa381f92a02ff",
+    "bodyFile": "content/imported/library-fb27de1d910f.html",
+    "images": 8,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-526ba53a1081",
+    "route": "/stories/things-weve-built",
+    "output": "stories/things-weve-built.html",
+    "kind": "collection",
+    "department": "making",
+    "source": {
+      "file": "reference/library-import-source/stories/things-weve-built.html",
+      "sha256": "e12e1114da3df20dde32bc81209fc2ad287c6914de900a05c7fd104cfab5516a"
+    },
+    "originalMainSha256": "dec338e9e297a304c057cafbf5e0572cf80bd0fe732a5c6770486a1591137c50",
+    "bodyFile": "content/imported/library-526ba53a1081.html",
+    "images": 11,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-8386aa66397e",
+    "route": "/topics/garden-help",
+    "output": "topics/garden-help.html",
+    "kind": "collection",
+    "department": "help",
+    "source": {
+      "file": "reference/library-import-source/topics/garden-help.html",
+      "sha256": "719ae5526d554c0790aa7f44d362bba2bfe85a9d1428bdedf4ffbe8fae99f08f"
+    },
+    "originalMainSha256": "fb7aea21d025151aac576214766b32054e0347fb5024e5fd089b70138e87cd88",
+    "bodyFile": "content/imported/library-8386aa66397e.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-1f78dbd837a1",
+    "route": "/topics/gardening",
+    "output": "topics/gardening.html",
+    "kind": "collection",
+    "department": "growing",
+    "source": {
+      "file": "reference/library-import-source/topics/gardening.html",
+      "sha256": "4a5a80757ce01ad963b8b4c275d7b2f7e0268d24a127fbcfcb8ad51f56c0e4f1"
+    },
+    "originalMainSha256": "e5a69ad6b00c0acb0fdff189a64f658b60f47226ce8642af38a01a13a16d321b",
+    "bodyFile": "content/imported/library-1f78dbd837a1.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7ca9eb617fba",
+    "route": "/topics/outdoor-living",
+    "output": "topics/outdoor-living.html",
+    "kind": "collection",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/topics/outdoor-living.html",
+      "sha256": "884f329b0987b744c5e10b39a4cef4a5067bac03017360c4ee035f6dbf4d3bf6"
+    },
+    "originalMainSha256": "10dd45136cd693c35786bf57d5bcd01ff1cc3c2ceb26cadf9608396ed8375d5d",
+    "bodyFile": "content/imported/library-7ca9eb617fba.html",
+    "images": 6,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-7b012f807200",
+    "route": "/topics/the-journey",
+    "output": "topics/the-journey.html",
+    "kind": "collection",
+    "department": "journey",
+    "source": {
+      "file": "reference/library-import-source/topics/the-journey.html",
+      "sha256": "228cf355174e6b4e9970287a8bf87d0f407ae68ae756f7d7e39d55bf8d2be9e6"
+    },
+    "originalMainSha256": "8e84872b32337331603a7028e0ff8d208794419a1afdc8ceaca2ebac3e474c58",
+    "bodyFile": "content/imported/library-7b012f807200.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  },
+  {
+    "id": "library-9442a44f1011",
+    "route": "/topics/wildlife",
+    "output": "topics/wildlife.html",
+    "kind": "collection",
+    "department": "wildlife",
+    "source": {
+      "file": "reference/library-import-source/topics/wildlife.html",
+      "sha256": "e040bcac25508db5832074c2effe525d11025907282982e28d0472dc9edc90b6"
+    },
+    "originalMainSha256": "899d5cc0c26b06421f8705704ea1acc5bb78d08ac1cc2132ba45c9e827609f1d",
+    "bodyFile": "content/imported/library-9442a44f1011.html",
+    "images": 1,
+    "scripts": [
+      "/assets/happy-place.js"
+    ],
+    "bodyPreservation": "Original main HTML; URL normalization and script extraction only"
+  }
+]

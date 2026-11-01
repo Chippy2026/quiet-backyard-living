@@ -1,0 +1,42 @@
+{
+  "id": "library-2070eb4a255f",
+  "route": "/pages/what-to-grow-near-watermelon",
+  "output": "pages/what-to-grow-near-watermelon.html",
+  "title": "What to Grow Near Watermelon | Quiet Backyard Living",
+  "description": "Watermelon is less about tight companion puzzles and more about warmth, sprawl, and giving the vines enough room that the whole patch still makes sense. Good neighbo",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-2070eb4a255f.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-2070eb4a255f.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-watermelon.html",
+    "sha256": "0f3b86fc484a90c69e86438821ad531a6f64aff773c7bb45e85545ff02935382"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

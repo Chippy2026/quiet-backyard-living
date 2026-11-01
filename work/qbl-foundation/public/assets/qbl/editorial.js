@@ -1,0 +1,9 @@
+/* A single content record supplies both approved editorial surfaces. */
+(() => {
+ const data=window.QBL_EDITORIAL;if(!data)return;const key=data.activeSeason;
+ const set=(id,value)=>{const node=document.getElementById(id);if(node)node.textContent=value};
+ const image=(id,value)=>{const node=document.getElementById(id);if(node){node.src=value.src;node.srcset=value.srcset;node.width=value.width;node.height=value.height;node.alt=value.alt}};
+ const title=(id,lines)=>{const node=document.getElementById(id);if(!node)return;node.replaceChildren();lines.forEach((line,i)=>{if(i)node.append(document.createElement('br'));node.append(document.createTextNode(line))})};
+ if(document.getElementById('fg-season-lead')){const s=data.fieldGuide[key];if(!s)return;document.getElementById('fg-season-lead').href='/'+s.path;set('fg-season-kicker',s.kicker);set('fg-season-strap',s.strap);set('fg-season-action',s.action);title('fg-season-headline',s.headline);image('fg-season-image',s.image);set('fg-season-label',s.label+' / A few useful ideas');set('fg-seasonal-title',s.railTitle);set('fg-seasonal-intro',s.railIntro);const list=document.getElementById('fg-season-links');list.replaceChildren();s.links.forEach(link=>{const a=document.createElement('a'),small=document.createElement('span'),strong=document.createElement('strong');a.href='/'+link.path;small.textContent=link.context;strong.textContent=link.label+' ↗';a.append(small,strong);list.append(a)})}
+ if(document.getElementById('jy-season-headline')){const s=data.journey[key];if(!s)return;set('jy-season-label',s.label);set('jy-season-copy',s.copy);title('jy-season-headline',s.headline);image('jy-season-image',s.image);set('jy-season-caption',s.caption);const link=document.getElementById('jy-season-link');link.href='/'+s.path;link.textContent=s.action+' ↗'}
+})();

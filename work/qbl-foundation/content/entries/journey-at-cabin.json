@@ -1,0 +1,34 @@
+{
+  "id": "journey-at-cabin",
+  "route": "/our-journey/chapters/at-the-cabin",
+  "output": "our-journey/chapters/at-the-cabin.html",
+  "title": "The Chapters / At the Cabin | Quiet Backyard Living",
+  "storyTitle": "The Chapters / At the Cabin",
+  "kind": "chapter-index",
+  "status": "review",
+  "description": "The Chapters / At the Cabin",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/place-index"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "placeFilter": "gladwin-cabin"
+}

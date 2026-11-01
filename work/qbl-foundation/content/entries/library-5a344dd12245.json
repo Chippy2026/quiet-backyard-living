@@ -1,0 +1,42 @@
+{
+  "id": "library-5a344dd12245",
+  "route": "/pages/what-to-grow-near-mustard-greens",
+  "output": "pages/what-to-grow-near-mustard-greens.html",
+  "title": "What to Grow Near Mustard Greens | Quiet Backyard Living",
+  "description": "Mustard greens fit the cooler-season leafy lane best, especially when they are not pushed around by bigger hotter-season crops.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-5a344dd12245.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-5a344dd12245.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-mustard-greens.html",
+    "sha256": "248b2ac48ba131b6421f059d56fc728a1126862f5f16005c39c363773bf15bd5"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

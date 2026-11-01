@@ -1,0 +1,49 @@
+{
+  "id": "note-we-missed-the-grapes",
+  "route": "/notebook/we-missed-the-grapes",
+  "output": "notebook/we-missed-the-grapes.html",
+  "title": "We missed the grapes. | Quiet Backyard Living",
+  "storyTitle": "We missed the grapes.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "There were some small harvests that season. The grapes were not one of them.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "The garden had other plans · Fall 2025",
+  "noteHtml": "<p>We did manage to get a few vegetables though, along with strawberries, blueberries, some apples, and pears.</p>\n<p>But I’ll be damned if we did not lose every single grape.</p>\n<p>There had been thousands of them.</p>\n<p>And in just a few short days while we were gone, they were wiped out.</p>\n<p>I guess the critters, and maybe the birds too, liked them even more than we did.</p>",
+  "coverMedia": {
+    "mediaId": "media-a20aad5716d3",
+    "alt": "We missed the grapes.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Three",
+  "parentId": "journey-ch23",
+  "noteSlug": "we-missed-the-grapes",
+  "sourceReference": {
+    "chapter": 23,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

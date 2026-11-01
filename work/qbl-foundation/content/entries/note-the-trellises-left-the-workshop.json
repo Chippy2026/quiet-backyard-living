@@ -1,0 +1,49 @@
+{
+  "id": "note-the-trellises-left-the-workshop",
+  "route": "/notebook/the-trellises-left-the-workshop",
+  "output": "notebook/the-trellises-left-the-workshop.html",
+  "title": "Time to get those berry trellises into the ground. | Quiet Backyard Living",
+  "storyTitle": "Time to get those berry trellises into the ground.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "A small workshop project finally joined the raspberry and blackberry patch.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "Out in the garden · Late May 2026",
+  "noteHtml": "<p>A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky.</p>",
+  "coverMedia": {
+    "mediaId": "media-9b6c5195ce51",
+    "alt": "Time to get those berry trellises into the ground.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Eight",
+  "parentId": "journey-ch28",
+  "noteSlug": "the-trellises-left-the-workshop",
+  "sourceReference": {
+    "chapter": 28,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

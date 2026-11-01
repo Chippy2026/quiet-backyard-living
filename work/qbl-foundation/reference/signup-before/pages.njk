@@ -1,0 +1,10 @@
+---
+pagination:
+  data: entries
+  size: 1
+  alias: entry
+permalink: "{{ entry.output }}"
+layout: layouts/base.njk
+---
+{% if entry.authorable %}{% include "layouts/authorable.njk" %}{% else %}<main id="main" tabindex="-1" data-pagefind-body{% for key, value in entry.mainAttrs %} {{ key }}="{{ value }}"{% endfor %}>{% if entry.wrapperAttrs %}<div{% for key, value in entry.wrapperAttrs %} {{ key }}="{{ value }}"{% endfor %}>{% endif %}{% for block in entry.blocks %}{% include "components/" + block.component + ".njk" %}{% endfor %}{% for video in entry.videos %}{{ video | optionalVideo | safe }}{% endfor %}{% if entry.wrapperAttrs %}</div>{% endif %}</main>{% endif %}
+

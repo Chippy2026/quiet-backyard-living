@@ -1,0 +1,33 @@
+{
+  "id": "notebook-index",
+  "route": "/notebook",
+  "output": "notebook.html",
+  "title": "The Notebook | Quiet Backyard Living",
+  "storyTitle": "The Notebook",
+  "kind": "notebook-index",
+  "status": "review",
+  "description": "The Notebook",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-index"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue"
+}

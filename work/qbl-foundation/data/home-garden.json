@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Two gardens. Plenty to learn.",
+    "context": "Our garden / The story so far",
+    "description": "The city beds, the cabin row, and what real life taught us.",
+    "href": "/stories/growing-a-little-food",
+    "image": {"mediaId":"media-4f502f0c6b32","alt":"Vanessa tending the cabin vines during the recorded late-May 2026 visit","loading":"lazy","decoding":"async","sizes":"(max-width: 720px) 110px, 30vw"}
+  },
+  {
+    "title": "Planting for the years ahead.",
+    "context": "Fruit / An April 2026 beginning",
+    "description": "The jujubes went into the ground. A future harvest is still ahead.",
+    "href": "/pages/jujube-trees-at-the-cabin",
+    "image": {"mediaId":"media-8b8bfd55d756","alt":"Jeff planting a jujube tree at the cabin in April 2026","loading":"lazy","decoding":"async","sizes":"(max-width: 720px) 110px, 30vw"}
+  },
+  {
+    "title": "A useful little 4×8 garden.",
+    "context": "For your own place / Plan the next try",
+    "description": "Start with food you eat, and leave yourself room to reach it.",
+    "href": {"contentId":"raised-bed"},
+    "image": {"mediaId":"media-5eabdb9174a2","alt":"Young plants in an existing QBL raised bed","loading":"lazy","decoding":"async","sizes":"(max-width: 720px) 110px, 30vw"}
+  }
+]

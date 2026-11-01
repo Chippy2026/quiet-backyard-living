@@ -1,0 +1,11 @@
+<aside class="qbl-growing-gateway" aria-labelledby="growing-gateway-title">
+<div class="qbl-growing-heading"><div><h3 id="growing-gateway-title">{{ growingGateway.heading }}</h3><p>{{ growingGateway.intro }}</p></div><a class="qbl-text-action" href="{{ growingGateway.allHref | relatedUrl }}">Explore All Growing Guides <span aria-hidden="true">↗</span></a></div>
+<div class="qbl-growing-doors">
+{% for door in growingGateway.doors %}
+<a class="qbl-growing-door" href="{{ door.href | relatedUrl }}">
+{% if door.image %}<div class="qbl-growing-image">{{ door.image | mediaImage | safe }}</div>{% else %}<div class="qbl-growing-image qbl-growing-plan" aria-hidden="true"><span>A starting sketch</span><div><i>Tall crops</i><i>Greens</i><i>Herbs</i></div></div>{% endif %}
+<div class="qbl-growing-copy"><h4>{{ door.title }} <span aria-hidden="true">↗</span></h4><p>{{ door.description }}</p></div>
+</a>
+{% endfor %}
+</div>
+</aside>

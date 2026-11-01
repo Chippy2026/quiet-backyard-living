@@ -1,0 +1,40 @@
+{
+  "id": "library-fb27de1d910f",
+  "route": "/stories/the-chipmunks",
+  "output": "stories/the-chipmunks.html",
+  "title": "It started withthe little visitors. | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition thread-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-fb27de1d910f.html",
+  "department": "wildlife",
+  "topic": "The chipmunks & squirrels",
+  "sourceReference": {
+    "file": "reference/library-import-source/stories/the-chipmunks.html",
+    "sha256": "5353806e0a42052679960d5427c5e996da1750c3d1a10abf39ba11a4c5a3f77f"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

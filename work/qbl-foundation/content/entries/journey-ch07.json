@@ -1,0 +1,401 @@
+{
+  "id": "journey-ch07",
+  "route": "/our-journey/chapters/chapter-07",
+  "output": "our-journey/chapters/chapter-07.html",
+  "title": "Dreams Start to Become Reality | Quiet Backyard Living",
+  "storyTitle": "Dreams Start to Become Reality",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Dreams Start to Become Reality",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 7,
+  "chapterOrder": 7,
+  "seriesId": "happy-place",
+  "dateLabel": "Summer 2023",
+  "dateEvidence": "Late July/August 2023 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 7,
+    "articleSha256": "04d338f90c1f87b6673af9cb3b44be2f1d313058fe5bebce475f78b87cfbe66c",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-9"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch07-b001",
+      "sourceHtmlSha256": "d9eb27469cd227c050818d70115d3bb765f2a00d04117e8cbea45d95aabcaa6e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter5-water-tank-payoff.jpg\" alt=\"Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter5-water-tank-payoff.jpg",
+          "alt": "Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch07-b002",
+      "image": {
+        "mediaId": "journey-a77d4b6fd6c4",
+        "alt": "Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch07-b004",
+      "sourceHtmlSha256": "86f014ff243a387630ddbaeb566562deecff1be69f7cbc6d81f1251066d51197",
+      "sourceHtml": "<p>The dream of having running water had seemed so far away when we first bought the place.</p>",
+      "text": "The dream of having running water had seemed so far away when we first bought the place.",
+      "type": "paragraph",
+      "html": "<p>The dream of having running water had seemed so far away when we first bought the place.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b005",
+      "sourceHtmlSha256": "c96d617b441450ad3ec77b601cda59aae0de0f2705a7d3bf7bebe779257543f8",
+      "sourceHtml": "<p>I kind of knew from the start that it was not going to be easy and it was definitely not going to happen by magic. We were going to have to work hard, figure out a lot, and spend a fair amount of money to get there.</p>",
+      "text": "I kind of knew from the start that it was not going to be easy and it was definitely not going to happen by magic. We were going to have to work hard, figure out a lot, and spend a fair amount of money to get there.",
+      "type": "paragraph",
+      "html": "<p>I kind of knew from the start that it was not going to be easy and it was definitely not going to happen by magic. We were going to have to work hard, figure out a lot, and spend a fair amount of money to get there.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b006",
+      "sourceHtmlSha256": "74d4bb64287e5b970e46e5a811d50443158354d19a8da9632b9870c60eb53dcb",
+      "sourceHtml": "<p>And that meant some other dreams had to wait.</p>",
+      "text": "And that meant some other dreams had to wait.",
+      "type": "paragraph",
+      "html": "<p>And that meant some other dreams had to wait.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b007",
+      "sourceHtmlSha256": "5104cc1fc823f277a0c104778f39b675d7d1e9e3fb9a53fc5a1f0fac38b93bca",
+      "sourceHtml": "<p>That huge perfect garden we had imagined was not happening that year. We had to put that dream on hold, because all of our attention was going toward water, lights, and power. It was not as romantic as planting rows of beautiful fresh vegetables, but it was the kind of work that had to happen first if this place was ever going to become truly livable.</p>",
+      "text": "That huge perfect garden we had imagined was not happening that year. We had to put that dream on hold, because all of our attention was going toward water, lights, and power. It was not as romantic as planting rows of beautiful fresh vegetables, but it was the kind of work that had to happen first if this place was ever going to become truly livable.",
+      "type": "paragraph",
+      "html": "<p>That huge perfect garden we had imagined was not happening that year. We had to put that dream on hold, because all of our attention was going toward water, lights, and power. It was not as romantic as planting rows of beautiful fresh vegetables, but it was the kind of work that had to happen first if this place was ever going to become truly livable.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b008",
+      "sourceHtmlSha256": "eed16b89a2c5110050cbdd43a141723630fc30419f524abc75ecf4c749dbe141",
+      "sourceHtml": "<p>There was already an electrical box there, but I still had to wire in breakers for lights, plugs, and a couple of separate lines for the pump, plus some outdoor plugs and lighting too. So there was still plenty to figure out.</p>",
+      "text": "There was already an electrical box there, but I still had to wire in breakers for lights, plugs, and a couple of separate lines for the pump, plus some outdoor plugs and lighting too. So there was still plenty to figure out.",
+      "type": "paragraph",
+      "html": "<p>There was already an electrical box there, but I still had to wire in breakers for lights, plugs, and a couple of separate lines for the pump, plus some outdoor plugs and lighting too. So there was still plenty to figure out.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b009",
+      "sourceHtmlSha256": "9aa59011ceb6d2c4d1074a8ba119ef90762fb97c1a0b885f6a5c72fb27a6ccf5",
+      "sourceHtml": "<p>And when it came time for the pump system, I will admit it, I cheated a little.</p>",
+      "text": "And when it came time for the pump system, I will admit it, I cheated a little.",
+      "type": "paragraph",
+      "html": "<p>And when it came time for the pump system, I will admit it, I cheated a little.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b010",
+      "sourceHtmlSha256": "608526b96bb4ca582257d9d5c8a2bf442258055551ae6506de8abaf9427d542a",
+      "sourceHtml": "<p>I bought a pre-assembled complete water pump and pressure tank setup from the local big-box store.</p>",
+      "text": "I bought a pre-assembled complete water pump and pressure tank setup from the local big-box store.",
+      "type": "paragraph",
+      "html": "<p>I bought a pre-assembled complete water pump and pressure tank setup from the local big-box store.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b011",
+      "sourceHtmlSha256": "a28d5b26fe2517df9a63ab8ca470429916d23fc6de3a7f65dbbce48fb8fc7b65",
+      "sourceHtml": "<p>At that point, I was more than happy to let somebody else do part of the thinking for me.</p>",
+      "text": "At that point, I was more than happy to let somebody else do part of the thinking for me.",
+      "type": "paragraph",
+      "html": "<p>At that point, I was more than happy to let somebody else do part of the thinking for me.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b012",
+      "sourceHtmlSha256": "df781ff799418ff7572179f73e4841a5cda09c7dd32600be87b3e63f2d09590f",
+      "sourceHtml": "<p>Then I wired it in, hooked everything up, and finally came to the moment of truth.</p>",
+      "text": "Then I wired it in, hooked everything up, and finally came to the moment of truth.",
+      "type": "paragraph",
+      "html": "<p>Then I wired it in, hooked everything up, and finally came to the moment of truth.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b013",
+      "sourceHtmlSha256": "1c56dc91b9786f1b12135a2eb4e61da366087eb0b6859ff8c021422bfae6755e",
+      "sourceHtml": "<p>Would this system actually work?</p>",
+      "text": "Would this system actually work?",
+      "type": "paragraph",
+      "html": "<p>Would this system actually work?</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b014",
+      "sourceHtmlSha256": "e0b62467e3c562a5c9a14f9bf69f35e81613813df88300db9c20fcc65cae361e",
+      "sourceHtml": "<p>Or had all our hard work and all those hours of studying led us straight to a giant mess?</p>",
+      "text": "Or had all our hard work and all those hours of studying led us straight to a giant mess?",
+      "type": "paragraph",
+      "html": "<p>Or had all our hard work and all those hours of studying led us straight to a giant mess?</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b015",
+      "sourceHtmlSha256": "48f06adc4902f9ea6e2ea63dbecd2b834023c7d31dfd1e9afcdc03a9014f958b",
+      "sourceHtml": "<p>Maybe a flood. Maybe some smoking wires. Maybe proof that I had gotten in over my head.</p>",
+      "text": "Maybe a flood. Maybe some smoking wires. Maybe proof that I had gotten in over my head.",
+      "type": "paragraph",
+      "html": "<p>Maybe a flood. Maybe some smoking wires. Maybe proof that I had gotten in over my head.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b016",
+      "sourceHtmlSha256": "990f4dc7ce8fda48f748136b4eeec698f526ef0840fd154b35a24df233172476",
+      "sourceHtml": "<p>Just kidding, it was not quite that dramatic.</p>",
+      "text": "Just kidding, it was not quite that dramatic.",
+      "type": "paragraph",
+      "html": "<p>Just kidding, it was not quite that dramatic.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b017",
+      "sourceHtmlSha256": "60a85978497514ef28ed2dbf98d252db16fd3c20e40b2d81cd06294e82c762ef",
+      "sourceHtml": "<p>I flipped the breaker, primed the pump, and just like we had meticulously planned...</p>",
+      "text": "I flipped the breaker, primed the pump, and just like we had meticulously planned...",
+      "type": "paragraph",
+      "html": "<p>I flipped the breaker, primed the pump, and just like we had meticulously planned...</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b018",
+      "sourceHtmlSha256": "2d5eeab0351c9e41d61e5a46ea9493f65949d17893822b04ab6baff495ec045d",
+      "sourceHtml": "<p><strong>we had pressurized water.</strong></p>",
+      "text": "we had pressurized water.",
+      "type": "paragraph",
+      "html": "<p><strong>we had pressurized water.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch07-b019",
+      "sourceHtmlSha256": "be81eaa7cfb58107aebaced2c003004e3a63742929f09465bb67dcf0f2841f20",
+      "sourceHtml": "<p><strong>Woo hoo.</strong></p>",
+      "text": "Woo hoo.",
+      "type": "paragraph",
+      "html": "<p><strong>Woo hoo.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch07-b020",
+      "sourceHtmlSha256": "2b1437d0682174f709212d88d4fc17dbfd73b8031f32c73dbb72f4d2c0ba645a",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/cabin-start-fenced-area.jpg\" alt=\"Fenced garden area at the cabin in the early days before more planting filled in\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/cabin-start-fenced-area.jpg",
+          "alt": "Fenced garden area at the cabin in the early days before more planting filled in"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch07-b019",
+      "nextSourceBlockId": "ch07-b021",
+      "image": {
+        "mediaId": "journey-e20bd0a4eb44",
+        "alt": "Fenced garden area at the cabin in the early days before more planting filled in",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch07-b021",
+      "sourceHtmlSha256": "0e8d7f985ceaaf585c296fe2f734b88ba2349b2c5f652cd3778530ab09860b71",
+      "sourceHtml": "<p>That one moment made life so much easier.</p>",
+      "text": "That one moment made life so much easier.",
+      "type": "paragraph",
+      "html": "<p>That one moment made life so much easier.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b022",
+      "sourceHtmlSha256": "be77badc3dd0c5045b2f59ea3c1fec44ee8f068fc4aebe3bba4bdaf8d197a53c",
+      "sourceHtml": "<p>It felt like a weight lifting off our shoulders. After all the planning, the wiring, the plumbing, the learning, and the second-guessing, something important had finally crossed over from dream to reality.</p>",
+      "text": "It felt like a weight lifting off our shoulders. After all the planning, the wiring, the plumbing, the learning, and the second-guessing, something important had finally crossed over from dream to reality.",
+      "type": "paragraph",
+      "html": "<p>It felt like a weight lifting off our shoulders. After all the planning, the wiring, the plumbing, the learning, and the second-guessing, something important had finally crossed over from dream to reality.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b023",
+      "sourceHtmlSha256": "2c42c8b3946b5c301c2786c154a37d71b1ff86c748451ca0e96cc934b3320f29",
+      "sourceHtml": "<p>Now we could actually use the place in a more normal way.</p>",
+      "text": "Now we could actually use the place in a more normal way.",
+      "type": "paragraph",
+      "html": "<p>Now we could actually use the place in a more normal way.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b024",
+      "sourceHtmlSha256": "12e66f7712e63bd28381d2b9ce7373cebe9d92451e57665a166b8345373f99f4",
+      "sourceHtml": "<p>We could shower. We could wash up. And cleaning up after cooking got a whole lot easier too.</p>",
+      "text": "We could shower. We could wash up. And cleaning up after cooking got a whole lot easier too.",
+      "type": "paragraph",
+      "html": "<p>We could shower. We could wash up. And cleaning up after cooking got a whole lot easier too.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b025",
+      "sourceHtmlSha256": "13fa26674c304866d90b32604d0591cd0c2fc78a762f3ca6cacc7d59c7c5a1fd",
+      "sourceHtml": "<p>It may sound small to somebody who has always had those things, but when you have been working toward them trip after trip, they feel huge.</p>",
+      "text": "It may sound small to somebody who has always had those things, but when you have been working toward them trip after trip, they feel huge.",
+      "type": "paragraph",
+      "html": "<p>It may sound small to somebody who has always had those things, but when you have been working toward them trip after trip, they feel huge.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b026",
+      "sourceHtmlSha256": "0cea20cdbbca3a2d79a211a92a95770d821a165b3a6980c10f37e01ce23aebb9",
+      "sourceHtml": "<p>Of course, by then we had also spent most of our money getting the systems in place, and the calendar was already pushing into August. There was not a whole lot of the season left to enjoy our new water system before the year started slipping away again.</p>",
+      "text": "Of course, by then we had also spent most of our money getting the systems in place, and the calendar was already pushing into August. There was not a whole lot of the season left to enjoy our new water system before the year started slipping away again.",
+      "type": "paragraph",
+      "html": "<p>Of course, by then we had also spent most of our money getting the systems in place, and the calendar was already pushing into August. There was not a whole lot of the season left to enjoy our new water system before the year started slipping away again.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b027",
+      "sourceHtmlSha256": "e398293f04e85cac92601d9e2e92abc7ec9203080aca7d1a37a4f466ae259e85",
+      "sourceHtml": "<p>Still, we made the most of it.</p>",
+      "text": "Still, we made the most of it.",
+      "type": "paragraph",
+      "html": "<p>Still, we made the most of it.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b028",
+      "sourceHtmlSha256": "d31fc9b4bc1e82dc0fc19c428d6764d0fa6e6daea5b910ea261dcca1ea75ccfd",
+      "sourceHtml": "<p>That huge garden dream was still waiting. Fixing up more of the place was still waiting. A lot of the bigger vision was still waiting.</p>",
+      "text": "That huge garden dream was still waiting. Fixing up more of the place was still waiting. A lot of the bigger vision was still waiting.",
+      "type": "paragraph",
+      "html": "<p>That huge garden dream was still waiting. Fixing up more of the place was still waiting. A lot of the bigger vision was still waiting.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b029",
+      "sourceHtmlSha256": "0d2901718fba1e3900bb3b743366d66244c846699b4a834b2ac67061c0b4f457",
+      "sourceHtml": "<p>Maybe next year.</p>",
+      "text": "Maybe next year.",
+      "type": "paragraph",
+      "html": "<p>Maybe next year.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b030",
+      "sourceHtmlSha256": "e225c33f148cd48e7f58fc561861c769737c92d2da7d5c3ae5d79339de0c6497",
+      "sourceHtml": "<p>But this year, we had earned a little relaxation at cabin time.</p>",
+      "text": "But this year, we had earned a little relaxation at cabin time.",
+      "type": "paragraph",
+      "html": "<p>But this year, we had earned a little relaxation at cabin time.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b031",
+      "sourceHtmlSha256": "2f7e0239519635dfa7e47a20938b0dd0432293e5d2a0e315cde9bedf60858009",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter7-turkeys.jpg\" alt=\"Turkeys visiting the cabin property\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter7-turkeys.jpg",
+          "alt": "Turkeys visiting the cabin property"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch07-b030",
+      "nextSourceBlockId": "ch07-b032",
+      "image": {
+        "mediaId": "journey-82784167d78d",
+        "alt": "Turkeys visiting the cabin property",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch07-b032",
+      "sourceHtmlSha256": "c05f0f98009c2a3b81684558707211f3adad1055ac43a07766087514206f994a",
+      "sourceHtml": "<p>And by then, the wildlife had really started becoming part of everyday life there too.</p>",
+      "text": "And by then, the wildlife had really started becoming part of everyday life there too.",
+      "type": "paragraph",
+      "html": "<p>And by then, the wildlife had really started becoming part of everyday life there too.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b033",
+      "sourceHtmlSha256": "19c850c07694b3b197566efd234e3134277148c375689eed010598000c7d1620",
+      "sourceHtml": "<p>The chipmunks, squirrels, and birds were turning into regulars, and we were seeing most of them daily. Chippy was still our favorite little friend, and by then he definitely knew when we were at the cabin. He was always showing up looking for treats.</p>",
+      "text": "The chipmunks, squirrels, and birds were turning into regulars, and we were seeing most of them daily. Chippy was still our favorite little friend, and by then he definitely knew when we were at the cabin. He was always showing up looking for treats.",
+      "type": "paragraph",
+      "html": "<p>The chipmunks, squirrels, and birds were turning into regulars, and we were seeing most of them daily. Chippy was still our favorite little friend, and by then he definitely knew when we were at the cabin. He was always showing up looking for treats.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b034",
+      "sourceHtmlSha256": "3b6848505001304ada9cc0efbe275b780f07d387883cee602c87c388154a2751",
+      "sourceHtml": "<p>We had started buying a fifty-pound critter food mix from the feed store down the road, and a fifty-pound wild bird mix too. Of course, sometimes the birds were not the only ones getting the bird food. But then again, sometimes the birds would sneak over and eat Chippy’s food too, so I guess that made it even.</p>",
+      "text": "We had started buying a fifty-pound critter food mix from the feed store down the road, and a fifty-pound wild bird mix too. Of course, sometimes the birds were not the only ones getting the bird food. But then again, sometimes the birds would sneak over and eat Chippy’s food too, so I guess that made it even.",
+      "type": "paragraph",
+      "html": "<p>We had started buying a fifty-pound critter food mix from the feed store down the road, and a fifty-pound wild bird mix too. Of course, sometimes the birds were not the only ones getting the bird food. But then again, sometimes the birds would sneak over and eat Chippy’s food too, so I guess that made it even.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b035",
+      "sourceHtmlSha256": "b03504e140fd6064b85e351a98f7580c5e07261616c20e6742e2280602cfc7fa",
+      "sourceHtml": "<p>By then, the place was starting to feel less like a rough project and more like a life we were slowly settling into.</p>",
+      "text": "By then, the place was starting to feel less like a rough project and more like a life we were slowly settling into.",
+      "type": "paragraph",
+      "html": "<p>By then, the place was starting to feel less like a rough project and more like a life we were slowly settling into.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b036",
+      "sourceHtmlSha256": "20daa73a2774c8cb268c3becf54b014a34e51b45fe82c0a4647bfff73768c594",
+      "sourceHtml": "<p>Not finished. Not perfected. But working.</p>",
+      "text": "Not finished. Not perfected. But working.",
+      "type": "paragraph",
+      "html": "<p>Not finished. Not perfected. But working.</p>"
+    },
+    {
+      "sourceBlockId": "ch07-b037",
+      "sourceHtmlSha256": "a04d723b11078b5bd3afc6eb4f8f2ddacf22717354061df9816d2d4df8fa735c",
+      "sourceHtml": "<p>And that felt pretty good.</p>",
+      "text": "And that felt pretty good.",
+      "type": "paragraph",
+      "html": "<p>And that felt pretty good.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-a77d4b6fd6c4",
+    "alt": "Metal roof installed, gutters installed, and the new 500 gallon water tank placed beside the cabin",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "The dream of having running water had seemed so far away when we first bought the place. I kind of knew from the start that it was not going to be easy and it was definitely not going to…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Seven",
+  "originalHeadingAfterBlocks": 1
+}

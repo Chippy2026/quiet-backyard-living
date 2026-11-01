@@ -1,0 +1,310 @@
+{
+  "id": "journey-ch15",
+  "route": "/our-journey/chapters/chapter-15",
+  "output": "our-journey/chapters/chapter-15.html",
+  "title": "A Renewed Energy | Quiet Backyard Living",
+  "storyTitle": "A Renewed Energy",
+  "kind": "chapter",
+  "status": "published",
+  "description": "A Renewed Energy",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 15,
+  "chapterOrder": 15,
+  "seriesId": "happy-place",
+  "dateLabel": "Spring 2025",
+  "dateEvidence": "Late April/early May 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 15,
+    "articleSha256": "c342d7d1aaf585ad4e8cb7beafc4fdfdcdfe9f4d80535e3d0df5c7033104ba29",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-17"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch15-b001",
+      "sourceHtmlSha256": "87fd5ac3b347b88991a9649acfd63faa823ad0b9a031f53c5a174e1cc1239c74",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter15-car.jpg\" alt=\"Vanessa with the new vehicle after truck problems forced a big purchase before cabin season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter15-car.jpg",
+          "alt": "Vanessa with the new vehicle after truck problems forced a big purchase before cabin season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch15-b002",
+      "image": {
+        "mediaId": "journey-0455c86e3f58",
+        "alt": "Vanessa with the new vehicle after truck problems forced a big purchase before cabin season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch15-b004",
+      "sourceHtmlSha256": "0fe7c3deacd6a21495e8db4481a2a05e24ee21eefe5476431b362e73081c30a7",
+      "sourceHtml": "<p>As we headed back up to our peaceful retreat in late April or early May, something felt different.</p>",
+      "text": "As we headed back up to our peaceful retreat in late April or early May, something felt different.",
+      "type": "paragraph",
+      "html": "<p>As we headed back up to our peaceful retreat in late April or early May, something felt different.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b005",
+      "sourceHtmlSha256": "13aa1a3b97d5d7603827a8f836f4a20cc663bfecafee89488aee87707be43d2e",
+      "sourceHtml": "<p>Maybe it was the weather. Maybe it was the change in seasons. Maybe it was just that after everything we had been through, we were finally starting to feel some renewed energy.</p>",
+      "text": "Maybe it was the weather. Maybe it was the change in seasons. Maybe it was just that after everything we had been through, we were finally starting to feel some renewed energy.",
+      "type": "paragraph",
+      "html": "<p>Maybe it was the weather. Maybe it was the change in seasons. Maybe it was just that after everything we had been through, we were finally starting to feel some renewed energy.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b006",
+      "sourceHtmlSha256": "ad1d188ba8f8d36104cf81fac07705e90aeee6df12f659e418a08cb85fdeb3ac",
+      "sourceHtml": "<p>And then we started seeing the yard sale signs.</p>",
+      "text": "And then we started seeing the yard sale signs.",
+      "type": "paragraph",
+      "html": "<p>And then we started seeing the yard sale signs.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b007",
+      "sourceHtmlSha256": "2fd972f1910e468b5b0d8cef757fd1f2b962252b69c7a4e52923f3da67f2b101",
+      "sourceHtml": "<p>Around that area, once yard sale season starts popping up, it is hard for us to resist. Especially after the luck we had the last time. Or maybe it was two years ago. Time flies lately.</p>",
+      "text": "Around that area, once yard sale season starts popping up, it is hard for us to resist. Especially after the luck we had the last time. Or maybe it was two years ago. Time flies lately.",
+      "type": "paragraph",
+      "html": "<p>Around that area, once yard sale season starts popping up, it is hard for us to resist. Especially after the luck we had the last time. Or maybe it was two years ago. Time flies lately.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b008",
+      "sourceHtmlSha256": "6cd8cbecf2c5ffab9021964168f540e56b563e3ce2ecca4ed8d5489db00cfe96",
+      "sourceHtml": "<p>Either way, we were not about to just drive past them.</p>",
+      "text": "Either way, we were not about to just drive past them.",
+      "type": "paragraph",
+      "html": "<p>Either way, we were not about to just drive past them.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b009",
+      "sourceHtmlSha256": "fd82889e5c0ff562984e6e795458f7789f79446b5f85d2253f5e0651816e97dc",
+      "sourceHtml": "<p>So we stopped.</p>",
+      "text": "So we stopped.",
+      "type": "paragraph",
+      "html": "<p>So we stopped.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b010",
+      "sourceHtmlSha256": "b427d16dc5605867269bf1a35b85028343ee2b9e850ec0ba8087a2a0b98ff9ac",
+      "sourceHtml": "<p>At first, it was a few odds and ends, little things here and there.</p>",
+      "text": "At first, it was a few odds and ends, little things here and there.",
+      "type": "paragraph",
+      "html": "<p>At first, it was a few odds and ends, little things here and there.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b011",
+      "sourceHtmlSha256": "50005ee23d931209b8131fb65cbc998d9ceb985299db0223f1c6e96ac5640abc",
+      "sourceHtml": "<p>And then came the real find.</p>",
+      "text": "And then came the real find.",
+      "type": "paragraph",
+      "html": "<p>And then came the real find.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b012",
+      "sourceHtmlSha256": "5f9d5d40e3fa6ffe7a7965daed5e38013ce6ecb9a36c8d48cb3ea34c7163be87",
+      "sourceHtml": "<p>A <strong>free wishing well</strong>.</p>",
+      "text": "A free wishing well .",
+      "type": "paragraph",
+      "html": "<p>A <strong>free wishing well</strong>.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b013",
+      "sourceHtmlSha256": "36b74863cf0ce4aa14c0f5ae30219bf32819d106e941531c782b80a3650d47d9",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter15-wishing-well.jpg\" alt=\"The repaired wishing well brought back to the cabin as a free yard sale find\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter15-wishing-well.jpg",
+          "alt": "The repaired wishing well brought back to the cabin as a free yard sale find"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch15-b012",
+      "nextSourceBlockId": "ch15-b014",
+      "image": {
+        "mediaId": "journey-fc07c8422939",
+        "alt": "The repaired wishing well brought back to the cabin as a free yard sale find",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch15-b014",
+      "sourceHtmlSha256": "7f693dfc3ac9ed94cd8be110490d430ac3c3a16d5327c67c5bb810695f55baa0",
+      "sourceHtml": "<p>Oh yeah, it needed some fixing.</p>",
+      "text": "Oh yeah, it needed some fixing.",
+      "type": "paragraph",
+      "html": "<p>Oh yeah, it needed some fixing.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b015",
+      "sourceHtmlSha256": "f0b8d61ee07145eb94fc5981974b542954035555cf7596d8e6e2138964b35610",
+      "sourceHtml": "<p>But hey, it was free.</p>",
+      "text": "But hey, it was free.",
+      "type": "paragraph",
+      "html": "<p>But hey, it was free.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b016",
+      "sourceHtmlSha256": "6b240e146d19b1ca47d8ff58a7fe57901881c2f035dc1be69eb138323a4cd03d",
+      "sourceHtml": "<p>And this year, free worked for us, because over the last month the truck had been giving us problems, so we ended up having to splurge on a new vehicle. That pretty much ate up a lot of the cabin-project money we had set aside.</p>",
+      "text": "And this year, free worked for us, because over the last month the truck had been giving us problems, so we ended up having to splurge on a new vehicle. That pretty much ate up a lot of the cabin-project money we had set aside.",
+      "type": "paragraph",
+      "html": "<p>And this year, free worked for us, because over the last month the truck had been giving us problems, so we ended up having to splurge on a new vehicle. That pretty much ate up a lot of the cabin-project money we had set aside.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b017",
+      "sourceHtmlSha256": "dfef56b59c6430c63bda7783fbd318b87d4adc6b4f654098c525af6e6df179ff",
+      "sourceHtml": "<p>Maybe that is why we were shopping yard sales.</p>",
+      "text": "Maybe that is why we were shopping yard sales.",
+      "type": "paragraph",
+      "html": "<p>Maybe that is why we were shopping yard sales.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b018",
+      "sourceHtmlSha256": "a09dcd4128bf6df81420c4272c7fb3f59b4280cd7645902e481f6c60a9fdd77b",
+      "sourceHtml": "<p>Either way, we do love a good yard sale, and a free item is always welcome.</p>",
+      "text": "Either way, we do love a good yard sale, and a free item is always welcome.",
+      "type": "paragraph",
+      "html": "<p>Either way, we do love a good yard sale, and a free item is always welcome.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b019",
+      "sourceHtmlSha256": "2d8363adf2033d8b5038cd3d2cb8ddf558bd65c9ff5dfd1b0f2c646f021f7398",
+      "sourceHtml": "<p>This year was all about making the place look good on a budget.</p>",
+      "text": "This year was all about making the place look good on a budget.",
+      "type": "paragraph",
+      "html": "<p>This year was all about making the place look good on a budget.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b020",
+      "sourceHtmlSha256": "184e30e73f7fe4d44de9c03065b3b70024f39207b1de4df12ff7ae18cd750e23",
+      "sourceHtml": "<p>So we hauled that wishing well back to the cabin and got to work on it. It was basically falling apart, but that was half the fun. And honestly, it felt really good doing projects with Vanessa again. We knocked it out in one afternoon.</p>",
+      "text": "So we hauled that wishing well back to the cabin and got to work on it. It was basically falling apart, but that was half the fun. And honestly, it felt really good doing projects with Vanessa again. We knocked it out in one afternoon.",
+      "type": "paragraph",
+      "html": "<p>So we hauled that wishing well back to the cabin and got to work on it. It was basically falling apart, but that was half the fun. And honestly, it felt really good doing projects with Vanessa again. We knocked it out in one afternoon.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b021",
+      "sourceHtmlSha256": "82262fe63ce4e3cff1dd28c09550b8d473219e1351d571ed90ddfacd43bff89b",
+      "sourceHtml": "<p>That was a good feeling.</p>",
+      "text": "That was a good feeling.",
+      "type": "paragraph",
+      "html": "<p>That was a good feeling.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b022",
+      "sourceHtmlSha256": "2055859592cf945ab768e41b93096d462dec95fc5c1dd3817a44687f2557fba0",
+      "sourceHtml": "<p>Now our sights started shifting toward the garden area and how to make that part of the place look better too. We started making a game plan for what we would need to bring with us next time.</p>",
+      "text": "Now our sights started shifting toward the garden area and how to make that part of the place look better too. We started making a game plan for what we would need to bring with us next time.",
+      "type": "paragraph",
+      "html": "<p>Now our sights started shifting toward the garden area and how to make that part of the place look better too. We started making a game plan for what we would need to bring with us next time.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b023",
+      "sourceHtmlSha256": "ec48a1f70b686117f8773e45a33b7ea8dc5634413563ea4ae1840488754ad2c0",
+      "sourceHtml": "<p>And around the same time, we also started measuring for that new deck.</p>",
+      "text": "And around the same time, we also started measuring for that new deck.",
+      "type": "paragraph",
+      "html": "<p>And around the same time, we also started measuring for that new deck.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b024",
+      "sourceHtmlSha256": "4a8b99a8029978043bc59c4aa5088a92f47fdbaca4df370c83a3347ba05b4a7b",
+      "sourceHtml": "<p>I know, a deck before walls... yadda yadda.</p>",
+      "text": "I know, a deck before walls... yadda yadda.",
+      "type": "paragraph",
+      "html": "<p>I know, a deck before walls... yadda yadda.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b025",
+      "sourceHtmlSha256": "4ef0932a4d69878196ecbec8009e5691ea1368c68f26f7292a0f06c73ab0be02",
+      "sourceHtml": "<p>But hey, this year was about the outside, damn it.</p>",
+      "text": "But hey, this year was about the outside, damn it.",
+      "type": "paragraph",
+      "html": "<p>But hey, this year was about the outside, damn it.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b026",
+      "sourceHtmlSha256": "6fa752b6d503f1874f95912b412310a062dbed4a700c4725950724a39fb4f6bb",
+      "sourceHtml": "<p>With a renewed energy for building and outdoor projects, it was time to stop dreaming, stop measuring, stop drawing diagrams, stop measuring again, and finally get to work.</p>",
+      "text": "With a renewed energy for building and outdoor projects, it was time to stop dreaming, stop measuring, stop drawing diagrams, stop measuring again, and finally get to work.",
+      "type": "paragraph",
+      "html": "<p>With a renewed energy for building and outdoor projects, it was time to stop dreaming, stop measuring, stop drawing diagrams, stop measuring again, and finally get to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b027",
+      "sourceHtmlSha256": "7b40ba840d7bfb08bcd88bf311147e886a6d19817993d4977ab7535e2aa88b38",
+      "sourceHtml": "<p>Next time could not come soon enough.</p>",
+      "text": "Next time could not come soon enough.",
+      "type": "paragraph",
+      "html": "<p>Next time could not come soon enough.</p>"
+    },
+    {
+      "sourceBlockId": "ch15-b028",
+      "sourceHtmlSha256": "2e2d7c7824022f035c018623d37988b63b33ea295bb8866998710f664f03713d",
+      "sourceHtml": "<p>See ya soon, my little stinky critters.</p>",
+      "text": "See ya soon, my little stinky critters.",
+      "type": "paragraph",
+      "html": "<p>See ya soon, my little stinky critters.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-0455c86e3f58",
+    "alt": "Vanessa with the new vehicle after truck problems forced a big purchase before cabin season",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "As we headed back up to our peaceful retreat in late April or early May, something felt different. Maybe it was the weather. Maybe it was the change in seasons. Maybe it was just that…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Fifteen",
+  "originalHeadingAfterBlocks": 1
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "chapter": 11,
+    "sourceBlockId": "ch11-b011",
+    "sourceImage": "/assets/images/gallery/chapter11-flag.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": "ch11-b010",
+    "nextSourceBlockId": "ch11-b012"
+  },
+  {
+    "chapter": 19,
+    "sourceBlockId": "ch19-b001",
+    "sourceImage": "/assets/images/gallery/chapter19-party-lights.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": null,
+    "nextSourceBlockId": "ch19-b002"
+  },
+  {
+    "chapter": 24,
+    "sourceBlockId": "ch24-b001",
+    "sourceImage": "/assets/images/gallery/chapter24-birdhouse.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": null,
+    "nextSourceBlockId": "ch24-b002"
+  },
+  {
+    "chapter": 29,
+    "sourceBlockId": "ch29-b027",
+    "sourceImage": "/assets/images/story/chapter-29/paneling-progress.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": "ch29-b026",
+    "nextSourceBlockId": "ch29-b028"
+  },
+  {
+    "chapter": 29,
+    "sourceBlockId": "ch29-b033",
+    "sourceImage": "/assets/images/story/chapter-29/paneling-fighting-back.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": "ch29-b032",
+    "nextSourceBlockId": "ch29-b034"
+  },
+  {
+    "chapter": 29,
+    "sourceBlockId": "ch29-b043",
+    "sourceImage": "/assets/images/story/chapter-29/wall-progress.jpg",
+    "status": "PHOTO PLACEMENT REVIEW NEEDED",
+    "previousSourceBlockId": "ch29-b042",
+    "nextSourceBlockId": "ch29-b044"
+  }
+]

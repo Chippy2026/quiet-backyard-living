@@ -1,0 +1,30 @@
+{
+  "id": "workshop",
+  "route": "/topics/projects",
+  "output": "topics/projects.html",
+  "title": "Explore the Workshop | Quiet Backyard Living",
+  "kind": "hub",
+  "status": "local-review",
+  "description": "Real QBL projects and the stories that keep going.",
+  "bodyClass": "hp-edition co-edition hy-edition qbl-polish",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/integrated-home.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {},
+  "wrapperAttrs": {
+    "class": "qbl-editorial-wrap"
+  },
+  "blocks": [
+    {
+      "component": "editorial/workshop"
+    }
+  ]
+}

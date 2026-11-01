@@ -1,0 +1,9 @@
+{% from "components/editorial/cards.njk" import card, heading %}
+<section class="qbl-section qbl-page-width qbl-home-garden" id="garden-story">
+{{ heading("Always part of our Happy Place / Growing & gathering", "The garden’s quiet. The story isn’t.", "/stories/growing-a-little-food", "Follow the garden story") }}
+<p class="qbl-section-intro">Two gardens, a few experiments, and things planted for the years ahead. There’s another season to look forward to.</p>
+<div class="qbl-grid qbl-grid--three">
+{% for item in homeGarden %}{{ card(item,"garden") }}{% endfor %}
+</div>
+{% include "components/editorial/growing-gateway.njk" %}
+</section>

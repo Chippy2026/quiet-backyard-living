@@ -1,0 +1,42 @@
+{
+  "id": "library-f91988e5acb9",
+  "route": "/pages/what-to-grow-near-fennel",
+  "output": "pages/what-to-grow-near-fennel.html",
+  "title": "What to Grow Near Fennel | Quiet Backyard Living",
+  "description": "Fennel is useful and interesting, but it is one of those plants that deserves a little caution and breathing room in a mixed bed.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-f91988e5acb9.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-f91988e5acb9.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-fennel.html",
+    "sha256": "b2446d39307a114850bc6b26917cefd14496246f07b1a200f7f59cb04bc833ba"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "our-story",
+  "route": "/our-story",
+  "output": "our-story.html",
+  "title": "Our Story | Quiet Backyard Living",
+  "storyTitle": "Our Story",
+  "kind": "origin",
+  "status": "review",
+  "description": "Our Story",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/our-story"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue"
+}

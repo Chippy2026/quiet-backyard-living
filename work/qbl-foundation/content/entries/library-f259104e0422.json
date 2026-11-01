@@ -1,0 +1,42 @@
+{
+  "id": "library-f259104e0422",
+  "route": "/pages/what-to-grow-near-cabbage-family-crops",
+  "output": "pages/what-to-grow-near-cabbage-family-crops.html",
+  "title": "What to Grow Near Cabbage Family Crops | Quiet Backyard Living",
+  "description": "Mixing the bed matters, but so does not overdoing brassicas together.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-f259104e0422.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-f259104e0422.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-cabbage-family-crops.html",
+    "sha256": "0ee7bb4db72912182b402d5eecc79283fbe83976239845579dbf2c8cc0c1a9bf"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

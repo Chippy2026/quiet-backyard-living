@@ -1,0 +1,42 @@
+{
+  "id": "library-ac3c5451999a",
+  "route": "/pages/what-to-grow-near-celeriac",
+  "output": "pages/what-to-grow-near-celeriac.html",
+  "title": "What to Grow Near Celeriac | Quiet Backyard Living",
+  "description": "Celeriac is not flashy, but it can be a really practical crop if the bed stays steady, cool enough, and not too chaotic.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-ac3c5451999a.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-ac3c5451999a.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-celeriac.html",
+    "sha256": "8d5a7590549cb1d93bed6467b38d5cd3549efa3bf929558a1030cc7e4d516496"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

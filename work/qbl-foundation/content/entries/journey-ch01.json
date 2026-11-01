@@ -1,0 +1,267 @@
+{
+  "id": "journey-ch01",
+  "route": "/our-journey/chapters/chapter-01",
+  "output": "our-journey/chapters/chapter-01.html",
+  "title": "The place we hoped might help us breathe again | Quiet Backyard Living",
+  "storyTitle": "The place we hoped might help us breathe again",
+  "kind": "chapter",
+  "status": "published",
+  "description": "The place we hoped might help us breathe again",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 1,
+  "chapterOrder": 1,
+  "seriesId": "happy-place",
+  "dateLabel": "Spring–July 2022",
+  "dateEvidence": "Spring–July 2022",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 1,
+    "articleSha256": "491ca3bae6f75991d86c5b27664fc4707de750f7737dfa364d87d7343942f3c1",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#the-beginning"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch01-b001",
+      "sourceHtmlSha256": "3de2f808d56edd47e6a04cd4d19d153e9d478a41b38c69a193156ee3c4f2bc89",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/cabin-start-structure.jpg\" alt=\"Small dark cabin structure under the pine tree in the early days\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/cabin-start-structure.jpg",
+          "alt": "Small dark cabin structure under the pine tree in the early days"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch01-b002",
+      "image": {
+        "mediaId": "journey-20b45a78758d",
+        "alt": "Small dark cabin structure under the pine tree in the early days",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch01-b004",
+      "sourceHtmlSha256": "d80c6766e888eb4286584a447e988ae42670208dfc01d1a1db29c7b158ae74c9",
+      "sourceHtml": "<p>In some ways, this story began in July of 2022.</p>",
+      "text": "In some ways, this story began in July of 2022.",
+      "type": "paragraph",
+      "html": "<p>In some ways, this story began in July of 2022.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b005",
+      "sourceHtmlSha256": "3d30ffae98b20a83aaf9d07c9e4aba14ce592a319b5556c8f5b51b027365530d",
+      "sourceHtml": "<p>In other ways, it started earlier than that, after cancer had already changed the shape of our lives.</p>",
+      "text": "In other ways, it started earlier than that, after cancer had already changed the shape of our lives.",
+      "type": "paragraph",
+      "html": "<p>In other ways, it started earlier than that, after cancer had already changed the shape of our lives.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b006",
+      "sourceHtmlSha256": "1a45a055e2bcdccc16e5302d8b826149bbe92c95983aff055b1a6481337a4c37",
+      "sourceHtml": "<p>Vanessa had made it through breast cancer after rounds of chemotherapy and radiation. By the time we bought the property, she was done with treatment, but that does not mean life had simply snapped back to normal. We were both still shaken. Still stressed. Still carrying around the heaviness that comes after something like that. Cancer is not subtle. It is not poetic. It is hard, direct, exhausting, and life-changing. And after all of it, we knew we needed something quieter and more peaceful.</p>",
+      "text": "Vanessa had made it through breast cancer after rounds of chemotherapy and radiation. By the time we bought the property, she was done with treatment, but that does not mean life had simply snapped back to normal. We were both still shaken. Still stressed. Still carrying around the heaviness that comes after something like that. Cancer is not subtle. It is not poetic. It is hard, direct, exhausting, and life-changing. And after all of it, we knew we needed something quieter and more peaceful.",
+      "type": "paragraph",
+      "html": "<p>Vanessa had made it through breast cancer after rounds of chemotherapy and radiation. By the time we bought the property, she was done with treatment, but that does not mean life had simply snapped back to normal. We were both still shaken. Still stressed. Still carrying around the heaviness that comes after something like that. Cancer is not subtle. It is not poetic. It is hard, direct, exhausting, and life-changing. And after all of it, we knew we needed something quieter and more peaceful.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b007",
+      "sourceHtmlSha256": "904e62aae39fc759b481888030462a3ce9545c5b01da6d2298c2f7657331be51",
+      "sourceHtml": "<p>That was one of the biggest reasons this place mattered to us.</p>",
+      "text": "That was one of the biggest reasons this place mattered to us.",
+      "type": "paragraph",
+      "html": "<p>That was one of the biggest reasons this place mattered to us.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b008",
+      "sourceHtmlSha256": "1295cd972b58f75d0d09f564b0a5dca68dabd6ddd6a6e2203bff59542c5b2eeb",
+      "sourceHtml": "<p>I found the property online sometime around April of 2022, and I felt like I needed to go see it immediately. Something about it grabbed me before I could explain why.</p>",
+      "text": "I found the property online sometime around April of 2022, and I felt like I needed to go see it immediately. Something about it grabbed me before I could explain why.",
+      "type": "paragraph",
+      "html": "<p>I found the property online sometime around April of 2022, and I felt like I needed to go see it immediately. Something about it grabbed me before I could explain why.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b009",
+      "sourceHtmlSha256": "282daf3d74256065e72fbb505790000b1da3ed2cc37ac30ebbbc01762397304a",
+      "sourceHtml": "<p>When we pulled in with our realtor, it was a mess.</p>",
+      "text": "When we pulled in with our realtor, it was a mess.",
+      "type": "paragraph",
+      "html": "<p>When we pulled in with our realtor, it was a mess.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b010",
+      "sourceHtmlSha256": "b6686f9ea13f191ec849f9002194e99c17b40fb63373715d0ea65c0fd331094f",
+      "sourceHtml": "<p>There was junk everywhere. Old broke-down cars. Trailers. An RV or something sitting there. The whole place looked like it had been abandoned in stages. As we walked the property, we kept finding half-finished projects and rough little setups that looked like somebody had started building a dream and then stopped somewhere in the middle.</p>",
+      "text": "There was junk everywhere. Old broke-down cars. Trailers. An RV or something sitting there. The whole place looked like it had been abandoned in stages. As we walked the property, we kept finding half-finished projects and rough little setups that looked like somebody had started building a dream and then stopped somewhere in the middle.",
+      "type": "paragraph",
+      "html": "<p>There was junk everywhere. Old broke-down cars. Trailers. An RV or something sitting there. The whole place looked like it had been abandoned in stages. As we walked the property, we kept finding half-finished projects and rough little setups that looked like somebody had started building a dream and then stopped somewhere in the middle.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b011",
+      "sourceHtmlSha256": "a81e6f69dae3b7a3a306315b713c9ea6c129502c105367497b5dafb6b5a90285",
+      "sourceHtml": "<p>Vanessa thought I was crazy.</p>",
+      "text": "Vanessa thought I was crazy.",
+      "type": "paragraph",
+      "html": "<p>Vanessa thought I was crazy.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b012",
+      "sourceHtmlSha256": "4060e2c942591452badf75eda1f7166ca5052b6b8ead991bbc7f8843be486794",
+      "sourceHtml": "<p>And honestly, she had good reason.</p>",
+      "text": "And honestly, she had good reason.",
+      "type": "paragraph",
+      "html": "<p>And honestly, she had good reason.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b013",
+      "sourceHtmlSha256": "928edc9cae029e3dc85d026826fe7389030cae68f6a45d741dc8a02a7358d39d",
+      "sourceHtml": "<p>But I have always been the kind of person who can see the forest through the trees. Under all the junk, under the unfinished work, under the strange layout and the rough edges, I could feel something peaceful there. The place had a calming feeling to it, even in the shape it was in. I could see what it might become.</p>",
+      "text": "But I have always been the kind of person who can see the forest through the trees. Under all the junk, under the unfinished work, under the strange layout and the rough edges, I could feel something peaceful there. The place had a calming feeling to it, even in the shape it was in. I could see what it might become.",
+      "type": "paragraph",
+      "html": "<p>But I have always been the kind of person who can see the forest through the trees. Under all the junk, under the unfinished work, under the strange layout and the rough edges, I could feel something peaceful there. The place had a calming feeling to it, even in the shape it was in. I could see what it might become.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b014",
+      "sourceHtmlSha256": "eca87505d844158f337bbebb497d8e2609e87e79921ea8ca6a2b403c02b3ea40",
+      "sourceHtml": "<p>That same day, we put in an offer.</p>",
+      "text": "That same day, we put in an offer.",
+      "type": "paragraph",
+      "html": "<p>That same day, we put in an offer.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b015",
+      "sourceHtmlSha256": "d195b6dbbfb3f5e7bbc79e584e8b91d007c3aede466e8db57fc63c261ea32a8a",
+      "sourceHtml": "<p>We offered a little less than asking, and we added a condition that the junk had to be removed or the sellers would lose a retainer. We were serious about the place, but we were not trying to buy the mess with it.</p>",
+      "text": "We offered a little less than asking, and we added a condition that the junk had to be removed or the sellers would lose a retainer. We were serious about the place, but we were not trying to buy the mess with it.",
+      "type": "paragraph",
+      "html": "<p>We offered a little less than asking, and we added a condition that the junk had to be removed or the sellers would lose a retainer. We were serious about the place, but we were not trying to buy the mess with it.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b016",
+      "sourceHtmlSha256": "ce73ad3653fb0c1a50d4dd997fd2aac92cd95beacf634cb80fb8ebc6b879f490",
+      "sourceHtml": "<p>Even after the offer was accepted, it was not smooth sailing.</p>",
+      "text": "Even after the offer was accepted, it was not smooth sailing.",
+      "type": "paragraph",
+      "html": "<p>Even after the offer was accepted, it was not smooth sailing.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b017",
+      "sourceHtmlSha256": "011b38074733692ec6cca4e144ba88e0ac716d4baf1aa5e93e1ab64984e9a0b1",
+      "sourceHtml": "<p>Getting the loan closed turned into its own ordeal. The property did not have a furnace with a thermostat, and because of that, we kept running into problems finding insurance. That was one of those things we had never really thought about before, how strange and picky insurance companies can be about the smallest details. We searched around, made calls, worked with the credit union that was handling the loan, and kept pushing forward until we finally found a company willing to insure the property.</p>",
+      "text": "Getting the loan closed turned into its own ordeal. The property did not have a furnace with a thermostat, and because of that, we kept running into problems finding insurance. That was one of those things we had never really thought about before, how strange and picky insurance companies can be about the smallest details. We searched around, made calls, worked with the credit union that was handling the loan, and kept pushing forward until we finally found a company willing to insure the property.",
+      "type": "paragraph",
+      "html": "<p>Getting the loan closed turned into its own ordeal. The property did not have a furnace with a thermostat, and because of that, we kept running into problems finding insurance. That was one of those things we had never really thought about before, how strange and picky insurance companies can be about the smallest details. We searched around, made calls, worked with the credit union that was handling the loan, and kept pushing forward until we finally found a company willing to insure the property.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b018",
+      "sourceHtmlSha256": "7b07e47c4f4ff1c2412cacf2eeecce367a32222dbb865c4422aa598e7e2ada94",
+      "sourceHtml": "<p>Then came the waiting.</p>",
+      "text": "Then came the waiting.",
+      "type": "paragraph",
+      "html": "<p>Then came the waiting.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b019",
+      "sourceHtmlSha256": "c12623f857b0392889838fe0c371bc897857b715e916cc201ee720556b22d13d",
+      "sourceHtml": "<p>And more waiting.</p>",
+      "text": "And more waiting.",
+      "type": "paragraph",
+      "html": "<p>And more waiting.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b020",
+      "sourceHtmlSha256": "c12623f857b0392889838fe0c371bc897857b715e916cc201ee720556b22d13d",
+      "sourceHtml": "<p>And more waiting.</p>",
+      "text": "And more waiting.",
+      "type": "paragraph",
+      "html": "<p>And more waiting.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b021",
+      "sourceHtmlSha256": "f2682b9e56df9b10df684b3a5359dccbefbbd5cfe56bd2f3b8cb4e3b77d305d7",
+      "sourceHtml": "<p>Finally, in July of 2022, we got the call and closed on the property.</p>",
+      "text": "Finally, in July of 2022, we got the call and closed on the property.",
+      "type": "paragraph",
+      "html": "<p>Finally, in July of 2022, we got the call and closed on the property.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b022",
+      "sourceHtmlSha256": "4e57cd4e623fda04f02316d78d05645b3099502bcf2c661aad612a334d0d2dc7",
+      "sourceHtml": "<p>It was not a polished retreat. It was not finished. It was not easy. It was a rough little place with strange buildings, half-started projects, and a lot of work ahead of it.</p>",
+      "text": "It was not a polished retreat. It was not finished. It was not easy. It was a rough little place with strange buildings, half-started projects, and a lot of work ahead of it.",
+      "type": "paragraph",
+      "html": "<p>It was not a polished retreat. It was not finished. It was not easy. It was a rough little place with strange buildings, half-started projects, and a lot of work ahead of it.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b023",
+      "sourceHtmlSha256": "17c58a702759bcdc732ad2a07cde197ad9b436ae9f02523765b156d15faad665",
+      "sourceHtml": "<p>But to us, it felt like the beginning of something quieter.</p>",
+      "text": "But to us, it felt like the beginning of something quieter.",
+      "type": "paragraph",
+      "html": "<p>But to us, it felt like the beginning of something quieter.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b024",
+      "sourceHtmlSha256": "5397a60eae988b60e3f17088a468299747ffcf7fba84c35155e53c9086d772ec",
+      "sourceHtml": "<p>A place to breathe. A place to work with our hands. A place to heal a little. A place to step back from the city and slowly build something that felt more like peace.</p>",
+      "text": "A place to breathe. A place to work with our hands. A place to heal a little. A place to step back from the city and slowly build something that felt more like peace.",
+      "type": "paragraph",
+      "html": "<p>A place to breathe. A place to work with our hands. A place to heal a little. A place to step back from the city and slowly build something that felt more like peace.</p>"
+    },
+    {
+      "sourceBlockId": "ch01-b025",
+      "sourceHtmlSha256": "03b26d6c99905ba602f00dc0851591f5e266ac843f0a9bca92f52fc74309ed47",
+      "sourceHtml": "<p>Not perfect. Not fancy. Just ours.</p>",
+      "text": "Not perfect. Not fancy. Just ours.",
+      "type": "paragraph",
+      "html": "<p>Not perfect. Not fancy. Just ours.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-20b45a78758d",
+    "alt": "Small dark cabin structure under the pine tree in the early days",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "In some ways, this story began in July of 2022. In other ways, it started earlier than that, after cancer had already changed the shape of our lives.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter One",
+  "originalHeadingAfterBlocks": 1
+}

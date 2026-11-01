@@ -1,0 +1,43 @@
+{
+  "id": "library-35e4759043df",
+  "route": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+  "output": "pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html",
+  "title": "What to Grow Near the Vegetables You Actually Like to Eat | Quiet Backyard Living",
+  "description": "A simpler way to think about companion planting: start with what you want to grow, then build a little support crew around it.",
+  "kind": "tool",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-35e4759043df.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/qbl/imported/library-35e4759043df-0.js",
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-35e4759043df.html",
+  "department": "help",
+  "topic": "Tools & finding a crop",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat.html",
+    "sha256": "cca951fe21e58e909b2bea485e7af543e901a8f4ef8aa1e0b415d3a9dc8088f5"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

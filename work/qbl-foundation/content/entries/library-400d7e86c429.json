@@ -1,0 +1,42 @@
+{
+  "id": "library-400d7e86c429",
+  "route": "/pages/what-to-grow-near-radishes",
+  "output": "pages/what-to-grow-near-radishes.html",
+  "title": "What to Grow Near Radishes | Quiet Backyard Living",
+  "description": "Radishes are fast little gap-fillers, which means the best companions are usually crops that benefit from that speed instead of fighting it. They shine when you use ",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-400d7e86c429.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-400d7e86c429.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-radishes.html",
+    "sha256": "43552cde87ef1e88b5a10218922ff748217e6bd72bc9b17df0285c50e65f7594"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "note-the-last-piece-of-paneling",
+  "route": "/notebook/the-last-piece-of-paneling",
+  "output": "notebook/the-last-piece-of-paneling.html",
+  "title": "Maybe we should have called it a day. | Quiet Backyard Living",
+  "storyTitle": "Maybe we should have called it a day.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "The walls were moving forward. The last piece of paneling had other ideas.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "Still figuring it out · June 2026",
+  "noteHtml": "<p>I made a bad measurement and ruined a piece of paneling, so we decided to call it quits for the day.</p>\n<p>Another ruined piece of paneling.</p>\n<p>Looking back, maybe we should have used that last day, which was cooler and really beautiful, to just relax and enjoy what we had already accomplished.</p>",
+  "coverMedia": {
+    "mediaId": "media-90c4d5710626",
+    "alt": "The cabin and grounds: the place behind this journal entry",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "The place behind the journal entry · An earlier exterior view.",
+  "parentId": "journey-ch29",
+  "noteSlug": "the-last-piece-of-paneling",
+  "sourceReference": {
+    "chapter": 29,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

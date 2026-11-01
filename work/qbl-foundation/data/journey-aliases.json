@@ -1,0 +1,234 @@
+{
+  "the-beginning": {
+    "contentId": "journey-ch01",
+    "route": "/our-journey/chapters/chapter-01"
+  },
+  "section-4": {
+    "contentId": "journey-ch02",
+    "route": "/our-journey/chapters/chapter-02"
+  },
+  "section-5": {
+    "contentId": "journey-ch03",
+    "route": "/our-journey/chapters/chapter-03"
+  },
+  "section-6": {
+    "contentId": "journey-ch04",
+    "route": "/our-journey/chapters/chapter-04"
+  },
+  "section-7": {
+    "contentId": "journey-ch05",
+    "route": "/our-journey/chapters/chapter-05"
+  },
+  "section-8": {
+    "contentId": "journey-ch06",
+    "route": "/our-journey/chapters/chapter-06"
+  },
+  "meeting-chippy": {
+    "contentId": "journey-ch06",
+    "route": "/our-journey/chapters/chapter-06"
+  },
+  "section-9": {
+    "contentId": "journey-ch07",
+    "route": "/our-journey/chapters/chapter-07"
+  },
+  "section-10": {
+    "contentId": "journey-ch08",
+    "route": "/our-journey/chapters/chapter-08"
+  },
+  "city-beds-dried-up": {
+    "contentId": "journey-ch08",
+    "route": "/our-journey/chapters/chapter-08"
+  },
+  "section-11": {
+    "contentId": "journey-ch09",
+    "route": "/our-journey/chapters/chapter-09"
+  },
+  "section-12": {
+    "contentId": "journey-ch10",
+    "route": "/our-journey/chapters/chapter-10"
+  },
+  "section-13": {
+    "contentId": "journey-ch11",
+    "route": "/our-journey/chapters/chapter-11"
+  },
+  "section-14": {
+    "contentId": "journey-ch12",
+    "route": "/our-journey/chapters/chapter-12"
+  },
+  "city-beds-again": {
+    "contentId": "journey-ch12",
+    "route": "/our-journey/chapters/chapter-12"
+  },
+  "section-15": {
+    "contentId": "journey-ch13",
+    "route": "/our-journey/chapters/chapter-13"
+  },
+  "section-16": {
+    "contentId": "journey-ch14",
+    "route": "/our-journey/chapters/chapter-14"
+  },
+  "section-17": {
+    "contentId": "journey-ch15",
+    "route": "/our-journey/chapters/chapter-15"
+  },
+  "section-18": {
+    "contentId": "journey-ch16",
+    "route": "/our-journey/chapters/chapter-16"
+  },
+  "first-garden-row": {
+    "contentId": "journey-ch16",
+    "route": "/our-journey/chapters/chapter-16"
+  },
+  "building-the-deck": {
+    "contentId": "journey-ch17",
+    "route": "/our-journey/chapters/chapter-17"
+  },
+  "harriet-becomes-harry": {
+    "contentId": "journey-ch17",
+    "route": "/our-journey/chapters/chapter-17"
+  },
+  "mag-chapter18": {
+    "contentId": "journey-ch18",
+    "route": "/our-journey/chapters/chapter-18"
+  },
+  "enjoying-the-deck": {
+    "contentId": "journey-ch18",
+    "route": "/our-journey/chapters/chapter-18"
+  },
+  "chippy-snack-service": {
+    "contentId": "journey-ch18",
+    "route": "/our-journey/chapters/chapter-18"
+  },
+  "mag-chapter19": {
+    "contentId": "journey-ch19",
+    "route": "/our-journey/chapters/chapter-19"
+  },
+  "section-21": {
+    "contentId": "journey-ch19",
+    "route": "/our-journey/chapters/chapter-19"
+  },
+  "deck-party-lights": {
+    "contentId": "journey-ch19",
+    "route": "/our-journey/chapters/chapter-19"
+  },
+  "section-22": {
+    "contentId": "journey-ch20",
+    "route": "/our-journey/chapters/chapter-20"
+  },
+  "herbs-near-cabin": {
+    "contentId": "journey-ch20",
+    "route": "/our-journey/chapters/chapter-20"
+  },
+  "section-23": {
+    "contentId": "journey-ch21",
+    "route": "/our-journey/chapters/chapter-21"
+  },
+  "section-24": {
+    "contentId": "journey-ch22",
+    "route": "/our-journey/chapters/chapter-22"
+  },
+  "shed-becomes-nemesis": {
+    "contentId": "journey-ch22",
+    "route": "/our-journey/chapters/chapter-22"
+  },
+  "mag-chapter23": {
+    "contentId": "journey-ch23",
+    "route": "/our-journey/chapters/chapter-23"
+  },
+  "section-25": {
+    "contentId": "journey-ch23",
+    "route": "/our-journey/chapters/chapter-23"
+  },
+  "grapes-harvest-lost": {
+    "contentId": "journey-ch23",
+    "route": "/our-journey/chapters/chapter-23"
+  },
+  "section-26": {
+    "contentId": "journey-ch24",
+    "route": "/our-journey/chapters/chapter-24"
+  },
+  "sip-and-build": {
+    "contentId": "journey-ch24",
+    "route": "/our-journey/chapters/chapter-24"
+  },
+  "section-27": {
+    "contentId": "journey-ch25",
+    "route": "/our-journey/chapters/chapter-25"
+  },
+  "trying-ollas": {
+    "contentId": "journey-ch25",
+    "route": "/our-journey/chapters/chapter-25"
+  },
+  "chippy-spring-return": {
+    "contentId": "journey-ch25",
+    "route": "/our-journey/chapters/chapter-25"
+  },
+  "section-28": {
+    "contentId": "journey-ch26",
+    "route": "/our-journey/chapters/chapter-26"
+  },
+  "fruit-tree-day": {
+    "contentId": "journey-ch26",
+    "route": "/our-journey/chapters/chapter-26"
+  },
+  "section-29": {
+    "contentId": "journey-ch27",
+    "route": "/our-journey/chapters/chapter-27"
+  },
+  "section-31": {
+    "contentId": "journey-ch28",
+    "route": "/our-journey/chapters/chapter-28"
+  },
+  "harry-returns": {
+    "contentId": "journey-ch28",
+    "route": "/our-journey/chapters/chapter-28"
+  },
+  "berry-trellises-installed": {
+    "contentId": "journey-ch28",
+    "route": "/our-journey/chapters/chapter-28"
+  },
+  "woodpecker-joins": {
+    "contentId": "journey-ch28",
+    "route": "/our-journey/chapters/chapter-28"
+  },
+  "section-30": {
+    "contentId": "journey-ch29",
+    "route": "/our-journey/chapters/chapter-29"
+  },
+  "book-one-chapter-1": {
+    "contentId": "journey-ch01",
+    "route": "/our-journey/chapters/chapter-01"
+  },
+  "year-1": {
+    "contentId": "journey-ch05",
+    "route": "/our-journey/chapters/chapter-05"
+  },
+  "year-2": {
+    "contentId": "journey-ch09",
+    "route": "/our-journey/chapters/chapter-09"
+  },
+  "year-3": {
+    "contentId": "journey-ch14",
+    "route": "/our-journey/chapters/chapter-14"
+  },
+  "fun-winter-projects": {
+    "contentId": "journey-ch24",
+    "route": "/our-journey/chapters/chapter-24"
+  },
+  "year-4": {
+    "contentId": "journey-ch25",
+    "route": "/our-journey/chapters/chapter-25"
+  },
+  "chapter-27": {
+    "contentId": "journey-ch27",
+    "route": "/our-journey/chapters/chapter-27"
+  },
+  "chapter-29": {
+    "contentId": "journey-ch29",
+    "route": "/our-journey/chapters/chapter-29"
+  },
+  "chapter-28": {
+    "contentId": "journey-ch28",
+    "route": "/our-journey/chapters/chapter-28"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "library-d9e10ea42dd7",
+  "route": "/stories/in-the-garden",
+  "output": "stories/in-the-garden.html",
+  "title": "Two gardens.Plenty to learn. | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition thread-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-d9e10ea42dd7.html",
+  "department": "growing",
+  "topic": "Our garden story",
+  "sourceReference": {
+    "file": "reference/library-import-source/stories/in-the-garden.html",
+    "sha256": "d88374876e3bafd68c7f5d53818ffa1a45c852918a48577b2e0c1c8753e00909"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

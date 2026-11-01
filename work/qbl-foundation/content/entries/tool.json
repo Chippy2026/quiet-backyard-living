@@ -1,0 +1,184 @@
+{
+  "id": "tool",
+  "kind": "tool",
+  "variant": "tool",
+  "route": "/pages/build-my-garden-plan",
+  "output": "pages/build-my-garden-plan.html",
+  "title": "Build My Garden Plan | Quiet Backyard Living",
+  "description": "A polished QBL garden-planning workbench with the original inputs, rough-layout results and unchanged calculations.",
+  "status": "review",
+  "bodyClass": "rs-edition hp-edition co-edition hy-edition rs-page",
+  "mainAttrs": {
+    "class": "rs rs-tool"
+  },
+  "wrapperAttrs": null,
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/representative-system.css"
+  ],
+  "scripts": [
+    "/assets/qbl/planner-original.js",
+    "/assets/complete-guides.js",
+    "/assets/representative-system.js"
+  ],
+  "blocks": [
+    {
+      "component": "tool/rs-wrap-0",
+      "copy": {
+        "a_1": "QBL",
+        "nav_1": " / ",
+        "a_2": "Garden Help",
+        "nav_2": " / ",
+        "span_1": "Garden planner",
+        "span_2": "The QBL garden workbench",
+        "h1_1": "A little space.",
+        "em_1": "A useful plan.",
+        "p_1": "Build My Garden Plan",
+        "p_2": "Choose your space and favorite crops. Get the QBL planner’s rough arrangement, support ideas and next guides.",
+        "figcaption_1": "A starting point for a real garden, not a promise of yield.",
+        "b_1": "1",
+        "span_3": " Choose your space",
+        "b_2": "2",
+        "span_4": " Pick what you eat",
+        "b_3": "3",
+        "span_5": " Explore the sketch",
+        "h2_1": "Make it yours.",
+        "p_3": "Start with the size. Choose a few favorites, then decide whether herbs and flowers belong in the plan.",
+        "label_1": "Garden size",
+        "option_1": "4 x 4 feet bed",
+        "option_2": "4 x 8 feet bed",
+        "option_3": "4 x 12 feet bed",
+        "option_4": "10 x 10 feet space",
+        "option_5": "Custom bed size",
+        "option_6": "Patio pots or containers",
+        "label_2": "Growing style",
+        "option_7": "Keep it simple and easy",
+        "option_8": "Fit in as much useful food as makes sense",
+        "option_9": "Give me a productive plan with extra pollinator help",
+        "label_3": "Bed width in feet",
+        "label_4": "Bed length in feet",
+        "label_5": "What do you actually like to eat? ",
+        "span_6": "Pick a few favorites.",
+        "label_6": "Include herbs?",
+        "option_10": "Yes, please tuck in herbs",
+        "option_11": "No, keep it focused on crops",
+        "label_7": "Include pollinator flowers?",
+        "option_12": "Yes, give the garden a little support crew",
+        "option_13": "No, keep it simple",
+        "button_1": "Build my garden plan",
+        "button_2": "Reset",
+        "span_7": "Your plan will appear here",
+        "h2_2": "First, a place.",
+        "em_2": "Then, a possibility.",
+        "span_8": "Room to grow",
+        "p_4": "Use the choices alongside to generate your rough plan. This is an empty preview, not a calculated result.",
+        "h3_1": "Your plan",
+        "h3_2": "Spacing, companions, and support crew",
+        "h3_3": "Helpful next pages",
+        "h3_4": "Rough layout sketch",
+        "p_5": "A simple top-down idea to help picture the space.",
+        "span_9": "Back / taller side",
+        "span_10": "Trellis side if needed",
+        "span_11": "Front / easiest harvest side",
+        "span_12": "Shorter crops drift forward",
+        "h2_3": "A useful beginning.",
+        "em_3": "Not a final planting prescription.",
+        "p_6": "The planner does not account for your location, frost dates, soil test, named varieties or every mature plant dimension. Check actual spacing, sunlight and supports before planting. Use it as a starting point, then check the fit in your own bed.",
+        "span_13": "Take the sketch further",
+        "h2_4": "A plan becomes",
+        "em_4": "what you learn next.",
+        "span_14": "Planning guide",
+        "h3_5": "What fits a 4 × 8 bed?",
+        "p_7": "Compare four source-supported layout directions.",
+        "span_15": "Take a look ",
+        "span_16": "↗",
+        "span_17": "A main crop",
+        "h3_6": "Make room for tomatoes.",
+        "p_8": "Companions, access, a conceptual layout and the next checks.",
+        "span_18": "Take a look ",
+        "span_19": "↗",
+        "figcaption_2": "From Jeff & Vanessa’s actual backyard journal.",
+        "span_20": "Our place / The continuing story",
+        "h2_5": "Our plans keep",
+        "em_5": "meeting real life.",
+        "p_9": "The city beds did not thrive just because we meant well. Follow the watering experiments and garden work behind this library.",
+        "a_3": "Read our garden story ",
+        "span_21": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/garden-help",
+        "link_3": {
+          "contentId": "raised-bed"
+        },
+        "link_4": {
+          "contentId": "tomatoes"
+        },
+        "link_5": "/pages/what-we-re-up-to-around-the-yard-and-cabin#city-beds-again"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A young QBL raised bed",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Young QBL raised-bed plants",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_3": {
+          "mediaId": "media-5e85b1b391b7",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Ripe tomatoes on the plant",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_4": {
+          "mediaId": "media-661cb7f96e87",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "The QBL cabin garden during the June 2025 trial-row season",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "tool/pg-section-3-1",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "tool/pg-section-1-2",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "tool/pg-section-2-3",
+      "copy": {},
+      "links": {},
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\build-my-garden-plan.html"
+}

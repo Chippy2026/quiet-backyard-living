@@ -1,0 +1,5 @@
+{% set feature=storyCards[heartbeat.feature] %}
+<section class="qbl-season-feature qbl-page-width" id="current-chapter" aria-labelledby="season-title">
+ <div class="qbl-season-copy"><span class="qbl-eyebrow">The current chapter / {{ heartbeat.label }}</span><h2 id="season-title">{{ heartbeat.headline[0] }}<br><em>{{ heartbeat.headline[1] }}</em></h2><p class="qbl-season-strap">{{ heartbeat.chapter }}</p><p>{{ heartbeat.intro }}</p><a class="qbl-button" href="{{ feature.href | relatedUrl }}">{{ feature.title }} <span aria-hidden="true">↗</span></a><small class="qbl-record-note">A seasonal focus, with real stories from our journal. The latest recorded cabin visit is June 2026.</small></div>
+ <a class="qbl-season-photo" href="{{ feature.href | relatedUrl }}"><figure>{{ feature.image | mediaImage | safe }}<figcaption>{{ feature.context }} · From the QBL story so far <span aria-hidden="true">↗</span></figcaption></figure></a>
+</section>

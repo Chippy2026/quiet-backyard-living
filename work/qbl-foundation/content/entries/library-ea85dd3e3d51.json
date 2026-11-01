@@ -1,0 +1,42 @@
+{
+  "id": "library-ea85dd3e3d51",
+  "route": "/pages/what-to-grow-near-turnips",
+  "output": "pages/what-to-grow-near-turnips.html",
+  "title": "What to Grow Near Turnips | Quiet Backyard Living",
+  "description": "Turnips are another practical root crop that often fits best in a cooler-season bed with gentler neighbors and decent spacing.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-ea85dd3e3d51.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-ea85dd3e3d51.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-turnips.html",
+    "sha256": "e79d3281c36ace0f2884d156d933ad68147797fa2b21746c17ac18d5d7701f35"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

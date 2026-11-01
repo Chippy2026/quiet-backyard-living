@@ -1,0 +1,481 @@
+{
+  "id": "journey-ch23",
+  "route": "/our-journey/chapters/chapter-23",
+  "output": "our-journey/chapters/chapter-23.html",
+  "title": "Reflection & Wrapping Up the Season | Quiet Backyard Living",
+  "storyTitle": "Reflection & Wrapping Up the Season",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Reflection & Wrapping Up the Season",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 23,
+  "chapterOrder": 23,
+  "seriesId": "happy-place",
+  "dateLabel": "October 2025",
+  "dateEvidence": "October 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 23,
+    "articleSha256": "8890050dd774b6f1d9c94057362b1d7dcef15809f512bd9084c063cc38ba9048",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-25"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch23-b001",
+      "sourceHtmlSha256": "0245fbc6b648c2847c4dfa76685da8302a10a9b2bd0d17317baf73d41a533a8c",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter23-guineas.jpg\" alt=\"Guinea hens stealing snacks in the yard during the October 2025 fall wrap-up stretch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter23-guineas.jpg",
+          "alt": "Guinea hens stealing snacks in the yard during the October 2025 fall wrap-up stretch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch23-b002",
+      "image": {
+        "mediaId": "journey-e6747434ee0f",
+        "alt": "Guinea hens stealing snacks in the yard during the October 2025 fall wrap-up stretch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch23-b004",
+      "sourceHtmlSha256": "abf05bf6199f0e2afb905b8a88d1666694828dad86702608717c58089b0d2a6b",
+      "sourceHtml": "<p>By October of 2025, it was starting to get chilly.</p>",
+      "text": "By October of 2025, it was starting to get chilly.",
+      "type": "paragraph",
+      "html": "<p>By October of 2025, it was starting to get chilly.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b005",
+      "sourceHtmlSha256": "a55cda0e8b6d9623f3580a52d3ef741918904e2252244da83bc3a77d3fd8fb9a",
+      "sourceHtml": "<p>I mean, we were in Michigan, so nobody should be too surprised.</p>",
+      "text": "I mean, we were in Michigan, so nobody should be too surprised.",
+      "type": "paragraph",
+      "html": "<p>I mean, we were in Michigan, so nobody should be too surprised.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b006",
+      "sourceHtmlSha256": "ba5130007c0ef39a700952af299b5362e688a6b0c8acdc7d1af377ac84a31efa",
+      "sourceHtml": "<p>The squirrels were hustling to bury their goodies. The chipmunks were doing nonstop trips, stuffing their cheeks and running back to their little caves to store everything away. Even the local guinea hens were helping themselves to snacks.</p>",
+      "text": "The squirrels were hustling to bury their goodies. The chipmunks were doing nonstop trips, stuffing their cheeks and running back to their little caves to store everything away. Even the local guinea hens were helping themselves to snacks.",
+      "type": "paragraph",
+      "html": "<p>The squirrels were hustling to bury their goodies. The chipmunks were doing nonstop trips, stuffing their cheeks and running back to their little caves to store everything away. Even the local guinea hens were helping themselves to snacks.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b007",
+      "sourceHtmlSha256": "d0ce6de73bc8659fbbec4310fd30979902a157edf133c447f12db55fb51b0bcf",
+      "sourceHtml": "<p>The birds were loving all the extra food we were putting out too. Some were even making nests in the houses we had put up for them.</p>",
+      "text": "The birds were loving all the extra food we were putting out too. Some were even making nests in the houses we had put up for them.",
+      "type": "paragraph",
+      "html": "<p>The birds were loving all the extra food we were putting out too. Some were even making nests in the houses we had put up for them.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b008",
+      "sourceHtmlSha256": "e40024542c9de19b6e2a43d73c8cd44bf64c2ff147ce816e05897d271d90264f",
+      "sourceHtml": "<p>And the hummingbirds?</p>",
+      "text": "And the hummingbirds?",
+      "type": "paragraph",
+      "html": "<p>And the hummingbirds?</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b009",
+      "sourceHtmlSha256": "5ccb0b1c96e75c9f069cc2fcf484942ea02199d2b47ffc25d07cfcebc5af1deb",
+      "sourceHtml": "<p>Well, let’s just say they were at the feeder about every hour on the hour.</p>",
+      "text": "Well, let’s just say they were at the feeder about every hour on the hour.",
+      "type": "paragraph",
+      "html": "<p>Well, let’s just say they were at the feeder about every hour on the hour.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b010",
+      "sourceHtmlSha256": "6c3deb4f48bd5b76b5154540c716d3f68862c0c48b14e59a6e0d5348b29cedf7",
+      "sourceHtml": "<p>And yes, Harry was still the king of the feeder.</p>",
+      "text": "And yes, Harry was still the king of the feeder.",
+      "type": "paragraph",
+      "html": "<p>And yes, Harry was still the king of the feeder.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b011",
+      "sourceHtmlSha256": "540ea1ddafcccfdf0d3a8caabc8b2f617992a2ed0fec08c05a9e5eb386b6c138",
+      "sourceHtml": "<p>The others would sneak in for a drink whenever he was not paying attention.</p>",
+      "text": "The others would sneak in for a drink whenever he was not paying attention.",
+      "type": "paragraph",
+      "html": "<p>The others would sneak in for a drink whenever he was not paying attention.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b012",
+      "sourceHtmlSha256": "38ff69ae2e287c5db2729e5d19abcf98890599213c66bfddc9c3de0f2e444871",
+      "sourceHtml": "<p>There is just nothing like fall in northern Michigan.</p>",
+      "text": "There is just nothing like fall in northern Michigan.",
+      "type": "paragraph",
+      "html": "<p>There is just nothing like fall in northern Michigan.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b013",
+      "sourceHtmlSha256": "7d06aadedbdcb934ed583cc511409a730ee872135a251ac5ae48a188e9e0c51c",
+      "sourceHtml": "<p>But of course, fall also means cleanup.</p>",
+      "text": "But of course, fall also means cleanup.",
+      "type": "paragraph",
+      "html": "<p>But of course, fall also means cleanup.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b014",
+      "sourceHtmlSha256": "f34ee12b4bb2a0524f9b05491def68b6ff3a2897e28a219c01880a7c21c2c8ac",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter23-fall.jpg\" alt=\"Fall cleanup scene on the property with leaves down and the truck visible in October 2025\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter23-fall.jpg",
+          "alt": "Fall cleanup scene on the property with leaves down and the truck visible in October 2025"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch23-b013",
+      "nextSourceBlockId": "ch23-b015",
+      "image": {
+        "mediaId": "journey-d27aec8da4b7",
+        "alt": "Fall cleanup scene on the property with leaves down and the truck visible in October 2025",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch23-b015",
+      "sourceHtmlSha256": "9ac3de526e95c1db13cc4f25b5a3d173a5974e58f093996079882bf0859f8f19",
+      "sourceHtml": "<p>So onto the Cub Cadet I went, spending the next couple hours mowing the grass, which mostly just meant chewing up and blowing leaves around. Honestly though, I do not really mind that part. There is something kind of satisfying about it.</p>",
+      "text": "So onto the Cub Cadet I went, spending the next couple hours mowing the grass, which mostly just meant chewing up and blowing leaves around. Honestly though, I do not really mind that part. There is something kind of satisfying about it.",
+      "type": "paragraph",
+      "html": "<p>So onto the Cub Cadet I went, spending the next couple hours mowing the grass, which mostly just meant chewing up and blowing leaves around. Honestly though, I do not really mind that part. There is something kind of satisfying about it.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b016",
+      "sourceHtmlSha256": "adab66091e1d409cef7ef614ce5e731710c35d2206a11ba6e753c62fd0b5e21e",
+      "sourceHtml": "<p>The weeds needed a haircut too, so out came the weed whacker.</p>",
+      "text": "The weeds needed a haircut too, so out came the weed whacker.",
+      "type": "paragraph",
+      "html": "<p>The weeds needed a haircut too, so out came the weed whacker.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b017",
+      "sourceHtmlSha256": "c396669b777cc7761142ff0f458b1a3aed36faa05ed0acdd647f46555bb35af8",
+      "sourceHtml": "<p>Meanwhile, Vanessa was starting to prepare the inside of the cabin for its final hurrah of the season. Liquids, anything freezable, and some general cleaning so the place would be mostly fresh when we came back in the spring.</p>",
+      "text": "Meanwhile, Vanessa was starting to prepare the inside of the cabin for its final hurrah of the season. Liquids, anything freezable, and some general cleaning so the place would be mostly fresh when we came back in the spring.",
+      "type": "paragraph",
+      "html": "<p>Meanwhile, Vanessa was starting to prepare the inside of the cabin for its final hurrah of the season. Liquids, anything freezable, and some general cleaning so the place would be mostly fresh when we came back in the spring.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b018",
+      "sourceHtmlSha256": "107e3b504f5ee15779529f43de26dc0b84d8da57dad07e078658db5cde8c0e55",
+      "sourceHtml": "<p>Still, we managed to squeeze in some much-needed deck time.</p>",
+      "text": "Still, we managed to squeeze in some much-needed deck time.",
+      "type": "paragraph",
+      "html": "<p>Still, we managed to squeeze in some much-needed deck time.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b019",
+      "sourceHtmlSha256": "5acb98f53c1dd14dfeb712cc57b55f23c541e05a741d394402960dda612e2862",
+      "sourceHtml": "<p>Which is always welcome.</p>",
+      "text": "Which is always welcome.",
+      "type": "paragraph",
+      "html": "<p>Which is always welcome.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b020",
+      "sourceHtmlSha256": "6cd3631ff75bc857b5535b2d0b9dc0e216adb46d657da0295695d5283e4124d2",
+      "sourceHtml": "<p>And yes, I do believe we got in one more bonfire too.</p>",
+      "text": "And yes, I do believe we got in one more bonfire too.",
+      "type": "paragraph",
+      "html": "<p>And yes, I do believe we got in one more bonfire too.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b021",
+      "sourceHtmlSha256": "bed8bdbb56de0047e548b0a8bfc3f0544259587e06e5ce49632e12f65cacc4d8",
+      "sourceHtml": "<p>Looking back over the season felt pretty nice.</p>",
+      "text": "Looking back over the season felt pretty nice.",
+      "type": "paragraph",
+      "html": "<p>Looking back over the season felt pretty nice.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b022",
+      "sourceHtmlSha256": "d1b95d9755b4c7c2722923d54443580403b8185556e01accc3bb2fbff4b0eb32",
+      "sourceHtml": "<p>Way better than last year.</p>",
+      "text": "Way better than last year.",
+      "type": "paragraph",
+      "html": "<p>Way better than last year.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b023",
+      "sourceHtmlSha256": "125b475e50e4a35d96e75eda6821fee4dbb14bf181a7c0cd5a9b971da116c4e6",
+      "sourceHtml": "<p>We pulled off some changes this season that were not just useful, but visually dramatic too. The property looked better. The deck changed the way we lived out there. The garden area got up and running, and we finally got our first vegetables in.</p>",
+      "text": "We pulled off some changes this season that were not just useful, but visually dramatic too. The property looked better. The deck changed the way we lived out there. The garden area got up and running, and we finally got our first vegetables in.",
+      "type": "paragraph",
+      "html": "<p>We pulled off some changes this season that were not just useful, but visually dramatic too. The property looked better. The deck changed the way we lived out there. The garden area got up and running, and we finally got our first vegetables in.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b024",
+      "sourceHtmlSha256": "912a01a327a142754ce3719beda7b831dc89f40cc8cf988b688d2c61e190a4eb",
+      "sourceHtml": "<p>We were hoping for pumpkins, but that did not happen.</p>",
+      "text": "We were hoping for pumpkins, but that did not happen.",
+      "type": "paragraph",
+      "html": "<p>We were hoping for pumpkins, but that did not happen.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b025",
+      "sourceHtmlSha256": "1e44da9003a4978562b14ac95883f07ac26a6c5f4479f6591a09c7eeb0aaccd5",
+      "sourceHtml": "<p>Never grown pumpkins before, so I guess we better study up.</p>",
+      "text": "Never grown pumpkins before, so I guess we better study up.",
+      "type": "paragraph",
+      "html": "<p>Never grown pumpkins before, so I guess we better study up.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b026",
+      "sourceHtmlSha256": "4b78de35025b14f2509938dd6538145a2cf1d9632395c183b3cbd96902d9d745",
+      "sourceHtml": "<p>We did manage to get a few vegetables though, along with strawberries, blueberries, some apples, and pears.</p>",
+      "text": "We did manage to get a few vegetables though, along with strawberries, blueberries, some apples, and pears.",
+      "type": "paragraph",
+      "html": "<p>We did manage to get a few vegetables though, along with strawberries, blueberries, some apples, and pears.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b027",
+      "sourceHtmlSha256": "250d7b83ab89e20f186bbe4f0a105bb2d30823a939515960fde3dfcd03e2e6ef",
+      "sourceHtml": "<p>But I’ll be damned if we did not lose every single grape.</p>",
+      "text": "But I’ll be damned if we did not lose every single grape.",
+      "type": "paragraph",
+      "html": "<p>But I’ll be damned if we did not lose every single grape.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b028",
+      "sourceHtmlSha256": "a8f9eb8346f544a0e2c06fb8a5e92d8d3a940118c08ba400d4712e01c378be99",
+      "sourceHtml": "<p>There had been thousands of them.</p>",
+      "text": "There had been thousands of them.",
+      "type": "paragraph",
+      "html": "<p>There had been thousands of them.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b029",
+      "sourceHtmlSha256": "00859408e4fe259f1c75787c29062d2ef15a7321e32b87eed811375de21e21ca",
+      "sourceHtml": "<p>And in just a few short days while we were gone, they were wiped out.</p>",
+      "text": "And in just a few short days while we were gone, they were wiped out.",
+      "type": "paragraph",
+      "html": "<p>And in just a few short days while we were gone, they were wiped out.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b030",
+      "sourceHtmlSha256": "73f7198ccbcf61112b0af02d0fe9db28440df9ddcb202ee6e59733ba2a949df4",
+      "sourceHtml": "<p>I guess the critters, and maybe the birds too, liked them even more than we did.</p>",
+      "text": "I guess the critters, and maybe the birds too, liked them even more than we did.",
+      "type": "paragraph",
+      "html": "<p>I guess the critters, and maybe the birds too, liked them even more than we did.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b031",
+      "sourceHtmlSha256": "570336590982e06d472449bf6291eecac35475c491b43c550b37c226962611ce",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter23-dream.jpg\" alt=\"Wide payoff view of the cabin, green structure, deck, and garden area showing how far the property had come by fall 2025\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter23-dream.jpg",
+          "alt": "Wide payoff view of the cabin, green structure, deck, and garden area showing how far the property had come by fall 2025"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch23-b030",
+      "nextSourceBlockId": "ch23-b032",
+      "image": {
+        "mediaId": "media-90c4d5710626",
+        "alt": "Wide payoff view of the cabin, green structure, deck, and garden area showing how far the property had come by fall 2025",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch23-b032",
+      "sourceHtmlSha256": "0b86b8d86b32b439f5e058d87dca548da162b96f1bdd0f6ca730ccea65219fa2",
+      "sourceHtml": "<p>We also found ourselves reminiscing about how much the future greenhouse and herb-garden area had changed.</p>",
+      "text": "We also found ourselves reminiscing about how much the future greenhouse and herb-garden area had changed.",
+      "type": "paragraph",
+      "html": "<p>We also found ourselves reminiscing about how much the future greenhouse and herb-garden area had changed.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b033",
+      "sourceHtmlSha256": "5ffda096c35211c1d035a2ce68a99bac931212f95a47d0cd210e9c90e3ab5f19",
+      "sourceHtml": "<p>And yes, even that dang “storage shed” and what a pain in our butts that whole project had been.</p>",
+      "text": "And yes, even that dang “storage shed” and what a pain in our butts that whole project had been.",
+      "type": "paragraph",
+      "html": "<p>And yes, even that dang “storage shed” and what a pain in our butts that whole project had been.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b034",
+      "sourceHtmlSha256": "eba8b7bf67b319ac2558e89ac5fd24885bbe7a49e05ee74ac3431731c512c632",
+      "sourceHtml": "<p>But maybe the best change of all was right under our feet.</p>",
+      "text": "But maybe the best change of all was right under our feet.",
+      "type": "paragraph",
+      "html": "<p>But maybe the best change of all was right under our feet.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b035",
+      "sourceHtmlSha256": "fe83c0e5602b4e7deaa988c2fe4c29659a5acd27481e5e74cf503931dcecb53a",
+      "sourceHtml": "<p>The deck.</p>",
+      "text": "The deck.",
+      "type": "paragraph",
+      "html": "<p>The deck.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b036",
+      "sourceHtmlSha256": "1bedfdc1948f12eb4cf3956a83e81427f536330f10a2103c517a522c0da6d5e5",
+      "sourceHtml": "<p>We enjoyed that thing all season long.</p>",
+      "text": "We enjoyed that thing all season long.",
+      "type": "paragraph",
+      "html": "<p>We enjoyed that thing all season long.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b037",
+      "sourceHtmlSha256": "29a346b5f8ee8ee2da69d4c3f956c66f140ad13d984dee83920fd6db3b6a982f",
+      "sourceHtml": "<p>And even after all the physical changes we made, I think the biggest change was inside us.</p>",
+      "text": "And even after all the physical changes we made, I think the biggest change was inside us.",
+      "type": "paragraph",
+      "html": "<p>And even after all the physical changes we made, I think the biggest change was inside us.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b038",
+      "sourceHtmlSha256": "8d397509b2c7a7c3a0f5712797dc5e44ceed681cfdc52b58c616460db67d5b99",
+      "sourceHtml": "<p>We were starting to conquer this beast.</p>",
+      "text": "We were starting to conquer this beast.",
+      "type": "paragraph",
+      "html": "<p>We were starting to conquer this beast.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b039",
+      "sourceHtmlSha256": "eccc48940421c549475df5dc46fd03b395ef549ec57f6d8c2e1ca72855d9d87d",
+      "sourceHtml": "<p>We were actually living there comfortably for longer and longer stretches of time, and that felt like a real success.</p>",
+      "text": "We were actually living there comfortably for longer and longer stretches of time, and that felt like a real success.",
+      "type": "paragraph",
+      "html": "<p>We were actually living there comfortably for longer and longer stretches of time, and that felt like a real success.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b040",
+      "sourceHtmlSha256": "2bd72c1e95e882a06b3c347a3c825ef175a51cd6b33fdf517a1ce73116b23b58",
+      "sourceHtml": "<p>All the hard work. All the blood, sweat, and tears. And yes, even a broken ankle too.</p>",
+      "text": "All the hard work. All the blood, sweat, and tears. And yes, even a broken ankle too.",
+      "type": "paragraph",
+      "html": "<p>All the hard work. All the blood, sweat, and tears. And yes, even a broken ankle too.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b041",
+      "sourceHtmlSha256": "b1e648c83dc4b47c61ecfeaf6e7b7c1e479d3212e79dce4b279637a5fc64e04f",
+      "sourceHtml": "<p>We had finally made something there.</p>",
+      "text": "We had finally made something there.",
+      "type": "paragraph",
+      "html": "<p>We had finally made something there.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b042",
+      "sourceHtmlSha256": "630babeff736381e0e92cd158b688d001d95d3b0e0bf91e7d9e2f88d81744c55",
+      "sourceHtml": "<p>A quiet, peaceful place to go and enjoy.</p>",
+      "text": "A quiet, peaceful place to go and enjoy.",
+      "type": "paragraph",
+      "html": "<p>A quiet, peaceful place to go and enjoy.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b043",
+      "sourceHtmlSha256": "498714e070a5daf236ee4b66d6f713d8d4c2b226d5fc1eeb5fe4a49309764e50",
+      "sourceHtml": "<p>And the locals, mostly wildlife, seemed to have accepted us into their kingdom.</p>",
+      "text": "And the locals, mostly wildlife, seemed to have accepted us into their kingdom.",
+      "type": "paragraph",
+      "html": "<p>And the locals, mostly wildlife, seemed to have accepted us into their kingdom.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b044",
+      "sourceHtmlSha256": "3532737203a418a2f782610ec2b908d117f36deea0be02bd6d48c9bae2c94a8f",
+      "sourceHtml": "<p>Man, we could not wait until next year.</p>",
+      "text": "Man, we could not wait until next year.",
+      "type": "paragraph",
+      "html": "<p>Man, we could not wait until next year.</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b045",
+      "sourceHtmlSha256": "f8213c75d215a1078d4c9ef99a066715847235191942c7fde697994f2aa8c24e",
+      "sourceHtml": "<p>So if there is one thing we took away from that season, it is this...</p>",
+      "text": "So if there is one thing we took away from that season, it is this...",
+      "type": "paragraph",
+      "html": "<p>So if there is one thing we took away from that season, it is this...</p>"
+    },
+    {
+      "sourceBlockId": "ch23-b046",
+      "sourceHtmlSha256": "32d28d6c19a09857fe46810b91e90d3f94dc7b7aa1f25a4fdd8a86288ff6a643",
+      "sourceHtml": "<p><strong>KEEP DREAMING, BABY!</strong></p>",
+      "text": "KEEP DREAMING, BABY!",
+      "type": "paragraph",
+      "html": "<p><strong>KEEP DREAMING, BABY!</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch23-b047",
+      "sourceHtmlSha256": "639f44442784cbbc26e480352afdf84234404c8279ca138771719d8251df7203",
+      "sourceHtml": "<p>Till next year, y’all.</p>",
+      "text": "Till next year, y’all.",
+      "type": "paragraph",
+      "html": "<p>Till next year, y’all.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-e6747434ee0f",
+    "alt": "Guinea hens stealing snacks in the yard during the October 2025 fall wrap-up stretch",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "By October of 2025, it was starting to get chilly. I mean, we were in Michigan, so nobody should be too surprised.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Three",
+  "originalHeadingAfterBlocks": 1
+}

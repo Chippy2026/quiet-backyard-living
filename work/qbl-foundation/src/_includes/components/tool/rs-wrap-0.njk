@@ -1,0 +1,88 @@
+<div class="rs-wrap"><nav class="rs-breadcrumb" aria-label="Breadcrumb"><a href="{{ block.links.link_1 | relatedUrl }}">{{ block.copy.a_1 }}</a>{{ block.copy.nav_1 }}<a href="{{ block.links.link_2 | relatedUrl }}">{{ block.copy.a_2 }}</a>{{ block.copy.nav_2 }}<span>{{ block.copy.span_1 }}</span></nav><header class="rs-tool-hero"><div><span class="rs-kicker">{{ block.copy.span_2 }}</span><h1>{{ block.copy.h1_1 }}<br><em>{{ block.copy.em_1 }}</em></h1><p class="rs-deck">{{ block.copy.p_1 }}</p><p>{{ block.copy.p_2 }}</p></div><figure class="rs-photo ">{{ block.images.image_1 | mediaImage | safe }}<figcaption>{{ block.copy.figcaption_1 }}</figcaption></figure></header><div class="rs-tool-strip"><span><b>{{ block.copy.b_1 }}</b>{{ block.copy.span_3 }}</span><span><b>{{ block.copy.b_2 }}</b>{{ block.copy.span_4 }}</span><span><b>{{ block.copy.b_3 }}</b>{{ block.copy.span_5 }}</span></div><section class="rs-workbench" aria-label="Garden planning workbench"><div class="rs-input-panel"><h2>{{ block.copy.h2_1 }}</h2><p>{{ block.copy.p_3 }}</p><form id="plannerForm">
+        <div class="planner-grid">
+          <div class="planner-field">
+            <label for="bedSize">{{ block.copy.label_1 }}</label>
+            <select id="bedSize" name="bedSize">
+              <option value="4x4">{{ block.copy.option_1 }}</option>
+              <option value="4x8" selected>{{ block.copy.option_2 }}</option>
+              <option value="4x12">{{ block.copy.option_3 }}</option>
+              <option value="10x10">{{ block.copy.option_4 }}</option>
+              <option value="custom">{{ block.copy.option_5 }}</option>
+              <option value="patio">{{ block.copy.option_6 }}</option>
+            </select>
+          </div>
+          <div class="planner-field">
+            <label for="sunStyle">{{ block.copy.label_2 }}</label>
+            <select id="sunStyle" name="sunStyle">
+              <option value="easy">{{ block.copy.option_7 }}</option>
+              <option value="productive">{{ block.copy.option_8 }}</option>
+              <option value="pollinator">{{ block.copy.option_9 }}</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="customBedGrid" class="custom-bed-grid">
+          <div class="planner-field">
+            <label for="customWidth">{{ block.copy.label_3 }}</label>
+            <input id="customWidth" name="customWidth" type="number" min="2" max="30" step="1" placeholder="Example: 4">
+          </div>
+          <div class="planner-field">
+            <label for="customLength">{{ block.copy.label_4 }}</label>
+            <input id="customLength" name="customLength" type="number" min="2" max="50" step="1" placeholder="Example: 10">
+          </div>
+        </div>
+
+        <div class="planner-field" style="margin-top:1rem;">
+          <label>{{ block.copy.label_5 }}<span class="tiny-note">{{ block.copy.span_6 }}</span></label>
+          <div class="check-grid" id="cropOptions"></div>
+        </div>
+
+        <div class="planner-grid" style="margin-top:1rem;">
+          <div class="planner-field">
+            <label for="includeHerbs">{{ block.copy.label_6 }}</label>
+            <select id="includeHerbs" name="includeHerbs">
+              <option value="yes" selected>{{ block.copy.option_10 }}</option>
+              <option value="no">{{ block.copy.option_11 }}</option>
+            </select>
+          </div>
+          <div class="planner-field">
+            <label for="includePollinators">{{ block.copy.label_7 }}</label>
+            <select id="includePollinators" name="includePollinators">
+              <option value="yes" selected>{{ block.copy.option_12 }}</option>
+              <option value="no">{{ block.copy.option_13 }}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="planner-actions">
+          <button class="planner-button primary" type="submit">{{ block.copy.button_1 }}</button>
+          <button class="planner-button secondary" type="button" id="plannerReset">{{ block.copy.button_2 }}</button>
+        </div>
+      </form></div><div class="rs-output-panel"><div id="rs-plan-empty" class="rs-plan-empty"><span class="rs-kicker">{{ block.copy.span_7 }}</span><h2>{{ block.copy.h2_2 }}<br><em>{{ block.copy.em_2 }}</em></h2><div class="rs-empty-bed" aria-hidden="true"><span>{{ block.copy.span_8 }}</span></div><p>{{ block.copy.p_4 }}</p></div><div id="plannerResults" class="results-shell" aria-live="polite">
+        <div>
+          <div class="result-card">
+            <h3 id="planTitle">{{ block.copy.h3_1 }}</h3>
+            <p id="planSummary"></p>
+            <ul id="planList" class="summary-list"></ul>
+          </div>
+          <div class="tip-card" style="margin-top:1rem;">
+            <h3>{{ block.copy.h3_2 }}</h3>
+            <ul id="detailsList" class="summary-list"></ul>
+          </div>
+          <div class="tip-card" style="margin-top:1rem;">
+            <h3>{{ block.copy.h3_3 }}</h3>
+            <ul id="linkList" class="link-list"></ul>
+          </div>
+        </div>
+        <div>
+          <div class="sketch-card">
+            <h3>{{ block.copy.h3_4 }}</h3>
+            <p class="tiny-note" id="sketchNote">{{ block.copy.p_5 }}</p>
+            <div class="bed-sketch-wrap">
+              <div class="bed-orientation"><span id="bedBackLabel">{{ block.copy.span_9 }}</span><span id="bedTrellisLabel">{{ block.copy.span_10 }}</span></div>
+              <div id="bedSketch" class="bed-sketch"></div>
+              <div class="bed-orientation"><span id="bedFrontLabel">{{ block.copy.span_11 }}</span><span>{{ block.copy.span_12 }}</span></div>
+            </div>
+          </div>
+        </div>
+      </div></div></section><aside class="rs-warning"><h2>{{ block.copy.h2_3 }}<br><em>{{ block.copy.em_3 }}</em></h2><p>{{ block.copy.p_6 }}</p></aside><section class="rs-section"><div class="rs-heading"><div><span class="rs-kicker">{{ block.copy.span_13 }}</span><h2>{{ block.copy.h2_4 }}<br><em>{{ block.copy.em_4 }}</em></h2></div></div><div class="rs-two"><a class="rs-panel" href="{{ block.links.link_3 | relatedUrl }}"><div class="rs-photo">{{ block.images.image_2 | mediaImage | safe }}</div><div><span class="rs-kicker">{{ block.copy.span_14 }}</span><h3>{{ block.copy.h3_5 }}</h3><p>{{ block.copy.p_7 }}</p><span class="rs-card-action">{{ block.copy.span_15 }}<span aria-hidden="true">{{ block.copy.span_16 }}</span></span></div></a><a class="rs-panel" href="{{ block.links.link_4 | relatedUrl }}"><div class="rs-photo">{{ block.images.image_3 | mediaImage | safe }}</div><div><span class="rs-kicker">{{ block.copy.span_17 }}</span><h3>{{ block.copy.h3_6 }}</h3><p>{{ block.copy.p_8 }}</p><span class="rs-card-action">{{ block.copy.span_18 }}<span aria-hidden="true">{{ block.copy.span_19 }}</span></span></div></a></div></section><section class="rs-story" id="our-experience"><figure class="rs-photo ">{{ block.images.image_4 | mediaImage | safe }}<figcaption>{{ block.copy.figcaption_2 }}</figcaption></figure><div><span class="rs-kicker">{{ block.copy.span_20 }}</span><h2>{{ block.copy.h2_5 }}<br><em>{{ block.copy.em_5 }}</em></h2><p>{{ block.copy.p_9 }}</p><a class="rs-button rs-solid" href="{{ block.links.link_5 | relatedUrl }}">{{ block.copy.a_3 }}<span aria-hidden="true">{{ block.copy.span_21 }}</span></a></div></section></div>

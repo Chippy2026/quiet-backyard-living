@@ -1,0 +1,247 @@
+{
+  "id": "journey-ch03",
+  "route": "/our-journey/chapters/chapter-03",
+  "output": "our-journey/chapters/chapter-03.html",
+  "title": "Now it was time to make a plan and get to work | Quiet Backyard Living",
+  "storyTitle": "Now it was time to make a plan and get to work",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Now it was time to make a plan and get to work",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 3,
+  "chapterOrder": 3,
+  "seriesId": "happy-place",
+  "dateLabel": "Summer 2022",
+  "dateEvidence": "Summer 2022 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home",
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 3,
+    "articleSha256": "a73ad01907feedd6bc4f673a9540ed856430f78c0e1befdb69c474d45ed91c87",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-5"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch03-b001",
+      "sourceHtmlSha256": "c1d63d904543bcbb6be12c6af565a61a02bf787f68b27d0751e56036fd81c0c6",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter3-city-life.jpg\" alt=\"Jeff and Vanessa together in the city before heading back to the cabin life they were building toward\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter3-city-life.jpg",
+          "alt": "Jeff and Vanessa together in the city before heading back to the cabin life they were building toward"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch03-b002",
+      "image": {
+        "mediaId": "journey-d5170443afb7",
+        "alt": "Jeff and Vanessa together in the city before heading back to the cabin life they were building toward",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch03-b004",
+      "sourceHtmlSha256": "bdd61c37bb0a58c59fb4b7d52841619cb9a40e639459b0d03fc7d4a1decd8fc5",
+      "sourceHtml": "<p>We were still enjoying life back in the city, but we could not wait to get back to the peaceful cabin.</p>",
+      "text": "We were still enjoying life back in the city, but we could not wait to get back to the peaceful cabin.",
+      "type": "paragraph",
+      "html": "<p>We were still enjoying life back in the city, but we could not wait to get back to the peaceful cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b005",
+      "sourceHtmlSha256": "97e76e06eda9a4497b9f55afa4c0c680713c144d0ebac99614659ec41d577bd9",
+      "sourceHtml": "<p>That was part of what made this season feel so different. We were not trying to escape every part of our regular life, but something about the cabin kept pulling us back. Yes, there was a lot of work ahead. We knew that. But it was work we could do together, and somehow it felt different from the kind of work that drains you. It felt peaceful. Purposeful. Like the kind of work that might actually give something back.</p>",
+      "text": "That was part of what made this season feel so different. We were not trying to escape every part of our regular life, but something about the cabin kept pulling us back. Yes, there was a lot of work ahead. We knew that. But it was work we could do together, and somehow it felt different from the kind of work that drains you. It felt peaceful. Purposeful. Like the kind of work that might actually give something back.",
+      "type": "paragraph",
+      "html": "<p>That was part of what made this season feel so different. We were not trying to escape every part of our regular life, but something about the cabin kept pulling us back. Yes, there was a lot of work ahead. We knew that. But it was work we could do together, and somehow it felt different from the kind of work that drains you. It felt peaceful. Purposeful. Like the kind of work that might actually give something back.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b006",
+      "sourceHtmlSha256": "6619dc7815095b911b7fa7ae330057bf09dfa2d092f0ef0186bfe1e4460050c0",
+      "sourceHtml": "<p>Because of our work schedules, we started falling into a rhythm of going up about every two weeks and spending the weekend there. That first year, I think we kept doing that into September, maybe even October for one last overnight, before the cold in Michigan really started taking over.</p>",
+      "text": "Because of our work schedules, we started falling into a rhythm of going up about every two weeks and spending the weekend there. That first year, I think we kept doing that into September, maybe even October for one last overnight, before the cold in Michigan really started taking over.",
+      "type": "paragraph",
+      "html": "<p>Because of our work schedules, we started falling into a rhythm of going up about every two weeks and spending the weekend there. That first year, I think we kept doing that into September, maybe even October for one last overnight, before the cold in Michigan really started taking over.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b007",
+      "sourceHtmlSha256": "a2baf427f6c9abfa96b4d45091a64241e49994a9db15b0243fece87c674b25a0",
+      "sourceHtml": "<p>On that second trip back, we came better prepared.</p>",
+      "text": "On that second trip back, we came better prepared.",
+      "type": "paragraph",
+      "html": "<p>On that second trip back, we came better prepared.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b008",
+      "sourceHtmlSha256": "5b306bb564a1d6450f89c8ec259a857822ed6befb65ccd11ba838308b29521cc",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter3-sleeping-arrangements.jpg\" alt=\"Simple sleeping setup inside the unfinished cabin during the early make-do stage\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter3-sleeping-arrangements.jpg",
+          "alt": "Simple sleeping setup inside the unfinished cabin during the early make-do stage"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch03-b007",
+      "nextSourceBlockId": "ch03-b009",
+      "image": {
+        "mediaId": "journey-4bd60cc7a441",
+        "alt": "Simple sleeping setup inside the unfinished cabin during the early make-do stage",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch03-b009",
+      "sourceHtmlSha256": "6b460e2babac34c65a2a27a51ed7432c59d22f2427d916a020d8a59e05783893",
+      "sourceHtml": "<p>We brought some comfort items with us, an air mattress, a hot plate cooktop, a bigger cooler, and more food. It was still far from luxury, and we were definitely not cooking gourmet meals on a single-burner hot plate, but it was progress. Little by little, we were trying to make the place feel less like survival camping and more like somewhere we could actually settle into for a few days.</p>",
+      "text": "We brought some comfort items with us, an air mattress, a hot plate cooktop, a bigger cooler, and more food. It was still far from luxury, and we were definitely not cooking gourmet meals on a single-burner hot plate, but it was progress. Little by little, we were trying to make the place feel less like survival camping and more like somewhere we could actually settle into for a few days.",
+      "type": "paragraph",
+      "html": "<p>We brought some comfort items with us, an air mattress, a hot plate cooktop, a bigger cooler, and more food. It was still far from luxury, and we were definitely not cooking gourmet meals on a single-burner hot plate, but it was progress. Little by little, we were trying to make the place feel less like survival camping and more like somewhere we could actually settle into for a few days.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b010",
+      "sourceHtmlSha256": "178e8a79f23e7db3e3970e6cf608cb5419adfc04012dd01ae27947976a01a847",
+      "sourceHtml": "<p>This was also the trip when my sister and brother-in-law came up with their riding lawn mower and helped us tackle the shaggy-looking property. It had gone a couple of months without much attention and was starting to look a little wild, maybe even a little intimidating. My brother-in-law mowed the whole place, which took him a good two or three hours. The rest of us worked on cleanup, picking up fallen branches and debris, and I remember using the weed whacker too.</p>",
+      "text": "This was also the trip when my sister and brother-in-law came up with their riding lawn mower and helped us tackle the shaggy-looking property. It had gone a couple of months without much attention and was starting to look a little wild, maybe even a little intimidating. My brother-in-law mowed the whole place, which took him a good two or three hours. The rest of us worked on cleanup, picking up fallen branches and debris, and I remember using the weed whacker too.",
+      "type": "paragraph",
+      "html": "<p>This was also the trip when my sister and brother-in-law came up with their riding lawn mower and helped us tackle the shaggy-looking property. It had gone a couple of months without much attention and was starting to look a little wild, maybe even a little intimidating. My brother-in-law mowed the whole place, which took him a good two or three hours. The rest of us worked on cleanup, picking up fallen branches and debris, and I remember using the weed whacker too.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b011",
+      "sourceHtmlSha256": "dc95aa98aa6ededce388516f28806119030aaf1f9f3fd7e6c2e6c902c1c70cd0",
+      "sourceHtml": "<p>Once the grass was cut and things started getting cleaned up, the whole property felt different.</p>",
+      "text": "Once the grass was cut and things started getting cleaned up, the whole property felt different.",
+      "type": "paragraph",
+      "html": "<p>Once the grass was cut and things started getting cleaned up, the whole property felt different.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b012",
+      "sourceHtmlSha256": "ec1ec62c33eda67e33d53affdb2b8066093acea8262efddd27eb91b85f87fac1",
+      "sourceHtml": "<p>You could finally see it.</p>",
+      "text": "You could finally see it.",
+      "type": "paragraph",
+      "html": "<p>You could finally see it.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b013",
+      "sourceHtmlSha256": "c56f6221efba6aa9e51313a09113bca68a65c885f8fc688548d1a4e02bb0801a",
+      "sourceHtml": "<p>That was a bigger moment than it might sound like. Sometimes cleanup is not just cleanup. Sometimes it is the first step in being able to imagine a place properly. Once it was mowed and cleared, the layout started making more sense. We could walk around and really begin thinking about what belonged where, what needed to change, and how the place might come together over time.</p>",
+      "text": "That was a bigger moment than it might sound like. Sometimes cleanup is not just cleanup. Sometimes it is the first step in being able to imagine a place properly. Once it was mowed and cleared, the layout started making more sense. We could walk around and really begin thinking about what belonged where, what needed to change, and how the place might come together over time.",
+      "type": "paragraph",
+      "html": "<p>That was a bigger moment than it might sound like. Sometimes cleanup is not just cleanup. Sometimes it is the first step in being able to imagine a place properly. Once it was mowed and cleared, the layout started making more sense. We could walk around and really begin thinking about what belonged where, what needed to change, and how the place might come together over time.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b014",
+      "sourceHtmlSha256": "390caf5051acb2b5572ba465447d99f7125677a4755e8abe7c36af48f784e961",
+      "sourceHtml": "<p>We also had a couple of nighttime bonfires, just the two of us, and those simple evenings started helping us settle into the place in a different way. It was still rustic. Still rough around the edges. But it was no longer quite as primitive as that first weekend. We were slowly moving out of straight-up rough camping mode and into something more like a step above tent camping.</p>",
+      "text": "We also had a couple of nighttime bonfires, just the two of us, and those simple evenings started helping us settle into the place in a different way. It was still rustic. Still rough around the edges. But it was no longer quite as primitive as that first weekend. We were slowly moving out of straight-up rough camping mode and into something more like a step above tent camping.",
+      "type": "paragraph",
+      "html": "<p>We also had a couple of nighttime bonfires, just the two of us, and those simple evenings started helping us settle into the place in a different way. It was still rustic. Still rough around the edges. But it was no longer quite as primitive as that first weekend. We were slowly moving out of straight-up rough camping mode and into something more like a step above tent camping.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b015",
+      "sourceHtmlSha256": "1b074bb8a0a83b3dde3aa6a5c3e29ec22986b61336968baeec259f5e770e3159",
+      "sourceHtml": "<p>Not easy yet. Not finished. But better.</p>",
+      "text": "Not easy yet. Not finished. But better.",
+      "type": "paragraph",
+      "html": "<p>Not easy yet. Not finished. But better.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b016",
+      "sourceHtmlSha256": "7d7a6b3c3337df7552e9a1870b0a86dc8bacc21b33c1c56f3fadd3003d2a514f",
+      "sourceHtml": "<p>Mostly, this trip was about yard work and getting a feel for the land once it had been mowed and cleaned up. We walked the property, talked about what made sense, and kept dreaming out loud. At that point, a lot of it was still imagination. A lot of it was still us trying to understand the land by spending time in it.</p>",
+      "text": "Mostly, this trip was about yard work and getting a feel for the land once it had been mowed and cleaned up. We walked the property, talked about what made sense, and kept dreaming out loud. At that point, a lot of it was still imagination. A lot of it was still us trying to understand the land by spending time in it.",
+      "type": "paragraph",
+      "html": "<p>Mostly, this trip was about yard work and getting a feel for the land once it had been mowed and cleaned up. We walked the property, talked about what made sense, and kept dreaming out loud. At that point, a lot of it was still imagination. A lot of it was still us trying to understand the land by spending time in it.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b017",
+      "sourceHtmlSha256": "1bcb806a13c7b5163a2f3fef5d32ce157d08efb7e10c0a7ff9ddee3a000db20c",
+      "sourceHtml": "<p>And like all the best weekends seem to, this one went by fast.</p>",
+      "text": "And like all the best weekends seem to, this one went by fast.",
+      "type": "paragraph",
+      "html": "<p>And like all the best weekends seem to, this one went by fast.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b018",
+      "sourceHtmlSha256": "30f00e9ffb0911cf67b08b58ea3a20df0ebfc8a4952875f18d99c04d64e02410",
+      "sourceHtml": "<p>But when we left, it felt different.</p>",
+      "text": "But when we left, it felt different.",
+      "type": "paragraph",
+      "html": "<p>But when we left, it felt different.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b019",
+      "sourceHtmlSha256": "6a3ae6bd1f323161ea98cf8336ddd783a17bcabf3fc25bd9bf55fc93c57ac8c6",
+      "sourceHtml": "<p>Still tired. Still a lot of work ahead. Still far from finished.</p>",
+      "text": "Still tired. Still a lot of work ahead. Still far from finished.",
+      "type": "paragraph",
+      "html": "<p>Still tired. Still a lot of work ahead. Still far from finished.</p>"
+    },
+    {
+      "sourceBlockId": "ch03-b020",
+      "sourceHtmlSha256": "49c85d30f312ba18493a7409563bb0daa22373bf16d467833ec6fb7ed0213939",
+      "sourceHtml": "<p>But better. And more peaceful.</p>",
+      "text": "But better. And more peaceful.",
+      "type": "paragraph",
+      "html": "<p>But better. And more peaceful.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-d5170443afb7",
+    "alt": "Jeff and Vanessa together in the city before heading back to the cabin life they were building toward",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "We were still enjoying life back in the city, but we could not wait to get back to the peaceful cabin. That was part of what made this season feel so different. We were not trying to…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Three",
+  "originalHeadingAfterBlocks": 1
+}

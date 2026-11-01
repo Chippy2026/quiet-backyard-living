@@ -1,0 +1,40 @@
+{
+  "id": "library-cffc807e4e5a",
+  "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+  "output": "pages/what-we-re-up-to-around-the-yard-and-cabin.html",
+  "title": "What We’re Up To Around the Yard and Cabin | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition article-page cabin-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-cffc807e4e5a.html",
+  "department": "journey",
+  "topic": "Our Place & the journal",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-we-re-up-to-around-the-yard-and-cabin.html",
+    "sha256": "3772fc9549c36120cb5c7af6fad7d525adae4ddbcad567426031ce0af7468916"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

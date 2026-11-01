@@ -1,0 +1,2 @@
+{% from "components/editorial/cards.njk" import card, heading %}
+<section class="qbl-section qbl-page-width" id="making">{{ heading("Right now / A few ways in", "Keep making. Keep noticing.", "/topics/projects", "Explore the Workshop") }}<div class="qbl-grid qbl-grid--three">{% for id in heartbeat.featuredJourney %}{{ card(storyCards[id],"project") }}{% endfor %}</div></section>

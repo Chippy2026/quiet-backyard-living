@@ -1,0 +1,42 @@
+{
+  "id": "library-8de138c7dfdc",
+  "route": "/pages/what-to-grow-near-romanesco",
+  "output": "pages/what-to-grow-near-romanesco.html",
+  "title": "What to Grow Near Romanesco | Quiet Backyard Living",
+  "description": "Romanesco usually wants the same cooler, richer, brassica-friendly logic that helps broccoli and cauliflower do better.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-8de138c7dfdc.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-8de138c7dfdc.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-romanesco.html",
+    "sha256": "61d202711c11e35141cf0f190493dfd42626a3e4f427023a1ae6c0272eecbe38"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

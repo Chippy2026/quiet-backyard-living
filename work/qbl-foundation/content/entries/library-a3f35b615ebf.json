@@ -1,0 +1,42 @@
+{
+  "id": "library-a3f35b615ebf",
+  "route": "/pages/basil-grow-extra-and-sell-it-fast",
+  "output": "pages/basil-grow-extra-and-sell-it-fast.html",
+  "title": "Basil: Grow Extra and Sell It Fast | Quiet Backyard Living",
+  "description": "Basil is one of the few herbs that checks almost every box for Quiet Backyard Living. It is easy to grow, produces fast, smells amazing, and when it gets happy, it g",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-a3f35b615ebf.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-a3f35b615ebf.html",
+  "department": "growing",
+  "topic": "Herbs & using the harvest",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/basil-grow-extra-and-sell-it-fast.html",
+    "sha256": "f898f7173db2d4c712e4797c8840c30942e3a3c2654aaf67d4b91e450e5e1329"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

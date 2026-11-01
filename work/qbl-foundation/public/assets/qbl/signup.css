@@ -1,0 +1,21 @@
+.qbl-signup{--su-green:#304b39;--su-rule:#bec7b3;color:var(--su-green);font-family:var(--sans,Arial,sans-serif);text-align:left}
+.qbl-signup-primary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:45px;background:#e6eadc;border-top:2px solid #516b4e;padding:36px;margin:30px 0}
+.qbl-signup-copy h2{font:400 clamp(30px,3vw,43px)/1.12 var(--serif,Georgia,serif);letter-spacing:-.025em;margin:10px 0 15px}
+.qbl-signup-copy p{font:17px/1.75 var(--sans,Arial,sans-serif);max-width:50ch;margin:0}
+.qbl-signup-kicker{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:#765d43}
+.qbl-signup label{display:block;font:16px/1.5 var(--sans,Arial,sans-serif);margin-bottom:8px;color:inherit}
+.qbl-signup form{align-self:center;min-width:0}.qbl-signup-fields{display:flex;gap:10px;flex-wrap:wrap}
+.qbl-signup input{flex:1 1 180px;min-width:0;width:100%;border:1px solid #65755e;background:#fffdf7;color:#25372b;border-radius:0;padding:14px;font:18px/1.5 var(--sans,Arial,sans-serif);min-height:54px}
+.qbl-signup button{flex:1 1 auto;min-height:54px;padding:14px 20px;font:16px/1.5 var(--sans,Arial,sans-serif);font-weight:600;border:1px solid var(--su-green);border-radius:0;background:var(--su-green);color:#fffdf7;cursor:pointer;white-space:normal;text-align:center}
+.qbl-signup button:disabled{opacity:.7;cursor:wait}.qbl-signup :focus-visible{outline:3px solid #a5653e;outline-offset:4px}
+.qbl-signup .qbl-signup-promise{font:13px/1.6 var(--sans,Arial,sans-serif);margin:12px 0 0;color:inherit;opacity:.9}
+.qbl-signup-status{font:16px/1.65 var(--sans,Arial,sans-serif);margin:12px 0 0}.qbl-signup-status:empty{display:none}.qbl-signup-preview{display:block;font:12px/1.5 var(--sans,Arial,sans-serif);margin-top:8px;color:#766348}
+.qbl-signup-footer{color:#f0f1e4;max-width:350px;margin-top:14px}.qbl-signup-footer .qbl-signup-copy h2{font:400 23px/1.3 var(--serif,Georgia,serif);letter-spacing:0;margin:0 0 13px}.qbl-signup-footer .qbl-signup-kicker{display:none}.qbl-signup-footer button{background:#dbe3c9;color:#243e2e;border-color:#dbe3c9;font-size:15px}.qbl-signup-footer input{font-size:16px;min-height:48px;padding:10px}.qbl-signup-footer .qbl-signup-preview{color:#d3d8c7}.qbl-signup-footer .qbl-signup-promise{font-size:12px}.qbl-signup-footer .qbl-signup-fields{gap:8px}
+@media(max-width:800px){.qbl-signup-primary{grid-template-columns:1fr;gap:24px;padding:26px}.qbl-signup-copy p{font-size:17px}.qbl-signup input{font-size:18px}.qbl-signup button{width:100%}.qbl-signup-footer button{width:auto}}
+@media(prefers-reduced-motion:reduce){.qbl-signup{scroll-behavior:auto}}
+.qbl-signup{scroll-margin-top:100px}.qbl-signup-footer input{flex:1 1 130px}.qbl-signup-footer button{flex:0 0 auto;padding:10px 12px;min-height:48px;font-size:14px}
+.qj-chapter:has(form[data-context="latest-chapter"]) .qj-caught-up{display:none}
+.qbl-birdhouse-signup .ml-form-embedWrapper{background:transparent!important;max-width:100%!important}
+.qbl-birdhouse-signup input[type=email]{font:18px/1.5 var(--sans,Arial,sans-serif)!important;min-height:54px!important;max-width:100%!important}
+.qbl-birdhouse-signup button{min-height:54px!important;background:#304b39!important;color:#fffdf7!important;font-size:16px!important}
+.qbl-birdhouse-signup :focus-visible{outline:3px solid #a5653e!important;outline-offset:4px}

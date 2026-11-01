@@ -1,0 +1,34 @@
+{
+  "latestSelectionPolicy": "highest published main-chapter order",
+  "intro": "We’re Jeff and Vanessa. We’re building toward the life we want for retirement, but we’re not waiting until someday to enjoy it. A little at a time: making things, growing a little food, getting to know the regulars, and sharing what happens along the way.",
+  "latestCompanions": [
+    "journey-ch28",
+    "note-another-try-for-the-city-beds"
+  ],
+  "notebookSelection": [
+    "note-harry-came-back",
+    "note-everybody-took-a-birdhouse-home",
+    "note-the-chairs-came-out"
+  ],
+  "sourceDateNote": "Latest recorded cabin chapter: June 2026.",
+  "places": {
+    "home": {
+      "title": "Home",
+      "intro": "The beds back in the city. Winter projects. The useful little things we try between cabin trips.",
+      "image": {
+        "mediaId": "media-city-beds-refresh-2026",
+        "alt": "Jeff refreshing the city beds in April 2026",
+        "loading": "lazy"
+      }
+    },
+    "gladwin-cabin": {
+      "title": "Gladwin Cabin",
+      "intro": "The rough beginning, the work, the wildlife—and a place we keep learning how to enjoy.",
+      "image": {
+        "mediaId": "media-eb6873de18e5",
+        "alt": "The cabin, deck and fire from the recorded QBL journal",
+        "loading": "lazy"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "library-e507b902c7bd",
+  "route": "/pages/story-signup",
+  "output": "pages/story-signup.html",
+  "title": "Follow the Story | Quiet Backyard Living",
+  "description": "Get a simple heads-up when the next chapter goes live.",
+  "kind": "service",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-e507b902c7bd.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-e507b902c7bd.html",
+  "department": "journey",
+  "topic": "Publication & keeping in touch",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/story-signup.html",
+    "sha256": "1268a33a35c138646f26cffb278a3f5a7a42f0b07aa384dcd429a92671a7621d"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

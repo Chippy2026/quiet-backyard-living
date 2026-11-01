@@ -1,0 +1,42 @@
+{
+  "id": "library-c98b535b0971",
+  "route": "/pages/weekend-backyard-builds",
+  "output": "pages/weekend-backyard-builds.html",
+  "title": "Weekend Backyard Builds | Quiet Backyard Living",
+  "description": "Beginner-friendly backyard projects with realistic tools, practical results, cozy outdoor charm, and a budget that stays in the real world.",
+  "kind": "collection",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-c98b535b0971.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-c98b535b0971.html",
+  "department": "making",
+  "topic": "Garden builds & structures",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/weekend-backyard-builds.html",
+    "sha256": "e18fb9f619230df3fb88a89c8c707f5579a3407680c5bd1b585cb545e8b3c154"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

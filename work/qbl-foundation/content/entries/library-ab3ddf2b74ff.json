@@ -1,0 +1,40 @@
+{
+  "id": "library-ab3ddf2b74ff",
+  "route": "/pages/projects",
+  "output": "pages/projects.html",
+  "title": "The build sideof the backyard. | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "collection",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition topic-projects qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-ab3ddf2b74ff.html",
+  "department": "making",
+  "topic": "Garden builds & structures",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/projects.html",
+    "sha256": "13eb23d62fc9318285804ae93a8618fbf9f4d8bbca0cd3ecc23a62bc5043e7bc"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

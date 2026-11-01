@@ -1,0 +1,425 @@
+{
+  "id": "journey-ch09",
+  "route": "/our-journey/chapters/chapter-09",
+  "output": "our-journey/chapters/chapter-09.html",
+  "title": "Let’s make this cabin more comfortable for longer stays | Quiet Backyard Living",
+  "storyTitle": "Let’s make this cabin more comfortable for longer stays",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Let’s make this cabin more comfortable for longer stays",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 9,
+  "chapterOrder": 9,
+  "seriesId": "happy-place",
+  "dateLabel": "Spring 2024",
+  "dateEvidence": "Spring 2024",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 9,
+    "articleSha256": "bad3c6f5a9adfeadca81ba34d457daa7f8d8650270590abaf0a4b1a895de9032",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-11"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch09-b001",
+      "sourceHtmlSha256": "fa8be9dddc96721fad237a72e69f9471a70eab7b365f27a5f60a91ee2e1559c5",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter9-axe-worlds.jpg\" alt=\"Axe and knife throwing world championship event in Tulsa Oklahoma in 2024\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter9-axe-worlds.jpg",
+          "alt": "Axe and knife throwing world championship event in Tulsa Oklahoma in 2024"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch09-b002",
+      "image": {
+        "mediaId": "journey-c15da957057f",
+        "alt": "Axe and knife throwing world championship event in Tulsa Oklahoma in 2024",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch09-b004",
+      "sourceHtmlSha256": "ea944f64bc9fd15d4b9b3e179bd5cd5e99be46a9b7ba6f4f105194e941ed62ac",
+      "sourceHtml": "<p>By 2024, we were ready for something different.</p>",
+      "text": "By 2024, we were ready for something different.",
+      "type": "paragraph",
+      "html": "<p>By 2024, we were ready for something different.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b005",
+      "sourceHtmlSha256": "7298b920dfb9afd8bb28390e1c4f827fb18a8a2cb2875fe50ea626520ec0bc08",
+      "sourceHtml": "<p>Up until then, the cabin had been getting better and better, but it still leaned more toward a short-stay roughing-it setup than a place where you could comfortably settle in for longer stretches. This was the year we wanted to change that.</p>",
+      "text": "Up until then, the cabin had been getting better and better, but it still leaned more toward a short-stay roughing-it setup than a place where you could comfortably settle in for longer stretches. This was the year we wanted to change that.",
+      "type": "paragraph",
+      "html": "<p>Up until then, the cabin had been getting better and better, but it still leaned more toward a short-stay roughing-it setup than a place where you could comfortably settle in for longer stretches. This was the year we wanted to change that.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b006",
+      "sourceHtmlSha256": "b6b565b473ffee3810bb1a03eb04b2f6b2e7ae54b2e9d05e7d81bf377f7dd008",
+      "sourceHtml": "<p>But before we even got back to the cabin, life had another chapter for us first.</p>",
+      "text": "But before we even got back to the cabin, life had another chapter for us first.",
+      "type": "paragraph",
+      "html": "<p>But before we even got back to the cabin, life had another chapter for us first.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b007",
+      "sourceHtmlSha256": "4222fafa154e4f1047df3ba9ccc494772c64c39675a4c06b861e116585e56a6c",
+      "sourceHtml": "<p>In April, we went to the World Axe Throwing Championship in Tulsa, Oklahoma. I did okay, but more importantly, that trip gave us a chance to do something personal too. Since Vanessa is from Lawton, Oklahoma, about three hours from Tulsa, we rented a car and spent about a week seeing family while we were down there.</p>",
+      "text": "In April, we went to the World Axe Throwing Championship in Tulsa, Oklahoma. I did okay, but more importantly, that trip gave us a chance to do something personal too. Since Vanessa is from Lawton, Oklahoma, about three hours from Tulsa, we rented a car and spent about a week seeing family while we were down there.",
+      "type": "paragraph",
+      "html": "<p>In April, we went to the World Axe Throwing Championship in Tulsa, Oklahoma. I did okay, but more importantly, that trip gave us a chance to do something personal too. Since Vanessa is from Lawton, Oklahoma, about three hours from Tulsa, we rented a car and spent about a week seeing family while we were down there.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b008",
+      "sourceHtmlSha256": "05ba20af56212aa5459b533a9da4080a27f7623c9fb7f0fa6fe61f0f78ccfb85",
+      "sourceHtml": "<p>By the time we got home, we felt relaxed, reset, and ready to get to work.</p>",
+      "text": "By the time we got home, we felt relaxed, reset, and ready to get to work.",
+      "type": "paragraph",
+      "html": "<p>By the time we got home, we felt relaxed, reset, and ready to get to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b009",
+      "sourceHtmlSha256": "a513b0a87e2ed2071cc88c52daa8befa3fa9f7959268a017eba6544aca2b5e7f",
+      "sourceHtml": "<p>And this year, the goal was clear.</p>",
+      "text": "And this year, the goal was clear.",
+      "type": "paragraph",
+      "html": "<p>And this year, the goal was clear.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b010",
+      "sourceHtmlSha256": "1e38886125b3206ca83106c517b7b4144133193eb973c53d7e1bb48e3f0b5b14",
+      "sourceHtml": "<p>We were going to make the cabin more comfortable for stays longer than just a day or two.</p>",
+      "text": "We were going to make the cabin more comfortable for stays longer than just a day or two.",
+      "type": "paragraph",
+      "html": "<p>We were going to make the cabin more comfortable for stays longer than just a day or two.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b011",
+      "sourceHtmlSha256": "1465e70cd6881b8f0e9477a771c90468028924d9c93c6308378dbee3bbd57e91",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter9-tank-enclosure.jpg\" alt=\"Framed enclosure built around the water tank and utility area at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter9-tank-enclosure.jpg",
+          "alt": "Framed enclosure built around the water tank and utility area at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch09-b010",
+      "nextSourceBlockId": "ch09-b012",
+      "image": {
+        "mediaId": "journey-37588580ba03",
+        "alt": "Framed enclosure built around the water tank and utility area at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch09-b012",
+      "sourceHtmlSha256": "c7c8d3c804da55c6c8964271474bfec66fc17f43432bb2ba74ae3ddee46280a0",
+      "sourceHtml": "<p>First up on the list was the water tank enclosure.</p>",
+      "text": "First up on the list was the water tank enclosure.",
+      "type": "paragraph",
+      "html": "<p>First up on the list was the water tank enclosure.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b013",
+      "sourceHtmlSha256": "57a07f75d2aa3bd219fabd5aa7bca13e223b32c904c73ec46a3dea5a7c13ca13",
+      "sourceHtml": "<p>We already knew that was going to be one of the first projects, so we had ordered the metal roofing for that section ahead of time. Once we had the materials together, it was time to just get after it. We gathered the supplies, hauled everything into place, and built the enclosure out.</p>",
+      "text": "We already knew that was going to be one of the first projects, so we had ordered the metal roofing for that section ahead of time. Once we had the materials together, it was time to just get after it. We gathered the supplies, hauled everything into place, and built the enclosure out.",
+      "type": "paragraph",
+      "html": "<p>We already knew that was going to be one of the first projects, so we had ordered the metal roofing for that section ahead of time. Once we had the materials together, it was time to just get after it. We gathered the supplies, hauled everything into place, and built the enclosure out.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b014",
+      "sourceHtmlSha256": "03baf3ae9ccf1eaa0dd2dcf2c1f488bd01204dc246c8f620493bd7ed0bc9479c",
+      "sourceHtml": "<p>And we knocked it out in a weekend.</p>",
+      "text": "And we knocked it out in a weekend.",
+      "type": "paragraph",
+      "html": "<p>And we knocked it out in a weekend.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b015",
+      "sourceHtmlSha256": "148e0222ff2a22ef265c5d63a43276d77760932a2a5fc46027e8893f64b3ada2",
+      "sourceHtml": "<p>That felt good.</p>",
+      "text": "That felt good.",
+      "type": "paragraph",
+      "html": "<p>That felt good.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b016",
+      "sourceHtmlSha256": "be800a576b342defe1e81308a51e0f2d65151be1b14e6941732f4dbae3434189",
+      "sourceHtml": "<p>By then, we were definitely getting a little better at this construction thing.</p>",
+      "text": "By then, we were definitely getting a little better at this construction thing.",
+      "type": "paragraph",
+      "html": "<p>By then, we were definitely getting a little better at this construction thing.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b017",
+      "sourceHtmlSha256": "4fbe418c3de71d9acd49c49f640ea605fb442b0641348520b3b6a204cf5f8f61",
+      "sourceHtml": "<p>Next came another major comfort upgrade.</p>",
+      "text": "Next came another major comfort upgrade.",
+      "type": "paragraph",
+      "html": "<p>Next came another major comfort upgrade.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b018",
+      "sourceHtmlSha256": "30ff449996ddade00eb910bfae1c977a386faa01092ce979ae64144078be1bc7",
+      "sourceHtml": "<p>Because really, who likes cold showers?</p>",
+      "text": "Because really, who likes cold showers?",
+      "type": "paragraph",
+      "html": "<p>Because really, who likes cold showers?</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b019",
+      "sourceHtmlSha256": "5367df5fa562eef3b4e1c817a16ee978dabbc9f4c7243ce931706bdb0325fb33",
+      "sourceHtml": "<p>Yeah, me neither.</p>",
+      "text": "Yeah, me neither.",
+      "type": "paragraph",
+      "html": "<p>Yeah, me neither.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b020",
+      "sourceHtmlSha256": "171369f480f9c48f614bc299ceb00362a8a94375e9c37e50206ab94608533dc2",
+      "sourceHtml": "<p>So we ordered a propane tankless water heater from Amazon. Nothing fancy, just a cheaper one, partly because I was not totally sure if it was going to work out the way I had it all planned in my head.</p>",
+      "text": "So we ordered a propane tankless water heater from Amazon. Nothing fancy, just a cheaper one, partly because I was not totally sure if it was going to work out the way I had it all planned in my head.",
+      "type": "paragraph",
+      "html": "<p>So we ordered a propane tankless water heater from Amazon. Nothing fancy, just a cheaper one, partly because I was not totally sure if it was going to work out the way I had it all planned in my head.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b021",
+      "sourceHtmlSha256": "ea27e8ac1e95825c277d6b94ce9232053964217c90e1c958544924fc8c4196cb",
+      "sourceHtml": "<p>Turns out, it worked perfectly.</p>",
+      "text": "Turns out, it worked perfectly.",
+      "type": "paragraph",
+      "html": "<p>Turns out, it worked perfectly.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b022",
+      "sourceHtmlSha256": "d17e4c6cb3e69386b03971170fe1f23fb92310b0850b7d27c0671303e51bf288",
+      "sourceHtml": "<p>That was another one of those moments where a simple upgrade made the place feel a whole lot more livable.</p>",
+      "text": "That was another one of those moments where a simple upgrade made the place feel a whole lot more livable.",
+      "type": "paragraph",
+      "html": "<p>That was another one of those moments where a simple upgrade made the place feel a whole lot more livable.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b023",
+      "sourceHtmlSha256": "033fbd21b074596c46762a308fe5dd97cbd1639cc92eecba01b25f88ffd810c5",
+      "sourceHtml": "<p>Then it was time to turn toward insulation.</p>",
+      "text": "Then it was time to turn toward insulation.",
+      "type": "paragraph",
+      "html": "<p>Then it was time to turn toward insulation.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b024",
+      "sourceHtmlSha256": "07ab02e323cd04da62aadbec9d6368c4bece882aca79fcc3afb16002e8bb271e",
+      "sourceHtml": "<p>We worked on the ceiling and the rest of the unfinished parts of the cabin, trying to make the whole place hold heat better. It was still spring, and mornings and evenings could be pretty cold. We also bought an electric fireplace, and even though it was not some giant heating system, it definitely helped take the chill out of the air.</p>",
+      "text": "We worked on the ceiling and the rest of the unfinished parts of the cabin, trying to make the whole place hold heat better. It was still spring, and mornings and evenings could be pretty cold. We also bought an electric fireplace, and even though it was not some giant heating system, it definitely helped take the chill out of the air.",
+      "type": "paragraph",
+      "html": "<p>We worked on the ceiling and the rest of the unfinished parts of the cabin, trying to make the whole place hold heat better. It was still spring, and mornings and evenings could be pretty cold. We also bought an electric fireplace, and even though it was not some giant heating system, it definitely helped take the chill out of the air.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b025",
+      "sourceHtmlSha256": "c016ce3989c8f13225b6e9bab9cbe40cc40061d84660f4f9a366ff5d73e07655",
+      "sourceHtml": "<p>Little by little, the place was becoming more comfortable.</p>",
+      "text": "Little by little, the place was becoming more comfortable.",
+      "type": "paragraph",
+      "html": "<p>Little by little, the place was becoming more comfortable.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b026",
+      "sourceHtmlSha256": "834ab09d0b9708bdff8e2f59eb4126c37f58e356fc615c4568675c0d5243ac34",
+      "sourceHtml": "<p>And outside, spring was doing its own thing.</p>",
+      "text": "And outside, spring was doing its own thing.",
+      "type": "paragraph",
+      "html": "<p>And outside, spring was doing its own thing.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b027",
+      "sourceHtmlSha256": "ff6936f36397a9d99d04c329d2b649fc419bcdbde90d511bf80fdc2e8f0203d0",
+      "sourceHtml": "<p>Our little critters had definitely missed us. Or at least they had missed the treats. Springtime at the cabin was always fun because everything seemed to wake up at once, and it was impossible not to notice how alive the place felt again.</p>",
+      "text": "Our little critters had definitely missed us. Or at least they had missed the treats. Springtime at the cabin was always fun because everything seemed to wake up at once, and it was impossible not to notice how alive the place felt again.",
+      "type": "paragraph",
+      "html": "<p>Our little critters had definitely missed us. Or at least they had missed the treats. Springtime at the cabin was always fun because everything seemed to wake up at once, and it was impossible not to notice how alive the place felt again.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b028",
+      "sourceHtmlSha256": "6b5717afa3a83d8f6469284759af5589b5e955f99cb4336feded1fcb3617a791",
+      "sourceHtml": "<p>Then, just when everything seemed like it was going smoothly...</p>",
+      "text": "Then, just when everything seemed like it was going smoothly...",
+      "type": "paragraph",
+      "html": "<p>Then, just when everything seemed like it was going smoothly...</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b029",
+      "sourceHtmlSha256": "2b9907a5c871a4cbec4f6e46f6ecee8156e0c17252d297f0f5f00bd78d62712c",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter9-ankle-scooter.jpg\" alt=\"Vanessa using a knee scooter after breaking her ankle near the cabin raised beds\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter9-ankle-scooter.jpg",
+          "alt": "Vanessa using a knee scooter after breaking her ankle near the cabin raised beds"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch09-b028",
+      "nextSourceBlockId": "ch09-b030",
+      "image": {
+        "mediaId": "journey-95245f954e1b",
+        "alt": "Vanessa using a knee scooter after breaking her ankle near the cabin raised beds",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch09-b030",
+      "sourceHtmlSha256": "5b4342d5e27f5e82b1444f3fc8dd0ab09bf57017fc6535dbd19cc3a80a929483",
+      "sourceHtml": "<p>Vanessa took a tumble and broke her ankle.</p>",
+      "text": "Vanessa took a tumble and broke her ankle.",
+      "type": "paragraph",
+      "html": "<p>Vanessa took a tumble and broke her ankle.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b031",
+      "sourceHtmlSha256": "e02993261971b38dd5c179f8c09a2505444b1fc786e51b5f54471d7c6457ed20",
+      "sourceHtml": "<p>Yep.</p>",
+      "text": "Yep.",
+      "type": "paragraph",
+      "html": "<p>Yep.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b032",
+      "sourceHtmlSha256": "a7e6f3c32a79ad9b8df53711280a8adcb94cd9b7efd86f1000c9a5859dc88e59",
+      "sourceHtml": "<p>My number one helper was suddenly down for the count.</p>",
+      "text": "My number one helper was suddenly down for the count.",
+      "type": "paragraph",
+      "html": "<p>My number one helper was suddenly down for the count.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b033",
+      "sourceHtmlSha256": "c63ed0b559a20a788ac37bae55051371df9ffc9755715b576eebf42c6448db3d",
+      "sourceHtml": "<p>At least, mostly.</p>",
+      "text": "At least, mostly.",
+      "type": "paragraph",
+      "html": "<p>At least, mostly.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b034",
+      "sourceHtmlSha256": "8318a226b699e7b168d3b9e2149905efab953056403ecde7741c2d3a6e62dad9",
+      "sourceHtml": "<p>Because Vanessa was not really the type to stay fully down for long. She ended up getting about a three-month, mostly paid break from work, thanks to being in the union. And we got her a really cool scooter so she could still get around the cabin and the property.</p>",
+      "text": "Because Vanessa was not really the type to stay fully down for long. She ended up getting about a three-month, mostly paid break from work, thanks to being in the union. And we got her a really cool scooter so she could still get around the cabin and the property.",
+      "type": "paragraph",
+      "html": "<p>Because Vanessa was not really the type to stay fully down for long. She ended up getting about a three-month, mostly paid break from work, thanks to being in the union. And we got her a really cool scooter so she could still get around the cabin and the property.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b035",
+      "sourceHtmlSha256": "448dd4109ef94a5abac905f2a211492f1ff24ce8f94d03a3a211ef7e174dbe2d",
+      "sourceHtml": "<p>So no, she was not out.</p>",
+      "text": "So no, she was not out.",
+      "type": "paragraph",
+      "html": "<p>So no, she was not out.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b036",
+      "sourceHtmlSha256": "271a34c98143cadbd1685700d090155896d18d88a2af8fa99f04ee809d2a65ea",
+      "sourceHtml": "<p>But it definitely threw a wrinkle into our plans.</p>",
+      "text": "But it definitely threw a wrinkle into our plans.",
+      "type": "paragraph",
+      "html": "<p>But it definitely threw a wrinkle into our plans.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b037",
+      "sourceHtmlSha256": "879684867c86c71647df90f47ff51b3a1337a015ca2c38fe9d6bb665578291b9",
+      "sourceHtml": "<p>The ceiling project, for one, was going to have to wait. Maybe a few other things too.</p>",
+      "text": "The ceiling project, for one, was going to have to wait. Maybe a few other things too.",
+      "type": "paragraph",
+      "html": "<p>The ceiling project, for one, was going to have to wait. Maybe a few other things too.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b038",
+      "sourceHtmlSha256": "39fd07305fac5ed08d3a9a46e79e1161425d8821121bc65083eaf73d26fb747e",
+      "sourceHtml": "<p>And that was just life sometimes.</p>",
+      "text": "And that was just life sometimes.",
+      "type": "paragraph",
+      "html": "<p>And that was just life sometimes.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b039",
+      "sourceHtmlSha256": "52b1c055454bcbf96e20a9b1f7708bab540f89eeac579fba1398da9fceabb720",
+      "sourceHtml": "<p>You make plans. You get momentum. You think you are finally on a roll.</p>",
+      "text": "You make plans. You get momentum. You think you are finally on a roll.",
+      "type": "paragraph",
+      "html": "<p>You make plans. You get momentum. You think you are finally on a roll.</p>"
+    },
+    {
+      "sourceBlockId": "ch09-b040",
+      "sourceHtmlSha256": "2f879fe4b60d677a5512477f7719cce604997c4a6342bfbdc8daebe63d93d1d1",
+      "sourceHtml": "<p>And then life reminds you that the story is still in charge.</p>",
+      "text": "And then life reminds you that the story is still in charge.",
+      "type": "paragraph",
+      "html": "<p>And then life reminds you that the story is still in charge.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-c15da957057f",
+    "alt": "Axe and knife throwing world championship event in Tulsa Oklahoma in 2024",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "By 2024, we were ready for something different. Up until then, the cabin had been getting better and better, but it still leaned more toward a short-stay roughing-it setup than a place…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Nine",
+  "originalHeadingAfterBlocks": 1
+}

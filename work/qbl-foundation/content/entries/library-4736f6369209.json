@@ -1,0 +1,43 @@
+{
+  "id": "library-4736f6369209",
+  "route": "/pages/protect-my-veggie",
+  "output": "pages/protect-my-veggie.html",
+  "title": "Protect My Veggie | Quiet Backyard Living",
+  "description": "A quicker way to find crop-specific pest help without digging through a giant article first.",
+  "kind": "tool",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-4736f6369209.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/qbl/imported/library-4736f6369209-0.js",
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-4736f6369209.html",
+  "department": "help",
+  "topic": "Tools & finding a crop",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/protect-my-veggie.html",
+    "sha256": "bedaa037f556ece25de53946a58c1edd966bd45a6fde392269678d14be8bef6a"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

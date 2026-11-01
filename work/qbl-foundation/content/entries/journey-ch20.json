@@ -1,0 +1,423 @@
+{
+  "id": "journey-ch20",
+  "route": "/our-journey/chapters/chapter-20",
+  "output": "our-journey/chapters/chapter-20.html",
+  "title": "Family Reunion and Maybe a Little Work | Quiet Backyard Living",
+  "storyTitle": "Family Reunion and Maybe a Little Work",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Family Reunion and Maybe a Little Work",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 20,
+  "chapterOrder": 20,
+  "seriesId": "happy-place",
+  "dateLabel": "August 2025",
+  "dateEvidence": "Early/mid August 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 20,
+    "articleSha256": "cae7901576309ff561d211728fa6535d5f793cedf0391608a9cefd6a71c93eff",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-22"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch20-b001",
+      "sourceHtmlSha256": "9b2cbd9db636ba89e232113d8c29859f059c9d220989c0400852f620ef38e78e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter20-structure-1.jpg\" alt=\"Green-stained structure area being saved and refreshed during the August 2025 family reunion stretch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter20-structure-1.jpg",
+          "alt": "Green-stained structure area being saved and refreshed during the August 2025 family reunion stretch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch20-b002",
+      "image": {
+        "mediaId": "journey-470591a5dee3",
+        "alt": "Green-stained structure area being saved and refreshed during the August 2025 family reunion stretch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch20-b004",
+      "sourceHtmlSha256": "2fc855cccd4d4481be0ce22b3ec230de57c24238ee2ca7e18c07e2ddf7739975",
+      "sourceHtml": "<p>It was early to mid August now, and we were back.</p>",
+      "text": "It was early to mid August now, and we were back.",
+      "type": "paragraph",
+      "html": "<p>It was early to mid August now, and we were back.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b005",
+      "sourceHtmlSha256": "5294b470adab0aa37e558b6a80bc3aaaf955d43e62a8136d829ea82241e5c3b4",
+      "sourceHtml": "<p>This is always one of our favorite times of the year, because every August we have our family reunion just a few miles away. It is always a fun time. All my sisters and their extended families camp at a nearby campground all weekend and part of the week. Our kids and grandkids camp that weekend too, the oldest ones at the campground, and sometimes our youngest at our cabin.</p>",
+      "text": "This is always one of our favorite times of the year, because every August we have our family reunion just a few miles away. It is always a fun time. All my sisters and their extended families camp at a nearby campground all weekend and part of the week. Our kids and grandkids camp that weekend too, the oldest ones at the campground, and sometimes our youngest at our cabin.",
+      "type": "paragraph",
+      "html": "<p>This is always one of our favorite times of the year, because every August we have our family reunion just a few miles away. It is always a fun time. All my sisters and their extended families camp at a nearby campground all weekend and part of the week. Our kids and grandkids camp that weekend too, the oldest ones at the campground, and sometimes our youngest at our cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b006",
+      "sourceHtmlSha256": "01d1a9897fe83c17b035f47dcf247e74df0091112575d6aafb234400f243d7dc",
+      "sourceHtml": "<p>It is one of those times that reminds us just how special all of this really is.</p>",
+      "text": "It is one of those times that reminds us just how special all of this really is.",
+      "type": "paragraph",
+      "html": "<p>It is one of those times that reminds us just how special all of this really is.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b007",
+      "sourceHtmlSha256": "647a901701baaa11ebb652bde950372c5a5ea078b37d777203fef52393fee1a5",
+      "sourceHtml": "<p>But enough of the sappy stuff.</p>",
+      "text": "But enough of the sappy stuff.",
+      "type": "paragraph",
+      "html": "<p>But enough of the sappy stuff.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b008",
+      "sourceHtmlSha256": "dee860e40e68f62990f470f842964d3fb5deef6ba5cf7f54f55892fa7781a29f",
+      "sourceHtml": "<p>You came here for the good stuff.</p>",
+      "text": "You came here for the good stuff.",
+      "type": "paragraph",
+      "html": "<p>You came here for the good stuff.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b009",
+      "sourceHtmlSha256": "7da8bb6d8429a48093bf0d507022e197dd734a752b994dd95889548d205b2cde",
+      "sourceHtml": "<p>We still had that weird future-greenhouse structure to save, so saving it came first before it turned into junk.</p>",
+      "text": "We still had that weird future-greenhouse structure to save, so saving it came first before it turned into junk.",
+      "type": "paragraph",
+      "html": "<p>We still had that weird future-greenhouse structure to save, so saving it came first before it turned into junk.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b010",
+      "sourceHtmlSha256": "be92d08fee6e284b3267972e094980481a2e0c5b1ca9681552caf9d2164a3f7a",
+      "sourceHtml": "<p>A little deep penetrating green stain ought to do the trick.</p>",
+      "text": "A little deep penetrating green stain ought to do the trick.",
+      "type": "paragraph",
+      "html": "<p>A little deep penetrating green stain ought to do the trick.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b011",
+      "sourceHtmlSha256": "82db4aef2b09bb36b9776e3470b284f2d36f57dbccf88931c6d791f26d64e661",
+      "sourceHtml": "<p>And honestly, it did.</p>",
+      "text": "And honestly, it did.",
+      "type": "paragraph",
+      "html": "<p>And honestly, it did.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b012",
+      "sourceHtmlSha256": "8d5d13b1e9d5d46902f7cf641e7e465516fe4626f4a4f62473a5c19911be4908",
+      "sourceHtml": "<p>That alone started making the whole thing feel less abandoned and more like maybe it still had a future.</p>",
+      "text": "That alone started making the whole thing feel less abandoned and more like maybe it still had a future.",
+      "type": "paragraph",
+      "html": "<p>That alone started making the whole thing feel less abandoned and more like maybe it still had a future.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b013",
+      "sourceHtmlSha256": "6f3e7bc431ce07146bb3590677128fe35a2197cc670166446682bf7dc33fd9d3",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter20-structure-2.jpg\" alt=\"Rock edging and herb/perennial bed area starting to take shape around the saved structure\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter20-structure-2.jpg",
+          "alt": "Rock edging and herb/perennial bed area starting to take shape around the saved structure"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch20-b012",
+      "nextSourceBlockId": "ch20-b014",
+      "image": {
+        "mediaId": "journey-f02b7c5d15a7",
+        "alt": "Rock edging and herb/perennial bed area starting to take shape around the saved structure",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch20-b014",
+      "sourceHtmlSha256": "d0305c95aea195d6e2bafa84edb32449a7c4f5128a0a11737f7d6b7d5d23f8cf",
+      "sourceHtml": "<p>It also had a bunch of rocks piled up around it, so naturally the question became, what do we do with those?</p>",
+      "text": "It also had a bunch of rocks piled up around it, so naturally the question became, what do we do with those?",
+      "type": "paragraph",
+      "html": "<p>It also had a bunch of rocks piled up around it, so naturally the question became, what do we do with those?</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b015",
+      "sourceHtmlSha256": "4cb1734328bff3ee5fc58899025a2aaba35b10fdce537895b042b69bd52bebc6",
+      "sourceHtml": "<p>Oh, I know.</p>",
+      "text": "Oh, I know.",
+      "type": "paragraph",
+      "html": "<p>Oh, I know.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b016",
+      "sourceHtmlSha256": "5453a6b75483485b01fc99d2cbf1e4f4ff5020d2dcf5c1a4f3f2811dadfd1317",
+      "sourceHtml": "<p>Let’s make some more rock edging.</p>",
+      "text": "Let’s make some more rock edging.",
+      "type": "paragraph",
+      "html": "<p>Let’s make some more rock edging.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b017",
+      "sourceHtmlSha256": "6b88472b9d8c3646825243b33bde820db63e488d71ffaf5acad58d7632b6c68b",
+      "sourceHtml": "<p>So that is exactly what we did.</p>",
+      "text": "So that is exactly what we did.",
+      "type": "paragraph",
+      "html": "<p>So that is exactly what we did.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b018",
+      "sourceHtmlSha256": "5b9fe36ac9fd399b79b00227d7f29a6da6df6f93ce2cc3b58337fefd90ecdde8",
+      "sourceHtml": "<p>The plan was to use that space for perennial herbs and plants, which felt like a smart move. After all, who does not like fresh herbs in their food?</p>",
+      "text": "The plan was to use that space for perennial herbs and plants, which felt like a smart move. After all, who does not like fresh herbs in their food?",
+      "type": "paragraph",
+      "html": "<p>The plan was to use that space for perennial herbs and plants, which felt like a smart move. After all, who does not like fresh herbs in their food?</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b019",
+      "sourceHtmlSha256": "7775fecfd2b1e31af131e03491a91f1f7d6b1517df9d01de940e435176377a04",
+      "sourceHtml": "<p>And once we stepped back and looked around, it was kind of wild to realize how much had changed.</p>",
+      "text": "And once we stepped back and looked around, it was kind of wild to realize how much had changed.",
+      "type": "paragraph",
+      "html": "<p>And once we stepped back and looked around, it was kind of wild to realize how much had changed.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b020",
+      "sourceHtmlSha256": "5f26251196c3d28896f259c703dbd6d3a1aa5155dee01386d8353ffa7c6e2576",
+      "sourceHtml": "<p>Now we had a dozen fruit trees. A thriving grapevine. Blueberry bushes that were actually producing blueberries. One row of trial vegetables. And now herbs too.</p>",
+      "text": "Now we had a dozen fruit trees. A thriving grapevine. Blueberry bushes that were actually producing blueberries. One row of trial vegetables. And now herbs too.",
+      "type": "paragraph",
+      "html": "<p>Now we had a dozen fruit trees. A thriving grapevine. Blueberry bushes that were actually producing blueberries. One row of trial vegetables. And now herbs too.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b021",
+      "sourceHtmlSha256": "e03c74cedae5b5a4d98207436109231b3ffe822b8910068c2deb07ed33fd7169",
+      "sourceHtml": "<p>This homestead, cabin, whatever you want to call it, was really starting to come along nicely that year.</p>",
+      "text": "This homestead, cabin, whatever you want to call it, was really starting to come along nicely that year.",
+      "type": "paragraph",
+      "html": "<p>This homestead, cabin, whatever you want to call it, was really starting to come along nicely that year.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b022",
+      "sourceHtmlSha256": "483e0cedfd976f295d06019fe4389c665b2901d8290b8d98bd4165c954ad965c",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter20-structure-3.jpg\" alt=\"Later payoff angle of the improved structure area with flowers, edging, and a more playful finished feel\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter20-structure-3.jpg",
+          "alt": "Later payoff angle of the improved structure area with flowers, edging, and a more playful finished feel"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch20-b021",
+      "nextSourceBlockId": "ch20-b023",
+      "image": {
+        "mediaId": "journey-bd91edf45bb6",
+        "alt": "Later payoff angle of the improved structure area with flowers, edging, and a more playful finished feel",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch20-b023",
+      "sourceHtmlSha256": "5715f039bb4a1b6d43b9002626587a420d9f0820e20c36290c65c2a00acb3456",
+      "sourceHtml": "<p>And honestly, I was sure glad we had decided to focus on fixing up and sprucing up the outdoors that season.</p>",
+      "text": "And honestly, I was sure glad we had decided to focus on fixing up and sprucing up the outdoors that season.",
+      "type": "paragraph",
+      "html": "<p>And honestly, I was sure glad we had decided to focus on fixing up and sprucing up the outdoors that season.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b024",
+      "sourceHtmlSha256": "7118f90ade1bfe3dc5ce7df29867b4ea2bf559da09f8319bc3897654f96c1778",
+      "sourceHtml": "<p>Of course, that still left us with the other weird little building.</p>",
+      "text": "Of course, that still left us with the other weird little building.",
+      "type": "paragraph",
+      "html": "<p>Of course, that still left us with the other weird little building.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b025",
+      "sourceHtmlSha256": "2c86d85a430f8b52eabc3ec0e785afca4ddaaf6f5f415e5242b5ed3b430182ad",
+      "sourceHtml": "<p>The tiny-house-or-storage-place-or-whatever-you-want-to-call-it one.</p>",
+      "text": "The tiny-house-or-storage-place-or-whatever-you-want-to-call-it one.",
+      "type": "paragraph",
+      "html": "<p>The tiny-house-or-storage-place-or-whatever-you-want-to-call-it one.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b026",
+      "sourceHtmlSha256": "9ad99fca603ad2b19444b103d8b7d1edabc5205e3f42f43118e007196fe16a72",
+      "sourceHtml": "<p>The one nobody wanted to move.</p>",
+      "text": "The one nobody wanted to move.",
+      "type": "paragraph",
+      "html": "<p>The one nobody wanted to move.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b027",
+      "sourceHtmlSha256": "051c6ad993295a557c42014186207d105c5c72177b7dedd7c7c2d320f38f2008",
+      "sourceHtml": "<p>By then, it had been neglected for about three years, and it still did not even have a real roof on it, just some badly damaged ice-and-water shield hanging on for dear life.</p>",
+      "text": "By then, it had been neglected for about three years, and it still did not even have a real roof on it, just some badly damaged ice-and-water shield hanging on for dear life.",
+      "type": "paragraph",
+      "html": "<p>By then, it had been neglected for about three years, and it still did not even have a real roof on it, just some badly damaged ice-and-water shield hanging on for dear life.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b028",
+      "sourceHtmlSha256": "459a8052f836791d87e445b4c80179a464214c55afccced6ab23499eeedb182d",
+      "sourceHtml": "<p>So there was still plenty more dreaming and planning to do.</p>",
+      "text": "So there was still plenty more dreaming and planning to do.",
+      "type": "paragraph",
+      "html": "<p>So there was still plenty more dreaming and planning to do.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b029",
+      "sourceHtmlSha256": "a703d535c87d83a7e413ea65ed41ade8794f8168fa844af1e53d8ed0cfa8a969",
+      "sourceHtml": "<p>Because really, we did not want to just let the thing rot away, right?</p>",
+      "text": "Because really, we did not want to just let the thing rot away, right?",
+      "type": "paragraph",
+      "html": "<p>Because really, we did not want to just let the thing rot away, right?</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b030",
+      "sourceHtmlSha256": "30c831a450ac6e81856f764a7321d60c367cc15b55aa78d60c99df3cc54bace9",
+      "sourceHtml": "<p>But that part was going to have to wait until next visit.</p>",
+      "text": "But that part was going to have to wait until next visit.",
+      "type": "paragraph",
+      "html": "<p>But that part was going to have to wait until next visit.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b031",
+      "sourceHtmlSha256": "4c6b36121e0aa07f88db65f7c983d0f9c2c7010e6f0c93a5cccc6f4425fa45a2",
+      "sourceHtml": "<p>Because for the next few days, it was time to go spend time with family at the campground.</p>",
+      "text": "Because for the next few days, it was time to go spend time with family at the campground.",
+      "type": "paragraph",
+      "html": "<p>Because for the next few days, it was time to go spend time with family at the campground.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b032",
+      "sourceHtmlSha256": "b753b845be37097d193e4401d097fb12371178ef50af1b2183c93e88f83017c0",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter20-bonfire.jpg\" alt=\"Evening bonfire scene in front of the cabin during the August 2025 reunion stretch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter20-bonfire.jpg",
+          "alt": "Evening bonfire scene in front of the cabin during the August 2025 reunion stretch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch20-b031",
+      "nextSourceBlockId": "ch20-b033",
+      "image": {
+        "mediaId": "journey-ce1290fcb6a7",
+        "alt": "Evening bonfire scene in front of the cabin during the August 2025 reunion stretch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch20-b033",
+      "sourceHtmlSha256": "2928a232b42f0b246b848368a0aecf0c96b6ddc90654e389d2f8e510aaf71dfb",
+      "sourceHtml": "<p>And by the way, we still managed to squeeze in a little bonfire time and some stargazing too.</p>",
+      "text": "And by the way, we still managed to squeeze in a little bonfire time and some stargazing too.",
+      "type": "paragraph",
+      "html": "<p>And by the way, we still managed to squeeze in a little bonfire time and some stargazing too.</p>"
+    },
+    {
+      "sourceBlockId": "ch20-b034",
+      "sourceHtmlSha256": "3e7f9fab8f566a809d368356cf74cb5041f571c356fc0375f2f313c3dc0db80f",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter20-stargazing.jpg\" alt=\"Vanessa using a telescope on the deck during the slower August nights at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter20-stargazing.jpg",
+          "alt": "Vanessa using a telescope on the deck during the slower August nights at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch20-b033",
+      "nextSourceBlockId": "ch20-b035",
+      "image": {
+        "mediaId": "media-4c282c0015fc",
+        "alt": "Vanessa using a telescope on the deck during the slower August nights at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch20-b035",
+      "sourceHtmlSha256": "d92df49ff541cb98762a95c46d776513d9837a5b1b119f626e78738d928ea774",
+      "sourceHtml": "<p>See y’all soon.</p>",
+      "text": "See y’all soon.",
+      "type": "paragraph",
+      "html": "<p>See y’all soon.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-470591a5dee3",
+    "alt": "Green-stained structure area being saved and refreshed during the August 2025 family reunion stretch",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It was early to mid August now, and we were back. This is always one of our favorite times of the year, because every August we have our family reunion just a few miles away. It is…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty",
+  "originalHeadingAfterBlocks": 1
+}

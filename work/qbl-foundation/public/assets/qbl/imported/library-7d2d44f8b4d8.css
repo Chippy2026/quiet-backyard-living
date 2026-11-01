@@ -1,0 +1,41 @@
+.complete-guide .summary-grid,.complete-guide .herb-grid,.complete-guide .next-grid,.complete-guide .miss-grid,.complete-guide .mid-grid{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }.complete-guide .summary-grid{ grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr); align-items:start; }.complete-guide .photo-card,.complete-guide .summary-card,.complete-guide .herb-card,.complete-guide .number-card,.complete-guide .layout-card,.complete-guide .score-card,.complete-guide .callout-card,.complete-guide .miss-card,.complete-guide .next-card,.complete-guide .cta-card{
+      background:#fffef9;
+      border:1px solid #e6dece;
+      border-radius:20px;
+      padding:1rem 1.05rem;
+      box-shadow:0 12px 24px rgba(0,0,0,.04);
+    }.complete-guide .photo-card{ padding:.4rem; overflow:hidden; }.complete-guide .photo-card img{ width:100%; display:block; height:auto; border-radius:16px; }.complete-guide .hero-note{ max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }.complete-guide .tiny-label{ display:inline-block; font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; font-weight:700; }.complete-guide .quick-list{ margin:0; padding-left:1.1rem; }.complete-guide .quick-list li{ margin-bottom:.45rem; }.complete-guide .summary-card p:last-child,.complete-guide .herb-card p:last-child,.complete-guide .number-card p:last-child,.complete-guide .layout-card p:last-child,.complete-guide .score-card p:last-child,.complete-guide .callout-card p:last-child,.complete-guide .miss-card p:last-child,.complete-guide .next-card p:last-child,.complete-guide .cta-card p:last-child{ margin-bottom:0; }.complete-guide .star-line{ color:#8b5f19; font-weight:800; letter-spacing:.05em; }.complete-guide .layout-box{
+      margin-top:.8rem;
+      padding:1rem;
+      background:#f7f2e7;
+      border:1px solid #e4dccd;
+      border-radius:18px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      line-height:1.6;
+      white-space:pre-wrap;
+    }.complete-guide .score-table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:.6rem;
+      font-size:.96rem;
+    }.complete-guide .score-table th,.complete-guide .score-table td{
+      border-bottom:1px solid #e6dece;
+      padding:.55rem .45rem;
+      text-align:left;
+      vertical-align:top;
+    }.complete-guide .score-table th{
+      color:#4a3827;
+      font-size:.84rem;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }.complete-guide .next-card a{
+      text-decoration:none;
+      font-weight:700;
+    }.complete-guide .cta-card{
+      max-width:760px;
+      background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
+      border:1px solid #dccfb7;
+    }
+    @media (max-width:900px) {.complete-guide .summary-grid,.complete-guide .herb-grid,.complete-guide .next-grid,.complete-guide .miss-grid,.complete-guide .mid-grid{ grid-template-columns:1fr; }.complete-guide .score-table{ font-size:.92rem; }
+    }
+  

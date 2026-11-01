@@ -1,0 +1,42 @@
+{
+  "id": "library-c492648d8d55",
+  "route": "/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income",
+  "output": "pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html",
+  "title": "Take the $5 Herb Challenge | Quiet Backyard Living",
+  "description": "Can one tiny herb plant create $50 of backyard value?",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-c492648d8d55.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-c492648d8d55.html",
+  "department": "growing",
+  "topic": "Herbs & using the harvest",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income.html",
+    "sha256": "d6c2af757cafd8a30de1fbbe07829eaed74dea425b17fc6c91080c538ce2dd31"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

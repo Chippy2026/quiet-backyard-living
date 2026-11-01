@@ -1,0 +1,490 @@
+{
+  "id": "journey-ch21",
+  "route": "/our-journey/chapters/chapter-21",
+  "output": "our-journey/chapters/chapter-21.html",
+  "title": "Some of Us Are Getting FAT and Some of Us Are Working HARD | Quiet Backyard Living",
+  "storyTitle": "Some of Us Are Getting FAT and Some of Us Are Working HARD",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Some of Us Are Getting FAT and Some of Us Are Working HARD",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 21,
+  "chapterOrder": 21,
+  "seriesId": "happy-place",
+  "dateLabel": "August 2025",
+  "dateEvidence": "Mid/late August 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 21,
+    "articleSha256": "01d4d4a96176323ee067301a0bac7efc09ac47be7053c8f5c2a22588318feaee",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-23"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch21-b001",
+      "sourceHtmlSha256": "75cc3029fd0c3291a86fc88c17439ee54ee8a0db5824274f130b855efa6d6c95",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter21-fat-squirrel.jpg\" alt=\"Very well-fed squirrel perched on the deck rail during the late summer wildlife-heavy stretch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter21-fat-squirrel.jpg",
+          "alt": "Very well-fed squirrel perched on the deck rail during the late summer wildlife-heavy stretch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch21-b002",
+      "image": {
+        "mediaId": "journey-68d1bdd110db",
+        "alt": "Very well-fed squirrel perched on the deck rail during the late summer wildlife-heavy stretch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch21-b004",
+      "sourceHtmlSha256": "8d4c6b58e0cb43b63d8163474ffdb7086752567889e3f85fa2019a16784c863a",
+      "sourceHtml": "<p>Before you get mad at me for the title, let’s clarify.</p>",
+      "text": "Before you get mad at me for the title, let’s clarify.",
+      "type": "paragraph",
+      "html": "<p>Before you get mad at me for the title, let’s clarify.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b005",
+      "sourceHtmlSha256": "32ecd6dbce7cae340cf7f2c1fe73cbdd763d543e888aa58c98f5e573bd9293d4",
+      "sourceHtml": "<p>It is not Vanessa getting fat.</p>",
+      "text": "It is not Vanessa getting fat.",
+      "type": "paragraph",
+      "html": "<p>It is not Vanessa getting fat.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b006",
+      "sourceHtmlSha256": "066528a0bb074de4b1bdd90a91d40ed5ba02b4cc73b121479f6973f1d402c30d",
+      "sourceHtml": "<p>It is the squirrels.</p>",
+      "text": "It is the squirrels.",
+      "type": "paragraph",
+      "html": "<p>It is the squirrels.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b007",
+      "sourceHtmlSha256": "cf1a4b83a4a78d77c36ac137fb86157fddc8d53acddcf532fc42b6b1d17408c8",
+      "sourceHtml": "<p>And honestly, that might be our fault.</p>",
+      "text": "And honestly, that might be our fault.",
+      "type": "paragraph",
+      "html": "<p>And honestly, that might be our fault.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b008",
+      "sourceHtmlSha256": "a02f57ff241ca90a1f94218e85af5073401e80addd855e73a03d9f9319626910",
+      "sourceHtml": "<p>We may have been feeding them a <strong>lot</strong> that summer.</p>",
+      "text": "We may have been feeding them a lot that summer.",
+      "type": "paragraph",
+      "html": "<p>We may have been feeding them a <strong>lot</strong> that summer.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b009",
+      "sourceHtmlSha256": "9d21eec23b9758f98b7a9c8d2ba615141914988b633f4784a1c47304e2a453da",
+      "sourceHtml": "<p>But that is okay. They were getting plenty of exercise running around, burying their nuts, chasing each other, and basically treating the whole place like their own private campground.</p>",
+      "text": "But that is okay. They were getting plenty of exercise running around, burying their nuts, chasing each other, and basically treating the whole place like their own private campground.",
+      "type": "paragraph",
+      "html": "<p>But that is okay. They were getting plenty of exercise running around, burying their nuts, chasing each other, and basically treating the whole place like their own private campground.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b010",
+      "sourceHtmlSha256": "ed9a123fca7fe74c7c34f0454ab78efeeaac29fd3b4ba985842d06f3e6245d82",
+      "sourceHtml": "<p>Pretty sure Harry the hummingbird had found himself a girl and maybe even helped make a baby too, because by then there were definitely three or four different hummingbirds around. Harry was pretty protective and only seemed willing to share with the girl hummingbird. The others got chased off in a hurry.</p>",
+      "text": "Pretty sure Harry the hummingbird had found himself a girl and maybe even helped make a baby too, because by then there were definitely three or four different hummingbirds around. Harry was pretty protective and only seemed willing to share with the girl hummingbird. The others got chased off in a hurry.",
+      "type": "paragraph",
+      "html": "<p>Pretty sure Harry the hummingbird had found himself a girl and maybe even helped make a baby too, because by then there were definitely three or four different hummingbirds around. Harry was pretty protective and only seemed willing to share with the girl hummingbird. The others got chased off in a hurry.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b011",
+      "sourceHtmlSha256": "310f421eac7875323621b727f386e3e04024e6bf37c9177a7715223f2f6e8062",
+      "sourceHtml": "<p>It was actually kind of funny to watch.</p>",
+      "text": "It was actually kind of funny to watch.",
+      "type": "paragraph",
+      "html": "<p>It was actually kind of funny to watch.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b012",
+      "sourceHtmlSha256": "a479cf056813095437a7f2c90f70a674c0159db56bb38670c8dc640fc03236f7",
+      "sourceHtml": "<p>And Chippy?</p>",
+      "text": "And Chippy?",
+      "type": "paragraph",
+      "html": "<p>And Chippy?</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b013",
+      "sourceHtmlSha256": "737326191befadba32e61505316ba00d5d57b472b3285f910c439d8f69ac11a7",
+      "sourceHtml": "<p>Well, he was still our favorite.</p>",
+      "text": "Well, he was still our favorite.",
+      "type": "paragraph",
+      "html": "<p>Well, he was still our favorite.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b014",
+      "sourceHtmlSha256": "43b19a35042e64df00fc444787305cbc75687bce9bc5a25bb9fdfe51db108fae",
+      "sourceHtml": "<p>Sweet personality. Pretty chill. And always ready to remind us the food situation needed immediate attention.</p>",
+      "text": "Sweet personality. Pretty chill. And always ready to remind us the food situation needed immediate attention.",
+      "type": "paragraph",
+      "html": "<p>Sweet personality. Pretty chill. And always ready to remind us the food situation needed immediate attention.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b015",
+      "sourceHtmlSha256": "d471aea7184e92db882a7b81283b5f03ac4010076f561be17a63232228f72c5a",
+      "sourceHtml": "<p>We never really minded.</p>",
+      "text": "We never really minded.",
+      "type": "paragraph",
+      "html": "<p>We never really minded.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b016",
+      "sourceHtmlSha256": "ff143d8dab7baa1eb9e0ae723acb88a6df39302bc4b83a91169f8906327f1b60",
+      "sourceHtml": "<p>That time of year, we were also getting deer, turkeys, and all kinds of other wildlife stopping by the yard and checking the snack piles for free food. So while the animals were clearly thriving...</p>",
+      "text": "That time of year, we were also getting deer, turkeys, and all kinds of other wildlife stopping by the yard and checking the snack piles for free food. So while the animals were clearly thriving...",
+      "type": "paragraph",
+      "html": "<p>That time of year, we were also getting deer, turkeys, and all kinds of other wildlife stopping by the yard and checking the snack piles for free food. So while the animals were clearly thriving...</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b017",
+      "sourceHtmlSha256": "a6c848b197323992ef5a60add8c6465dfa16294f94bfbe621bea84acc7388f37",
+      "sourceHtml": "<p>we had work to do.</p>",
+      "text": "we had work to do.",
+      "type": "paragraph",
+      "html": "<p>we had work to do.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b018",
+      "sourceHtmlSha256": "cdd590a9559dd932a98e0360e4fdd919f02c6b38d807b620dfadf0cfe8cac4bf",
+      "sourceHtml": "<p>By mid to late August, it was time to save what we were now officially calling <strong>the storage building</strong>.</p>",
+      "text": "By mid to late August, it was time to save what we were now officially calling the storage building .",
+      "type": "paragraph",
+      "html": "<p>By mid to late August, it was time to save what we were now officially calling <strong>the storage building</strong>.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b019",
+      "sourceHtmlSha256": "cd568449e62f8d4d85b3199bdea04f076e223883b5ffd91a8951ba0d648225cb",
+      "sourceHtml": "<p>First up, the roof.</p>",
+      "text": "First up, the roof.",
+      "type": "paragraph",
+      "html": "<p>First up, the roof.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b020",
+      "sourceHtmlSha256": "69c208229c74a330cf4fcedca0046cc8485018e8baac08a14404ded836d9d1ca",
+      "sourceHtml": "<p>And I was not exactly looking forward to that part.</p>",
+      "text": "And I was not exactly looking forward to that part.",
+      "type": "paragraph",
+      "html": "<p>And I was not exactly looking forward to that part.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b021",
+      "sourceHtmlSha256": "0ea76756a5154c24a972da4a1e2cb24215eb1141168464731568a43dd46c7fcd",
+      "sourceHtml": "<p>Big guy. High-pitched roof. Fifteen feet in the air.</p>",
+      "text": "Big guy. High-pitched roof. Fifteen feet in the air.",
+      "type": "paragraph",
+      "html": "<p>Big guy. High-pitched roof. Fifteen feet in the air.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b022",
+      "sourceHtmlSha256": "3edbd74ff296eba92865063c85e4e5b5db50a3cfe82089f7ac024ead95959f95",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter21-roof.jpg\" alt=\"Jeff up on the roof working on the storage building in late summer 2025\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter21-roof.jpg",
+          "alt": "Jeff up on the roof working on the storage building in late summer 2025"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch21-b021",
+      "nextSourceBlockId": "ch21-b023",
+      "image": {
+        "mediaId": "journey-200e6f028315",
+        "alt": "Jeff up on the roof working on the storage building in late summer 2025",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch21-b023",
+      "sourceHtmlSha256": "b95f3455b5878296f261b6e45c9f197694d1c301f10281ba125632014a1cd589",
+      "sourceHtml": "<p>Not exactly a relaxing combination.</p>",
+      "text": "Not exactly a relaxing combination.",
+      "type": "paragraph",
+      "html": "<p>Not exactly a relaxing combination.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b024",
+      "sourceHtmlSha256": "d72d96fe786ce151a50b6a505fd0dbdaedf564accf701007b4d54911ca896dc5",
+      "sourceHtml": "<p>But it had to be done, so up I went.</p>",
+      "text": "But it had to be done, so up I went.",
+      "type": "paragraph",
+      "html": "<p>But it had to be done, so up I went.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b025",
+      "sourceHtmlSha256": "636f62c14430a0fad9a7f8180e52656fe10e138de2bbc013d325194fedd6bf34",
+      "sourceHtml": "<p>After a fair amount of butt-puckering on that job, it was on to the next thing.</p>",
+      "text": "After a fair amount of butt-puckering on that job, it was on to the next thing.",
+      "type": "paragraph",
+      "html": "<p>After a fair amount of butt-puckering on that job, it was on to the next thing.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b026",
+      "sourceHtmlSha256": "b80998adf3a47c149577a2dd70b43dcfe665a26de300a68eda1a7871c726fadd",
+      "sourceHtml": "<p>We had to get that baby wrapped and sided.</p>",
+      "text": "We had to get that baby wrapped and sided.",
+      "type": "paragraph",
+      "html": "<p>We had to get that baby wrapped and sided.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b027",
+      "sourceHtmlSha256": "690ed827cc9d9bef1432d4ed290d3aa9412ce8077545300d3dab57e9bd968364",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter21-wrap.jpg\" alt=\"Storage building temporarily protected with house wrap during the weather-tight save phase\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter21-wrap.jpg",
+          "alt": "Storage building temporarily protected with house wrap during the weather-tight save phase"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch21-b026",
+      "nextSourceBlockId": "ch21-b028",
+      "image": {
+        "mediaId": "journey-c840d1fcb9f8",
+        "alt": "Storage building temporarily protected with house wrap during the weather-tight save phase",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch21-b028",
+      "sourceHtmlSha256": "50f9164e48a719beab9a51fc17d792472e8c19eef995f7536b77c4f0c4f557eb",
+      "sourceHtml": "<p>Turns out that job was not very fun either.</p>",
+      "text": "Turns out that job was not very fun either.",
+      "type": "paragraph",
+      "html": "<p>Turns out that job was not very fun either.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b029",
+      "sourceHtmlSha256": "e106824e74028f8e78420990b346f648ad6f38ca637c7e64bca2569d938f7eeb",
+      "sourceHtml": "<p>But it also had to get done.</p>",
+      "text": "But it also had to get done.",
+      "type": "paragraph",
+      "html": "<p>But it also had to get done.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b030",
+      "sourceHtmlSha256": "76eef326932c9206ba0a179b6e31e43abe91bbd4c5190e7d9a8d52649841f5cb",
+      "sourceHtml": "<p>We needed that building weather-tight that year, because it had already started leaking. And that was the point where you start asking yourself some dangerous questions.</p>",
+      "text": "We needed that building weather-tight that year, because it had already started leaking. And that was the point where you start asking yourself some dangerous questions.",
+      "type": "paragraph",
+      "html": "<p>We needed that building weather-tight that year, because it had already started leaking. And that was the point where you start asking yourself some dangerous questions.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b031",
+      "sourceHtmlSha256": "df7f0dfca6f84468e47b1fcb2edcf8af9a90fb8b8f5014800bc6f52921c3ef99",
+      "sourceHtml": "<p>Are we really doing all this work on this “storage building”?</p>",
+      "text": "Are we really doing all this work on this “storage building”?",
+      "type": "paragraph",
+      "html": "<p>Are we really doing all this work on this “storage building”?</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b032",
+      "sourceHtmlSha256": "7e3891d1b974889acd3197a314f3630ef6cbe31ac63e49a72cf3015883ebb4b8",
+      "sourceHtml": "<p>Is this kind of a waste of money?</p>",
+      "text": "Is this kind of a waste of money?",
+      "type": "paragraph",
+      "html": "<p>Is this kind of a waste of money?</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b033",
+      "sourceHtmlSha256": "c881c4d63981bb7c5ba5ddf7d68f0ce0439926c92fe7282afe3e6e4b49820c26",
+      "sourceHtml": "<p>Maybe.</p>",
+      "text": "Maybe.",
+      "type": "paragraph",
+      "html": "<p>Maybe.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b034",
+      "sourceHtmlSha256": "34125117d946ffddc807cadb02a1e9fe54528054fed39c22815305bbbab9bd43",
+      "sourceHtml": "<p>Then again... maybe not.</p>",
+      "text": "Then again... maybe not.",
+      "type": "paragraph",
+      "html": "<p>Then again... maybe not.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b035",
+      "sourceHtmlSha256": "b9049c2ac1ae7df6ee3bd3e0e57b2eafefdc2c138ca361dc88d3013ec5a596c6",
+      "sourceHtml": "<p>Because every time we started talking about it, the dreaming came back too.</p>",
+      "text": "Because every time we started talking about it, the dreaming came back too.",
+      "type": "paragraph",
+      "html": "<p>Because every time we started talking about it, the dreaming came back too.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b036",
+      "sourceHtmlSha256": "58ddab2b2ee1cee9552b32caeb81fa4396a098e793676199390cb48a6a01c9d5",
+      "sourceHtml": "<p>If we could only move it.</p>",
+      "text": "If we could only move it.",
+      "type": "paragraph",
+      "html": "<p>If we could only move it.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b037",
+      "sourceHtmlSha256": "af19fbc19d2d4b2ffab96d8f0cb8a8c71d6f28ba76fb79cf88175fa29eb13b81",
+      "sourceHtml": "<p>Anybody know a genie I can borrow one wish from?</p>",
+      "text": "Anybody know a genie I can borrow one wish from?",
+      "type": "paragraph",
+      "html": "<p>Anybody know a genie I can borrow one wish from?</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b038",
+      "sourceHtmlSha256": "9865f978fc7754abac2845fde61739d5a11eadcae21af8124ad5a31c03c60d7f",
+      "sourceHtml": "<p>Honestly, by that point, we probably could have built something new on the concrete pad already.</p>",
+      "text": "Honestly, by that point, we probably could have built something new on the concrete pad already.",
+      "type": "paragraph",
+      "html": "<p>Honestly, by that point, we probably could have built something new on the concrete pad already.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b039",
+      "sourceHtmlSha256": "fead3120fd998a9e2f2f8bcf5fad93fa3a059ea8f1619613b899d266ba26c614",
+      "sourceHtml": "<p>Sheesh.</p>",
+      "text": "Sheesh.",
+      "type": "paragraph",
+      "html": "<p>Sheesh.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b040",
+      "sourceHtmlSha256": "7118d5e7320a67fbd60c482897f98095c3deaf95f639ec76ef38b2d016bb69a9",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter21-siding.jpg\" alt=\"Jeff working on the siding and trim as the structure moves from emergency save toward real restoration\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter21-siding.jpg",
+          "alt": "Jeff working on the siding and trim as the structure moves from emergency save toward real restoration"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch21-b039",
+      "nextSourceBlockId": "ch21-b041",
+      "image": {
+        "mediaId": "journey-e6d2d422c329",
+        "alt": "Jeff working on the siding and trim as the structure moves from emergency save toward real restoration",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch21-b041",
+      "sourceHtmlSha256": "61e8e64fd7c8451d9fa0292d06402643acc1529d7394b83d44f8b29e71970d27",
+      "sourceHtml": "<p>This structure was driving me nuts.</p>",
+      "text": "This structure was driving me nuts.",
+      "type": "paragraph",
+      "html": "<p>This structure was driving me nuts.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b042",
+      "sourceHtmlSha256": "392e7c8420522dc57789b9150150de9895b82c335e74bbab8b1b0eabcc722467",
+      "sourceHtml": "<p>But for now, we had at least made some progress.</p>",
+      "text": "But for now, we had at least made some progress.",
+      "type": "paragraph",
+      "html": "<p>But for now, we had at least made some progress.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b043",
+      "sourceHtmlSha256": "70b2a31941447f336f96606ce5a31970a15e2199b93715921e4eee72ce3182a6",
+      "sourceHtml": "<p>And that was all we were getting done on that trip.</p>",
+      "text": "And that was all we were getting done on that trip.",
+      "type": "paragraph",
+      "html": "<p>And that was all we were getting done on that trip.</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b044",
+      "sourceHtmlSha256": "5dbce5bded45f91429f070a0ca5724dd44ffdfae15ef6e097f2cbf383038822a",
+      "sourceHtml": "<p>Because by then, this guy was tired...</p>",
+      "text": "Because by then, this guy was tired...",
+      "type": "paragraph",
+      "html": "<p>Because by then, this guy was tired...</p>"
+    },
+    {
+      "sourceBlockId": "ch21-b045",
+      "sourceHtmlSha256": "cb06d7a7c9ff89cc322282bc8af8a13951ca781c4b2ec267ccfc37d87ca3af07",
+      "sourceHtml": "<p>and about broke.</p>",
+      "text": "and about broke.",
+      "type": "paragraph",
+      "html": "<p>and about broke.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch22",
+      "label": "Then came the paint surprise.",
+      "context": "That building wasn’t finished with us"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-68d1bdd110db",
+    "alt": "Very well-fed squirrel perched on the deck rail during the late summer wildlife-heavy stretch",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Before you get mad at me for the title, let’s clarify. It is not Vanessa getting fat.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-One",
+  "originalHeadingAfterBlocks": 1
+}

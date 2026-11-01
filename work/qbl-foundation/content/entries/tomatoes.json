@@ -1,0 +1,585 @@
+{
+  "id": "tomatoes",
+  "kind": "guide",
+  "variant": "tomato",
+  "route": "/pages/what-to-grow-near-tomatoes",
+  "output": "pages/what-to-grow-near-tomatoes.html",
+  "title": "What to Grow Near Tomatoes | Quiet Backyard Living",
+  "description": "What to grow near tomatoes: five practical companions, a visual bed layout, spacing cautions, pest clues, and useful next steps from Quiet Backyard Living.",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition tf-page",
+  "mainAttrs": {
+    "class": "tf"
+  },
+  "wrapperAttrs": {
+    "class": "tf-wrap"
+  },
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/tomato-master.css"
+  ],
+  "scripts": [
+    "/assets/complete-guides.js",
+    "/assets/tomato-master.js"
+  ],
+  "blocks": [
+    {
+      "component": "tomato/tf-breadcrumb-0",
+      "copy": {
+        "a_1": "QBL",
+        "span_1": "/",
+        "a_2": "Garden Help",
+        "span_2": "/",
+        "span_3": "Tomato companions"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/garden-help"
+      },
+      "images": {}
+    },
+    {
+      "component": "tomato/tf-hero-1",
+      "copy": {
+        "span_1": "Growing & gathering / A useful little support crew",
+        "h1_1": "What to grow",
+        "h1_2": "near ",
+        "em_1": "tomatoes.",
+        "p_1": "Good neighbors. Room to grow.",
+        "p_2": "A tomato bed you can actually get into.",
+        "p_3": "Five practical companions, a visual bed plan, and the things to watch before a little company becomes a crowded jungle.",
+        "a_1": "Meet the companions",
+        "span_2": "↗",
+        "a_2": "See the bed plan",
+        "span_3": "↗",
+        "div_1": "The Quiet Backyard Living practical library",
+        "span_4": "For a useful garden. And a little life outside.",
+        "figcaption_1": "Give the tomatoes the room. Let the companions play a smaller part."
+      },
+      "links": {
+        "link_1": "#companions",
+        "link_2": "#bed-plan"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5e85b1b391b7",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Ripe tomatoes on the plant",
+          "loading": "eager",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer",
+          "fetchpriority": "high"
+        }
+      }
+    },
+    {
+      "component": "tomato/quick-answer-2",
+      "copy": {
+        "span_1": "The short answer",
+        "h2_1": "A small, useful",
+        "h2_2": "support crew.",
+        "strong_1": "Try basil, onions, early lettuce, carrots nearby, and flowers at the edges.",
+        "p_1": " Build around the tomatoes first. Give them support, airflow and picking room; fit the companions around that space.",
+        "p_2": "These are practical ways to share a bed—not a promise that a companion plant will prevent pests or improve every harvest."
+      },
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "tomato/tf-jump-3",
+      "copy": {
+        "a_1": "Choose companions ",
+        "span_1": "↓",
+        "a_2": "Picture the layout ",
+        "span_2": "↓",
+        "a_3": "Avoid the squeeze ",
+        "span_3": "↓",
+        "a_4": "Check for trouble ",
+        "span_4": "↓",
+        "a_5": "Find your next step ",
+        "span_5": "↓",
+        "a_6": "From our garden ",
+        "span_6": "↓"
+      },
+      "links": {
+        "link_1": "#companions",
+        "link_2": "#bed-plan",
+        "link_3": "#careful",
+        "link_4": "#protect-my-veggie",
+        "link_5": "#garden-next",
+        "link_6": "#our-garden"
+      },
+      "images": {}
+    },
+    {
+      "component": "tomato/companions-4",
+      "copy": {
+        "span_1": "01 / Choose the company",
+        "h2_1": "Good neighbors.",
+        "em_1": "Different jobs.",
+        "p_1": "Start with the plants you’ll use. Then think about their size, timing and place in the bed.",
+        "span_2": "The kitchen partner",
+        "h3_1": "Basil",
+        "p_2": "Useful close by, without turning the tomato patch into a wall of herbs. Tuck it near a few plants and leave the tomatoes their space.",
+        "span_3": "See the basil growing guide ",
+        "span_4": "↗",
+        "span_5": "The narrow neighbor",
+        "h3_2": "Onions",
+        "p_3": "A side row or a few lower pockets put another edible in the bed without a bulky second canopy.",
+        "span_6": "Explore onions ",
+        "span_7": "↗",
+        "span_8": "The opening act",
+        "h3_3": "Lettuce, early",
+        "p_4": "Use a front strip early in the season. As the tomato canopy fills in, let the lettuce finish rather than leaving it buried.",
+        "span_9": "Explore lettuce ",
+        "span_10": "↗",
+        "span_11": "A little space of their own",
+        "h3_4": "Carrots, nearby",
+        "p_5": "A mixed bed can make room for carrots. Nearby is the useful idea—not packed directly under every tomato.",
+        "span_12": "Explore carrots ",
+        "span_13": "↗",
+        "span_14": "Keep the work zone open",
+        "h3_5": "Flowers at the edges",
+        "p_6": "Let flowers brighten the corners and outside margins. Keep them out of the space you need for supporting and picking tomatoes.",
+        "span_15": "Explore a flower bed ",
+        "span_16": "↗",
+        "p_7": "Reference photography; not Jeff & Vanessa’s garden. Marigolds illustrate a flower margin, without a claim that they repel every tomato pest. ",
+        "a_1": "Photo credits & sources"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "basil"
+        },
+        "link_2": "/pages/what-to-grow-near-onions",
+        "link_3": {
+          "contentId": "lettuce"
+        },
+        "link_4": "/pages/what-to-grow-near-carrots",
+        "link_5": "/pages/how-to-start-a-pollinator-flower-bed",
+        "link_6": "#photo-credits"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-259c3292ef61",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Basil foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_2": {
+          "mediaId": "media-a946a74c21cc",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Whole harvested onions",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Lettuce foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_4": {
+          "mediaId": "media-4c043e448465",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Harvested carrots",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_5": {
+          "mediaId": "media-089c742eca6b",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Marigold flowers, an example of flowers for the margins",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "tomato/tf-why-5",
+      "copy": {
+        "figcaption_1": "The tomatoes remain the main crop.",
+        "span_1": "Why this works as a layout",
+        "h2_1": "Think space.",
+        "h2_2": "Think season.",
+        "em_1": "Then companions.",
+        "strong_1": "Keep some neighbors low.",
+        "span_2": "Onions stay narrow. Basil can be useful nearby without filling every gap.",
+        "strong_2": "Let an early crop finish.",
+        "span_3": "Lettuce has a different role from a plant that stays through the whole tomato season.",
+        "strong_3": "Use the margins.",
+        "span_4": "Flowers belong where they add interest without taking over the picking and support space.",
+        "summary_1": "What companion planting does—and doesn’t—promise",
+        "p_1": "A companion list is a starting point. The useful idea is to share space while keeping access, timing and the size of the plants in mind. It is not a guarantee of pest control or a bigger harvest.",
+        "p_2": "For the evidence behind particular plant relationships, see ",
+        "a_1": "University of Minnesota Extension’s companion-planting guide",
+        "p_3": "."
+      },
+      "links": {
+        "link_1": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-cd0f2dc232bb",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Green tomatoes growing on the vine",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "tomato/bed-plan-6",
+      "copy": {
+        "span_1": "02 / Show me the bed",
+        "h2_1": "Give tomatoes",
+        "em_1": "the big part.",
+        "p_1": "Picture the arrangement before you plant. Companions stay low, early, or on the outside.",
+        "button_1": "Early in the season",
+        "button_2": "As tomatoes fill in",
+        "div_1": "TOMATO SUPPORT ZONE ",
+        "span_2": "Keep access open",
+        "span_3": "✳",
+        "span_4": "✳",
+        "strong_1": "Tomato",
+        "strong_2": "Tomato",
+        "div_2": "Onion pockets",
+        "div_3": "Basil nearby",
+        "div_4": "Carrot pocket",
+        "span_5": "Early lettuce strip",
+        "span_6": "Lettuce finished · leave breathing room",
+        "p_2": "Early: a front strip of lettuce can use space before the tomato canopy fills in.",
+        "p_3": "Arrangement diagram, not a spacing plan. Two plants are illustrative; no bed dimensions, plant capacity, sun direction or exact distances are implied. Allow the room required by your tomato variety and support system.",
+        "p_4": "Later in the season: let the early lettuce finish as the tomato canopy fills in. Leave the front accessible.",
+        "h3_1": "Keep the layout simple.",
+        "strong_3": "Place the tomatoes first.",
+        "li_1": " Leave room for their supports, growth and harvest access.",
+        "strong_4": "Choose a little company.",
+        "li_2": " Basil near a few plants; onions in a side row or lower pockets.",
+        "strong_5": "Give carrots their own pocket.",
+        "li_3": " Don’t fill every tomato base with another crop.",
+        "strong_6": "Keep the front flexible.",
+        "li_4": " Early lettuce finishes. Flowers stay at the corners and outer edge.",
+        "a_1": "Try the garden planner",
+        "span_7": "↗",
+        "a_2": "See the 4 × 8 bed guide",
+        "span_8": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "tool"
+        },
+        "link_2": {
+          "contentId": "raised-bed"
+        }
+      },
+      "images": {}
+    },
+    {
+      "component": "tomato/careful-7",
+      "copy": {
+        "span_1": "Leave a little breathing room",
+        "h2_1": "A full bed.",
+        "em_1": "Not a tangled one.",
+        "p_1": "The usual mistake is trying to make every free inch do another job.",
+        "span_2": "01",
+        "h3_1": "Don’t crowd the canopy.",
+        "p_2": "Dense growth makes the bed harder to work in. Keep support and picking room in the plan.",
+        "span_3": "02",
+        "h3_2": "Don’t let the base stay messy.",
+        "p_3": "Watch crowded lower growth and lingering wet foliage. Airflow matters.",
+        "span_4": "03",
+        "h3_3": "Let the filler finish.",
+        "p_4": "Early lettuce should not spend the summer struggling under the tomato vines."
+      },
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "tomato/protect-my-veggie-8",
+      "copy": {
+        "span_1": "03 / Protect your tomatoes",
+        "h2_1": "Something chewing?",
+        "em_1": "Look closer first.",
+        "p_1": "Missing leaves, curled growth and damaged fruit are clues. They are not a diagnosis on their own.",
+        "figcaption_1": "Reference tomato photograph—not a pest or damage example.",
+        "span_2": "Look → identify → act",
+        "h3_1": "Start with the plant,",
+        "h3_2": "not the spray bottle.",
+        "p_2": "Check stems, leaf undersides, tender growth and developing fruit. Look for insects, droppings and sticky residue as well as the damage itself.",
+        "p_3": "During pest season, look over the plants every day or two. Catch a change while it is still small, then identify what is causing it.",
+        "a_1": "Open the garden-help finder",
+        "span_3": "↗",
+        "span_4": "01 / Notice",
+        "h3_3": "Leaves disappearing",
+        "strong_1": "What you might see:",
+        "p_4": " Large missing chunks of foliage or dark droppings.",
+        "p_5": "Look along stems and under leaves for large green caterpillars. Hornworms are one possibility; confirm the insect before acting.",
+        "span_5": "02 / Notice",
+        "h3_4": "Tender growth changing",
+        "strong_2": "What you might see:",
+        "p_6": " Curled new growth, sticky residue or clusters of tiny insects.",
+        "p_7": "Look closely at the undersides and new shoots. Aphids are one possibility; curling alone does not identify them.",
+        "span_6": "03 / Notice",
+        "h3_5": "Other clues in the patch",
+        "strong_3": "What you might see:",
+        "p_8": " Small holes, insects scattering when disturbed, fruit damage, or a young transplant cut at soil level.",
+        "p_9": "The source also discusses flea beetles, whiteflies, stink bugs and cutworms. Compare the actual insect and damage before choosing a response.",
+        "summary_1": "After identification: practical first steps",
+        "p_10": "For confirmed hornworms, the source recommends hand-picking. For confirmed aphids, it recommends dislodging them with water and checking again. Keep tomato plants supported and avoid letting dense lower growth become a damp tangle.",
+        "p_11": "For other treatment choices, start with a confirmed identification and crop-specific guidance. “Natural” is not a substitute for knowing what the problem is.",
+        "a_2": "Compare hornworm identification with UMN Extension",
+        "p_12": " or use its ",
+        "a_3": "tomato leaf-damage diagnostic guide",
+        "p_13": "."
+      },
+      "links": {
+        "link_1": "/pages/protect-my-veggie",
+        "link_2": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/tomato-hornworms",
+        "link_3": "https://apps.extension.umn.edu/garden/diagnose/plant/vegetable/tomato/leaveschewed.html"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5e85b1b391b7",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Ripe tomatoes on the plant",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "tomato/tf-basics-9",
+      "copy": {
+        "span_1": "Keep the main crop steady",
+        "h2_1": "The basics still",
+        "em_1": "do the heavy lifting.",
+        "dt_1": "Sun",
+        "dd_1": "Choose a sunny position.",
+        "dt_2": "Support",
+        "dd_2": "Cages, stakes or trellising keep the patch manageable.",
+        "dt_3": "Water",
+        "dd_3": "Aim for steady moisture rather than big swings.",
+        "dt_4": "Mulch",
+        "dd_4": "Helps keep moisture steadier."
+      },
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "tomato/garden-next-10",
+      "copy": {
+        "span_1": "04 / Help me next",
+        "h2_1": "Make the next part",
+        "em_1": "a little easier.",
+        "p_1": "A useful garden is more than a companion list. Plan the space, think about water, and keep help close.",
+        "span_2": "Planning / The QBL garden tool",
+        "h3_1": "Food you’ll eat.",
+        "h3_2": "A space you can manage.",
+        "p_2": "Choose a bed size and the crops you actually like. See the planner’s suggested arrangement.",
+        "span_3": "Plan your bed ↗",
+        "span_4": "Watering / Our ongoing experiment",
+        "h3_3": "Thinking about",
+        "h3_4": "the days you’re away?",
+        "p_3": "See the terracotta watering project we tried. The build is documented; a successful season-long result is still an open question.",
+        "span_5": "See the olla build ↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "tool"
+        },
+        "link_2": "/pages/diy-olla-watering-system"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), 650px",
+          "alt": "Young plants in a QBL raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_2": {
+          "mediaId": "media-e5c218b2a0d0",
+          "sizes": "(max-width:650px) calc(100vw - 36px), 650px",
+          "alt": "A simple terracotta olla installed in a raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "tomato/our-garden-11",
+      "copy": {
+        "figcaption_1": "Our cabin garden, June 2025. One trial row to begin with.",
+        "span_1": "From our garden / Jeff & Vanessa",
+        "h2_1": "Our version started",
+        "h2_2": "with ",
+        "em_1": "one row.",
+        "p_1": "We tightened up the fence, reused wood from the cabin ceiling, and tried our first vegetable row. Then came the water pump, the leaks, and a small victory when the water finally worked.",
+        "p_2": "Our city beds had their struggles, too. That is the story behind the guides: trying things, learning something, and coming back for another go.",
+        "p_3": "This is our garden’s beginning—not a documented trial of every tomato pairing in this guide.",
+        "a_1": "Read our garden story",
+        "span_2": "↗",
+        "a_2": "What we tried about watering",
+        "span_3": "↗"
+      },
+      "links": {
+        "link_1": "/pages/what-we-re-up-to-around-the-yard-and-cabin#first-garden-row",
+        "link_2": "/pages/what-we-re-up-to-around-the-yard-and-cabin#trying-ollas"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-661cb7f96e87",
+          "sizes": "(max-width:650px) calc(100vw - 36px), 650px",
+          "alt": "Jeff watering the cabin garden during the first trial-row season in June 2025",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "tomato/tf-section-12",
+      "copy": {
+        "span_1": "One idea leads to another",
+        "h2_1": "Keep the garden",
+        "em_1": "growing.",
+        "a_1": "Explore the crop finder",
+        "span_2": "↗",
+        "h3_1": "A little basil.",
+        "p_1": "Plant it. Clip it. Use what grows.",
+        "span_3": "See the guide ↗",
+        "h3_2": "Start with something leafy.",
+        "p_2": "A different crop. Another useful guide.",
+        "span_4": "See the guide ↗",
+        "h3_3": "Make room for roots.",
+        "p_3": "Explore what to grow near carrots.",
+        "span_5": "See the guide ↗"
+      },
+      "links": {
+        "link_1": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+        "link_2": {
+          "contentId": "basil"
+        },
+        "link_3": {
+          "contentId": "lettuce"
+        },
+        "link_4": "/pages/what-to-grow-near-carrots"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-259c3292ef61",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Basil foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_2": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Lettuce foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-4c043e448465",
+          "class": "tf-external",
+          "sizes": "(max-width: 650px) calc(100vw - 36px), (max-width: 1000px) 48vw, 650px",
+          "alt": "Harvested carrots",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "tomato/tf-end-tools-13",
+      "copy": {
+        "button_1": "Print this guide",
+        "a_1": "Back to the beginning ↑"
+      },
+      "links": {
+        "link_1": "#main"
+      },
+      "images": {}
+    },
+    {
+      "component": "tomato/photo-credits-14",
+      "copy": {
+        "summary_1": "Photography, source notes & guide scope",
+        "p_1": "Plant reference photography is separate from Jeff & Vanessa’s own garden photographs. No stock image is presented as our harvest, trial or result. External photographs require an internet connection in this local review.",
+        "li_1": "Ripe tomatoes on the plant — erkan budak / ",
+        "a_1": "Pexels source",
+        "li_2": ".",
+        "li_3": "Green tomatoes growing on the vine — Ryszard Zaleski / ",
+        "a_2": "Pexels source",
+        "li_4": ".",
+        "li_5": "Basil foliage — Alexas Fotos / ",
+        "a_3": "Pexels source",
+        "li_6": ".",
+        "li_7": "Whole harvested onions — Vera Krumova / ",
+        "a_4": "Pexels source",
+        "li_8": ".",
+        "li_9": "Lettuce foliage — Néstor Santos / ",
+        "a_5": "Pexels source",
+        "li_10": ".",
+        "li_11": "Harvested carrots — Daniel Dan / ",
+        "a_6": "Pexels source",
+        "li_12": ".",
+        "li_13": "Marigold flowers, an example of flowers for the margins — Luis Ruiz / ",
+        "a_7": "Pexels source",
+        "li_14": ".",
+        "a_8": "Pexels License",
+        "p_2": ". QBL photographs: raised bed, olla installation, and June 2025 cabin garden. Bed diagram: new QBL presentation artwork, conceptual and not to scale.",
+        "p_3": "Adapted from QBL’s recovered tomato guide. The practical layout advice has been reorganized; repeated sections have been combined. Specific treatment claims are held for factual review. Companion effects vary with the plants, pests and growing conditions.",
+        "a_9": "Companion-planting context",
+        "p_4": " · ",
+        "a_10": "Tomato-growing reference"
+      },
+      "links": {
+        "link_1": "https://www.pexels.com/photo/red-tomatoes-on-plant-7745029/",
+        "link_2": "https://www.pexels.com/photo/tomato-plant-bearing-fruit-8767747/",
+        "link_3": "https://www.pexels.com/photo/green-leaf-plant-in-close-up-photography-7452769/",
+        "link_4": "https://www.pexels.com/photo/pile-of-onions-23413831/",
+        "link_5": "https://www.pexels.com/photo/closeup-of-green-lettuce-20819948/",
+        "link_6": "https://www.pexels.com/photo/fresh-carrots-7543101/",
+        "link_7": "https://www.pexels.com/photo/yellow-marigold-flowers-1643975/",
+        "link_8": "https://www.pexels.com/license/",
+        "link_9": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/companion-planting-in-home-gardens",
+        "link_10": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes"
+      },
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\what-to-grow-near-tomatoes.html"
+}

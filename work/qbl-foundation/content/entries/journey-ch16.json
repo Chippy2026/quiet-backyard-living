@@ -1,0 +1,382 @@
+{
+  "id": "journey-ch16",
+  "route": "/our-journey/chapters/chapter-16",
+  "output": "our-journey/chapters/chapter-16.html",
+  "title": "Let’s Get Some Shizzz Done! | Quiet Backyard Living",
+  "storyTitle": "Let’s Get Some Shizzz Done!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Let’s Get Some Shizzz Done!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 16,
+  "chapterOrder": 16,
+  "seriesId": "happy-place",
+  "dateLabel": "June 2025",
+  "dateEvidence": "June 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 16,
+    "articleSha256": "053ec04925880e8a11372d79872b6cd3bc028599eaeadefab9ebb75a1be3f66a",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-18"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch16-b001",
+      "sourceHtmlSha256": "447dd8167fa2ddb84bf6c6c17beb116db56da5decc7a2a76a5b23abf0726bb0e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter16-structure.jpg\" alt=\"The weird swing structure at the garden opening before it may someday become a grand entrance\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter16-structure.jpg",
+          "alt": "The weird swing structure at the garden opening before it may someday become a grand entrance"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch16-b002",
+      "image": {
+        "mediaId": "journey-579c7aedfbfc",
+        "alt": "The weird swing structure at the garden opening before it may someday become a grand entrance",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch16-b004",
+      "sourceHtmlSha256": "a808bb62a0b730e3c0d6bb4e194396f19e8ffcbe5eb2317fb424c95e807109aa",
+      "sourceHtml": "<p>Operation make-the-garden-look-better was officially in full effect.</p>",
+      "text": "Operation make-the-garden-look-better was officially in full effect.",
+      "type": "paragraph",
+      "html": "<p>Operation make-the-garden-look-better was officially in full effect.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b005",
+      "sourceHtmlSha256": "abca4a5539edc17830cc7ad224cb6d84338d35e7a88f462dca80948bcbaa5932",
+      "sourceHtml": "<p>By June of 2025, it felt like there was no time to waste. If we were finally going to start making the outside look the way we had been imagining, then it was time to quit talking about it and get after it.</p>",
+      "text": "By June of 2025, it felt like there was no time to waste. If we were finally going to start making the outside look the way we had been imagining, then it was time to quit talking about it and get after it.",
+      "type": "paragraph",
+      "html": "<p>By June of 2025, it felt like there was no time to waste. If we were finally going to start making the outside look the way we had been imagining, then it was time to quit talking about it and get after it.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b006",
+      "sourceHtmlSha256": "f0beb2cc7877384d8702f245b225d5d13713e2a3032073186b40f2e67969315e",
+      "sourceHtml": "<p>The garden still did not really have a good way to keep deer, turkeys, and every other passing critter out, so that was one of the first things we tackled.</p>",
+      "text": "The garden still did not really have a good way to keep deer, turkeys, and every other passing critter out, so that was one of the first things we tackled.",
+      "type": "paragraph",
+      "html": "<p>The garden still did not really have a good way to keep deer, turkeys, and every other passing critter out, so that was one of the first things we tackled.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b007",
+      "sourceHtmlSha256": "8f67a03f43de1804832187d0a1c78421206ca93a1a4768fec1d094ef18a6daad",
+      "sourceHtml": "<p>We covered the openings at the bottom of the garden fence with leftover wood planks from the ceiling build, which was nice because it did not cost us anything new. Then we tightened up the fencing that was already there, because honestly, parts of it had been kind of half-assed from the start.</p>",
+      "text": "We covered the openings at the bottom of the garden fence with leftover wood planks from the ceiling build, which was nice because it did not cost us anything new. Then we tightened up the fencing that was already there, because honestly, parts of it had been kind of half-assed from the start.",
+      "type": "paragraph",
+      "html": "<p>We covered the openings at the bottom of the garden fence with leftover wood planks from the ceiling build, which was nice because it did not cost us anything new. Then we tightened up the fencing that was already there, because honestly, parts of it had been kind of half-assed from the start.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b008",
+      "sourceHtmlSha256": "86b9c7ff8c5f16e09d141234de91adb87231cb79292e35919273bd713b492502",
+      "sourceHtml": "<p>After that, we moved that weird swing structure out of the opening, the one we still had dreams of turning into some kind of grand entrance someday, and we put a swing gate on both the front and back side of the garden area. We already had the gates from the city property after tearing them out there, so that was another nice use-what-you’ve-got project.</p>",
+      "text": "After that, we moved that weird swing structure out of the opening, the one we still had dreams of turning into some kind of grand entrance someday, and we put a swing gate on both the front and back side of the garden area. We already had the gates from the city property after tearing them out there, so that was another nice use-what-you’ve-got project.",
+      "type": "paragraph",
+      "html": "<p>After that, we moved that weird swing structure out of the opening, the one we still had dreams of turning into some kind of grand entrance someday, and we put a swing gate on both the front and back side of the garden area. We already had the gates from the city property after tearing them out there, so that was another nice use-what-you’ve-got project.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b009",
+      "sourceHtmlSha256": "0f76ce9700d31ef71fe84eda7d51f6771cdee969b0546e18fa404a7a6c2bb62a",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter16-garden.jpg\" alt=\"Jeff watering and working in the improved garden area during the first vegetable test row season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter16-garden.jpg",
+          "alt": "Jeff watering and working in the improved garden area during the first vegetable test row season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch16-b008",
+      "nextSourceBlockId": "ch16-b010",
+      "image": {
+        "mediaId": "media-661cb7f96e87",
+        "alt": "Jeff watering and working in the improved garden area during the first vegetable test row season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch16-b010",
+      "sourceHtmlSha256": "0b44674e4cf9f68dcb1100dde022e465f1ae5a5e2a21bda6d4dfb428a042f0d5",
+      "sourceHtml": "<p>We did buy some mulch and a little crop row cover, and then we tested our first real vegetable growing year out there.</p>",
+      "text": "We did buy some mulch and a little crop row cover, and then we tested our first real vegetable growing year out there.",
+      "type": "paragraph",
+      "html": "<p>We did buy some mulch and a little crop row cover, and then we tested our first real vegetable growing year out there.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b011",
+      "sourceHtmlSha256": "dc4fd479738af72d4d3112aa010aff3647df1ade617ea7f7ad5980fe61770b03",
+      "sourceHtml": "<p>Just one row for now.</p>",
+      "text": "Just one row for now.",
+      "type": "paragraph",
+      "html": "<p>Just one row for now.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b012",
+      "sourceHtmlSha256": "af3c2538e48147d88863d94fe0d0ed7548a1396b942cccf4a3527268b5406f6a",
+      "sourceHtml": "<p>After all, this was still a first-year test.</p>",
+      "text": "After all, this was still a first-year test.",
+      "type": "paragraph",
+      "html": "<p>After all, this was still a first-year test.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b013",
+      "sourceHtmlSha256": "5ba56a489004e99bd18c6b9efcf61557599b88f9e7deee63fc078e64c205dbe9",
+      "sourceHtml": "<p>And then came the water question.</p>",
+      "text": "And then came the water question.",
+      "type": "paragraph",
+      "html": "<p>And then came the water question.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b014",
+      "sourceHtmlSha256": "81154818af44259039f48be8525ac7656aae13fb06132de89036071f84a82d8d",
+      "sourceHtml": "<p>Did I mention that over the winter I had picked up a water sprinkler pump from an auction site?</p>",
+      "text": "Did I mention that over the winter I had picked up a water sprinkler pump from an auction site?",
+      "type": "paragraph",
+      "html": "<p>Did I mention that over the winter I had picked up a water sprinkler pump from an auction site?</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b015",
+      "sourceHtmlSha256": "87e9692729cedd4da4ffc4485aa90b7195c670fa7654daeab9d608b748e95508",
+      "sourceHtml": "<p>Well, I did.</p>",
+      "text": "Well, I did.",
+      "type": "paragraph",
+      "html": "<p>Well, I did.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b016",
+      "sourceHtmlSha256": "8ca7ced78a8a3f026cd675d0be7ac42ed42b5fe238694ccc015bc83c78d444fe",
+      "sourceHtml": "<p>And now it was time to see if that thing was actually going to earn its keep.</p>",
+      "text": "And now it was time to see if that thing was actually going to earn its keep.",
+      "type": "paragraph",
+      "html": "<p>And now it was time to see if that thing was actually going to earn its keep.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b017",
+      "sourceHtmlSha256": "9c2bb883da2a37c4704f94259d4c985b4450d8a7d5aa4e69e33356baf42c268d",
+      "sourceHtml": "<p>The plan was simple enough in my head. Hook the pump up to the free water tank my brother-in-law gave me, plug it in, and magically we would have a way to water the garden.</p>",
+      "text": "The plan was simple enough in my head. Hook the pump up to the free water tank my brother-in-law gave me, plug it in, and magically we would have a way to water the garden.",
+      "type": "paragraph",
+      "html": "<p>The plan was simple enough in my head. Hook the pump up to the free water tank my brother-in-law gave me, plug it in, and magically we would have a way to water the garden.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b018",
+      "sourceHtmlSha256": "eb0b5a982db437cc65f8b57882a964f1bbc90a59980d8ae27c294116ac88bbd6",
+      "sourceHtml": "<p>Yeah... I wish it had happened that easy.</p>",
+      "text": "Yeah... I wish it had happened that easy.",
+      "type": "paragraph",
+      "html": "<p>Yeah... I wish it had happened that easy.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b019",
+      "sourceHtmlSha256": "ef56d2b00d4159f62b1918e81d7bc0b3a5040ce7f2888777c856354603cb9d64",
+      "sourceHtml": "<p>But in our world, things rarely go that smoothly.</p>",
+      "text": "But in our world, things rarely go that smoothly.",
+      "type": "paragraph",
+      "html": "<p>But in our world, things rarely go that smoothly.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b020",
+      "sourceHtmlSha256": "f0cd63c1bc47dc49d39f677bbe27f541bd4a7d56e0ae65c25742cdccf973708b",
+      "sourceHtml": "<p>First, we had to dig a trench from the cabin and run an underground power line out to an enclosure I already had. Then we had to get a special outlet for it, which cost a pretty penny.</p>",
+      "text": "First, we had to dig a trench from the cabin and run an underground power line out to an enclosure I already had. Then we had to get a special outlet for it, which cost a pretty penny.",
+      "type": "paragraph",
+      "html": "<p>First, we had to dig a trench from the cabin and run an underground power line out to an enclosure I already had. Then we had to get a special outlet for it, which cost a pretty penny.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b021",
+      "sourceHtmlSha256": "166054d6551029e549e46f3517d0dde10a15efc4a725a811369f2b2ec341a71f",
+      "sourceHtml": "<p>But hey, we had to water the garden.</p>",
+      "text": "But hey, we had to water the garden.",
+      "type": "paragraph",
+      "html": "<p>But hey, we had to water the garden.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b022",
+      "sourceHtmlSha256": "9c38b3b3e5daf7a869e99813aef78fb6e7d3a55ac69b240dc8715b7ffcabdee1",
+      "sourceHtml": "<p>If I had learned anything by then, it was that gardens need water.</p>",
+      "text": "If I had learned anything by then, it was that gardens need water.",
+      "type": "paragraph",
+      "html": "<p>If I had learned anything by then, it was that gardens need water.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b023",
+      "sourceHtmlSha256": "1b8102ac3ba2607da0e2054e3a86e6ae7dabe8d59798048fa0c8e075ffe0ec4a",
+      "sourceHtml": "<p>Maybe that is why the city raised beds kept dying.</p>",
+      "text": "Maybe that is why the city raised beds kept dying.",
+      "type": "paragraph",
+      "html": "<p>Maybe that is why the city raised beds kept dying.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b024",
+      "sourceHtmlSha256": "66bec7509cc580e96716ebcc54d1855d7be2b85eac3512f25274b7c10f5fcffe",
+      "sourceHtml": "<p>Then came the next step.</p>",
+      "text": "Then came the next step.",
+      "type": "paragraph",
+      "html": "<p>Then came the next step.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b025",
+      "sourceHtmlSha256": "026a62122e45c632461228aad9c290ac6ae670d43dff0c7352f3f23b8ec842f6",
+      "sourceHtml": "<p>Plumbing.</p>",
+      "text": "Plumbing.",
+      "type": "paragraph",
+      "html": "<p>Plumbing.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b026",
+      "sourceHtmlSha256": "34f1ce0f64b1f3180ec34b9d55a1b6109ec5570e71734eaecf53e5706ba1bc33",
+      "sourceHtml": "<p>Not exactly my favorite part, but by then I was getting better at it. Even so, we still had a few different leaks to chase down before it all started behaving.</p>",
+      "text": "Not exactly my favorite part, but by then I was getting better at it. Even so, we still had a few different leaks to chase down before it all started behaving.",
+      "type": "paragraph",
+      "html": "<p>Not exactly my favorite part, but by then I was getting better at it. Even so, we still had a few different leaks to chase down before it all started behaving.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b027",
+      "sourceHtmlSha256": "2e92984397f64207acbca5e584b0ccea69c9c3fb193a609c3f76375ed4bdf6fa",
+      "sourceHtml": "<p>But by the end of that short weekend trip, we had actually made real progress.</p>",
+      "text": "But by the end of that short weekend trip, we had actually made real progress.",
+      "type": "paragraph",
+      "html": "<p>But by the end of that short weekend trip, we had actually made real progress.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b028",
+      "sourceHtmlSha256": "d363dab1182aa6e7a8935078004eb40834dd89f7f171af51d0fd3e1c7f516b5f",
+      "sourceHtml": "<p>We fixed the leaks.</p>",
+      "text": "We fixed the leaks.",
+      "type": "paragraph",
+      "html": "<p>We fixed the leaks.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b029",
+      "sourceHtmlSha256": "38871b8ada62adf460c5640fd8663faea9ca8d4c487b28de1fe7ca86c23ac438",
+      "sourceHtml": "<p>We got power to the pump.</p>",
+      "text": "We got power to the pump.",
+      "type": "paragraph",
+      "html": "<p>We got power to the pump.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b030",
+      "sourceHtmlSha256": "fa2d58a3918897aa015023f2e75493c4154307de12832ea186350f4b6f9591e0",
+      "sourceHtml": "<p>And wallah...</p>",
+      "text": "And wallah...",
+      "type": "paragraph",
+      "html": "<p>And wallah...</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b031",
+      "sourceHtmlSha256": "3eef9e17055a9d07c526626cd234f161e5f3f122b26d24ec4063437e8fc6376c",
+      "sourceHtml": "<p><strong>water in the garden.</strong></p>",
+      "text": "water in the garden.",
+      "type": "paragraph",
+      "html": "<p><strong>water in the garden.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch16-b032",
+      "sourceHtmlSha256": "b4577599a883b4c85ab5c9fdd798e7f7a69c2f9996fba0677cfd26a54a450fb2",
+      "sourceHtml": "<p>It felt like a small victory.</p>",
+      "text": "It felt like a small victory.",
+      "type": "paragraph",
+      "html": "<p>It felt like a small victory.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b033",
+      "sourceHtmlSha256": "c64f8ce0f5e6f58d0211b7673c5eed6b0413f3fce071cf2ba9a6081783cfb245",
+      "sourceHtml": "<p>Mostly because it was.</p>",
+      "text": "Mostly because it was.",
+      "type": "paragraph",
+      "html": "<p>Mostly because it was.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b034",
+      "sourceHtmlSha256": "4428ef4a483e0b1c9429ea0d2cde036ae3423ab3e0abf714a5dbe94912794dfa",
+      "sourceHtml": "<p>But after enough setbacks, even a small win starts to feel pretty big.</p>",
+      "text": "But after enough setbacks, even a small win starts to feel pretty big.",
+      "type": "paragraph",
+      "html": "<p>But after enough setbacks, even a small win starts to feel pretty big.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b035",
+      "sourceHtmlSha256": "d0176ed6d3ce23f577ccd0ea23d5833ffaa8b9ddd95c9a1892901b746ee84098",
+      "sourceHtml": "<p>Finally, something was working.</p>",
+      "text": "Finally, something was working.",
+      "type": "paragraph",
+      "html": "<p>Finally, something was working.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b036",
+      "sourceHtmlSha256": "7273977bf17c0e2202af7ff301b8bf9dc10406180f07f7428a83ce5b051247c8",
+      "sourceHtml": "<p>Now all we had to do was make a quick trip home, because Vanessa and I were coming back to build that deck next.</p>",
+      "text": "Now all we had to do was make a quick trip home, because Vanessa and I were coming back to build that deck next.",
+      "type": "paragraph",
+      "html": "<p>Now all we had to do was make a quick trip home, because Vanessa and I were coming back to build that deck next.</p>"
+    },
+    {
+      "sourceBlockId": "ch16-b037",
+      "sourceHtmlSha256": "c88526a04d903840156a1b4fb27d9296f77aa7b51ad08217bd8ca9b79fe38961",
+      "sourceHtml": "<p>And we could not wait.</p>",
+      "text": "And we could not wait.",
+      "type": "paragraph",
+      "html": "<p>And we could not wait.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-579c7aedfbfc",
+    "alt": "The weird swing structure at the garden opening before it may someday become a grand entrance",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Operation make-the-garden-look-better was officially in full effect. By June of 2025, it felt like there was no time to waste. If we were finally going to start making the outside look…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Sixteen",
+  "originalHeadingAfterBlocks": 1
+}

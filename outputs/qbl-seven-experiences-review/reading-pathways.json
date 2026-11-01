@@ -1,0 +1,72 @@
+[
+  {
+    "source": "/pages/what-to-feed-squirrels-and-chipmunks",
+    "label": "Meanwhile, in our backyard…",
+    "primary": "/stories/the-chipmunks",
+    "supporting": [
+      "/pages/squirrel-playground-old-lumber#the-woodpile",
+      "/pages/our-place"
+    ]
+  },
+  {
+    "source": "/pages/squirrel-playground-old-lumber",
+    "label": "The story didn’t stop at the build.",
+    "primary": "/pages/gallery#grosbeak-squirrel-gym",
+    "supporting": [
+      "/stories/the-chipmunks",
+      "/pages/our-place"
+    ]
+  },
+  {
+    "source": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+    "label": "The plan meets real life.",
+    "primary": "/pages/what-we-re-up-to-around-the-yard-and-cabin#city-beds-dried-up",
+    "supporting": [
+      "/pages/diy-olla-watering-system#why-the-olla",
+      "/stories/growing-a-little-food"
+    ]
+  },
+  {
+    "source": "/pages/diy-olla-watering-system",
+    "label": "Still figuring it out.",
+    "primary": "/stories/growing-a-little-food",
+    "supporting": [
+      "/pages/what-we-re-up-to-around-the-yard-and-cabin#trying-ollas",
+      "/pages/our-place"
+    ]
+  },
+  {
+    "source": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+    "label": "From the workshop to the ground.",
+    "primary": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+    "supporting": [
+      "/stories/things-weve-built",
+      "/stories/growing-a-little-food"
+    ]
+  },
+  {
+    "source": "/stories/the-chipmunks",
+    "label": "The little stories belong to a bigger place.",
+    "primary": "/pages/our-place",
+    "supporting": [
+      "/pages/squirrel-playground-old-lumber",
+      "/stories/our-backyard-wildlife"
+    ]
+  },
+  {
+    "source": "/stories/in-the-garden",
+    "label": "From a plan to what really happened.",
+    "primary": "/stories/growing-a-little-food",
+    "supporting": [
+      "/pages/our-place"
+    ]
+  },
+  {
+    "source": "/pages/what-do-i-do-with-all-these-extra-herbs",
+    "label": "A little food is part of a bigger life.",
+    "primary": "/stories/growing-a-little-food",
+    "supporting": [
+      "/pages/our-place"
+    ]
+  }
+]

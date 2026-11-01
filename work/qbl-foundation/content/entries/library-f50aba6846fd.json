@@ -1,0 +1,42 @@
+{
+  "id": "library-f50aba6846fd",
+  "route": "/pages/what-to-grow-near-ground-cherries",
+  "output": "pages/what-to-grow-near-ground-cherries.html",
+  "title": "What to Grow Near Ground Cherries | Quiet Backyard Living",
+  "description": "Ground cherries do best when they have warmth, room, and a bed that stays useful without turning into a tangled mess.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-f50aba6846fd.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-f50aba6846fd.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-ground-cherries.html",
+    "sha256": "95b99898e1685b916a761c36e781bc71d6d01f9c679c09cc7094bd4d991a51df"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

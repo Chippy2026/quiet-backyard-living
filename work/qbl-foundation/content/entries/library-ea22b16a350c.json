@@ -1,0 +1,42 @@
+{
+  "id": "library-ea22b16a350c",
+  "route": "/pages/birdhouse-blueprints",
+  "output": "pages/birdhouse-blueprints.html",
+  "title": "Simple Birdhouse Blueprints for Beginners | Quiet Backyard Living",
+  "description": "A fun, practical way to build a basic birdhouse without turning it into a complicated woodworking project.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-ea22b16a350c.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-ea22b16a350c.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/birdhouse-blueprints.html",
+    "sha256": "58d772667c2a9b0d8d3b50247d8c5892ef79df2fe5c4700fd1f05fd6ff5d0591"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

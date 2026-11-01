@@ -1,0 +1,347 @@
+{
+  "id": "journey-ch12",
+  "route": "/our-journey/chapters/chapter-12",
+  "output": "our-journey/chapters/chapter-12.html",
+  "title": "Still plenty of time to get some things done! | Quiet Backyard Living",
+  "storyTitle": "Still plenty of time to get some things done!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Still plenty of time to get some things done!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 12,
+  "chapterOrder": 12,
+  "seriesId": "happy-place",
+  "dateLabel": "Late summer–fall 2024",
+  "dateEvidence": "August–October 2024",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home",
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 12,
+    "articleSha256": "d47ab44184214018deea74f67f95a1e258e9ee1159861c626bf3e40073f2ef11",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-14"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch12-b001",
+      "sourceHtmlSha256": "390dcaf1aafb47bbd5fcabb5b3f6017f63b9ee947d7e2db4ab321b2eea35555f",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter12-tank-structure.jpg\" alt=\"Decorative structure built around the new 500 gallon tank after it was raised up on blocks at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter12-tank-structure.jpg",
+          "alt": "Decorative structure built around the new 500 gallon tank after it was raised up on blocks at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch12-b002",
+      "image": {
+        "mediaId": "journey-dc923d6c5032",
+        "alt": "Decorative structure built around the new 500 gallon tank after it was raised up on blocks at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch12-b004",
+      "sourceHtmlSha256": "47db951e98a1b9af1da1642d873faaa75588fa548902f592dd86b849a1a0271a",
+      "sourceHtml": "<p>By the end of August 2024, it felt like maybe we still had enough season left to make a real push.</p>",
+      "text": "By the end of August 2024, it felt like maybe we still had enough season left to make a real push.",
+      "type": "paragraph",
+      "html": "<p>By the end of August 2024, it felt like maybe we still had enough season left to make a real push.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b005",
+      "sourceHtmlSha256": "8fee427bd7aa17340c8ecb422aa4f84be0e8bb9bf15c0f628f18db6f25faccc6",
+      "sourceHtml": "<p>And then one of those lucky breaks came along.</p>",
+      "text": "And then one of those lucky breaks came along.",
+      "type": "paragraph",
+      "html": "<p>And then one of those lucky breaks came along.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b006",
+      "sourceHtmlSha256": "65439ee657ad3ad4ce470b9203836be3fb8c6f5939fa3848295b750a6a88a662",
+      "sourceHtml": "<p>My brother-in-law called and said they had a five-hundred-gallon tank at work they were getting rid of, and asked if I wanted it.</p>",
+      "text": "My brother-in-law called and said they had a five-hundred-gallon tank at work they were getting rid of, and asked if I wanted it.",
+      "type": "paragraph",
+      "html": "<p>My brother-in-law called and said they had a five-hundred-gallon tank at work they were getting rid of, and asked if I wanted it.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b007",
+      "sourceHtmlSha256": "2d496dc277d1a8924cf29dc437e0d335d840c6a7b828b9fa269b45e2659e4e99",
+      "sourceHtml": "<p><strong>Of course I did.</strong></p>",
+      "text": "Of course I did.",
+      "type": "paragraph",
+      "html": "<p><strong>Of course I did.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch12-b008",
+      "sourceHtmlSha256": "99a3f29ee55ab7258625cc1957ae330a054a2a77c2705205b674dd398e25a391",
+      "sourceHtml": "<p>That was the key to solving one of the biggest water problems we still had at the cabin. And to make it even better, he was kind enough to deliver the tank too.</p>",
+      "text": "That was the key to solving one of the biggest water problems we still had at the cabin. And to make it even better, he was kind enough to deliver the tank too.",
+      "type": "paragraph",
+      "html": "<p>That was the key to solving one of the biggest water problems we still had at the cabin. And to make it even better, he was kind enough to deliver the tank too.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b009",
+      "sourceHtmlSha256": "6e2bb6dc2a6a3ffdaea15d5e6faf3c0aeff401ba2eba70bde24318b1951e006e",
+      "sourceHtml": "<p>Thanks, bro.</p>",
+      "text": "Thanks, bro.",
+      "type": "paragraph",
+      "html": "<p>Thanks, bro.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b010",
+      "sourceHtmlSha256": "245672dac5030e3e28cdbe6d003db9aab50b154a6582c6851f39687ef702e245",
+      "sourceHtml": "<p>Soon after that, Vanessa and I got the tank up off the ground on blocks and built a decorative structure around it so it would not be such an eyesore. If it was going to sit out there and be part of the place, we wanted it to look at least somewhat intentional instead of like some giant plastic problem dropped in the yard.</p>",
+      "text": "Soon after that, Vanessa and I got the tank up off the ground on blocks and built a decorative structure around it so it would not be such an eyesore. If it was going to sit out there and be part of the place, we wanted it to look at least somewhat intentional instead of like some giant plastic problem dropped in the yard.",
+      "type": "paragraph",
+      "html": "<p>Soon after that, Vanessa and I got the tank up off the ground on blocks and built a decorative structure around it so it would not be such an eyesore. If it was going to sit out there and be part of the place, we wanted it to look at least somewhat intentional instead of like some giant plastic problem dropped in the yard.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b011",
+      "sourceHtmlSha256": "9b79154055634315ec756f369d932288c9c1f48b340f22a789c25729dcded55a",
+      "sourceHtml": "<p>Back in Bay City, we had also managed to kill our raised-bed gardens again. At some point, we were going to have to stop pretending that hand-watering and good intentions were enough. We needed a real watering system there too.</p>",
+      "text": "Back in Bay City, we had also managed to kill our raised-bed gardens again. At some point, we were going to have to stop pretending that hand-watering and good intentions were enough. We needed a real watering system there too.",
+      "type": "paragraph",
+      "html": "<p>Back in Bay City, we had also managed to kill our raised-bed gardens again. At some point, we were going to have to stop pretending that hand-watering and good intentions were enough. We needed a real watering system there too.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b012",
+      "sourceHtmlSha256": "104ad73e9e89252af1b22271abbce2df766eff5c1464cd5d4b20d54d0f4cbbd0",
+      "sourceHtml": "<p>By September, we got a sudden surge of motivation to finally get after the ceiling.</p>",
+      "text": "By September, we got a sudden surge of motivation to finally get after the ceiling.",
+      "type": "paragraph",
+      "html": "<p>By September, we got a sudden surge of motivation to finally get after the ceiling.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b013",
+      "sourceHtmlSha256": "f4fcd3d635d346b0e822c100350968a48babd69dae3400e1c3f7b9449f875a7d",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter12-ceiling.jpg\" alt=\"Vanessa helping with the cabin ceiling project with insulation visible overhead\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter12-ceiling.jpg",
+          "alt": "Vanessa helping with the cabin ceiling project with insulation visible overhead"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch12-b012",
+      "nextSourceBlockId": "ch12-b014",
+      "image": {
+        "mediaId": "journey-1c2b53d3c587",
+        "alt": "Vanessa helping with the cabin ceiling project with insulation visible overhead",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch12-b014",
+      "sourceHtmlSha256": "3d4095ba8488b7c9d7b2f32a00abb8c590c3df0b883c40a10fab6954a52dd692",
+      "sourceHtml": "<p>I had picked up rough 1x10 planks from the mill, dried them out, and turned them into shiplap. Then it was time to actually put them up. That project stretched across multiple weekends, so I will not bore you with every detail, but it was one of those jobs that took longer than you think, fought back a little, and did not turn out exactly how I originally pictured it.</p>",
+      "text": "I had picked up rough 1x10 planks from the mill, dried them out, and turned them into shiplap. Then it was time to actually put them up. That project stretched across multiple weekends, so I will not bore you with every detail, but it was one of those jobs that took longer than you think, fought back a little, and did not turn out exactly how I originally pictured it.",
+      "type": "paragraph",
+      "html": "<p>I had picked up rough 1x10 planks from the mill, dried them out, and turned them into shiplap. Then it was time to actually put them up. That project stretched across multiple weekends, so I will not bore you with every detail, but it was one of those jobs that took longer than you think, fought back a little, and did not turn out exactly how I originally pictured it.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b015",
+      "sourceHtmlSha256": "1d7cf81963d279e71bc8d2cd0d5e47a55ba796f0f5e9c6f367261ee2c5aba001",
+      "sourceHtml": "<p>Still, it looked great.</p>",
+      "text": "Still, it looked great.",
+      "type": "paragraph",
+      "html": "<p>Still, it looked great.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b016",
+      "sourceHtmlSha256": "a24a09b1c9f7fd093719a17572dc486f855eb4d2abca9560af1b96f50e7b4c32",
+      "sourceHtml": "<p>And in the end, that was what mattered.</p>",
+      "text": "And in the end, that was what mattered.",
+      "type": "paragraph",
+      "html": "<p>And in the end, that was what mattered.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b017",
+      "sourceHtmlSha256": "c30953bab9ada7b0f6fe60bc21d70a3fe8766b8ffc3b134c695b94209bb54946",
+      "sourceHtml": "<p>Vanessa was a big help too, by the way. By then, she had healed up enough to work with me again, and that felt good.</p>",
+      "text": "Vanessa was a big help too, by the way. By then, she had healed up enough to work with me again, and that felt good.",
+      "type": "paragraph",
+      "html": "<p>Vanessa was a big help too, by the way. By then, she had healed up enough to work with me again, and that felt good.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b018",
+      "sourceHtmlSha256": "10c5370a8aa455af388d8860db42647a49d7179af86980829bfcf0b1644598d3",
+      "sourceHtml": "<p>We really do make a great team.</p>",
+      "text": "We really do make a great team.",
+      "type": "paragraph",
+      "html": "<p>We really do make a great team.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b019",
+      "sourceHtmlSha256": "846eafb5d8c9078dea94b1cc0e743767385980da64da44545357b60fac07b08e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter12-shack-interior.jpg\" alt=\"Inside of the weird shack showing it as basically an empty shell before any move attempt\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter12-shack-interior.jpg",
+          "alt": "Inside of the weird shack showing it as basically an empty shell before any move attempt"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch12-b018",
+      "nextSourceBlockId": "ch12-b020",
+      "image": {
+        "mediaId": "journey-f5b56bfbb99c",
+        "alt": "Inside of the weird shack showing it as basically an empty shell before any move attempt",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch12-b020",
+      "sourceHtmlSha256": "79a1e9569b6532e3bb75b9ab6cced97cde054c87630f4f37d49514720927d709",
+      "sourceHtml": "<p>Around that same time, I was still itching to get that weird shack moved. I called around to a bunch of different places trying to find somebody who could handle it, but I either could not get anyone interested or the price was way more than I was willing to pay.</p>",
+      "text": "Around that same time, I was still itching to get that weird shack moved. I called around to a bunch of different places trying to find somebody who could handle it, but I either could not get anyone interested or the price was way more than I was willing to pay.",
+      "type": "paragraph",
+      "html": "<p>Around that same time, I was still itching to get that weird shack moved. I called around to a bunch of different places trying to find somebody who could handle it, but I either could not get anyone interested or the price was way more than I was willing to pay.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b021",
+      "sourceHtmlSha256": "1981d2bc070bf435caa25eabcc42b635e13f2daadb809b8709f0ab9d499652da",
+      "sourceHtml": "<p>Which was frustrating, because it really was basically just an empty shell.</p>",
+      "text": "Which was frustrating, because it really was basically just an empty shell.",
+      "type": "paragraph",
+      "html": "<p>Which was frustrating, because it really was basically just an empty shell.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b022",
+      "sourceHtmlSha256": "a55145f8ba41e2d1d7e87a562feea426cf1374db178de4a97afce01e1a39023f",
+      "sourceHtml": "<p>So that idea was going to have to wait a little longer.</p>",
+      "text": "So that idea was going to have to wait a little longer.",
+      "type": "paragraph",
+      "html": "<p>So that idea was going to have to wait a little longer.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b023",
+      "sourceHtmlSha256": "91626ab467249de4583f040451f4a92038c91af458e8776905716ef9638f8611",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter12-fall-leaves.jpg\" alt=\"Fall leaves around the cabin property during the late October cleanup and bonfire season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter12-fall-leaves.jpg",
+          "alt": "Fall leaves around the cabin property during the late October cleanup and bonfire season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch12-b022",
+      "nextSourceBlockId": "ch12-b024",
+      "image": {
+        "mediaId": "journey-43b73f403130",
+        "alt": "Fall leaves around the cabin property during the late October cleanup and bonfire season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch12-b024",
+      "sourceHtmlSha256": "321b94cb83b4e503d7bddc6d828d9bf21e8f54ba4f92fb339d5c18c66f444691",
+      "sourceHtml": "<p>And for the rest of October, we eased back into the simpler parts of cabin life, bonfires, fall cleanup, and enjoying the property as the leaves turned and the season started leaning toward its close.</p>",
+      "text": "And for the rest of October, we eased back into the simpler parts of cabin life, bonfires, fall cleanup, and enjoying the property as the leaves turned and the season started leaning toward its close.",
+      "type": "paragraph",
+      "html": "<p>And for the rest of October, we eased back into the simpler parts of cabin life, bonfires, fall cleanup, and enjoying the property as the leaves turned and the season started leaning toward its close.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b025",
+      "sourceHtmlSha256": "857040a8f74bc59443679f6c3ab3845288209377c9fe9ecb0c8cf3ad9bc2cc82",
+      "sourceHtml": "<p>Sometimes progress looks like a major system.</p>",
+      "text": "Sometimes progress looks like a major system.",
+      "type": "paragraph",
+      "html": "<p>Sometimes progress looks like a major system.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b026",
+      "sourceHtmlSha256": "ad24779ccca060853e471db5f44eee2d15e7a3b3dd8ef28142f01718e22d4791",
+      "sourceHtml": "<p>Sometimes it looks like a finished ceiling.</p>",
+      "text": "Sometimes it looks like a finished ceiling.",
+      "type": "paragraph",
+      "html": "<p>Sometimes it looks like a finished ceiling.</p>"
+    },
+    {
+      "sourceBlockId": "ch12-b027",
+      "sourceHtmlSha256": "dd190011e314045d78341c07339bf6f518c999f5f6a3cd9fb55726b7f122da5f",
+      "sourceHtml": "<p>And sometimes it just looks like squeezing a little more good out of the season while you still can.</p>",
+      "text": "And sometimes it just looks like squeezing a little more good out of the season while you still can.",
+      "type": "paragraph",
+      "html": "<p>And sometimes it just looks like squeezing a little more good out of the season while you still can.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch25",
+      "label": "Another try for the beds back home.",
+      "context": "The story kept going"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-dc923d6c5032",
+    "alt": "Decorative structure built around the new 500 gallon tank after it was raised up on blocks at the cabin",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "By the end of August 2024, it felt like maybe we still had enough season left to make a real push. And then one of those lucky breaks came along.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twelve",
+  "originalHeadingAfterBlocks": 1
+}

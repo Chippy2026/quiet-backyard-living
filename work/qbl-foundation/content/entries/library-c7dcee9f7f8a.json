@@ -1,0 +1,40 @@
+{
+  "id": "library-c7dcee9f7f8a",
+  "route": "/pages/cedar-fence-picket-birdhouse-workshop",
+  "output": "pages/cedar-fence-picket-birdhouse-workshop.html",
+  "title": "Cedar Fence Picket Birdhouse Workshop | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition article-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-c7dcee9f7f8a.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/cedar-fence-picket-birdhouse-workshop.html",
+    "sha256": "1efc73164845a49f73d3942e60dc0159fd42213b79c6d269db124e138eefd63b"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

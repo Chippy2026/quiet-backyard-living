@@ -1,3 +1,7 @@
 [build]
-  publish = "."
+  base = "work/qbl-foundation"
+  command = "npm ci && npm run build && npm test && node scripts/release-gate.cjs"
+  publish = "release-dist"
   functions = "netlify/functions"
+[build.environment]
+  NODE_VERSION = "22"

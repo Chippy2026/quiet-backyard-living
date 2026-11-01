@@ -1,0 +1,560 @@
+{
+  "id": "journey-ch29",
+  "route": "/our-journey/chapters/chapter-29",
+  "output": "our-journey/chapters/chapter-29.html",
+  "title": "Success & Frustration | Quiet Backyard Living",
+  "storyTitle": "Success & Frustration",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Success & Frustration",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 29,
+  "chapterOrder": 29,
+  "seriesId": "happy-place",
+  "dateLabel": "June 2026",
+  "dateEvidence": "June 2026",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 29,
+    "articleSha256": "944d0e2c4e3e37328ac0295dcc16116fa0562552fab5d19bb97fd8c6990c94b0",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-30"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch29-b001",
+      "sourceHtmlSha256": "fffb880d3e36ab7a87414ccb111a9f0b290a2ce0ced3b750ad48f7bad9033919",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/story/chapter-29/stair-build.jpg\" alt=\"Beginning to build simple wooden steps for the green storage shed at the cabin in June 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/stair-build.jpg",
+          "alt": "Beginning to build simple wooden steps for the green storage shed at the cabin in June 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch29-b002",
+      "image": {
+        "mediaId": "journey-0789687b0e2c",
+        "alt": "Beginning to build simple wooden steps for the green storage shed at the cabin in June 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch29-b004",
+      "sourceHtmlSha256": "d34493b205562eb3d9129ea18a90365a5ee691140fbce50af9f927a695f7ee6f",
+      "sourceHtml": "<p>It is June now, and we have work to do.</p>",
+      "text": "It is June now, and we have work to do.",
+      "type": "paragraph",
+      "html": "<p>It is June now, and we have work to do.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b005",
+      "sourceHtmlSha256": "73b15973d788404906e82a803b60c01278e67e5dd712ed56b44f1bd9f41e9fe4",
+      "sourceHtml": "<p>We have been working our tails off getting outdoor projects done, but now it is time to get back to the inside of the cabin.</p>",
+      "text": "We have been working our tails off getting outdoor projects done, but now it is time to get back to the inside of the cabin.",
+      "type": "paragraph",
+      "html": "<p>We have been working our tails off getting outdoor projects done, but now it is time to get back to the inside of the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b006",
+      "sourceHtmlSha256": "bc7a01e84c3d86fb5c1fa2171f2b0979eee480d8c4c19cb7f14b8131f47bf7bb",
+      "sourceHtml": "<p>We have been staring at insulation and unfinished walls for way too long, and Vanessa says we have got to finish the wall this year.</p>",
+      "text": "We have been staring at insulation and unfinished walls for way too long, and Vanessa says we have got to finish the wall this year.",
+      "type": "paragraph",
+      "html": "<p>We have been staring at insulation and unfinished walls for way too long, and Vanessa says we have got to finish the wall this year.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b007",
+      "sourceHtmlSha256": "36ec07937447cc3a5d8306e843ec87001ce0a292173cb12d190fd6ae22243f74",
+      "sourceHtml": "<p>I have been dreading it because this is not exactly my favorite part of the job.</p>",
+      "text": "I have been dreading it because this is not exactly my favorite part of the job.",
+      "type": "paragraph",
+      "html": "<p>I have been dreading it because this is not exactly my favorite part of the job.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b008",
+      "sourceHtmlSha256": "c051e972e95731a36183222403361c9a3636ac3037eef2965b8e4e6e2ed89d57",
+      "sourceHtml": "<p>But before we could get to the walls, we needed stairs on that ugly green storage shed.</p>",
+      "text": "But before we could get to the walls, we needed stairs on that ugly green storage shed.",
+      "type": "paragraph",
+      "html": "<p>But before we could get to the walls, we needed stairs on that ugly green storage shed.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b009",
+      "sourceHtmlSha256": "471b5aa273f9d47a35ce9fad1ae686d70f17ef774bb487d5c399f220021b893c",
+      "sourceHtml": "<p>It was supposed to rain the next day, and we needed a better place to work from and cut boards. Stairs were definitely going to make that easier.</p>",
+      "text": "It was supposed to rain the next day, and we needed a better place to work from and cut boards. Stairs were definitely going to make that easier.",
+      "type": "paragraph",
+      "html": "<p>It was supposed to rain the next day, and we needed a better place to work from and cut boards. Stairs were definitely going to make that easier.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b010",
+      "sourceHtmlSha256": "c27399dbdd937f3e3b0c55087bc151aba3c4e7a3558bdf0a84131c20dd905374",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/story/chapter-29/stair-finish.jpg\" alt=\"Finished wooden steps leading up to the green storage shed at the cabin in June 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/stair-finish.jpg",
+          "alt": "Finished wooden steps leading up to the green storage shed at the cabin in June 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b009",
+      "nextSourceBlockId": "ch29-b011",
+      "image": {
+        "mediaId": "media-9cc7d2dfaf84",
+        "alt": "Finished wooden steps leading up to the green storage shed at the cabin in June 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch29-b011",
+      "sourceHtmlSha256": "2bd38ece548037ab0998e2e5c33a9092e4e0d3a2931acfdf946b371dc7124d41",
+      "sourceHtml": "<p>So we built them.</p>",
+      "text": "So we built them.",
+      "type": "paragraph",
+      "html": "<p>So we built them.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b012",
+      "sourceHtmlSha256": "646a046ce37efbb9f1bf94774987736face05b3be1f376f8da8dbbdec63b4223",
+      "sourceHtml": "<p>Nothing fancy, just one of those practical little jobs that instantly makes everything around it work better.</p>",
+      "text": "Nothing fancy, just one of those practical little jobs that instantly makes everything around it work better.",
+      "type": "paragraph",
+      "html": "<p>Nothing fancy, just one of those practical little jobs that instantly makes everything around it work better.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b013",
+      "sourceHtmlSha256": "cf34149c1c86c85ddd8e16675a0eb6329317a69da1cd8161655fc86db4d3fa5b",
+      "sourceHtml": "<p>The dog days of summer also decided to show up early this year. It was already in the mid to upper 80s with heavy humidity, which meant we were going to need a lot of breaks.</p>",
+      "text": "The dog days of summer also decided to show up early this year. It was already in the mid to upper 80s with heavy humidity, which meant we were going to need a lot of breaks.",
+      "type": "paragraph",
+      "html": "<p>The dog days of summer also decided to show up early this year. It was already in the mid to upper 80s with heavy humidity, which meant we were going to need a lot of breaks.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b014",
+      "sourceHtmlSha256": "6467e2bd748cdd7e161e78ce0148c09a7954adf2c49ffa48a6fcdfbf82269b82",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/story/chapter-29/turtle-crossing.jpg\" alt=\"A turtle crossing the cabin property in early summer 2026 like he owned the place\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/turtle-crossing.jpg",
+          "alt": "A turtle crossing the cabin property in early summer 2026 like he owned the place"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b013",
+      "nextSourceBlockId": "ch29-b015",
+      "image": {
+        "mediaId": "journey-452fd17303c0",
+        "alt": "A turtle crossing the cabin property in early summer 2026 like he owned the place",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch29-b015",
+      "sourceHtmlSha256": "24bdfdc73e4b0ce452598ccc35180917d66ec5221625ab2fe54e63d6c4016556",
+      "sourceHtml": "<p>At the same time, the property felt incredibly alive. Birds were everywhere, little critters were moving around nonstop, and at one point we even had a turtle crossing the property like he owned the place.</p>",
+      "text": "At the same time, the property felt incredibly alive. Birds were everywhere, little critters were moving around nonstop, and at one point we even had a turtle crossing the property like he owned the place.",
+      "type": "paragraph",
+      "html": "<p>At the same time, the property felt incredibly alive. Birds were everywhere, little critters were moving around nonstop, and at one point we even had a turtle crossing the property like he owned the place.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b016",
+      "sourceHtmlSha256": "a5d13da85573b4ee5947e85d28a5c4f1e1cfad1fde9dca6bfc100af5096574fd",
+      "sourceHtml": "<p>Chippy was also busy hoarding treats and acting like he should probably get paid every hour.</p>",
+      "text": "Chippy was also busy hoarding treats and acting like he should probably get paid every hour.",
+      "type": "paragraph",
+      "html": "<p>Chippy was also busy hoarding treats and acting like he should probably get paid every hour.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b017",
+      "sourceHtmlSha256": "64f7d2e0e7042b42fcb3d0f3e12fd3d7b50768a0d94f92a506f65cd67ef13216",
+      "sourceHtml": "<p>But enough break time. It was time to get to work.</p>",
+      "text": "But enough break time. It was time to get to work.",
+      "type": "paragraph",
+      "html": "<p>But enough break time. It was time to get to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b018",
+      "sourceHtmlSha256": "5f0f09cfa2d969b6e0c752537a89e7fac92c4f48ad4deb42ca3a9cafc5170598",
+      "sourceHtml": "<p>For the walls, we decided to do painted plywood on the bottom half and decorative paneling on the top half. At least that was the plan. We would see if we actually liked it once it started going up.</p>",
+      "text": "For the walls, we decided to do painted plywood on the bottom half and decorative paneling on the top half. At least that was the plan. We would see if we actually liked it once it started going up.",
+      "type": "paragraph",
+      "html": "<p>For the walls, we decided to do painted plywood on the bottom half and decorative paneling on the top half. At least that was the plan. We would see if we actually liked it once it started going up.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b019",
+      "sourceHtmlSha256": "76f1826901d60c5d344c30b82137927fc918f10f49f0df0eddbeb4004d667441",
+      "sourceHtml": "<p>After setting everything up in the storage shed to cut and moving furniture and gear away from the walls inside the cabin, it was time to start.</p>",
+      "text": "After setting everything up in the storage shed to cut and moving furniture and gear away from the walls inside the cabin, it was time to start.",
+      "type": "paragraph",
+      "html": "<p>After setting everything up in the storage shed to cut and moving furniture and gear away from the walls inside the cabin, it was time to start.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b020",
+      "sourceHtmlSha256": "d368d13f37d17b1b4cfe4dea5fc71b472c96965a3ce5cc72d9b4829ffb11b067",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/story/chapter-29/cutting-plywood.jpg\" alt=\"Cutting plywood pieces in the storage shed during the June 2026 cabin wall project\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/cutting-plywood.jpg",
+          "alt": "Cutting plywood pieces in the storage shed during the June 2026 cabin wall project"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b019",
+      "nextSourceBlockId": "ch29-b021",
+      "image": {
+        "mediaId": "journey-88c5d99004ad",
+        "alt": "Cutting plywood pieces in the storage shed during the June 2026 cabin wall project",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch29-b021",
+      "sourceHtmlSha256": "283dd5634e32ab6dc4d80b736d6a039833d0e3f9f41c47f6905cef4ecdd60dfe",
+      "sourceHtml": "<p>That meant up and down the new stairs and back and forth between the two buildings measuring and cutting the length and width of every board.</p>",
+      "text": "That meant up and down the new stairs and back and forth between the two buildings measuring and cutting the length and width of every board.",
+      "type": "paragraph",
+      "html": "<p>That meant up and down the new stairs and back and forth between the two buildings measuring and cutting the length and width of every board.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b022",
+      "sourceHtmlSha256": "849ff428cacfacab202dae15457f02d50ee7540ad74cbf94ea8b78dbd4c1820f",
+      "sourceHtml": "<p>Every window, door, outlet, and switch had to be carefully measured and cut with precision, which is not exactly a relaxing job when you are working with half-inch plywood.</p>",
+      "text": "Every window, door, outlet, and switch had to be carefully measured and cut with precision, which is not exactly a relaxing job when you are working with half-inch plywood.",
+      "type": "paragraph",
+      "html": "<p>Every window, door, outlet, and switch had to be carefully measured and cut with precision, which is not exactly a relaxing job when you are working with half-inch plywood.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b023",
+      "sourceHtmlSha256": "e635c56d658ccbd7370c60c5bf7975af1c7da3745e48c690a69275edcd7070f4",
+      "sourceHtml": "<p>After two exhausting days of doing that, we finally got all the plywood sections in.</p>",
+      "text": "After two exhausting days of doing that, we finally got all the plywood sections in.",
+      "type": "paragraph",
+      "html": "<p>After two exhausting days of doing that, we finally got all the plywood sections in.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b024",
+      "sourceHtmlSha256": "35bf35bb3399e6a896baa0f8c62851af2af96d59b466799f4770102b9e72a468",
+      "sourceHtml": "<p>I swear I probably lost 10 pounds just sweating.</p>",
+      "text": "I swear I probably lost 10 pounds just sweating.",
+      "type": "paragraph",
+      "html": "<p>I swear I probably lost 10 pounds just sweating.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b025",
+      "sourceHtmlSha256": "d7b2f4dacaec4b4f67b45c347ba9d448dd2604a6993d8baec76f519164411ed6",
+      "sourceHtml": "<p>Still, that part felt like real success.</p>",
+      "text": "Still, that part felt like real success.",
+      "type": "paragraph",
+      "html": "<p>Still, that part felt like real success.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b026",
+      "sourceHtmlSha256": "cccd50599c3190ed6abd078d42db94ea905d8e67bfede49457288a380f2ecffb",
+      "sourceHtml": "<p>We still had two more days planned at the cabin, and since we had the truck and were already on a roll, we decided to run into town, grab the decorative paneling and paint for the plywood, and see if we could knock that part out too.</p>",
+      "text": "We still had two more days planned at the cabin, and since we had the truck and were already on a roll, we decided to run into town, grab the decorative paneling and paint for the plywood, and see if we could knock that part out too.",
+      "type": "paragraph",
+      "html": "<p>We still had two more days planned at the cabin, and since we had the truck and were already on a roll, we decided to run into town, grab the decorative paneling and paint for the plywood, and see if we could knock that part out too.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b027",
+      "sourceHtmlSha256": "e83c8dce9bf7bfc0e076b587ffac97dbd7174feca03e5d7dacabc41cf4b27320",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/story/chapter-29/paneling-progress.jpg\" alt=\"Decorative upper wall paneling going up inside the cabin during the June 2026 wall project\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/paneling-progress.jpg",
+          "alt": "Decorative upper wall paneling going up inside the cabin during the June 2026 wall project"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b026",
+      "nextSourceBlockId": "ch29-b028",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch29-b028",
+      "sourceHtmlSha256": "129cba7c1848b32a92439a9bb53e7b5bff2908aa8e481ae10ece7b9c18969640",
+      "sourceHtml": "<p>So the next morning we headed back into town, got the paneling and paint, and came right back to the cabin.</p>",
+      "text": "So the next morning we headed back into town, got the paneling and paint, and came right back to the cabin.",
+      "type": "paragraph",
+      "html": "<p>So the next morning we headed back into town, got the paneling and paint, and came right back to the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b029",
+      "sourceHtmlSha256": "48c61675c6054c1760701010e9c530f52906ffca0c4aab3ed3fb3959d2dcc8cc",
+      "sourceHtml": "<p>The rest of that afternoon actually went pretty smoothly.</p>",
+      "text": "The rest of that afternoon actually went pretty smoothly.",
+      "type": "paragraph",
+      "html": "<p>The rest of that afternoon actually went pretty smoothly.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b030",
+      "sourceHtmlSha256": "11f7951ed4b431246c6034dc7bc282d20528627ea93b6793b54e2857cf837a3f",
+      "sourceHtml": "<p>By late afternoon, though, we were both starting to feel pretty exhausted. Maybe that should have been a sign I missed.</p>",
+      "text": "By late afternoon, though, we were both starting to feel pretty exhausted. Maybe that should have been a sign I missed.",
+      "type": "paragraph",
+      "html": "<p>By late afternoon, though, we were both starting to feel pretty exhausted. Maybe that should have been a sign I missed.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b031",
+      "sourceHtmlSha256": "6e0aeeff7d6bdaf4ae4bf5b5161bc8bf3c459feaa8ed0c5b05e1265b29803b69",
+      "sourceHtml": "<p>I made a bad measurement and ruined a piece of paneling, so we decided to call it quits for the day.</p>",
+      "text": "I made a bad measurement and ruined a piece of paneling, so we decided to call it quits for the day.",
+      "type": "paragraph",
+      "html": "<p>I made a bad measurement and ruined a piece of paneling, so we decided to call it quits for the day.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b032",
+      "sourceHtmlSha256": "f8773ab50fb39cedcf587398ca01f987ec93000bcdbec9f13e2581496cdb2e20",
+      "sourceHtml": "<p>That meant a much-needed cold drink and some deck time in the rocking chairs, which honestly felt pretty deserved at that point.</p>",
+      "text": "That meant a much-needed cold drink and some deck time in the rocking chairs, which honestly felt pretty deserved at that point.",
+      "type": "paragraph",
+      "html": "<p>That meant a much-needed cold drink and some deck time in the rocking chairs, which honestly felt pretty deserved at that point.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b033",
+      "sourceHtmlSha256": "233bf398697c653f8c1318ecc8ec920aa8e0e984816143f9ea9dc02d82893375",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/story/chapter-29/paneling-fighting-back.jpg\" alt=\"Partially finished cabin wall with decorative paneling and plywood while the project started fighting back in June 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/paneling-fighting-back.jpg",
+          "alt": "Partially finished cabin wall with decorative paneling and plywood while the project started fighting back in June 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b032",
+      "nextSourceBlockId": "ch29-b034",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch29-b034",
+      "sourceHtmlSha256": "76980afa5444ebed103c9f78ba456bb1b924152f68de4f630309c56699fb6253",
+      "sourceHtml": "<p>The next morning came, and the enthusiasm was just not really there.</p>",
+      "text": "The next morning came, and the enthusiasm was just not really there.",
+      "type": "paragraph",
+      "html": "<p>The next morning came, and the enthusiasm was just not really there.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b035",
+      "sourceHtmlSha256": "068012fa83f0e95ce088dbab3b23f800987ebaf3c51bbf7e9d8165f274bdd1d7",
+      "sourceHtml": "<p>But we pushed through and started on the other side of the cabin, planning to finish with the piece I had screwed up the day before.</p>",
+      "text": "But we pushed through and started on the other side of the cabin, planning to finish with the piece I had screwed up the day before.",
+      "type": "paragraph",
+      "html": "<p>But we pushed through and started on the other side of the cabin, planning to finish with the piece I had screwed up the day before.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b036",
+      "sourceHtmlSha256": "21bccb80946d3104458407cfad143aaeaa9811797c0ec9acbb3bb7a0af43e101",
+      "sourceHtml": "<p>The paneling was going up, but it fought us at every turn. Pieces were not fitting how I wanted them to, and it was starting to wear on me.</p>",
+      "text": "The paneling was going up, but it fought us at every turn. Pieces were not fitting how I wanted them to, and it was starting to wear on me.",
+      "type": "paragraph",
+      "html": "<p>The paneling was going up, but it fought us at every turn. Pieces were not fitting how I wanted them to, and it was starting to wear on me.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b037",
+      "sourceHtmlSha256": "692f8d05708e5d13e4aada03c0a12379ffb733081c97f660a507eb10c2c200cf",
+      "sourceHtml": "<p>We kept pushing and got all the way to the final section, you know, the one I had already messed up once.</p>",
+      "text": "We kept pushing and got all the way to the final section, you know, the one I had already messed up once.",
+      "type": "paragraph",
+      "html": "<p>We kept pushing and got all the way to the final section, you know, the one I had already messed up once.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b038",
+      "sourceHtmlSha256": "7bdddc1d4b78ba35726cd641fb2feab4f4b15081897f584ea98156f4a2040694",
+      "sourceHtml": "<p>By then we were exhausted.</p>",
+      "text": "By then we were exhausted.",
+      "type": "paragraph",
+      "html": "<p>By then we were exhausted.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b039",
+      "sourceHtmlSha256": "6b710689bab17be4cec0247f04ad304c2f48478d968955e35e460ccad0842611",
+      "sourceHtml": "<p>I pushed through anyway, measured and remeasured, and cut that piece again.</p>",
+      "text": "I pushed through anyway, measured and remeasured, and cut that piece again.",
+      "type": "paragraph",
+      "html": "<p>I pushed through anyway, measured and remeasured, and cut that piece again.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b040",
+      "sourceHtmlSha256": "92fbea23da7e952467aa82941161990db6d7c3890a982226b07558aaa0199050",
+      "sourceHtml": "<p>We went to hang it and bam, it was wrong again.</p>",
+      "text": "We went to hang it and bam, it was wrong again.",
+      "type": "paragraph",
+      "html": "<p>We went to hang it and bam, it was wrong again.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b041",
+      "sourceHtmlSha256": "844a8b2747cb69998e0dca05d0ec80c75e37b4761d14ec4893a9189e9d26dea8",
+      "sourceHtml": "<p>Another ruined piece of paneling.</p>",
+      "text": "Another ruined piece of paneling.",
+      "type": "paragraph",
+      "html": "<p>Another ruined piece of paneling.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b042",
+      "sourceHtmlSha256": "b740f5a488e87d3a31595525842edd058dc929eca865c1f510e7daf88a04a05d",
+      "sourceHtml": "<p>At that point I was done. I started yelling and cursing. Sorry I lost my cool, Vanessa.</p>",
+      "text": "At that point I was done. I started yelling and cursing. Sorry I lost my cool, Vanessa.",
+      "type": "paragraph",
+      "html": "<p>At that point I was done. I started yelling and cursing. Sorry I lost my cool, Vanessa.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b043",
+      "sourceHtmlSha256": "471bb5c4e44c31ac7e0682b2350af8dfba0b9fb2e354da32b1428e066f94ba21",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/story/chapter-29/wall-progress.jpg\" alt=\"Cabin wall progress with plywood lower section and decorative upper paneling after a frustrating final workday in June 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/story/chapter-29/wall-progress.jpg",
+          "alt": "Cabin wall progress with plywood lower section and decorative upper paneling after a frustrating final workday in June 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch29-b042",
+      "nextSourceBlockId": "ch29-b044",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch29-b044",
+      "sourceHtmlSha256": "68a30343d60573769fd0694a3dd5d77c961277e63c863725ffe7817a74b4b55c",
+      "sourceHtml": "<p>Looking back, maybe we should have used that last day, which was cooler and really beautiful, to just relax and enjoy what we had already accomplished.</p>",
+      "text": "Looking back, maybe we should have used that last day, which was cooler and really beautiful, to just relax and enjoy what we had already accomplished.",
+      "type": "paragraph",
+      "html": "<p>Looking back, maybe we should have used that last day, which was cooler and really beautiful, to just relax and enjoy what we had already accomplished.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b045",
+      "sourceHtmlSha256": "10947b6b6163a05702fc5fe40ac5e0b9e851abfe4c49ff0ebbbac440a1f33b5f",
+      "sourceHtml": "<p>I hated leaving the cabin on a sour note, but I had enough, and we were both tired, sore, and completely worn out.</p>",
+      "text": "I hated leaving the cabin on a sour note, but I had enough, and we were both tired, sore, and completely worn out.",
+      "type": "paragraph",
+      "html": "<p>I hated leaving the cabin on a sour note, but I had enough, and we were both tired, sore, and completely worn out.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b046",
+      "sourceHtmlSha256": "3b710ba8e7dd7ae70e0ab709045fd479a231447ad18a9887c5ece9bd9ff5697a",
+      "sourceHtml": "<p>You might have beat us this time, paneling, but we will be back and win this battle.</p>",
+      "text": "You might have beat us this time, paneling, but we will be back and win this battle.",
+      "type": "paragraph",
+      "html": "<p>You might have beat us this time, paneling, but we will be back and win this battle.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b047",
+      "sourceHtmlSha256": "392d662a0f7c2ec4c3a25e3bcbb686e12dd26c6cd4ee085c2919b36640c5228a",
+      "sourceHtml": "<p><strong>Want the next chapter when it’s ready?</strong></p>",
+      "text": "Want the next chapter when it’s ready?",
+      "type": "paragraph",
+      "html": "<p><strong>Want the next chapter when it’s ready?</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch29-b048",
+      "sourceHtmlSha256": "a6173d309b35a71d1b3296f4ee91caa4596927291b618fdba3d4a514ca73eaf6",
+      "sourceHtml": "<p>This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.</p>",
+      "text": "This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.",
+      "type": "paragraph",
+      "html": "<p>This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.</p>"
+    },
+    {
+      "sourceBlockId": "ch29-b049",
+      "sourceHtmlSha256": "e16fa9878333c513a782fc03e308f7759dc9aaad246f6ae697a589cc5a98c1d4",
+      "sourceHtml": "<p><a class=\"button story-book-button story-book-button-soft\" href=\"/pages/get-updates-from-around-the-yard.html?return=/pages/what-we-re-up-to-around-the-yard-and-cabin.html\">Send Me the Next Chapter</a></p>",
+      "text": "Send Me the Next Chapter",
+      "type": "paragraph",
+      "html": "<p><a class=\"button story-book-button story-book-button-soft\" href=\"/pages/get-updates-from-around-the-yard?return=/pages/what-we-re-up-to-around-the-yard-and-cabin.html\">Send Me the Next Chapter</a></p>"
+    },
+    {
+      "sourceBlockId": "ch29-b050",
+      "sourceHtmlSha256": "a1d6e0f61e543d2920b41b9e71eeb9078874e36c9c72c8d1f34cfdfa02252f16",
+      "sourceHtml": "<p>Until next time, y’all.</p>",
+      "text": "Until next time, y’all.",
+      "type": "paragraph",
+      "html": "<p>Until next time, y’all.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "media-9cc7d2dfaf84",
+    "alt": "Finished wooden steps leading up to the green storage shed at the cabin in June 2026",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It is June now, and we have work to do. We have been working our tails off getting outdoor projects done, but now it is time to get back to the inside of the cabin.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Nine",
+  "originalHeadingAfterBlocks": 1
+}

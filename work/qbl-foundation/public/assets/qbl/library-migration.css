@@ -1,0 +1,16 @@
+/* Scope additions to the newly managed library, leaving approved systems frozen. */
+.qbl-library-page .ih-utility-links{display:flex;gap:20px;align-items:center}
+.qbl-library-page .complete-guide{overflow-wrap:anywhere}
+.qbl-library-page img{max-width:100%;height:auto}
+.qbl-library-page table{max-width:100%;display:block;overflow:auto}
+.qbl-library-page .co-card h2 a{display:block;padding-block:10px}
+.qbl-library-page input,.qbl-library-page select,.qbl-library-page button{max-width:100%;min-height:44px}
+.qbl-library-page :focus-visible{outline:3px solid #976447;outline-offset:4px}
+@media(max-width:1000px){.qbl-library-page .hp-nav-inner{flex-wrap:wrap}.qbl-library-page .hp-nav{order:5;flex:0 0 100%;justify-content:space-between;gap:15px;padding:10px 0;border-top:1px solid #ccc}.qbl-library-page .hp-nav a{display:block!important;font-size:12px}.qbl-library-page .search-toggle{margin-left:auto}}
+@media(max-width:640px){.qbl-library-page .ih-utility-links{flex-wrap:wrap;gap:12px}.qbl-library-page .complete-guide{font-size:19px}.qbl-library-page .companion-grid,.qbl-library-page .snapshot-wrap,.qbl-library-page .reasons-wrap,.qbl-library-page .pest-wrap,.qbl-library-page .example-wrap{grid-template-columns:1fr}.qbl-library-page .hp-nav a{font-size:10px}}
+/* Retire recovered rounded/gold card decoration in favor of the approved
+   Field Guide's cream, sage, ruled sections and confident editorial type. */
+.qbl-library-page .complete-guide .companion-card,.qbl-library-page .complete-guide .warning-box{background:transparent;border:0;border-top:1px solid #b9c1af;border-radius:0;box-shadow:none;padding:24px 0}
+.qbl-library-page .complete-guide .fact-box,.qbl-library-page .complete-guide .snapshot-box,.qbl-library-page .complete-guide .pest-box{background:#e7eadf;border:1px solid #bdc7b3;border-radius:0;box-shadow:none;padding:24px}
+.qbl-library-page .complete-guide .companion-grid{gap:10px 30px}
+.qbl-library-page .complete-guide .companion-card h3,.qbl-library-page .complete-guide .warning-box h3{color:#304a38}

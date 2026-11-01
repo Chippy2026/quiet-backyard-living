@@ -1,0 +1,52 @@
+[
+  {
+    "id": "garden-water",
+    "items": [
+      {
+        "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#city-beds-dried-up",
+        "label": "The city beds needed water"
+      },
+      {
+        "href": "/notebook/another-try-for-the-city-beds",
+        "label": "Another try"
+      },
+      {
+        "href": "/pages/diy-olla-watering-system",
+        "label": "See the build"
+      }
+    ],
+    "evidence": "Existing garden thread and source journal; outcome remains unreported"
+  },
+  {
+    "id": "chippy-playground",
+    "items": [
+      {
+        "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#meeting-chippy",
+        "label": "Meet Chippy"
+      },
+      {
+        "href": "/pages/squirrel-playground-old-lumber",
+        "label": "The woodpile playground"
+      },
+      {
+        "href": "/pages/gallery#grosbeak-squirrel-gym",
+        "label": "The grosbeak joined in"
+      }
+    ],
+    "evidence": "Existing chipmunk thread and actual photo-journal observation"
+  },
+  {
+    "id": "berry-trellis",
+    "items": [
+      {
+        "contentId": "project",
+        "label": "Build the fan trellis"
+      },
+      {
+        "href": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+        "label": "Then it went into the patch"
+      }
+    ],
+    "evidence": "Source build and late-May 2026 journal installation"
+  }
+]

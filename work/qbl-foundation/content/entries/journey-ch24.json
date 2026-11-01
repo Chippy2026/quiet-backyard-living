@@ -1,0 +1,379 @@
+{
+  "id": "journey-ch24",
+  "route": "/our-journey/chapters/chapter-24",
+  "output": "our-journey/chapters/chapter-24.html",
+  "title": "How About a Couple Fun Winter Projects? | Quiet Backyard Living",
+  "storyTitle": "How About a Couple Fun Winter Projects?",
+  "kind": "chapter",
+  "status": "published",
+  "description": "How About a Couple Fun Winter Projects?",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 24,
+  "chapterOrder": 24,
+  "seriesId": "happy-place",
+  "dateLabel": "Winter before spring 2026",
+  "dateEvidence": "Winter before spring 2026; website idea around March",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 24,
+    "articleSha256": "faf2573200bb08924057c01d9bacfbeeea6dc40f2496ad3ebab53224d7fd5620",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-26"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch24-b001",
+      "sourceHtmlSha256": "11a3ac9ef1958fa98ebfb24497924718fda14e8b9bceb362d57422b3e9d95e43",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter24-birdhouse.jpg\" alt=\"Whimsical birdhouse project completed during the long Michigan winter before the 2026 cabin season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter24-birdhouse.jpg",
+          "alt": "Whimsical birdhouse project completed during the long Michigan winter before the 2026 cabin season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch24-b002",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch24-b004",
+      "sourceHtmlSha256": "3d555152c370867173165c5e8e91c3f3b5765f7f482d5c0105e8097c558cb3c7",
+      "sourceHtml": "<p>The winters here in Michigan sure do feel long.</p>",
+      "text": "The winters here in Michigan sure do feel long.",
+      "type": "paragraph",
+      "html": "<p>The winters here in Michigan sure do feel long.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b005",
+      "sourceHtmlSha256": "4cc0b90b989137945e7b5fa4a17998f86c1fb2d95eac11337fb590613444d00a",
+      "sourceHtml": "<p>And somewhere along the way, I started asking myself:</p>",
+      "text": "And somewhere along the way, I started asking myself:",
+      "type": "paragraph",
+      "html": "<p>And somewhere along the way, I started asking myself:</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b006",
+      "sourceHtmlSha256": "05a5f64de5e80afd0a981ddc8f899f82e0b1703e2d5e0d9a6e5ff26535dc1351",
+      "sourceHtml": "<p>“What projects can I do this winter that might make cabin life even better next year?”</p>",
+      "text": "“What projects can I do this winter that might make cabin life even better next year?”",
+      "type": "paragraph",
+      "html": "<p>“What projects can I do this winter that might make cabin life even better next year?”</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b007",
+      "sourceHtmlSha256": "02dc840a395549ce52fba787194dbfb00e49ea2a638c1ad894c7ba03bc1023b7",
+      "sourceHtml": "<p>That was how a few new ideas got born.</p>",
+      "text": "That was how a few new ideas got born.",
+      "type": "paragraph",
+      "html": "<p>That was how a few new ideas got born.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b008",
+      "sourceHtmlSha256": "1c73c73f37313fd249cee29e07753a60738838aaa2d73751827a89287b0ba92b",
+      "sourceHtml": "<p>First, I kept thinking about all those birds up north and how only a few of them really had a place to claim as home. So I started building birdhouses.</p>",
+      "text": "First, I kept thinking about all those birds up north and how only a few of them really had a place to claim as home. So I started building birdhouses.",
+      "type": "paragraph",
+      "html": "<p>First, I kept thinking about all those birds up north and how only a few of them really had a place to claim as home. So I started building birdhouses.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b009",
+      "sourceHtmlSha256": "44a4cc00e4f929d1f71c2b8402bdf6d2db5a82c1f7d2df3b69ef7ccc4844becc",
+      "sourceHtml": "<p>But before building birdhouses, obviously I needed some better tools, right?</p>",
+      "text": "But before building birdhouses, obviously I needed some better tools, right?",
+      "type": "paragraph",
+      "html": "<p>But before building birdhouses, obviously I needed some better tools, right?</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b010",
+      "sourceHtmlSha256": "48be25bb1ae261800f750c8a38d2d530c35856b52de9045fac1df9fc2e4713bf",
+      "sourceHtml": "<p>Thanks for those extra work hours, Vanessa. 😁</p>",
+      "text": "Thanks for those extra work hours, Vanessa. 😁",
+      "type": "paragraph",
+      "html": "<p>Thanks for those extra work hours, Vanessa. 😁</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b011",
+      "sourceHtmlSha256": "2bd9e4a2be1aa5b21de43542a6d0a6b63f32da514ec1b938ad34469413297257",
+      "sourceHtml": "<p>Okay, now we can build.</p>",
+      "text": "Okay, now we can build.",
+      "type": "paragraph",
+      "html": "<p>Okay, now we can build.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b012",
+      "sourceHtmlSha256": "6dc56c43d0a3bc9318bea1a61181c8d62f3bba692a87d3f074013ef34f5b933a",
+      "sourceHtml": "<p>But do not feel too sorry for Vanessa working so hard to fund my tool habit. She benefited from it too.</p>",
+      "text": "But do not feel too sorry for Vanessa working so hard to fund my tool habit. She benefited from it too.",
+      "type": "paragraph",
+      "html": "<p>But do not feel too sorry for Vanessa working so hard to fund my tool habit. She benefited from it too.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b013",
+      "sourceHtmlSha256": "46bb4cb7725e95a96ac18308d9a0445a9a9ed2dac292024dbe2e0aedf05c7ead",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter24-christmas-party.jpg\" alt=\"Vanessa's Christmas Sip and Build party with friends making and decorating birdhouses\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter24-christmas-party.jpg",
+          "alt": "Vanessa's Christmas Sip and Build party with friends making and decorating birdhouses"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch24-b012",
+      "nextSourceBlockId": "ch24-b014",
+      "image": {
+        "mediaId": "journey-6d441246a5a5",
+        "alt": "Vanessa's Christmas Sip and Build party with friends making and decorating birdhouses",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch24-b014",
+      "sourceHtmlSha256": "b08f2df7747eab8bef5669f6579ea5289037f8ed6c462f6d347828b4ae8bf561",
+      "sourceHtml": "<p>We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her <strong>Christmas Sip &amp; Build</strong>.</p>",
+      "text": "We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her Christmas Sip & Build .",
+      "type": "paragraph",
+      "html": "<p>We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her <strong>Christmas Sip &amp; Build</strong>.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b015",
+      "sourceHtmlSha256": "0fefff7976eb95dd8b9bd24a50ec2d8e83ae168543f3ddd471fb42385c259ea5",
+      "sourceHtml": "<p>And honestly, that was a blast.</p>",
+      "text": "And honestly, that was a blast.",
+      "type": "paragraph",
+      "html": "<p>And honestly, that was a blast.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b016",
+      "sourceHtmlSha256": "4095988de51066be128df3d49d2b200d47566e607c3eb6813e2885f1706e3974",
+      "sourceHtml": "<p>Everybody had fun, we had fun, and they all got to take home their own special birdhouse.</p>",
+      "text": "Everybody had fun, we had fun, and they all got to take home their own special birdhouse.",
+      "type": "paragraph",
+      "html": "<p>Everybody had fun, we had fun, and they all got to take home their own special birdhouse.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b017",
+      "sourceHtmlSha256": "6667653073d0d8b294aec57c011e4046aad1a98469d8a94fa5463bd0af5de128",
+      "sourceHtml": "<p>Next year maybe we will do birdfeeders.</p>",
+      "text": "Next year maybe we will do birdfeeders.",
+      "type": "paragraph",
+      "html": "<p>Next year maybe we will do birdfeeders.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b018",
+      "sourceHtmlSha256": "02cd6cef6d402a9b1aea80ffb9459ce06ec26ca0cfd18c90e5588baafc2a0dd1",
+      "sourceHtml": "<p>Who knows.</p>",
+      "text": "Who knows.",
+      "type": "paragraph",
+      "html": "<p>Who knows.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b019",
+      "sourceHtmlSha256": "47bfb3a9d1953a3a429349a621157b0cabde9bd8da002efd68a749dcd4c90f1d",
+      "sourceHtml": "<p>But I definitely caught the bug and ended up making a few more for gifts, along with a couple for ourselves. I figured the birds up north would probably appreciate them too.</p>",
+      "text": "But I definitely caught the bug and ended up making a few more for gifts, along with a couple for ourselves. I figured the birds up north would probably appreciate them too.",
+      "type": "paragraph",
+      "html": "<p>But I definitely caught the bug and ended up making a few more for gifts, along with a couple for ourselves. I figured the birds up north would probably appreciate them too.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b020",
+      "sourceHtmlSha256": "0eec753c9f95ea62f90377720bbf0d670e95af23c9b222f72614377119543f8f",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter24-birdfeeder.jpg\" alt=\"Simple handmade birdfeeder in the same log-cabin style as the winter birdhouse builds\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter24-birdfeeder.jpg",
+          "alt": "Simple handmade birdfeeder in the same log-cabin style as the winter birdhouse builds"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch24-b019",
+      "nextSourceBlockId": "ch24-b021",
+      "image": {
+        "mediaId": "media-863bdcb8d9eb",
+        "alt": "Simple handmade birdfeeder in the same log-cabin style as the winter birdhouse builds",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch24-b021",
+      "sourceHtmlSha256": "ecfa94bb61b6e3e6adc8973e8fe19ac88745becb542c2bf52dafbb4185d5d739",
+      "sourceHtml": "<p>Then I started branching those new skills out into other useful critter things.</p>",
+      "text": "Then I started branching those new skills out into other useful critter things.",
+      "type": "paragraph",
+      "html": "<p>Then I started branching those new skills out into other useful critter things.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b022",
+      "sourceHtmlSha256": "34c2a9a4916c469b6ef09cd10de24b85dfbe42bbbafdf4041cdfdc084b37917f",
+      "sourceHtml": "<p>Like birdfeeders in that same little log-cabin style everybody seemed to enjoy.</p>",
+      "text": "Like birdfeeders in that same little log-cabin style everybody seemed to enjoy.",
+      "type": "paragraph",
+      "html": "<p>Like birdfeeders in that same little log-cabin style everybody seemed to enjoy.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b023",
+      "sourceHtmlSha256": "f92a8e0ae97a8cfb96e67deddf410cfe0a9226bd334c833ab7a3e17a7b20dfd5",
+      "sourceHtml": "<p>The winter seemed to take forever.</p>",
+      "text": "The winter seemed to take forever.",
+      "type": "paragraph",
+      "html": "<p>The winter seemed to take forever.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b024",
+      "sourceHtmlSha256": "2550ee8fb039ee3004ce5a697696ad873ec64fa20465d28cb6970221eaa9ebbc",
+      "sourceHtml": "<p>But my mind never really stopped working.</p>",
+      "text": "But my mind never really stopped working.",
+      "type": "paragraph",
+      "html": "<p>But my mind never really stopped working.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b025",
+      "sourceHtmlSha256": "7e78625c6e2eda0cf522651d3bc55b74faaec4313df2eaf27b1e20a96177161e",
+      "sourceHtml": "<p>I was always dreaming up the next thing for cabin life.</p>",
+      "text": "I was always dreaming up the next thing for cabin life.",
+      "type": "paragraph",
+      "html": "<p>I was always dreaming up the next thing for cabin life.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b026",
+      "sourceHtmlSha256": "6505c41ee14ecf1e684b28ba823822c949bfd37b09ece3c3c0418491aefad8cc",
+      "sourceHtml": "<p>And then, somewhere around March, I came up with what felt like another pretty wild idea.</p>",
+      "text": "And then, somewhere around March, I came up with what felt like another pretty wild idea.",
+      "type": "paragraph",
+      "html": "<p>And then, somewhere around March, I came up with what felt like another pretty wild idea.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b027",
+      "sourceHtmlSha256": "974a5b13959bfe63b81ef2f6993372c46ba6cf287979c4b4a8594f3c7b14dd0a",
+      "sourceHtml": "<p>This website.</p>",
+      "text": "This website.",
+      "type": "paragraph",
+      "html": "<p>This website.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b028",
+      "sourceHtmlSha256": "8832fade390fce3d40ab763ba1a1f640fb2ef584277d79ff0387a736d3912416",
+      "sourceHtml": "<p>With the help of an AI assistant named Chippy, we spent the last couple of months feverishly working on it. What started as a way to document Vanessa’s and my journey slowly turned into something bigger, a place where we could bring people along and let them see the projects, the setbacks, the wildlife, the weird ideas, and all the crazy antics that came with building this life.</p>",
+      "text": "With the help of an AI assistant named Chippy, we spent the last couple of months feverishly working on it. What started as a way to document Vanessa’s and my journey slowly turned into something bigger, a place where we could bring people along and let them see the projects, the setbacks, the wildlife, the weird ideas, and all the crazy antics that came with building this life.",
+      "type": "paragraph",
+      "html": "<p>With the help of an AI assistant named Chippy, we spent the last couple of months feverishly working on it. What started as a way to document Vanessa’s and my journey slowly turned into something bigger, a place where we could bring people along and let them see the projects, the setbacks, the wildlife, the weird ideas, and all the crazy antics that came with building this life.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b029",
+      "sourceHtmlSha256": "c0c949332fc33ad9aa56c2243d0b090ce1665dedbcb5614708b010fdd5c6db60",
+      "sourceHtml": "<p>That is really what this section is.</p>",
+      "text": "That is really what this section is.",
+      "type": "paragraph",
+      "html": "<p>That is really what this section is.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b030",
+      "sourceHtmlSha256": "97151ee299d6008cda624ee3df2d0afcf9a44488964a543e3eca11ec1deb8a34",
+      "sourceHtml": "<p>An almost-live running story of what we are doing when we head up to the cabin to work on projects, fix things, dream up the next step, and try to build something peaceful out of all of it.</p>",
+      "text": "An almost-live running story of what we are doing when we head up to the cabin to work on projects, fix things, dream up the next step, and try to build something peaceful out of all of it.",
+      "type": "paragraph",
+      "html": "<p>An almost-live running story of what we are doing when we head up to the cabin to work on projects, fix things, dream up the next step, and try to build something peaceful out of all of it.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b031",
+      "sourceHtmlSha256": "3518c65429212252e7edca6329959604c51cf0ea93301205a34d63eec0ac50cd",
+      "sourceHtml": "<p>So join us next season.</p>",
+      "text": "So join us next season.",
+      "type": "paragraph",
+      "html": "<p>So join us next season.</p>"
+    },
+    {
+      "sourceBlockId": "ch24-b032",
+      "sourceHtmlSha256": "7db4ff8f8b9ce61957ba46f7ff0cbf93567455f46b643ef390b771c73a24fc61",
+      "sourceHtml": "<p><strong>Spring 2026.</strong></p>",
+      "text": "Spring 2026.",
+      "type": "paragraph",
+      "html": "<p><strong>Spring 2026.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch24-b033",
+      "sourceHtmlSha256": "bb21e7c3d95dbecff6284be2cf34148aa84f2c0f5ebe0f33c744d139b46c2986",
+      "sourceHtml": "<p>That is where we catch up to real time.</p>",
+      "text": "That is where we catch up to real time.",
+      "type": "paragraph",
+      "html": "<p>That is where we catch up to real time.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch25",
+      "label": "Back at the cabin, the birdhouses needed a cleanout.",
+      "context": "The next season"
+    }
+  ],
+  "relatedGuides": [
+    {
+      "href": "/pages/cedar-fence-picket-birdhouse-workshop",
+      "label": "The cedar-picket birdhouse workshop.",
+      "context": "Want to build one?"
+    },
+    {
+      "href": "/pages/log-cabin-bird-feeder-build",
+      "label": "Then try the companion feeder.",
+      "context": "Another little build"
+    }
+  ],
+  "coverMedia": {
+    "mediaId": "journey-6d441246a5a5",
+    "alt": "Vanessa's Christmas Sip and Build party with friends making and decorating birdhouses",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "The winters here in Michigan sure do feel long. And somewhere along the way, I started asking myself:",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Four",
+  "originalHeadingAfterBlocks": 1
+}

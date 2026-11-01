@@ -1,0 +1,369 @@
+{
+  "id": "journey-ch13",
+  "route": "/our-journey/chapters/chapter-13",
+  "output": "our-journey/chapters/chapter-13.html",
+  "title": "Stretching Out the Season | Quiet Backyard Living",
+  "storyTitle": "Stretching Out the Season",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Stretching Out the Season",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 13,
+  "chapterOrder": 13,
+  "seriesId": "happy-place",
+  "dateLabel": "Late October 2024",
+  "dateEvidence": "Late October 2024",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 13,
+    "articleSha256": "50495e5b42c212df74c5d0b2c09811c0b82c68324eb79274bdde903e8f0fbd45",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-15"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch13-b001",
+      "sourceHtmlSha256": "a2f25511414ca2665564c2a3d7460638e01a461be392a0c89f5ed181f3c062c3",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter13-bonfire.jpg\" alt=\"Vanessa outside by the cabin during a later-season bonfire as they stretched out the fall season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter13-bonfire.jpg",
+          "alt": "Vanessa outside by the cabin during a later-season bonfire as they stretched out the fall season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch13-b002",
+      "image": {
+        "mediaId": "journey-a24652522d8f",
+        "alt": "Vanessa outside by the cabin during a later-season bonfire as they stretched out the fall season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch13-b004",
+      "sourceHtmlSha256": "4d566b952db8fee6ef6d2da797eac7eb3c0f023b67e902815e370040de78379b",
+      "sourceHtml": "<p>It was quite the year, to say the least.</p>",
+      "text": "It was quite the year, to say the least.",
+      "type": "paragraph",
+      "html": "<p>It was quite the year, to say the least.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b005",
+      "sourceHtmlSha256": "e787c919c2143b8321d9ee7865627a1cd5e5f9070da8ba6c841005149f09a681",
+      "sourceHtml": "<p>Part of us was ready for the year to be over, and the other part wanted just a little more peaceful cabin time.</p>",
+      "text": "Part of us was ready for the year to be over, and the other part wanted just a little more peaceful cabin time.",
+      "type": "paragraph",
+      "html": "<p>Part of us was ready for the year to be over, and the other part wanted just a little more peaceful cabin time.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b006",
+      "sourceHtmlSha256": "d514b4ed5e3f3b84c738b86257704c8a7c8de3ec5f73a16015998f0c4bb0223e",
+      "sourceHtml": "<p>Good thing we enclosed the water tank, because that is exactly what we got to do.</p>",
+      "text": "Good thing we enclosed the water tank, because that is exactly what we got to do.",
+      "type": "paragraph",
+      "html": "<p>Good thing we enclosed the water tank, because that is exactly what we got to do.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b007",
+      "sourceHtmlSha256": "f3429cd48aa3c43e6369bd666001179a5ea5ffee21eda83fac1a0ff66e61bbce",
+      "sourceHtml": "<p>We embraced the extended fall season that happened to be blanketing Michigan. We did lots of fall things, enjoyed the leaves, dreamed about next season, and of course we did bonfires. I think we earned them after the kind of year we had.</p>",
+      "text": "We embraced the extended fall season that happened to be blanketing Michigan. We did lots of fall things, enjoyed the leaves, dreamed about next season, and of course we did bonfires. I think we earned them after the kind of year we had.",
+      "type": "paragraph",
+      "html": "<p>We embraced the extended fall season that happened to be blanketing Michigan. We did lots of fall things, enjoyed the leaves, dreamed about next season, and of course we did bonfires. I think we earned them after the kind of year we had.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b008",
+      "sourceHtmlSha256": "dbedcf7ccd607aef175bffeadff1a034f51f5e16383cf6b417bb88cd64e860c5",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter12-fall-leaves.jpg\" alt=\"Late fall leaves around the cabin property during the extended autumn season in Michigan\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter12-fall-leaves.jpg",
+          "alt": "Late fall leaves around the cabin property during the extended autumn season in Michigan"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch13-b007",
+      "nextSourceBlockId": "ch13-b009",
+      "image": {
+        "mediaId": "journey-43b73f403130",
+        "alt": "Late fall leaves around the cabin property during the extended autumn season in Michigan",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch13-b009",
+      "sourceHtmlSha256": "b8ccac3a1f04c6b468a5710f9df87c23947d70d3b95fe081f93df4a8bd4631fc",
+      "sourceHtml": "<p>Back to the dreaming part.</p>",
+      "text": "Back to the dreaming part.",
+      "type": "paragraph",
+      "html": "<p>Back to the dreaming part.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b010",
+      "sourceHtmlSha256": "1b33bc458b94f637e0efd63fe1e72ba7a6a5c8b7a0386a98db380dd504da2495",
+      "sourceHtml": "<p>We knew the season was about over, which is always sad, but what could we dream up for next year?</p>",
+      "text": "We knew the season was about over, which is always sad, but what could we dream up for next year?",
+      "type": "paragraph",
+      "html": "<p>We knew the season was about over, which is always sad, but what could we dream up for next year?</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b011",
+      "sourceHtmlSha256": "310d3cc32857d6a5094c7607433250e0bed266188d9a6b74c58d41136f402e3d",
+      "sourceHtml": "<p>We still wanted that stupid structure moved, but by then we had all but given up on figuring out what to do with it.</p>",
+      "text": "We still wanted that stupid structure moved, but by then we had all but given up on figuring out what to do with it.",
+      "type": "paragraph",
+      "html": "<p>We still wanted that stupid structure moved, but by then we had all but given up on figuring out what to do with it.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b012",
+      "sourceHtmlSha256": "8b7ab7d5efa15fd48b0b188cc3b1cb114731fef3af4472ea638c484d5d3424e1",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter13-finished-ceiling.jpg\" alt=\"Finished cabin ceiling after the long shiplap project was finally completed\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter13-finished-ceiling.jpg",
+          "alt": "Finished cabin ceiling after the long shiplap project was finally completed"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch13-b011",
+      "nextSourceBlockId": "ch13-b013",
+      "image": {
+        "mediaId": "journey-5a63e3551e59",
+        "alt": "Finished cabin ceiling after the long shiplap project was finally completed",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch13-b013",
+      "sourceHtmlSha256": "05cec3bcb813631abd67769b4dc01becf3efdb0a941f762124cc812782841083",
+      "sourceHtml": "<p>We wanted to do walls and flooring inside the cabin too, but frankly, after doing the ceiling, we were burned out from construction.</p>",
+      "text": "We wanted to do walls and flooring inside the cabin too, but frankly, after doing the ceiling, we were burned out from construction.",
+      "type": "paragraph",
+      "html": "<p>We wanted to do walls and flooring inside the cabin too, but frankly, after doing the ceiling, we were burned out from construction.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b014",
+      "sourceHtmlSha256": "05894feab40233ca350268e1b9f9cd9292717fe341ee3ee6f3df8d21c6d6cbad",
+      "sourceHtml": "<p>Now that we had the newly acquired water tank for the garden, that is where we started setting our sights next.</p>",
+      "text": "Now that we had the newly acquired water tank for the garden, that is where we started setting our sights next.",
+      "type": "paragraph",
+      "html": "<p>Now that we had the newly acquired water tank for the garden, that is where we started setting our sights next.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b015",
+      "sourceHtmlSha256": "bd297fc39a0b26537fd2101af90d2df6c202a27cc63c23f99b597b4356ca76d3",
+      "sourceHtml": "<p>I said to Vanessa, “I’m tired of construction. Can we make the outside look good next year?”</p>",
+      "text": "I said to Vanessa, “I’m tired of construction. Can we make the outside look good next year?”",
+      "type": "paragraph",
+      "html": "<p>I said to Vanessa, “I’m tired of construction. Can we make the outside look good next year?”</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b016",
+      "sourceHtmlSha256": "062c9f729d4a107987365c8eb523b7e521e83fc7b346e3178f955d57e58bc40e",
+      "sourceHtml": "<p>Of course she agreed.</p>",
+      "text": "Of course she agreed.",
+      "type": "paragraph",
+      "html": "<p>Of course she agreed.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b017",
+      "sourceHtmlSha256": "be2cc2254b8a7c92e4eaf9c16cc02c547063e592ae70ddba87c00b2648e0f1ee",
+      "sourceHtml": "<p>I’m pretty sure she was tired of being a contractor too.</p>",
+      "text": "I’m pretty sure she was tired of being a contractor too.",
+      "type": "paragraph",
+      "html": "<p>I’m pretty sure she was tired of being a contractor too.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b018",
+      "sourceHtmlSha256": "ffd67e1539fd4748e677ee238949f5e337aafedc1503906da818688973476bf5",
+      "sourceHtml": "<p>After all, we had kind of neglected the entire property because we were so focused on the ceiling project. So it was settled.</p>",
+      "text": "After all, we had kind of neglected the entire property because we were so focused on the ceiling project. So it was settled.",
+      "type": "paragraph",
+      "html": "<p>After all, we had kind of neglected the entire property because we were so focused on the ceiling project. So it was settled.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b019",
+      "sourceHtmlSha256": "3b02c39201b234fcc439661341645da28e0716442ee6208e62e9f43b29ec293e",
+      "sourceHtml": "<p>Next year, we were going to work on making the outside look good.</p>",
+      "text": "Next year, we were going to work on making the outside look good.",
+      "type": "paragraph",
+      "html": "<p>Next year, we were going to work on making the outside look good.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b020",
+      "sourceHtmlSha256": "d48e01b5efe276c2312325b12429043114cdefb95d284a453b3e48ba9063c717",
+      "sourceHtml": "<p>Okay, enough of dreaming.</p>",
+      "text": "Okay, enough of dreaming.",
+      "type": "paragraph",
+      "html": "<p>Okay, enough of dreaming.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b021",
+      "sourceHtmlSha256": "1b217f0c5662be24bc5b39b388a84ec4fd061cd8c534b2f9154f05fa1c288c67",
+      "sourceHtml": "<p>We had work to do because it was starting to get chilly in Michigan. By late October 2024, it was time to close the place up for the season and head back to the city.</p>",
+      "text": "We had work to do because it was starting to get chilly in Michigan. By late October 2024, it was time to close the place up for the season and head back to the city.",
+      "type": "paragraph",
+      "html": "<p>We had work to do because it was starting to get chilly in Michigan. By late October 2024, it was time to close the place up for the season and head back to the city.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b022",
+      "sourceHtmlSha256": "d3931255515d083c032611a3ca1d95dd5b7fc44472a2f2c6fdb1adefe6534830",
+      "sourceHtml": "<p>Take apart the water pump system.</p>",
+      "text": "Take apart the water pump system.",
+      "type": "paragraph",
+      "html": "<p>Take apart the water pump system.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b023",
+      "sourceHtmlSha256": "3d96e101457f8e767c09f9b4f74e363c7e67180c961e796f275bc46f2d502e46",
+      "sourceHtml": "<p>Blow out the lines.</p>",
+      "text": "Blow out the lines.",
+      "type": "paragraph",
+      "html": "<p>Blow out the lines.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b024",
+      "sourceHtmlSha256": "615954a2f5f4023c998356bfe522e5f07a18a11b1490b8e9a25375b96d29cefc",
+      "sourceHtml": "<p>And this year was a little different, because now we had the hot water system to figure out too.</p>",
+      "text": "And this year was a little different, because now we had the hot water system to figure out too.",
+      "type": "paragraph",
+      "html": "<p>And this year was a little different, because now we had the hot water system to figure out too.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b025",
+      "sourceHtmlSha256": "bf2447ea9ce507e6d5a806cdd437d8d156d455109bbb60157bf3e6cf6f980f82",
+      "sourceHtml": "<p>Box up all the liquids.</p>",
+      "text": "Box up all the liquids.",
+      "type": "paragraph",
+      "html": "<p>Box up all the liquids.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b026",
+      "sourceHtmlSha256": "19cdee970f4fcd118c8f1b0835cb46699c53752109c436a612534d5d3436949e",
+      "sourceHtml": "<p>Leave no food of any kind.</p>",
+      "text": "Leave no food of any kind.",
+      "type": "paragraph",
+      "html": "<p>Leave no food of any kind.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b027",
+      "sourceHtmlSha256": "8275946a104675610563a1c1b40a015b661cc205d18de31b199078efd181ce4d",
+      "sourceHtml": "<p>Strip all the bedding.</p>",
+      "text": "Strip all the bedding.",
+      "type": "paragraph",
+      "html": "<p>Strip all the bedding.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b028",
+      "sourceHtmlSha256": "9b5e3bfc69c5dd8d8230d5f317f3a03f247a2e91b22fa0a84bea846c738640da",
+      "sourceHtml": "<p>Pack up the personal stuff.</p>",
+      "text": "Pack up the personal stuff.",
+      "type": "paragraph",
+      "html": "<p>Pack up the personal stuff.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b029",
+      "sourceHtmlSha256": "4b08f77a7a0e40b132536cc7f3eb8f183fdb818f5793798810b65772ec76801a",
+      "sourceHtml": "<p>By now, this was becoming a drill.</p>",
+      "text": "By now, this was becoming a drill.",
+      "type": "paragraph",
+      "html": "<p>By now, this was becoming a drill.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b030",
+      "sourceHtmlSha256": "e4fee9075e09a432dc7bcce36b1742231300b96e9f5338f764de16c6fe1723e5",
+      "sourceHtml": "<p>And not a fun one.</p>",
+      "text": "And not a fun one.",
+      "type": "paragraph",
+      "html": "<p>And not a fun one.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b031",
+      "sourceHtmlSha256": "6670c5ec0ebd9432f058e229e58885b1376620db584b5651780dec4da6987c42",
+      "sourceHtml": "<p>Then just like that, it was time to go.</p>",
+      "text": "Then just like that, it was time to go.",
+      "type": "paragraph",
+      "html": "<p>Then just like that, it was time to go.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b032",
+      "sourceHtmlSha256": "454fed38c69a046ccd08ebf2ea97c9b9c2578971b17cdee92e5defcbf308ae0a",
+      "sourceHtml": "<p>Time to get back to reality and the city.</p>",
+      "text": "Time to get back to reality and the city.",
+      "type": "paragraph",
+      "html": "<p>Time to get back to reality and the city.</p>"
+    },
+    {
+      "sourceBlockId": "ch13-b033",
+      "sourceHtmlSha256": "09d40f802a65bc26e651a738287c62eb4f0de5a63ce46498fdf250fa79f3091e",
+      "sourceHtml": "<p>See y’all next season.</p>",
+      "text": "See y’all next season.",
+      "type": "paragraph",
+      "html": "<p>See y’all next season.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-a24652522d8f",
+    "alt": "Vanessa outside by the cabin during a later-season bonfire as they stretched out the fall season",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It was quite the year, to say the least. Part of us was ready for the year to be over, and the other part wanted just a little more peaceful cabin time.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Thirteen",
+  "originalHeadingAfterBlocks": 1
+}

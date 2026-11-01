@@ -1,0 +1,269 @@
+{
+  "id": "lettuce",
+  "kind": "guide",
+  "variant": "lettuce",
+  "route": "/pages/what-to-grow-near-lettuce",
+  "output": "pages/what-to-grow-near-lettuce.html",
+  "title": "What to Grow Near Lettuce | Quiet Backyard Living",
+  "description": "Gentle lettuce companions, a visual patch layout, pest clues and paths into the real QBL garden.",
+  "status": "review",
+  "bodyClass": "rs-edition hp-edition co-edition hy-edition rs-page",
+  "mainAttrs": {
+    "class": "rs rs-lettuce"
+  },
+  "wrapperAttrs": null,
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/representative-system.css"
+  ],
+  "scripts": [
+    "/assets/complete-guides.js",
+    "/assets/representative-system.js"
+  ],
+  "blocks": [
+    {
+      "component": "lettuce/rs-wrap-0",
+      "copy": {
+        "a_1": "QBL",
+        "nav_1": " / ",
+        "a_2": "Growing & Gathering",
+        "nav_2": " / ",
+        "span_1": "Lettuce companions",
+        "span_2": "Growing & gathering / The gentle company",
+        "h1_1": "What to grow",
+        "h1_2": "near ",
+        "em_1": "lettuce.",
+        "p_1": "Keep it cool.",
+        "p_2": "Keep it reachable.",
+        "p_3": "Keep the neighbors gentle.",
+        "p_4": "Carrots, radishes, scallions, chives and a little dill make a useful starting list. Leave the big summer sprawl out of the lettuce’s way.",
+        "a_3": "Find its neighbors ",
+        "span_3": "↗",
+        "figcaption_1": "Reference lettuce photography · Néstor Santos / Pexels",
+        "a_4": "Good company ",
+        "span_4": "↓",
+        "a_5": "Picture the patch ",
+        "span_5": "↓",
+        "a_6": "Look for trouble ",
+        "span_6": "↓",
+        "a_7": "Our garden ",
+        "span_7": "↓",
+        "span_8": "A little variety / A calm bed",
+        "h2_1": "Let lettuce stay",
+        "em_2": "the main crop.",
+        "p_5": "Think narrow, quick or nearby. A companion earns its place by fitting the bed—not by appearing on a magic chart.",
+        "span_9": "The companion shelf",
+        "h3_1": "Radishes",
+        "p_6": "A quick early crop between slower spots. Give both crops their room.",
+        "span_10": "Take a look ",
+        "span_11": "↗",
+        "span_12": "The companion shelf",
+        "h3_2": "Carrots",
+        "p_7": "A nearby strip, rather than a crowded layer under the lettuce.",
+        "span_13": "Take a look ",
+        "span_14": "↗",
+        "span_15": "The companion shelf",
+        "h3_3": "Chives at the edge",
+        "p_8": "A narrow edible edge, with room for the lettuce. Scallions are another option in this plan.",
+        "span_16": "Take a look ",
+        "span_17": "↗",
+        "strong_1": "And a little dill?",
+        "p_9": "A little dill can fit. Keep it from becoming a wall of foliage. Afternoon relief in heat is different from lettuce being smothered by a bigger crop.",
+        "span_18": "Show me / A reachable patch",
+        "h2_2": "A small salad garden.",
+        "em_3": "Not a leafy traffic jam.",
+        "div_1": "Scallions or chives · narrow edge",
+        "div_2": "Carrots in their own strip",
+        "div_3": "Early radish pockets",
+        "div_4": "Lettuce · keep the harvest side reachable",
+        "p_10": "Arrangement only; not to scale. No plant counts, exact spacing or bed dimensions are implied.",
+        "h3_4": "Cooler timing.",
+        "p_11": "Lettuce is a cool-season crop. Heat and a dry bed can make the plan harder to manage.",
+        "h3_5": "Steady moisture.",
+        "p_12": "Avoid the swing between soggy and dried out. Keep checking conditions around the roots.",
+        "h3_6": "Small repeats.",
+        "p_13": "Try small repeated plantings rather than one large all-at-once patch. Match timing to your conditions.",
+        "a_8": "Plan your own mix ",
+        "span_19": "↗",
+        "span_20": "Look low / Look closely",
+        "h2_3": "Tender leaves show",
+        "em_4": "trouble quickly.",
+        "p_14": "Check folds, leaf undersides and the soil surface. A hole or curled leaf is a clue, not a diagnosis.",
+        "span_21": "Reference comparison / Slug",
+        "h3_7": "Holes or slime trails?",
+        "p_15": "Compare what is actually in the bed. Slugs are one possibility; inspect low hiding places and the soil surface.",
+        "span_22": "Take a look ",
+        "span_23": "↗",
+        "span_24": "Reference comparison / Aphids",
+        "h3_8": "Tiny insects in the folds?",
+        "p_16": "Look for the insects themselves and sticky residue. Confirm identification before choosing a response.",
+        "span_25": "Take a look ",
+        "span_26": "↗",
+        "summary_1": "Other clues worth checking",
+        "p_17": "Young plants damaged at soil level can point toward cutworms. Pale winding leaf tunnels can suggest leafminers; earwigs are another possibility discussed in the source. Compare the actual damage and insect rather than treating every chewed leaf alike.",
+        "h3_9": "Don’t crowd it, then forget it.",
+        "p_18": "Big summer plants, hard drying between waterings and damp hiding spots can all make the bed harder to manage. Review damage early; don’t assume a homemade spray is harmless.",
+        "figcaption_2": "From Jeff & Vanessa’s actual backyard journal.",
+        "span_27": "Our place / The continuing story",
+        "h2_4": "Our garden began",
+        "em_5": "with one row.",
+        "p_19": "The cabin’s first trial row came with fencing work, a water pump and leaks to chase. It is the beginning of our garden story—not a documented trial of every lettuce companion.",
+        "a_9": "Read our garden story ",
+        "span_28": "↗",
+        "span_29": "Keep the harvest going",
+        "h2_5": "One useful idea",
+        "em_6": "leads to another.",
+        "span_30": "For salad people",
+        "h3_10": "Make the bed about greens.",
+        "p_20": "Explore the existing salad-bed guide.",
+        "span_31": "Take a look ",
+        "span_32": "↗",
+        "span_33": "A different season",
+        "h3_11": "When tomatoes take over.",
+        "p_21": "See why early lettuce has a smaller role in a tomato bed.",
+        "span_34": "Take a look ",
+        "span_35": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/garden-help",
+        "link_3": "#lettuce-company",
+        "link_4": "#lettuce-company",
+        "link_5": "#lettuce-map",
+        "link_6": "#protect-my-veggie",
+        "link_7": "#our-experience",
+        "link_8": "/pages/what-to-grow-near-radishes",
+        "link_9": "/pages/what-to-grow-near-carrots",
+        "link_10": "/pages/the-backyard-herb-hub",
+        "link_11": {
+          "contentId": "tool"
+        },
+        "link_12": {
+          "contentId": "pests",
+          "fragment": "problem-chewed"
+        },
+        "link_13": {
+          "contentId": "pests",
+          "fragment": "problem-clusters"
+        },
+        "link_14": "/pages/what-we-re-up-to-around-the-yard-and-cabin#first-garden-row",
+        "link_15": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+        "link_16": {
+          "contentId": "tomatoes"
+        }
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Lettuce foliage",
+          "loading": "eager",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-c76c4789f1a8",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Fresh radishes with their leaves",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-4c043e448465",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Harvested carrots",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_4": {
+          "mediaId": "media-d564e231903b",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Harvested chives arranged on a plate",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_5": {
+          "mediaId": "media-b1133ed477a6",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "A black slug on grass; species not established",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_6": {
+          "mediaId": "media-dda1f1d5c300",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Green aphids clustered on a plant stem",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_7": {
+          "mediaId": "media-661cb7f96e87",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "The QBL cabin garden during the June 2025 trial-row season",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_8": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Lettuce foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_9": {
+          "mediaId": "media-5e85b1b391b7",
+          "class": "rs-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Ripe tomatoes on the plant",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "lettuce/pg-section-6-1",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "lettuce/pg-section-8-2",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "lettuce/pg-section-7-3",
+      "copy": {},
+      "links": {},
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\what-to-grow-near-lettuce.html"
+}

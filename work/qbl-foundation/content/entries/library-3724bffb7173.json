@@ -1,0 +1,40 @@
+{
+  "id": "library-3724bffb7173",
+  "route": "/stories/our-backyard-wildlife",
+  "output": "stories/our-backyard-wildlife.html",
+  "title": "The backyard regulars. | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition thread-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-3724bffb7173.html",
+  "department": "wildlife",
+  "topic": "Birds, pollinators & habitat",
+  "sourceReference": {
+    "file": "reference/library-import-source/stories/our-backyard-wildlife.html",
+    "sha256": "5f7f127264cd8ea234117d0b95ff96c9abc0ddbae9bca1a5e60d844f98495a8d"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

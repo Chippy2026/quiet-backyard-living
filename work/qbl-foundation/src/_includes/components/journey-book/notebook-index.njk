@@ -1,0 +1,2 @@
+{% from "components/journey-book/macros.njk" import smallStory %}
+<header class="qj-opening"><span class="qj-kicker">Small moments / Jeff & Vanessa</span><h1>The Notebook</h1><p>A returning bird. A useful little win. A day that had other plans. Short pages from the recorded journal—not every moment needs a whole chapter.</p><a class="qj-text-link" href="/our-journey/chapters">Follow the Chapters <span aria-hidden="true">↗</span></a></header><div class="qj-note-grid">{% for c in journey.notes %}{{ smallStory(c) }}{% endfor %}</div>

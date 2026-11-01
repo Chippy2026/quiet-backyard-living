@@ -1,0 +1,371 @@
+{
+  "images": [
+    {
+      "subject": "Jeff and Vanessa together at the cabin",
+      "image": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Vanessa on the actual cabin deck, with a fire in the foreground",
+      "image": "qbl-seven-experiences-review/assets/home/cabin-fire-evening-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/cabin-fire-evening-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/cabin-fire-evening-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/cabin-fire-evening-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Cedar strips and tools from the documented QBL berry-trellis build",
+      "image": "qbl-seven-experiences-review/assets/photos/berry-trellis-cut-pieces-640.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-cut-pieces-640.webp",
+          "width": 630,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Vanessa tending vines at the cabin in late May 2026",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-640.webp",
+          "width": 640,
+          "height": 618
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-1440.webp",
+          "width": 1280,
+          "height": 1235
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Vanessa helping frame the actual QBL cabin deck",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-frame-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-frame-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-frame-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "The finished deck at the QBL cabin",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-finished-deck-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-finished-deck-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter17-finished-deck-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "The actual finished shed stairs at QBL",
+      "image": "qbl-seven-experiences-review/assets/photos/story--chapter-29--stair-finish-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/story--chapter-29--stair-finish-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/story--chapter-29--stair-finish-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Chippy in the QBL cabin journal",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter14-chippy-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter14-chippy-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter14-chippy-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "The QBL old-lumber playground built for the backyard wildlife",
+      "image": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-640.webp",
+          "width": 640,
+          "height": 850
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-1440.webp",
+          "width": 964,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "A rose-breasted grosbeak using the actual QBL squirrel play gym",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--grosbeak-squirrel-gym-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--grosbeak-squirrel-gym-640.webp",
+          "width": 640,
+          "height": 754
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--grosbeak-squirrel-gym-1440.webp",
+          "width": 1087,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Vanessa using a telescope at the QBL cabin",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter20-stargazing-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter20-stargazing-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter20-stargazing-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Jeff holding the completed cedar fan trellis in the workshop",
+      "image": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "The actual fan trellis installed in the berry patch in late May 2026",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-trellis-close-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-trellis-close-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-trellis-close-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "A finished birdhouse from the QBL cedar-picket workshop project",
+      "image": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-960.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "A bird feeder from the QBL winter cabin chapter",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter24-birdfeeder-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter24-birdfeeder-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter24-birdfeeder-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "A terracotta olla installed in a QBL raised bed",
+      "image": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-640.webp",
+          "width": 640,
+          "height": 725
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-1440.webp",
+          "width": 1130,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "An earlier exterior view of the cabin and grounds, not the unfinished paneling",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter23-dream-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter23-dream-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter23-dream-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Harry at the QBL hummingbird feeder in late May 2026",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-640.webp",
+          "width": 640,
+          "height": 830
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-1440.webp",
+          "width": 987,
+          "height": 1280
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "QBL grape vines from the recorded harvest-loss story",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--grape-vines-before-loss-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--grape-vines-before-loss-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--grape-vines-before-loss-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    },
+    {
+      "subject": "Young crops in a QBL raised bed from the existing photo library",
+      "image": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-640.webp",
+          "width": 640,
+          "height": 452
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-1440.webp",
+          "width": 1280,
+          "height": 903
+        }
+      ],
+      "source": "Existing authentic QBL photograph",
+      "use": "Follow Our Journey local landing"
+    }
+  ],
+  "external_images": [],
+  "notes": "Existing QBL photographs only. Referenced originals/derivatives are not modified. Future preset photographs are included in this inventory."
+}

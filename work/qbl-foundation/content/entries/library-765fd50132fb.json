@@ -1,0 +1,42 @@
+{
+  "id": "library-765fd50132fb",
+  "route": "/pages/what-to-grow-near-shallots",
+  "output": "pages/what-to-grow-near-shallots.html",
+  "title": "What to Grow Near Shallots | Quiet Backyard Living",
+  "description": "Shallots work a lot like other smaller allium crops, useful, compact, and often best used as part of the support crew instead of the whole show.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-765fd50132fb.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-765fd50132fb.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-shallots.html",
+    "sha256": "f7db7ee30660d42d79fa7ee4e37b2b60fa806e15542b8fef21c978e46de7a1ac"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

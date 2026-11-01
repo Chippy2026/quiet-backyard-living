@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "approvedBy": "Jeff",
+  "date": "2026-11-01",
+  "rollbackCommit": "e02f479f42ea2a67eefae8ddb84b440204f0ba3f",
+  "rollbackDeploy": "6a31357085824e0008e54cb7",
+  "candidateManifestSHA256": "9eeb3a147dd1cd0872c109ca2c93f921fc9566f5385aa178ef661fcbdf94208b"
+}

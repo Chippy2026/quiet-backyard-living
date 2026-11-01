@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "the-last-piece-of-paneling",
+    "title": "Maybe we should have called it a day.",
+    "date": "June 2026",
+    "department": "Still figuring it out",
+    "category": "learning",
+    "image": "story--chapter-29--wall-progress",
+    "anchor": "chapter-29",
+    "chapter": "Chapter Twenty-Nine",
+    "intro": "The walls were moving forward. The last piece of paneling had other ideas.",
+    "needles": [
+      "I made a bad measurement and ruined a piece of paneling",
+      "Another ruined piece of paneling.",
+      "Looking back, maybe we should have used that last day"
+    ],
+    "next": "/stories/things-weve-built",
+    "nextlabel": "More of the builds, including the ones that fight back",
+    "route": "/notebook/the-last-piece-of-paneling",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "I made a bad measurement and ruined a piece of paneling, so we decided to call it quits for the day.",
+      "Another ruined piece of paneling.",
+      "Looking back, maybe we should have used that last day, which was cooler and really beautiful, to just relax and enjoy what we had already accomplished."
+    ]
+  },
+  {
+    "slug": "stairs-before-the-walls",
+    "title": "A little set of stairs made the next job easier.",
+    "date": "June 2026",
+    "department": "A useful little win",
+    "category": "making",
+    "image": "story--chapter-29--stair-finish",
+    "anchor": "chapter-29",
+    "chapter": "Chapter Twenty-Nine",
+    "intro": "Before the cabin walls, the storage shed needed a better way in.",
+    "needles": [
+      "But before we could get to the walls, we needed stairs",
+      "Nothing fancy, just one of those practical little jobs"
+    ],
+    "next": "/stories/things-weve-built",
+    "nextlabel": "Follow the things we’re making",
+    "route": "/notebook/stairs-before-the-walls",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "But before we could get to the walls, we needed stairs on that ugly green storage shed.",
+      "Nothing fancy, just one of those practical little jobs that instantly makes everything around it work better."
+    ]
+  },
+  {
+    "slug": "harry-came-back",
+    "title": "Yup. Harry was back.",
+    "date": "Late May 2026",
+    "department": "The regulars",
+    "category": "wildlife",
+    "image": "chapter28-harry-return",
+    "anchor": "harry-returns",
+    "chapter": "Chapter Twenty-Eight",
+    "intro": "Some of the best moments happen before the tools come out.",
+    "needles": [
+      "Yup. Harry was back.",
+      "And not only was Harry back",
+      "We think we were seeing Harry",
+      "It is funny how much you miss those little critters"
+    ],
+    "next": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+    "nextlabel": "A little practical help for your own feeder",
+    "route": "/notebook/harry-came-back",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "Yup. Harry was back.",
+      "And not only was Harry back, we were pretty sure he brought family with him.",
+      "We think we were seeing Harry, Harriet, and one of their kids.",
+      "It is funny how much you miss those little critters when they are gone."
+    ]
+  },
+  {
+    "slug": "the-trellises-left-the-workshop",
+    "title": "Time to get those berry trellises into the ground.",
+    "date": "Late May 2026",
+    "department": "Out in the garden",
+    "category": "growing",
+    "image": "chapter28-trellis-close",
+    "anchor": "berry-trellises-installed",
+    "chapter": "Chapter Twenty-Eight",
+    "intro": "A small workshop project finally joined the raspberry and blackberry patch.",
+    "needles": [
+      "A week earlier, I had built a couple of trellises"
+    ],
+    "next": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+    "nextlabel": "See the little cedar-picket build",
+    "route": "/notebook/the-trellises-left-the-workshop",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky."
+    ]
+  },
+  {
+    "slug": "another-try-for-the-city-beds",
+    "title": "Another try for the beds back home.",
+    "date": "April 2026",
+    "department": "An experiment",
+    "category": "growing",
+    "image": "chapter25-refresh-beds",
+    "anchor": "trying-ollas",
+    "chapter": "Chapter Twenty-Five",
+    "intro": "The cabin was waking up. Back in the city, we had another garden problem to work on.",
+    "needles": [
+      "Back in the city, we caught a nice day",
+      "Let’s build some and see if we can actually keep our city vegetables alive"
+    ],
+    "next": "/pages/diy-olla-watering-system",
+    "nextlabel": "Follow the olla experiment",
+    "route": "/notebook/another-try-for-the-city-beds",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas.",
+      "Let’s build some and see if we can actually keep our city vegetables alive this time."
+    ]
+  },
+  {
+    "slug": "everybody-took-a-birdhouse-home",
+    "title": "Everybody took a birdhouse home.",
+    "date": "Winter, before the 2026 season",
+    "department": "Made together",
+    "category": "making",
+    "image": "chapter24-christmas-party",
+    "anchor": "sip-and-build",
+    "chapter": "Chapter Twenty-Four",
+    "intro": "A winter project turned into Vanessa’s Christmas Sip & Build.",
+    "needles": [
+      "We ended up hosting her work party",
+      "And honestly, that was a blast.",
+      "Everybody had fun, we had fun"
+    ],
+    "next": "/pages/cedar-fence-picket-birdhouse-workshop",
+    "nextlabel": "Try the birdhouse workshop idea",
+    "route": "/notebook/everybody-took-a-birdhouse-home",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her Christmas Sip & Build.",
+      "And honestly, that was a blast.",
+      "Everybody had fun, we had fun, and they all got to take home their own special birdhouse."
+    ]
+  },
+  {
+    "slug": "we-missed-the-grapes",
+    "title": "We missed the grapes.",
+    "date": "Fall 2025",
+    "department": "The garden had other plans",
+    "category": "growing",
+    "image": "grape-vines-before-loss",
+    "anchor": "grapes-harvest-lost",
+    "chapter": "Chapter Twenty-Three",
+    "intro": "There were some small harvests that season. The grapes were not one of them.",
+    "needles": [
+      "We did manage to get a few vegetables though",
+      "lose every single grape",
+      "There had been thousands of them.",
+      "And in just a few short days while we were gone",
+      "I guess the critters, and maybe the birds too"
+    ],
+    "next": "/stories/in-the-garden",
+    "nextlabel": "The garden story includes the setbacks",
+    "route": "/notebook/we-missed-the-grapes",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "We did manage to get a few vegetables though, along with strawberries, blueberries, some apples, and pears.",
+      "But I’ll be damned if we did not lose every single grape.",
+      "There had been thousands of them.",
+      "And in just a few short days while we were gone, they were wiped out.",
+      "I guess the critters, and maybe the birds too, liked them even more than we did."
+    ]
+  },
+  {
+    "slug": "the-chairs-came-out",
+    "title": "The chairs came out pretty quickly.",
+    "date": "Summer 2025",
+    "department": "The good part",
+    "category": "living",
+    "image": "chapter17-finished-deck",
+    "anchor": "building-the-deck",
+    "chapter": "Chapter Seventeen",
+    "intro": "After the measuring, hauling, digging, and screws, the deck started earning its place.",
+    "needles": [
+      "And once it was done, it did not take us long",
+      "That part might have been the best reward of all."
+    ],
+    "next": "/pages/what-we-re-up-to-around-the-yard-and-cabin#enjoying-the-deck",
+    "nextlabel": "See how the deck changed our time outside",
+    "route": "/notebook/the-chairs-came-out",
+    "source_route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "source_paragraphs": [
+      "And once it was done, it did not take us long at all to drag out a couple of chairs and start enjoying this new addition to peaceful cabin life.",
+      "That part might have been the best reward of all."
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "library-4ed6cc7d27f3",
+  "route": "/pages/what-to-grow-near-salsify",
+  "output": "pages/what-to-grow-near-salsify.html",
+  "title": "What to Grow Near Salsify | Quiet Backyard Living",
+  "description": "Salsify fits the calmer root-crop lane, where spacing, looser soil, and sensible neighbors matter more than flashy combinations.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-4ed6cc7d27f3.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-4ed6cc7d27f3.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-salsify.html",
+    "sha256": "a82266b7a05624de9fa6a4b4d5259ebd714f5dbc94634749c28d44dea37105d1"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,371 @@
+{
+  "id": "journey-ch26",
+  "route": "/our-journey/chapters/chapter-26",
+  "output": "our-journey/chapters/chapter-26.html",
+  "title": "Let’s Plant Some More Fruit Trees | Quiet Backyard Living",
+  "storyTitle": "Let’s Plant Some More Fruit Trees",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Let’s Plant Some More Fruit Trees",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 26,
+  "chapterOrder": 26,
+  "seriesId": "happy-place",
+  "dateLabel": "April 2026",
+  "dateEvidence": "Mid-April 2026 — adjacent-chapter context",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 26,
+    "articleSha256": "5e74f1ff427df414d38896e2c1f3b39ad00ddb1902bb0fb5c060ca2f09e73b38",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-28"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch26-b001",
+      "sourceHtmlSha256": "689f10fc3b2cccaef7079631a226f81b5e6c18650684f202ba8ba14649ea43c7",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter26-fruit-cocktail.jpg\" alt=\"Fruit Cocktail tree tag and young tree picked out for the cabin orchard in spring 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter26-fruit-cocktail.jpg",
+          "alt": "Fruit Cocktail tree tag and young tree picked out for the cabin orchard in spring 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch26-b002",
+      "image": {
+        "mediaId": "journey-316dc8629b9e",
+        "alt": "Fruit Cocktail tree tag and young tree picked out for the cabin orchard in spring 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch26-b004",
+      "sourceHtmlSha256": "ddc141ba3c14eb4d14d2ff28891cc14a349bb93c64bbad3c5a98f060dec78198",
+      "sourceHtml": "<p>It was mid April, and we found another chilly but dry and decent day.</p>",
+      "text": "It was mid April, and we found another chilly but dry and decent day.",
+      "type": "paragraph",
+      "html": "<p>It was mid April, and we found another chilly but dry and decent day.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b005",
+      "sourceHtmlSha256": "d7bf0081bcc568dbca18c0aa1f011f122a42dd8b603ded6111b31895d05b9690",
+      "sourceHtml": "<p>So I said, “Vanessa, let’s go pick up a couple more fruit trees and plant them at the cabin.”</p>",
+      "text": "So I said, “Vanessa, let’s go pick up a couple more fruit trees and plant them at the cabin.”",
+      "type": "paragraph",
+      "html": "<p>So I said, “Vanessa, let’s go pick up a couple more fruit trees and plant them at the cabin.”</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b006",
+      "sourceHtmlSha256": "5e3656ce02df807abd900be1c6386f649af29d727bdcdd35d68a74e70283e80a",
+      "sourceHtml": "<p>She almost never says no to my crazy ideas.</p>",
+      "text": "She almost never says no to my crazy ideas.",
+      "type": "paragraph",
+      "html": "<p>She almost never says no to my crazy ideas.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b007",
+      "sourceHtmlSha256": "7405b907d8ee62921112de157a5ba62f7aad4906942104495d7b78b7936c1632",
+      "sourceHtml": "<p>At least not when the idea includes getting to go to the cabin.</p>",
+      "text": "At least not when the idea includes getting to go to the cabin.",
+      "type": "paragraph",
+      "html": "<p>At least not when the idea includes getting to go to the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b008",
+      "sourceHtmlSha256": "73a3f1b9e291f8d0c84752e5e8d616ae13d32acd78a241c93e136e72cf4807e2",
+      "sourceHtml": "<p>So off we went to pick up three new fruit trees.</p>",
+      "text": "So off we went to pick up three new fruit trees.",
+      "type": "paragraph",
+      "html": "<p>So off we went to pick up three new fruit trees.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b009",
+      "sourceHtmlSha256": "6848f3d81c0ce707b71f7fff0ff5886d5deadd0de065f29d87bdd44e2a724251",
+      "sourceHtml": "<p>But not just your average everyday apple trees.</p>",
+      "text": "But not just your average everyday apple trees.",
+      "type": "paragraph",
+      "html": "<p>But not just your average everyday apple trees.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b010",
+      "sourceHtmlSha256": "2d1798e0666a22578b3eb531d3cf03629add5fa2b31280c7be0a0bb2cb4330c0",
+      "sourceHtml": "<p>We already had those.</p>",
+      "text": "We already had those.",
+      "type": "paragraph",
+      "html": "<p>We already had those.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b011",
+      "sourceHtmlSha256": "0bc051fb4ead23168f9bb8aed3728a776da47804108ebd35505255330bd491b2",
+      "sourceHtml": "<p>This time, we wanted something a little more fun and unique.</p>",
+      "text": "This time, we wanted something a little more fun and unique.",
+      "type": "paragraph",
+      "html": "<p>This time, we wanted something a little more fun and unique.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b012",
+      "sourceHtmlSha256": "e439b84872ba03a3aa3c9ed63f2f6e45334b06c5f045a31bf666bce3bdc7181d",
+      "sourceHtml": "<p>So we picked up two jujube trees and one tree labeled <strong>Fruit Cocktail</strong>.</p>",
+      "text": "So we picked up two jujube trees and one tree labeled Fruit Cocktail .",
+      "type": "paragraph",
+      "html": "<p>So we picked up two jujube trees and one tree labeled <strong>Fruit Cocktail</strong>.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b013",
+      "sourceHtmlSha256": "83ab56f712d3e495b7c3311ff624caaf6e19400247e24d9eb6059e2e27714975",
+      "sourceHtml": "<p>That sounded fun right away.</p>",
+      "text": "That sounded fun right away.",
+      "type": "paragraph",
+      "html": "<p>That sounded fun right away.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b014",
+      "sourceHtmlSha256": "9fcee743cf35ee0e6a3c5e29b6c1f81ed5c0d75f6af243357ca4d92a69beaff1",
+      "sourceHtml": "<p>Apparently that one tree is supposed to have four different fruits all on the same tree.</p>",
+      "text": "Apparently that one tree is supposed to have four different fruits all on the same tree.",
+      "type": "paragraph",
+      "html": "<p>Apparently that one tree is supposed to have four different fruits all on the same tree.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b015",
+      "sourceHtmlSha256": "f47df54cf508e06b51ac27ba3c90e00b067384189cb40f9818c0aec45c3520f6",
+      "sourceHtml": "<p>I know, right?</p>",
+      "text": "I know, right?",
+      "type": "paragraph",
+      "html": "<p>I know, right?</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b016",
+      "sourceHtmlSha256": "164734a43c2dff95a1ab908334639876db80c23075298d28ea4cd5574ddac24b",
+      "sourceHtml": "<p>How cool is that?</p>",
+      "text": "How cool is that?",
+      "type": "paragraph",
+      "html": "<p>How cool is that?</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b017",
+      "sourceHtmlSha256": "98d9d5dcff12aa618e1c57b58709c59b17aede75f9356ace2dfa026c2ae7c73c",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter26-jujube-tag.jpg\" alt=\"Li Jujubee tree tag for one of the unusual fruit trees planted at the cabin in spring 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter26-jujube-tag.jpg",
+          "alt": "Li Jujubee tree tag for one of the unusual fruit trees planted at the cabin in spring 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch26-b016",
+      "nextSourceBlockId": "ch26-b018",
+      "image": {
+        "mediaId": "journey-7cbe44ca6886",
+        "alt": "Li Jujubee tree tag for one of the unusual fruit trees planted at the cabin in spring 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch26-b018",
+      "sourceHtmlSha256": "8906b74522c80b7aa83047cfb5bd3c28f066fd3ef6915b950b8f26cffb147dd7",
+      "sourceHtml": "<p>Now back to those two jujube trees.</p>",
+      "text": "Now back to those two jujube trees.",
+      "type": "paragraph",
+      "html": "<p>Now back to those two jujube trees.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b019",
+      "sourceHtmlSha256": "b2b1ab6be026aeca61eed27d5fff8e4f8eff81a459f41b2d1db6e103396d252e",
+      "sourceHtml": "<p>You are probably thinking, “What the heck is that?”</p>",
+      "text": "You are probably thinking, “What the heck is that?”",
+      "type": "paragraph",
+      "html": "<p>You are probably thinking, “What the heck is that?”</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b020",
+      "sourceHtmlSha256": "a4fa7d7e0878601390e7a67db0dba7ce0a7e09987f9d3c0fa9c09cfc23f75d6b",
+      "sourceHtml": "<p>The jujube tree, <em>Ziziphus jujuba</em>, also known as the Chinese date, is supposed to be an incredibly resilient, low-maintenance fruit tree that produces sweet, nutritious fruit. But honestly, the part that really got my attention was what happens later. From what I had read, in the fall you can leave the fruit on the tree long enough for it to dry out, and that is when the magic happens. Supposedly, once it gets dark and wrinkly looking, it tastes like honey.</p>",
+      "text": "The jujube tree, Ziziphus jujuba , also known as the Chinese date, is supposed to be an incredibly resilient, low-maintenance fruit tree that produces sweet, nutritious fruit. But honestly, the part that really got my attention was what happens later. From what I had read, in the fall you can leave the fruit on the tree long enough for it to dry out, and that is when the magic happens. Supposedly, once it gets dark and wrinkly looking, it tastes like honey.",
+      "type": "paragraph",
+      "html": "<p>The jujube tree, <em>Ziziphus jujuba</em>, also known as the Chinese date, is supposed to be an incredibly resilient, low-maintenance fruit tree that produces sweet, nutritious fruit. But honestly, the part that really got my attention was what happens later. From what I had read, in the fall you can leave the fruit on the tree long enough for it to dry out, and that is when the magic happens. Supposedly, once it gets dark and wrinkly looking, it tastes like honey.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b021",
+      "sourceHtmlSha256": "c16ef096596f0de10a428f59396f1bb87211194e8d4b2460a092052e0e688393",
+      "sourceHtml": "<p>I will let you know as soon as we actually get some fruit. 😁</p>",
+      "text": "I will let you know as soon as we actually get some fruit. 😁",
+      "type": "paragraph",
+      "html": "<p>I will let you know as soon as we actually get some fruit. 😁</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b022",
+      "sourceHtmlSha256": "77cbb9e9331f64f5798b9de07cd506dcf31409a6f2d9fbe0c06ebfcb17aada5f",
+      "sourceHtml": "<p>Which, of course, may take a couple of years.</p>",
+      "text": "Which, of course, may take a couple of years.",
+      "type": "paragraph",
+      "html": "<p>Which, of course, may take a couple of years.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b023",
+      "sourceHtmlSha256": "d85fd75064e1224c4960e0d0246b2f18c3a2c24b42c318089956d0a0acd68074",
+      "sourceHtml": "<p>If you want to see more about how we planted them, check out this page:</p>",
+      "text": "If you want to see more about how we planted them, check out this page:",
+      "type": "paragraph",
+      "html": "<p>If you want to see more about how we planted them, check out this page:</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b024",
+      "sourceHtmlSha256": "d8dea4c208a66d466c2f20dd5aa7420a11ec7921b5f88c3da44912baa783ba0e",
+      "sourceHtml": "<p><a href=\"https://quietbackyardliving.com/pages/jujube-trees-at-the-cabin\">https://quietbackyardliving.com/pages/jujube-trees-at-the-cabin</a></p>",
+      "text": "https://quietbackyardliving.com/pages/jujube-trees-at-the-cabin",
+      "type": "paragraph",
+      "html": "<p><a href=\"/pages/jujube-trees-at-the-cabin\">https://quietbackyardliving.com/pages/jujube-trees-at-the-cabin</a></p>"
+    },
+    {
+      "sourceBlockId": "ch26-b025",
+      "sourceHtmlSha256": "788da89204ce7a36b31cc164661f6a964e8e7b2f460c7af1acd301f9c1631d7a",
+      "sourceHtml": "<p>The weather was still pretty chilly, so we had not officially opened the cabin yet. We did not want to risk the pipes freezing.</p>",
+      "text": "The weather was still pretty chilly, so we had not officially opened the cabin yet. We did not want to risk the pipes freezing.",
+      "type": "paragraph",
+      "html": "<p>The weather was still pretty chilly, so we had not officially opened the cabin yet. We did not want to risk the pipes freezing.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b026",
+      "sourceHtmlSha256": "328b3099e103159de73188e05d04ed706bd257d97f385c5aa77847d384949bf4",
+      "sourceHtml": "<p>So after planting the trees, we relaxed for a couple of hours and then headed back to Bay City.</p>",
+      "text": "So after planting the trees, we relaxed for a couple of hours and then headed back to Bay City.",
+      "type": "paragraph",
+      "html": "<p>So after planting the trees, we relaxed for a couple of hours and then headed back to Bay City.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b027",
+      "sourceHtmlSha256": "3abb9c8cc9e84cf613f60ed3731f7ab9a726593d0009d9bc5758d182a87f15f2",
+      "sourceHtml": "<p>But before we left, of course we snapped a few pictures.</p>",
+      "text": "But before we left, of course we snapped a few pictures.",
+      "type": "paragraph",
+      "html": "<p>But before we left, of course we snapped a few pictures.</p>"
+    },
+    {
+      "sourceBlockId": "ch26-b028",
+      "sourceHtmlSha256": "f6f689f38366546b57d18f2a584fefae33dafdbec954ba0f8fef9115d1279f9d",
+      "sourceHtml": "<figure>\n              <img src=\"/assets/images/gallery/chapter26-fruit-tree-jeff.jpg\" alt=\"Jeff standing with one of the newly planted fruit trees inside the fenced orchard area at the cabin\">\n            </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter26-fruit-tree-jeff.jpg",
+          "alt": "Jeff standing with one of the newly planted fruit trees inside the fenced orchard area at the cabin"
+        }
+      ],
+      "sourceAttributes": {},
+      "captionText": [],
+      "previousSourceBlockId": "ch26-b027",
+      "nextSourceBlockId": "ch26-b029",
+      "image": {
+        "mediaId": "journey-487a1032179f",
+        "alt": "Jeff standing with one of the newly planted fruit trees inside the fenced orchard area at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch26-b029",
+      "sourceHtmlSha256": "ee971de4ed2161ba121f1615013eb4e5702eec14037756162251a6f33442a999",
+      "sourceHtml": "<figure>\n              <img src=\"/assets/images/gallery/chapter26-fruit-tree-vanessa.jpg\" alt=\"Vanessa with one of the newly planted fruit trees inside the fenced orchard area at the cabin\">\n            </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter26-fruit-tree-vanessa.jpg",
+          "alt": "Vanessa with one of the newly planted fruit trees inside the fenced orchard area at the cabin"
+        }
+      ],
+      "sourceAttributes": {},
+      "captionText": [],
+      "previousSourceBlockId": "ch26-b028",
+      "nextSourceBlockId": "ch26-b030",
+      "image": {
+        "mediaId": "journey-400492b52702",
+        "alt": "Vanessa with one of the newly planted fruit trees inside the fenced orchard area at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch26-b030",
+      "sourceHtmlSha256": "46bec7b3c0b7c74694b35123f63b2ea7714f63a89d2635b3d156722e821570a0",
+      "sourceHtml": "<p>See y’all next time.</p>",
+      "text": "See y’all next time.",
+      "type": "paragraph",
+      "html": "<p>See y’all next time.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "href": "/pages/jujube-trees-at-the-cabin",
+      "label": "The jujubes have their own planting photographs.",
+      "context": "A little more of that day"
+    },
+    {
+      "href": "/pages/four-in-one-fruit-tree-at-the-cabin",
+      "label": "And so does the Fruit Cocktail tree.",
+      "context": "Still looking forward to a future harvest"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-316dc8629b9e",
+    "alt": "Fruit Cocktail tree tag and young tree picked out for the cabin orchard in spring 2026",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It was mid April, and we found another chilly but dry and decent day. So I said, “Vanessa, let’s go pick up a couple more fruit trees and plant them at the cabin.”",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Six",
+  "originalHeadingAfterBlocks": 1
+}

@@ -1,0 +1,40 @@
+{
+  "id": "library-6c061d48e94a",
+  "route": "/pages/rain-water-feeding-station-build",
+  "output": "pages/rain-water-feeding-station-build.html",
+  "title": "Build This Cute Bird, Squirrel, and Critter Feeding & Watering Station | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition article-page story-edition qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-6c061d48e94a.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/rain-water-feeding-station-build.html",
+    "sha256": "0038cae8662ba7443a432949bd3c3518c88aa1da6506f939e33b5729f9a2bb68"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

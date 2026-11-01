@@ -1,0 +1,49 @@
+{
+  "id": "note-everybody-took-a-birdhouse-home",
+  "route": "/notebook/everybody-took-a-birdhouse-home",
+  "output": "notebook/everybody-took-a-birdhouse-home.html",
+  "title": "Everybody took a birdhouse home. | Quiet Backyard Living",
+  "storyTitle": "Everybody took a birdhouse home.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "A winter project turned into Vanessa’s Christmas Sip & Build.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "Made together · Winter, before the 2026 season",
+  "noteHtml": "<p>We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her <strong>Christmas Sip &amp; Build</strong>.</p>\n<p>And honestly, that was a blast.</p>\n<p>Everybody had fun, we had fun, and they all got to take home their own special birdhouse.</p>",
+  "coverMedia": {
+    "mediaId": "journey-6d441246a5a5",
+    "alt": "Everybody took a birdhouse home.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Four",
+  "parentId": "journey-ch24",
+  "noteSlug": "everybody-took-a-birdhouse-home",
+  "sourceReference": {
+    "chapter": 24,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

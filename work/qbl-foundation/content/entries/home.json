@@ -1,0 +1,50 @@
+{
+  "id": "home",
+  "kind": "landing",
+  "variant": "home",
+  "route": "/",
+  "output": "index.html",
+  "title": "Our Happy Place. Ideas for yours. | Quiet Backyard Living",
+  "description": "Follow Jeff and Vanessa as they build their Happy Place—and find practical garden help, herbs, wildlife ideas, useful projects and tools for yours.",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition ih-home hy-edition be-home",
+  "mainAttrs": {},
+  "wrapperAttrs": {
+    "class": "qbl-editorial-wrap"
+  },
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/integrated-home.css"
+  ],
+  "scripts": [],
+  "blocks": [
+    {
+      "component": "editorial/home-cover"
+    },
+    {
+      "component": "editorial/season-feature"
+    },
+    {
+      "component": "editorial/home-stories"
+    },
+    {
+      "component": "editorial/home-notebook"
+    },
+    {
+      "component": "editorial/home-garden"
+    },
+    {
+      "component": "editorial/help-and-search"
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\index.html"
+}

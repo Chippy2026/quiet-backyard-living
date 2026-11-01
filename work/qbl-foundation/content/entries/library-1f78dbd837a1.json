@@ -1,0 +1,40 @@
+{
+  "id": "library-1f78dbd837a1",
+  "route": "/topics/gardening",
+  "output": "topics/gardening.html",
+  "title": "Growing & Gathering | Quiet Backyard Living",
+  "description": "The guides sit beside a real garden story, with setbacks, starts, and another season to try.",
+  "kind": "collection",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition co-hub-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-1f78dbd837a1.html",
+  "department": "growing",
+  "topic": "The department",
+  "sourceReference": {
+    "file": "reference/library-import-source/topics/gardening.html",
+    "sha256": "4a5a80757ce01ad963b8b4c275d7b2f7e0268d24a127fbcfcb8ad51f56c0e4f1"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

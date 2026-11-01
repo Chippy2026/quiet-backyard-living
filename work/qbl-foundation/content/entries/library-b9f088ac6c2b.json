@@ -1,0 +1,41 @@
+{
+  "id": "library-b9f088ac6c2b",
+  "route": "/pages/simple-bird-feeder-ideas",
+  "output": "pages/simple-bird-feeder-ideas.html",
+  "title": "Simple Bird Feeder Ideas for Beginners | Quiet Backyard Living",
+  "description": "Easy ways to feed birds without turning the backyard into a complicated mess.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-b9f088ac6c2b.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/simple-bird-feeder-ideas.html",
+    "sha256": "9d3d397a5e1fcdd9afd0f14bc83a868ca0522757cbf8e9139bc6ed1213768137"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

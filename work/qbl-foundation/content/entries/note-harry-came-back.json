@@ -1,0 +1,49 @@
+{
+  "id": "note-harry-came-back",
+  "route": "/notebook/harry-came-back",
+  "output": "notebook/harry-came-back.html",
+  "title": "Yup. Harry was back. | Quiet Backyard Living",
+  "storyTitle": "Yup. Harry was back.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "Some of the best moments happen before the tools come out.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "The regulars · Late May 2026",
+  "noteHtml": "<p>Yup. Harry was back.</p>\n<p>And not only was Harry back, we were pretty sure he brought family with him.</p>\n<p>We think we were seeing Harry, Harriet, and one of their kids.</p>\n<p>It is funny how much you miss those little critters when they are gone.</p>",
+  "coverMedia": {
+    "mediaId": "media-ef97c973f7d9",
+    "alt": "Yup. Harry was back.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Eight",
+  "parentId": "journey-ch28",
+  "noteSlug": "harry-came-back",
+  "sourceReference": {
+    "chapter": 28,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

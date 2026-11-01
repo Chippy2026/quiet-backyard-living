@@ -1,0 +1,2 @@
+{% from "components/journey-book/macros.njk" import chapterCard %}
+<header class="qj-opening"><span class="qj-kicker">Two places / One Happy Place story</span><h1>{{ entry.storyTitle }}</h1><p>{{ journey.config.places[entry.placeFilter].intro }}</p><a class="qj-text-link" href="/our-journey/chapters">Return to the whole book <span aria-hidden="true">↗</span></a></header><div class="qj-archive">{% for c in journey.book.all %}{% if entry.placeFilter in c.placeIds %}{{ chapterCard(c) }}{% endif %}{% endfor %}</div>

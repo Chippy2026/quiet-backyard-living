@@ -1,0 +1,42 @@
+{
+  "id": "library-54d7e465e5e2",
+  "route": "/pages/what-to-grow-near-jicama",
+  "output": "pages/what-to-grow-near-jicama.html",
+  "title": "What to Grow Near Jicama | Quiet Backyard Living",
+  "description": "Jicama is more of a longer warm-season curiosity crop, so it needs room and patience more than a fussy complicated companion chart.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-54d7e465e5e2.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-54d7e465e5e2.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-jicama.html",
+    "sha256": "1b6623cae373809871baa8cc6da9b17241c760af6659a0249d2e3a3bb8f8c612"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

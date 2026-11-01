@@ -1,0 +1,446 @@
+[
+  {
+    "route": "/blog/7-easy-ways-to-make-your-yard-more-bird-friendly",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/blog/how-to-attract-more-backyard-wildlife-this-spring",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/25-small-changes-that-turn-an-ordinary-backyard-into-a-wildlife-retreat",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/birdhouse-blueprints",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/checklist",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/how-to-start-a-pollinator-flower-bed",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/protect-my-veggie",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/simple-bird-bath-station",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/simple-bird-feeder-ideas",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-people-actually-buy-when-you-grow-extra-herbs",
+    "status": "PHOTO NEEDED",
+    "need": "Authentic QBL image if documentary; relevant licensed reference imagery otherwise",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-artichokes",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-arugula",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-asparagus",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-beets",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-bok-choy",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-broccoli",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-brussels-sprouts",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cabbage-family-crops",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cabbage",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cantaloupe",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-carrots",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cauliflower",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-celeriac",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-celery",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-chickpeas",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-chili-peppers",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-collards",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-corn",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cress",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-cucumbers",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-edamame",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-eggplant",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-endive",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-fennel",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-garlic",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-green-beans",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-ground-cherries",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-jicama",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-kale",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-kohlrabi",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-leeks",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-lima-beans",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-microgreens",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-mizuna",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-mustard-greens",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-okra",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-onions",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-parsnips",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-peas",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-peppers",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-potatoes",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-pumpkins",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-radishes",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-romanesco",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-rutabaga",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-salsify",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-scallions",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-shallots",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-sorrel",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-spinach",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-squash",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-strawberries",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-summer-squash",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-sweet-potatoes",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-swiss-chard",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-tatsoi",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-tomatillos",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-turnips",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-watermelon",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-winter-squash",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  },
+  {
+    "route": "/pages/what-to-grow-near-zucchini",
+    "status": "PHOTO NEEDED",
+    "need": "Relevant crop/reference photography or licensed illustration",
+    "blocking": false
+  }
+]

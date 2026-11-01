@@ -1,0 +1,42 @@
+{
+  "id": "library-2f35896f3184",
+  "route": "/pages/what-to-grow-near-tatsoi",
+  "output": "pages/what-to-grow-near-tatsoi.html",
+  "title": "What to Grow Near Tatsoi | Quiet Backyard Living",
+  "description": "Tatsoi fits the cooler-season leafy lane best, especially when it is paired with gentler neighbors and steady conditions.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-2f35896f3184.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-2f35896f3184.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-tatsoi.html",
+    "sha256": "bba0e86053d36b9b176c15533723230c7c2d859f447d780874d447c6e51ca541"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

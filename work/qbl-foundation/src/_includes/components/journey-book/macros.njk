@@ -1,0 +1,13 @@
+{% macro chapterCard(c) %}
+<a class="qj-chapter-card" id="chapter-{{ c.chapterNumber }}" href="{{ c.route }}"><div class="qj-chapter-photo">{{ c.coverMedia | mediaImage | safe }}</div><div class="qj-chapter-copy"><span class="qj-kicker">Chapter {{ c.chapterNumber }} · {{ c.dateLabel }}</span><h3>{{ c.storyTitle }}</h3><p>{{ c.teaser }}</p><span class="qj-card-end">{{ c.readingMinutes }} minute read <span aria-hidden="true">↗</span></span></div></a>
+{% endmacro %}
+{% macro smallStory(c,label="") %}
+<a class="qj-small-story" href="{{ c.route }}">{{ c.coverMedia | mediaImage | safe }}<div><span class="qj-kicker">{{ label or c.noteLabel or c.dateLabel }}</span><h3>{{ c.storyTitle }}</h3><span class="qj-link-cue">Take a look <span aria-hidden="true">↗</span></span></div></a>
+{% endmacro %}
+{% macro bookView(book) %}
+<section class="qj-book" id="chapters" aria-labelledby="chapters-title" data-pagefind-ignore><span id="what-happened-next" aria-hidden="true"></span><div class="qj-section-heading"><div><span class="qj-kicker">An unfinished illustrated book</span><h2 id="chapters-title">The Chapters</h2></div><p>Start at the beginning.<br>Or see what happened next.</p></div>
+{% if book.latest %}<div class="qj-latest" id="latest-chapter"><a class="qj-cover" id="chapter-{{ book.latest.chapterNumber }}" href="{{ book.latest.route }}"><div class="qj-cover-photo">{{ book.latest.coverMedia | mediaImage | safe }}</div><div class="qj-cover-copy"><span class="qj-kicker">Latest Chapter / {{ book.latest.chapterNumber }}</span><span class="qj-date">{{ book.latest.dateLabel }} · {{ book.latest.readingMinutes }} minute read</span><h3>{{ book.latest.storyTitle }}</h3><p>{{ book.latest.teaser }}</p><span class="qj-button">Read the Latest Chapter <span aria-hidden="true">→</span></span><small>The latest recorded chapter. The story keeps going.</small></div></a></div>{% endif %}
+<nav class="qj-jumps" aria-label="Jump directly to a chapter"><strong>Jump to</strong>{% for jump in book.jumps %}<a href="{{ jump.route }}">{{ jump.label }}</a>{% endfor %}</nav>
+{% if book.archive.length %}<div class="qj-archive-heading"><span class="qj-kicker">The book so far / In reading order</span><p>The earlier chapters. The newest one has the front cover.</p></div><div class="qj-archive">{% for c in book.archive %}{{ chapterCard(c) }}{% endfor %}</div>{% endif %}
+</section>
+{% endmacro %}

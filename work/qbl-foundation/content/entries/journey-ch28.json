@@ -1,0 +1,738 @@
+{
+  "id": "journey-ch28",
+  "route": "/our-journey/chapters/chapter-28",
+  "output": "our-journey/chapters/chapter-28.html",
+  "title": "Guess Who’s Back? | Quiet Backyard Living",
+  "storyTitle": "Guess Who’s Back?",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Guess Who’s Back?",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 28,
+  "chapterOrder": 28,
+  "seriesId": "happy-place",
+  "dateLabel": "Mid–late May 2026",
+  "dateEvidence": "Mid/late May 2026",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home",
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 28,
+    "articleSha256": "04c29b3642d2b7827709add59d0c9880ce9559a582b05b8e3c4e78cfbda050a4",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-31"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch28-b003",
+      "sourceHtmlSha256": "f00efbde01660cefd448a0056254513effcc804cfe4e0f864980ed9650162b67",
+      "sourceHtml": "<p>Here we are in mid to late May, and the days are finally getting longer and warmer.</p>",
+      "text": "Here we are in mid to late May, and the days are finally getting longer and warmer.",
+      "type": "paragraph",
+      "html": "<p>Here we are in mid to late May, and the days are finally getting longer and warmer.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b004",
+      "sourceHtmlSha256": "d4a530fd7aee41237bfe5a175180c69dee5a6cf3f9877e9ea279bbed020277ff",
+      "sourceHtml": "<p>It is still a little chaotic this time of year, hot one minute, cold the next, but then we got lucky and ran into a stretch of absolutely beautiful weather.</p>",
+      "text": "It is still a little chaotic this time of year, hot one minute, cold the next, but then we got lucky and ran into a stretch of absolutely beautiful weather.",
+      "type": "paragraph",
+      "html": "<p>It is still a little chaotic this time of year, hot one minute, cold the next, but then we got lucky and ran into a stretch of absolutely beautiful weather.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b005",
+      "sourceHtmlSha256": "64191057109a5e05c60a05400a72a4db5f1a21c7eda3118c6e7bd9b023d380c4",
+      "sourceHtml": "<p>That meant it was time to get back up to the cabin and finish some of the spring cleanup projects.</p>",
+      "text": "That meant it was time to get back up to the cabin and finish some of the spring cleanup projects.",
+      "type": "paragraph",
+      "html": "<p>That meant it was time to get back up to the cabin and finish some of the spring cleanup projects.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b006",
+      "sourceHtmlSha256": "bf256ee778a54f149e793753010a044c05c2f2d7a846c971df50490de3fde146",
+      "sourceHtml": "<p>But first things first, it was time to get some food out for the critters.</p>",
+      "text": "But first things first, it was time to get some food out for the critters.",
+      "type": "paragraph",
+      "html": "<p>But first things first, it was time to get some food out for the critters.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b007",
+      "sourceHtmlSha256": "f803b66db8ff95808e75148a8ca0e158f80c72d59a94f2d910d7be47e3d00824",
+      "sourceHtml": "<p>They are hungry this time of year too.</p>",
+      "text": "They are hungry this time of year too.",
+      "type": "paragraph",
+      "html": "<p>They are hungry this time of year too.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b008",
+      "sourceHtmlSha256": "f107726180b65b2132fca71e5b58842b6b85c3d13252d53824f2b484d4db59a9",
+      "sourceHtml": "<p>So we filled up the bird feeders, put out some squirrel and chipmunk food, and of course we could not forget Harry the hummingbird. We had not spotted him yet, but we were hoping it would not be long.</p>",
+      "text": "So we filled up the bird feeders, put out some squirrel and chipmunk food, and of course we could not forget Harry the hummingbird. We had not spotted him yet, but we were hoping it would not be long.",
+      "type": "paragraph",
+      "html": "<p>So we filled up the bird feeders, put out some squirrel and chipmunk food, and of course we could not forget Harry the hummingbird. We had not spotted him yet, but we were hoping it would not be long.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b009",
+      "sourceHtmlSha256": "d1236cbb964ab564188ac3ab384236d651db9498d0e5a1a558045ecfa70fe048",
+      "sourceHtml": "<p>Then it was back to work.</p>",
+      "text": "Then it was back to work.",
+      "type": "paragraph",
+      "html": "<p>Then it was back to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b010",
+      "sourceHtmlSha256": "d637317c751b24f5fedf6f9b7421e30270f4387f692ed4202d8ab0ad5c0b9583",
+      "sourceHtml": "<p>First up was finishing the woodpile.</p>",
+      "text": "First up was finishing the woodpile.",
+      "type": "paragraph",
+      "html": "<p>First up was finishing the woodpile.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b011",
+      "sourceHtmlSha256": "61da1223ddddf33e7f56b1e00590559cbafcced47c66ebabde233e58ba9c7d60",
+      "sourceHtml": "<p>We got it looking a lot better, even though we will have to fill the rest of it later once we split some more wood.</p>",
+      "text": "We got it looking a lot better, even though we will have to fill the rest of it later once we split some more wood.",
+      "type": "paragraph",
+      "html": "<p>We got it looking a lot better, even though we will have to fill the rest of it later once we split some more wood.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b012",
+      "sourceHtmlSha256": "06124c4f2338b5f5f73325e20a4320f436d06cf18eb9035ac54356132edaabe7",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter28-path-work.jpg\" alt=\"Clearing and opening the walking path through the woods toward the water in late May 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-path-work.jpg",
+          "alt": "Clearing and opening the walking path through the woods toward the water in late May 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b011",
+      "nextSourceBlockId": "ch28-b013",
+      "image": {
+        "mediaId": "journey-41cdccbba7fa",
+        "alt": "Clearing and opening the walking path through the woods toward the water in late May 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b013",
+      "sourceHtmlSha256": "9a24a83242abb1cddc53233f906326182d5f9c5d263c9184632445d82fe135cd",
+      "sourceHtml": "<p>Then it was time to work on the walking path all the way down toward Randy’s water. We were excited about that one, because if we could get it opened up properly, it was going to make summer down there a whole lot more enjoyable.</p>",
+      "text": "Then it was time to work on the walking path all the way down toward Randy’s water. We were excited about that one, because if we could get it opened up properly, it was going to make summer down there a whole lot more enjoyable.",
+      "type": "paragraph",
+      "html": "<p>Then it was time to work on the walking path all the way down toward Randy’s water. We were excited about that one, because if we could get it opened up properly, it was going to make summer down there a whole lot more enjoyable.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b014",
+      "sourceHtmlSha256": "1a7fc03e69d62a71ab65582e539f58b663ec434a827b955606cbfdab8a4c66ec",
+      "sourceHtml": "<p>Who knows, maybe next year we will even end up with a little rowboat down there.</p>",
+      "text": "Who knows, maybe next year we will even end up with a little rowboat down there.",
+      "type": "paragraph",
+      "html": "<p>Who knows, maybe next year we will even end up with a little rowboat down there.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b015",
+      "sourceHtmlSha256": "81fc44a97f52313f484a408d1460bd9ac54d202c83424a7700ab123e748e79f7",
+      "sourceHtml": "<p>They are supposed to fill the lake back up sometime in July this year, so we are definitely crossing our fingers.</p>",
+      "text": "They are supposed to fill the lake back up sometime in July this year, so we are definitely crossing our fingers.",
+      "type": "paragraph",
+      "html": "<p>They are supposed to fill the lake back up sometime in July this year, so we are definitely crossing our fingers.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b016",
+      "sourceHtmlSha256": "0f46e1e7a72261aceeb77897a9ffbdda5a0b2b555b6d9b3dd368a620e93ada2e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter28-harry-return.jpg\" alt=\"Hummingbird returning to the feeder during the late May 2026 cabin trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-harry-return.jpg",
+          "alt": "Hummingbird returning to the feeder during the late May 2026 cabin trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b015",
+      "nextSourceBlockId": "ch28-b017",
+      "image": {
+        "mediaId": "media-ef97c973f7d9",
+        "alt": "Hummingbird returning to the feeder during the late May 2026 cabin trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b017",
+      "sourceHtmlSha256": "07275e8d95d6aee73c68b61d957f143d4492567abb4a7d24f2d48b3ad0d2341d",
+      "sourceHtml": "<p>After that first stretch of work, we had to head back to the city for a day because Vanessa had to work Memorial Day.</p>",
+      "text": "After that first stretch of work, we had to head back to the city for a day because Vanessa had to work Memorial Day.",
+      "type": "paragraph",
+      "html": "<p>After that first stretch of work, we had to head back to the city for a day because Vanessa had to work Memorial Day.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b018",
+      "sourceHtmlSha256": "d786fba4dc129ab5ff9179cd4ef0d1c1414c35698e800d7fd18146628847413d",
+      "sourceHtml": "<p>But it was only a quick stop at home. Before long we were right back at the cabin for a couple more days, and this time the weather was supposed to climb into the 80s.</p>",
+      "text": "But it was only a quick stop at home. Before long we were right back at the cabin for a couple more days, and this time the weather was supposed to climb into the 80s.",
+      "type": "paragraph",
+      "html": "<p>But it was only a quick stop at home. Before long we were right back at the cabin for a couple more days, and this time the weather was supposed to climb into the 80s.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b019",
+      "sourceHtmlSha256": "60e581e3c543c29ef45f1d5f0a3b86e377b0c67c9f788e055f2bd6a88bb99b76",
+      "sourceHtml": "<p>Not bad at all.</p>",
+      "text": "Not bad at all.",
+      "type": "paragraph",
+      "html": "<p>Not bad at all.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b020",
+      "sourceHtmlSha256": "b69ecc1177e7572c82577a13c09d190b59ac7f1a6f63fcf4cefdcc98e8bb4130",
+      "sourceHtml": "<p>As soon as we stepped into the house, we saw movement outside and thought, no way.</p>",
+      "text": "As soon as we stepped into the house, we saw movement outside and thought, no way.",
+      "type": "paragraph",
+      "html": "<p>As soon as we stepped into the house, we saw movement outside and thought, no way.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b021",
+      "sourceHtmlSha256": "800ce7d292ef02335867b809c22314e6342b44a18480ccd57fe8ea5a21ed6d8a",
+      "sourceHtml": "<p>Yup. Harry was back.</p>",
+      "text": "Yup. Harry was back.",
+      "type": "paragraph",
+      "html": "<p>Yup. Harry was back.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b022",
+      "sourceHtmlSha256": "68a37c70d60bd0523ea2f83a706293ac84a2b4aa898456aaced478aa63fe0870",
+      "sourceHtml": "<p>And not only was Harry back, we were pretty sure he brought family with him.</p>",
+      "text": "And not only was Harry back, we were pretty sure he brought family with him.",
+      "type": "paragraph",
+      "html": "<p>And not only was Harry back, we were pretty sure he brought family with him.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b023",
+      "sourceHtmlSha256": "6206f4fed19cce74ea63a93b9981d02113f29e13915b49d30bdbee14b2b6dc07",
+      "sourceHtml": "<p>We think we were seeing Harry, Harriet, and one of their kids.</p>",
+      "text": "We think we were seeing Harry, Harriet, and one of their kids.",
+      "type": "paragraph",
+      "html": "<p>We think we were seeing Harry, Harriet, and one of their kids.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b024",
+      "sourceHtmlSha256": "0975fbe6c56c1e3e5538de9a237130dc628e241d5a546501802ec5abc46c6686",
+      "sourceHtml": "<p>They must have been starving, because it felt like we saw at least one of them at the feeder every 15 minutes or so.</p>",
+      "text": "They must have been starving, because it felt like we saw at least one of them at the feeder every 15 minutes or so.",
+      "type": "paragraph",
+      "html": "<p>They must have been starving, because it felt like we saw at least one of them at the feeder every 15 minutes or so.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b025",
+      "sourceHtmlSha256": "ead1f82b86d07d6b6dd8d6c9f01e909be5f26bb45bee9048ca8eb3adbb92867e",
+      "sourceHtml": "<p>It is funny how much you miss those little critters when they are gone.</p>",
+      "text": "It is funny how much you miss those little critters when they are gone.",
+      "type": "paragraph",
+      "html": "<p>It is funny how much you miss those little critters when they are gone.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b026",
+      "sourceHtmlSha256": "00ed5df89a07c00ca86b5374d596d7daec021c202d035ebb3684ba658daa5a71",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter28-path-finished.jpg\" alt=\"Finished walking path through the woods toward the water during the late May 2026 trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-path-finished.jpg",
+          "alt": "Finished walking path through the woods toward the water during the late May 2026 trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b025",
+      "nextSourceBlockId": "ch28-b027",
+      "image": {
+        "mediaId": "journey-b74f0dbbe91a",
+        "alt": "Finished walking path through the woods toward the water during the late May 2026 trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b027",
+      "sourceHtmlSha256": "c3dea6158b67f50ad652268baa95c4b5959d1b6c3b08755468ed8d1e2c75c4b6",
+      "sourceHtml": "<p>Once we got over that excitement, it was time to get moving again because the yardwork was definitely not going to do itself.</p>",
+      "text": "Once we got over that excitement, it was time to get moving again because the yardwork was definitely not going to do itself.",
+      "type": "paragraph",
+      "html": "<p>Once we got over that excitement, it was time to get moving again because the yardwork was definitely not going to do itself.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b028",
+      "sourceHtmlSha256": "661dcc405f9915017a2d20e1c4d04260d76f086c6cdfe26197df71a746b34be8",
+      "sourceHtml": "<p>Everything desperately needed attention, especially the weeds around the grapes and the garden beds.</p>",
+      "text": "Everything desperately needed attention, especially the weeds around the grapes and the garden beds.",
+      "type": "paragraph",
+      "html": "<p>Everything desperately needed attention, especially the weeds around the grapes and the garden beds.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b029",
+      "sourceHtmlSha256": "67306993ef42b40711677f60efc4a550faa1f19c2d323bc82e84649e0bbde0f6",
+      "sourceHtml": "<p>So Vanessa and I tackled the grape area first.</p>",
+      "text": "So Vanessa and I tackled the grape area first.",
+      "type": "paragraph",
+      "html": "<p>So Vanessa and I tackled the grape area first.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b030",
+      "sourceHtmlSha256": "8a18926fd50fbdab5db28af257d1215ba364142b1aa2f03ff058e927327417e4",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter28-grape-weeding.jpg\" alt=\"Vanessa weeding near the grape area during spring cleanup at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-grape-weeding.jpg",
+          "alt": "Vanessa weeding near the grape area during spring cleanup at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b029",
+      "nextSourceBlockId": "ch28-b031",
+      "image": {
+        "mediaId": "media-4f502f0c6b32",
+        "alt": "Vanessa weeding near the grape area during spring cleanup at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b031",
+      "sourceHtmlSha256": "83c392963146efbdc1e6d0a41e978d37a9ea1e357c6880df42074befac0858cf",
+      "sourceHtml": "<p>After that, we moved on to the garden and worked our way around the blueberry bushes, raspberries, blackberries, and even the goji berry plant, pulling weeds and trying to get things back under control.</p>",
+      "text": "After that, we moved on to the garden and worked our way around the blueberry bushes, raspberries, blackberries, and even the goji berry plant, pulling weeds and trying to get things back under control.",
+      "type": "paragraph",
+      "html": "<p>After that, we moved on to the garden and worked our way around the blueberry bushes, raspberries, blackberries, and even the goji berry plant, pulling weeds and trying to get things back under control.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b032",
+      "sourceHtmlSha256": "4ecc6c6269581092588250e1163bfbf6b7dad38664994516f6850666f0fb1e29",
+      "sourceHtml": "<p>While Vanessa kept after the flower beds, I grabbed the weed whip and mower and worked on the lawn.</p>",
+      "text": "While Vanessa kept after the flower beds, I grabbed the weed whip and mower and worked on the lawn.",
+      "type": "paragraph",
+      "html": "<p>While Vanessa kept after the flower beds, I grabbed the weed whip and mower and worked on the lawn.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b033",
+      "sourceHtmlSha256": "40ddea6263c08dd541ca2795ff4aadcfbc55aeb489ab7f5d7fb70f465ed5be41",
+      "sourceHtml": "<p>By the time we were done, we were tired, but we were also feeling pretty accomplished.</p>",
+      "text": "By the time we were done, we were tired, but we were also feeling pretty accomplished.",
+      "type": "paragraph",
+      "html": "<p>By the time we were done, we were tired, but we were also feeling pretty accomplished.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b034",
+      "sourceHtmlSha256": "10d471b2bf7783531942c4b86567f24a4664a669f31eaa9ac5140396a80e40a2",
+      "sourceHtml": "<p>So we took a break and relaxed on the deck for some badly needed rest and recovery.</p>",
+      "text": "So we took a break and relaxed on the deck for some badly needed rest and recovery.",
+      "type": "paragraph",
+      "html": "<p>So we took a break and relaxed on the deck for some badly needed rest and recovery.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b035",
+      "sourceHtmlSha256": "1ee29ecee316d888c6a342237b8aa5bf1c6f3231415eca96084e91cb7d347ef5",
+      "sourceHtml": "<p>Later that evening, once the sun dipped behind the trees and things cooled off a bit, it felt like a good time to squeeze in one more project.</p>",
+      "text": "Later that evening, once the sun dipped behind the trees and things cooled off a bit, it felt like a good time to squeeze in one more project.",
+      "type": "paragraph",
+      "html": "<p>Later that evening, once the sun dipped behind the trees and things cooled off a bit, it felt like a good time to squeeze in one more project.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b036",
+      "sourceHtmlSha256": "38e7ae5708b8f7f819d5a933353cae489cf4dee7ecabd8214638d7e5078e03d3",
+      "sourceHtml": "<p>A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky.</p>",
+      "text": "A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky.",
+      "type": "paragraph",
+      "html": "<p>A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b037",
+      "sourceHtmlSha256": "7665a97ddbe0b60b6d6834e524064c9274a0df09277a6b04fe0676df34f0c2d6",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter28-trellis-close.jpg\" alt=\"Freshly installed cedar trellis for berry plants during the late May 2026 trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-trellis-close.jpg",
+          "alt": "Freshly installed cedar trellis for berry plants during the late May 2026 trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b036",
+      "nextSourceBlockId": "ch28-b038",
+      "image": {
+        "mediaId": "media-9b6c5195ce51",
+        "alt": "Freshly installed cedar trellis for berry plants during the late May 2026 trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b038",
+      "sourceHtmlSha256": "36ae7de981183fae09607bac81b32bc14e183b17df6a188d848d4215626ed1bc",
+      "sourceHtml": "<p>The next morning, it was flower time.</p>",
+      "text": "The next morning, it was flower time.",
+      "type": "paragraph",
+      "html": "<p>The next morning, it was flower time.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b039",
+      "sourceHtmlSha256": "007a4dd949ca993208993e858b8d4fd4097e2c12669fb3c7126f86f40e375de8",
+      "sourceHtml": "<p>We wanted to bring a little more color back into the place and make everything outside feel more alive again.</p>",
+      "text": "We wanted to bring a little more color back into the place and make everything outside feel more alive again.",
+      "type": "paragraph",
+      "html": "<p>We wanted to bring a little more color back into the place and make everything outside feel more alive again.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b040",
+      "sourceHtmlSha256": "6fe6b8dc6318734805764c245d9095426122a6cd0d139a5afa8a72f3c18c1568",
+      "sourceHtml": "<p>But before we even left, we noticed movement at the hummingbird feeder and immediately thought, wait a minute, that is not Harry.</p>",
+      "text": "But before we even left, we noticed movement at the hummingbird feeder and immediately thought, wait a minute, that is not Harry.",
+      "type": "paragraph",
+      "html": "<p>But before we even left, we noticed movement at the hummingbird feeder and immediately thought, wait a minute, that is not Harry.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b041",
+      "sourceHtmlSha256": "7c073192d3dde8bcf60d1a5c4fd260f606daa33fbeeccb7c178435e42e8d35e1",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter28-woodpecker-feeder.jpg\" alt=\"Woodpecker visiting the sweet feeder outside the cabin window during late May 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-woodpecker-feeder.jpg",
+          "alt": "Woodpecker visiting the sweet feeder outside the cabin window during late May 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b040",
+      "nextSourceBlockId": "ch28-b042",
+      "image": {
+        "mediaId": "media-16030d56eba2",
+        "alt": "Woodpecker visiting the sweet feeder outside the cabin window during late May 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b042",
+      "sourceHtmlSha256": "2dfc70459073e361a2e6ca9e4cb268346e95e665f92ce6c59fafd8192b6d59da",
+      "sourceHtml": "<p>Apparently some woodpeckers have a serious sweet tooth too.</p>",
+      "text": "Apparently some woodpeckers have a serious sweet tooth too.",
+      "type": "paragraph",
+      "html": "<p>Apparently some woodpeckers have a serious sweet tooth too.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b043",
+      "sourceHtmlSha256": "dbca1e1de9a505e689e794a7e5076fb96a2ec0aab44616b109cd70fbee347370",
+      "sourceHtml": "<p>At first he drove us crazy, but after a while we finally gave up and decided he could just share the feeder with Harry and the gang.</p>",
+      "text": "At first he drove us crazy, but after a while we finally gave up and decided he could just share the feeder with Harry and the gang.",
+      "type": "paragraph",
+      "html": "<p>At first he drove us crazy, but after a while we finally gave up and decided he could just share the feeder with Harry and the gang.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b044",
+      "sourceHtmlSha256": "62ed8544cd76cd65edf79a2e010fa3ba0a80d586e2927fc207682bb2fbde7250",
+      "sourceHtml": "<p>So off to the local landscape and flower shop we went.</p>",
+      "text": "So off to the local landscape and flower shop we went.",
+      "type": "paragraph",
+      "html": "<p>So off to the local landscape and flower shop we went.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b045",
+      "sourceHtmlSha256": "fa3620e4a3a304b342c858fba0c23fecd1508e3c14bb4ee9c8e8a0fc0406ea75",
+      "sourceHtml": "<p>After picking out a couple flats of flowers, we headed back and got them planted.</p>",
+      "text": "After picking out a couple flats of flowers, we headed back and got them planted.",
+      "type": "paragraph",
+      "html": "<p>After picking out a couple flats of flowers, we headed back and got them planted.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b046",
+      "sourceHtmlSha256": "17a41da877f5dcced387d21c65f2416954ee9dd9789abcf08bf6577d62ca54da",
+      "sourceHtml": "<p>Once that was done, we found ourselves with just enough energy left for one more little project.</p>",
+      "text": "Once that was done, we found ourselves with just enough energy left for one more little project.",
+      "type": "paragraph",
+      "html": "<p>Once that was done, we found ourselves with just enough energy left for one more little project.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b047",
+      "sourceHtmlSha256": "41798a48c78c91f51b9f56b272c689e2abdbffbf73910875c394a068a282d30f",
+      "sourceHtml": "<p>This time it was an improvised trellis for the goji berry plant, which can eventually reach something like 8 to 12 feet tall if it is happy enough.</p>",
+      "text": "This time it was an improvised trellis for the goji berry plant, which can eventually reach something like 8 to 12 feet tall if it is happy enough.",
+      "type": "paragraph",
+      "html": "<p>This time it was an improvised trellis for the goji berry plant, which can eventually reach something like 8 to 12 feet tall if it is happy enough.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b048",
+      "sourceHtmlSha256": "ba1396287425678a41acb7bba8fe74aaecbd20486d5308268ae8d116a43a1d57",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter28-goji-trellis.jpg\" alt=\"New improvised trellis installed for the goji berry plant during the late May 2026 trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-goji-trellis.jpg",
+          "alt": "New improvised trellis installed for the goji berry plant during the late May 2026 trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b047",
+      "nextSourceBlockId": "ch28-b049",
+      "image": {
+        "mediaId": "journey-a5aa3fec3884",
+        "alt": "New improvised trellis installed for the goji berry plant during the late May 2026 trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b049",
+      "sourceHtmlSha256": "748d0141c3e0a657e1c51f9cc1334535e0615950d2524538cf25e09f4dccda70",
+      "sourceHtml": "<p>It ended up being a fun little project for the two of us, and once it was installed, we got everything watered in for the night, the plants, the berries, the trees, all of it.</p>",
+      "text": "It ended up being a fun little project for the two of us, and once it was installed, we got everything watered in for the night, the plants, the berries, the trees, all of it.",
+      "type": "paragraph",
+      "html": "<p>It ended up being a fun little project for the two of us, and once it was installed, we got everything watered in for the night, the plants, the berries, the trees, all of it.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b050",
+      "sourceHtmlSha256": "d9a0b2e6b4e4bd59d4a8ac48032644dd712f40b520125386e31f2dc5d200bb9a",
+      "sourceHtml": "<p>By then we were pretty tired, so we sat down on the deck with a cold drink and looked around at everything we had managed to get done in such a short stretch of time.</p>",
+      "text": "By then we were pretty tired, so we sat down on the deck with a cold drink and looked around at everything we had managed to get done in such a short stretch of time.",
+      "type": "paragraph",
+      "html": "<p>By then we were pretty tired, so we sat down on the deck with a cold drink and looked around at everything we had managed to get done in such a short stretch of time.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b051",
+      "sourceHtmlSha256": "51e6b2e841636ceefec7221804e0154e15aa389be95d21911f4b58074c55366e",
+      "sourceHtml": "<p>That was when we decided the night still had one more job left in it.</p>",
+      "text": "That was when we decided the night still had one more job left in it.",
+      "type": "paragraph",
+      "html": "<p>That was when we decided the night still had one more job left in it.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b052",
+      "sourceHtmlSha256": "0efb643103925958e2ad09cbfcb4da0fdd2dc85a30934dc117828bb6e79161e2",
+      "sourceHtml": "<p>Bonfire time.</p>",
+      "text": "Bonfire time.",
+      "type": "paragraph",
+      "html": "<p>Bonfire time.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b053",
+      "sourceHtmlSha256": "532a680f172aa1e44e235270729992fae2c6de4d513aca1f2d22f5d0ee7a6e08",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter28-bonfire-evening.jpg\" alt=\"Evening bonfire beside the cabin after a long day of cleanup and projects in late May 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-bonfire-evening.jpg",
+          "alt": "Evening bonfire beside the cabin after a long day of cleanup and projects in late May 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b052",
+      "nextSourceBlockId": "ch28-b054",
+      "image": {
+        "mediaId": "journey-7d7f11f509f8",
+        "alt": "Evening bonfire beside the cabin after a long day of cleanup and projects in late May 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b054",
+      "sourceHtmlSha256": "764ba724be7b360a6affdb984ce6387a10b78621795a86288966239544f318de",
+      "sourceHtml": "<p>We burned up the rest of the smaller branches and leftover brush, which felt satisfying after all the cleanup work we had been doing.</p>",
+      "text": "We burned up the rest of the smaller branches and leftover brush, which felt satisfying after all the cleanup work we had been doing.",
+      "type": "paragraph",
+      "html": "<p>We burned up the rest of the smaller branches and leftover brush, which felt satisfying after all the cleanup work we had been doing.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b055",
+      "sourceHtmlSha256": "591654005df29f821c248bd146797003f281145a73fddfecc390d36f8e76e3a8",
+      "sourceHtml": "<p>Unfortunately, the mosquitoes were really bad this spring, so it did not take long before we had to retreat back inside the cabin.</p>",
+      "text": "Unfortunately, the mosquitoes were really bad this spring, so it did not take long before we had to retreat back inside the cabin.",
+      "type": "paragraph",
+      "html": "<p>Unfortunately, the mosquitoes were really bad this spring, so it did not take long before we had to retreat back inside the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b056",
+      "sourceHtmlSha256": "87dc9e757a330e561d917d04dcbaa87682b5c70589a698ba6912a0f8e06327c3",
+      "sourceHtml": "<p>Still, it was a good way to end the night.</p>",
+      "text": "Still, it was a good way to end the night.",
+      "type": "paragraph",
+      "html": "<p>Still, it was a good way to end the night.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b057",
+      "sourceHtmlSha256": "d038afc8c223af9c4651dc83e7909cf0a0f9c22d8bd312f19edab1cbef392b0b",
+      "sourceHtml": "<p>Then before we knew it, morning had rolled around again and it was time to pack up and head home.</p>",
+      "text": "Then before we knew it, morning had rolled around again and it was time to pack up and head home.",
+      "type": "paragraph",
+      "html": "<p>Then before we knew it, morning had rolled around again and it was time to pack up and head home.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b058",
+      "sourceHtmlSha256": "410620eecc11bbb9be26b38c87862055e156fe84499243d559ac2e0178634057",
+      "sourceHtml": "<p>As always, it never feels like enough time.</p>",
+      "text": "As always, it never feels like enough time.",
+      "type": "paragraph",
+      "html": "<p>As always, it never feels like enough time.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b059",
+      "sourceHtmlSha256": "a860479ac763f5f22f9ecbdb40ecd4dbaf0c7709353b7fae4df450afd89c19c7",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter28-flowers-window.jpg\" alt=\"Fresh flowers and cabin deck area looking more alive again during the late May 2026 trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter28-flowers-window.jpg",
+          "alt": "Fresh flowers and cabin deck area looking more alive again during the late May 2026 trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch28-b058",
+      "nextSourceBlockId": "ch28-b060",
+      "image": {
+        "mediaId": "journey-d96f9987e760",
+        "alt": "Fresh flowers and cabin deck area looking more alive again during the late May 2026 trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch28-b060",
+      "sourceHtmlSha256": "e936774602334f36ad4374a6ee1e7ef730ffe2a6a481915cc8cf179ac1320d80",
+      "sourceHtml": "<p>But we left tired, happy, and already looking forward to next time.</p>",
+      "text": "But we left tired, happy, and already looking forward to next time.",
+      "type": "paragraph",
+      "html": "<p>But we left tired, happy, and already looking forward to next time.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b061",
+      "sourceHtmlSha256": "392d662a0f7c2ec4c3a25e3bcbb686e12dd26c6cd4ee085c2919b36640c5228a",
+      "sourceHtml": "<p><strong>Want the next chapter when it’s ready?</strong></p>",
+      "text": "Want the next chapter when it’s ready?",
+      "type": "paragraph",
+      "html": "<p><strong>Want the next chapter when it’s ready?</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch28-b062",
+      "sourceHtmlSha256": "a6173d309b35a71d1b3296f4ee91caa4596927291b618fdba3d4a514ca73eaf6",
+      "sourceHtml": "<p>This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.</p>",
+      "text": "This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.",
+      "type": "paragraph",
+      "html": "<p>This is the real version, not the polished version. If you want to follow the yard, the cabin, the setbacks, the progress, and whatever happens next, I’ll send the next chapter by email.</p>"
+    },
+    {
+      "sourceBlockId": "ch28-b063",
+      "sourceHtmlSha256": "e16fa9878333c513a782fc03e308f7759dc9aaad246f6ae697a589cc5a98c1d4",
+      "sourceHtml": "<p><a class=\"button story-book-button story-book-button-soft\" href=\"/pages/get-updates-from-around-the-yard.html?return=/pages/what-we-re-up-to-around-the-yard-and-cabin.html\">Send Me the Next Chapter</a></p>",
+      "text": "Send Me the Next Chapter",
+      "type": "paragraph",
+      "html": "<p><a class=\"button story-book-button story-book-button-soft\" href=\"/pages/get-updates-from-around-the-yard?return=/pages/what-we-re-up-to-around-the-yard-and-cabin.html\">Send Me the Next Chapter</a></p>"
+    },
+    {
+      "sourceBlockId": "ch28-b064",
+      "sourceHtmlSha256": "c611b91a65f2805dd211226205540c03810f382342f63a53eac5bcbca9c8f44a",
+      "sourceHtml": "<p>See y’all in the next chapter.</p>",
+      "text": "See y’all in the next chapter.",
+      "type": "paragraph",
+      "html": "<p>See y’all in the next chapter.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [
+    {
+      "contentId": "project",
+      "label": "See how the cedar fan trellises came together.",
+      "context": "From one fence picket to the berry patch"
+    }
+  ],
+  "coverMedia": {
+    "mediaId": "media-ef97c973f7d9",
+    "alt": "Hummingbird returning to the feeder during the late May 2026 cabin trip",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Here we are in mid to late May, and the days are finally getting longer and warmer. It is still a little chaotic this time of year, hot one minute, cold the next, but then we got lucky…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Eight",
+  "originalHeadingAfterBlocks": 0
+}

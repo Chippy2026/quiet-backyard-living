@@ -1,0 +1,42 @@
+{
+  "id": "library-af555f14bc0f",
+  "route": "/pages/what-to-grow-near-broccoli",
+  "output": "pages/what-to-grow-near-broccoli.html",
+  "title": "What to Grow Near Broccoli | Quiet Backyard Living",
+  "description": "Broccoli usually does better with a few thoughtful neighbors around it, especially ones that help keep the bed mixed, inspectable, and not overloaded with more bulky",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-af555f14bc0f.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-af555f14bc0f.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-broccoli.html",
+    "sha256": "6b04222e4e731b6863573d2df8018532b3ba3849fb9b733c6339719063af8f16"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

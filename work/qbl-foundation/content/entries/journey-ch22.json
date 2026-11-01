@@ -1,0 +1,463 @@
+{
+  "id": "journey-ch22",
+  "route": "/our-journey/chapters/chapter-22",
+  "output": "our-journey/chapters/chapter-22.html",
+  "title": "Saving the Storage Shed? Thingy? Or Whatever It Becomes... | Quiet Backyard Living",
+  "storyTitle": "Saving the Storage Shed? Thingy? Or Whatever It Becomes...",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Saving the Storage Shed? Thingy? Or Whatever It Becomes...",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 22,
+  "chapterOrder": 22,
+  "seriesId": "happy-place",
+  "dateLabel": "September 2025",
+  "dateEvidence": "September 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 22,
+    "articleSha256": "19c07b56bcdfafd891c1e828cc16d78a352a09f088c2844693336f068944e66f",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-24"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch22-b001",
+      "sourceHtmlSha256": "caab1e8128af86ec30571e1c9300b1e56204ad9c00fc892536b609a529b1fb8f",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter22-paint.jpg\" alt=\"Jeff spraying the storage building exterior with the wrong paint color during the September 2025 push\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter22-paint.jpg",
+          "alt": "Jeff spraying the storage building exterior with the wrong paint color during the September 2025 push"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch22-b002",
+      "image": {
+        "mediaId": "journey-ed0a3afd3ea7",
+        "alt": "Jeff spraying the storage building exterior with the wrong paint color during the September 2025 push",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch22-b004",
+      "sourceHtmlSha256": "9aea7162d7ec5970c7256f3f3acbee92e0eb4a683d06f7dec3387221ac75f52f",
+      "sourceHtml": "<p>It was September of 2025 now, and the days were getting shorter.</p>",
+      "text": "It was September of 2025 now, and the days were getting shorter.",
+      "type": "paragraph",
+      "html": "<p>It was September of 2025 now, and the days were getting shorter.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b005",
+      "sourceHtmlSha256": "34160244fdcc9ff9a5ace52ef0e61d541de3dbe2fd205279f7a165e3d22ba0dd",
+      "sourceHtml": "<p>Which also meant our days of being up there were starting to run short too.</p>",
+      "text": "Which also meant our days of being up there were starting to run short too.",
+      "type": "paragraph",
+      "html": "<p>Which also meant our days of being up there were starting to run short too.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b006",
+      "sourceHtmlSha256": "5e4568228f3464bbef3033133e963ed4dde02cba8fda19563362104082dea58a",
+      "sourceHtml": "<p>So if we were going to save this goofy little “storage building,” we had to keep moving.</p>",
+      "text": "So if we were going to save this goofy little “storage building,” we had to keep moving.",
+      "type": "paragraph",
+      "html": "<p>So if we were going to save this goofy little “storage building,” we had to keep moving.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b007",
+      "sourceHtmlSha256": "6e68a06126244f897de1582dd3b0b2104528b56c1331793e1fe7598cded3e442",
+      "sourceHtml": "<p>The goal now was simple, get it weatherproofed before the season slipped away.</p>",
+      "text": "The goal now was simple, get it weatherproofed before the season slipped away.",
+      "type": "paragraph",
+      "html": "<p>The goal now was simple, get it weatherproofed before the season slipped away.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b008",
+      "sourceHtmlSha256": "9c15c974c1a3256a6b2eca7953cfc960c621f2f83fcecff3d8eb9a71f05ac597",
+      "sourceHtml": "<p>And one thing we knew right away was this:</p>",
+      "text": "And one thing we knew right away was this:",
+      "type": "paragraph",
+      "html": "<p>And one thing we knew right away was this:</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b009",
+      "sourceHtmlSha256": "f82a16b4b189c2e968ac9fcaf4539b2c08c00af754f02cb00134e36c7efd0630",
+      "sourceHtml": "<p>We did <strong>not</strong> want to paint this thing with a brush.</p>",
+      "text": "We did not want to paint this thing with a brush.",
+      "type": "paragraph",
+      "html": "<p>We did <strong>not</strong> want to paint this thing with a brush.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b010",
+      "sourceHtmlSha256": "fecc9e242b9651844158310fbd1fb44c565db43b4bc6c9b7e23783b59b0f0470",
+      "sourceHtml": "<p>That would take forever.</p>",
+      "text": "That would take forever.",
+      "type": "paragraph",
+      "html": "<p>That would take forever.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b011",
+      "sourceHtmlSha256": "323d29f37be07f1f993d264179ea5d9e6704ddb41257a09d21626c5eb7e64a4e",
+      "sourceHtml": "<p>So off to Home Depot we went to get paint and a sprayer.</p>",
+      "text": "So off to Home Depot we went to get paint and a sprayer.",
+      "type": "paragraph",
+      "html": "<p>So off to Home Depot we went to get paint and a sprayer.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b012",
+      "sourceHtmlSha256": "77eafce8b5578494acb2c9d67edd40e1845983fe71bf0a785cb0d27e456b0b32",
+      "sourceHtml": "<p>We picked out a color that we thought matched the cabin pretty closely, but when it came to the sprayer, we could not find one at a price that felt decent. So we left Home Depot kind of scratching our heads.</p>",
+      "text": "We picked out a color that we thought matched the cabin pretty closely, but when it came to the sprayer, we could not find one at a price that felt decent. So we left Home Depot kind of scratching our heads.",
+      "type": "paragraph",
+      "html": "<p>We picked out a color that we thought matched the cabin pretty closely, but when it came to the sprayer, we could not find one at a price that felt decent. So we left Home Depot kind of scratching our heads.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b013",
+      "sourceHtmlSha256": "96747f3e6209b128e666f7b1caba00c4cf01ac34c42d7537be1cdad543ccf0d7",
+      "sourceHtml": "<p>Ask Google.</p>",
+      "text": "Ask Google.",
+      "type": "paragraph",
+      "html": "<p>Ask Google.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b014",
+      "sourceHtmlSha256": "dd8874209d6396f68babc4c664198af0644b7c3adbe40c0f7760bf9e6a326d69",
+      "sourceHtml": "<p>“Okay Google, find a paint sprayer near me.”</p>",
+      "text": "“Okay Google, find a paint sprayer near me.”",
+      "type": "paragraph",
+      "html": "<p>“Okay Google, find a paint sprayer near me.”</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b015",
+      "sourceHtmlSha256": "66d59c440a0050bd80c102803f036a5f31c7f64ebb50194b32833627e8d81e05",
+      "sourceHtml": "<p>And what do you know, there was a Harbor Freight not too far away.</p>",
+      "text": "And what do you know, there was a Harbor Freight not too far away.",
+      "type": "paragraph",
+      "html": "<p>And what do you know, there was a Harbor Freight not too far away.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b016",
+      "sourceHtmlSha256": "48e136027f36ba377060a7b0cb67f089e33bd0273ae53cc95cdda462db28c7d6",
+      "sourceHtml": "<p>So off to destination number two we went.</p>",
+      "text": "So off to destination number two we went.",
+      "type": "paragraph",
+      "html": "<p>So off to destination number two we went.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b017",
+      "sourceHtmlSha256": "d66d9832b20184b2c68550dc736254b9a0cf08953b33dfd45de9240cda4da855",
+      "sourceHtml": "<p>Sure enough, Harbor Freight had a reasonably priced paint sprayer.</p>",
+      "text": "Sure enough, Harbor Freight had a reasonably priced paint sprayer.",
+      "type": "paragraph",
+      "html": "<p>Sure enough, Harbor Freight had a reasonably priced paint sprayer.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b018",
+      "sourceHtmlSha256": "07827b39136e6011f41b07acdc5a6904eeaa3e7552724c765bdd1b4749e8d56e",
+      "sourceHtml": "<p>Man, did I hate pouring more money into a “storage shed.”</p>",
+      "text": "Man, did I hate pouring more money into a “storage shed.”",
+      "type": "paragraph",
+      "html": "<p>Man, did I hate pouring more money into a “storage shed.”</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b019",
+      "sourceHtmlSha256": "c75a1d296345512c6c70b1fcb173c41a67b2bf935397a532f9b5292ae2cbcb22",
+      "sourceHtml": "<p>But we bought it and headed back to the cabin, feeling pretty excited that we were maybe, finally, almost wrapping up this project.</p>",
+      "text": "But we bought it and headed back to the cabin, feeling pretty excited that we were maybe, finally, almost wrapping up this project.",
+      "type": "paragraph",
+      "html": "<p>But we bought it and headed back to the cabin, feeling pretty excited that we were maybe, finally, almost wrapping up this project.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b020",
+      "sourceHtmlSha256": "ec26ce353d03c162647912d0955c5c55885439bbcf81a819b4f07df1384aa26a",
+      "sourceHtml": "<p>After some assembly required, a little fumbling around, and a few curse words, we were in business.</p>",
+      "text": "After some assembly required, a little fumbling around, and a few curse words, we were in business.",
+      "type": "paragraph",
+      "html": "<p>After some assembly required, a little fumbling around, and a few curse words, we were in business.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b021",
+      "sourceHtmlSha256": "e3a5d490c3f723bcf67c1c752bb0e844e3d00b8036a24cb757e88335ec676e83",
+      "sourceHtml": "<p>Time to paint.</p>",
+      "text": "Time to paint.",
+      "type": "paragraph",
+      "html": "<p>Time to paint.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b022",
+      "sourceHtmlSha256": "0f37e9309aa152367e730bece18939fcbebb39086ef0b3e390a06c7664ee4416",
+      "sourceHtml": "<p>So we cracked open that five-gallon bucket of paint from Home Depot and...</p>",
+      "text": "So we cracked open that five-gallon bucket of paint from Home Depot and...",
+      "type": "paragraph",
+      "html": "<p>So we cracked open that five-gallon bucket of paint from Home Depot and...</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b023",
+      "sourceHtmlSha256": "33a3c7f3d10cf57e0344346a1a11c5ece1f1af11b912a677ea0e08f07ab06fea",
+      "sourceHtml": "<p><strong>BAM.</strong></p>",
+      "text": "BAM.",
+      "type": "paragraph",
+      "html": "<p><strong>BAM.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch22-b024",
+      "sourceHtmlSha256": "90d70f54f5c9d5ab71ea9faeca7c2ce6b50b60bfd986e33ddfab4fd15c9e4c32",
+      "sourceHtml": "<p>This paint was butt ugly.</p>",
+      "text": "This paint was butt ugly.",
+      "type": "paragraph",
+      "html": "<p>This paint was butt ugly.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b025",
+      "sourceHtmlSha256": "531cfa70b71df9ac25fbd5818df69728e881690b1fb0121953716721c63b1ee7",
+      "sourceHtml": "<p>Nothing like the little paint swab we picked out.</p>",
+      "text": "Nothing like the little paint swab we picked out.",
+      "type": "paragraph",
+      "html": "<p>Nothing like the little paint swab we picked out.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b026",
+      "sourceHtmlSha256": "1327f2c2d6be43c156fa5208c65cebd143810f94e382febfe615abaa1d9d7cde",
+      "sourceHtml": "<p>Ugh.</p>",
+      "text": "Ugh.",
+      "type": "paragraph",
+      "html": "<p>Ugh.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b027",
+      "sourceHtmlSha256": "ea4d659442f94c6ed0ce8f2e1208408ea3daa06ff8542a98940fa7fc31195bc2",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter22-shed-cabin.jpg\" alt=\"The freshly painted little green structure near the main cabin after the wrong color surprise\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter22-shed-cabin.jpg",
+          "alt": "The freshly painted little green structure near the main cabin after the wrong color surprise"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch22-b026",
+      "nextSourceBlockId": "ch22-b028",
+      "image": {
+        "mediaId": "journey-7042be967d61",
+        "alt": "The freshly painted little green structure near the main cabin after the wrong color surprise",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch22-b028",
+      "sourceHtmlSha256": "ed483f29693be3f47d7d1a1eb5df4f4b1e9960312c4f992f49b35e8da2374b8b",
+      "sourceHtml": "<p>Now what?</p>",
+      "text": "Now what?",
+      "type": "paragraph",
+      "html": "<p>Now what?</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b029",
+      "sourceHtmlSha256": "a43d58375587094ca3702776b837f18c23e6e6c8825a5caad34285bb623d84e4",
+      "sourceHtml": "<p>We definitely did not want to paint it that color, but we also did not have much of a choice. Rain was supposed to move in the next day, and we were heading back to the city too. There was no time to return it, no time to overthink it, and no time to start over.</p>",
+      "text": "We definitely did not want to paint it that color, but we also did not have much of a choice. Rain was supposed to move in the next day, and we were heading back to the city too. There was no time to return it, no time to overthink it, and no time to start over.",
+      "type": "paragraph",
+      "html": "<p>We definitely did not want to paint it that color, but we also did not have much of a choice. Rain was supposed to move in the next day, and we were heading back to the city too. There was no time to return it, no time to overthink it, and no time to start over.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b030",
+      "sourceHtmlSha256": "e1078cba29c259e6e19cf63dbf8c1a30e75ecc95c92fbb156da84f74add2a29f",
+      "sourceHtml": "<p>So that stupid “storage shed” was getting painted this ugly color whether we liked it or not.</p>",
+      "text": "So that stupid “storage shed” was getting painted this ugly color whether we liked it or not.",
+      "type": "paragraph",
+      "html": "<p>So that stupid “storage shed” was getting painted this ugly color whether we liked it or not.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b031",
+      "sourceHtmlSha256": "977c6811577549234964362bf06c5dad2ec36428b38ccb5c150a30b8b5431abf",
+      "sourceHtml": "<p>We told ourselves the usual comforting lie.</p>",
+      "text": "We told ourselves the usual comforting lie.",
+      "type": "paragraph",
+      "html": "<p>We told ourselves the usual comforting lie.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b032",
+      "sourceHtmlSha256": "e315b526508f32fb5c44f11dae27b5c20d9ca570ce8d3e9a3be4fe8b520f523b",
+      "sourceHtml": "<p>“We’ll just paint it again the right color next year.”</p>",
+      "text": "“We’ll just paint it again the right color next year.”",
+      "type": "paragraph",
+      "html": "<p>“We’ll just paint it again the right color next year.”</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b033",
+      "sourceHtmlSha256": "030e92801fe0a63aaa54958baa4af3514fe9b786b5103a466cbb581d59af369e",
+      "sourceHtml": "<p>But deep down, we both knew what that really meant.</p>",
+      "text": "But deep down, we both knew what that really meant.",
+      "type": "paragraph",
+      "html": "<p>But deep down, we both knew what that really meant.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b034",
+      "sourceHtmlSha256": "6f47dff2860bc391b65ac02108c75bb47b34a3f5a914f4918cea0312c52fc738",
+      "sourceHtml": "<p>This thing had already taken three years just to get to this point.</p>",
+      "text": "This thing had already taken three years just to get to this point.",
+      "type": "paragraph",
+      "html": "<p>This thing had already taken three years just to get to this point.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b035",
+      "sourceHtmlSha256": "8dc20ac909abbbc45bd9e916a67f02c2cbc1e5b60e183dc1af80f7e54a74c262",
+      "sourceHtml": "<p>This shed was becoming my nemesis.</p>",
+      "text": "This shed was becoming my nemesis.",
+      "type": "paragraph",
+      "html": "<p>This shed was becoming my nemesis.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b036",
+      "sourceHtmlSha256": "52fc9f977ceb6e06aca5451c4471d9ee1310540a9afaf9bdd2f65ac37696308e",
+      "sourceHtml": "<p>Still, by then we were tired, and it had been a long but really productive season. We were not about to let one ugly paint color ruin all the progress and happiness we had found that year.</p>",
+      "text": "Still, by then we were tired, and it had been a long but really productive season. We were not about to let one ugly paint color ruin all the progress and happiness we had found that year.",
+      "type": "paragraph",
+      "html": "<p>Still, by then we were tired, and it had been a long but really productive season. We were not about to let one ugly paint color ruin all the progress and happiness we had found that year.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b037",
+      "sourceHtmlSha256": "534fa730d3874166673745f658c9e231856ac0da4f20659ebbcc4c5ce02e6c4f",
+      "sourceHtml": "<p>Besides...</p>",
+      "text": "Besides...",
+      "type": "paragraph",
+      "html": "<p>Besides...</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b038",
+      "sourceHtmlSha256": "0b48a7c5625e4845b6b555399d248a7378f9cb80b433ec7f93738db9bcf811de",
+      "sourceHtml": "<p>maybe the color would grow on us.</p>",
+      "text": "maybe the color would grow on us.",
+      "type": "paragraph",
+      "html": "<p>maybe the color would grow on us.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b039",
+      "sourceHtmlSha256": "d5a0b4dc0375a2620b00b73a68fb56c5c76f7a1abf01ff733459d19af5555e3c",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter22-nessa-surprise.jpg\" alt=\"Vanessa reacting to the surprise of how the freshly painted structure ended up looking\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter22-nessa-surprise.jpg",
+          "alt": "Vanessa reacting to the surprise of how the freshly painted structure ended up looking"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch22-b038",
+      "nextSourceBlockId": "ch22-b040",
+      "image": {
+        "mediaId": "journey-a5cad5a767b0",
+        "alt": "Vanessa reacting to the surprise of how the freshly painted structure ended up looking",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch22-b040",
+      "sourceHtmlSha256": "c0958c1111d4d1b8cdcdd4e700d0ac07dec0b6547f9a0061474265f1dabae127",
+      "sourceHtml": "<p>Yeah.</p>",
+      "text": "Yeah.",
+      "type": "paragraph",
+      "html": "<p>Yeah.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b041",
+      "sourceHtmlSha256": "1e8221c5f2575b1b3a3f5a10751b6ee53e6014901b34072ca13da90e405bdb3e",
+      "sourceHtml": "<p>Probably not.</p>",
+      "text": "Probably not.",
+      "type": "paragraph",
+      "html": "<p>Probably not.</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b042",
+      "sourceHtmlSha256": "ea7fa34f4ff80137de45749aab8c063a3d88ac7ee9422db9755cd4d0689a9f6f",
+      "sourceHtml": "<p>But like a wise bunny rabbit once said...</p>",
+      "text": "But like a wise bunny rabbit once said...",
+      "type": "paragraph",
+      "html": "<p>But like a wise bunny rabbit once said...</p>"
+    },
+    {
+      "sourceBlockId": "ch22-b043",
+      "sourceHtmlSha256": "3e55a513e9d419f9d84592ad059e345a4c6ef5558a1b2afab14552a7aad0901e",
+      "sourceHtml": "<p><strong>that ain’t all, folks.</strong></p>",
+      "text": "that ain’t all, folks.",
+      "type": "paragraph",
+      "html": "<p><strong>that ain’t all, folks.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch22-b044",
+      "sourceHtmlSha256": "9e767fbfa867a47480ec75a7ce49567ba9e9bcee48a5bbe4c59416b8681089d0",
+      "sourceHtml": "<p>See ya in a couple weeks.</p>",
+      "text": "See ya in a couple weeks.",
+      "type": "paragraph",
+      "html": "<p>See ya in a couple weeks.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch29",
+      "label": "A few steps made the next job easier.",
+      "context": "Later, at the storage shed"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-ed0a3afd3ea7",
+    "alt": "Jeff spraying the storage building exterior with the wrong paint color during the September 2025 push",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It was September of 2025 now, and the days were getting shorter. Which also meant our days of being up there were starting to run short too.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Two",
+  "originalHeadingAfterBlocks": 1
+}

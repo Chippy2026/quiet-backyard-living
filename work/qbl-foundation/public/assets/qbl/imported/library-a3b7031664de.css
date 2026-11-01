@@ -1,0 +1,51 @@
+.complete-guide .hero-note{ max-width:840px; color:#5c4c38; font-size:1.04rem; line-height:1.7; }.complete-guide .top-hero-row{
+      display:grid;
+      grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);
+      gap:1rem;
+      align-items:stretch;
+      margin:1rem 0 1.3rem;
+    }.complete-guide .top-hero-image{
+      border-radius:22px;
+      overflow:hidden;
+      border:1px solid #e6dece;
+      box-shadow:0 14px 28px rgba(0,0,0,.05);
+      min-height:100%;
+    }.complete-guide .top-hero-image img{
+      width:100%;
+      display:block;
+      height:100%;
+      object-fit:cover;
+    }.complete-guide .tiny-label{ display:inline-block; font-size:.78rem; letter-spacing:.05em; text-transform:uppercase; color:#7a6855; margin-bottom:.45rem; font-weight:700; }.complete-guide .decision-grid,.complete-guide .herb-grid,.complete-guide .mistake-grid,.complete-guide .nav-grid{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }.complete-guide .decision-card,.complete-guide .herb-card,.complete-guide .mistake-card,.complete-guide .nav-card,.complete-guide .plain-section,.complete-guide .quick-start-box,.complete-guide .starter-plan-box{
+      background:#fffef9;
+      border:1px solid #e6dece;
+      border-radius:20px;
+      padding:1rem 1.05rem;
+      box-shadow:0 12px 24px rgba(0,0,0,.04);
+    }.complete-guide .decision-card h3,.complete-guide .herb-card h3,.complete-guide .mistake-card h3,.complete-guide .nav-card h3{ margin-top:.15rem; }.complete-guide .plain-section p:last-child,.complete-guide .quick-start-box p:last-child,.complete-guide .starter-plan-box p:last-child{ margin-bottom:0; }.complete-guide .quick-list{ margin:0; padding-left:1.1rem; }.complete-guide .quick-list li{ margin-bottom:.45rem; }.complete-guide .sub-list{
+      margin:.35rem 0 1rem 1.1rem;
+      padding:0;
+    }.complete-guide .sub-list li{ margin-bottom:.35rem; }.complete-guide .quote-box{
+      background:#fff8e8;
+      border:1px solid #ecd9a3;
+      border-left:5px solid #d7a83d;
+      border-radius:18px;
+      padding:1.05rem 1.15rem;
+      margin:1rem 0 0;
+    }.complete-guide .quote-box p:last-child{ margin-bottom:0; }.complete-guide .quick-start-box{
+      background:linear-gradient(180deg, #fffdf8 0%, #f7f1e6 100%);
+      border:1px solid #dccfb7;
+      margin:0;
+    }.complete-guide .starter-plan-box{
+      background:#f8f4ed;
+      border:1px solid #e4dccd;
+    }.complete-guide .nav-card a{ text-decoration:none; font-weight:700; }.complete-guide .email-cta-card{
+      background:#fffef9;
+      border:1px solid #ddd3c2;
+      border-radius:20px;
+      padding:1.05rem 1.1rem;
+      box-shadow:0 10px 24px rgba(0,0,0,.04);
+      max-width:760px;
+    }.complete-guide .email-cta-card p:last-child{ margin-bottom:0; }
+    @media (max-width:900px) {.complete-guide .decision-grid,.complete-guide .herb-grid,.complete-guide .mistake-grid,.complete-guide .nav-grid,.complete-guide .top-hero-row{ grid-template-columns:1fr; }
+    }
+  

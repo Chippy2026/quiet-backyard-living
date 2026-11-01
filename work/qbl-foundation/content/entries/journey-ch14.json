@@ -1,0 +1,356 @@
+{
+  "id": "journey-ch14",
+  "route": "/our-journey/chapters/chapter-14",
+  "output": "our-journey/chapters/chapter-14.html",
+  "title": "Hurry Up Spring!!! | Quiet Backyard Living",
+  "storyTitle": "Hurry Up Spring!!!",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Hurry Up Spring!!!",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 14,
+  "chapterOrder": 14,
+  "seriesId": "happy-place",
+  "dateLabel": "Winter–spring 2025",
+  "dateEvidence": "Winter–April 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 14,
+    "articleSha256": "790ddd22bfd333497bf7a8389b20a2c66de316bb556174296e88104802a97289",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-16"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch14-b001",
+      "sourceHtmlSha256": "b7015cafa66eaee2b6308ef5b1117882bcf92c13bbca7d329a28dd5c905c107e",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter14-snow.jpg\" alt=\"The cabin property in winter snow during an early-year check-in before the 2025 season began\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter14-snow.jpg",
+          "alt": "The cabin property in winter snow during an early-year check-in before the 2025 season began"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch14-b002",
+      "image": {
+        "mediaId": "journey-f41f1fd9249e",
+        "alt": "The cabin property in winter snow during an early-year check-in before the 2025 season began",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch14-b004",
+      "sourceHtmlSha256": "901bf7bcbfe68ffe8a3ceeaa6e915de4710c4b3fe1542441a337a2491a23a4d4",
+      "sourceHtml": "<p>Around the first of the year, we drove up to check on the property, and it looked so peaceful in the snow. Standing there in the quiet, it was hard not to start counting the weeks until we could come back for real.</p>",
+      "text": "Around the first of the year, we drove up to check on the property, and it looked so peaceful in the snow. Standing there in the quiet, it was hard not to start counting the weeks until we could come back for real.",
+      "type": "paragraph",
+      "html": "<p>Around the first of the year, we drove up to check on the property, and it looked so peaceful in the snow. Standing there in the quiet, it was hard not to start counting the weeks until we could come back for real.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b005",
+      "sourceHtmlSha256": "a5d5a5bc1ef2faaf868e7dff464b147e53e926d1d8c7e6c0cf8be57a442ae737",
+      "sourceHtml": "<p>We could not wait to get back there in just a few short weeks.</p>",
+      "text": "We could not wait to get back there in just a few short weeks.",
+      "type": "paragraph",
+      "html": "<p>We could not wait to get back there in just a few short weeks.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b006",
+      "sourceHtmlSha256": "f43d8c426170e7467a1d4efff479c0661655ab080805e0c263c35c5ca2144d1e",
+      "sourceHtml": "<p>And then, somehow, spring showed up a little sooner than expected.</p>",
+      "text": "And then, somehow, spring showed up a little sooner than expected.",
+      "type": "paragraph",
+      "html": "<p>And then, somehow, spring showed up a little sooner than expected.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b007",
+      "sourceHtmlSha256": "37437c2c9a495a8eaacde6941fe0214b07bcfb22e2a8a87bf746e44a779a6de5",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter14-night-bonfire.jpg\" alt=\"Nighttime bonfire outside the cabin as the 2025 season began to open up\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter14-night-bonfire.jpg",
+          "alt": "Nighttime bonfire outside the cabin as the 2025 season began to open up"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch14-b006",
+      "nextSourceBlockId": "ch14-b008",
+      "image": {
+        "mediaId": "journey-01ed16e51de9",
+        "alt": "Nighttime bonfire outside the cabin as the 2025 season began to open up",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch14-b008",
+      "sourceHtmlSha256": "b88749aa46470e9b36dbb1dc00d75c37a8e8eef743b0fe3c49568931ce67a8c0",
+      "sourceHtml": "<p>It was almost bonfire season again.</p>",
+      "text": "It was almost bonfire season again.",
+      "type": "paragraph",
+      "html": "<p>It was almost bonfire season again.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b009",
+      "sourceHtmlSha256": "a8c19284fd0171aa3f4960b044d0c8aadcfeaf5ae62ca4d4f0c1baebd8e1ae3a",
+      "sourceHtml": "<p>By then, we had already started revising our summer plans to include a few more building projects. I know, we had been burned out from construction, but winter has a funny way of making you forget some of that. Suddenly the ideas start sounding good again.</p>",
+      "text": "By then, we had already started revising our summer plans to include a few more building projects. I know, we had been burned out from construction, but winter has a funny way of making you forget some of that. Suddenly the ideas start sounding good again.",
+      "type": "paragraph",
+      "html": "<p>By then, we had already started revising our summer plans to include a few more building projects. I know, we had been burned out from construction, but winter has a funny way of making you forget some of that. Suddenly the ideas start sounding good again.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b010",
+      "sourceHtmlSha256": "f46df0f937282f2d26a4391ce4453c180aa3558880a9e2f9857ff259c379db5c",
+      "sourceHtml": "<p>This time, one of the big dreams was a deck off the side doors. Nothing fancy, just a place to relax with some outdoor furniture and enjoy the bonfires from a level surface. We were also thinking about landscaping, tree removal, and just making the outside feel better overall. And of course, we wanted to enjoy the critters even more.</p>",
+      "text": "This time, one of the big dreams was a deck off the side doors. Nothing fancy, just a place to relax with some outdoor furniture and enjoy the bonfires from a level surface. We were also thinking about landscaping, tree removal, and just making the outside feel better overall. And of course, we wanted to enjoy the critters even more.",
+      "type": "paragraph",
+      "html": "<p>This time, one of the big dreams was a deck off the side doors. Nothing fancy, just a place to relax with some outdoor furniture and enjoy the bonfires from a level surface. We were also thinking about landscaping, tree removal, and just making the outside feel better overall. And of course, we wanted to enjoy the critters even more.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b011",
+      "sourceHtmlSha256": "a926d57f886bacb9de0c708d0e325280f01cbd73845ca7d82a62a7dd7aa9a454",
+      "sourceHtml": "<p>But enough dreaming.</p>",
+      "text": "But enough dreaming.",
+      "type": "paragraph",
+      "html": "<p>But enough dreaming.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b012",
+      "sourceHtmlSha256": "1e72b1f18edad2da7f8a6dc031e9df4afc5195cb137bd119fc5a24ddc8e0ca55",
+      "sourceHtml": "<p>Let’s get to the good stuff.</p>",
+      "text": "Let’s get to the good stuff.",
+      "type": "paragraph",
+      "html": "<p>Let’s get to the good stuff.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b013",
+      "sourceHtmlSha256": "cf28a19d0c64f674673b245c23c99f47e85796ce10b1c2cdfcd70bc9a7d91fa0",
+      "sourceHtml": "<p>Over the winter, we had picked up a few things for the yard, some birdhouses, bird feeders, and a couple of hummingbird feeders. Then around April of 2025, it was finally time to open the cabin back up and get to work.</p>",
+      "text": "Over the winter, we had picked up a few things for the yard, some birdhouses, bird feeders, and a couple of hummingbird feeders. Then around April of 2025, it was finally time to open the cabin back up and get to work.",
+      "type": "paragraph",
+      "html": "<p>Over the winter, we had picked up a few things for the yard, some birdhouses, bird feeders, and a couple of hummingbird feeders. Then around April of 2025, it was finally time to open the cabin back up and get to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b014",
+      "sourceHtmlSha256": "41f5d29583cef36581503d7188b8abe2987bafb14991db7a7d7fdf8fd7a76be0",
+      "sourceHtml": "<p>That meant installing the water pump, priming it, stocking food, bringing bedding back in, cleaning up, and doing all the little opening-day chores that you are actually excited to do because they mean summer is coming.</p>",
+      "text": "That meant installing the water pump, priming it, stocking food, bringing bedding back in, cleaning up, and doing all the little opening-day chores that you are actually excited to do because they mean summer is coming.",
+      "type": "paragraph",
+      "html": "<p>That meant installing the water pump, priming it, stocking food, bringing bedding back in, cleaning up, and doing all the little opening-day chores that you are actually excited to do because they mean summer is coming.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b015",
+      "sourceHtmlSha256": "e166459e77ec8aad103b3ca66d41792e0942e34e3e3ded4de2e66fd7c9fecd1f",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter14-chippy.jpg\" alt=\"Chippy back on the cabin grounds as one of the familiar spring regulars\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter14-chippy.jpg",
+          "alt": "Chippy back on the cabin grounds as one of the familiar spring regulars"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch14-b014",
+      "nextSourceBlockId": "ch14-b016",
+      "image": {
+        "mediaId": "media-097bdfdc026b",
+        "alt": "Chippy back on the cabin grounds as one of the familiar spring regulars",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch14-b016",
+      "sourceHtmlSha256": "473e50c7f7f9cf3ad0d2697e26dd9ea0c74ed04167e78fd04d662ed726c51cc8",
+      "sourceHtml": "<p>And sure enough, we found some of our usual suspects hanging around.</p>",
+      "text": "And sure enough, we found some of our usual suspects hanging around.",
+      "type": "paragraph",
+      "html": "<p>And sure enough, we found some of our usual suspects hanging around.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b017",
+      "sourceHtmlSha256": "36229f50ffa1f08a838cfeb9fb46100ea12e52c18b1ee3ad4956053f91b6c282",
+      "sourceHtml": "<p>Chippy was back.</p>",
+      "text": "Chippy was back.",
+      "type": "paragraph",
+      "html": "<p>Chippy was back.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b018",
+      "sourceHtmlSha256": "edc6665c84d72267828590e278002355c85aac336b2fc9c20cfcb072b510bb7a",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter14-wildlife-regulars.jpg\" alt=\"Chippy and a squirrel sharing the yard as wildlife regulars at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter14-wildlife-regulars.jpg",
+          "alt": "Chippy and a squirrel sharing the yard as wildlife regulars at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch14-b017",
+      "nextSourceBlockId": "ch14-b019",
+      "image": {
+        "mediaId": "journey-c0d04cf6f998",
+        "alt": "Chippy and a squirrel sharing the yard as wildlife regulars at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch14-b019",
+      "sourceHtmlSha256": "3538c5ab3494472a30b885223b811bd83ddf4ff33e0c9e55ad6711076bb54a6d",
+      "sourceHtml": "<p>And we had some new visitors too.</p>",
+      "text": "And we had some new visitors too.",
+      "type": "paragraph",
+      "html": "<p>And we had some new visitors too.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b020",
+      "sourceHtmlSha256": "d0ee8796cbcf07b2c26a2bced2ee9099b65e261ccba3d5fec32b495ebb85b88d",
+      "sourceHtml": "<p>So all those winter critter finds we had picked up? Yep, we put them all out and filled them to the brim. Those little guys were probably hungry. We even put out the hummingbird feeders, even though we had never actually seen a hummingbird around there before. But hey, maybe we would get lucky.</p>",
+      "text": "So all those winter critter finds we had picked up? Yep, we put them all out and filled them to the brim. Those little guys were probably hungry. We even put out the hummingbird feeders, even though we had never actually seen a hummingbird around there before. But hey, maybe we would get lucky.",
+      "type": "paragraph",
+      "html": "<p>So all those winter critter finds we had picked up? Yep, we put them all out and filled them to the brim. Those little guys were probably hungry. We even put out the hummingbird feeders, even though we had never actually seen a hummingbird around there before. But hey, maybe we would get lucky.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b021",
+      "sourceHtmlSha256": "1f9990a508c048e26edf4edeac78905c3b11fecb111e6836f58777e8275e8d7c",
+      "sourceHtml": "<p>We also put that Cub Cadet riding mower to work.</p>",
+      "text": "We also put that Cub Cadet riding mower to work.",
+      "type": "paragraph",
+      "html": "<p>We also put that Cub Cadet riding mower to work.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b022",
+      "sourceHtmlSha256": "e2d4be8ea0e80995c058128af4a5c8ab8ba183f414c69b94b82dfd1ac9f60da0",
+      "sourceHtml": "<p>There were hours of yard cleanup waiting for us after the harsh winter months. At one point we had freezing rain that loaded the pine branches with ice until they got too heavy and snapped, leaving branches down around the property. So this trip was all about work.</p>",
+      "text": "There were hours of yard cleanup waiting for us after the harsh winter months. At one point we had freezing rain that loaded the pine branches with ice until they got too heavy and snapped, leaving branches down around the property. So this trip was all about work.",
+      "type": "paragraph",
+      "html": "<p>There were hours of yard cleanup waiting for us after the harsh winter months. At one point we had freezing rain that loaded the pine branches with ice until they got too heavy and snapped, leaving branches down around the property. So this trip was all about work.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b023",
+      "sourceHtmlSha256": "9ee382f3cb869a6dc189d52c10de70f767943a6207d98cf1452a45d8d04ceb15",
+      "sourceHtml": "<p>But it was fun work, in some weird twisted way.</p>",
+      "text": "But it was fun work, in some weird twisted way.",
+      "type": "paragraph",
+      "html": "<p>But it was fun work, in some weird twisted way.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b024",
+      "sourceHtmlSha256": "9681f39bbaea1b6d4317623e6540bf5f1f28d86d17cf71cad339cceff7b466da",
+      "sourceHtml": "<p>The kind of work that feels good because you know it means the place is waking back up again, and so are you.</p>",
+      "text": "The kind of work that feels good because you know it means the place is waking back up again, and so are you.",
+      "type": "paragraph",
+      "html": "<p>The kind of work that feels good because you know it means the place is waking back up again, and so are you.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b025",
+      "sourceHtmlSha256": "1a0adb016264c023a0ea7bbf8466ff89dbf1219ad4f8121562f7abefbcb99a15",
+      "sourceHtml": "<p>But enough for now.</p>",
+      "text": "But enough for now.",
+      "type": "paragraph",
+      "html": "<p>But enough for now.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b026",
+      "sourceHtmlSha256": "0181b9058f99cb5752d1182be24b9f2dc506413d334dbb01dfeb54ba782385fa",
+      "sourceHtml": "<p>After all, it was only April in Michigan, and the weather still had no idea what it wanted to do. Cold, warm, freezing, sunny, hot, it all seemed to happen in one stretch.</p>",
+      "text": "After all, it was only April in Michigan, and the weather still had no idea what it wanted to do. Cold, warm, freezing, sunny, hot, it all seemed to happen in one stretch.",
+      "type": "paragraph",
+      "html": "<p>After all, it was only April in Michigan, and the weather still had no idea what it wanted to do. Cold, warm, freezing, sunny, hot, it all seemed to happen in one stretch.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b027",
+      "sourceHtmlSha256": "ffa41bc22e9d26771cef6cbed76b037fe71e78036f2e4bf27671ffe43f57d1c5",
+      "sourceHtml": "<p>So for now, it was time to head back to the city and regroup.</p>",
+      "text": "So for now, it was time to head back to the city and regroup.",
+      "type": "paragraph",
+      "html": "<p>So for now, it was time to head back to the city and regroup.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b028",
+      "sourceHtmlSha256": "088b433455e33e5a2a398ef113f3db9739b129d9cdf6f0b98ccc958afe5088aa",
+      "sourceHtml": "<p>Because next time, we had some building to do.</p>",
+      "text": "Because next time, we had some building to do.",
+      "type": "paragraph",
+      "html": "<p>Because next time, we had some building to do.</p>"
+    },
+    {
+      "sourceBlockId": "ch14-b029",
+      "sourceHtmlSha256": "de488fd2e45a9e5c924163c1555d4d48c3cb88a84318039410ca918e2f719ce9",
+      "sourceHtml": "<p><strong>Woo hoo, we’re back, baby.</strong></p>",
+      "text": "Woo hoo, we’re back, baby.",
+      "type": "paragraph",
+      "html": "<p><strong>Woo hoo, we’re back, baby.</strong></p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-f41f1fd9249e",
+    "alt": "The cabin property in winter snow during an early-year check-in before the 2025 season began",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Around the first of the year, we drove up to check on the property, and it looked so peaceful in the snow. Standing there in the quiet, it was hard not to start counting the weeks until…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Fourteen",
+  "originalHeadingAfterBlocks": 1
+}

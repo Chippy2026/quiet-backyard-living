@@ -1,0 +1,451 @@
+{
+  "id": "journey-ch19",
+  "route": "/our-journey/chapters/chapter-19",
+  "output": "our-journey/chapters/chapter-19.html",
+  "title": "Waiting 2 Weeks to Get Back to the Cabin SUCKS | Quiet Backyard Living",
+  "storyTitle": "Waiting 2 Weeks to Get Back to the Cabin SUCKS",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Waiting 2 Weeks to Get Back to the Cabin SUCKS",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 19,
+  "chapterOrder": 19,
+  "seriesId": "happy-place",
+  "dateLabel": "July 2025",
+  "dateEvidence": "Mid/late July 2025",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 19,
+    "articleSha256": "4301e20146c1be721a6c3b4f8636f39f305c0630a35d4810326960f3152712e8",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-21"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch19-b001",
+      "sourceHtmlSha256": "0efb14551e6cf9b811acf3010dc93cacb7b652615d12e4707a514c5ba2a3e1df",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter19-party-lights.jpg\" alt=\"Evening deck scene with party lights strung up during the hot summer stretch of 2025\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter19-party-lights.jpg",
+          "alt": "Evening deck scene with party lights strung up during the hot summer stretch of 2025"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch19-b002",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch19-b004",
+      "sourceHtmlSha256": "a943c3f1defb31284a21bbe9713920dd4ca61efee9fde7891539bbf2128cfb1c",
+      "sourceHtml": "<p>By mid to late July of 2025, we were deep in the dog days of summer.</p>",
+      "text": "By mid to late July of 2025, we were deep in the dog days of summer.",
+      "type": "paragraph",
+      "html": "<p>By mid to late July of 2025, we were deep in the dog days of summer.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b005",
+      "sourceHtmlSha256": "c9d8b3790866cfbd4b5ead1aecac26f2a1bf6f3abfa319d84fbbb4e111664883",
+      "sourceHtml": "<p>This was not really the time for heavy building. It was just too darn hot.</p>",
+      "text": "This was not really the time for heavy building. It was just too darn hot.",
+      "type": "paragraph",
+      "html": "<p>This was not really the time for heavy building. It was just too darn hot.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b006",
+      "sourceHtmlSha256": "c96d4694b55e09d656de4fb9dc37fe40f2000e0c7c303424b450978ec25304ce",
+      "sourceHtml": "<p>But that did not mean we could not knock out a few smaller projects to make the deck even better.</p>",
+      "text": "But that did not mean we could not knock out a few smaller projects to make the deck even better.",
+      "type": "paragraph",
+      "html": "<p>But that did not mean we could not knock out a few smaller projects to make the deck even better.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b007",
+      "sourceHtmlSha256": "76edfb6708c4a1e2cbf73fe0caf6eb391d69bb2f31ce8e927f3f6cf7a72fceb4",
+      "sourceHtml": "<p>And honestly, by then we kept asking ourselves the same question.</p>",
+      "text": "And honestly, by then we kept asking ourselves the same question.",
+      "type": "paragraph",
+      "html": "<p>And honestly, by then we kept asking ourselves the same question.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b008",
+      "sourceHtmlSha256": "eddea769e978338a1ac19a303ff3deafdd423af43a345724a3e324dee4f919e9",
+      "sourceHtml": "<p>Why didn’t we build this deck sooner?</p>",
+      "text": "Why didn’t we build this deck sooner?",
+      "type": "paragraph",
+      "html": "<p>Why didn’t we build this deck sooner?</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b009",
+      "sourceHtmlSha256": "bfae36fe362c08dfa7f6170b13a4b9e41bf8b608c246137ba7eff3b9a30c9829",
+      "sourceHtml": "<p>That deck was getting used all the time now, and we loved being out there.</p>",
+      "text": "That deck was getting used all the time now, and we loved being out there.",
+      "type": "paragraph",
+      "html": "<p>That deck was getting used all the time now, and we loved being out there.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b010",
+      "sourceHtmlSha256": "8400f5b194edf6d4beddf8cfccac9214174ec88ec81172dde127443df7a3dc20",
+      "sourceHtml": "<p>So what makes a deck better?</p>",
+      "text": "So what makes a deck better?",
+      "type": "paragraph",
+      "html": "<p>So what makes a deck better?</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b011",
+      "sourceHtmlSha256": "3b09e2154c1dafd6fae9226a66f9977d36c982b3b0b61dc6bc163a50d9ef788f",
+      "sourceHtml": "<p>Yep, you guessed it.</p>",
+      "text": "Yep, you guessed it.",
+      "type": "paragraph",
+      "html": "<p>Yep, you guessed it.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b012",
+      "sourceHtmlSha256": "2e975e47dc2f6cece5b878fc0c59c8cda7b0853f75ce6d7bf7f10e49e622888b",
+      "sourceHtml": "<p><strong>Party lights.</strong></p>",
+      "text": "Party lights.",
+      "type": "paragraph",
+      "html": "<p><strong>Party lights.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch19-b013",
+      "sourceHtmlSha256": "dc82c59dbf8d142e205e0c5195c1228e817a233c31c2523c83946733d1f9eef2",
+      "sourceHtml": "<p>You know, the kind every quaint little coffee shop seems to have.</p>",
+      "text": "You know, the kind every quaint little coffee shop seems to have.",
+      "type": "paragraph",
+      "html": "<p>You know, the kind every quaint little coffee shop seems to have.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b014",
+      "sourceHtmlSha256": "ba8983932c7040f744fc0fda024a1d7ae1beeb403e425bb166e718ffbd0b05c3",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter19-tiki.jpg\" alt=\"Tiki torch and deck-side flower bed detail added during the slower dog days of summer\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter19-tiki.jpg",
+          "alt": "Tiki torch and deck-side flower bed detail added during the slower dog days of summer"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch19-b013",
+      "nextSourceBlockId": "ch19-b015",
+      "image": {
+        "mediaId": "journey-67e1cde5cce9",
+        "alt": "Tiki torch and deck-side flower bed detail added during the slower dog days of summer",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch19-b015",
+      "sourceHtmlSha256": "6c9fe29dfbce64ee43e7fd0f763e503dbf6088f93c0a3e36508e06621710e466",
+      "sourceHtml": "<p>So we strung some of those up.</p>",
+      "text": "So we strung some of those up.",
+      "type": "paragraph",
+      "html": "<p>So we strung some of those up.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b016",
+      "sourceHtmlSha256": "20a1c56a8bb06103d7176312f48d5d7436e0d9e9895da90b0b1676345a4a721e",
+      "sourceHtml": "<p>And what goes with party lights?</p>",
+      "text": "And what goes with party lights?",
+      "type": "paragraph",
+      "html": "<p>And what goes with party lights?</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b017",
+      "sourceHtmlSha256": "e29e3938107f5262ed8275e65cc5aa3aabd1fe4c1a7f36c1e5640e03f413ecd5",
+      "sourceHtml": "<p>Tiki torches, of course.</p>",
+      "text": "Tiki torches, of course.",
+      "type": "paragraph",
+      "html": "<p>Tiki torches, of course.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b018",
+      "sourceHtmlSha256": "70591ebbd8e2145dd1174fb0fa833b4c217bb24b330190cea13095b840051834",
+      "sourceHtml": "<p>Had to add a couple of those too.</p>",
+      "text": "Had to add a couple of those too.",
+      "type": "paragraph",
+      "html": "<p>Had to add a couple of those too.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b019",
+      "sourceHtmlSha256": "e1477fb454dcd390bf8274708b773acddcfc2ab9c5c1d7e8d4788cf274bb331f",
+      "sourceHtml": "<p>Now the deck was really starting to feel like a place we needed to spend a lot of time.</p>",
+      "text": "Now the deck was really starting to feel like a place we needed to spend a lot of time.",
+      "type": "paragraph",
+      "html": "<p>Now the deck was really starting to feel like a place we needed to spend a lot of time.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b020",
+      "sourceHtmlSha256": "8e6a6bee401b31ff402900ab17bfc9be3820fae712ed321c81c1c1e1976da6b1",
+      "sourceHtml": "<p>Especially since it was too hot for a bonfire.</p>",
+      "text": "Especially since it was too hot for a bonfire.",
+      "type": "paragraph",
+      "html": "<p>Especially since it was too hot for a bonfire.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b021",
+      "sourceHtmlSha256": "aed0544be5c9d3004b41d3437728fac12739a6956f87ef70aaa0511b781056d6",
+      "sourceHtml": "<p>Yep, I said it.</p>",
+      "text": "Yep, I said it.",
+      "type": "paragraph",
+      "html": "<p>Yep, I said it.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b022",
+      "sourceHtmlSha256": "33a0898b59daa9bc69b7c52439c229464d9c7fefb6a17b23541a978cee6ada46",
+      "sourceHtml": "<p>Somebody slap me.</p>",
+      "text": "Somebody slap me.",
+      "type": "paragraph",
+      "html": "<p>Somebody slap me.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b023",
+      "sourceHtmlSha256": "fb5a6fd5c09b7ca331bee58c4bc1bb23469c6244e9896e1f688a178a15e99632",
+      "sourceHtml": "<p>But really, it was too hot for a bonfire, so the tiki torches and string lights were a welcome addition. We could sit out there for hours on that deck, dreaming up the next project.</p>",
+      "text": "But really, it was too hot for a bonfire, so the tiki torches and string lights were a welcome addition. We could sit out there for hours on that deck, dreaming up the next project.",
+      "type": "paragraph",
+      "html": "<p>But really, it was too hot for a bonfire, so the tiki torches and string lights were a welcome addition. We could sit out there for hours on that deck, dreaming up the next project.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b024",
+      "sourceHtmlSha256": "9231babf02e0118e5181d771b4186214a1db3ece4c551b9c4a2b646d83b2ae4e",
+      "sourceHtml": "<p>Oh wait...</p>",
+      "text": "Oh wait...",
+      "type": "paragraph",
+      "html": "<p>Oh wait...</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b025",
+      "sourceHtmlSha256": "9f6c952b8764d32568435ddf0e7c52e31db039e9ad7d91a3fd054761a88bcfff",
+      "sourceHtml": "<p>We actually did.</p>",
+      "text": "We actually did.",
+      "type": "paragraph",
+      "html": "<p>We actually did.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b026",
+      "sourceHtmlSha256": "b82b42800f8ad17d4109cfd8553e2c5786173283654bb19f4c7eea26fb94e544",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter19-screened-structure.jpg\" alt=\"Old screened-in structure on the concrete pad before winter winds tore it apart\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter19-screened-structure.jpg",
+          "alt": "Old screened-in structure on the concrete pad before winter winds tore it apart"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch19-b025",
+      "nextSourceBlockId": "ch19-b027",
+      "image": {
+        "mediaId": "journey-349f319b20bf",
+        "alt": "Old screened-in structure on the concrete pad before winter winds tore it apart",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch19-b027",
+      "sourceHtmlSha256": "91649a478e62c3d7aa1848691a9ce32a8318ca9c602c6277393887b42e6b24ba",
+      "sourceHtml": "<p>And before long, our sights shifted back to that weird structure.</p>",
+      "text": "And before long, our sights shifted back to that weird structure.",
+      "type": "paragraph",
+      "html": "<p>And before long, our sights shifted back to that weird structure.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b028",
+      "sourceHtmlSha256": "dccbf4a9709a0708b56d0b4fb94e3b9e013c70a79cb1a9fc8a6b613f637b367b",
+      "sourceHtml": "<p>It had originally been an old screened-in sitting area the previous owner built. But it did not even survive one winter before the harsh wind tore it all to shreds. After that, we mostly just used it as a place to hang feeders and feed critters.</p>",
+      "text": "It had originally been an old screened-in sitting area the previous owner built. But it did not even survive one winter before the harsh wind tore it all to shreds. After that, we mostly just used it as a place to hang feeders and feed critters.",
+      "type": "paragraph",
+      "html": "<p>It had originally been an old screened-in sitting area the previous owner built. But it did not even survive one winter before the harsh wind tore it all to shreds. After that, we mostly just used it as a place to hang feeders and feed critters.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b029",
+      "sourceHtmlSha256": "a18d417b5f34c2536e6cd0bb22d8034329442d771bacaa5a8eb7c028b66912bd",
+      "sourceHtml": "<p>Which, honestly, was probably not the best idea.</p>",
+      "text": "Which, honestly, was probably not the best idea.",
+      "type": "paragraph",
+      "html": "<p>Which, honestly, was probably not the best idea.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b030",
+      "sourceHtmlSha256": "a48a8aa3cdf465fe383e4a92821a6f44e4cc4dba2b13de73b3a85822deef0ec5",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter19-structure-frame.jpg\" alt=\"Bare frame of the old structure on the concrete pad after it became a feeding area and before the next idea took shape\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter19-structure-frame.jpg",
+          "alt": "Bare frame of the old structure on the concrete pad after it became a feeding area and before the next idea took shape"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch19-b029",
+      "nextSourceBlockId": "ch19-b031",
+      "image": {
+        "mediaId": "journey-fbe07db0e482",
+        "alt": "Bare frame of the old structure on the concrete pad after it became a feeding area and before the next idea took shape",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch19-b031",
+      "sourceHtmlSha256": "4fc9dd24f2d558741521e53b1cfe4748d5113e395a06e4f3ef0fd87469093828",
+      "sourceHtml": "<p>And yes, those poles eventually got used for our sunshade, so at least we can say we upcycled them.</p>",
+      "text": "And yes, those poles eventually got used for our sunshade, so at least we can say we upcycled them.",
+      "type": "paragraph",
+      "html": "<p>And yes, those poles eventually got used for our sunshade, so at least we can say we upcycled them.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b032",
+      "sourceHtmlSha256": "9df54269245482f3cbbd8ce94d177c7c50a6733b9db26e1d606955fd4818b189",
+      "sourceHtml": "<p>But anyway, that structure was sitting there empty and slowly falling apart, and I just could not leave it like that forever.</p>",
+      "text": "But anyway, that structure was sitting there empty and slowly falling apart, and I just could not leave it like that forever.",
+      "type": "paragraph",
+      "html": "<p>But anyway, that structure was sitting there empty and slowly falling apart, and I just could not leave it like that forever.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b033",
+      "sourceHtmlSha256": "9acf8ef16ddea4d19c8595e21e7b42bf82bfbe1decddcca3cf6d41e93a379f84",
+      "sourceHtml": "<p>What we started envisioning for that spot was a fun, whimsical little greenhouse made out of old wood and upcycled windows.</p>",
+      "text": "What we started envisioning for that spot was a fun, whimsical little greenhouse made out of old wood and upcycled windows.",
+      "type": "paragraph",
+      "html": "<p>What we started envisioning for that spot was a fun, whimsical little greenhouse made out of old wood and upcycled windows.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b034",
+      "sourceHtmlSha256": "705d262be102c8c13bf26209b8ce945b0c0ef6418ccfe93d9b76c508b967a95a",
+      "sourceHtml": "<p>Yeah, I know.</p>",
+      "text": "Yeah, I know.",
+      "type": "paragraph",
+      "html": "<p>Yeah, I know.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b035",
+      "sourceHtmlSha256": "8eae2dd6d6e7aeb1130d6595ba7a97b2e6cff6d2ff5f13ac153bde3540925e67",
+      "sourceHtml": "<p>That probably sounds a little corny.</p>",
+      "text": "That probably sounds a little corny.",
+      "type": "paragraph",
+      "html": "<p>That probably sounds a little corny.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b036",
+      "sourceHtmlSha256": "f88c5eaf66165015c34fcd5082799e4dbd945126ce71ff19e032b1fa02d3bd98",
+      "sourceHtml": "<p>But I could really see it in my head.</p>",
+      "text": "But I could really see it in my head.",
+      "type": "paragraph",
+      "html": "<p>But I could really see it in my head.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b037",
+      "sourceHtmlSha256": "0836b36a08c38bfb5dcaf61e6f55e2769b7c9b6e2489ff71b3e1c9ceed4a337a",
+      "sourceHtml": "<p>Of course, by then it was definitely too late in the season to actually build something like that, and I still needed to find a bunch of cheap old windows anyway.</p>",
+      "text": "Of course, by then it was definitely too late in the season to actually build something like that, and I still needed to find a bunch of cheap old windows anyway.",
+      "type": "paragraph",
+      "html": "<p>Of course, by then it was definitely too late in the season to actually build something like that, and I still needed to find a bunch of cheap old windows anyway.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b038",
+      "sourceHtmlSha256": "2368ce7de65cd3a155424d2abeeae999c4bb73600ed698be026a8bc0eea3fb71",
+      "sourceHtml": "<p>But that did not mean we could not do something this season to start protecting it and setting it up for next year.</p>",
+      "text": "But that did not mean we could not do something this season to start protecting it and setting it up for next year.",
+      "type": "paragraph",
+      "html": "<p>But that did not mean we could not do something this season to start protecting it and setting it up for next year.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b039",
+      "sourceHtmlSha256": "6a03cd6e3ace5ab6f5818afae3b6bc646e1c9e8bee1fab6c7cde870711392776",
+      "sourceHtml": "<p>So enough relaxing.</p>",
+      "text": "So enough relaxing.",
+      "type": "paragraph",
+      "html": "<p>So enough relaxing.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b040",
+      "sourceHtmlSha256": "f84a600c9ce83c18d1443b20f403eeaed7094281496a84e4382b0dd8fccf8f2a",
+      "sourceHtml": "<p>Enough dreaming.</p>",
+      "text": "Enough dreaming.",
+      "type": "paragraph",
+      "html": "<p>Enough dreaming.</p>"
+    },
+    {
+      "sourceBlockId": "ch19-b041",
+      "sourceHtmlSha256": "a9244aa72c68a34a56fdd1ff94bcdfb769214c8f6baccd48578941bb54a00487",
+      "sourceHtml": "<p>Till next time, y’all.</p>",
+      "text": "Till next time, y’all.",
+      "type": "paragraph",
+      "html": "<p>Till next time, y’all.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch20",
+      "label": "The old frame still had a future.",
+      "context": "What happened next"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-67e1cde5cce9",
+    "alt": "Tiki torch and deck-side flower bed detail added during the slower dog days of summer",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "By mid to late July of 2025, we were deep in the dog days of summer. This was not really the time for heavy building. It was just too darn hot.",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Nineteen",
+  "originalHeadingAfterBlocks": 1
+}

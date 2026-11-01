@@ -1,0 +1,266 @@
+{
+  "id": "journey-ch11",
+  "route": "/our-journey/chapters/chapter-11",
+  "output": "our-journey/chapters/chapter-11.html",
+  "title": "Life sure is crazy sometimes, ups and downs, ebbs and flows | Quiet Backyard Living",
+  "storyTitle": "Life sure is crazy sometimes, ups and downs, ebbs and flows",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Life sure is crazy sometimes, ups and downs, ebbs and flows",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 11,
+  "chapterOrder": 11,
+  "seriesId": "happy-place",
+  "dateLabel": "Late summer 2024",
+  "dateEvidence": "Late summer 2024 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 11,
+    "articleSha256": "6743fd266ef04f040d211faf4c7fa6c17d1f0b934c1f351ddf475f13ec4245ae",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-13"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch11-b001",
+      "sourceHtmlSha256": "5d5502abca7f249c398c4e8b451beced74fb961c373404e891c1775edc1194ed",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter10-fruit.jpg\" alt=\"Blueberries and early fruit starting to come in at the cabin orchard and berry patch\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter10-fruit.jpg",
+          "alt": "Blueberries and early fruit starting to come in at the cabin orchard and berry patch"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch11-b002",
+      "image": {
+        "mediaId": "journey-2bae6d87bdd9",
+        "alt": "Blueberries and early fruit starting to come in at the cabin orchard and berry patch",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch11-b004",
+      "sourceHtmlSha256": "32ea18cf4efb39b51cafc7e0d354e16acc05b74b4763fb0ef89d5b2ef66f4e9f",
+      "sourceHtml": "<p>It was getting close to fall season at the cabin.</p>",
+      "text": "It was getting close to fall season at the cabin.",
+      "type": "paragraph",
+      "html": "<p>It was getting close to fall season at the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b005",
+      "sourceHtmlSha256": "aac8a88c0d66d5ea5b9c8cbbd67b1ec95508378c3e58e21e1465ac7d6ecc2fde",
+      "sourceHtml": "<p>By then, Vanessa was healing up pretty well. She was getting around in a walking cast, which felt like a big improvement from where we had been earlier in the season. Little by little, life was starting to feel more normal again.</p>",
+      "text": "By then, Vanessa was healing up pretty well. She was getting around in a walking cast, which felt like a big improvement from where we had been earlier in the season. Little by little, life was starting to feel more normal again.",
+      "type": "paragraph",
+      "html": "<p>By then, Vanessa was healing up pretty well. She was getting around in a walking cast, which felt like a big improvement from where we had been earlier in the season. Little by little, life was starting to feel more normal again.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b006",
+      "sourceHtmlSha256": "f058c2921cdfb7a6fd3e2617e452371df1414eb9ec2ca11679a139b666758dcc",
+      "sourceHtml": "<p>And out at the cabin, some of the small rewards we had been waiting on were finally starting to show up.</p>",
+      "text": "And out at the cabin, some of the small rewards we had been waiting on were finally starting to show up.",
+      "type": "paragraph",
+      "html": "<p>And out at the cabin, some of the small rewards we had been waiting on were finally starting to show up.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b007",
+      "sourceHtmlSha256": "584fd574a4e6a7012ce7837f97abb4313eea67e110678c32b5393453b52c3e44",
+      "sourceHtml": "<p>The grapes were filling out the trellis nicely, and we were actually starting to eat some of the blueberries, along with a few small apples and pears. By our third season there, we were really beginning to settle into the rhythm of the place. We were enjoying the nature, the quiet, and all the little critters that had started to feel like part of cabin life.</p>",
+      "text": "The grapes were filling out the trellis nicely, and we were actually starting to eat some of the blueberries, along with a few small apples and pears. By our third season there, we were really beginning to settle into the rhythm of the place. We were enjoying the nature, the quiet, and all the little critters that had started to feel like part of cabin life.",
+      "type": "paragraph",
+      "html": "<p>The grapes were filling out the trellis nicely, and we were actually starting to eat some of the blueberries, along with a few small apples and pears. By our third season there, we were really beginning to settle into the rhythm of the place. We were enjoying the nature, the quiet, and all the little critters that had started to feel like part of cabin life.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b008",
+      "sourceHtmlSha256": "0001617e20612d2e85ce7e16a332a1552b58d839cbfc4022303062da3bfb4bf0",
+      "sourceHtml": "<p>We fed the chippies regularly, and they definitely seemed to enjoy our company. The birds did not mind the free food either.</p>",
+      "text": "We fed the chippies regularly, and they definitely seemed to enjoy our company. The birds did not mind the free food either.",
+      "type": "paragraph",
+      "html": "<p>We fed the chippies regularly, and they definitely seemed to enjoy our company. The birds did not mind the free food either.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b009",
+      "sourceHtmlSha256": "f1cac952a4694cca1dd300779cb9b5e0402ec5ec311169923f46ac91912d1127",
+      "sourceHtml": "<p>For a little while, it felt like we were finally getting to enjoy some of the payoff.</p>",
+      "text": "For a little while, it felt like we were finally getting to enjoy some of the payoff.",
+      "type": "paragraph",
+      "html": "<p>For a little while, it felt like we were finally getting to enjoy some of the payoff.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b010",
+      "sourceHtmlSha256": "2040f6a6de136be120bfec703780327ecbf79e139ae79a97f7668346dd64440b",
+      "sourceHtml": "<p>But life has a way of turning in the middle of a good moment.</p>",
+      "text": "But life has a way of turning in the middle of a good moment.",
+      "type": "paragraph",
+      "html": "<p>But life has a way of turning in the middle of a good moment.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b011",
+      "sourceHtmlSha256": "b35c4acc5e24163a78df78d7e2d840e39c7b6b5d1de8e6c63b72949c16dfab50",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter11-flag.jpg\" alt=\"Folded American flag displayed during a full veteran burial ceremony in Oklahoma\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter11-flag.jpg",
+          "alt": "Folded American flag displayed during a full veteran burial ceremony in Oklahoma"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch11-b010",
+      "nextSourceBlockId": "ch11-b012",
+      "reviewStatus": "held-for-jeff"
+    },
+    {
+      "sourceBlockId": "ch11-b012",
+      "sourceHtmlSha256": "ea75172b8c0dc6d6b4add170cdf446e079f039ae6800a87f7cd4196b732d0d80",
+      "sourceHtml": "<p>Vanessa’s father passed away.</p>",
+      "text": "Vanessa’s father passed away.",
+      "type": "paragraph",
+      "html": "<p>Vanessa’s father passed away.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b013",
+      "sourceHtmlSha256": "6113924d682a15e2cca16ad3e73300e75980adea4848eaf9023c1b3b8f0894d3",
+      "sourceHtml": "<p>It was not sudden, but that does not make the pain hurt any less.</p>",
+      "text": "It was not sudden, but that does not make the pain hurt any less.",
+      "type": "paragraph",
+      "html": "<p>It was not sudden, but that does not make the pain hurt any less.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b014",
+      "sourceHtmlSha256": "75256a50984d564c4163f7311ec4927efa665d8cfb2d088d0d0dd1930294329c",
+      "sourceHtml": "<p>He was a great man, a father, and a proud Army retiree, so before long it was time for another trip back to Oklahoma. This one was not for a visit. This one was for goodbye.</p>",
+      "text": "He was a great man, a father, and a proud Army retiree, so before long it was time for another trip back to Oklahoma. This one was not for a visit. This one was for goodbye.",
+      "type": "paragraph",
+      "html": "<p>He was a great man, a father, and a proud Army retiree, so before long it was time for another trip back to Oklahoma. This one was not for a visit. This one was for goodbye.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b015",
+      "sourceHtmlSha256": "9b757ed54123e18e8cf5d3fb2e76b11341b70a5555fd02ae577f0eb22bec7909",
+      "sourceHtml": "<p>He received a full veteran’s burial, with the flag, the ceremony, and the twenty-one-gun salute. If you have never seen something like that in person, it stays with you. It is solemn, powerful, and heartbreaking all at the same time.</p>",
+      "text": "He received a full veteran’s burial, with the flag, the ceremony, and the twenty-one-gun salute. If you have never seen something like that in person, it stays with you. It is solemn, powerful, and heartbreaking all at the same time.",
+      "type": "paragraph",
+      "html": "<p>He received a full veteran’s burial, with the flag, the ceremony, and the twenty-one-gun salute. If you have never seen something like that in person, it stays with you. It is solemn, powerful, and heartbreaking all at the same time.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b016",
+      "sourceHtmlSha256": "fd858ca14cc6fea16318329b08a7d5522fdad8dfd55a958dfcb67afe3e1edafe",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter11-tombstones.jpg\" alt=\"Rows of headstones at the cemetery during the Oklahoma funeral trip\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter11-tombstones.jpg",
+          "alt": "Rows of headstones at the cemetery during the Oklahoma funeral trip"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch11-b015",
+      "nextSourceBlockId": "ch11-b017",
+      "image": {
+        "mediaId": "journey-b1bbd509931d",
+        "alt": "Rows of headstones at the cemetery during the Oklahoma funeral trip",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch11-b017",
+      "sourceHtmlSha256": "502e92c8513f4a66c25cddcdd840f5971d9e30d74350db110c4f70859fb273b6",
+      "sourceHtml": "<p>You will be missed, Garry.</p>",
+      "text": "You will be missed, Garry.",
+      "type": "paragraph",
+      "html": "<p>You will be missed, Garry.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b018",
+      "sourceHtmlSha256": "8da9ac610600238f528bfadeddf84273cb9b24e5c57069482099e3ed8bcdaaa1",
+      "sourceHtml": "<p>We spent a little time with family, did what people do when life asks that of them, and then eventually made our way back to Michigan.</p>",
+      "text": "We spent a little time with family, did what people do when life asks that of them, and then eventually made our way back to Michigan.",
+      "type": "paragraph",
+      "html": "<p>We spent a little time with family, did what people do when life asks that of them, and then eventually made our way back to Michigan.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b019",
+      "sourceHtmlSha256": "52520a7ae873fcce7b013bc65d6e91e3db4f936cc055a6073ce50fc707e8a6b8",
+      "sourceHtml": "<p>Because even after grief, life keeps moving.</p>",
+      "text": "Because even after grief, life keeps moving.",
+      "type": "paragraph",
+      "html": "<p>Because even after grief, life keeps moving.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b020",
+      "sourceHtmlSha256": "d38bf9d08c29d844b87884bdb037df0be80621b7d7f39821d07907615d07d3ad",
+      "sourceHtml": "<p>There was still work to do. Work at our jobs. Work at the cabin. And by then, Vanessa was almost healed up.</p>",
+      "text": "There was still work to do. Work at our jobs. Work at the cabin. And by then, Vanessa was almost healed up.",
+      "type": "paragraph",
+      "html": "<p>There was still work to do. Work at our jobs. Work at the cabin. And by then, Vanessa was almost healed up.</p>"
+    },
+    {
+      "sourceBlockId": "ch11-b021",
+      "sourceHtmlSha256": "22c3bbb0a177619c4e0adf4ef63b3cdd2cc8ee8af82c8faab400704b3bdc8ddb",
+      "sourceHtml": "<p>So as hard as that chapter was, it was time to carry it with us and keep going.</p>",
+      "text": "So as hard as that chapter was, it was time to carry it with us and keep going.",
+      "type": "paragraph",
+      "html": "<p>So as hard as that chapter was, it was time to carry it with us and keep going.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-2bae6d87bdd9",
+    "alt": "Blueberries and early fruit starting to come in at the cabin orchard and berry patch",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "It was getting close to fall season at the cabin. By then, Vanessa was healing up pretty well. She was getting around in a walking cast, which felt like a big improvement from where we…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Eleven",
+  "originalHeadingAfterBlocks": 1
+}

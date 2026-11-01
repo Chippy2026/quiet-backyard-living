@@ -1,0 +1,11 @@
+{
+  "heading": "Want to grow something?",
+  "intro": "A little space of your own. A few useful things to grow. Maybe we can help.",
+  "allHref": "/field-guide#grow",
+  "doors": [
+    {"title":"Vegetables","description":"Choose a crop. Find its growing companions.","href":"/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat","image":{"mediaId":"media-5eabdb9174a2","alt":"Young vegetables in an actual QBL raised bed","loading":"lazy","decoding":"async","sizes":"(max-width:720px) 45vw, 22vw"}},
+    {"title":"Herbs","description":"Basil, thyme, and a useful little herb garden.","href":"/pages/the-backyard-herb-hub","image":{"mediaId":"media-be0ea900bbaa","alt":"QBL illustration showing where to cut a basil stem","loading":"lazy","decoding":"async","sizes":"(max-width:720px) 45vw, 22vw"}},
+    {"title":"Berries & Fruit","description":"Fruit, perennial planting, and the years ahead.","href":"/topics/gardening#berries-fruit","image":{"mediaId":"media-12ad5aafb855","alt":"Grapes growing on the vine at QBL","loading":"lazy","decoding":"async","sizes":"(max-width:720px) 45vw, 22vw"}},
+    {"title":"Plan Your Garden","description":"Beds, layouts, watering and the garden planner.","href":"/field-guide#planning","visual":"garden-plan"}
+  ]
+}

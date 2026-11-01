@@ -1,0 +1,40 @@
+{
+  "id": "library-2bec1cc40090",
+  "route": "/pages/about",
+  "output": "pages/about.html",
+  "title": "Meet the Crew | Quiet Backyard Living",
+  "description": "Quiet Backyard Living: real gardens, backyard projects, wildlife, and the quieter life we’re building outside.",
+  "kind": "story",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition  qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-2bec1cc40090.html",
+  "department": "journey",
+  "topic": "Our Place & the journal",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/about.html",
+    "sha256": "9b9f4c990e6619fd23844e56ee594a9af0885d8cbf845c58da019e5c622e357c"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

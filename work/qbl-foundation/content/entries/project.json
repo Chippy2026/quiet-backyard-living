@@ -1,0 +1,194 @@
+{
+  "id": "project",
+  "kind": "project",
+  "variant": "project",
+  "route": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+  "output": "pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises.html",
+  "title": "We Made This 1 Cedar Fence Picket Into a Trellis for Our Raspberry Bush | Quiet Backyard Living",
+  "description": "The real QBL cedar fan-trellis build: materials, photo steps, finished pair and the later berry-patch installation.",
+  "status": "review",
+  "bodyClass": "rs-edition hp-edition co-edition hy-edition article-page story-edition",
+  "mainAttrs": {
+    "class": "rs rs-project"
+  },
+  "wrapperAttrs": null,
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/representative-system.css"
+  ],
+  "scripts": [
+    "/assets/representative-system.js"
+  ],
+  "blocks": [
+    {
+      "component": "project/rs-wrap-0",
+      "copy": {
+        "a_1": "QBL",
+        "nav_1": " / ",
+        "a_2": "Making & Learning",
+        "nav_2": " / ",
+        "span_1": "The berry trellis",
+        "span_2": "Making & learning / One picket. A useful little idea.",
+        "h1_1": "A little cedar.",
+        "h1_2": "A berry patch.",
+        "em_1": "A reason to build.",
+        "p_1": "Our one-picket raspberry trellis.",
+        "p_2": "This is how ours came together: five strips, three spreaders, a fan shape and a few rough edges. A build story—not an exact blueprint.",
+        "a_3": "Follow the build ",
+        "span_3": "↗",
+        "figcaption_1": "Our finished fan trellis, before the next chapter outside.",
+        "a_4": "What we used ",
+        "span_4": "↓",
+        "a_5": "How it came together ",
+        "span_5": "↓",
+        "a_6": "The finished pair ",
+        "span_6": "↓",
+        "a_7": "What happened later ",
+        "span_7": "↓",
+        "figcaption_2": "Actual pieces and tools from the QBL build.",
+        "span_8": "The idea / Support for a raspberry bush",
+        "h2_1": "Start with",
+        "em_2": "what you’ve got.",
+        "li_1": "One cedar fence picket, ripped into five ⅞-inch fan strips.",
+        "li_2": "The roughly ½-inch leftover strip, cut into 1-, 2- and 3-foot spreaders.",
+        "li_3": "Glue, pin nails and a couple of screws for the base.",
+        "li_4": "A garden fence post for the installed support.",
+        "p_3": "The source uses a table saw, pin nailer and drill. It does not document picket thickness, hardware specifications, blade setup or a complete cutting-safety method. Use appropriate tool instructions; this is the record of our build.",
+        "span_9": "The build / In the order it happened",
+        "h2_2": "A fan shape.",
+        "em_3": "One small step at a time.",
+        "span_10": "01",
+        "h3_1": "Make the base.",
+        "p_4": "We measured up about 10 inches, then glued and pin-nailed the five fan strips together. The source also describes glue over the lower base area. That is what we tried, not a tested claim of rot protection.",
+        "span_11": "02",
+        "h3_2": "Give it a little more hold.",
+        "p_5": "A couple of drilled holes and screws strengthened the base before opening the fan. We learned not to run the joined section too high, or the fan would not open well.",
+        "span_12": "03",
+        "h3_3": "Open the fan from the top.",
+        "p_6": "We centered the 3-foot spreader by eye, then glued and pin-nailed the five fan pieces into place. Balanced enough mattered more than perfect.",
+        "span_13": "04",
+        "h3_4": "Then two feet. Then one.",
+        "p_7": "The 2-foot and 1-foot spreaders followed. We kept them clear of the strengthened base so the shape could open naturally.",
+        "span_14": "05",
+        "h3_5": "Give it a home outside.",
+        "p_8": "A garden fence post made the installed trellis feel more solid. This is our attachment approach; the source does not establish wind or load capacity.",
+        "figcaption_3": "The raspberry idea became a second trellis for the blackberry bush.",
+        "span_15": "The result / Not staged to perfection",
+        "h2_3": "Good enough to use.",
+        "em_4": "Worth making again.",
+        "p_9": "The first little build made us happy enough to make another. The raspberries weren’t asking for perfect measurements. We wanted a useful shape and something to grow against.",
+        "p_10": "What we’d carry forward: leave the base short enough to open the fan, keep the spreaders away from that joined section, and plan how the finished piece will stand outside.",
+        "figcaption_4": "Late May 2026 · the actual fan trellis in the berry patch.",
+        "span_16": "What happened next / Out of the workshop",
+        "h2_4": "Then the little build",
+        "em_5": "joined the garden.",
+        "p_11": "The late-May journal follows the cedar trellises into the raspberry and blackberry patch. That is the next chapter we can show—not a promised harvest or a long-term durability result.",
+        "a_8": "See the trellises in the journal ",
+        "span_17": "↗",
+        "a_9": "Follow things we’ve built ",
+        "span_18": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "home"
+        },
+        "link_2": "/topics/projects",
+        "link_3": "#build-sequence",
+        "link_4": "#project-materials",
+        "link_5": "#build-sequence",
+        "link_6": "#project-result",
+        "link_7": "#the-second-trellis",
+        "link_8": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+        "link_9": "/stories/things-weve-built"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-342c86b52d9e",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Jeff holding the finished cedar fan trellis indoors",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-1697d4636171",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Five cedar fan strips and shorter spreaders beside the build tools",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_3": {
+          "mediaId": "media-82a341f24972",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Make the base. in the actual QBL cedar trellis build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_4": {
+          "mediaId": "media-ec47f5dc42e0",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Give it a little more hold. in the actual QBL cedar trellis build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_5": {
+          "mediaId": "media-6dae9ddf4964",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Open the fan from the top. in the actual QBL cedar trellis build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_6": {
+          "mediaId": "media-02a6e865e2ea",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Then two feet. Then one. in the actual QBL cedar trellis build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_7": {
+          "mediaId": "media-9d5c43c39388",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Give it a home outside. in the actual QBL cedar trellis build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_8": {
+          "mediaId": "media-36697114e074",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "The pair of finished cedar fan trellises from the QBL project",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_9": {
+          "mediaId": "media-9b6c5195ce51",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "The fan trellis installed in the berry patch in late May 2026",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "project/pg-section-10-1",
+      "copy": {},
+      "links": {},
+      "images": {}
+    },
+    {
+      "component": "project/pg-section-9-2",
+      "copy": {},
+      "links": {},
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "qbl-seven-experiences-review\\pages\\we-turned-1-cedar-fence-picket-into-two-little-berry-trellises.html"
+}

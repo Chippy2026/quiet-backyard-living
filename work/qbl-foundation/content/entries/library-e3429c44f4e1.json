@@ -1,0 +1,42 @@
+{
+  "id": "library-e3429c44f4e1",
+  "route": "/pages/what-to-grow-near-leeks",
+  "output": "pages/what-to-grow-near-leeks.html",
+  "title": "What to Grow Near Leeks | Quiet Backyard Living",
+  "description": "Leeks are steady, practical, and easier to mix into calmer beds than many larger vegetables, especially when the neighbors stay reasonable.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-e3429c44f4e1.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-e3429c44f4e1.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-leeks.html",
+    "sha256": "3731f4a0dcf0123a24657665a8e2f04cffeffa6e84b272c2aa075f402c6e1a83"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

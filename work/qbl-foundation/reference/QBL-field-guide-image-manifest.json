@@ -1,0 +1,389 @@
+{
+  "external": [
+    {
+      "id": 7745029,
+      "subject": "Ripe tomatoes on the plant",
+      "creator": "erkan budak",
+      "source_url": "https://www.pexels.com/photo/red-tomatoes-on-plant-7745029/",
+      "width": 4288,
+      "height": 2848,
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "image": "https://images.pexels.com/photos/7745029/pexels-photo-7745029.jpeg",
+      "source": "Pexels",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification; attribution optional. No implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "checked": "2026-10-31",
+      "where_used": "/pages/what-to-grow-near-tomatoes",
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "visual_review": "Source page descriptions checked. Direct image retrieval unavailable in this environment; final pixels/crops/private-detail check still required.",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    },
+    {
+      "id": 7452769,
+      "subject": "Basil foliage",
+      "creator": "Alexas Fotos",
+      "source_url": "https://www.pexels.com/photo/green-leaf-plant-in-close-up-photography-7452769/",
+      "width": 6000,
+      "height": 4000,
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "image": "https://images.pexels.com/photos/7452769/pexels-photo-7452769.jpeg",
+      "source": "Pexels",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification; attribution optional. No implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "checked": "2026-10-31",
+      "where_used": "/pages/what-to-grow-near-tomatoes",
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "visual_review": "Source page descriptions checked. Direct image retrieval unavailable in this environment; final pixels/crops/private-detail check still required.",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    },
+    {
+      "id": 20819948,
+      "subject": "Lettuce foliage",
+      "creator": "Néstor Santos",
+      "source_url": "https://www.pexels.com/photo/closeup-of-green-lettuce-20819948/",
+      "width": 4032,
+      "height": 3024,
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "image": "https://images.pexels.com/photos/20819948/pexels-photo-20819948.jpeg",
+      "source": "Pexels",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification; attribution optional. No implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "checked": "2026-10-31",
+      "where_used": "/pages/what-to-grow-near-tomatoes",
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "visual_review": "Source page descriptions checked. Direct image retrieval unavailable in this environment; final pixels/crops/private-detail check still required.",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    },
+    {
+      "id": 20826378,
+      "subject": "Green aphids clustered on a plant stem",
+      "creator": "Petr Ganaj",
+      "source": "Pexels",
+      "source_url": "https://www.pexels.com/photo/insects-on-a-stem-20826378/",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification, optional attribution; no implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "width": 3613,
+      "height": 4453,
+      "checked": "2026-10-31",
+      "image": "https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg",
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    },
+    {
+      "id": 6133135,
+      "subject": "Basil plant viewed from above",
+      "creator": "jonathan emili",
+      "source": "Pexels",
+      "source_url": "https://www.pexels.com/photo/lush-basil-with-green-leaves-in-garden-6133135/",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification, optional attribution; no implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "width": 4608,
+      "height": 3456,
+      "checked": "2026-10-31",
+      "image": "https://images.pexels.com/photos/6133135/pexels-photo-6133135.jpeg",
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    },
+    {
+      "id": 10432381,
+      "subject": "Harvested chives arranged on a plate",
+      "creator": "RDNE Stock project",
+      "source": "Pexels",
+      "source_url": "https://www.pexels.com/photo/herb-on-plate-10432381/",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "terms": "Free commercial website use and modification, optional attribution; no implied endorsement, unaltered resale, stock redistribution or trademark use. Other rights remain applicable.",
+      "width": 6720,
+      "height": 4480,
+      "checked": "2026-10-31",
+      "image": "https://images.pexels.com/photos/10432381/pexels-photo-10432381.jpeg",
+      "uses": [
+        "QBL-seven-experiences.html"
+      ],
+      "delivery": "Remote responsive JPEG; requires internet; no binary downloaded",
+      "verification": "Source/license page checked; direct pixels/crops/loading remain unverified"
+    }
+  ],
+  "qbl": [
+    {
+      "subject": "A chipmunk eating in the QBL backyard",
+      "image": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--chipmunk-feeding-close-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "Grapes growing at QBL; no particular harvest date is implied",
+      "image": "qbl-seven-experiences-review/assets/home/grapes-on-vine-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/grapes-on-vine-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/grapes-on-vine-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/grapes-on-vine-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": [
+        "fall"
+      ]
+    },
+    {
+      "subject": "Young crops in a QBL raised bed",
+      "image": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-640.webp",
+          "width": 640,
+          "height": 452
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/planner-teaser-raised-bed-1440.webp",
+          "width": 1280,
+          "height": 903
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": [
+        "spring"
+      ]
+    },
+    {
+      "subject": "A terracotta olla installed in a QBL raised bed",
+      "image": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-640.webp",
+          "width": 640,
+          "height": 725
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/olla-build--one-pot-olla-install-1440.webp",
+          "width": 1130,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "A squirrel and chipmunk sharing a feeding area in the actual QBL backyard",
+      "image": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-chipmunk-food--squirrel-chipmunk-shared-food-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "A woodpecker visiting the QBL feeder in late May 2026",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-woodpecker-feeder-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-woodpecker-feeder-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-woodpecker-feeder-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "Harry the hummingbird at QBL during the May 2026 return",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-640.webp",
+          "width": 640,
+          "height": 830
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-harry-return-1440.webp",
+          "width": 987,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "Jeff holding the actual cedar fan trellis from the QBL build",
+      "image": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-640.webp",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-finished-look-1440.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "The actual QBL squirrel playground built from old lumber",
+      "image": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-640.webp",
+          "width": 640,
+          "height": 850
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/squirrel-playground--squirrel-playground-full-1440.webp",
+          "width": 964,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "A finished QBL cedar birdhouse with a ruler showing its dimensions",
+      "image": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-960.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/birdhouse-workshop-finished-ruler-front-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": []
+    },
+    {
+      "subject": "Vanessa tending the cabin vines in late May 2026",
+      "image": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-640.webp",
+          "width": 640,
+          "height": 618
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/gallery--chapter28-grape-weeding-1440.webp",
+          "width": 1280,
+          "height": 1235
+        }
+      ],
+      "source": "Recovered QBL library; existing optimized derivatives",
+      "where_used": "Field Guide landing",
+      "seasonal_profiles": [
+        "summer"
+      ]
+    },
+    {
+      "subject": "Cedar strips, spreaders and tools from the documented QBL berry-trellis build; not a newly announced project",
+      "image": "qbl-seven-experiences-review/assets/photos/berry-trellis-cut-pieces-640.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/photos/berry-trellis-cut-pieces-640.webp",
+          "width": 630,
+          "height": 1280
+        }
+      ],
+      "source": "Existing QBL photograph; recovered library",
+      "where_used": "Seasonal editorial slot or Jeff & Vanessa story bridge",
+      "seasonal_profiles": [
+        "building"
+      ]
+    },
+    {
+      "subject": "Jeff and Vanessa at the cabin",
+      "image": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-1440.webp",
+      "variants": [
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "src": "qbl-seven-experiences-review/assets/home/meet-the-crew-cabin-1440.webp",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "source": "Existing QBL photograph; recovered library",
+      "where_used": "Seasonal editorial slot or Jeff & Vanessa story bridge",
+      "seasonal_profiles": []
+    }
+  ],
+  "planner_preview": "Derived from work/home-planner-preview.json, existing tool output; labels only, no spacing or capacity promise",
+  "delivery": "External references remain remote responsive photographs; QBL derivatives are local. No new outside photography was sourced for this hub.",
+  "seasonal_note": "Seasonal images are existing QBL photographs; their captions and dates do not assert new work or outcomes. Jeff & Vanessa portrait and documented trellis materials are newly placed on the landing. No new external assets."
+}

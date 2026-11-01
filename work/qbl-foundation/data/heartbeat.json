@@ -1,0 +1,134 @@
+{
+  "building": {
+    "label": "Building Season",
+    "chapter": "The garden is slowing down. We’re not.",
+    "headline": [
+      "Building season",
+      "is here."
+    ],
+    "intro": "Useful things made by hand. A little work on the Happy Place. Ideas to carry into next year.",
+    "feature": "materials",
+    "featuredJourney": [
+      "birdhouse",
+      "playground",
+      "feeder"
+    ],
+    "featuredPractical": [
+      "trellis",
+      "garden-plan",
+      "wildlife"
+    ],
+    "notebook": [
+      "stairs",
+      "harry"
+    ],
+    "upNext": {
+      "title": "A little thinking ahead.",
+      "text": "What did the garden teach us? What could make the next try easier? Start with the watering experiment and a plan for the space you have.",
+      "links": [
+        "olla",
+        "garden-plan"
+      ]
+    },
+    "evidence": "Seasonal editorial direction supplied by Jeff on October 31, 2026. Selected builds are existing recorded projects, not newly announced work."
+  },
+  "spring": {
+    "label": "Spring",
+    "chapter": "Make a little room for what comes next.",
+    "headline": [
+      "A fresh start.",
+      "A useful plan."
+    ],
+    "intro": "Prepare the space, choose something you’ll use, and leave room to learn.",
+    "feature": "beds",
+    "featuredJourney": [
+      "first-row",
+      "installed",
+      "summer-garden"
+    ],
+    "featuredPractical": [
+      "garden-plan",
+      "trellis",
+      "basil"
+    ],
+    "notebook": [
+      "stairs",
+      "harry"
+    ],
+    "upNext": {
+      "title": "Before the next planting.",
+      "text": "A little planning, a useful structure, and a watering idea to consider.",
+      "links": [
+        "garden-plan",
+        "olla"
+      ]
+    },
+    "evidence": "Existing garden preparation stories and practical resources; no new spring progress claimed."
+  },
+  "summer": {
+    "label": "Summer",
+    "chapter": "Water, watch, and see what happens.",
+    "headline": [
+      "Growing things.",
+      "Learning as we go."
+    ],
+    "intro": "Time in the garden, small experiments, and the company that turns up.",
+    "feature": "summer-garden",
+    "featuredJourney": [
+      "olla",
+      "harry",
+      "grosbeak"
+    ],
+    "featuredPractical": [
+      "wildlife",
+      "basil",
+      "beds"
+    ],
+    "notebook": [
+      "harry",
+      "stairs"
+    ],
+    "upNext": {
+      "title": "Keep an eye on the next little change.",
+      "text": "The watering result is still unreported. The garden story has room for another chapter.",
+      "links": [
+        "olla",
+        "summer-garden"
+      ]
+    },
+    "evidence": "Recorded QBL garden/wildlife experiences; no measured watering result supplied."
+  },
+  "fall": {
+    "label": "Fall",
+    "chapter": "Keep the lessons. Make room for the next try.",
+    "headline": [
+      "What grew.",
+      "What we learned."
+    ],
+    "intro": "A few harvests, a missed crop, and useful things to carry forward.",
+    "feature": "grapes",
+    "featuredJourney": [
+      "summer-garden",
+      "olla",
+      "installed"
+    ],
+    "featuredPractical": [
+      "herbs",
+      "garden-plan",
+      "trellis"
+    ],
+    "notebook": [
+      "grapes",
+      "stairs"
+    ],
+    "upNext": {
+      "title": "From the garden back to the workbench.",
+      "text": "A useful little build or a plan for next year can begin with what this season taught us.",
+      "links": [
+        "trellis",
+        "garden-plan"
+      ]
+    },
+    "evidence": "Fall 2025 crop-loss note and recorded experiments; not a newly reported harvest."
+  }
+}

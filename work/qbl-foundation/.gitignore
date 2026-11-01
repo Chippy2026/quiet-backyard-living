@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+.netlify/
+dist/
+reports/
+tests/tmp/
+*.log
+.env
+.env.*
+
+release-dist/
+release-*-verification.txt

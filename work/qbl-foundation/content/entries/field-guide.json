@@ -1,0 +1,639 @@
+{
+  "id": "field-guide",
+  "kind": "landing",
+  "variant": "field-guide",
+  "route": "/field-guide",
+  "output": "field-guide.html",
+  "title": "The QBL Field Guide | Build Yours | Quiet Backyard Living",
+  "description": "Grow, plan, protect and build. Explore QBL’s practical garden guides, tools, wildlife and projects, connected to our real Happy Place story.",
+  "status": "review",
+  "bodyClass": "fg-page hp-edition co-edition ih-home hy-edition be-home",
+  "mainAttrs": {
+    "class": "fg"
+  },
+  "wrapperAttrs": {
+    "class": "fg-wrap"
+  },
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/integrated-home.css",
+    "/assets/qbl/QBL-field-guide.css",
+    "/assets/qbl/QBL-seasonal-editorial.css"
+  ],
+  "scripts": [
+    "/assets/qbl/editorial-data.js",
+    "/assets/qbl/editorial.js"
+  ],
+  "blocks": [
+    {
+      "component": "field-guide/fg-opening-0",
+      "copy": {
+        "span_1": "The QBL Field Guide",
+        "h1_1": "Build a little",
+        "em_1": "of your own.",
+        "strong_1": "Jeff & Vanessa",
+        "small_1": "The two of us behind QBL ↗",
+        "p_1": "We’re building our Happy Place.",
+        "p_2": "This is the practical side of that story—what we’re learning that might help you build yours.",
+        "a_1": "What would you like help with today? ",
+        "span_2": "↓"
+      },
+      "links": {
+        "link_1": "/pages/about",
+        "link_2": "#find-help"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-2747fb85f929",
+          "class": "fg-people-portrait",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Jeff and Vanessa at the cabin",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/fg-cover-grid-1",
+      "copy": {
+        "span_1": "The practical side of our Happy Place story",
+        "h3_1": "Build something",
+        "h3_2": "for your Happy Place.",
+        "p_1": "Garden projects. Wildlife builds. Useful little ideas.",
+        "span_2": "Explore a real QBL build",
+        "span_3": "↗",
+        "span_4": "The herb garden",
+        "h3_3": "Small plant.",
+        "h3_4": "Plenty of possibility.",
+        "span_5": "Grow basil ",
+        "span_6": "↗",
+        "span_7": "The backyard regulars",
+        "h3_5": "There’s a whole",
+        "h3_6": "little world out here.",
+        "span_8": "Meet the neighbors ",
+        "span_9": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "project"
+        },
+        "link_2": {
+          "contentId": "basil"
+        },
+        "link_3": "#wildlife"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-787973a5bb2c",
+          "id": "fg-season-image",
+          "class": "",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Cedar strips, spreaders and tools from the documented QBL berry-trellis build; not a newly announced project",
+          "loading": "eager",
+          "decoding": "async",
+          "fetchpriority": "high"
+        },
+        "image_2": {
+          "mediaId": "media-31d396075d3d",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Basil plant viewed from above",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-5c48328327b9",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "A chipmunk eating in the QBL backyard",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/fg-seasonal-strip-2",
+      "copy": {
+        "span_1": "Worth a look / Projects & plans",
+        "h2_1": "Make the next",
+        "h2_2": "useful thing.",
+        "p_1": "A few real QBL ideas for your own place.",
+        "span_2": "A real QBL build",
+        "strong_1": "Build a berry trellis ",
+        "span_3": "↗",
+        "span_4": "A wildlife-friendly project",
+        "strong_2": "Give old lumber another life ",
+        "span_5": "↗",
+        "span_6": "A useful starting point",
+        "strong_3": "Start next year’s garden plan ",
+        "span_7": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "project"
+        },
+        "link_2": "/pages/squirrel-playground-old-lumber",
+        "link_3": {
+          "contentId": "tool"
+        }
+      },
+      "images": {}
+    },
+    {
+      "component": "field-guide/fg-doorways-3",
+      "copy": {
+        "a_1": "Grow something ",
+        "span_1": "↓",
+        "a_2": "Garden problems ",
+        "span_2": "↓",
+        "a_3": "Plan & water ",
+        "span_3": "↓",
+        "a_4": "Backyard wildlife ",
+        "span_4": "↓",
+        "a_5": "Make something ",
+        "span_5": "↓",
+        "a_6": "Our real garden ",
+        "span_6": "↓"
+      },
+      "links": {
+        "link_1": "#grow",
+        "link_2": "#garden-help",
+        "link_3": "#planning",
+        "link_4": "#wildlife",
+        "link_5": "#making",
+        "link_6": "#our-garden"
+      },
+      "images": {}
+    },
+    {
+      "component": "field-guide/find-help-4",
+      "copy": {
+        "span_1": "A useful starting point",
+        "h2_1": "What do you need",
+        "em_1": "a hand with?",
+        "label_1": "Search the complete QBL library",
+        "button_1": "Find help",
+        "span_2": "Try:",
+        "button_2": "Basil",
+        "button_3": "A 4×8 bed",
+        "button_4": "Chipmunks",
+        "p_1": "Search needs JavaScript. ",
+        "a_1": "Browse the complete library ",
+        "span_3": "↗"
+      },
+      "links": {
+        "link_1": "/library"
+      },
+      "images": {}
+    },
+    {
+      "component": "field-guide/making-9",
+      "copy": {
+        "span_1": "Making & learning",
+        "h2_1": "Make something",
+        "em_1": "worth using.",
+        "a_1": "Explore the projects ",
+        "span_2": "↗",
+        "span_3": "A garden build / The real steps",
+        "h3_1": "A fence picket.",
+        "h3_2": "A fan trellis.",
+        "h3_3": "A happier-looking berry patch.",
+        "span_4": "Follow the trellis build ",
+        "span_5": "↗",
+        "span_6": "Old lumber / Wildlife-friendly projects",
+        "h3_4": "That scrap pile had another life.",
+        "span_7": "See the playground ",
+        "span_8": "↗",
+        "span_9": "A small woodworking project",
+        "h3_5": "Build a little room for a bird.",
+        "span_10": "See the birdhouse workshop ",
+        "span_11": "↗"
+      },
+      "links": {
+        "link_1": "/topics/projects",
+        "link_2": {
+          "contentId": "project"
+        },
+        "link_3": "/pages/squirrel-playground-old-lumber",
+        "link_4": "/pages/cedar-fence-picket-birdhouse-workshop"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-342c86b52d9e",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Jeff holding the actual cedar fan trellis from the QBL build",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_2": {
+          "mediaId": "media-aff4a4534b47",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "The actual QBL squirrel playground built from old lumber",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_3": {
+          "mediaId": "media-2a4525876d48",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "A finished QBL cedar birdhouse with a ruler showing its dimensions",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/grow-5",
+      "copy": {
+        "span_1": "Growing & gathering",
+        "h2_1": "Start with something",
+        "em_1": "you’d love to grow.",
+        "a_1": "Explore growing & gathering ",
+        "span_2": "↗",
+        "span_3": "Vegetables",
+        "h3_1": "Food you actually eat.",
+        "span_4": "Choose a vegetable ",
+        "span_5": "↗",
+        "span_6": "Herbs",
+        "h3_2": "A useful little herb garden.",
+        "span_7": "Explore herbs ",
+        "span_8": "↗",
+        "span_9": "Berries & fruit",
+        "h3_3": "Think a little further ahead.",
+        "span_10": "Explore our fruit-tree story ",
+        "span_11": "↗",
+        "span_12": "Raised beds",
+        "h3_4": "Make the space count.",
+        "span_13": "Plan a 4×8 bed ",
+        "span_14": "↗",
+        "span_15": "Companion planting",
+        "h3_5": "Good neighbors for tomatoes.",
+        "span_16": "See the companion guide ",
+        "span_17": "↗",
+        "span_18": "Harvest & use",
+        "h3_6": "Use what grows.",
+        "span_19": "Find a home for extra herbs ",
+        "span_20": "↗",
+        "span_21": "A gentler patch",
+        "p_1": "Growing lettuce? Keep the neighbors calm.",
+        "a_2": "See the lettuce guide ",
+        "span_22": "↗"
+      },
+      "links": {
+        "link_1": "/topics/gardening",
+        "link_2": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+        "link_3": "/pages/the-backyard-herb-hub",
+        "link_4": "/pages/four-in-one-fruit-tree-at-the-cabin",
+        "link_5": {
+          "contentId": "raised-bed"
+        },
+        "link_6": {
+          "contentId": "tomatoes"
+        },
+        "link_7": "/pages/what-do-i-do-with-all-these-extra-herbs",
+        "link_8": {
+          "contentId": "lettuce"
+        }
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-42e87055a1c8",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Lettuce foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_2": {
+          "mediaId": "media-259c3292ef61",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Basil foliage",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_3": {
+          "mediaId": "media-12ad5aafb855",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Grapes growing at QBL; no particular harvest date is implied",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_4": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Young plants in an actual QBL raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_5": {
+          "mediaId": "media-5e85b1b391b7",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Ripe tomatoes on the plant",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        },
+        "image_6": {
+          "mediaId": "media-d564e231903b",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Harvested chives arranged on a plate",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "field-guide/garden-help-6",
+      "copy": {
+        "span_1": "Look closer. Start with a clue. ",
+        "span_2": "↗",
+        "span_3": "Garden help / Clues before quick fixes",
+        "h2_1": "Something eating",
+        "em_1": "your garden?",
+        "p_1": "Compare what you see. Find the affected crop. Take the next sensible step.",
+        "a_1": "Start with the visual guide ",
+        "span_4": "↗",
+        "a_2": "Chewed leaves & missing edges ",
+        "span_5": "↗",
+        "a_3": "Insect clusters & sticky growth ",
+        "span_6": "↗",
+        "a_4": "Protect a particular vegetable ",
+        "span_7": "↗",
+        "a_5": "Prevention & natural deterrents ",
+        "span_8": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "pests",
+          "fragment": "problem-finder"
+        },
+        "link_2": {
+          "contentId": "pests",
+          "fragment": "problem-finder"
+        },
+        "link_3": {
+          "contentId": "pests",
+          "fragment": "problem-chewed"
+        },
+        "link_4": {
+          "contentId": "pests",
+          "fragment": "problem-clusters"
+        },
+        "link_5": "/pages/protect-my-veggie",
+        "link_6": {
+          "contentId": "pests",
+          "fragment": "garden-routine"
+        }
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-dda1f1d5c300",
+          "class": "fg-external",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 50vw, 720px",
+          "alt": "Green aphids clustered on a plant stem",
+          "loading": "lazy",
+          "decoding": "async",
+          "referrerpolicy": "no-referrer"
+        }
+      }
+    },
+    {
+      "component": "field-guide/planning-7",
+      "copy": {
+        "span_1": "The QBL garden workbench",
+        "h2_1": "A little space.",
+        "em_1": "A useful plan.",
+        "span_2": "Build My Garden Plan / Interactive tool",
+        "h3_1": "Your space.",
+        "h3_2": "Your food.",
+        "em_2": "Your starting point.",
+        "p_1": "Choose the bed size and crops you care about. Let the planner sketch a first arrangement.",
+        "span_3": "Try the garden tool ",
+        "span_4": "↗",
+        "span_5": "A rough starting sketch",
+        "span_6": "Tomatoes",
+        "span_7": "Marigolds",
+        "span_8": "Basil",
+        "span_9": "Chives",
+        "span_10": "Mulch path",
+        "span_11": "Tomatoes",
+        "span_12": "Lettuce",
+        "span_13": "Lettuce",
+        "span_14": "Alyssum",
+        "span_15": "Mulch path",
+        "span_16": "Lettuce",
+        "span_17": "Carrots",
+        "span_18": "Buffer",
+        "span_19": "Mulch path",
+        "span_20": "Choose your own mix in the planner ↗",
+        "span_21": "Layouts / Access / A few good choices",
+        "h3_3": "What belongs in a 4×8 bed?",
+        "span_22": "Compare the plans ",
+        "span_23": "↗",
+        "span_24": "Watering / Time away",
+        "h3_4": "Think about the days you’re gone.",
+        "span_25": "See our olla experiment ",
+        "span_26": "↗",
+        "a_1": "Find a crop & its companions ",
+        "span_27": "↗",
+        "a_2": "Find help for your vegetable ",
+        "span_28": "↗"
+      },
+      "links": {
+        "link_1": {
+          "contentId": "tool"
+        },
+        "link_2": {
+          "contentId": "raised-bed"
+        },
+        "link_3": "/pages/diy-olla-watering-system",
+        "link_4": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+        "link_5": "/pages/protect-my-veggie"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-5eabdb9174a2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Young crops in a QBL raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_2": {
+          "mediaId": "media-e5c218b2a0d0",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "A terracotta olla installed in a QBL raised bed",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/wildlife-8",
+      "copy": {
+        "span_1": "Backyard wildlife",
+        "h2_1": "The regulars",
+        "em_1": "have opinions.",
+        "a_1": "Explore backyard wildlife ",
+        "span_2": "↗",
+        "span_3": "Squirrels & chipmunks",
+        "h3_1": "Food, cover, and a place to belong.",
+        "span_4": "Open the wildlife field notes ",
+        "span_5": "↗",
+        "span_6": "Birds / Food / Shelter",
+        "h3_2": "Make room for the visitors.",
+        "span_7": "Explore a bird-friendly yard ",
+        "span_8": "↗",
+        "span_9": "Water / Shelter / Planting",
+        "h3_3": "A yard is more than a feeder.",
+        "span_10": "Explore natural support ",
+        "span_11": "↗",
+        "span_12": "Meanwhile, at our place…",
+        "p_1": "One little chipmunk became part of a much longer story.",
+        "a_2": "Meet Chippy & the chipmunks ",
+        "span_13": "↗"
+      },
+      "links": {
+        "link_1": "/topics/wildlife",
+        "link_2": {
+          "contentId": "wildlife"
+        },
+        "link_3": "/blog/7-easy-ways-to-make-your-yard-more-bird-friendly",
+        "link_4": "/blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders",
+        "link_5": "/stories/the-chipmunks"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-189f9b2f446b",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "A squirrel and chipmunk sharing a feeding area in the actual QBL backyard",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_2": {
+          "mediaId": "media-16030d56eba2",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "A woodpecker visiting the QBL feeder in late May 2026",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        "image_3": {
+          "mediaId": "media-ef97c973f7d9",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Harry the hummingbird at QBL during the May 2026 return",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/our-garden-10",
+      "copy": {
+        "span_1": "Our place. Real work. Still learning. ",
+        "span_2": "↗",
+        "span_3": "From our garden / Jeff & Vanessa",
+        "h2_1": "We try things.",
+        "em_1": "Then we try again.",
+        "p_1": "We’re Jeff and Vanessa. We’re building ours—and sharing what might help you build yours. Some days that means growing. Other days it means building, fixing, or figuring out what to try differently.",
+        "p_2": "Our guides give you the useful part. The journal shows what happened when real life got involved.",
+        "span_4": "Things we’re carrying forward / From the recorded journal",
+        "span_5": "A lesson from the city beds",
+        "strong_1": "Good intentions weren’t a watering system. ",
+        "span_6": "↗",
+        "span_7": "June 2025",
+        "strong_2": "The first trial row ",
+        "span_8": "↗",
+        "span_9": "April 2026",
+        "strong_3": "Trying a different way to water ",
+        "span_10": "↗",
+        "span_11": "Late May 2026",
+        "strong_4": "The trellises find their place ",
+        "span_12": "↗",
+        "a_1": "Follow our garden story ",
+        "span_13": "↗"
+      },
+      "links": {
+        "link_1": "/pages/what-we-re-up-to-around-the-yard-and-cabin#first-garden-row",
+        "link_2": "/pages/what-we-re-up-to-around-the-yard-and-cabin#city-beds-again",
+        "link_3": "/pages/what-we-re-up-to-around-the-yard-and-cabin#first-garden-row",
+        "link_4": "/pages/what-we-re-up-to-around-the-yard-and-cabin#trying-ollas",
+        "link_5": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+        "link_6": "/stories/in-the-garden"
+      },
+      "images": {
+        "image_1": {
+          "mediaId": "media-4f502f0c6b32",
+          "sizes": "(max-width:650px) calc(100vw - 36px), (max-width:1000px) 55vw, 850px",
+          "alt": "Vanessa tending the cabin vines in late May 2026",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      }
+    },
+    {
+      "component": "field-guide/fg-library-end-11",
+      "copy": {
+        "span_1": "There’s more to wander through",
+        "h2_1": "Find the next",
+        "em_1": "useful thing.",
+        "a_1": "Explore the complete QBL library ",
+        "span_2": "↗"
+      },
+      "links": {
+        "link_1": "/library"
+      },
+      "images": {}
+    },
+    {
+      "component": "field-guide/fg-credits-12",
+      "copy": {
+        "summary_1": "Photography & reference notes",
+        "p_1": "Garden, wildlife and project photographs show the real QBL place and builds. Professional plant and insect reference photographs are separately credited; they are not our harvests or a diagnosis of your garden.",
+        "li_1": "Ripe tomatoes on the plant — erkan budak / ",
+        "a_1": "Pexels source",
+        "li_2": ".",
+        "li_3": "Basil foliage — Alexas Fotos / ",
+        "a_2": "Pexels source",
+        "li_4": ".",
+        "li_5": "Lettuce foliage — Néstor Santos / ",
+        "a_3": "Pexels source",
+        "li_6": ".",
+        "li_7": "Green aphids clustered on a plant stem — Petr Ganaj / ",
+        "a_4": "Pexels source",
+        "li_8": ".",
+        "li_9": "Basil plant viewed from above — jonathan emili / ",
+        "a_5": "Pexels source",
+        "li_10": ".",
+        "li_11": "Harvested chives arranged on a plate — RDNE Stock project / ",
+        "a_6": "Pexels source",
+        "li_12": ".",
+        "a_7": "Pexels License",
+        "p_2": ". External photographs need internet access in this local review. The planner sketch is an example derived from the existing tool; it is not to scale or a new calculation."
+      },
+      "links": {
+        "link_1": "https://www.pexels.com/photo/red-tomatoes-on-plant-7745029/",
+        "link_2": "https://www.pexels.com/photo/green-leaf-plant-in-close-up-photography-7452769/",
+        "link_3": "https://www.pexels.com/photo/closeup-of-green-lettuce-20819948/",
+        "link_4": "https://www.pexels.com/photo/insects-on-a-stem-20826378/",
+        "link_5": "https://www.pexels.com/photo/lush-basil-with-green-leaves-in-garden-6133135/",
+        "link_6": "https://www.pexels.com/photo/herb-on-plate-10432381/",
+        "link_7": "https://www.pexels.com/license/"
+      },
+      "images": {}
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "QBL-seven-experiences.html"
+}

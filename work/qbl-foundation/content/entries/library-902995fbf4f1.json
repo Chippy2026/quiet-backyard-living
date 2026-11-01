@@ -1,0 +1,42 @@
+{
+  "id": "library-902995fbf4f1",
+  "route": "/pages/what-to-grow-near-garlic",
+  "output": "pages/what-to-grow-near-garlic.html",
+  "title": "What to Grow Near Garlic | Quiet Backyard Living",
+  "description": "Garlic is one of those crops that often works best as a useful edge or row companion instead of the whole story in the middle. The best neighbors are usually plants ",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-902995fbf4f1.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-902995fbf4f1.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-garlic.html",
+    "sha256": "ad2b49b895bd64514da56bf2d79b59515fd1871a3c3c8b83967d94b8d5246256"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

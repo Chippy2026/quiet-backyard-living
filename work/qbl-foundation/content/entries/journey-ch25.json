@@ -1,0 +1,441 @@
+{
+  "id": "journey-ch25",
+  "route": "/our-journey/chapters/chapter-25",
+  "output": "our-journey/chapters/chapter-25.html",
+  "title": "Spring Is in the Air | Quiet Backyard Living",
+  "storyTitle": "Spring Is in the Air",
+  "kind": "chapter",
+  "status": "published",
+  "description": "Spring Is in the Air",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 25,
+  "chapterOrder": 25,
+  "seriesId": "happy-place",
+  "dateLabel": "April 2026",
+  "dateEvidence": "April 2026",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home",
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 25,
+    "articleSha256": "b00b6a55978eba638fc8f465028ccad58a8a93f86ddd630af4ee9ff49efb36e8",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-27"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch25-b001",
+      "sourceHtmlSha256": "2c03a6cb88db516e07115e636f22ffe0bf2e22551ad058e15a8c611b06046243",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter25-log.jpg\" alt=\"Jeff cutting up a fallen branch near the road during the first spring cleanup trip of 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-log.jpg",
+          "alt": "Jeff cutting up a fallen branch near the road during the first spring cleanup trip of 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch25-b002",
+      "image": {
+        "mediaId": "journey-94dbba4b2c19",
+        "alt": "Jeff cutting up a fallen branch near the road during the first spring cleanup trip of 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b004",
+      "sourceHtmlSha256": "fc003f3d4ea84096b43b45a0c629e65e4e7fbaf1ca7cb7ab2980fc6715741d59",
+      "sourceHtml": "<p>We were more than ready to get back to the cabin.</p>",
+      "text": "We were more than ready to get back to the cabin.",
+      "type": "paragraph",
+      "html": "<p>We were more than ready to get back to the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b005",
+      "sourceHtmlSha256": "3051c74179b08ce89641f02a055c624672b6eab8f09a33fd5a7d8f55edc06c1d",
+      "sourceHtml": "<p>But this crazy Michigan weather was doing what it always does, seventy degrees and sunny one day, then thirty degrees and freezing rain the next.</p>",
+      "text": "But this crazy Michigan weather was doing what it always does, seventy degrees and sunny one day, then thirty degrees and freezing rain the next.",
+      "type": "paragraph",
+      "html": "<p>But this crazy Michigan weather was doing what it always does, seventy degrees and sunny one day, then thirty degrees and freezing rain the next.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b006",
+      "sourceHtmlSha256": "09fcdb1535371500f23b57fca3392f9d8f12c7790f2c598dd7a7387906e55575",
+      "sourceHtml": "<p>Still, we managed to sneak up to the cabin in early April of 2026 for a little spring cleanup.</p>",
+      "text": "Still, we managed to sneak up to the cabin in early April of 2026 for a little spring cleanup.",
+      "type": "paragraph",
+      "html": "<p>Still, we managed to sneak up to the cabin in early April of 2026 for a little spring cleanup.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b007",
+      "sourceHtmlSha256": "6392dd03b8858e44459506d1c5cfbda7028ee45bf3d70e693bf107474d3cf621",
+      "sourceHtml": "<p>The city had pushed a fallen tree branch into our property, so that needed to get taken care of first.</p>",
+      "text": "The city had pushed a fallen tree branch into our property, so that needed to get taken care of first.",
+      "type": "paragraph",
+      "html": "<p>The city had pushed a fallen tree branch into our property, so that needed to get taken care of first.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b008",
+      "sourceHtmlSha256": "9d5b528eda633b276f17ba992ca2adb8a4f6943e57e978ac4cbc201bb651b420",
+      "sourceHtml": "<p>We only stayed a few hours that trip, really just long enough to check on the place and handle the obvious mess.</p>",
+      "text": "We only stayed a few hours that trip, really just long enough to check on the place and handle the obvious mess.",
+      "type": "paragraph",
+      "html": "<p>We only stayed a few hours that trip, really just long enough to check on the place and handle the obvious mess.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b009",
+      "sourceHtmlSha256": "1f0455bffe2f9788527070daf88e2f142b2b9711f19506ae26fdb35ea9ea2d7b",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter25-refresh-beds.jpg\" alt=\"Refreshing the raised beds back in the city while getting serious about keeping vegetables alive this season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-refresh-beds.jpg",
+          "alt": "Refreshing the raised beds back in the city while getting serious about keeping vegetables alive this season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch25-b008",
+      "nextSourceBlockId": "ch25-b010",
+      "image": {
+        "mediaId": "media-city-beds-refresh-2026",
+        "alt": "Refreshing the raised beds back in the city while getting serious about keeping vegetables alive this season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b010",
+      "sourceHtmlSha256": "e1ac20e7b57f6007676d02ed9b20b8a8c5af24b21af94266358a3d77a993e0cd",
+      "sourceHtml": "<p>Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas.</p>",
+      "text": "Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas.",
+      "type": "paragraph",
+      "html": "<p>Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b011",
+      "sourceHtmlSha256": "f16c618c90db73d6413e92a7189c770b7857d53708ea8d94b0ea9b926acfcfa6",
+      "sourceHtml": "<p>That led to another thought.</p>",
+      "text": "That led to another thought.",
+      "type": "paragraph",
+      "html": "<p>That led to another thought.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b012",
+      "sourceHtmlSha256": "4aedfb1462ab57e476b89783d992f6db9606161236de48ecdcb9addad4b03bae",
+      "sourceHtml": "<p>Let’s build some and see if we can actually keep our city vegetables alive this time.</p>",
+      "text": "Let’s build some and see if we can actually keep our city vegetables alive this time.",
+      "type": "paragraph",
+      "html": "<p>Let’s build some and see if we can actually keep our city vegetables alive this time.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b013",
+      "sourceHtmlSha256": "9a9efb863159d6a25008d1b1b4dd2ab7026387f25cb13d141e2cf755db5fae99",
+      "sourceHtml": "<p>Then, around the middle of April, Vanessa had a day off and the weather finally looked decent enough again, so we headed back to the cabin.</p>",
+      "text": "Then, around the middle of April, Vanessa had a day off and the weather finally looked decent enough again, so we headed back to the cabin.",
+      "type": "paragraph",
+      "html": "<p>Then, around the middle of April, Vanessa had a day off and the weather finally looked decent enough again, so we headed back to the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b014",
+      "sourceHtmlSha256": "d7f588fbfcf7c8c193149188064da5fb4fe68315a92ca6d72584dbaeab93296f",
+      "sourceHtml": "<p>The only problem was that we had gotten a ton of rain the week before, and everything was soaked.</p>",
+      "text": "The only problem was that we had gotten a ton of rain the week before, and everything was soaked.",
+      "type": "paragraph",
+      "html": "<p>The only problem was that we had gotten a ton of rain the week before, and everything was soaked.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b015",
+      "sourceHtmlSha256": "f27b654f53c92ed10107d9082ce0cb49760023d17be20a18c6f661eda5dd1307",
+      "sourceHtml": "<p>Including the driveway.</p>",
+      "text": "Including the driveway.",
+      "type": "paragraph",
+      "html": "<p>Including the driveway.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b016",
+      "sourceHtmlSha256": "8ed82671592e1c287f73eaa2eed147b8e88dc9296236d86909bc9cb9115252cc",
+      "sourceHtml": "<p>We ended up leaving ruts in it just from driving through, which immediately became one more thing for the future project list.</p>",
+      "text": "We ended up leaving ruts in it just from driving through, which immediately became one more thing for the future project list.",
+      "type": "paragraph",
+      "html": "<p>We ended up leaving ruts in it just from driving through, which immediately became one more thing for the future project list.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b017",
+      "sourceHtmlSha256": "92c9978fb0e665cb4394c5176536e6100192481c013210568ebbc543a9160d69",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter25-robin.jpg\" alt=\"Robin carrying nesting material during the spring return to the cabin in 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-robin.jpg",
+          "alt": "Robin carrying nesting material during the spring return to the cabin in 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch25-b016",
+      "nextSourceBlockId": "ch25-b018",
+      "image": {
+        "mediaId": "journey-604f7d1887b8",
+        "alt": "Robin carrying nesting material during the spring return to the cabin in 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b018",
+      "sourceHtmlSha256": "8e101ab2fbaafdd79be4e7a0734f5ab8856efd65e10a72d493e9093484dc21d7",
+      "sourceHtml": "<p>But still, spring was definitely in the air.</p>",
+      "text": "But still, spring was definitely in the air.",
+      "type": "paragraph",
+      "html": "<p>But still, spring was definitely in the air.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b019",
+      "sourceHtmlSha256": "327990d50f2770a87515ef0b767f8b2a59eb3d8c4c63edc86aadafd0af7c7571",
+      "sourceHtml": "<p>The critters were coming back. The birds were busy again. Everything was starting to wake up.</p>",
+      "text": "The critters were coming back. The birds were busy again. Everything was starting to wake up.",
+      "type": "paragraph",
+      "html": "<p>The critters were coming back. The birds were busy again. Everything was starting to wake up.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b020",
+      "sourceHtmlSha256": "d8af879e4bf937490cfe35dc6dfcd70139e88bc5eb07c1a4981402eb83e88a2f",
+      "sourceHtml": "<p>So I guess we better feed them.</p>",
+      "text": "So I guess we better feed them.",
+      "type": "paragraph",
+      "html": "<p>So I guess we better feed them.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b021",
+      "sourceHtmlSha256": "d26254f586ce018b4e91a7047aa1ea7dd8623c49748bb8f77201ddfdb41a3db3",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter25-deer-thief.jpg\" alt=\"Deer stealing from the feeder at dusk as the snack service comes back online in spring\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-deer-thief.jpg",
+          "alt": "Deer stealing from the feeder at dusk as the snack service comes back online in spring"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch25-b020",
+      "nextSourceBlockId": "ch25-b022",
+      "image": {
+        "mediaId": "journey-866f12ebf9d3",
+        "alt": "Deer stealing from the feeder at dusk as the snack service comes back online in spring",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b022",
+      "sourceHtmlSha256": "750e35f06f5088467691120803d8faeb73c6a6165b0a75b15f16a7cce93404c7",
+      "sourceHtml": "<p>And of course, Chippy made his return and greeted us like he had been waiting all winter for the snack service to come back online. We all knew what he wanted.</p>",
+      "text": "And of course, Chippy made his return and greeted us like he had been waiting all winter for the snack service to come back online. We all knew what he wanted.",
+      "type": "paragraph",
+      "html": "<p>And of course, Chippy made his return and greeted us like he had been waiting all winter for the snack service to come back online. We all knew what he wanted.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b023",
+      "sourceHtmlSha256": "98cf6e14501c73ab93f11beab49b3474adb8754f7bfbf553f8f87daafd2d4913",
+      "sourceHtml": "<p>So yes, of course he got treats.</p>",
+      "text": "So yes, of course he got treats.",
+      "type": "paragraph",
+      "html": "<p>So yes, of course he got treats.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b024",
+      "sourceHtmlSha256": "a33029e4570792f21c382a00caf02f674ecf7597e570d35962c2e35874ce8e0d",
+      "sourceHtml": "<p>It was still a little chilly, but we pulled out the chairs and sat on the deck we had built the year before.</p>",
+      "text": "It was still a little chilly, but we pulled out the chairs and sat on the deck we had built the year before.",
+      "type": "paragraph",
+      "html": "<p>It was still a little chilly, but we pulled out the chairs and sat on the deck we had built the year before.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b025",
+      "sourceHtmlSha256": "6533858522154db4012a08bef52e464677a35140fad6cadcf7ba3bca4ba3b9dd",
+      "sourceHtml": "<p>Best thing we had done up there so far.</p>",
+      "text": "Best thing we had done up there so far.",
+      "type": "paragraph",
+      "html": "<p>Best thing we had done up there so far.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b026",
+      "sourceHtmlSha256": "9bc6d5645c47f0fa77326192307e171381824fe5870fc3b7b2e5fedbf35f2a02",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter25-cleanout.jpg\" alt=\"Cleaning out one of the birdhouses so the spring birds can start fresh for the season\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-cleanout.jpg",
+          "alt": "Cleaning out one of the birdhouses so the spring birds can start fresh for the season"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch25-b025",
+      "nextSourceBlockId": "ch25-b027",
+      "image": {
+        "mediaId": "journey-22f835e54b36",
+        "alt": "Cleaning out one of the birdhouses so the spring birds can start fresh for the season",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b027",
+      "sourceHtmlSha256": "903d667ffdb27c93b682fa17a8a0d66ee49face100ad0ace9b11b050d969ccc5",
+      "sourceHtml": "<p>Sitting there, I realized I better clean out the birdhouses so the birds could start fresh for a new season of babies.</p>",
+      "text": "Sitting there, I realized I better clean out the birdhouses so the birds could start fresh for a new season of babies.",
+      "type": "paragraph",
+      "html": "<p>Sitting there, I realized I better clean out the birdhouses so the birds could start fresh for a new season of babies.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b028",
+      "sourceHtmlSha256": "7c46dc8ccb1074cee1ebee4c399e5a04017edbca2632595dae523841555f1765",
+      "sourceHtml": "<p>And after that, we pretty much sat there the rest of the day, talking, laughing at the critters, and starting the yearly process of dreaming up what we wanted to accomplish next.</p>",
+      "text": "And after that, we pretty much sat there the rest of the day, talking, laughing at the critters, and starting the yearly process of dreaming up what we wanted to accomplish next.",
+      "type": "paragraph",
+      "html": "<p>And after that, we pretty much sat there the rest of the day, talking, laughing at the critters, and starting the yearly process of dreaming up what we wanted to accomplish next.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b029",
+      "sourceHtmlSha256": "9b113e2bcffae1597847db7fc7fee401b0295ce2c04f736b44abdb2341cc6597",
+      "sourceHtml": "<p>That was really the best part.</p>",
+      "text": "That was really the best part.",
+      "type": "paragraph",
+      "html": "<p>That was really the best part.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b030",
+      "sourceHtmlSha256": "5bc5b24e7eaca15f0523e32cfd45073bdd1179479422754c04c795321762dc64",
+      "sourceHtml": "<p>Not rushing. Not grinding. Just enjoying what we had already built and letting the next season slowly come into focus.</p>",
+      "text": "Not rushing. Not grinding. Just enjoying what we had already built and letting the next season slowly come into focus.",
+      "type": "paragraph",
+      "html": "<p>Not rushing. Not grinding. Just enjoying what we had already built and letting the next season slowly come into focus.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b031",
+      "sourceHtmlSha256": "687dcf4d6299fc0b72c4c3fc756ba007ea4fda2e7c001396ca94297086354da8",
+      "sourceHtml": "<p>Eventually, it started getting chilly again, so we figured it was probably time to head back to the city.</p>",
+      "text": "Eventually, it started getting chilly again, so we figured it was probably time to head back to the city.",
+      "type": "paragraph",
+      "html": "<p>Eventually, it started getting chilly again, so we figured it was probably time to head back to the city.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b032",
+      "sourceHtmlSha256": "ac69100028b1f7d56cf71d57d37f4db578009f38bb70aec7f383267bf475bc83",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter25-creek.jpg\" alt=\"Water running through the little creek near the property during the early spring return in 2026\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter25-creek.jpg",
+          "alt": "Water running through the little creek near the property during the early spring return in 2026"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch25-b031",
+      "nextSourceBlockId": "ch25-b033",
+      "image": {
+        "mediaId": "journey-dcfccaaf37ef",
+        "alt": "Water running through the little creek near the property during the early spring return in 2026",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch25-b033",
+      "sourceHtmlSha256": "319b7f2b071d918a01f402295254e8f916d9871a5ea3689a719dd812a14b0a1f",
+      "sourceHtml": "<p>But before we left, we made sure to grab one more quiet spring moment, the water running through the little creek before we tore up the driveway any worse trying to get out.</p>",
+      "text": "But before we left, we made sure to grab one more quiet spring moment, the water running through the little creek before we tore up the driveway any worse trying to get out.",
+      "type": "paragraph",
+      "html": "<p>But before we left, we made sure to grab one more quiet spring moment, the water running through the little creek before we tore up the driveway any worse trying to get out.</p>"
+    },
+    {
+      "sourceBlockId": "ch25-b034",
+      "sourceHtmlSha256": "13d1c4d347301a4dfdb15aef6719f1946849fa1c6990e7032f7eff7b14ad47a9",
+      "sourceHtml": "<p>Until next time, cabin.</p>",
+      "text": "Until next time, cabin.",
+      "type": "paragraph",
+      "html": "<p>Until next time, cabin.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [
+    {
+      "href": "/pages/diy-olla-watering-system",
+      "label": "See the terracotta olla build.",
+      "context": "Want to try it? The longer result is still unreported."
+    }
+  ],
+  "coverMedia": {
+    "mediaId": "journey-94dbba4b2c19",
+    "alt": "Jeff cutting up a fallen branch near the road during the first spring cleanup trip of 2026",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "We were more than ready to get back to the cabin. But this crazy Michigan weather was doing what it always does, seventy degrees and sunny one day, then thirty degrees and freezing rain…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Twenty-Five",
+  "originalHeadingAfterBlocks": 1
+}

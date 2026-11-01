@@ -1,0 +1,30 @@
+{
+  "id": "garden-thread",
+  "route": "/stories/growing-a-little-food",
+  "output": "stories/growing-a-little-food.html",
+  "title": "Two gardens. Real life in between. | Quiet Backyard Living",
+  "kind": "thread",
+  "status": "local-review",
+  "description": "Real QBL projects and the stories that keep going.",
+  "bodyClass": "hp-edition co-edition hy-edition qbl-polish",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/integrated-home.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {},
+  "wrapperAttrs": {
+    "class": "qbl-editorial-wrap"
+  },
+  "blocks": [
+    {
+      "component": "editorial/two-gardens"
+    }
+  ]
+}

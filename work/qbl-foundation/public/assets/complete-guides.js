@@ -1,0 +1,2 @@
+// Local review: signup forms never send subscription requests.
+document.addEventListener('submit',event=>{if(event.target.matches('#yardSignupForm,#storySignupForm,#birdhousePreviewForm')){event.preventDefault();event.stopImmediatePropagation();let status=event.target.querySelector('[data-local-status]');if(!status){status=document.createElement('p');status.dataset.localStatus='true';status.setAttribute('role','status');event.target.append(status)}status.textContent='This is the local review. No subscription has been sent. Use the existing live signup page below.'}},true);

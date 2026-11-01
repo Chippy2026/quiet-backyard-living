@@ -1,0 +1,42 @@
+{
+  "id": "library-1e97a3be298b",
+  "route": "/pages/what-to-grow-near-asparagus",
+  "output": "pages/what-to-grow-near-asparagus.html",
+  "title": "What to Grow Near Asparagus | Quiet Backyard Living",
+  "description": "Asparagus is more of a long-term commitment bed, so nearby plant choices should respect that permanence.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-1e97a3be298b.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-1e97a3be298b.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-asparagus.html",
+    "sha256": "6c393224f33f2f6ab1a2421d7e0022c72ad13fa512bb635ad52edcb70b7f653c"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,360 @@
+
+    const cropData = {
+      tomatoes: { label: 'Tomatoes', spacing: '2 plants, about 24 to 30 inches apart', companion: 'Basil and onions nearby, with marigolds on the edge', pollinator: 'Calendula or marigolds near the corners', sketchLabel: 'Tomatoes', sketchType: 'main', height: 'tall', spread: 'medium', family: 'fruiting', url: 'what-to-grow-near-tomatoes.html' },
+      peppers: { label: 'Peppers', spacing: '2 to 4 plants, about 18 to 24 inches apart', companion: 'Basil, onions, and parsley fit nicely nearby', pollinator: 'Marigolds or alyssum near the edge', sketchLabel: 'Peppers', sketchType: 'main', height: 'medium', spread: 'small', family: 'fruiting', url: 'what-to-grow-near-peppers.html' },
+      cucumbers: { label: 'Cucumbers', spacing: '1 to 2 plants with room to climb or sprawl', companion: 'Dill, nasturtiums, or bush beans nearby', pollinator: 'Flowers help a lot with cucumber pollination', sketchLabel: 'Cucumbers', sketchType: 'main', height: 'vine', spread: 'large', family: 'vining', url: 'what-to-grow-near-cucumbers.html' },
+      lettuce: { label: 'Lettuce', spacing: 'A short front row or block, about 8 to 10 inches apart', companion: 'Chives and carrots are gentle nearby neighbors', pollinator: 'Not essential, but a little alyssum nearby is nice', sketchLabel: 'Lettuce', sketchType: 'main', height: 'short', spread: 'small', family: 'leafy', url: 'what-to-grow-near-lettuce.html' },
+      greenBeans: { label: 'Green Beans', spacing: 'A row or two, about 4 to 6 inches apart', companion: 'Beets, carrots, and summer savory work well', pollinator: 'Flowers nearby can still help the whole bed', sketchLabel: 'Beans', sketchType: 'main', height: 'medium', spread: 'medium', family: 'legume', url: 'what-to-grow-near-green-beans.html' },
+      carrots: { label: 'Carrots', spacing: 'A band or block, thinned to about 2 inches apart', companion: 'Onions, lettuce, and chives nearby', pollinator: 'Not a must, but flowers still help the bed feel alive', sketchLabel: 'Carrots', sketchType: 'main', height: 'short', spread: 'small', family: 'root', url: 'what-to-grow-near-carrots.html' },
+      onions: { label: 'Onions', spacing: 'A short row or tuck-in strip, about 4 inches apart', companion: 'Carrots, lettuce, beets, and tomatoes can all benefit', pollinator: 'Not a pollinator crop, but good in mixed beds', sketchLabel: 'Onions', sketchType: 'main', height: 'short', spread: 'small', family: 'allium', url: 'what-to-grow-near-onions.html' },
+      kale: { label: 'Kale', spacing: '2 to 4 plants, about 18 inches apart', companion: 'Onions, dill, and herbs nearby are helpful', pollinator: 'A little flower help nearby is good for the whole bed', sketchLabel: 'Kale', sketchType: 'main', height: 'medium', spread: 'medium', family: 'leafy', url: 'what-to-grow-near-kale.html' },
+      zucchini: { label: 'Zucchini', spacing: '1 plant with a generous patch to itself', companion: 'Borage, nasturtiums, and marigolds fit the role well', pollinator: 'Pollinator flowers matter a lot for squash family crops', sketchLabel: 'Zucchini', sketchType: 'main', height: 'medium', spread: 'large', family: 'vining', url: 'what-to-grow-near-zucchini.html' },
+      strawberries: { label: 'Strawberries', spacing: 'A compact patch, about 12 inches apart', companion: 'Chives, thyme, and lettuce can be friendly nearby', pollinator: 'A little flower support can help keep visits steady', sketchLabel: 'Strawberries', sketchType: 'main', height: 'short', spread: 'medium', family: 'fruit', url: 'what-to-grow-near-strawberries.html' },
+      broccoli: { label: 'Broccoli', spacing: '2 to 3 plants, about 18 inches apart', companion: 'Onions, dill, and shallower roots nearby', pollinator: 'Flowers on the edges help the whole bed stay lively', sketchLabel: 'Broccoli', sketchType: 'main', height: 'medium', spread: 'medium', family: 'brassica', url: 'what-to-grow-near-broccoli.html' },
+      cabbage: { label: 'Cabbage', spacing: '2 to 3 plants, about 18 to 24 inches apart', companion: 'Onions, herbs, and a little flower help nearby', pollinator: 'Edge flowers help beneficial insects visit', sketchLabel: 'Cabbage', sketchType: 'main', height: 'medium', spread: 'large', family: 'brassica', url: 'what-to-grow-near-cabbage.html' },
+      cauliflower: { label: 'Cauliflower', spacing: '2 to 3 plants, about 18 to 24 inches apart', companion: 'Onions and herbs fit well nearby', pollinator: 'Flowers near corners help the bed feel balanced', sketchLabel: 'Cauliflower', sketchType: 'main', height: 'medium', spread: 'medium', family: 'brassica', url: 'what-to-grow-near-cauliflower.html' },
+      spinach: { label: 'Spinach', spacing: 'A short band, about 4 to 6 inches apart', companion: 'Radishes, onions, and lettuce nearby', pollinator: 'Not essential, but edge flowers still help', sketchLabel: 'Spinach', sketchType: 'main', height: 'short', spread: 'small', family: 'leafy', url: 'what-to-grow-near-spinach.html' },
+      radishes: { label: 'Radishes', spacing: 'A quick front row, about 2 to 3 inches apart', companion: 'Lettuce, carrots, and cucumbers nearby', pollinator: 'Not critical, but flowers still support the bed', sketchLabel: 'Radishes', sketchType: 'main', height: 'short', spread: 'small', family: 'root', url: 'what-to-grow-near-radishes.html' },
+      beets: { label: 'Beets', spacing: 'A short row or block, about 3 to 4 inches apart', companion: 'Onions, lettuce, and bush beans nearby', pollinator: 'Flower edges still help the overall garden', sketchLabel: 'Beets', sketchType: 'main', height: 'short', spread: 'small', family: 'root', url: 'what-to-grow-near-beets.html' },
+      peas: { label: 'Peas', spacing: 'A climbing strip or compact trellis row', companion: 'Carrots, lettuce, and herbs nearby', pollinator: 'Flowers make the whole cool-season bed friendlier', sketchLabel: 'Peas', sketchType: 'main', height: 'vine', spread: 'medium', family: 'legume', url: 'what-to-grow-near-peas.html' },
+      potatoes: { label: 'Potatoes', spacing: 'A roomy patch with about 12 inches between plants', companion: 'Beans, onions, and compact herbs nearby', pollinator: 'Not a pollinator crop, but flowers can still support the space', sketchLabel: 'Potatoes', sketchType: 'main', height: 'medium', spread: 'large', family: 'root', url: 'what-to-grow-near-potatoes.html' },
+      garlic: { label: 'Garlic', spacing: 'A tidy block or row, about 4 to 6 inches apart', companion: 'Lettuce, carrots, and strawberries nearby', pollinator: 'Flowers are optional but still nice near edges', sketchLabel: 'Garlic', sketchType: 'main', height: 'short', spread: 'small', family: 'allium', url: 'what-to-grow-near-garlic.html' },
+      swissChard: { label: 'Swiss Chard', spacing: '2 to 4 plants, about 10 to 12 inches apart', companion: 'Onions and carrots fit well nearby', pollinator: 'Edge flowers are a simple bonus', sketchLabel: 'Chard', sketchType: 'main', height: 'medium', spread: 'medium', family: 'leafy', url: 'what-to-grow-near-swiss-chard.html' },
+      pumpkins: { label: 'Pumpkins', spacing: 'A large spreading zone or edge patch', companion: 'Flowers and herbs nearby help more than crowding it does', pollinator: 'Pollinator flowers are especially helpful here', sketchLabel: 'Pumpkins', sketchType: 'main', height: 'vine', spread: 'large', family: 'vining', url: 'what-to-grow-near-pumpkins.html' },
+      summerSquash: { label: 'Summer Squash', spacing: '1 plant with roomy spacing around it', companion: 'Nasturtiums and herbs do well nearby', pollinator: 'Pollinator flowers matter a lot for squash family crops', sketchLabel: 'Summer Squash', sketchType: 'main', height: 'medium', spread: 'large', family: 'vining', url: 'what-to-grow-near-summer-squash.html' },
+      cabbageFamily: { label: 'Cabbage Family Crops', spacing: 'A focused block with room for airflow', companion: 'Onions, herbs, and dill nearby', pollinator: 'A little flower strip can help beneficial insects', sketchLabel: 'Brassicas', sketchType: 'main', height: 'medium', spread: 'medium', family: 'brassica', url: 'what-to-grow-near-cabbage-family-crops.html' },
+      collards: { label: 'Collards', spacing: '2 to 4 plants, about 18 inches apart', companion: 'Onions and herbs fit nicely nearby', pollinator: 'Flowers on corners help more than crowding another crop in', sketchLabel: 'Collards', sketchType: 'main', height: 'medium', spread: 'medium', family: 'leafy', url: 'what-to-grow-near-collards.html' },
+      brusselsSprouts: { label: 'Brussels Sprouts', spacing: '2 to 3 plants, about 18 to 24 inches apart', companion: 'Onions and herbs nearby, with breathing room', pollinator: 'Edge flowers help the bed stay active', sketchLabel: 'Brussels Sprouts', sketchType: 'main', height: 'tall', spread: 'medium', family: 'brassica', url: 'what-to-grow-near-brussels-sprouts.html' },
+      celery: { label: 'Celery', spacing: 'A moist little patch, about 8 to 10 inches apart', companion: 'Onions and lettuce nearby can work well', pollinator: 'Flowers are optional, but fine on the edge', sketchLabel: 'Celery', sketchType: 'main', height: 'medium', spread: 'small', family: 'stem', url: 'what-to-grow-near-celery.html' },
+      eggplant: { label: 'Eggplant', spacing: '2 plants, about 18 to 24 inches apart', companion: 'Beans, herbs, and flowers nearby help balance the bed', pollinator: 'Edge flowers are a nice addition', sketchLabel: 'Eggplant', sketchType: 'main', height: 'medium', spread: 'medium', family: 'fruiting', url: 'what-to-grow-near-eggplant.html' },
+      corn: { label: 'Corn', spacing: 'A short block rather than a lonely single row', companion: 'Beans nearby make more sense than crowding the roots', pollinator: 'Flowers help the wider garden even if corn is wind-pollinated', sketchLabel: 'Corn', sketchType: 'main', height: 'tall', spread: 'large', family: 'tall', url: 'what-to-grow-near-corn.html' },
+      watermelon: { label: 'Watermelon', spacing: 'A roomy vining zone with lots of elbow room', companion: 'Flowers and herbs nearby, not crowding on top of it', pollinator: 'Pollinator flowers are especially useful here', sketchLabel: 'Watermelon', sketchType: 'main', height: 'vine', spread: 'large', family: 'vining', url: 'what-to-grow-near-watermelon.html' },
+      cantaloupe: { label: 'Cantaloupe', spacing: 'A roomy patch with space to sprawl', companion: 'Flowers and compact herbs near the edge', pollinator: 'Pollinator flowers are a smart addition', sketchLabel: 'Cantaloupe', sketchType: 'main', height: 'vine', spread: 'large', family: 'vining', url: 'what-to-grow-near-cantaloupe.html' },
+      sweetPotatoes: { label: 'Sweet Potatoes', spacing: 'A spreading patch or edge row with room to run', companion: 'Bush beans and flowers on the edge work better than crowding', pollinator: 'Flowers still help the bed feel alive', sketchLabel: 'Sweet Potatoes', sketchType: 'main', height: 'vine', spread: 'large', family: 'root', url: 'what-to-grow-near-sweet-potatoes.html' },
+      bokChoy: { label: 'Bok Choy', spacing: 'A tidy cool-season block, about 8 to 10 inches apart', companion: 'Onions and herbs nearby can be helpful', pollinator: 'Not critical, but flowers on the edge are still fine', sketchLabel: 'Bok Choy', sketchType: 'main', height: 'short', spread: 'small', family: 'leafy', url: 'what-to-grow-near-bok-choy.html' },
+      arugula: { label: 'Arugula', spacing: 'A quick short row or little salad patch', companion: 'Lettuce and onions nearby work nicely', pollinator: 'Edge flowers are optional but welcome', sketchLabel: 'Arugula', sketchType: 'main', height: 'short', spread: 'small', family: 'leafy', url: 'what-to-grow-near-arugula.html' },
+      turnips: { label: 'Turnips', spacing: 'A compact root patch, thinned to about 4 inches apart', companion: 'Peas, onions, and lettuce nearby', pollinator: 'Not essential, but still a fine edge addition', sketchLabel: 'Turnips', sketchType: 'main', height: 'short', spread: 'small', family: 'root', url: 'what-to-grow-near-turnips.html' },
+      leeks: { label: 'Leeks', spacing: 'A short tidy row with about 6 inches between plants', companion: 'Carrots, lettuce, and beets nearby', pollinator: 'Flower edges help the garden feel fuller without crowding', sketchLabel: 'Leeks', sketchType: 'main', height: 'medium', spread: 'small', family: 'allium', url: 'what-to-grow-near-leeks.html' },
+      shallots: { label: 'Shallots', spacing: 'A compact little strip or block, about 5 inches apart', companion: 'Carrots and leafy greens nearby', pollinator: 'Optional, but still pleasant on corners', sketchLabel: 'Shallots', sketchType: 'main', height: 'short', spread: 'small', family: 'allium', url: 'what-to-grow-near-shallots.html' },
+      microgreens: { label: 'Microgreens', spacing: 'A shallow tray or dedicated quick-cut area', companion: 'Best treated as their own little harvest spot', pollinator: 'Not needed here', sketchLabel: 'Microgreens', sketchType: 'main', height: 'short', spread: 'small', family: 'specialty', url: 'what-to-grow-near-microgreens.html' },
+      okra: { label: 'Okra', spacing: '2 to 4 plants, about 12 to 18 inches apart', companion: 'Peppers, basil, and flowers nearby can fit well', pollinator: 'Flowers nearby are a nice match', sketchLabel: 'Okra', sketchType: 'main', height: 'tall', spread: 'medium', family: 'tall', url: 'what-to-grow-near-okra.html' },
+      peasSugar: { label: 'Sugar Snap Peas', spacing: 'A trellised cool-season strip', companion: 'Lettuce and carrots nearby are a natural fit', pollinator: 'Flower edges are still welcome', sketchLabel: 'Snap Peas', sketchType: 'main', height: 'vine', spread: 'medium', family: 'legume', url: 'what-to-grow-near-peas.html' },
+      herbs: { label: 'Kitchen Herbs', spacing: 'A mixed herb patch with room to snip often', companion: 'Great tucked through the whole bed in little pockets', pollinator: 'Many herbs help pollinators once they flower', sketchLabel: 'Herbs', sketchType: 'main', height: 'short', spread: 'small', family: 'herb', url: 'the-herbs-that-quietly-save-you-the-most-money.html' }
+    };
+
+    const cropOrder = ['tomatoes','peppers','cucumbers','lettuce','greenBeans','carrots','onions','kale','zucchini','strawberries','broccoli','cabbage','cauliflower','spinach','radishes','beets','peas','potatoes','garlic','swissChard','pumpkins','summerSquash','cabbageFamily','collards','brusselsSprouts','celery','eggplant','corn','watermelon','cantaloupe','sweetPotatoes','bokChoy','arugula','turnips','leeks','shallots','microgreens','okra','peasSugar','herbs'];
+    const herbOptions = ['Basil', 'Chives', 'Parsley', 'Thyme'];
+    const pollinatorOptions = ['Marigolds', 'Nasturtiums', 'Calendula', 'Alyssum'];
+    const bedShapes = {
+      '4x4': { rows: 2, cols: 2, label: '4 x 4 feet raised bed' },
+      '4x8': { rows: 2, cols: 4, label: '4 x 8 feet raised bed' },
+      '4x12': { rows: 2, cols: 6, label: '4 x 12 feet raised bed' },
+      '10x10': { rows: 3, cols: 3, label: '10 x 10 feet garden space' },
+      'patio': { rows: 2, cols: 3, label: 'patio containers' }
+    };
+
+    const cropOptions = document.getElementById('cropOptions');
+    const customBedGrid = document.getElementById('customBedGrid');
+    const bedSizeSelect = document.getElementById('bedSize');
+    const customWidthInput = document.getElementById('customWidth');
+    const customLengthInput = document.getElementById('customLength');
+    const form = document.getElementById('plannerForm');
+    const resetBtn = document.getElementById('plannerReset');
+    const resultsShell = document.getElementById('plannerResults');
+    const planTitle = document.getElementById('planTitle');
+    const planSummary = document.getElementById('planSummary');
+    const planList = document.getElementById('planList');
+    const detailsList = document.getElementById('detailsList');
+    const linkList = document.getElementById('linkList');
+    const bedSketch = document.getElementById('bedSketch');
+    const sketchNote = document.getElementById('sketchNote');
+    const bedBackLabel = document.getElementById('bedBackLabel');
+    const bedTrellisLabel = document.getElementById('bedTrellisLabel');
+    const bedFrontLabel = document.getElementById('bedFrontLabel');
+
+    function getBedProfile(sizeKey, customWidth = null, customLength = null) {
+      if (sizeKey === 'custom') {
+        const width = Math.max(2, Number(customWidth) || 4);
+        const length = Math.max(2, Number(customLength) || 8);
+        const area = width * length;
+        let tier = 'medium';
+        if (area <= 20) tier = 'small';
+        else if (area >= 80) tier = 'large';
+        return {
+          key: 'custom',
+          width,
+          length,
+          area,
+          tier,
+          label: `${width} x ${length} feet bed`,
+          isPatio: false
+        };
+      }
+      if (sizeKey === 'patio') {
+        return { key: 'patio', width: 0, length: 0, area: 0, tier: 'small', label: 'patio containers', isPatio: true };
+      }
+      const [width, length] = sizeKey.split('x').map(Number);
+      const area = width * length;
+      let tier = 'medium';
+      if (area <= 16) tier = 'small';
+      else if (area >= 80) tier = 'large';
+      return {
+        key: sizeKey,
+        width,
+        length,
+        area,
+        tier,
+        label: bedShapes[sizeKey].label,
+        isPatio: false
+      };
+    }
+
+    function updateCustomBedVisibility() {
+      const show = bedSizeSelect.value === 'custom';
+      customBedGrid.classList.toggle('show', show);
+    }
+
+    function renderCropOptions() {
+      cropOptions.innerHTML = '';
+      cropOrder.forEach(key => {
+        const crop = cropData[key];
+        const label = document.createElement('label');
+        label.className = 'check-item';
+        label.innerHTML = `<input type="checkbox" name="crop" value="${key}" aria-label="${crop.label}"> <span>${crop.label}</span>`;
+        cropOptions.appendChild(label);
+      });
+    }
+
+    function pickHerbs(selected) {
+      if (!selected.length) return herbOptions.slice(0, 2);
+      if (selected.includes('tomatoes') || selected.includes('peppers')) return ['Basil', 'Chives'];
+      if (selected.includes('cucumbers') || selected.includes('zucchini')) return ['Dill', 'Basil'];
+      if (selected.includes('strawberries')) return ['Thyme', 'Chives'];
+      return herbOptions.slice(0, 2);
+    }
+
+    function pickPollinators(selected) {
+      if (selected.includes('cucumbers') || selected.includes('zucchini')) return ['Nasturtiums', 'Calendula'];
+      if (selected.includes('tomatoes') || selected.includes('peppers')) return ['Marigolds', 'Alyssum'];
+      return pollinatorOptions.slice(0, 2);
+    }
+
+    function sortChosenForLayout(keys) {
+      const tallBack = [];
+      const mediumMiddle = [];
+      const frontShort = [];
+      const wideZone = [];
+
+      keys.forEach(key => {
+        const crop = cropData[key];
+        if (!crop) return;
+        if (crop.spread === 'large' || crop.family === 'vining') {
+          wideZone.push(key);
+        } else if (crop.height === 'tall' || crop.height === 'vine') {
+          tallBack.push(key);
+        } else if (crop.height === 'short') {
+          frontShort.push(key);
+        } else {
+          mediumMiddle.push(key);
+        }
+      });
+
+      return [...tallBack, ...wideZone, ...mediumMiddle, ...frontShort];
+    }
+
+    function makeCropCell(key, featured = false) {
+      return {
+        label: cropData[key].sketchLabel,
+        type: cropData[key].sketchType,
+        note: cropData[key].spacing,
+        featured
+      };
+    }
+
+    function makeEdgeCell(label, type, note) {
+      return { label, type, note, edge: true };
+    }
+
+    function buildSketchPlan(selected, includeHerbs, includePollinators, bedProfile) {
+      const chosen = sortChosenForLayout(selected.length ? selected : ['tomatoes', 'lettuce', 'carrots']);
+      const herbs = includeHerbs ? pickHerbs(chosen) : [];
+      const polls = includePollinators ? pickPollinators(chosen) : [];
+      const main = chosen.map((key, index) => makeCropCell(key, index === 0));
+      const edgeHerbs = herbs.map(name => makeEdgeCell(name, 'herb', 'Edge herb'));
+      const edgePolls = polls.map(name => makeEdgeCell(name, 'pollinator', 'Pollinator edge'));
+      const fillers = [
+        makeEdgeCell(bedProfile.isPatio ? 'Extra pot' : 'Buffer', 'buffer', bedProfile.isPatio ? 'One more container' : 'Reach and airflow'),
+        makeEdgeCell(bedProfile.isPatio ? 'Shelf space' : 'Mulch path', 'buffer', bedProfile.isPatio ? 'Small tool or herb spot' : 'Access strip')
+      ];
+
+      if (bedProfile.isPatio) {
+        return {
+          top: edgeHerbs.slice(0, 2).concat(edgePolls.slice(0, 1)),
+          left: [],
+          center: main.slice(0, 3),
+          right: [],
+          bottom: edgePolls.slice(1).concat(fillers).slice(0, 3)
+        };
+      }
+
+      const topMain = main.filter(cell => {
+        const crop = Object.values(cropData).find(item => item.sketchLabel === cell.label);
+        return crop && (crop.height === 'tall' || crop.height === 'vine');
+      });
+      const frontMain = main.filter(cell => {
+        const crop = Object.values(cropData).find(item => item.sketchLabel === cell.label);
+        return crop && crop.height === 'short';
+      });
+      const midMain = main.filter(cell => !topMain.includes(cell) && !frontMain.includes(cell));
+
+      const isSmall = bedProfile.tier === 'small';
+      const isLarge = bedProfile.tier === 'large';
+      const bigSprawlers = chosen.filter(key => cropData[key].spread === 'large' || cropData[key].family === 'vining');
+      const trellisCrops = chosen.filter(key => ['peas', 'peasSugar', 'cucumbers'].includes(key));
+
+      return {
+        top: [
+          ...topMain.slice(0, isLarge ? 3 : 2),
+          ...(trellisCrops.length ? [makeEdgeCell('Trellis side', 'buffer', `${cropData[trellisCrops[0]].label} climbs here`)] : []),
+          ...edgePolls.slice(0, 1),
+          ...edgeHerbs.slice(0, 1)
+        ].slice(0, 4),
+        left: [
+          bigSprawlers[0] ? makeEdgeCell(cropData[bigSprawlers[0]].label, 'main', 'Give this one extra elbow room') : (midMain[0] || edgeHerbs[1] || fillers[0]),
+          edgeHerbs[2] || fillers[1]
+        ].filter(Boolean),
+        center: [
+          main[0] || fillers[0],
+          bigSprawlers[1] ? makeCropCell(bigSprawlers[1], true) : (midMain[1] || frontMain[0] || fillers[1]),
+          isSmall ? (frontMain[0] || main[1] || fillers[0]) : (main[1] || fillers[0])
+        ].filter(Boolean),
+        right: [
+          edgePolls[1] || fillers[0],
+          edgePolls[2] || edgeHerbs[3] || fillers[1]
+        ].filter(Boolean),
+        bottom: [
+          frontMain[0] || fillers[0],
+          frontMain[1] || edgeHerbs[0] || fillers[1],
+          frontMain[2] || midMain[2] || fillers[0],
+          isLarge ? (frontMain[3] || edgePolls[3] || fillers[1]) : (edgePolls[3] || fillers[1])
+        ].slice(0, 4)
+      };
+    }
+
+    function renderBand(cells, className) {
+      const band = document.createElement('div');
+      band.className = `sketch-band ${className}`;
+      cells.forEach(cell => band.appendChild(createCell(cell, true)));
+      return band;
+    }
+
+    function createCell(cell, isEdge = false) {
+      const cellEl = document.createElement('div');
+      const extra = [];
+      if (cell.featured) extra.push('featured');
+      if (isEdge || cell.edge) extra.push('edge');
+      cellEl.className = `bed-cell ${cell.type} ${extra.join(' ')}`.trim();
+      cellEl.innerHTML = `<strong>${cell.label}</strong><span>${cell.note}</span>`;
+      return cellEl;
+    }
+
+    function renderSketch(layout, sizeKey) {
+      bedSketch.innerHTML = '';
+
+      if (layout.top.length) bedSketch.appendChild(renderBand(layout.top, 'edge-top'));
+
+      const middle = document.createElement('div');
+      middle.className = 'sketch-middle';
+
+      const left = document.createElement('div');
+      left.className = 'sketch-band';
+      layout.left.forEach(cell => left.appendChild(createCell(cell, true)));
+
+      const center = document.createElement('div');
+      center.className = 'sketch-main';
+      layout.center.forEach(cell => center.appendChild(createCell(cell)));
+
+      const right = document.createElement('div');
+      right.className = 'sketch-band';
+      layout.right.forEach(cell => right.appendChild(createCell(cell, true)));
+
+      middle.appendChild(left);
+      middle.appendChild(center);
+      middle.appendChild(right);
+      bedSketch.appendChild(middle);
+
+      if (layout.bottom.length) bedSketch.appendChild(renderBand(layout.bottom, 'edge-bottom'));
+    }
+
+    function renderList(target, items) {
+      target.innerHTML = '';
+      items.forEach(text => {
+        const li = document.createElement('li');
+        li.innerHTML = text;
+        target.appendChild(li);
+      });
+    }
+
+    renderCropOptions();
+    updateCustomBedVisibility();
+    bedSizeSelect.addEventListener('change', updateCustomBedVisibility);
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const bedSize = document.getElementById('bedSize').value;
+      const bedProfile = getBedProfile(bedSize, customWidthInput.value, customLengthInput.value);
+      const style = document.getElementById('sunStyle').value;
+      const includeHerbs = document.getElementById('includeHerbs').value === 'yes';
+      const includePollinators = document.getElementById('includePollinators').value === 'yes';
+      const selected = Array.from(document.querySelectorAll('input[name="crop"]:checked')).map(el => el.value);
+      const chosen = selected.length ? sortChosenForLayout(selected).slice(0, bedProfile.isPatio ? 3 : bedProfile.tier === 'large' ? 8 : bedProfile.tier === 'small' ? 4 : 6) : ['tomatoes', 'lettuce', 'carrots'];
+      const herbs = includeHerbs ? pickHerbs(chosen) : [];
+      const polls = includePollinators ? pickPollinators(chosen) : [];
+
+      planTitle.textContent = `Your ${bedProfile.label} plan`;
+      planSummary.textContent = `This layout leans ${style === 'easy' ? 'simple and manageable' : style === 'productive' ? 'productive without getting too crowded' : 'productive with a little extra pollinator support'}, built around the foods you actually care about.`;
+
+      const mainItems = chosen.map(key => `<strong>${cropData[key].label}:</strong> ${cropData[key].spacing}`);
+      renderList(planList, [
+        `Start with <strong>${chosen.map(key => cropData[key].label).join(', ')}</strong> as your main crops.`,
+        ...mainItems,
+        includeHerbs ? `Tuck in <strong>${herbs.join(' and ')}</strong> where they can support the bed without crowding it.` : 'Skip extra herbs for now and keep the bed focused on your main crops.',
+        includePollinators ? `Add <strong>${polls.join(' and ')}</strong> on edges or corners for a little pollinator help.` : 'Keep the outer edges open for airflow, access, and easy harvests.'
+      ]);
+
+      const detailItems = chosen.map(key => `<strong>${cropData[key].label}:</strong> ${cropData[key].companion}. ${cropData[key].pollinator}`);
+      detailItems.push(style === 'easy'
+        ? 'Leave a little breathing room between sections so watering, picking, and weeding stay easy.'
+        : style === 'productive'
+          ? 'Use front edges for smaller crops and back sections for taller ones so the whole space works harder.'
+          : 'Put the flowers where they are easy to spot from above and easy for pollinators to land on.');
+      renderList(detailsList, detailItems);
+
+      renderList(linkList, chosen.map(key => `<a href="${cropData[key].url}">${cropData[key].label}</a>`).concat([
+        '<a href="what-to-grow-near-the-vegetables-you-actually-like-to-eat.html">Companion planting crop finder</a>',
+        '<a href="protect-my-veggie.html">Protect My Veggie</a>'
+      ]));
+
+      const layout = buildSketchPlan(chosen, includeHerbs, includePollinators, bedProfile);
+      renderSketch(layout, bedSize);
+      const hasTrellisCrop = chosen.some(key => ['peas', 'peasSugar', 'cucumbers'].includes(key));
+      bedBackLabel.textContent = bedProfile.isPatio ? 'Back / taller pot side' : 'Back / taller crop side';
+      bedFrontLabel.textContent = bedProfile.isPatio ? 'Front / easiest snipping side' : 'Front / easiest harvest side';
+      bedTrellisLabel.textContent = hasTrellisCrop ? 'Trellis side for climbers' : 'Pollinator and herb edge';
+      sketchNote.textContent = `A rough top-down sketch for a ${bedProfile.label}. You can swap exact positions around based on sun, paths, or what feels easiest to reach.`;
+      resultsShell.classList.add('show');
+      resultsShell.scrollIntoView({ behavior: window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    });
+
+    resetBtn.addEventListener('click', () => {
+      form.reset();
+      document.getElementById('bedSize').value = '4x8';
+      customWidthInput.value = '';
+      customLengthInput.value = '';
+      updateCustomBedVisibility();
+      document.getElementById('includeHerbs').value = 'yes';
+      document.getElementById('includePollinators').value = 'yes';
+      resultsShell.classList.remove('show');
+      bedSketch.innerHTML = '';
+    });
+  

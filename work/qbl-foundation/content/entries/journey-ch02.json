@@ -1,0 +1,275 @@
+{
+  "id": "journey-ch02",
+  "route": "/our-journey/chapters/chapter-02",
+  "output": "our-journey/chapters/chapter-02.html",
+  "title": "The first weekend it was finally ours | Quiet Backyard Living",
+  "storyTitle": "The first weekend it was finally ours",
+  "kind": "chapter",
+  "status": "published",
+  "description": "The first weekend it was finally ours",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 2,
+  "chapterOrder": 2,
+  "seriesId": "happy-place",
+  "dateLabel": "July 2022",
+  "dateEvidence": "July 2022 / first weekend",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 2,
+    "articleSha256": "6f5fa5c5811254bafa3d95c0533c02a67d51838a04a399f95d49cd3fa548f74d",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-4"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch02-b001",
+      "sourceHtmlSha256": "f30c6bb2a674eea0c53e2d388166aaf4485848872dc36f3b927292500d8fcda0",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/cabin-start-selfie.jpg\" alt=\"Jeff and Vanessa in the early days at the cabin\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/cabin-start-selfie.jpg",
+          "alt": "Jeff and Vanessa in the early days at the cabin"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch02-b002",
+      "image": {
+        "mediaId": "journey-f24045790be6",
+        "alt": "Jeff and Vanessa in the early days at the cabin",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch02-b004",
+      "sourceHtmlSha256": "0b1cb21078c563715e4a1403f522ed043fde212b3ed411f117bcd4f7a5dc76e1",
+      "sourceHtml": "<p>We closed on the property over Fourth of July weekend and headed up there that same weekend.</p>",
+      "text": "We closed on the property over Fourth of July weekend and headed up there that same weekend.",
+      "type": "paragraph",
+      "html": "<p>We closed on the property over Fourth of July weekend and headed up there that same weekend.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b005",
+      "sourceHtmlSha256": "3452137f23efdbf80193ab559ddf2286264e9e8f50b166ce7843c21786012bae",
+      "sourceHtml": "<p>Technically, the previous owner was still allowed on the property for another couple of days to finish up, but by the following morning he was gone. Before he left, he spent a little time with us, talking, showing us around, and helping us understand the place a little better. Then he was off, and for the next couple of days before we had to return to the city, the property was finally ours.</p>",
+      "text": "Technically, the previous owner was still allowed on the property for another couple of days to finish up, but by the following morning he was gone. Before he left, he spent a little time with us, talking, showing us around, and helping us understand the place a little better. Then he was off, and for the next couple of days before we had to return to the city, the property was finally ours.",
+      "type": "paragraph",
+      "html": "<p>Technically, the previous owner was still allowed on the property for another couple of days to finish up, but by the following morning he was gone. Before he left, he spent a little time with us, talking, showing us around, and helping us understand the place a little better. Then he was off, and for the next couple of days before we had to return to the city, the property was finally ours.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b006",
+      "sourceHtmlSha256": "4ce5dbf6fade5577f314a97f20572331ef5a04dd882d189dd2c64029d8867104",
+      "sourceHtml": "<p>Just ours.</p>",
+      "text": "Just ours.",
+      "type": "paragraph",
+      "html": "<p>Just ours.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b007",
+      "sourceHtmlSha256": "284b0d7d32ddcb29179e82cef063a70dee73ca0525c49b75398360b90fdadf54",
+      "sourceHtml": "<p>Those first days were not polished or comfortable in any fancy sense, but they were important.</p>",
+      "text": "Those first days were not polished or comfortable in any fancy sense, but they were important.",
+      "type": "paragraph",
+      "html": "<p>Those first days were not polished or comfortable in any fancy sense, but they were important.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b008",
+      "sourceHtmlSha256": "2a6e567c60bef5cfe4be9868ec34b5377844eac8d6e134f23500ce6104237b24",
+      "sourceHtml": "<p>We slept on the floor that first weekend, using blankets and pillows we had brought from home in the city. At that point, the cabin was still extremely rough. We did not really have a proper way to cook food or refrigerate anything beyond what would fit in a cooler, so we went into the nearby town and ate at local places. Between those trips and the quiet time back at the property, we started making notes about everything we would need to bring up next time.</p>",
+      "text": "We slept on the floor that first weekend, using blankets and pillows we had brought from home in the city. At that point, the cabin was still extremely rough. We did not really have a proper way to cook food or refrigerate anything beyond what would fit in a cooler, so we went into the nearby town and ate at local places. Between those trips and the quiet time back at the property, we started making notes about everything we would need to bring up next time.",
+      "type": "paragraph",
+      "html": "<p>We slept on the floor that first weekend, using blankets and pillows we had brought from home in the city. At that point, the cabin was still extremely rough. We did not really have a proper way to cook food or refrigerate anything beyond what would fit in a cooler, so we went into the nearby town and ate at local places. Between those trips and the quiet time back at the property, we started making notes about everything we would need to bring up next time.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b009",
+      "sourceHtmlSha256": "aa09bd087acb717c3cf30c73daebd452b630472a84c1b108197e80a29177fa14",
+      "sourceHtml": "<p>And that list grew fast.</p>",
+      "text": "And that list grew fast.",
+      "type": "paragraph",
+      "html": "<p>And that list grew fast.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b010",
+      "sourceHtmlSha256": "75fad11966bf25be01e8c93df924f38c2b485dac71d188a1142c305836045d75",
+      "sourceHtml": "<p>The place had limited power, really just an extension cord. There was no running water. Some insulation was in place, but there was nothing in the ceiling. It was rustic in the real sense, not the polished decorative version of rustic, but the kind where you are constantly aware of what is unfinished, missing, or improvised.</p>",
+      "text": "The place had limited power, really just an extension cord. There was no running water. Some insulation was in place, but there was nothing in the ceiling. It was rustic in the real sense, not the polished decorative version of rustic, but the kind where you are constantly aware of what is unfinished, missing, or improvised.",
+      "type": "paragraph",
+      "html": "<p>The place had limited power, really just an extension cord. There was no running water. Some insulation was in place, but there was nothing in the ceiling. It was rustic in the real sense, not the polished decorative version of rustic, but the kind where you are constantly aware of what is unfinished, missing, or improvised.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b011",
+      "sourceHtmlSha256": "8a7222641092c49195347c2edb9d0cf2ddb82de1d3fb49be525e707e6530621a",
+      "sourceHtml": "<p>The wood stove was already there and hooked up, though being July, we did not need it yet. That would matter more later, when the nights and mornings turned colder. But even then, just seeing it there made the cabin feel like it had the bones of something. Like it might one day be warm, usable, and lived in the way we hoped.</p>",
+      "text": "The wood stove was already there and hooked up, though being July, we did not need it yet. That would matter more later, when the nights and mornings turned colder. But even then, just seeing it there made the cabin feel like it had the bones of something. Like it might one day be warm, usable, and lived in the way we hoped.",
+      "type": "paragraph",
+      "html": "<p>The wood stove was already there and hooked up, though being July, we did not need it yet. That would matter more later, when the nights and mornings turned colder. But even then, just seeing it there made the cabin feel like it had the bones of something. Like it might one day be warm, usable, and lived in the way we hoped.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b012",
+      "sourceHtmlSha256": "17ca7bfc0024a5785c5b43b391195d8a90a9489e44dbdc6a7462d771f961f474",
+      "sourceHtml": "<p>While we were enjoying those first peaceful days, we also started doing something else. We started imagining.</p>",
+      "text": "While we were enjoying those first peaceful days, we also started doing something else. We started imagining.",
+      "type": "paragraph",
+      "html": "<p>While we were enjoying those first peaceful days, we also started doing something else. We started imagining.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b013",
+      "sourceHtmlSha256": "df230718360f1e8a1f43dcc80276bdc7951d125bcacbdbb8702dd85bfbb54153",
+      "sourceHtml": "<p>There was already more to work with than you might have guessed at first glance. The property already had about a dozen young fruit trees, around a year old at the time, including cherry, apple, pear, and peach. There were also about a dozen young blueberry bushes and the beginnings of a grape trellis. None of it looked mature yet, but it was enough to spark something in us. It gave us a glimpse of what this place might one day provide.</p>",
+      "text": "There was already more to work with than you might have guessed at first glance. The property already had about a dozen young fruit trees, around a year old at the time, including cherry, apple, pear, and peach. There were also about a dozen young blueberry bushes and the beginnings of a grape trellis. None of it looked mature yet, but it was enough to spark something in us. It gave us a glimpse of what this place might one day provide.",
+      "type": "paragraph",
+      "html": "<p>There was already more to work with than you might have guessed at first glance. The property already had about a dozen young fruit trees, around a year old at the time, including cherry, apple, pear, and peach. There were also about a dozen young blueberry bushes and the beginnings of a grape trellis. None of it looked mature yet, but it was enough to spark something in us. It gave us a glimpse of what this place might one day provide.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b014",
+      "sourceHtmlSha256": "ae9074509a2d76d316f0916be742d4d6c1c5ed9c30d563a06a1c567ce10a4fa0",
+      "sourceHtml": "<p>One of the biggest dreams was the garden. There was already a huge garden area, roughly thirty feet by thirty feet, surrounded by seven-foot deer fencing. Even in its rough state, we could see it becoming something special, a dream garden full of fresh healthy food. After everything cancer had put us through, fresh fruit and vegetables had started meaning a lot more to us. Food was no longer just food. It had become part of how we were trying to live better and take better care of ourselves.</p>",
+      "text": "One of the biggest dreams was the garden. There was already a huge garden area, roughly thirty feet by thirty feet, surrounded by seven-foot deer fencing. Even in its rough state, we could see it becoming something special, a dream garden full of fresh healthy food. After everything cancer had put us through, fresh fruit and vegetables had started meaning a lot more to us. Food was no longer just food. It had become part of how we were trying to live better and take better care of ourselves.",
+      "type": "paragraph",
+      "html": "<p>One of the biggest dreams was the garden. There was already a huge garden area, roughly thirty feet by thirty feet, surrounded by seven-foot deer fencing. Even in its rough state, we could see it becoming something special, a dream garden full of fresh healthy food. After everything cancer had put us through, fresh fruit and vegetables had started meaning a lot more to us. Food was no longer just food. It had become part of how we were trying to live better and take better care of ourselves.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b015",
+      "sourceHtmlSha256": "580580a7218cdd60680bdbc3fd3294d3de6d9d0372d3ac3e1f926395cd7fffec",
+      "sourceHtml": "<p>Around that same time, we got to know our neighbor Randy, and we clicked with him right away. He was one of those people who made the place feel easier from the beginning. Randy told us stories about the previous owner, and we laughed and got along from the start, something that has stayed true right up to the present. Before long, Randy and his wife Tina were pointing us toward places to eat, where to find things locally, and helping us get our bearings in a place that still felt new to us.</p>",
+      "text": "Around that same time, we got to know our neighbor Randy, and we clicked with him right away. He was one of those people who made the place feel easier from the beginning. Randy told us stories about the previous owner, and we laughed and got along from the start, something that has stayed true right up to the present. Before long, Randy and his wife Tina were pointing us toward places to eat, where to find things locally, and helping us get our bearings in a place that still felt new to us.",
+      "type": "paragraph",
+      "html": "<p>Around that same time, we got to know our neighbor Randy, and we clicked with him right away. He was one of those people who made the place feel easier from the beginning. Randy told us stories about the previous owner, and we laughed and got along from the start, something that has stayed true right up to the present. Before long, Randy and his wife Tina were pointing us toward places to eat, where to find things locally, and helping us get our bearings in a place that still felt new to us.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b016",
+      "sourceHtmlSha256": "1f2a20ee04ca8e826514980b339ae6a93c011bb8fbe0402b16bfdf9659d3061c",
+      "sourceHtml": "<p>We were also starting to piece together the logic, or maybe the lack of logic, behind what had already been built there. That tiny weird structure next to the giant pine tree turned out to be basically a mud room the previous owner had built to connect to his fifth-wheel camper. Once we learned that, it explained a lot, but it still felt like such a strange place to put it. There was already a concrete pad on the property, down by the area where I later cut the walking path, and to me that would have been the far more natural place for a structure like that.</p>",
+      "text": "We were also starting to piece together the logic, or maybe the lack of logic, behind what had already been built there. That tiny weird structure next to the giant pine tree turned out to be basically a mud room the previous owner had built to connect to his fifth-wheel camper. Once we learned that, it explained a lot, but it still felt like such a strange place to put it. There was already a concrete pad on the property, down by the area where I later cut the walking path, and to me that would have been the far more natural place for a structure like that.",
+      "type": "paragraph",
+      "html": "<p>We were also starting to piece together the logic, or maybe the lack of logic, behind what had already been built there. That tiny weird structure next to the giant pine tree turned out to be basically a mud room the previous owner had built to connect to his fifth-wheel camper. Once we learned that, it explained a lot, but it still felt like such a strange place to put it. There was already a concrete pad on the property, down by the area where I later cut the walking path, and to me that would have been the far more natural place for a structure like that.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b017",
+      "sourceHtmlSha256": "b739cb2bc35cff08baf7cce5dfdcb224df46ad9d471cc017ed18842a12139f99",
+      "sourceHtml": "<p>So during those early days, Vanessa and I started putting together a game plan. We were trying to understand the crazy layout of the land, what made sense, what did not, what could stay, what had to change, and what we wanted this place to become over time.</p>",
+      "text": "So during those early days, Vanessa and I started putting together a game plan. We were trying to understand the crazy layout of the land, what made sense, what did not, what could stay, what had to change, and what we wanted this place to become over time.",
+      "type": "paragraph",
+      "html": "<p>So during those early days, Vanessa and I started putting together a game plan. We were trying to understand the crazy layout of the land, what made sense, what did not, what could stay, what had to change, and what we wanted this place to become over time.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b018",
+      "sourceHtmlSha256": "852fe0de4ef39c9f56965e4a1e0034244dea93faed3c48eda819bca7ddcd15f1",
+      "sourceHtml": "<p>By the time the end of that first weekend rolled around and we had to head back to the city, we were carrying two feelings at once. One was peace. The other was being damn near scared to death.</p>",
+      "text": "By the time the end of that first weekend rolled around and we had to head back to the city, we were carrying two feelings at once. One was peace. The other was being damn near scared to death.",
+      "type": "paragraph",
+      "html": "<p>By the time the end of that first weekend rolled around and we had to head back to the city, we were carrying two feelings at once. One was peace. The other was being damn near scared to death.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b019",
+      "sourceHtmlSha256": "43e97296335677f442eac510b0746c2a4f2e54e6844c486eb73101c6f2d8f73d",
+      "sourceHtml": "<p>We had already felt what the place could give us, the quiet, the breathing room, and the sense that this rough little property might really become something healing and meaningful in our lives. But we also knew just how much had to happen before it could become a place where you could spend a full week and actually live.</p>",
+      "text": "We had already felt what the place could give us, the quiet, the breathing room, and the sense that this rough little property might really become something healing and meaningful in our lives. But we also knew just how much had to happen before it could become a place where you could spend a full week and actually live.",
+      "type": "paragraph",
+      "html": "<p>We had already felt what the place could give us, the quiet, the breathing room, and the sense that this rough little property might really become something healing and meaningful in our lives. But we also knew just how much had to happen before it could become a place where you could spend a full week and actually live.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b020",
+      "sourceHtmlSha256": "56c45137fc1b3ce957a9c90a1dfefa29321bb6965327e3725a17af4df79bf07f",
+      "sourceHtml": "<p>Not just visit. Live.</p>",
+      "text": "Not just visit. Live.",
+      "type": "paragraph",
+      "html": "<p>Not just visit. Live.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b021",
+      "sourceHtmlSha256": "42875c0c69f0af27fef466f2efd3736694dfdd0e80e9e42d03e0d5e22dc10405",
+      "sourceHtml": "<p>We are talking about all the basic things people need and usually take for granted, a shower, a bathroom, a way to cook, a way to wash dishes, a way to store food, a way to move through the day without feeling like you were on a rough camping trip every single time you came up.</p>",
+      "text": "We are talking about all the basic things people need and usually take for granted, a shower, a bathroom, a way to cook, a way to wash dishes, a way to store food, a way to move through the day without feeling like you were on a rough camping trip every single time you came up.",
+      "type": "paragraph",
+      "html": "<p>We are talking about all the basic things people need and usually take for granted, a shower, a bathroom, a way to cook, a way to wash dishes, a way to store food, a way to move through the day without feeling like you were on a rough camping trip every single time you came up.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b022",
+      "sourceHtmlSha256": "997449e75812ef508f7bbe2cfadbf4c21012851626a748de6817d3ba6a9dd68a",
+      "sourceHtml": "<p>That was the part that felt overwhelming.</p>",
+      "text": "That was the part that felt overwhelming.",
+      "type": "paragraph",
+      "html": "<p>That was the part that felt overwhelming.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b023",
+      "sourceHtmlSha256": "58e11e2136bc8ad04119a77cefa2f6c1e4062c1a65ec2dc544f7506cc66c1451",
+      "sourceHtml": "<p>Because for all the promise the place had, it was still missing so much of what makes life work. We did not want this to feel like rustic camping forever. We wanted it to become a real getaway, a place where you could settle in, stay awhile, breathe, cook a meal, wash up, sleep well, and actually live in the peace it offered.</p>",
+      "text": "Because for all the promise the place had, it was still missing so much of what makes life work. We did not want this to feel like rustic camping forever. We wanted it to become a real getaway, a place where you could settle in, stay awhile, breathe, cook a meal, wash up, sleep well, and actually live in the peace it offered.",
+      "type": "paragraph",
+      "html": "<p>Because for all the promise the place had, it was still missing so much of what makes life work. We did not want this to feel like rustic camping forever. We wanted it to become a real getaway, a place where you could settle in, stay awhile, breathe, cook a meal, wash up, sleep well, and actually live in the peace it offered.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b024",
+      "sourceHtmlSha256": "f7b897e4f9efd667e3840627e45424ce265e5d28f4f2989c86c8d18bd5d7e34e",
+      "sourceHtml": "<p>So by the time we packed up and headed back to the city, the dream had grown bigger, but so had the reality.</p>",
+      "text": "So by the time we packed up and headed back to the city, the dream had grown bigger, but so had the reality.",
+      "type": "paragraph",
+      "html": "<p>So by the time we packed up and headed back to the city, the dream had grown bigger, but so had the reality.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b025",
+      "sourceHtmlSha256": "46d1df5f4abbbd0d31d3bd99ee82860d3716b7fc94040fb2754303fda5565c11",
+      "sourceHtml": "<p>We had found the peace.</p>",
+      "text": "We had found the peace.",
+      "type": "paragraph",
+      "html": "<p>We had found the peace.</p>"
+    },
+    {
+      "sourceBlockId": "ch02-b026",
+      "sourceHtmlSha256": "b87adb1a63f7999924a89d82d2a832002bd6983144b554fca041618f337dca49",
+      "sourceHtml": "<p>Now we had to figure out how to build the rest.</p>",
+      "text": "Now we had to figure out how to build the rest.",
+      "type": "paragraph",
+      "html": "<p>Now we had to figure out how to build the rest.</p>"
+    }
+  ],
+  "continuations": [],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-f24045790be6",
+    "alt": "Jeff and Vanessa in the early days at the cabin",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "We closed on the property over Fourth of July weekend and headed up there that same weekend. Technically, the previous owner was still allowed on the property for another couple of days…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Two",
+  "originalHeadingAfterBlocks": 1
+}

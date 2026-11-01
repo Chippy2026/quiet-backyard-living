@@ -1,0 +1,42 @@
+{
+  "id": "library-1a0de18d54af",
+  "route": "/pages/rain-water-feeding-station-build-v2",
+  "output": "pages/rain-water-feeding-station-build-v2.html",
+  "title": "Build This Cute Bird, Squirrel, and Critter Feeding & Watering Station — alternate build version | Quiet Backyard Living",
+  "description": "A fun cedar fence picket project with a seed tray, a little water bowl shelf, and a simple rain-catching roof that helps direct drips where wildlife can use them.",
+  "kind": "project",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-1a0de18d54af.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-1a0de18d54af.html",
+  "department": "making",
+  "topic": "Wildlife-friendly builds",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/rain-water-feeding-station-build-v2.html",
+    "sha256": "3ee3fbcc02a1dcd36c6a501c77c46105385c3b2acb962497e2a6298f28d41f63"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

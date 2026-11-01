@@ -1,0 +1,42 @@
+{
+  "id": "library-a3b7031664de",
+  "route": "/pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use",
+  "output": "pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use.html",
+  "title": "How to Build a Backyard Herb Garden You’ll Actually Use | Quiet Backyard Living",
+  "description": "Everything you need to create a useful herb garden, whether you have a patio, a raised bed, or just a little sunny space beside the house.",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-a3b7031664de.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-a3b7031664de.html",
+  "department": "growing",
+  "topic": "Herbs & using the harvest",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use.html",
+    "sha256": "c1b0654fd6becfdcae287cea2bcc7e68b5fc47b26857c5963c616c5c8751e1be"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

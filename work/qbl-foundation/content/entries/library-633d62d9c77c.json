@@ -1,0 +1,42 @@
+{
+  "id": "library-633d62d9c77c",
+  "route": "/pages/what-to-grow-near-kale",
+  "output": "pages/what-to-grow-near-kale.html",
+  "title": "What to Grow Near Kale | Quiet Backyard Living",
+  "description": "Kale usually does better with a few smart neighbors around it, especially ones that do not crowd it too hard and can help around common brassica problems. It is toug",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-633d62d9c77c.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-633d62d9c77c.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-kale.html",
+    "sha256": "ab98b189b457ae79547a10dc974b88fb59fafdd847fa79197d9ed2d50e5357ad"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "journey",
+  "kind": "landing",
+  "variant": "journey",
+  "route": "/our-journey",
+  "output": "our-journey.html",
+  "title": "Follow Our Journey | Quiet Backyard Living",
+  "description": "Follow Jeff and Vanessa as they build their Happy Place: the garden, cabin, projects, wildlife, Notebook moments and what happened next.",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "blocks": [
+    {
+      "component": "journey-book/landing"
+    }
+  ],
+  "related": [],
+  "factualReview": "retain-existing-queue",
+  "videoIds": [],
+  "sourceReference": "QBL-follow-our-journey.html"
+}

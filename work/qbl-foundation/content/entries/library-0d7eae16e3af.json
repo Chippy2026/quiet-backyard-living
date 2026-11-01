@@ -1,0 +1,42 @@
+{
+  "id": "library-0d7eae16e3af",
+  "route": "/pages/what-to-grow-near-strawberries",
+  "output": "pages/what-to-grow-near-strawberries.html",
+  "title": "What to Grow Near Strawberries | Quiet Backyard Living",
+  "description": "Strawberries usually do best with neighbors that stay fairly gentle around their shallow roots and do not turn the berry patch into a damp crowded mat. The best comp",
+  "kind": "guide",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition complete-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/qbl/imported/library-0d7eae16e3af.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js",
+    "/assets/complete-guides.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-0d7eae16e3af.html",
+  "department": "help",
+  "topic": "Vegetable & crop guides",
+  "sourceReference": {
+    "file": "reference/library-import-source/pages/what-to-grow-near-strawberries.html",
+    "sha256": "b92504b337393770be54c3ba9b25fef01eac7a334d0139cb7b26d6bf210e663c"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

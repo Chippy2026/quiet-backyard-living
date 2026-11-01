@@ -1,0 +1,730 @@
+[
+  {
+    "route": "/",
+    "managed": true
+  },
+  {
+    "route": "/our-journey",
+    "managed": true
+  },
+  {
+    "route": "/field-guide",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-tomatoes",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-lettuce",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+    "managed": true
+  },
+  {
+    "route": "/pages/natural-pest-deterrents-that-actually-make-sense",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+    "managed": true
+  },
+  {
+    "route": "/pages/build-my-garden-plan",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-feed-squirrels-and-chipmunks",
+    "managed": true
+  },
+  {
+    "route": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+    "managed": true
+  },
+  {
+    "route": "/notebook/stairs-before-the-walls",
+    "managed": true
+  },
+  {
+    "route": "/topics/projects",
+    "managed": true
+  },
+  {
+    "route": "/stories/growing-a-little-food",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/at-the-cabin",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/at-home",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-01",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-02",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-03",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-04",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-05",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-06",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-07",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-08",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-09",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-10",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-11",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-12",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-13",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-14",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-15",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-16",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-17",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-18",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-19",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-20",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-21",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-22",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-23",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-24",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-25",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-26",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-27",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-28",
+    "managed": true
+  },
+  {
+    "route": "/our-journey/chapters/chapter-29",
+    "managed": true
+  },
+  {
+    "route": "/notebook/another-try-for-the-city-beds",
+    "managed": true
+  },
+  {
+    "route": "/notebook/everybody-took-a-birdhouse-home",
+    "managed": true
+  },
+  {
+    "route": "/notebook/harry-came-back",
+    "managed": true
+  },
+  {
+    "route": "/notebook/the-chairs-came-out",
+    "managed": true
+  },
+  {
+    "route": "/notebook/the-last-piece-of-paneling",
+    "managed": true
+  },
+  {
+    "route": "/notebook/the-trellises-left-the-workshop",
+    "managed": true
+  },
+  {
+    "route": "/notebook/we-missed-the-grapes",
+    "managed": true
+  },
+  {
+    "route": "/notebook",
+    "managed": true
+  },
+  {
+    "route": "/our-story",
+    "managed": true
+  },
+  {
+    "route": "/library",
+    "managed": true
+  },
+  {
+    "route": "/blog/7-easy-ways-to-make-your-yard-more-bird-friendly",
+    "managed": true
+  },
+  {
+    "route": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+    "managed": true
+  },
+  {
+    "route": "/blog/how-to-attract-more-backyard-wildlife-this-spring",
+    "managed": true
+  },
+  {
+    "route": "/blog/why-water-shelter-and-native-plants-matter-more-than-fancy-feeders",
+    "managed": true
+  },
+  {
+    "route": "/pages/10-simple-backyard-ideas-wildlife-pay-for-themselves",
+    "managed": true
+  },
+  {
+    "route": "/pages/25-small-changes-that-turn-an-ordinary-backyard-into-a-wildlife-retreat",
+    "managed": true
+  },
+  {
+    "route": "/pages/about",
+    "managed": true
+  },
+  {
+    "route": "/pages/advertise",
+    "managed": true
+  },
+  {
+    "route": "/pages/basil-grow-extra-and-sell-it-fast",
+    "managed": true
+  },
+  {
+    "route": "/pages/best-herbs-for-beginners-if-you-want-herbs-that-are-easy-to-grow-and-actually-useful",
+    "managed": true
+  },
+  {
+    "route": "/pages/best-herbs-for-small-spaces-if-you-want-the-most-use-from-a-patio-pot-or-small-bed",
+    "managed": true
+  },
+  {
+    "route": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+    "managed": true
+  },
+  {
+    "route": "/pages/birdhouse-blueprints",
+    "managed": true
+  },
+  {
+    "route": "/pages/birdhouse-guide-signup",
+    "managed": true
+  },
+  {
+    "route": "/pages/blog",
+    "managed": true
+  },
+  {
+    "route": "/pages/can-thyme-make-you-a-little-extra-money",
+    "managed": true
+  },
+  {
+    "route": "/pages/cedar-fence-picket-birdhouse-workshop",
+    "managed": true
+  },
+  {
+    "route": "/pages/checklist",
+    "managed": true
+  },
+  {
+    "route": "/pages/contact",
+    "managed": true
+  },
+  {
+    "route": "/pages/diy-olla-watering-system",
+    "managed": true
+  },
+  {
+    "route": "/pages/diy-patio-garden-bed",
+    "managed": true
+  },
+  {
+    "route": "/pages/four-in-one-fruit-tree-at-the-cabin",
+    "managed": true
+  },
+  {
+    "route": "/pages/gallery",
+    "managed": true
+  },
+  {
+    "route": "/pages/get-updates-from-around-the-yard",
+    "managed": true
+  },
+  {
+    "route": "/pages/grow-extra-herbs-for-yourself-friends-and-a-couple-extra-dollars",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-to-build-a-backyard-herb-garden-you-ll-actually-use",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-to-grow-extra-herbs-for-yourself-friends-and-maybe-a-little-extra-income",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-to-start-a-pollinator-flower-bed",
+    "managed": true
+  },
+  {
+    "route": "/pages/how-we-built-this-rustic-backyard-bee-hotel",
+    "managed": true
+  },
+  {
+    "route": "/pages/in-bed-worm-composting-tube",
+    "managed": true
+  },
+  {
+    "route": "/pages/jujube-trees-at-the-cabin",
+    "managed": true
+  },
+  {
+    "route": "/pages/log-cabin-bird-feeder-build",
+    "managed": true
+  },
+  {
+    "route": "/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again",
+    "managed": true
+  },
+  {
+    "route": "/pages/our-place",
+    "managed": true
+  },
+  {
+    "route": "/pages/projects",
+    "managed": true
+  },
+  {
+    "route": "/pages/protect-my-veggie",
+    "managed": true
+  },
+  {
+    "route": "/pages/rain-water-feeding-station-build-v2",
+    "managed": true
+  },
+  {
+    "route": "/pages/rain-water-feeding-station-build",
+    "managed": true
+  },
+  {
+    "route": "/pages/signup",
+    "managed": true
+  },
+  {
+    "route": "/pages/simple-bird-bath-station",
+    "managed": true
+  },
+  {
+    "route": "/pages/simple-bird-feeder-ideas",
+    "managed": true
+  },
+  {
+    "route": "/pages/squirrel-playground-old-lumber",
+    "managed": true
+  },
+  {
+    "route": "/pages/story-signup",
+    "managed": true
+  },
+  {
+    "route": "/pages/the-backyard-herb-hub",
+    "managed": true
+  },
+  {
+    "route": "/pages/the-grocery-saver-herb-garden-5-herbs-that-quietly-pay-you-back-all-season",
+    "managed": true
+  },
+  {
+    "route": "/pages/the-herbs-that-quietly-save-you-the-most-money",
+    "managed": true
+  },
+  {
+    "route": "/pages/weekend-backyard-builds",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-do-i-do-with-all-these-extra-herbs",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-people-actually-buy-when-you-grow-extra-herbs",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-artichokes",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-arugula",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-asparagus",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-beets",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-bok-choy",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-broccoli",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-brussels-sprouts",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cabbage-family-crops",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cabbage",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cantaloupe",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-carrots",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cauliflower",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-celeriac",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-celery",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-chickpeas",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-chili-peppers",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-collards",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-corn",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cress",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-cucumbers",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-edamame",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-eggplant",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-endive",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-fennel",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-garlic",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-green-beans",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-ground-cherries",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-jicama",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-kale",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-kohlrabi",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-leeks",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-lima-beans",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-microgreens",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-mizuna",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-mustard-greens",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-okra",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-onions",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-parsnips",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-peas",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-peppers",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-potatoes",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-pumpkins",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-radishes",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-romanesco",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-rutabaga",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-salsify",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-scallions",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-shallots",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-sorrel",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-spinach",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-squash",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-strawberries",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-summer-squash",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-sweet-potatoes",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-swiss-chard",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-tatsoi",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-the-vegetables-you-actually-like-to-eat",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-tomatillos",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-turnips",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-watermelon",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-winter-squash",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-to-grow-near-zucchini",
+    "managed": true
+  },
+  {
+    "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+    "managed": true
+  },
+  {
+    "route": "/pages/working-with-qbl",
+    "managed": true
+  },
+  {
+    "route": "/pages/your-flat-of-veggies-herbs-and-flowers-now-what",
+    "managed": true
+  },
+  {
+    "route": "/stories/from-our-backyard",
+    "managed": true
+  },
+  {
+    "route": "/stories/in-the-garden",
+    "managed": true
+  },
+  {
+    "route": "/stories/our-backyard-wildlife",
+    "managed": true
+  },
+  {
+    "route": "/stories/the-chipmunks",
+    "managed": true
+  },
+  {
+    "route": "/stories/things-weve-built",
+    "managed": true
+  },
+  {
+    "route": "/topics/garden-help",
+    "managed": true
+  },
+  {
+    "route": "/topics/gardening",
+    "managed": true
+  },
+  {
+    "route": "/topics/outdoor-living",
+    "managed": true
+  },
+  {
+    "route": "/topics/the-journey",
+    "managed": true
+  },
+  {
+    "route": "/topics/wildlife",
+    "managed": true
+  }
+]

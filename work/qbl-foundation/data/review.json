@@ -1,0 +1,7 @@
+{
+  "mode": "local-only",
+  "signupProvider": "unresolved",
+  "allowSending": false,
+  "productionDeployAuthorized": false,
+  "notes": "Controlled local migration: all 182 routes managed. Factual/photo/editorial queues remain open; sending and production deployment disabled."
+}

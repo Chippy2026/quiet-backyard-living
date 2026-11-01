@@ -1,0 +1,10 @@
+<main id="main" tabindex="-1" data-pagefind-body><div class="hp-wrap">
+<article class="hp-note-detail"><header><span class="hp-label">{{ entry.kicker }}{% if entry.eventDate %} · {{ entry.eventDate.label }}{% endif %}</span><h1>{{ entry.title }}</h1><p class="hp-note-deck">{{ entry.description }}</p></header>
+{% if entry.hero %}<figure>{{ entry.hero | mediaImage | safe }}{% if entry.caption %}<figcaption>{{ entry.caption }}</figcaption>{% endif %}</figure>{% endif %}
+<div class="hp-note-reading"><aside><span class="hp-label">Jeff & Vanessa’s journal</span>{% if entry.eventDate %}<p>{{ entry.eventDate.label }}</p>{% endif %}</aside><div class="hp-note-excerpt">{{ entry.bodyHtml | safe }}
+{% for section in entry.sections %}<section><h2>{{ section.title }}</h2>{% if section.image %}{{ section.image | mediaImage | safe }}{% endif %}{{ section.text | markdown | safe }}</section>{% endfor %}
+{% if entry.outcome == "unreported" %}<p>The longer result has not been reported yet.</p>{% endif %}
+{% if entry.parentId %}<section class="hp-note-next"><span class="hp-label">What happened next / An update</span><a class="hp-text-link" href="{{ {contentId: entry.parentId} | relatedUrl }}">Back to the earlier story ↗</a></section>{% endif %}
+{% for relation in entry.related %}<section class="hp-note-next"><span class="hp-label">{{ relation.context }}</span><a class="hp-text-link" href="{{ relation | relatedUrl }}">{{ relation.label }} ↗</a></section>{% endfor %}
+{% for video in entry.videos %}{{ video | optionalVideo | safe }}{% endfor %}
+</div></div></article></div></main>

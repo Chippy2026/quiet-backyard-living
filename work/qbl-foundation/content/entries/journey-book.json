@@ -1,0 +1,33 @@
+{
+  "id": "journey-book",
+  "route": "/our-journey/chapters",
+  "output": "our-journey/chapters.html",
+  "title": "The Chapters | Quiet Backyard Living",
+  "storyTitle": "The Chapters",
+  "kind": "chapter-index",
+  "status": "review",
+  "description": "The Chapters",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/book-index"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue"
+}

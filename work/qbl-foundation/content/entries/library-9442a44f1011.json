@@ -1,0 +1,40 @@
+{
+  "id": "library-9442a44f1011",
+  "route": "/topics/wildlife",
+  "output": "topics/wildlife.html",
+  "title": "Wildlife | Quiet Backyard Living",
+  "description": "A few practical ways into the wildlife, and the stories of the visitors already here.",
+  "kind": "collection",
+  "status": "review",
+  "bodyClass": "hp-edition co-edition hy-edition co-hub-page qbl-library-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/story-edition.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/complete-guides.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/library-migration.css"
+  ],
+  "scripts": [
+    "/assets/happy-place.js"
+  ],
+  "mainAttrs": {},
+  "wrapperAttrs": null,
+  "blocks": [
+    {
+      "component": "library/preserved"
+    }
+  ],
+  "videoIds": [],
+  "preservedBodyFile": "content/imported/library-9442a44f1011.html",
+  "department": "wildlife",
+  "topic": "The department",
+  "sourceReference": {
+    "file": "reference/library-import-source/topics/wildlife.html",
+    "sha256": "e040bcac25508db5832074c2effe525d11025907282982e28d0472dc9edc90b6"
+  },
+  "factualReview": "retain-existing-queue",
+  "mediaPolicy": "Retain existing privacy-filtered assets; documentary gaps go to internal queue"
+}

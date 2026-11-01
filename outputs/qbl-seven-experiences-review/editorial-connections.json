@@ -1,0 +1,625 @@
+{
+  "connections": [
+    {
+      "source": "/pages/squirrel-playground-old-lumber",
+      "target": "chippy-origin",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#meeting-chippy",
+      "invitation": "How Chippy entered the story",
+      "copy": "Meet the little cabin visitor who helped turn wildlife projects into part of everyday life.",
+      "kind": "recurring subject",
+      "source_evidence": "the chipmunks loved playing in it",
+      "destination_evidence": "So we named him Chippy."
+    },
+    {
+      "source": "/pages/squirrel-playground-old-lumber",
+      "target": "grosbeak",
+      "destination": "/pages/gallery#grosbeak-squirrel-gym",
+      "invitation": "Meanwhile, on the squirrel gym…",
+      "copy": "A rose-breasted grosbeak found a place to perch, too.",
+      "kind": "documented use",
+      "source_evidence": "climb, perch, snack, and play",
+      "destination_evidence": "Rose-breasted grosbeak"
+    },
+    {
+      "source": "/pages/squirrel-playground-old-lumber",
+      "target": "feeding",
+      "destination": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "invitation": "What belongs on the snack ledge?",
+      "copy": "The feeding guide looks at food, water, cover, and what to avoid.",
+      "kind": "practical companion",
+      "source_evidence": "easy spots to scatter seed",
+      "destination_evidence": "what is safe to offer"
+    },
+    {
+      "source": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "target": "lumber",
+      "destination": "/pages/squirrel-playground-old-lumber",
+      "invitation": "A place to climb between snacks",
+      "copy": "The playground started when the chipmunks lost their old woodpile.",
+      "kind": "practical companion",
+      "source_evidence": "Brush piles, wood edges, log piles",
+      "destination_evidence": "I had a woodpile"
+    },
+    {
+      "source": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "target": "chippy-deck",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#chippy-snack-service",
+      "invitation": "Wonder how the regulars are getting on?",
+      "copy": "In the cabin story, Chippy has opinions about the snack service.",
+      "kind": "recurring subject",
+      "source_evidence": "In our yard",
+      "destination_evidence": "the food situation had become unacceptable"
+    },
+    {
+      "source": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+      "target": "olla",
+      "destination": "/pages/diy-olla-watering-system",
+      "invitation": "And when we went away…",
+      "copy": "Our city beds needed more than good intentions. The olla project explains what we tried next.",
+      "kind": "practical companion",
+      "source_evidence": "fits the food you actually want to eat",
+      "destination_evidence": "Last year our raised beds struggled"
+    },
+    {
+      "source": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+      "target": "salad",
+      "destination": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+      "invitation": "If you mostly want salads",
+      "copy": "Follow the layout into cutting, eating, and planting the next little wave.",
+      "kind": "practical companion",
+      "source_evidence": "Salad bed",
+      "destination_evidence": "Plant, cut, eat, replant"
+    },
+    {
+      "source": "/pages/diy-olla-watering-system",
+      "target": "dry-beds",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#city-beds-dried-up",
+      "invitation": "This started with a garden that struggled",
+      "copy": "Go back to the city beds in the cabin story, before the olla experiment.",
+      "kind": "documented origin",
+      "source_evidence": "This project came out of a real failure",
+      "destination_evidence": "Back in the city, we had neglected"
+    },
+    {
+      "source": "/pages/diy-olla-watering-system",
+      "target": "worms",
+      "destination": "/pages/in-bed-worm-composting-tube",
+      "invitation": "Water below. A little soil help beside it.",
+      "copy": "The worm tube is another simple raised-bed helper. Neither page promises a miracle.",
+      "kind": "explicit companion",
+      "source_evidence": "worm tube idea",
+      "destination_evidence": "an olla watering pot pairs nicely"
+    },
+    {
+      "source": "/pages/cedar-fence-picket-birdhouse-workshop",
+      "target": "winter-party",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#sip-and-build",
+      "invitation": "The winter this became a group project",
+      "copy": "Read about Vanessa’s Christmas Sip & Build, the gifts, and the next little feeder idea.",
+      "kind": "recurring project family",
+      "source_evidence": "family-and-friends build day",
+      "destination_evidence": "Christmas Sip & Build"
+    },
+    {
+      "source": "/pages/cedar-fence-picket-birdhouse-workshop",
+      "target": "feeder",
+      "destination": "/pages/log-cabin-bird-feeder-build",
+      "invitation": "Same cabin charm. Now a feeder.",
+      "copy": "The feeder story explicitly picks up the handmade feel of the birdhouse.",
+      "kind": "explicit companion",
+      "source_evidence": "log cabin-style birdhouse",
+      "destination_evidence": "same cozy, handmade feel as the birdhouse build"
+    },
+    {
+      "source": "/pages/jujube-trees-at-the-cabin",
+      "target": "fruit-day",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#fruit-tree-day",
+      "invitation": "The planting day in the bigger story",
+      "copy": "Chapter Twenty-Six is the trip when two jujubes and a Fruit Cocktail tree came home with us.",
+      "kind": "same documented event",
+      "source_evidence": "The planting day",
+      "destination_evidence": "two jujube trees and one tree labeled Fruit Cocktail"
+    },
+    {
+      "source": "/pages/jujube-trees-at-the-cabin",
+      "target": "fruit-tree",
+      "destination": "/pages/four-in-one-fruit-tree-at-the-cabin",
+      "invitation": "What else went into the orchard?",
+      "copy": "The 4-in-1 tree has its own planting photos. Both stories are still looking forward.",
+      "kind": "same documented event",
+      "source_evidence": "future-looking project",
+      "destination_evidence": "what the next few seasons bring"
+    },
+    {
+      "source": "/pages/four-in-one-fruit-tree-at-the-cabin",
+      "target": "jujube",
+      "destination": "/pages/jujube-trees-at-the-cabin",
+      "invitation": "Two jujubes joined this tree",
+      "copy": "Another planting story from the cabin, with more curiosity than finished answers.",
+      "kind": "same documented event",
+      "source_evidence": "every planting starts becoming part of a longer story",
+      "destination_evidence": "We wanted fruit trees that feel a little different"
+    },
+    {
+      "source": "/pages/four-in-one-fruit-tree-at-the-cabin",
+      "target": "fruit-day",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#fruit-tree-day",
+      "invitation": "Read the day around the planting",
+      "copy": "A chilly April trip, three new trees, and then back to Bay City.",
+      "kind": "same documented event",
+      "source_evidence": "Planting the 4-in-1 tree",
+      "destination_evidence": "two jujube trees"
+    },
+    {
+      "source": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+      "target": "berry-supports",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#berry-trellises-installed",
+      "invitation": "See the supports join the berry patch",
+      "copy": "The cabin chapter catches up with the raspberry and blackberry trellises when it is time to install them.",
+      "kind": "recurring project",
+      "source_evidence": "another one for the blackberry bush",
+      "destination_evidence": "A week earlier, I had built a couple of trellises"
+    },
+    {
+      "source": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+      "target": "birdhouse",
+      "destination": "/pages/cedar-fence-picket-birdhouse-workshop",
+      "invitation": "One picket, another possibility",
+      "copy": "The same modest material leads into a very different little build.",
+      "kind": "shared material",
+      "source_evidence": "one cedar fence picket",
+      "destination_evidence": "one $3–$5 cedar fence picket"
+    },
+    {
+      "source": "/pages/how-we-built-this-rustic-backyard-bee-hotel",
+      "target": "bee-placement-photo",
+      "destination": "/pages/gallery#bee-hotel-placement-live",
+      "invitation": "Where the bee hotel ended up",
+      "copy": "The photo journal shows its placement alongside other real corners of the yard.",
+      "kind": "documented placement",
+      "source_evidence": "placement and maintenance",
+      "destination_evidence": "Where we hung the bee hotel"
+    },
+    {
+      "source": "/pages/how-we-built-this-rustic-backyard-bee-hotel",
+      "target": "lumber",
+      "destination": "/pages/squirrel-playground-old-lumber",
+      "invitation": "Another build that began by paying attention",
+      "copy": "The playground has the same make-your-own-version spirit.",
+      "kind": "explicit companion",
+      "source_evidence": "Another project that came more from paying attention",
+      "destination_evidence": "paying attention"
+    },
+    {
+      "source": "/pages/in-bed-worm-composting-tube",
+      "target": "olla",
+      "destination": "/pages/diy-olla-watering-system",
+      "invitation": "The other half of the raised-bed problem",
+      "copy": "The worm page names the olla as a useful companion. Here is the watering experiment itself.",
+      "kind": "explicit companion",
+      "source_evidence": "an olla watering pot pairs nicely",
+      "destination_evidence": "slowly move into the soil"
+    },
+    {
+      "source": "/pages/in-bed-worm-composting-tube",
+      "target": "bed",
+      "destination": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+      "invitation": "What will you grow around it?",
+      "copy": "Return to a bed planned around food you actually want to eat.",
+      "kind": "practical companion",
+      "source_evidence": "starting a raised bed from scratch",
+      "destination_evidence": "food you actually eat"
+    },
+    {
+      "source": "/pages/log-cabin-bird-feeder-build",
+      "target": "birdhouse",
+      "destination": "/pages/cedar-fence-picket-birdhouse-workshop",
+      "invitation": "Before the feeder, the birdhouse",
+      "copy": "The feeder’s opening points back to the cozy handmade birdhouse style.",
+      "kind": "explicit companion",
+      "source_evidence": "same cozy, handmade feel as the birdhouse build",
+      "destination_evidence": "log cabin-style birdhouse"
+    },
+    {
+      "source": "/pages/log-cabin-bird-feeder-build",
+      "target": "feeding",
+      "destination": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "invitation": "Not every visitor has feathers",
+      "copy": "The bird and chipmunk food gets shared in the cabin story. The guide offers the practical side.",
+      "kind": "practical companion",
+      "source_evidence": "hang outside and enjoy",
+      "destination_evidence": "Squirrels and chipmunks"
+    },
+    {
+      "source": "/pages/rain-water-feeding-station-build",
+      "target": "feeding",
+      "destination": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "invitation": "Now, what goes in the tray?",
+      "copy": "A useful next stop for the birds-and-critters side of this station.",
+      "kind": "practical companion",
+      "source_evidence": "birds, squirrels, and little critters",
+      "destination_evidence": "what is safe to offer"
+    },
+    {
+      "source": "/pages/rain-water-feeding-station-build",
+      "target": "lumber",
+      "destination": "/pages/squirrel-playground-old-lumber",
+      "invitation": "Another stop for the little regulars",
+      "copy": "The old-lumber playground was built after watching the chipmunks use a woodpile.",
+      "kind": "shared wildlife use",
+      "source_evidence": "place to snack, a spot to drink",
+      "destination_evidence": "the chipmunks loved playing in it"
+    },
+    {
+      "source": "/pages/diy-patio-garden-bed",
+      "target": "bed",
+      "destination": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+      "invitation": "A bed is only the beginning",
+      "copy": "Plan the growing space around food you will use, rather than a little of everything.",
+      "kind": "practical companion",
+      "source_evidence": "grow herbs, greens, flowers",
+      "destination_evidence": "food you actually eat"
+    },
+    {
+      "source": "/pages/diy-patio-garden-bed",
+      "target": "first-herbs",
+      "destination": "/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again",
+      "invitation": "Only want a few useful herbs?",
+      "copy": "The five-herb starter guide keeps the next step small.",
+      "kind": "practical companion",
+      "source_evidence": "Herbs, salad greens",
+      "destination_evidence": "Five healthy herbs"
+    },
+    {
+      "source": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+      "target": "harry-first",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#harriet-becomes-harry",
+      "invitation": "Meet our tiny, slightly misnamed regular",
+      "copy": "First Harriet, then Harry. The cabin chapter tells that part properly.",
+      "kind": "recurring subject",
+      "source_evidence": "magical and bossy",
+      "destination_evidence": "So Harriet became Harry"
+    },
+    {
+      "source": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+      "target": "harry-back",
+      "destination": "/pages/what-we-re-up-to-around-the-yard-and-cabin#harry-returns",
+      "invitation": "And the following spring?",
+      "copy": "Jump straight to Harry’s return in the late-May cabin story.",
+      "kind": "recurring subject",
+      "source_evidence": "watch for the first tiny visitor",
+      "destination_evidence": "Yup. Harry was back."
+    },
+    {
+      "source": "/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again",
+      "target": "basil",
+      "destination": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "invitation": "When the basil needs its first haircut",
+      "copy": "The growing guide explains clipping above leaf sets, not just picking random leaves.",
+      "kind": "practical companion",
+      "source_evidence": "Start clipping",
+      "destination_evidence": "Cut above leaf sets"
+    },
+    {
+      "source": "/pages/my-first-herb-garden-a-simple-5-herb-garden-i-d-build-again",
+      "target": "extra-herbs",
+      "destination": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "invitation": "When five useful plants get ambitious",
+      "copy": "Use a little this week, save some for later, and share what gets ahead of you.",
+      "kind": "practical companion",
+      "source_evidence": "Cook something",
+      "destination_evidence": "Use them this week"
+    },
+    {
+      "source": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "target": "extra-herbs",
+      "destination": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "invitation": "So… what do we do with all this basil?",
+      "copy": "The overflow guide starts with using and preserving it while it is still good.",
+      "kind": "practical companion",
+      "source_evidence": "Basil overload",
+      "destination_evidence": "Too much basil?"
+    },
+    {
+      "source": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "target": "oregano",
+      "destination": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+      "invitation": "A different kind of herb story",
+      "copy": "Basil is the quick summer crop. Oregano is the guide’s quieter, longer game.",
+      "kind": "explicit contrast",
+      "source_evidence": "first frost",
+      "destination_evidence": "If basil is the sprinter"
+    },
+    {
+      "source": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+      "target": "dry-herbs",
+      "destination": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+      "invitation": "From stems to something for the shelf",
+      "copy": "Follow oregano into the drying methods that suit a small growing space.",
+      "kind": "explicit companion",
+      "source_evidence": "How to dry oregano",
+      "destination_evidence": "Natural air drying"
+    },
+    {
+      "source": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+      "target": "basil",
+      "destination": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "invitation": "Or follow the summer sprinter",
+      "copy": "The basil guide offers a useful contrast to oregano’s longer rhythm.",
+      "kind": "explicit contrast",
+      "source_evidence": "If basil is the sprinter",
+      "destination_evidence": "Basil harvest timeline"
+    },
+    {
+      "source": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+      "target": "oregano",
+      "destination": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+      "invitation": "Follow one herb all the way through",
+      "copy": "The oregano guide picks up where this drying overview leaves off.",
+      "kind": "explicit companion",
+      "source_evidence": "Oregano is one of the strongest drying herbs",
+      "destination_evidence": "How to dry oregano"
+    },
+    {
+      "source": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+      "target": "extra-herbs",
+      "destination": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "invitation": "Not everything needs a drying rack",
+      "copy": "The overflow page also makes room for using, freezing, and sharing.",
+      "kind": "practical companion",
+      "source_evidence": "usually better fresh first",
+      "destination_evidence": "Save them for later"
+    },
+    {
+      "source": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "target": "dry-herbs",
+      "destination": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+      "invitation": "Which of these herbs are worth drying?",
+      "copy": "Start with the herbs that keep their usefulness, and pick the method that fits your space.",
+      "kind": "explicit companion",
+      "source_evidence": "dry oregano and thyme",
+      "destination_evidence": "Drying methods that actually make sense"
+    },
+    {
+      "source": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "target": "basil",
+      "destination": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "invitation": "Deal with the basil first",
+      "copy": "The basil growing guide explains the clipping and flowering behind that fast growth.",
+      "kind": "practical companion",
+      "source_evidence": "Basil is one of the quickest herbs",
+      "destination_evidence": "The flower problem"
+    },
+    {
+      "source": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+      "target": "bed",
+      "destination": "/pages/what-to-plant-in-a-4x8-raised-bed-for-the-food-you-actually-eat",
+      "invitation": "Want the broader bed instead?",
+      "copy": "The general 4x8 guide includes the tomato-and-pepper, salsa, and mixed-family versions.",
+      "kind": "explicit companion",
+      "source_evidence": "The broader 4x8 guide",
+      "destination_evidence": "Salsa and sauce bed"
+    },
+    {
+      "source": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+      "target": "olla",
+      "destination": "/pages/diy-olla-watering-system",
+      "invitation": "Keep the repeat harvests watered",
+      "copy": "The olla story is a separate experiment prompted by missed watering in the city beds.",
+      "kind": "practical companion",
+      "source_evidence": "steady salads",
+      "destination_evidence": "missed watering days"
+    }
+  ],
+  "meaningful_anchors": [
+    {
+      "route": "/pages/squirrel-playground-old-lumber",
+      "anchor": "the-woodpile",
+      "source_passage": "I had a woodpile where I was stacking wood, branches, and old lumber, and the chipmunks loved playing in it. When I had to move it, I honestly felt bad because it felt like I had taken away their little playground."
+    },
+    {
+      "route": "/pages/squirrel-playground-old-lumber",
+      "anchor": "watch-the-playground",
+      "source_passage": "The full build"
+    },
+    {
+      "route": "/pages/what-to-feed-squirrels-and-chipmunks",
+      "anchor": "food-and-cover",
+      "source_passage": "Food is not the only thing that helps"
+    },
+    {
+      "route": "/pages/diy-olla-watering-system",
+      "anchor": "why-the-olla",
+      "source_passage": "This project came out of a real failure. Last year the raised beds did not make it through our short cabin stretches the way we hoped. A few missed watering days was enough to knock things back hard, and it was frustrating to come home feeling like the garden had been punished for us leaving."
+    },
+    {
+      "route": "/pages/diy-olla-watering-system",
+      "anchor": "still-an-experiment",
+      "source_passage": "More importantly for us, this is one of those backyard fixes that came directly out of getting something wrong, then trying again. I do not know yet if these will solve the problem completely, but they are practical, low-tech, and worth testing. We will find out by living with them."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "meeting-chippy",
+      "source_passage": "So we named him Chippy."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "city-beds-dried-up",
+      "source_passage": "Back in the city, we had neglected the raised garden beds. By then, a lot of the vegetables and plants had either bolted, dried up, or simply died because we were not there enough to water them. At the time, that was just another frustration. Looking back from now, it is kind of funny knowing that one day we would end up trying ollas to deal with exactly that problem."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "city-beds-again",
+      "source_passage": "Back in Bay City, we had also managed to kill our raised-bed gardens again. At some point, we were going to have to stop pretending that hand-watering and good intentions were enough. We needed a real watering system there too."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "first-garden-row",
+      "source_passage": "Just one row for now."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "harriet-becomes-harry",
+      "source_passage": "So Harriet became Harry the hummingbird."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "chippy-snack-service",
+      "source_passage": "And when Chippy and the gang ran out of treats, they would send him racing up to us on the deck to let us know the food situation had become unacceptable."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "herbs-near-cabin",
+      "source_passage": "The plan was to use that space for perennial herbs and plants, which felt like a smart move. After all, who does not like fresh herbs in their food?"
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "grapes-harvest-lost",
+      "source_passage": "But I’ll be damned if we did not lose every single grape."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "sip-and-build",
+      "source_passage": "We ended up hosting her work party here, and everyone got to build and decorate a birdhouse. We called it her Christmas Sip & Build."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "trying-ollas",
+      "source_passage": "Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "chippy-spring-return",
+      "source_passage": "And of course, Chippy made his return and greeted us like he had been waiting all winter for the snack service to come back online. We all knew what he wanted."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "fruit-tree-day",
+      "source_passage": "So we picked up two jujube trees and one tree labeled Fruit Cocktail."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "berry-trellises-installed",
+      "source_passage": "A week earlier, I had built a couple of trellises for the raspberries and blackberries. Now it was finally time to get them installed and start training those plants to climb toward the sky."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "harry-returns",
+      "source_passage": "Yup. Harry was back."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "woodpecker-joins",
+      "source_passage": "Apparently some woodpeckers have a serious sweet tooth too."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "building-the-deck",
+      "source_passage": "Let’s Build That Deck, BABY!"
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "enjoying-the-deck",
+      "source_passage": "Let’s Slow Down and Enjoy What We Built"
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "deck-party-lights",
+      "source_passage": "Party lights."
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "the-beginning",
+      "source_passage": "The place we hoped might help us breathe again"
+    },
+    {
+      "route": "/pages/what-we-re-up-to-around-the-yard-and-cabin",
+      "anchor": "shed-becomes-nemesis",
+      "source_passage": "This shed was becoming my nemesis."
+    },
+    {
+      "route": "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+      "anchor": "the-second-trellis",
+      "source_passage": "So I built another one too"
+    },
+    {
+      "route": "/pages/how-we-built-this-rustic-backyard-bee-hotel",
+      "anchor": "bee-placement",
+      "source_passage": "A few good placement and maintenance notes"
+    },
+    {
+      "route": "/blog/how-to-attract-hummingbirds-to-your-backyard",
+      "anchor": "clean-hummingbird-feeders",
+      "source_passage": "Keep feeders clean"
+    },
+    {
+      "route": "/pages/best-herbs-to-dry-if-you-want-the-most-value-from-a-small-space",
+      "anchor": "drying-methods",
+      "source_passage": "Drying methods that actually make sense"
+    },
+    {
+      "route": "/pages/how-to-grow-basil-everything-you-need-to-know-from-seedling-to-final-harvest",
+      "anchor": "clip-basil",
+      "source_passage": "The most important basil lesson"
+    },
+    {
+      "route": "/pages/how-to-grow-oregano-everything-you-need-to-know-from-one-plant-to-a-shelf-full-of-jars",
+      "anchor": "drying-oregano",
+      "source_passage": "How to dry oregano"
+    },
+    {
+      "route": "/pages/what-do-i-do-with-all-these-extra-herbs",
+      "anchor": "save-extra-herbs",
+      "source_passage": "Save them for later"
+    },
+    {
+      "route": "/pages/what-to-grow-in-a-4x8-garden-bed-if-you-really-only-want-to-grow-salads",
+      "anchor": "plant-cut-replant",
+      "source_passage": "Plant, cut, eat, replant, and keep it going"
+    }
+  ],
+  "cabin_doors": [
+    [
+      "meeting-chippy",
+      "/stories/the-chipmunks",
+      "Wonder what became of the little visitors?",
+      "Follow the chipmunks into the playground, the shared hangout, and the next cabin season."
+    ],
+    [
+      "city-beds-dried-up",
+      "/pages/diy-olla-watering-system",
+      "That missed-water problem led somewhere.",
+      "Read the olla experiment we tried for the city beds."
+    ],
+    [
+      "harriet-becomes-harry",
+      "/blog/how-to-attract-hummingbirds-to-your-backyard",
+      "Meanwhile, at your own feeder…",
+      "The hummingbird guide is the practical companion to Harry’s story."
+    ],
+    [
+      "sip-and-build",
+      "/pages/cedar-fence-picket-birdhouse-workshop",
+      "Want to see the little workshop build?",
+      "The cedar-picket birdhouse page shows the project in real workshop photos."
+    ],
+    [
+      "fruit-tree-day",
+      "/pages/jujube-trees-at-the-cabin",
+      "Take a closer look at the jujubes.",
+      "The planting journal has the muddy photos and the curiosity behind those new trees."
+    ],
+    [
+      "berry-trellises-installed",
+      "/pages/we-turned-1-cedar-fence-picket-into-two-little-berry-trellises",
+      "Before these went into the ground…",
+      "Follow the fan-trellis idea from one cedar picket to a second support for blackberries."
+    ],
+    [
+      "grapes-harvest-lost",
+      "/pages/gallery#grape-vines-before-loss",
+      "See the vines before the wildlife harvest.",
+      "The photo journal keeps the hopeful part of that season, too."
+    ]
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "journey-ch08",
+  "route": "/our-journey/chapters/chapter-08",
+  "output": "our-journey/chapters/chapter-08.html",
+  "title": "We just got it built and now we have to take it apart? | Quiet Backyard Living",
+  "storyTitle": "We just got it built and now we have to take it apart?",
+  "kind": "chapter",
+  "status": "published",
+  "description": "We just got it built and now we have to take it apart?",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/chapter"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "publicationProvenance": "Existing recovered authored chapter; no new production publication performed",
+  "chapterNumber": 8,
+  "chapterOrder": 8,
+  "seriesId": "happy-place",
+  "dateLabel": "Fall 2023",
+  "dateEvidence": "Fall 2023 — sequence-derived",
+  "firstPublishedAt": null,
+  "placeIds": [
+    "home",
+    "gladwin-cabin"
+  ],
+  "sourceReference": {
+    "file": "reference/journey-authored-original.html",
+    "chapter": 8,
+    "articleSha256": "943a904db478fa6b2bdfdd2601b2907035c2633b242051db0f5e7762a0c486e1",
+    "legacyUrl": "/pages/what-we-re-up-to-around-the-yard-and-cabin#section-10"
+  },
+  "storyBlocks": [
+    {
+      "sourceBlockId": "ch08-b001",
+      "sourceHtmlSha256": "0cbbbf85d937830fc452b468a4cc89d322ed15c0545edc10e73ede9d19ae3df4",
+      "sourceHtml": "<figure class=\"story-inline-photo left\">\n            <img src=\"/assets/images/gallery/chapter8-bonfire.jpg\" alt=\"Vanessa by a fall bonfire at the cabin near the fire ring and swing\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter8-bonfire.jpg",
+          "alt": "Vanessa by a fall bonfire at the cabin near the fire ring and swing"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo left"
+      },
+      "captionText": [],
+      "previousSourceBlockId": null,
+      "nextSourceBlockId": "ch08-b002",
+      "image": {
+        "mediaId": "journey-a16e9bd26aad",
+        "alt": "Vanessa by a fall bonfire at the cabin near the fire ring and swing",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch08-b004",
+      "sourceHtmlSha256": "942d17a14bec117603a650277b63fabf83107959dcc5924a7f64b516e5fd5f5a",
+      "sourceHtml": "<p>Did I mention this was not a year-round heated house?</p>",
+      "text": "Did I mention this was not a year-round heated house?",
+      "type": "paragraph",
+      "html": "<p>Did I mention this was not a year-round heated house?</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b005",
+      "sourceHtmlSha256": "6ab2b9e6b527b4f5947bfc106b8117d99e5b3a97e73faa1a463b566b4f6e38fd",
+      "sourceHtml": "<p>Yeah, we had just built an entire pressurized water system, and now we were staring down the reality that parts of it could not stay that way through a Michigan winter.</p>",
+      "text": "Yeah, we had just built an entire pressurized water system, and now we were staring down the reality that parts of it could not stay that way through a Michigan winter.",
+      "type": "paragraph",
+      "html": "<p>Yeah, we had just built an entire pressurized water system, and now we were staring down the reality that parts of it could not stay that way through a Michigan winter.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b006",
+      "sourceHtmlSha256": "295d27009704ceedb80e4618e1d9c3579d25502966bd3df928c6ddd70ce2e97f",
+      "sourceHtml": "<p>At least not yet.</p>",
+      "text": "At least not yet.",
+      "type": "paragraph",
+      "html": "<p>At least not yet.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b007",
+      "sourceHtmlSha256": "aea6ae09bc9790b5bb191048379b78791c49ef269ba8a486ddf6af868c70065d",
+      "sourceHtml": "<p>Some parts of the dream had finally come together, but now we were learning the other side of seasonal cabin life. If you want your systems to survive, you have to think ahead. And sometimes that means taking apart the very thing you were so excited to finally get working.</p>",
+      "text": "Some parts of the dream had finally come together, but now we were learning the other side of seasonal cabin life. If you want your systems to survive, you have to think ahead. And sometimes that means taking apart the very thing you were so excited to finally get working.",
+      "type": "paragraph",
+      "html": "<p>Some parts of the dream had finally come together, but now we were learning the other side of seasonal cabin life. If you want your systems to survive, you have to think ahead. And sometimes that means taking apart the very thing you were so excited to finally get working.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b008",
+      "sourceHtmlSha256": "52830416ee5330d8cfd9acf57d0cd62357d53a7fe55d0fcd39ca100fa99da434",
+      "sourceHtml": "<p>We would get back to that in a minute.</p>",
+      "text": "We would get back to that in a minute.",
+      "type": "paragraph",
+      "html": "<p>We would get back to that in a minute.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b009",
+      "sourceHtmlSha256": "71c09455d44a97985e01addc9d870a6d1716f348b17a322ad66d2dd5a24ab011",
+      "sourceHtml": "<p>Because first, we needed a little old-fashioned R &amp; R.</p>",
+      "text": "Because first, we needed a little old-fashioned R & R.",
+      "type": "paragraph",
+      "html": "<p>Because first, we needed a little old-fashioned R &amp; R.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b010",
+      "sourceHtmlSha256": "45d755c21cfbdf539dfc8ccaaaeab233914f6468c690600f8ff646c756902f5b",
+      "sourceHtml": "<p>Back in the city, we had neglected the raised garden beds. By then, a lot of the vegetables and plants had either bolted, dried up, or simply died because we were not there enough to water them. At the time, that was just another frustration. Looking back from now, it is kind of funny knowing that one day we would end up trying ollas to deal with exactly that problem.</p>",
+      "text": "Back in the city, we had neglected the raised garden beds. By then, a lot of the vegetables and plants had either bolted, dried up, or simply died because we were not there enough to water them. At the time, that was just another frustration. Looking back from now, it is kind of funny knowing that one day we would end up trying ollas to deal with exactly that problem.",
+      "type": "paragraph",
+      "html": "<p>Back in the city, we had neglected the raised garden beds. By then, a lot of the vegetables and plants had either bolted, dried up, or simply died because we were not there enough to water them. At the time, that was just another frustration. Looking back from now, it is kind of funny knowing that one day we would end up trying ollas to deal with exactly that problem.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b011",
+      "sourceHtmlSha256": "5dd2ebe027961c038385736f07ca429addf9a7b56ec0f6407cbb4e9a03b9eecd",
+      "sourceHtml": "<p>But at the time, it was just one more reminder that life was pulling us in two directions.</p>",
+      "text": "But at the time, it was just one more reminder that life was pulling us in two directions.",
+      "type": "paragraph",
+      "html": "<p>But at the time, it was just one more reminder that life was pulling us in two directions.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b012",
+      "sourceHtmlSha256": "f80028526ad7a9ead98171606928002b2479da062f9dd2dcb32c91f8c96ed681",
+      "sourceHtml": "<p>Because while all of this cabin dreaming and building was happening, real life back in the city was still very much real. I had my axe-throwing business to keep running, and Vanessa had her nursing job. Those things needed attention too. Sometimes it felt like we were living two different lives at once, the work life in the city, and the rough but peaceful life we were slowly building at the cabin.</p>",
+      "text": "Because while all of this cabin dreaming and building was happening, real life back in the city was still very much real. I had my axe-throwing business to keep running, and Vanessa had her nursing job. Those things needed attention too. Sometimes it felt like we were living two different lives at once, the work life in the city, and the rough but peaceful life we were slowly building at the cabin.",
+      "type": "paragraph",
+      "html": "<p>Because while all of this cabin dreaming and building was happening, real life back in the city was still very much real. I had my axe-throwing business to keep running, and Vanessa had her nursing job. Those things needed attention too. Sometimes it felt like we were living two different lives at once, the work life in the city, and the rough but peaceful life we were slowly building at the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b013",
+      "sourceHtmlSha256": "5966f677e80dd33575e3fffe7ffae203df3eb503aa6c4c8523bdd0ec36af19bb",
+      "sourceHtml": "<p>Work hard. Play hard. Try to relax at the cabin.</p>",
+      "text": "Work hard. Play hard. Try to relax at the cabin.",
+      "type": "paragraph",
+      "html": "<p>Work hard. Play hard. Try to relax at the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b014",
+      "sourceHtmlSha256": "1d55153c444a0958735a46f2b7e08225dc8bd4b09d9cd6188272e451e31441d8",
+      "sourceHtml": "<p>Or at least, not fully relax yet, because there was still plenty to do before this place really became easy.</p>",
+      "text": "Or at least, not fully relax yet, because there was still plenty to do before this place really became easy.",
+      "type": "paragraph",
+      "html": "<p>Or at least, not fully relax yet, because there was still plenty to do before this place really became easy.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b015",
+      "sourceHtmlSha256": "df81bbdce8cec48777adeebbfbea64028322fe5dbd9fc3fc721e593c793c6e92",
+      "sourceHtml": "<p>As the season started winding down, it was time to slow down a little with some fall bonfires and start dreaming up what we wanted to save up for next year.</p>",
+      "text": "As the season started winding down, it was time to slow down a little with some fall bonfires and start dreaming up what we wanted to save up for next year.",
+      "type": "paragraph",
+      "html": "<p>As the season started winding down, it was time to slow down a little with some fall bonfires and start dreaming up what we wanted to save up for next year.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b016",
+      "sourceHtmlSha256": "2c70d075011f70ba72cf3a5196a8dc080b68a1e4b4961cffdf8ba5e550e73f63",
+      "sourceHtml": "<figure class=\"story-inline-photo\">\n            <img src=\"/assets/images/gallery/chapter8-concrete-pad.jpg\" alt=\"Concrete pad on the property where the awkward weird structure might be moved someday\">\n          </figure>",
+      "text": "",
+      "type": "figure",
+      "originalImages": [
+        {
+          "src": "/assets/images/gallery/chapter8-concrete-pad.jpg",
+          "alt": "Concrete pad on the property where the awkward weird structure might be moved someday"
+        }
+      ],
+      "sourceAttributes": {
+        "class": "story-inline-photo"
+      },
+      "captionText": [],
+      "previousSourceBlockId": "ch08-b015",
+      "nextSourceBlockId": "ch08-b017",
+      "image": {
+        "mediaId": "journey-407852dff334",
+        "alt": "Concrete pad on the property where the awkward weird structure might be moved someday",
+        "loading": "lazy",
+        "decoding": "async",
+        "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+      },
+      "reviewStatus": "existing-safe-derivative"
+    },
+    {
+      "sourceBlockId": "ch08-b017",
+      "sourceHtmlSha256": "11843bac3ff66e1a4dfb1993dfc4a6c8f75b7e9ed08206e3ad795c4f62cb4164",
+      "sourceHtml": "<p>By then, we already knew a few things we wanted to change. We really wanted to move that awkward weird structure onto the concrete pad we already had on the property. It just made more sense there, and maybe next year we could find somebody who could actually move it.</p>",
+      "text": "By then, we already knew a few things we wanted to change. We really wanted to move that awkward weird structure onto the concrete pad we already had on the property. It just made more sense there, and maybe next year we could find somebody who could actually move it.",
+      "type": "paragraph",
+      "html": "<p>By then, we already knew a few things we wanted to change. We really wanted to move that awkward weird structure onto the concrete pad we already had on the property. It just made more sense there, and maybe next year we could find somebody who could actually move it.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b018",
+      "sourceHtmlSha256": "9ad088e8cf919278c364e4d0d077e76e3781fbe13632d78c97d8688ca2f0084e",
+      "sourceHtml": "<p>We were also realizing that if we wanted to stretch the cabin season longer, we needed to protect that exposed water tank better. It was sitting out there taking the full hit from the weather, and it was obvious that enclosing it would be one of the more useful projects for the future.</p>",
+      "text": "We were also realizing that if we wanted to stretch the cabin season longer, we needed to protect that exposed water tank better. It was sitting out there taking the full hit from the weather, and it was obvious that enclosing it would be one of the more useful projects for the future.",
+      "type": "paragraph",
+      "html": "<p>We were also realizing that if we wanted to stretch the cabin season longer, we needed to protect that exposed water tank better. It was sitting out there taking the full hit from the weather, and it was obvious that enclosing it would be one of the more useful projects for the future.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b019",
+      "sourceHtmlSha256": "628721837bc07f17908e8509817139c1a50266e28bf746ef75e8cc186d5f5cde",
+      "sourceHtml": "<p>Those were the kinds of things we were dreaming about now, not just pretty projects, but practical ones that would make the place work better and help us stay longer.</p>",
+      "text": "Those were the kinds of things we were dreaming about now, not just pretty projects, but practical ones that would make the place work better and help us stay longer.",
+      "type": "paragraph",
+      "html": "<p>Those were the kinds of things we were dreaming about now, not just pretty projects, but practical ones that would make the place work better and help us stay longer.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b020",
+      "sourceHtmlSha256": "c493d04b7e885a24b8335de3eff5f7b2df5f395dc0b98b93c886a820d314c2e1",
+      "sourceHtml": "<p>Meanwhile, the local entertainment was in full swing.</p>",
+      "text": "Meanwhile, the local entertainment was in full swing.",
+      "type": "paragraph",
+      "html": "<p>Meanwhile, the local entertainment was in full swing.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b021",
+      "sourceHtmlSha256": "62df169e7c4d4ebc81fb842169fa1ee16034b563f641bb277db0fb477a9ed465",
+      "sourceHtml": "<p>The chipmunks and squirrels were busy storing treats from Jeff and Vanessa in all their little underground bunkers, those small holes and hidden spots they had all over the property. They knew winter was coming, and they were really keeping us on a pretty steady treat-feeding schedule. They were so funny, and honestly, we could not resist them.</p>",
+      "text": "The chipmunks and squirrels were busy storing treats from Jeff and Vanessa in all their little underground bunkers, those small holes and hidden spots they had all over the property. They knew winter was coming, and they were really keeping us on a pretty steady treat-feeding schedule. They were so funny, and honestly, we could not resist them.",
+      "type": "paragraph",
+      "html": "<p>The chipmunks and squirrels were busy storing treats from Jeff and Vanessa in all their little underground bunkers, those small holes and hidden spots they had all over the property. They knew winter was coming, and they were really keeping us on a pretty steady treat-feeding schedule. They were so funny, and honestly, we could not resist them.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b022",
+      "sourceHtmlSha256": "1c6b37bc0334e5b1a7d61222589ae63959868ed6834d4cdc918a649ef747a3aa",
+      "sourceHtml": "<p>There is something special about paying attention to wildlife in the fall.</p>",
+      "text": "There is something special about paying attention to wildlife in the fall.",
+      "type": "paragraph",
+      "html": "<p>There is something special about paying attention to wildlife in the fall.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b023",
+      "sourceHtmlSha256": "ba31aafe2f376d287fd6e4a9376ea950a89c42c7ab42534a990712288f2630ba",
+      "sourceHtml": "<p>Everything is busy. Everything is preparing. Everything knows the season is changing.</p>",
+      "text": "Everything is busy. Everything is preparing. Everything knows the season is changing.",
+      "type": "paragraph",
+      "html": "<p>Everything is busy. Everything is preparing. Everything knows the season is changing.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b024",
+      "sourceHtmlSha256": "6e5a2c92da2e6ab563e46c95e9c2d543c5df4c42ca1dd48d67083942f5c2bddd",
+      "sourceHtml": "<p>And in our own way, so were we.</p>",
+      "text": "And in our own way, so were we.",
+      "type": "paragraph",
+      "html": "<p>And in our own way, so were we.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b025",
+      "sourceHtmlSha256": "cc6a988ee4ea36b5b4c5f14109ff0981c72ff93ca97239302d700ffe9948454c",
+      "sourceHtml": "<p>Because after the bonfires and the dreaming came the hard reality.</p>",
+      "text": "Because after the bonfires and the dreaming came the hard reality.",
+      "type": "paragraph",
+      "html": "<p>Because after the bonfires and the dreaming came the hard reality.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b026",
+      "sourceHtmlSha256": "3eda80acc93bd6696a023e697c1a4ec29e2d5aef97747cc8590cb3b7e9f8a3ad",
+      "sourceHtml": "<p>We had work to do. We had to make money for next year’s dreams. And we had to winterize the cabin.</p>",
+      "text": "We had work to do. We had to make money for next year’s dreams. And we had to winterize the cabin.",
+      "type": "paragraph",
+      "html": "<p>We had work to do. We had to make money for next year’s dreams. And we had to winterize the cabin.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b027",
+      "sourceHtmlSha256": "13a7cee3f3ec55eb79b0750b57ff22a544d75e24967fa4732d87a2cb0d037cfe",
+      "sourceHtml": "<p>That meant disassembling the pump system and blowing out the water lines, treating the place more like an RV camper than a finished house. We packed up food, liquids, and anything that might freeze or attract critters inside over the winter.</p>",
+      "text": "That meant disassembling the pump system and blowing out the water lines, treating the place more like an RV camper than a finished house. We packed up food, liquids, and anything that might freeze or attract critters inside over the winter.",
+      "type": "paragraph",
+      "html": "<p>That meant disassembling the pump system and blowing out the water lines, treating the place more like an RV camper than a finished house. We packed up food, liquids, and anything that might freeze or attract critters inside over the winter.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b028",
+      "sourceHtmlSha256": "007aa26cea3fe0a4140163af37d27b606d8c719120237652a4230fffa1c2c3ce",
+      "sourceHtml": "<p>And as we did all of that, there was that familiar sadness settling in too.</p>",
+      "text": "And as we did all of that, there was that familiar sadness settling in too.",
+      "type": "paragraph",
+      "html": "<p>And as we did all of that, there was that familiar sadness settling in too.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b029",
+      "sourceHtmlSha256": "8487a033b6bb8f04f9e4fc5cce96553f4eba49b1df824498ee161ea09b308d3f",
+      "sourceHtml": "<p>The season was over.</p>",
+      "text": "The season was over.",
+      "type": "paragraph",
+      "html": "<p>The season was over.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b030",
+      "sourceHtmlSha256": "ab3421eaaa4228d3ee0982dfad9d4077ce2f26894fd6b970af8478d4f660f63e",
+      "sourceHtml": "<p>We had to leave. We had to wait. And we would not be back until spring.</p>",
+      "text": "We had to leave. We had to wait. And we would not be back until spring.",
+      "type": "paragraph",
+      "html": "<p>We had to leave. We had to wait. And we would not be back until spring.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b031",
+      "sourceHtmlSha256": "75cac3b51b021bb775c7f5395952af79a01da0a30c491fda4030029c135dc475",
+      "sourceHtml": "<p>But this time, we were leaving with bigger plans.</p>",
+      "text": "But this time, we were leaving with bigger plans.",
+      "type": "paragraph",
+      "html": "<p>But this time, we were leaving with bigger plans.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b032",
+      "sourceHtmlSha256": "4fddd6402028fd37e504fe2cb0c103c273427c55facdb312cfa031df478be340",
+      "sourceHtml": "<p>Because by now, we knew exactly what would make showers even better.</p>",
+      "text": "Because by now, we knew exactly what would make showers even better.",
+      "type": "paragraph",
+      "html": "<p>Because by now, we knew exactly what would make showers even better.</p>"
+    },
+    {
+      "sourceBlockId": "ch08-b033",
+      "sourceHtmlSha256": "2c4f99ec53343155c98c3f76b02e2916ce044f6614b6912e645ac07007f40193",
+      "sourceHtml": "<p><strong>Hot water, baby.</strong></p>",
+      "text": "Hot water, baby.",
+      "type": "paragraph",
+      "html": "<p><strong>Hot water, baby.</strong></p>"
+    },
+    {
+      "sourceBlockId": "ch08-b034",
+      "sourceHtmlSha256": "eb91a0bd8c97b3292d7810114ddb8ca076303f26f0bd0885960411b6071feda6",
+      "sourceHtml": "<p>See you next year.</p>",
+      "text": "See you next year.",
+      "type": "paragraph",
+      "html": "<p>See you next year.</p>"
+    }
+  ],
+  "continuations": [
+    {
+      "contentId": "journey-ch12",
+      "label": "The city beds gave us another lesson.",
+      "context": "The problem kept coming back"
+    },
+    {
+      "contentId": "journey-ch25",
+      "label": "Then we tried another way.",
+      "context": "A later attempt"
+    }
+  ],
+  "relatedGuides": [],
+  "coverMedia": {
+    "mediaId": "journey-a16e9bd26aad",
+    "alt": "Vanessa by a fall bonfire at the cabin near the fire ring and swing",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "teaser": "Did I mention this was not a year-round heated house? Yeah, we had just built an entire pressurized water system, and now we were staring down the reality that parts of it could not stay…",
+  "originalLayout": true,
+  "originalChapterLabel": "Chapter Eight",
+  "originalHeadingAfterBlocks": 1
+}

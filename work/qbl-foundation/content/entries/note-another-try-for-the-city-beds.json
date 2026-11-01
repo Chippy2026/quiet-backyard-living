@@ -1,0 +1,49 @@
+{
+  "id": "note-another-try-for-the-city-beds",
+  "route": "/notebook/another-try-for-the-city-beds",
+  "output": "notebook/another-try-for-the-city-beds.html",
+  "title": "Another try for the beds back home. | Quiet Backyard Living",
+  "storyTitle": "Another try for the beds back home.",
+  "kind": "notebook",
+  "status": "review",
+  "description": "The cabin was waking up. Back in the city, we had another garden problem to work on.",
+  "bodyClass": "hp-edition co-edition hy-edition qj-page",
+  "styles": [
+    "/assets/magazine.css",
+    "/assets/happy-place.css",
+    "/assets/balanced-edition.css",
+    "/assets/hybrid-polish.css",
+    "/assets/consolidated.css",
+    "/assets/qbl/journey-book.css"
+  ],
+  "scripts": [],
+  "mainAttrs": {
+    "class": "qj-main"
+  },
+  "wrapperAttrs": {
+    "class": "qj-wrap"
+  },
+  "blocks": [
+    {
+      "component": "journey-book/notebook-entry"
+    }
+  ],
+  "videoIds": [],
+  "factualReview": "retain-existing-queue",
+  "noteLabel": "An experiment · April 2026",
+  "noteHtml": "<p>Back in the city, we caught a nice day and started refreshing our raised garden beds. We were determined not to kill everything we planted this year, so I did a little research and found ollas.</p>\n<p>Let’s build some and see if we can actually keep our city vegetables alive this time.</p>",
+  "coverMedia": {
+    "mediaId": "media-city-beds-refresh-2026",
+    "alt": "Another try for the beds back home.",
+    "loading": "lazy",
+    "decoding": "async",
+    "sizes": "(max-width: 700px) calc(100vw - 36px), 850px"
+  },
+  "caption": "From the cabin journal · Chapter Twenty-Five",
+  "parentId": "journey-ch25",
+  "noteSlug": "another-try-for-the-city-beds",
+  "sourceReference": {
+    "chapter": 25,
+    "kind": "Existing attributed chapter excerpt"
+  }
+}

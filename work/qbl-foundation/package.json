@@ -1,0 +1,23 @@
+{
+  "name": "qbl-local-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "QBL foundation and representative routes; local review only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "node scripts/check.cjs",
+    "test": "node scripts/prepare-release.cjs --production && node --test tests/*.test.cjs",
+    "dev": "node scripts/preview.cjs",
+    "preview": "node scripts/preview.cjs",
+    "build:release-candidate": "npm run build && node scripts/prepare-release.cjs --production",
+    "check:release": "node scripts/release-gate.cjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.7",
+    "pagefind": "1.5.2",
+    "markdown-it": "14.1.0"
+  }
+}
